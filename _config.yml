@@ -1,0 +1,21 @@
+source: src
+destination: public
+
+# Site settings
+name: willnorris.com
+description: "there's more to life than this"
+baseurl: ""
+url: "https://willnorris.com"
+
+# Build settings
+sass:
+  sass_dir: css
+  style: :compressed
+
+permalink: /:year/:month/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_id_stripping: true
+  enable_coderay: false
+  hard_wrap: false

@@ -1,0 +1,31 @@
+.site-header {
+  background-color: $night-rider;
+  border-bottom: 1px solid $gainsboro;
+  padding: 1rem 0;
+  overflow: auto;
+}
+
+.title-area {
+  float: left;
+}
+
+.site-title {
+  font-size: 1.125rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+}
+
+.site-title, .site-title a {
+  color: $white-smoke;
+  border: 0;
+}
+
+.site-description {
+  color: $nobel;
+  font-size: .875rem;
+  font-weight: 300;
+  line-height: 1;
+  margin: 0.8em 0 0 0;
+}
+

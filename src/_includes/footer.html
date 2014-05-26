@@ -1,23 +1,21 @@
-<footer class="site-footer">
+  <footer class="site-footer">
 
-  <div class="wrap">
+    <div class="wrap">
+      <div class="footer-col-1 column">
+        <p><a href="{{ "/feed.xml" | prepend: site.baseurl }}" onclick="(function(){var z=document.createElement('script');z.src='https://www.subtome.com/load.js';document.body.appendChild(z);})(); return false;">Subscribe to updates</a></p>
+      </div>
 
-    <h2 class="footer-heading">{{ site.name }}</h2>
-
-    <div class="footer-col-1 column">
-      <ul>
-        <li>{{ site.title }}</li>
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      </ul>
+      <div class="footer-col-2 column">
+        <form method="get" class="search-form" action="http://willnorris.dev/" role="search">
+          <input type="search" name="s" placeholder="Search this website...">
+          <input type="submit" value="Search">
+        </form>
+      </div>
     </div>
 
-    <div class="footer-col-2 column">
+    <div class="copyright">
+      <div class="wrap">
+        <p>&copy; 2002-2014 Will Norris</p>
+      </div>
     </div>
-
-    <div class="footer-col-3 column">
-      <p class="text">{{ site.description }}</p>
-    </div>
-
-  </div>
-
-</footer>
+  </footer>

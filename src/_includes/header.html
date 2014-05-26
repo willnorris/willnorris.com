@@ -1,14 +1,17 @@
-<header class="site-header">
-  <div class="wrap">
-    <a class="site-title" href="{{ site.baseurl }}">{{ site.name }}</a>
-    <nav class="site-nav">
-      <menu>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="title-area">
+        <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+        <h2 class="site-description">{{ site.description }}</h2>
+      </div>
+      <nav class="site-nav">
+        <menu>
         {% for page in site.pages %}
           <li>
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           </li>
         {% endfor %}
-      </menu>
-    </nav>
-  </div>
-</header>
+        </menu>
+      </nav>
+    </div>
+  </header>

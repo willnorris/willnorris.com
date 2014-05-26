@@ -1,3 +1,17 @@
 ---
 ---
+// colors (http://www.color-blindness.com/color-name-hue/)
+$flamingo: #e15144;
+$night-rider: #333;
+$nobel: #999;
+$gainsboro: #ddd;
+$white-smoke: #f5f5f5;
+$white: #fff;
+
 @import "normalize";
+
+@import "default";
+@import "structure";
+@import "header";
+@import "navigation";
+@import "footer";

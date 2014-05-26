@@ -1,0 +1,31 @@
+@media only screen and (min-width: 800px) {
+  .site-title {
+    display: inline-block;
+  }
+
+  .site-title:after {
+    content: '|';
+    padding: 0 5px;
+  }
+
+  .site-description {
+    display: inline-block;
+    font-size: 1.125rem;
+    margin: 0;
+  }
+
+  .site-nav a {
+    line-height: 2rem;
+  }
+
+  .site-footer {
+    .column {
+      float: left;
+      width: calc(50% - 1em);
+    }
+
+    .footer-col-2 {
+      text-align: right;
+    }
+  }
+}

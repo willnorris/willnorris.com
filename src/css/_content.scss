@@ -1,0 +1,33 @@
+article.page, article.post {
+  margin-bottom: 3em;
+}
+
+img.centered,
+.aligncenter {
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+img.alignnone {
+  margin-bottom: 0.75rem;
+}
+
+.alignleft {
+  float: left;
+  text-align: left;
+}
+
+.alignright {
+  float: right;
+  text-align: right;
+}
+
+img.alignleft,
+.caption.alignleft {
+  margin: 0 1.5rem 1.5rem 0;
+}
+
+img.alignright,
+.caption.alignright {
+  margin: 0 0 1.5rem 1.5rem;
+}

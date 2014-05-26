@@ -179,6 +179,26 @@ code, kbd, pre, samp {
 }
 
 pre {
-  font-size: 1rem;
+  background: $white-smoke;
+  border: solid 1px $gainsboro;
+  border-radius: 3px;
+  color: #000;
+  hyphens: none;
+  line-height: 1.2;
   overflow: auto;
+  padding: 0.5em 0.75em;
+  tab-size: 2;
 }
+
+code {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1rem;
+}
+
+:not(pre) > code {
+  background: $white-smoke;
+  color: #000;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+

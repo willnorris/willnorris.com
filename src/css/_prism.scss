@@ -1,0 +1,52 @@
+/* http://prismjs.com/download.html?themes=prism&languages=markup+css+css-extras+clike+javascript+java+php+php-extras+scss+bash+python+http+go */
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+.token {
+  &.comment, &.prolog, &.doctype, &.cdata {
+    color: slategray;
+  }
+
+  &.punctuation {
+    color: #999;
+  }
+
+  &.property, &.tag, &.boolean, &.number, &.constant, &.symbol {
+    color: #905;
+  }
+
+  &.selector, &.attr-name, &.string, &.builtin {
+    color: #690;
+  }
+
+  &.operator, &.entity, &.url, &.variable {
+    color: #a67f59;
+  }
+
+  &.atrule, &.attr-value, &.keyword {
+    color: #07a;
+  }
+
+  &.regex, &.important {
+    color: #e90;
+  }
+
+  &.important {
+    font-weight: bold;
+  }
+
+  &.entity {
+    cursor: help;
+  }
+}
+
+.language-css .token.string, .style .token.string {
+  color: #a67f59;
+}
+
+.namespace {
+  opacity: .7;
+}

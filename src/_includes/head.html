@@ -6,4 +6,7 @@
   <meta name="description" content="{{ site.description }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  {% if paginator.previous_page %}
+  <meta name="robots" content="noindex,follow">
+  {% endif %}
 </head>

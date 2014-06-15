@@ -1,3 +1,71 @@
+.profile-card {
+  background: $white-smoke;
+  border-bottom: 1px solid $gainsboro;
+  padding: 1em 0;
+
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    a {
+      color: $dim-gray;
+      border: 0;
+    }
+  }
+
+  .photo {
+    float: left;
+    margin-right: 1em
+  }
+
+  p {
+    margin: 0.3em 0 0.4em 0;
+  }
+
+  .menu-social-container > .menu li {
+    a::before {
+      font-size: 1.75rem;
+    }
+  }
+}
+
+menu.social {
+  font-family: 'wjn2014';
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    a {
+      border-bottom-width: 0;
+      color: transparent;
+      font-size: 1px;
+      letter-spacing: -1px;
+
+      &::before {
+        color: $dim-gray;
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+
+      }
+      &:hover::before {
+        color: $flamingo;
+      }
+
+      &[href*="plus.google.com"]::before { content: '\f206'; }
+      &[href*="github.com"]::before      { content: '\f200'; }
+      &[href*="twitter.com"]::before     { content: '\f202'; }
+      &[href*="app.net"]::before         { content: '\e801'; }
+    }
+  }
+}
+
 article.page, article.post {
   margin-bottom: 3em;
 }

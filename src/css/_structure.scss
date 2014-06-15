@@ -1,6 +1,7 @@
 /* --- Site Containers --- */
 
 .wrap {
+  clear: both;
   margin: 0 auto;
   max-width: 960px;
   padding-left: 5%;
@@ -9,5 +10,5 @@
 
 main {
   clear: both;
-  padding-top: 4rem;
+  margin: 4rem 0;
 }

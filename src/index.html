@@ -1,27 +1,44 @@
 ---
-layout: default
 ---
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+{% include head.html %}
 
-  <h1>Posts</h1>
+<body>
 
-  <ul class="posts">
-    {% for post in paginator.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+{% include header.html %}
 
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% endif %}
+{% include profile-card.html %}
+
+  <div class="wrap">
+    <main>
+      <div class="home">
+
+        <ul class="posts">
+          {% for post in paginator.posts %}
+            <li>
+              <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+          {% endif %}
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+          {% endif %}
+        </div>
+
+      </div>
+    </main>
   </div>
 
-</div>
+{% include footer.html %}
+
+  <script src="/js/prism.js"></script>
+</body>
+</html>

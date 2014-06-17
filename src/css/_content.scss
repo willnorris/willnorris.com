@@ -99,3 +99,29 @@ img.alignright,
 .caption.alignright {
   margin: 0 0 1.5rem 1.5rem;
 }
+
+main {
+  ul, ol {
+    margin: 0 0 1.5em 2em;
+  }
+}
+
+.home {
+  h2 {
+    font-size: inherit;
+  }
+  .more {
+    font-size: 80%;
+  }
+}
+
+.posts {
+  list-style: none;
+  margin: 0 0 0.5em 0;
+
+  time {
+    color: $dim-gray;
+    font-size: 80%;
+    margin-left: 0.5em;
+  }
+}

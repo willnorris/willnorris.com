@@ -2,43 +2,27 @@
 ---
 <!DOCTYPE html>
 <html>
-
 {% include head.html %}
-
 <body>
-
 {% include header.html %}
-
 {% include profile-card.html %}
 
   <div class="wrap">
-    <main>
-      <div class="home">
-
-        <ul class="posts">
-          {% for post in paginator.posts %}
-            <li>
-              <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-          {% endif %}
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-          {% endif %}
-        </div>
-
-      </div>
+    <main class="home">
+      <h2>Recent Posts</h2>
+      <ul class="posts">
+        {% for post in site.posts limit:10 %}
+          <li>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <time class="dt-published published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          </li>
+        {% endfor %}
+      </ul>
+      <p><a href="/archives" class="more">view all posts</a></p>
     </main>
   </div>
 
 {% include footer.html %}
-
   <script src="/js/prism.js"></script>
 </body>
 </html>

@@ -10,8 +10,6 @@ destination: public
 
 highlighter: nil
 permalink: /:year/:month/:title
-paginate: 10
-paginate_path: /page/:num
 
 sass:
   sass_dir: css

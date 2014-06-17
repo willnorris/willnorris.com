@@ -125,3 +125,10 @@ main {
     margin-left: 0.5em;
   }
 }
+
+.entry-meta {
+  color: $nobel;
+  .entry-syndication {
+    display: block;
+  }
+}

@@ -17,6 +17,14 @@ layout: default
 
   <footer class="entry-footer">
     <p class="entry-meta">
+      {% if page.syndication %}
+      <span class="entry-syndication">
+        Also view on:
+        {% for syn in page.syndication %}
+          <a rel="syndication" class="u-syndication" href="{{ syn }}">{{ syn | syndication_title }}</a>{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </span>
+      {% endif %}
     </p>
     <div class="p-author author">
     </div>

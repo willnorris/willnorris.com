@@ -118,7 +118,7 @@ textarea {
   box-shadow: 1px 1px 3px lighten($gainsboro, 5%) inset;
   color: $nobel;
   font-size: 1rem;
-  padding: 1em;
+  padding: 0.5em 1em;
 }
 
 input:focus,
@@ -138,17 +138,11 @@ input[type="submit"],
   box-shadow: none;
   color: $white;
   cursor: pointer;
-  padding: 1em 1.5em;
   width: auto;
-}
 
-button:hover,
-input:hover[type="button"],
-input:hover[type="reset"],
-input:hover[type="submit"],
-.button:hover,
-.entry-content .button:hover {
-  background-color: $flamingo;
+  &:hover {
+    background-color: $flamingo;
+  }
 }
 
 .button {

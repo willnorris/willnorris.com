@@ -14,9 +14,13 @@ tags:
 - google
 - '"social web"'
 ---
-I'm happy to announce today that I've accepted a job at Google, working on the newly formed Social Web team.  I will be joining fellow new-hires [Joseph Smarr][] and [Chris Messina][], as well as a host of other incredibly talented engineers, in contributing to the emerging standards and growing developer community in this space.
+I'm happy to announce today that I've accepted a job at Google, working on the newly formed Social Web team.  I will be
+joining fellow new-hires [Joseph Smarr][] and [Chris Messina][], as well as a host of other incredibly talented
+engineers, in contributing to the emerging standards and growing developer community in this space.
 
-Instead of the long contemplative post on how this move is the next logical step in a career of working in Identity Management, I'll keep it short.  I start work next Monday, February 1st, and I'm a bit pre-occupied this week with getting moved from Portland, Oregon down to Half Moon Bay, California.
+Instead of the long contemplative post on how this move is the next logical step in a career of working in Identity
+Management, I'll keep it short.  I start work next Monday, February 1st, and I'm a bit pre-occupied this week with
+getting moved from Portland, Oregon down to Half Moon Bay, California.
 
 I expect great things from our team in 2010, and so should you.
 

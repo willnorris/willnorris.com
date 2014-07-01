@@ -9,7 +9,8 @@ tags:
 - music
 - dance
 ---
-I was listening to Forum on the drive in this morning, and they were [interviewing][] choreographer [Alonzo King][] and bassist and composer [Edgar Meyer][].  I absolutely loved this quote from King:
+I was listening to Forum on the drive in this morning, and they were [interviewing][] choreographer [Alonzo King][] and
+bassist and composer [Edgar Meyer][].  I absolutely loved this quote from King:
 
 > Music is thought made audible, and dance is thought made visible.
 

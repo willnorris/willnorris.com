@@ -11,7 +11,8 @@ tags:
 ---
 Perhaps the best definition of Shibboleth I've ever seen:
 
-> Shibboleth loosely translated means, "Who the fuck are you?"  
-> - [Dead Library][]
+> Shibboleth loosely translated means, "Who the fuck are you?"
+>
+> <footer>– [Dead Library][]</footer>
 
 [Dead Library]: http://vkwn.com/deadlibrary/2007/03/27/goodbye-athens-hello-shibboleth-and-federated-access-management/

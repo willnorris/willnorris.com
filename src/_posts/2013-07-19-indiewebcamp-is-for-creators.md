@@ -8,7 +8,8 @@ categories:
 tags:
 - indiewebcamp
 ---
-My favorite quote that I came up with, that will sadly not make it into my slides for [WordCamp SF](http://2013.sf.wordcamp.org/) next week:
+My favorite quote that I came up with, that will sadly not make it into my slides for [WordCamp
+SF](http://2013.sf.wordcamp.org/) next week:
 
 > Coffee is for closers.  IndieWebCamp is for [creators](http://indiewebcamp.com/creator).
 

@@ -8,6 +8,5 @@ categories:
 tags:
 - bahamas
 ---
-i'll be out of town through July 11th, and then maybe a little more after
-that... i'm not totally sure.  there will be pretty much no way of getting in
-touch with me while i'm gone, so don't let anything too important happen.
+i'll be out of town through July 11th, and then maybe a little more after that... i'm not totally sure.  there will be
+pretty much no way of getting in touch with me while i'm gone, so don't let anything too important happen.

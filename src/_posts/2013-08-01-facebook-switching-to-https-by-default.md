@@ -9,4 +9,7 @@ tags:
 - https
 - facebook
 ---
-It's really nice to see Facebook moving to use [HTTPS by default for all users](https://www.facebook.com/notes/facebook-engineering/secure-browsing-by-defa%20ult/10151590414803920), and generally beefing up their TLS setup.  This is good for everyone.
+It's really nice to see Facebook moving to use [HTTPS by default for all users][https], and generally beefing up their
+TLS setup.  This is good for everyone.
+
+[https]: https://www.facebook.com/notes/facebook-engineering/secure-browsing-by-default/10151590414803920

@@ -10,60 +10,45 @@ tags:
 - web
 - development
 ---
-At any given time, there are about a dozen or so websites that I help develop in
-some form or another.  The easiest way to work on a site is to maintain a copy
-of it on my local machine... nothing special there.  However, what if you want
-to view the development version of the site?  Just fire it up in your web
-browser.  What if you use server side scripting like PHP that needs to be run?
-OS X has a built-in webserver making this fairly simple by placing the files in
-your `~/Sites/` folder.  But what if your site contains links that are relative
-to the site root such as `<img src="/images/logo.jpg" />`?  Because you would be
-accessing this site as `http://localhost/~username/test_site/`, your image will
-fail do load.  You could setup VirtualHosts for each of your development sites,
-and in fact I did this for a long time.  The problem is that this can become a
-big annoyance and is an awful lot of work, especially if you have a large number
-of sites in development.
-<!--more-->
+At any given time, there are about a dozen or so websites that I help develop in some form or another.  The easiest way
+to work on a site is to maintain a copy of it on my local machine... nothing special there.  However, what if you want
+to view the development version of the site?  Just fire it up in your web browser.  What if you use server side
+scripting like PHP that needs to be run?  OS X has a built-in webserver making this fairly simple by placing the files
+in your `~/Sites/` folder.  But what if your site contains links that are relative to the site root such as `<img
+src="/images/logo.jpg" />`?  Because you would be accessing this site as `http://localhost/~username/test_site/`, your
+image will fail do load.  You could setup VirtualHosts for each of your development sites, and in fact I did this for a
+long time.  The problem is that this can become a big annoyance and is an awful lot of work, especially if you have a
+large number of sites in development.
 
-Apache's [VirtualDocumentRoot][] directive allows you to dynamically set the
-document root  based on the host name that was used to request the document.  So
-what we want to do is to create a unique host name for each website that we're
-working on, and have apache find the appropriate document root for that
-particular site.  We'll start with just one development site - example.com.
-First we need a place to store the files for this site.. how about
-`~/Sites/example/public_html/`.  I put everything in a 'public\_html' folder
-because I will often intentionally store some files _outside_ of the document
-root, such as configuration files that contain passwords and such (for that I
-would use `~/Sites/example/include/` which I would also then add to my php
-include\_path).
+Apache's [VirtualDocumentRoot][] directive allows you to dynamically set the document root  based on the host name that
+was used to request the document.  So what we want to do is to create a unique host name for each website that we're
+working on, and have apache find the appropriate document root for that particular site.  We'll start with just one
+development site - example.com.  First we need a place to store the files for this site.. how about
+`~/Sites/example/public_html/`.  I put everything in a 'public\_html' folder because I will often intentionally store
+some files _outside_ of the document root, such as configuration files that contain passwords and such (for that I would
+use `~/Sites/example/include/` which I would also then add to my php include\_path).
 
-Next we need a unique host name that we can use to access our site.  Apache will
-use parts of the hostname to determine what folder to use, so the easiest thing
-is to just make them the same... so we will use "example".  (An important thing
-to note here is that you _can't_ use a real domain name to access the
-development site.  You could however create your own top level domain to use
-such as "example.dev", but it's certainly not necessary.)  Once you've decided
-on a host name, you need to tell your computer that this name should resolve to
-the local machine.  Do this by adding an entry to your `/etc/hosts` file along
-the lines of 
+Next we need a unique host name that we can use to access our site.  Apache will use parts of the hostname to determine
+what folder to use, so the easiest thing is to just make them the same... so we will use "example".  (An important thing
+to note here is that you _can't_ use a real domain name to access the development site.  You could however create your
+own top level domain to use such as "example.dev", but it's certainly not necessary.)  Once you've decided on a host
+name, you need to tell your computer that this name should resolve to the local machine.  Do this by adding an entry to
+your `/etc/hosts` file along the lines of
 
     127.0.0.1   example
 
-If you have more than one development site, they can all be on one line
-seperated by spaces...
+If you have more than one development site, they can all be on one line seperated by spaces...
 
     127.0.0.1   example1 example2 example3
 
 
-Finally, you need to tell Apache to use virtual document roots.  Based on the
-example setup we are using, you'll want to add the following line to your apache
-configuration file (`/etc/httpd/httpd.conf`)
+Finally, you need to tell Apache to use virtual document roots.  Based on the example setup we are using, you'll want to
+add the following line to your apache configuration file (`/etc/httpd/httpd.conf`)
 
     VirtualDocumentRoot /Users/username/Sites/%0/public_html/
 
-In OS X, the virtual host module is not on by default so you will need to
-uncomment the following lines
-    
+In OS X, the virtual host module is not on by default so you will need to uncomment the following lines
+
     # Around Line 205
     LoadModule vhost_alias_module libexec/httpd/mod_vhost_alias.so
     ...
@@ -75,9 +60,8 @@ Additionally, you will need to turn off canonical names
     # Around Line 503
     UseCanonicalNames   Off
 
-Then just restart apache and you _should_ be on your way.  For each additional
-site now, you just need to create a folder in `~/Sites/` and add an appropriate
-entry to `/etc/hosts`.
+Then just restart apache and you _should_ be on your way.  For each additional site now, you just need to create a
+folder in `~/Sites/` and add an appropriate entry to `/etc/hosts`.
 
 __Notes:__
 
@@ -89,7 +73,7 @@ this.
 
 - <strike>it is not possible to have separate cgi-bin directories for each site
 that I am aware of.  They will all use the system default one
-(`/Library/WebServer/CGI-Executables/`).</strike>  
+(`/Library/WebServer/CGI-Executables/`).</strike>
 
     To allow for per-site CGI bins, comment out the ScriptAlias directive
     in the main apache config file

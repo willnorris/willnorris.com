@@ -14,8 +14,8 @@ syndication:
 > Start where you are.  
 > Use what have.  
 > Do what you can.
-
-> -- Arthur Ashe
+>
+> <footer>– Arthur Ashe</footer>
 
 (via [Skud][], in her keynote at Open Source Bridge 2013, talking about [Growstuff][] and resiliency in technology)
 

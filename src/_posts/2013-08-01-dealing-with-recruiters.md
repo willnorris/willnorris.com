@@ -8,6 +8,7 @@ categories:
 ---
 My favorite new technique for dealing with recruiters...
 
-> No thanks, I'm actually really happy with my current job.  However, if **you're** looking for exciting new opportunities, Google is hiring recruiters.
+> No thanks, I'm actually really happy with my current job.  However, if **you're** looking for exciting new
+> opportunities, Google is hiring recruiters.
 
 I've only used it a couple of times, but they've certainly gotten a kick out of it.

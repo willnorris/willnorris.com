@@ -8,6 +8,9 @@ categories:
 tags:
 - indieweb
 ---
-It should come as no surprise that Zeldman's post _[This is a Website](http://www.zeldman.com/2013/12/11/this-is-a-website/)_ resonated with me heaviliy:
+It should come as no surprise that Zeldman's post <cite>[This is a Website][]</cite> resonated with me heaviliy:
 
-> We were struggling, whether we knew it or not, to found a more fluid society. A place where everyone, not just appointed apologists for the status quo, could be heard. That dream need not die. It matters more now than ever.
+> We were struggling, whether we knew it or not, to found a more fluid society. A place where everyone, not just
+> appointed apologists for the status quo, could be heard. That dream need not die. It matters more now than ever.
+
+[This is a Website]: http://www.zeldman.com/2013/12/11/this-is-a-website/

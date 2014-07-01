@@ -11,6 +11,8 @@ tags:
 ---
 BibleGateway's verse of the day:
 
-> "Do not merely listen to the word, and so deceive yourselves. Do what it says." - James 1:22 (NIV)
+> "Do not merely listen to the word, and so deceive yourselves. Do what it says."
+>
+> <footer>– James 1:22 (NIV)</footer>
 
 ouch.  conviction stings.

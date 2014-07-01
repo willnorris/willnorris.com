@@ -12,7 +12,11 @@ tags:
 - yadis
 - wp-openid
 ---
-In trying to reach my [Oct 1 goal][], I did a good bit of work on two of my plugins this weekend, [wp-openid][] and [wp-yadis][].  For anyone that has been trying these plugins recently, please download the latest from subversion and see how they work for you.  I've tested with Wordpress 2.3 using PHP 5.2.2 and PHP 4.4.7.  I didn't actually try Wordpress 2.2 myself, but I can't think of any reason there should be problems.  Please let me know your results in the comments here or by email.
+In trying to reach my [Oct 1 goal][], I did a good bit of work on two of my plugins this weekend, [wp-openid][] and
+[wp-yadis][].  For anyone that has been trying these plugins recently, please download the latest from subversion and
+see how they work for you.  I've tested with Wordpress 2.3 using PHP 5.2.2 and PHP 4.4.7.  I didn't actually try
+Wordpress 2.2 myself, but I can't think of any reason there should be problems.  Please let me know your results in the
+comments here or by email.
 
 **update**: I've also added Alexandre Passant's nice FOAF/SIOC [auto-discovery code][].
 

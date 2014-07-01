@@ -9,9 +9,15 @@ tags:
 - airfare
 - money
 ---
-Observe -- a flight from San Diego to Memphis with one layover in Atlanta costs $564.  A flight from San Diego to Little Rock with a layover in Atlanta and a layover in Memphis costs $135.  Note that they are the exact same flights from San Diego to Atlanta and from Atlanta to Memphis. 
+Observe -- a flight from San Diego to Memphis with one layover in Atlanta costs $564.  A flight from San Diego to Little
+Rock with a layover in Atlanta and a layover in Memphis costs $135.  Note that they are the exact same flights from San
+Diego to Atlanta and from Atlanta to Memphis. 
 
-<a href="http://www.flickr.com/photos/wnorris/94516705/" class="flickr"><img src="http://static.flickr.com/22/94516705_9b13447bb4_s.jpg" class="flickr 2294516705" /></a>
-<a href="http://www.flickr.com/photos/wnorris/94516704/" class="flickr"><img src="http://static.flickr.com/23/94516704_07b8a57fc1_s.jpg" class="flickr 2394516704" /></a>
+<figure class="aligncenter">
+  <img src="san-mem-flight.png" 
+    alt="Screenshot showing a flight from San Diego to Memphis with a layover in Atlanta for $564" >
+  <img src="san-lit-flight.png" 
+    alt="Screenshot showing a flight from San Diego to Little Rock with layovers in Atlanta and Memphis for $135" />
+</figure>
 
 Please explain to me why it costs $429 *less* to fly 137 miles *further*.

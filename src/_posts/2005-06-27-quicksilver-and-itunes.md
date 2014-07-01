@@ -29,7 +29,9 @@ assigned it to a Quicksilver trigger.  This will display the exact same as the b
 Quicksilver with the addition of track time, current position, and ratings stars.  It's a very simple matter of
 displaying more or less info for the track.
 
-<img src="http://willnorris.com/wordpress-content/uploads/2005/06/itunes-notification.jpeg" alt="iTunes notification" />
+<figure class="aligncenter">
+  <img src="itunes-notification.jpg" alt="Screenshot of Growl notification showing the current song playing in iTunes">
+</figure>
 
 [updated 09 Aug 2005 to work when no artwork is present]
 

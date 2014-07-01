@@ -20,7 +20,7 @@ Here's a very simple solution I came up with this evening.  Any input box on the
 with a certain level of importance.  Whichever input box declares itself to be most important gets focus when the page
 loads.  First, include the following javascript into your page...
 
-``` js
+``` javascript
 var topObjectId; var topLevel = 0;
 function requestFocus(objectId, level) {
     if (level > topLevel) { topObjectId = objectId; topLevel = level; }

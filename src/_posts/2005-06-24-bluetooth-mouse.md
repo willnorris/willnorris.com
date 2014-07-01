@@ -10,7 +10,9 @@ tags:
 - mouse
 - bluetooth
 ---
-<img src="http://willnorris.com/wordpress-content/uploads/2005/06/bt500.jpeg" alt="RadTech BT500 Mouse" class="alignleft size-full wp-image-934" />
+<figure class="alignleft">
+  <img src="bt500.jpg" alt="RadTech BT500 Mouse">
+</figure>
 
 If anyone is shopping for a portable bluetooth mouse, allow me to heartily recommend the [BT500][] by [RadTech][].  I
 first heard about this mouse from a [review][] on macslash, and decided to try it out.  It's a bit smaller than I was

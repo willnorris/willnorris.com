@@ -11,7 +11,9 @@ tags:
 ---
 happy birthday to me
 
-<img src="http://willnorris.com/wordpress-content/uploads/2003/07/corona.jpeg" alt="Corona bottle"  />
+<figure>
+  <img src="corona.jpg" alt="Corona bottle"  />
+</figure>
 
 i went down the streat and bought a corona just for fun... but just realized these damn tops don't twist off! :-)
 

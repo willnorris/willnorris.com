@@ -11,4 +11,5 @@ tags:
 ---
 and while i'm at it, I know a few people that could learn from Bart here...
 
-<img src="http://willnorris.com/wordpress-content/uploads/2003/06/bartgoogle.gif" alt="I will use Google before asking dumb questions." />
+<img src="bartgoogle.gif" 
+  alt="Bart Simpson writing over and over on a blackboard, 'I will use Google before asking dumb questions'." />

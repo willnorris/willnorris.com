@@ -12,7 +12,9 @@ I'm leaving later this afternoon to drive to Nashville and so I went to [google 
 directions.  I found a good map of where I was going and was pretty sure I determined which exit I wanted, but couldn't
 quite tell if the exit ramp went the direction I needed.  Google satellite photos to the rescue...
 
-<img src="http://willnorris.com/wordpress-content/uploads/2005/04/exit_ramp_map.jpeg" alt="exit ramp map" />
+<figure class="aligncenter">
+  <img src="exit_ramp_map.jpg" alt="Screenshot of Google Maps showing the exit ramps for a highway">
+</figure>
 
 I also got a nice shot of all the [parking lots][] around the area.  Imagine how useful that would be for a downtown
 event.

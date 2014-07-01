@@ -11,7 +11,9 @@ tags:
 - apple
 - esv
 ---
-<img src="http://willnorris.com/wordpress-content/uploads/2005/05/esvblue.jpeg" alt="ESV logo" class="alignleft" />
+<aside class="alignleft"><figure>
+  <img src="esv-logo.jpg" alt="ESV logo">
+</figure></aside>
 
 Don't you just love when you run across a company that just "get's it"?  They just really grok their industry and what
 it's all about... they see the big picture, and therefore tend to be the trend setters.  There aren't all that many

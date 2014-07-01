@@ -1,0 +1,24 @@
+---
+layout: post
+title: They get it
+wordpress_id: 38
+date: '2005-05-24T00:56:14-07:00'
+categories:
+- technology
+tags:
+- bible
+- reviews
+- apple
+- esv
+---
+<img src="http://willnorris.com/wordpress-content/uploads/2005/05/esvblue.jpeg" alt="ESV logo" class="alignleft" />
+
+Don't you just love when you run across a company that just "get's it"?  They just really grok their industry and what it's all about... they see the big picture, and therefore tend to be the trend setters.  There aren't all that many companies I know of that I'd put in this category -- [Apple][] would likely be at the top of the list (though they do have their faults in some areas), but I'd also list [Lenny's Sub Shop][], [Gotee Records][], and [Visible School][] to name a few.  Today I ran across another -- the [English Standard Version Bible][esv] (or rather Good News Publishing).  This is a Bible publishing company that really cares about standards... how strange is that?  Somehow I never knew this, but for the past two years or so they have offered a Web Service to perform queries against their Bible database using parts of Google's search APIs.  Additionally, you can simply use RSS to perform a query if you wish.  Online Bible searches are nothing new, but never before has a publisher made it so easy to access their Bibles without having to do it [on their site][].  And just in case there was ever any doubt as to the amount of forethought and planning that went into their online services, they've even published a [best practices][] guide.  When it comes to publishers, _they_ get it.
+
+[apple]: http://www.apple.com
+[lenny's sub shop]: http://www.lennyssubshop.com/
+[gotee records]: http://www.gotee.com
+[visible school]: http://www.visibleschool.com
+[esv]: http://www.gnpcb.org/esv/
+[on their site]: http://www.biblegateway.com
+[best practices]: http://www.gnpcb.org/esv/share/about/

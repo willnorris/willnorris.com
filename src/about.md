@@ -2,7 +2,7 @@
 layout: page
 title: About
 wordpress_id: 6
-date: '2005-05-12 08:44:01 -0700'
+date: '2005-05-12T08:44:01-07:00'
 ---
 <div class="h-card vcard" markdown="1">
 
@@ -43,7 +43,8 @@ opportunities.
 
 ### Colophon ###
 
-This site is powered by [Jekyll][] and is hosted at [Linode][].
+This site is powered by [Jekyll][] and is hosted at [Linode][].  Most all of my domains are registered at [Google][].
 
 [Jekyll]: http://jekyllrb.com/
 [Linode]: https://www.linode.com/
+[Google]: https://www.google.com/domains

@@ -2,7 +2,7 @@
 layout: page
 title: This is not the Will Norris you're looking for
 wordpress_id: 963
-date: '2012-05-09 21:06:06 -0700'
+date: '2012-05-09T21:06:06-07:00'
 ---
 Hi, I'm [Will Norris](/).  If I directed you to this page, then you may also be named Will Norris.
 Or perhaps you were trying to get in touch with a friend or relative or client of yours named Will

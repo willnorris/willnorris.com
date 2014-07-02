@@ -1,7 +1,6 @@
 # Site settings
 name: willnorris.com
 description: "there's more to life than this"
-baseurl: ""
 url: "https://willnorris.com"
 
 # Build settings

@@ -1,0 +1,32 @@
+---
+# HTML snippet to activate masonry and fancybox javascript libraries for photo galleries.
+---
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+<script src="/js/masonry.js"></script>
+<script src="/js/fancybox.js"></script>
+<script>
+  $(function(){
+    var $gallery = $('.gallery');
+
+    $gallery.masonry({
+      itemSelector: 'a',
+      isAnimated: false,
+      gutter: 9,
+    });
+
+    $gallery.find('> a')
+      .attr('rel', 'gallery')
+      .fancybox({
+        beforeShow : function() {
+          var alt = this.element.find('img').attr('alt');
+          this.inner.find('img').attr('alt', alt);
+          this.title = alt;
+        },
+        openEffect: 'fade',
+        closeEffect: 'fade',
+        nextEffect: 'fade',
+        prevEffect: 'fade',
+        padding: 10,
+      });
+  });
+</script>

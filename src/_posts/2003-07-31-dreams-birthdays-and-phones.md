@@ -18,8 +18,8 @@ really weird dream the other night, of which i remember two distinct parts.  in 
 in front of an arbitrator or sorts arguing our cases. So i'd be talking about whatever and every couple of minutes or
 so, this guy would interrupt and keep saying the same thing about how he had some kind of contract or something.  I
 thought maybe it was all those legal classes from Visible School coming back to haunt me, but I discovered the next day
-or so, it was actually the chorus to Switchfoot's song <a href="http://www.poplyrics.net/waiguo/switchfoot/008.htm">the
-loser</a>. apparently, that was the song that was playing while i was dreaming at that moment.
+or so, it was actually the chorus to Switchfoot's song <code>[the loser][]</code>.  apparently, that was the song that
+was playing while i was dreaming at that moment.
 
 the other part i remember was that i was in the green room for the TechTV show The ScreenSavers with Patrick from the
 show and a bunch of people that i apparently knew were famous for whatever reason.  the main thing i remember was
@@ -27,6 +27,8 @@ walking out on the set and i went to a back part where there was a kitchen (no, 
 ScreenSavers) and was rinsing my mouth out at the sink while some guy was up near the front singing some Metallica song.
 I kept trying to spit into the sink, but i couldn't really spit... i was just kinda drooling into it.  That's when i
 woke up as i realized i was spitting/drooling on my arm.
+
+[the loser]: http://www.poplyrics.net/waiguo/switchfoot/008.htm
 
 [birthdays]
 
@@ -45,5 +47,5 @@ get one yet is b/c i was waiting for the final check from a client.  well the on
 was b/c i was being lazy and hadn't finished up the project... so it's really my own damn fault.  i guess that's why i'm
 upset.
 
-i'm gonna try and write in here more often.  i think it keeps me out of trouble.  if anyone actually reads this, then <a
-href="/contact">get on my case</a> if i don't update at least 2-3 times a week or so.  thanks.
+i'm gonna try and write in here more often.  i think it keeps me out of trouble.  if anyone actually reads this, then
+[get on my case](/contact) if i don't update at least 2-3 times a week or so.  thanks.

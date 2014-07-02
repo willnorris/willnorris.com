@@ -9,9 +9,9 @@ tags:
 - vacation
 - travel
 ---
-<img
-src="http://www.world66.com/myworld66/visitedStates/statemap?visited=ALAZARCACODCFLGAKSKYLAMDMSMONVNJNMNYNCOHOKPASCTNTXUTVAWVILVTOR"
-height="300" width="480" style="float: none;" />
 
-<a href="http://www.world66.com/myworld66/visitedStates">create your own visited states map</a>
- or <a href="http://www.world66.com">write about it on the open travel guide</a>
+<figure class="aligncenter">
+  <img src="http://www.world66.com/myworld66/visitedStates/statemap?visited=ALAZARCACODCFLGAKSKYLAMDMSMONVNJNMNYNCOHOKPASCTNTXUTVAWVILVTOR">
+</figure>
+
+Created with [World66](http://www.world66.com/myworld66/visitedStates).

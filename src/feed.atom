@@ -1,0 +1,25 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <title>{{ site.name | xml_escape }}</title>
+  <id>{{ page.url | prepend: site.baseurl | prepend: site.url }}</id>
+  <link href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" rel="alternate" type="text/html"/>
+  <link href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/atom+xml"/>
+  <updated>{{ site.posts[0].date | date_to_xmlschema }}</updated>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <uri>{{ site.author.url }}</uri>
+  </author>
+{% for post in site.posts limit:10 %}
+  <entry>
+    {% assign url = post.url | prepend: site.baseurl | prepend: site.url %}
+    <id>{{ url }}</id>
+    <title>{{ post.title | xml_escape }}</title>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <content type="html" xml:base="{{ url }}">{{ post.content | xml_escape }}</content>
+    <link href="{{ url }}" rel="alternate" type="text/html"/>
+  </entry>
+{% endfor %}
+</feed>

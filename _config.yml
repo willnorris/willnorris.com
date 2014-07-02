@@ -2,6 +2,9 @@
 name: willnorris.com
 description: "there's more to life than this"
 url: "https://willnorris.com"
+author:
+  name: "Will Norris"
+  url: "https://willnorris.com/"
 
 # Build settings
 source: src

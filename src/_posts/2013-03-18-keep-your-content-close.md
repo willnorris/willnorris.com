@@ -2,7 +2,7 @@
 layout: link
 title: Keep your content close
 wordpress_id: 1017
-date: '2013-03-18T12:41:27-07:00'
+date: 2013-03-18T12:41:27-07:00
 categories:
 - technology
 tags:

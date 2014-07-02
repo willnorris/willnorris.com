@@ -2,7 +2,7 @@
 layout: post
 title: Maybe Comcast really does care
 wordpress_id: 718
-date: '2009-07-07T11:05:56-07:00'
+date: 2009-07-07T11:05:56-07:00
 categories:
 - personal
 - technology

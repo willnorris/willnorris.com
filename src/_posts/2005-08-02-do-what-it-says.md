@@ -2,7 +2,7 @@
 layout: post
 title: Do What it Says
 wordpress_id: 61
-date: '2005-08-02T08:03:24-07:00'
+date: 2005-08-02T08:03:24-07:00
 categories:
 - personal
 tags:

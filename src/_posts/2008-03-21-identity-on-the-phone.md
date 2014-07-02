@@ -2,7 +2,7 @@
 layout: post
 title: Identity on the phone
 wordpress_id: 221
-date: '2008-03-21T00:46:22-07:00'
+date: 2008-03-21T00:46:22-07:00
 categories:
 - identity
 - technology

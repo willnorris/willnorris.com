@@ -2,7 +2,7 @@
 layout: post
 title: Address Book features in Tiger
 wordpress_id: 12
-date: '2005-04-12T09:59:17-07:00'
+date: 2005-04-12T09:59:17-07:00
 categories:
 - technology
 tags:

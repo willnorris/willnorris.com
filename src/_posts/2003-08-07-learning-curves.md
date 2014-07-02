@@ -2,7 +2,7 @@
 layout: post
 title: learning curves
 wordpress_id: 108
-date: '2003-08-07T06:29:04-07:00'
+date: 2003-08-07T06:29:04-07:00
 categories:
 - personal
 ---

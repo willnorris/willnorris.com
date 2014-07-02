@@ -2,7 +2,7 @@
 layout: post
 title: Deliver me
 wordpress_id: 76
-date: '2005-11-22T23:22:58-08:00'
+date: 2005-11-22T23:22:58-08:00
 categories:
 - personal
 tags:

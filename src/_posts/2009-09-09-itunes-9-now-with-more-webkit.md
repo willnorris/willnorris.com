@@ -2,7 +2,7 @@
 layout: post
 title: iTunes 9, now with more WebKit
 wordpress_id: 864
-date: '2009-09-09T13:26:12-07:00'
+date: 2009-09-09T13:26:12-07:00
 categories:
 - technology
 ---

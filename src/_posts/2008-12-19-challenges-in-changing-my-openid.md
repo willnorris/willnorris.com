@@ -2,7 +2,7 @@
 layout: post
 title: Challenges in changing my OpenID
 wordpress_id: 457
-date: '2008-12-19T14:35:21-08:00'
+date: 2008-12-19T14:35:21-08:00
 categories:
 - identity
 - technology

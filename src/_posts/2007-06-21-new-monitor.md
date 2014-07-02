@@ -2,7 +2,7 @@
 layout: post
 title: New Monitor
 wordpress_id: 189
-date: '2007-06-21T11:41:58-07:00'
+date: 2007-06-21T11:41:58-07:00
 categories:
 - personal
 tags:

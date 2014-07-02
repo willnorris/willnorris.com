@@ -2,7 +2,7 @@
 layout: post
 title: Directed Identity vs Identifier Select
 wordpress_id: 797
-date: '2009-07-31T03:29:03-07:00'
+date: 2009-07-31T03:29:03-07:00
 categories:
 - identity
 - technology

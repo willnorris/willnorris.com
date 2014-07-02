@@ -2,7 +2,7 @@
 layout: quote
 title: Start where you are
 wordpress_id: 1028
-date: '2013-06-19T09:48:44-07:00'
+date: 2013-06-19T09:48:44-07:00
 categories:
 - personal
 - technology

@@ -2,7 +2,7 @@
 layout: post
 title: new layout
 wordpress_id: 98
-date: '2003-12-24T11:11:30-08:00'
+date: 2003-12-24T11:11:30-08:00
 categories:
 - technology
 ---

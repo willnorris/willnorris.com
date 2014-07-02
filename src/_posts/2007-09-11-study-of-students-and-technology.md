@@ -2,7 +2,7 @@
 layout: post
 title: Study of Students and Technology
 wordpress_id: 196
-date: '2007-09-11T15:58:24-07:00'
+date: 2007-09-11T15:58:24-07:00
 categories:
 - technology
 tags:

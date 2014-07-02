@@ -2,7 +2,7 @@
 layout: post
 title: improving OpenID support
 wordpress_id: 213
-date: '2007-11-12T00:03:26-08:00'
+date: 2007-11-12T00:03:26-08:00
 categories:
 - identity
 - technology

@@ -2,7 +2,7 @@
 layout: post
 title: Best practice for commercial WordPress themes and version control
 wordpress_id: 1067
-date: '2013-08-15T18:27:30-07:00'
+date: 2013-08-15T18:27:30-07:00
 categories:
 - technology
 tags:

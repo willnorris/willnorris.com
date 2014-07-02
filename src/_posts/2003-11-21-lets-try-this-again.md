@@ -2,7 +2,7 @@
 layout: post
 title: let's try this again
 wordpress_id: 97
-date: '2003-11-21T03:56:50-08:00'
+date: 2003-11-21T03:56:50-08:00
 categories:
 - technology
 ---

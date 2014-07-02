@@ -2,7 +2,7 @@
 layout: post
 title: security is just too hard
 wordpress_id: 132
-date: '2006-01-22T19:21:46-08:00'
+date: 2006-01-22T19:21:46-08:00
 categories:
 - identity
 tags:

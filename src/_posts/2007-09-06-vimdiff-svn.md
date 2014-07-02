@@ -2,7 +2,7 @@
 layout: post
 title: vimdiff-svn
 wordpress_id: 195
-date: '2007-09-06T20:16:02-07:00'
+date: 2007-09-06T20:16:02-07:00
 categories:
 - technology
 tags:

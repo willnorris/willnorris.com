@@ -2,7 +2,7 @@
 layout: post
 title: A place to call home
 wordpress_id: 1070
-date: '2013-08-21T09:38:12-07:00'
+date: 2013-08-21T09:38:12-07:00
 categories:
 - technology
 syndication:

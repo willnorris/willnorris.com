@@ -2,7 +2,7 @@
 layout: aside
 title: Music is thought made audible
 wordpress_id: 1025
-date: '2013-04-25T10:43:46-07:00'
+date: 2013-04-25T10:43:46-07:00
 categories:
 - music
 tags:

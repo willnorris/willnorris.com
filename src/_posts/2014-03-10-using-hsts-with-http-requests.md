@@ -2,7 +2,7 @@
 layout: post
 title: Using HSTS with HTTP requests
 wordpress_id: 1150
-date: '2014-03-10T15:41:17-07:00'
+date: 2014-03-10T15:41:17-07:00
 categories:
 - technology
 tags:

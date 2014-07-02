@@ -2,7 +2,7 @@
 layout: link
 title: Git is the next Unix
 wordpress_id: 920
-date: '2011-03-13T22:06:45-07:00'
+date: 2011-03-13T22:06:45-07:00
 categories:
 - technology
 tags:

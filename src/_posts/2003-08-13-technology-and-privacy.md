@@ -2,7 +2,7 @@
 layout: post
 title: technology and privacy
 wordpress_id: 115
-date: '2003-08-13T23:59:50-07:00'
+date: 2003-08-13T23:59:50-07:00
 categories:
 - identity
 - technology

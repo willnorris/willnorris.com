@@ -2,7 +2,7 @@
 layout: post
 title: dreams, birthdays, and phones
 wordpress_id: 109
-date: '2003-07-31T02:02:47-07:00'
+date: 2003-07-31T02:02:47-07:00
 categories:
 - personal
 tags:

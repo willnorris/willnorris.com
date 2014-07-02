@@ -2,7 +2,7 @@
 layout: post
 title: away messages
 wordpress_id: 99
-date: '2003-06-18T19:05:15-07:00'
+date: 2003-06-18T19:05:15-07:00
 categories:
 - technology
 tags:

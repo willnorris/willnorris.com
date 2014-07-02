@@ -2,7 +2,7 @@
 layout: post
 title: Unobtrusive wpopenid
 wordpress_id: 170
-date: '2007-02-14T05:23:30-08:00'
+date: 2007-02-14T05:23:30-08:00
 categories:
 - identity
 - technology

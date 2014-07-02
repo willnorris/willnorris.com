@@ -2,7 +2,7 @@
 layout: post
 title: Plato's Republic
 wordpress_id: 123
-date: '2003-09-07T22:34:18-07:00'
+date: 2003-09-07T22:34:18-07:00
 categories:
 - technology
 tags:

@@ -2,7 +2,7 @@
 layout: link
 title: Rebuilding the Web We Lost
 wordpress_id: 990
-date: '2012-12-18T17:58:17-08:00'
+date: 2012-12-18T17:58:17-08:00
 categories:
 - technology
 tags:

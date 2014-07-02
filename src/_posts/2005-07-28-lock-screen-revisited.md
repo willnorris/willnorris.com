@@ -2,7 +2,7 @@
 layout: post
 title: Lock Screen revisited
 wordpress_id: 58
-date: '2005-07-28T16:30:10-07:00'
+date: 2005-07-28T16:30:10-07:00
 categories:
 - technology
 tags:

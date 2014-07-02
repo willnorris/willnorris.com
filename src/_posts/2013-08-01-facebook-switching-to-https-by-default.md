@@ -2,7 +2,7 @@
 layout: link
 title: Facebook switching to HTTPS by default
 wordpress_id: 1056
-date: '2013-08-01T07:55:17-07:00'
+date: 2013-08-01T07:55:17-07:00
 categories:
 - technology
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Cached Commons
 wordpress_id: 915
-date: '2010-10-15T21:38:59-07:00'
+date: 2010-10-15T21:38:59-07:00
 categories:
 - technology
 tags:

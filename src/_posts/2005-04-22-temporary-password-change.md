@@ -2,7 +2,7 @@
 layout: post
 title: Temporary Password Change
 wordpress_id: 10
-date: '2005-04-22T09:39:12-07:00'
+date: 2005-04-22T09:39:12-07:00
 categories:
 - technology
 tags:

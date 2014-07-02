@@ -2,7 +2,7 @@
 layout: post
 title: Exit ramp maps
 wordpress_id: 11
-date: '2005-04-13T09:00:04-07:00'
+date: 2005-04-13T09:00:04-07:00
 categories:
 - technology
 tags:

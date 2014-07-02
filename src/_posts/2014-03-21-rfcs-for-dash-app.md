@@ -2,7 +2,7 @@
 layout: post
 title: RFCs for Dash.app
 wordpress_id: 1152
-date: '2014-03-21T14:27:29-07:00'
+date: 2014-03-21T14:27:29-07:00
 categories:
 - technology
 tags:

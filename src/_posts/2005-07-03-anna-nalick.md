@@ -2,7 +2,7 @@
 layout: post
 title: Anna Nalick
 wordpress_id: 47
-date: '2005-07-03T01:00:00-07:00'
+date: 2005-07-03T01:00:00-07:00
 categories:
 - music
 tags:

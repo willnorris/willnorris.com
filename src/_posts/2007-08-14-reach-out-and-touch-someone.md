@@ -2,7 +2,7 @@
 layout: post
 title: reach out and touch someone
 wordpress_id: 192
-date: '2007-08-14T23:35:58-07:00'
+date: 2007-08-14T23:35:58-07:00
 categories:
 - identity
 - personal

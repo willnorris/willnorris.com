@@ -2,7 +2,7 @@
 layout: image
 title: Be wary of secret agents
 wordpress_id: 1020
-date: '2013-03-19T10:09:56-07:00'
+date: 2013-03-19T10:09:56-07:00
 categories:
 - technology
 tags:

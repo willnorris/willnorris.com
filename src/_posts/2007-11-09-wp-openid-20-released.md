@@ -2,7 +2,7 @@
 layout: post
 title: wp-openid 2.0 released
 wordpress_id: 212
-date: '2007-11-09T19:04:12-08:00'
+date: 2007-11-09T19:04:12-08:00
 categories:
 - identity
 - technology

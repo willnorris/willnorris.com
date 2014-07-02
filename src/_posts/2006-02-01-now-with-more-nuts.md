@@ -2,7 +2,7 @@
 layout: post
 title: now with more nuts
 wordpress_id: 140
-date: '2006-02-01T22:32:47-08:00'
+date: 2006-02-01T22:32:47-08:00
 categories:
 - personal
 tags:

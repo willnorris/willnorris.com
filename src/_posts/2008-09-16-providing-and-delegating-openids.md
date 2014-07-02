@@ -2,7 +2,7 @@
 layout: post
 title: Providing and Delegating OpenIDs
 wordpress_id: 270
-date: '2008-09-16T14:18:00-07:00'
+date: 2008-09-16T14:18:00-07:00
 categories:
 - identity
 - technology

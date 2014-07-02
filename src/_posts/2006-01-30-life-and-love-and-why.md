@@ -2,7 +2,7 @@
 layout: post
 title: Life and Love and Why
 wordpress_id: 131
-date: '2006-01-30T13:29:00-08:00'
+date: 2006-01-30T13:29:00-08:00
 categories:
 - personal
 tags:

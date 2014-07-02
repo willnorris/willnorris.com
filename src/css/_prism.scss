@@ -50,3 +50,26 @@
 .namespace {
   opacity: .7;
 }
+
+pre[class*='language-'] {
+  position: relative;
+
+  > code[data-language] {
+    overflow: scroll;
+    max-height: 28em;
+    display: block;
+
+    &::before {
+      content: attr(data-language);
+      background-color: #d6d6d6;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 0.9em;
+      line-height: 1.7;
+      border-radius: 0 0 0 5px;
+      padding: 0 0.5em;
+    }
+  }
+}

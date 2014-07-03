@@ -9,4 +9,16 @@
   {% if page.url == "/" %}<meta name="description" content="{{ site.description }}">{% endif %}
   {% if paginator.previous_page or page.noindex %}<meta name="robots" content="noindex">{% endif %}
   {% if page.go_import %}<meta name="go-import" content="{{ page.go_import }}">{% endif %}
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-620101-2']);
+    _gaq.push(['_gat._forceSSL']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.async = true;
+      ga.src = 'https:////www.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 </head>

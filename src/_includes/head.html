@@ -7,7 +7,10 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <link rel="{% if page.url != "/" %}home {% endif %}alternate" href="{{ "/feed.atom" | prepend: site.baseurl }}" type="application/atom+xml">
-  {% if page.url == "/" %}<meta name="description" content="{{ site.description }}">{% endif %}
+{% if page.url == "/" %}
+  <meta name="description" content="{{ site.description }}">
+  <link rel="openid.server" href="https://indieauth.com/openid"/>
+{% endif %}
   {% if paginator.previous_page or page.noindex %}<meta name="robots" content="noindex">{% endif %}
   {% if page.go_import %}<meta name="go-import" content="{{ page.go_import }}">{% endif %}
   <script>

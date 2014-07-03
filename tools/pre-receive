@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source "$(git --exec-path)/git-sh-setup"
+export GIT_WORK_TREE=..
+
+require_clean_work_tree "push changes"

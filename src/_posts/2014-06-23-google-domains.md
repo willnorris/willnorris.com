@@ -60,5 +60,4 @@ Read more at <https://www.google.com/domains>.
 [announced today]: https://plus.google.com/+GoogleBusiness/posts/Dkhw41XJigw
 [google-domains]: https://www.google.com/domains
 
-[^1]: My Linode account might be the closest to rivaling Google in terms of security, given the additional IP filtering
-they support for the [Linode Manager](https://library.linode.com/linode-manager-security).
+[^1]: My Linode account might be the closest to rivaling Google in terms of security, given the additional IP filtering they support for the [Linode Manager](https://library.linode.com/linode-manager-security).

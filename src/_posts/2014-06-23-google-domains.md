@@ -13,7 +13,7 @@ syndication:
 - https://twitter.com/willnorris/status/481244318275887106
 ---
 The very first step in getting started with the IndieWeb is to get a [personal domain][].  It's the very foundation that
-the principles of the IndieWeb build upon – that you should own your data and control how it is accessed.  Your domain
+the principles of the IndieWeb built upon – that you should own your data and control how it is accessed.  Your domain
 is where you publish your content, provide contact information, and link to your other profiles and content around the
 web.  It's your [place to call home][].
 

@@ -10,6 +10,7 @@ tags:
 - brid.gy
 syndication:
 - https://github.com/snarfed/bridgy/issues/160
+short_url: /t/KN
 ---
 For a while, I've noticed that [brid.gy][] was providing `profiles.google.com` URLs for authors for some Google+
 activities.  Today, I dug into it a little and discovered that it's only doing this for +1s; Google+ reshares have the

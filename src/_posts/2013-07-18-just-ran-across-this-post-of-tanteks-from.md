@@ -8,6 +8,7 @@ categories:
 tags:
 - indieweb
 - nsa
+short_url: /t/HL
 ---
 Just ran across <a href="http://tantek.com/2011/009/t3/value-searching-finding-past-tweets-self-hosting"
 rel="in-reply-to">this post</a> of Tantek's from January, 2011:

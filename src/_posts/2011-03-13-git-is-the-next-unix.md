@@ -7,6 +7,7 @@ categories:
 - technology
 tags:
 - git
+short_url: /t/FL
 ---
 [Avery Pennarun](http://apenwarr.ca/log/?m=200801#31) in 2008:
 

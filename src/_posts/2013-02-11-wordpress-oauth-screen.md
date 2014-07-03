@@ -8,6 +8,7 @@ categories:
 tags:
 - wordpress
 - oauth
+short_url: /p/Gk
 ---
 
 Pop Quiz.  After clicking "Authorize" on this page, what do you think Klout will have access to on my WordPress blog?

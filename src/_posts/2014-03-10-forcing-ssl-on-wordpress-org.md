@@ -12,6 +12,7 @@ tags:
 syndication:
 - https://twitter.com/willnorris/status/443144602409656320
 - https://plus.google.com/+willnorris/posts/hZZMpvsWeZ7
+short_url: /t/K8
 ---
 So it seems that [wordpress.org now serves traffic over SSL](http://www.poststat.us/wordpress-org-now-delivered-ssl/),
 and will soon be switching to SSL only.  In the comments on the above article, [Andrew Nacin](http://nacin.com/) said:

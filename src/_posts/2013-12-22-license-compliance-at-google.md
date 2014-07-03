@@ -8,6 +8,7 @@ categories:
 tags:
 - google
 - compliance
+short_url: /t/JK
 ---
 TechRadar has a [great interview with Chris DiBona][techradar] talking about open source compliance (and a few other
 topics) at Google.  I've been on the compliance team at Google for the last year, so it's nice to have something I can

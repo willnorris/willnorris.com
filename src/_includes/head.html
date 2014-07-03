@@ -3,6 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
   <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="{{ "/logo.jpg" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <link rel="{% if page.url != "/" %}home {% endif %}alternate" href="{{ "/feed.atom" | prepend: site.baseurl }}" type="application/atom+xml">

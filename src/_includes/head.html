@@ -15,5 +15,6 @@
 {% endif %}
 {% if paginator.previous_page or page.noindex %}  <meta name="robots" content="noindex">{% endif %}
 {% if page.go_import %}  <meta name="go-import" content="{{ page.go_import }}">{% endif %}
+  <link rel="author" href="https://plus.google.com/+willnorris">
 {% if site.analytics_id %}{% include google-analytics.html %}{% endif %}
 </head>

@@ -1,20 +1,14 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 {% include head.html %}
-
 <body>
-
 {% include header.html %}
-
   <div class="wrap">
     <main>
     {{ content }}
     </main>
   </div>
-
 {% include footer.html %}
-
   <script src="{{ "/js/prism-20140602.js" | prepend: site.baseurl }}"></script>
 </body>
 </html>

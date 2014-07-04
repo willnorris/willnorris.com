@@ -5,6 +5,7 @@ url: "https://willnorris.com"
 author:
   name: "Will Norris"
   url: "https://willnorris.com/"
+analytics_id: UA-620101-2
 
 # Build settings
 source: src

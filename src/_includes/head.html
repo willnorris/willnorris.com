@@ -1,8 +1,8 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
   <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" href="{{ "/logo.jpg" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
@@ -13,18 +13,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{ "/logo.jpg" | prepend: site.baseurl }}" />
   <meta name="mobile-web-app-capable" content="yes" />
 {% endif %}
-  {% if paginator.previous_page or page.noindex %}<meta name="robots" content="noindex">{% endif %}
-  {% if page.go_import %}<meta name="go-import" content="{{ page.go_import }}">{% endif %}
-  <script>
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-620101-2']);
-    _gaq.push(['_gat._forceSSL']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.async = true;
-      ga.src = 'https:////www.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+{% if paginator.previous_page or page.noindex %}  <meta name="robots" content="noindex">{% endif %}
+{% if page.go_import %}  <meta name="go-import" content="{{ page.go_import }}">{% endif %}
+{% if site.analytics_id %}{% include google-analytics.html %}{% endif %}
 </head>

@@ -1,0 +1,19 @@
+{
+  "subject": "acct:will@willnorris.com",
+  "aliases": [
+    "mailto:will@willnorris.com",
+    "https://willnorris.com/"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/avatar",
+      "href": "https://willnorris.com/logo.jpg",
+      "type": "image/jpeg"
+    },
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "href": "https://willnorris.com/",
+      "type": "text/html"
+    }
+  ]
+}

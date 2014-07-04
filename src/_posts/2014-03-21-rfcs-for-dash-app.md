@@ -24,7 +24,10 @@ reference the specifications for things like [HTTP](https://tools.ietf.org/html/
 together a Dash docset that includes every published RFC, indexed and marked up so that Dash can display tables of
 contents.  It looks something like this:
 
-<img src="rfcdash.png" alt="rfcdash" width="932" height="524" class="border" />
+<figure>
+  <img src="rfcdash.png" width="932" height="524" class="border" 
+    alt="Screenshot of Dash application displaying 'RFC 2324 - Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)'">
+</figure>
 
 It's certainly not small... the expanded archive weighs a little over 500 MB.  But it's really nice to have readily
 available if you reference RFCs a lot.  You can [install the docset directly into Dash][install] or find it [on

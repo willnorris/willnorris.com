@@ -1,12 +1,13 @@
 module Jekyll
-  module Filters
-
+  module Syndication
     # Get title for syndication URL.
     def syndication_title(url)
       uri = URI(url)
       case uri.host
       when 'facebook.com', 'www.facebook.com'
         'Facebook'
+      when 'github.com', 'www.github.com'
+        'GitHub'
       when 'news.ycombinator.com'
         'Hacker News'
       when 'plus.google.com'
@@ -24,6 +25,7 @@ module Jekyll
         uri.host
       end
     end
-
   end
 end
+
+Liquid::Template.register_filter(Jekyll::Syndication)

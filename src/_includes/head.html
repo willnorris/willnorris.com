@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" href="{{ "/logo.jpg" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace: 'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <link rel="{% if page.url != "/" %}home {% endif %}alternate" href="{{ "/feed.atom" | prepend: site.baseurl }}" type="application/atom+xml">
 {% if page.url == "/" %}
@@ -14,10 +14,10 @@
   <meta name="mobile-web-app-capable" content="yes" />
 {% endif %}
 {% if page.excerpt %}
-  <meta name="description" content="{{ page.excerpt | strip_html }}">
+  <meta name="description" content="{{ page.excerpt | strip_html | split: ' ' | join: ' ' }}">
   <meta name="twitter:card" content="{{ page.twitter_card }}">
   {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% endif %}
-  <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncatewords:50}}">
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html | split: ' ' | join: ' ' | truncatewords: 50 }}">
   <meta name="twitter:site" content="@willnorris">
   {% if page.author.twitter %}<meta name="twitter:creator" content="{{ page.author.twitter }}">{% endif %}
 {% endif %}

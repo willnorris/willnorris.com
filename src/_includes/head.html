@@ -12,6 +12,8 @@
   <link rel="openid.server" href="https://indieauth.com/openid"/>
   <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{ "/logo.jpg" | prepend: site.baseurl }}" />
   <meta name="mobile-web-app-capable" content="yes" />
+{% else %}
+  <meta name="description" content="{{ page.excerpt | strip_html }}">
 {% endif %}
 {% if paginator.previous_page or page.noindex %}  <meta name="robots" content="noindex">{% endif %}
 {% if page.go_import %}  <meta name="go-import" content="{{ page.go_import }}">{% endif %}

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Shibboleth definition
 wordpress_id: 185
 date: 2007-04-19T00:17:47-07:00

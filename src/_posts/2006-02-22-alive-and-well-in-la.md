@@ -1,5 +1,4 @@
 ---
-layout: post
 title: alive and well in LA
 wordpress_id: 143
 date: 2006-02-22T19:37:47-08:00

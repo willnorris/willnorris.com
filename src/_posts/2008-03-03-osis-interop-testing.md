@@ -1,5 +1,4 @@
 ---
-layout: post
 title: OSIS Interop Testing
 wordpress_id: 220
 date: 2008-03-03T11:06:51-08:00

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Links We Lost
 wordpress_id: 982
 date: 2012-12-14T14:46:33-08:00

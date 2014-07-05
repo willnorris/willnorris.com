@@ -1,5 +1,4 @@
 ---
-layout: post
 title: another year
 wordpress_id: 102
 date: 2003-07-30T00:32:25-07:00

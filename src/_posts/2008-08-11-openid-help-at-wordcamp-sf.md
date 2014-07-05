@@ -1,5 +1,4 @@
 ---
-layout: post
 title: OpenID help at WordCamp SF
 wordpress_id: 247
 date: 2008-08-11T22:19:30-07:00

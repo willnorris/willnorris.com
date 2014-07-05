@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Spring Semester.  Day 1.
 wordpress_id: 129
 date: 2004-01-12T22:13:50-08:00

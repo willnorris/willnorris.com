@@ -1,5 +1,4 @@
 ---
-layout: post
 title: wp-openid intelligent defaults
 wordpress_id: 203
 date: 2007-10-22T15:46:24-07:00

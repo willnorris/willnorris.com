@@ -1,5 +1,4 @@
 ---
-layout: post
 title: OpenID is not a provisioning engine
 wordpress_id: 206
 date: 2007-10-30T01:11:46-07:00

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: new template
 wordpress_id: 64
 date: 2005-08-05T16:36:47-07:00

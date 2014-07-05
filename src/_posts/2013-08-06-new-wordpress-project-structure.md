@@ -1,5 +1,4 @@
 ---
-layout: post
 title: New WordPress project structure
 wordpress_id: 1058
 date: 2013-08-06T13:50:30-07:00

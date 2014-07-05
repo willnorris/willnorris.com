@@ -1,5 +1,4 @@
 ---
-layout: post
 title: DiSo - One Year Later
 wordpress_id: 444
 date: 2008-12-18T12:35:13-08:00

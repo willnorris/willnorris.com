@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Go, REST APIs, and Pointers
 wordpress_id: 1160
 date: 2014-05-27T15:34:24-07:00

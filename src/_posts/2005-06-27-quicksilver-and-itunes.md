@@ -1,5 +1,4 @@
 ---
-layout: post
 title: quicksilver and itunes
 wordpress_id: 43
 date: 2005-06-27T12:26:01-07:00

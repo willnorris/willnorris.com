@@ -1,5 +1,4 @@
 ---
-layout: post
 title: changing majors
 wordpress_id: 112
 date: 2003-08-09T16:24:27-07:00

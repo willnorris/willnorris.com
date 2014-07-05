@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ipod firefly
 wordpress_id: 74
 date: 2005-10-23T21:25:25-07:00

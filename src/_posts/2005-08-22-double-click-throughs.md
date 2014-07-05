@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Double Click-Throughs
 wordpress_id: 69
 date: 2005-08-22T10:57:01-07:00

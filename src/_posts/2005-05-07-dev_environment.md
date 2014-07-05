@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Setting up a web development environment
 wordpress_id: 5
 date: 2005-05-07T01:52:48-07:00

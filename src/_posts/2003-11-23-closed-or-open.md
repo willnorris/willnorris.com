@@ -1,5 +1,4 @@
 ---
-layout: post
 title: closed or open
 wordpress_id: 122
 date: 2003-11-23T04:26:39-08:00

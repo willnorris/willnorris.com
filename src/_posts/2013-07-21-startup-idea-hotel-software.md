@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Startup Idea: Hotel Software'
 wordpress_id: 1042
 date: 2013-07-21T19:25:49-07:00

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Google Maps Innovation
 wordpress_id: 48
 date: 2005-07-05T21:46:08-07:00

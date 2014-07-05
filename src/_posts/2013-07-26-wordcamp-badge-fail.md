@@ -1,5 +1,4 @@
 ---
-layout: post
 title: WordCamp badge fail
 wordpress_id: 1044
 date: 2013-07-26T14:19:01-07:00

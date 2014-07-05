@@ -1,5 +1,4 @@
 ---
-layout: post
 title: back online
 wordpress_id: 104
 date: 2003-09-20T05:05:20-07:00

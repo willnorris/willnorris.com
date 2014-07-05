@@ -1,5 +1,4 @@
 ---
-layout: post
 title: states I've visited
 wordpress_id: 118
 date: 2004-02-17T08:09:38-08:00

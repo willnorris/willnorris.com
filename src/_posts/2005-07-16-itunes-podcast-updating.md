@@ -1,5 +1,4 @@
 ---
-layout: post
 title: iTunes podcast updating
 wordpress_id: 53
 date: 2005-07-16T00:46:46-07:00

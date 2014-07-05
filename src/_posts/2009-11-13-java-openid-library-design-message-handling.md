@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Java OpenID Library Design - Message Handling
 wordpress_id: 888
 date: 2009-11-13T16:16:52-08:00

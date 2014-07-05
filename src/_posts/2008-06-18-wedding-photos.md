@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Wedding Photos
 wordpress_id: 228
 date: 2008-06-18T23:45:28-07:00

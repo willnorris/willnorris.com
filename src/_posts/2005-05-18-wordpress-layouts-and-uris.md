@@ -1,5 +1,4 @@
 ---
-layout: post
 title: wordpress, layouts, and URIs
 wordpress_id: 33
 date: 2005-05-18T00:28:01-07:00

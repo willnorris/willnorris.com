@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Jailbreaking the Internet
 wordpress_id: 1065
 date: 2013-08-14T12:50:40-07:00

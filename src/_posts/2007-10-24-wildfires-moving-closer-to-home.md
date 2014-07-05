@@ -1,5 +1,4 @@
 ---
-layout: post
 title: wildfires moving closer to home
 wordpress_id: 204
 date: 2007-10-24T09:17:40-07:00

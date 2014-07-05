@@ -12,16 +12,17 @@
   <link rel="openid.server" href="https://indieauth.com/openid"/>
   <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{ "/logo.jpg" | prepend: site.baseurl }}" />
   <meta name="mobile-web-app-capable" content="yes" />
-{% else %}
+{% endif %}
+{% if page.excerpt %}
   <meta name="description" content="{{ page.excerpt | strip_html }}">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
+  <meta name="twitter:card" content="{{ page.twitter_card }}">
+  {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% endif %}
   <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncatewords:50}}">
   <meta name="twitter:site" content="@willnorris">
-  <meta name="twitter:creator" content="@willnorris">
+  {% if page.author.twitter %}<meta name="twitter:creator" content="{{ page.author.twitter }}">{% endif %}
 {% endif %}
 {% if paginator.previous_page or page.noindex %}  <meta name="robots" content="noindex">{% endif %}
 {% if page.go_import %}  <meta name="go-import" content="{{ page.go_import }}">{% endif %}
-  <link rel="author" href="https://plus.google.com/+willnorris">
+  {% if page.author.google_plus %}<link rel="author" href="https://plus.google.com/{{ page.author.google_plus }}">{% endif %}
 {% if site.analytics_id %}{% include google-analytics.html %}{% endif %}
 </head>

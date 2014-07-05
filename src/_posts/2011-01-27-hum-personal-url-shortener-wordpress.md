@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hum – A Personal URL shortener for WordPress
 wordpress_id: 918
 date: 2011-01-27T09:02:46-08:00

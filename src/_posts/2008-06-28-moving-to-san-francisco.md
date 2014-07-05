@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Moving to San Francisco
 wordpress_id: 230
 date: 2008-06-28T10:48:45-07:00

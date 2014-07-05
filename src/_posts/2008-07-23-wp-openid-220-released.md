@@ -1,5 +1,4 @@
 ---
-layout: post
 title: wp-openid 2.2.0 released
 wordpress_id: 235
 date: 2008-07-23T18:44:50-07:00

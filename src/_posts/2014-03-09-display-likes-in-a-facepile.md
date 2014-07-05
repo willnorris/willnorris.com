@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Display likes in a facepile
 wordpress_id: 1146
 date: 2014-03-09T22:42:59-07:00

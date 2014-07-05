@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Counting down
 wordpress_id: 75
 date: 2005-11-02T08:52:21-08:00

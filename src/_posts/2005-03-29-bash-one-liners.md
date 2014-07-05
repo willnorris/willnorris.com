@@ -1,5 +1,4 @@
 ---
-layout: post
 title: bash one-liners
 wordpress_id: 13
 date: 2005-03-29T23:52:55-08:00

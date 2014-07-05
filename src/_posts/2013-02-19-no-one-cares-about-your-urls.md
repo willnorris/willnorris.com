@@ -1,5 +1,4 @@
 ---
-layout: post
 title: No one cares about your URLs (so buy a domain)
 wordpress_id: 1008
 date: 2013-02-19T11:30:32-08:00

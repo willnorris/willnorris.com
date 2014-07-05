@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Open Stack (in PHP)
 wordpress_id: 533
 date: 2009-03-19T12:35:43-07:00

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Why I'm going to Vidoop
 wordpress_id: 226
 date: 2008-05-15T00:52:25-07:00

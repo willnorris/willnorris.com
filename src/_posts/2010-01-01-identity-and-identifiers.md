@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Identity and Identifiers
 wordpress_id: 897
 date: 2010-01-01T13:23:07-08:00

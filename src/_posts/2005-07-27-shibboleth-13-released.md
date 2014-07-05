@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Shibboleth 1.3 released
 wordpress_id: 56
 date: 2005-07-27T14:19:17-07:00

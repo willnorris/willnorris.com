@@ -1,5 +1,4 @@
 ---
-layout: post
 title: the stars at night
 wordpress_id: 144
 date: 2006-03-02T15:10:11-08:00

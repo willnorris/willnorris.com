@@ -1,5 +1,4 @@
 ---
-layout: post
 title: try { reuse; } catch (Ex) { reinvent; }
 wordpress_id: 208
 date: 2007-11-05T20:49:45-08:00

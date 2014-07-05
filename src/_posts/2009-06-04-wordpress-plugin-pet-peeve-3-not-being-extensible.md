@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'WordPress Plugin Pet Peeve #3: Not being extensible'
 wordpress_id: 671
 date: 2009-06-04T08:53:25-07:00

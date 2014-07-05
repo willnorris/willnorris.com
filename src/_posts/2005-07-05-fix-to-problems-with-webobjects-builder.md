@@ -1,5 +1,4 @@
 ---
-layout: post
 title: fix to problems with webobjects builder
 wordpress_id: 49
 date: 2005-07-05T22:30:02-07:00

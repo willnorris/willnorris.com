@@ -1,5 +1,4 @@
 ---
-layout: post
 title: hCard is not a provisioning engine (for private data)
 wordpress_id: 207
 date: 2007-11-05T16:29:53-08:00

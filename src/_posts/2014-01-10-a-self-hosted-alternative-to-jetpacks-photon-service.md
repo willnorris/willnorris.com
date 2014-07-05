@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A self-hosted alternative to Jetpack's Photon service
 wordpress_id: 1114
 date: 2014-01-10T08:20:32-08:00

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Improving my HTTPS support
 wordpress_id: 1086
 date: 2013-11-25T12:41:36-08:00

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Email Etiquette: Replying to Mailing Lists'
 wordpress_id: 467
 date: 2008-12-25T14:23:44-08:00

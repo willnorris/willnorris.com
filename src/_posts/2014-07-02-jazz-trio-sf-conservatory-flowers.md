@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Jazz Trio at the SF Conservatory of Flowers
 date: 2014-07-02T21:47:34-07:00
 syndication:

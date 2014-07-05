@@ -1,5 +1,4 @@
 ---
-layout: post
 title: WordPress OpenID v3.0
 wordpress_id: 337
 date: 2008-10-01T18:44:29-07:00

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: iPod Shuffle
 wordpress_id: 72
 date: 2005-09-25T23:40:35-07:00

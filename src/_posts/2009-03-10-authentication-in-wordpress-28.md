@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Authentication in WordPress 2.8
 wordpress_id: 508
 date: 2009-03-10T12:50:07-07:00

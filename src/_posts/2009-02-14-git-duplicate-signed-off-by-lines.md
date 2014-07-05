@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'git: Duplicate Signed-off-by lines'
 wordpress_id: 495
 date: 2009-02-14T15:05:25-08:00

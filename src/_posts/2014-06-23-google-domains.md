@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Google Domains
 wordpress_id: 1166
 date: 2014-06-23T18:07:43-07:00

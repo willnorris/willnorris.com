@@ -1,5 +1,4 @@
 ---
-layout: post
 title: wp-openid moving to DiSo
 wordpress_id: 217
 date: 2007-12-10T12:59:03-08:00

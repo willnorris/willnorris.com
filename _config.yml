@@ -1,11 +1,29 @@
 # Site settings
 name: willnorris.com
-description: "there's more to life than this"
-url: "https://willnorris.com"
-author:
-  name: "Will Norris"
-  url: "https://willnorris.com/"
+description: there's more to life than this
+url: https://willnorris.com
 analytics_id: UA-620101-2
+author:
+  name: Will Norris
+  url: https://willnorris.com/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author:
+        name: Will Norris
+        url: https://willnorris.com/
+        twitter: "@willnorris"
+        google_plus: +willnorris
+  -
+    scope:
+      path: ""
+      type: post
+    values:
+      layout: post
+      twitter_card: summary
 
 # Build settings
 source: src

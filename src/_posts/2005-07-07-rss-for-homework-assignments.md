@@ -1,5 +1,4 @@
 ---
-layout: post
 title: rss for homework assignments
 wordpress_id: 50
 date: 2005-07-07T18:44:19-07:00

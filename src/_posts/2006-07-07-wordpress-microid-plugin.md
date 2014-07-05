@@ -1,5 +1,4 @@
 ---
-layout: post
 title: wordpress microID plugin
 wordpress_id: 153
 date: 2006-07-07T13:13:49-07:00

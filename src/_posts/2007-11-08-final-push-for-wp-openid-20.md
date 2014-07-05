@@ -1,5 +1,4 @@
 ---
-layout: post
 title: final push for wp-openid 2.0
 wordpress_id: 211
 date: 2007-11-08T11:35:28-08:00

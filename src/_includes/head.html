@@ -14,6 +14,11 @@
   <meta name="mobile-web-app-capable" content="yes" />
 {% else %}
   <meta name="description" content="{{ page.excerpt | strip_html }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncatewords:50}}">
+  <meta name="twitter:site" content="@willnorris">
+  <meta name="twitter:creator" content="@willnorris">
 {% endif %}
 {% if paginator.previous_page or page.noindex %}  <meta name="robots" content="noindex">{% endif %}
 {% if page.go_import %}  <meta name="go-import" content="{{ page.go_import }}">{% endif %}

@@ -6,6 +6,7 @@ analytics_id: UA-620101-2
 author:
   name: Will Norris
   url: https://willnorris.com/
+twitter: "@willnorris"
 
 defaults:
   -
@@ -17,13 +18,13 @@ defaults:
         url: https://willnorris.com/
         twitter: "@willnorris"
         google_plus: +willnorris
+      twitter_card: summary
   -
     scope:
       path: ""
       type: post
     values:
       layout: post
-      twitter_card: summary
 
 # Build settings
 source: src

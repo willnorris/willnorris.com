@@ -12,14 +12,16 @@
   <link rel="openid.server" href="https://indieauth.com/openid"/>
   <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{ "/logo.jpg" | prepend: site.baseurl }}" />
   <meta name="mobile-web-app-capable" content="yes" />
-{% endif %}
-{% if page.excerpt %}
-  <meta name="description" content="{{ page.excerpt | strip_html | split: ' ' | join: ' ' }}">
-  <meta name="twitter:card" content="{{ page.twitter_card }}">
-  {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% endif %}
-  <meta name="twitter:description" content="{{ page.excerpt | strip_html | split: ' ' | join: ' ' | truncatewords: 50 }}">
-  <meta name="twitter:site" content="@willnorris">
-  {% if page.author.twitter %}<meta name="twitter:creator" content="{{ page.author.twitter }}">{% endif %}
+{% else %}
+  {% assign excerpt = page.content | markdownify | strip_html | split: ' ' | join: ' ' | truncatewords: 50 %}
+  <meta name="description" content="{{ excerpt }}">
+  {% if page.twitter_card %}
+    <meta name="twitter:card" content="{{ page.twitter_card }}">
+    {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% endif %}
+    <meta name="twitter:description" content="{{ excerpt }}">
+    {% if site.twitter %}<meta name="twitter:site" content="{{ site.twitter }}">{% endif %}
+    {% if page.author.twitter %}<meta name="twitter:creator" content="{{ page.author.twitter }}">{% endif %}
+  {% endif %}
 {% endif %}
 {% if paginator.previous_page or page.noindex %}  <meta name="robots" content="noindex">{% endif %}
 {% if page.go_import %}  <meta name="go-import" content="{{ page.go_import }}">{% endif %}

@@ -16,6 +16,7 @@ defaults:
       author:
         name: Will Norris
         url: https://willnorris.com/
+        photo: https://willnorris.com/logo.jpg
         twitter: "@willnorris"
         google_plus: +willnorris
       twitter_card: summary

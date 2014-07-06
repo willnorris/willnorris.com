@@ -7,6 +7,10 @@
   .column {
     margin-bottom: 2em;
   }
+
+  a:hover {
+    color: lighten($nobel, 5%)
+  }
 }
 
 .copyright {

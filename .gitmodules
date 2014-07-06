@@ -1,3 +1,6 @@
 [submodule "src/_plugins/clean-urls"]
 	path = src/_plugins/clean-urls
 	url = https://github.com/willnorris/jekyll-clean-urls.git
+[submodule "src/slides/io-slides"]
+	path = src/slides/io-slides
+	url = https://github.com/willnorris/io-slides.git

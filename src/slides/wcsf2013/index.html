@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <!--This one seems to work all the time, but really small on ipad-->
+    <!--<meta name="viewport" content="initial-scale=0.4">-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" media="all" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="../io-slides/theme/css/phone.css">
+    <base target="_blank"> <!-- Open all links in a new tab. -->
+    <script data-main="js/slides" src="../io-slides/js/require-1.0.8.min.js"></script>
+  </head>
+  <body style="opacity: 0;">
+    <slides class="layout-widescreen">
+
+      <slide class="fill nobackground" style="background-color: #1d6377; background-image:
+      url(//i0.wp.com/2013.sf.wordcamp.org/files/2013/04/skydark50.jpg)">
+        <article class="flexbox vcenter">
+          <span><img src="images/wordcamp.svg" height="450px" width="auto"></span>
+        </article>
+        <aside class="note">
+          <section>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="title-slide segue nobackground">
+        <aside class="gdbar"><img src="images/wordpress.svg"></aside>
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+        <hgroup class="auto-fadein">
+          <h1 data-config-title></h1>
+          <p>Will Norris <br />willnorris.com</p>
+        </hgroup>
+
+        <aside class="note">
+          <section>
+            <p>Hi, I'm Will Norris.  You can find me online at <a
+              href="https://willnorris.com/">willnorris.com</a>.</p>
+
+            <p>I'm an engineer in Google's <a href="https://developers.google.com/open-source/">Open
+              Source Programs Office</a>, where we provide technical and policy infrastructure for
+            Google's various open source efforts.  We help ensure that Google complies with the
+            licenses of the open source software we use internally, help Googlers release their code
+            as open source, and support the broader open source community through events like the
+            Google Summer of Code.</p>
+
+            <p>Outside of work, I love to hack on WordPress, mainly for my own use and enjoyment,
+            but I also maintain a <a href="http://profiles.wordpress.org/willnorris">handful of
+              plugins</a>.</p>
+
+            <p>But before we really look at <b>how</b> to contribute, I'd like to talk a little
+            about <b>why</b> I contribute.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="segue blue-background nobackground" style="padding: 60px 80px;">
+        <hgroup>
+          <h2><em>Why</em> contribute to WordPress</h2>
+        </hgroup>
+
+        <aside class="note">
+          <section>
+            <p>But I've discovered that sometimes the <em>why</em> is more important than the
+            <em>how</em>, at least when you're first getting started.</p>
+
+            <p>One of the best sources for information about contributing to WordPress is the recent
+            Smashing Magazine article by Siobhan McKeown <b>(Sha-vawn Mac-yown)</b> aptly titled, <a
+              href="http://wp.smashingmagazine.com/2013/05/10/contributing-to-wordpress/">How to
+              Contribute to WordPress</a>.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="segue dark nobackground">
+        <hgroup>
+          <h2>b2 / cafelog</h2>
+        </hgroup>
+
+        <aside class="note">
+          <section>
+            <p>If you're not familiar with the history of WordPress, it actually started as a fork
+            of another system called <a href="http://cafelog.com/">b2</a>.  In early 2003, the
+            future of b2 was in question after its maintainer had been missing in action for several
+            months.  Out of concern over the <a
+              href="http://ma.tt/2003/01/the-blogging-software-dilemma/">future of his personal
+              website</a>, (and thanks to the open source license b2 had been released under) Matt,
+            together with fellow b2 user Mike Little, forked b2 to create what would later become
+            WordPress.</p>
+            
+            <p>You can also read the <a href="http://wordpress.org/about/history/">full story</a>.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="segue dark quote nobackground highlight">
+        <article class="flexbox vleft">
+          <q style="font-size: 36px;">
+            &hellip;contributing to open source, and particularly the WordPress project, is probably
+            one of the best learning opportunities on the Internet.
+          </q>
+          <footer class="author">
+            — Matt Mullenweg, <a href="http://wp.smashingmagazine.com/2013/05/10/contributing-to-wordpress/">Smashing Magazine</a>
+          </footer>
+        </article>
+        <aside class="note">
+          <section>
+            <p>Matt's point about open source being one of the best learning opportunities available
+            is absolutely right, and I completely agree because this is part of what got me involved
+            with WordPress for Android.  I had been wanting to learn Android development for a
+            while, and had started a few small projects, but it never really took.  Getting involved
+            in an established open source project did much more for learning Android than any number
+            of tutorials could have.  You have to apply those lessons for them to be really sink
+            in.</p>
+            
+            <p>But just learning Android wasn't the primary underlying reason that I got
+            involved.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="fill nobackground" style="background: url('images/sharecroppers.jpg') center center ;">
+        <footer class="source">
+          <a href="http://www.flickr.com/photos/jgscism/8622781064/"> 
+            <span class="icon-cc"> Jeffery Scism
+          </a>
+        </footer>
+
+        <aside class="note">
+          <section>
+            <p><a href="http://en.wikipedia.org/wiki/Sharecropping">Sharecropping</a> is a system of
+            agriculture in which a landowner allows a tenant to use the land in return for a share
+            of the crops produced on the land.  The sharecroppers didn't own the land they lived and
+            worked on, and in most cases didn't own the equipment they worked with.  They received
+            their wage and nothing more, with no real opportunity to advance.</p>
+
+            <p>Most of today's popular services are a modern-day equivalent to sharecropping with
+            data.  Users are allowed to use the service at little or no cost, but often have limited
+            ownership of their own contributions, are subject to the policies and terms of service
+            for the site, and almost never have control of how their content is accessed
+            (specifically, the URL for the content uses a domain name owned by the service).</p>
+
+            <ul>
+              <li>What happens when the service decides that your content violates their community
+              guidelines? (Blogger and Tumblr are both changing their policies surrounding adult
+              content)</li>
+              <li>Or that your chosen name doesn't meet their name policies?  (Facebook and Google+
+              have so-called "real name" or "common name" policies that have caused problems for
+              users with non-traditional names)</li>
+              <li>Or what happens when a large company decides they really want your chosen
+              username, and the site is willing to give it to them?  (This has happened with
+              both Twitter and Tumblr, among others)
+            </ul>
+
+            <p>What happens to your data then?  Many services now let your export your data in some
+            format, but what about the URLs?  In most cases, you'll never be able to redirect those
+            to wherever you decide to move your data.</p>
+
+            <p>Despite the issues around data ownership and control, these types of services are
+            flourishing, and for very good reason.  They work really, really well.  And their user
+            experience is <em>really</em> good, particularly on mobile.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="nobackground android-beauty">
+        <article>
+          <ul class="build">
+            <li id="instagram"><img src="images/instagram.jpg" alt="Instagram" /></li>
+            <li id="google-plus"><img src="images/google-plus.jpg" alt="Google+" /></li>
+            <li id="pinterest"><img src="images/pinterest.png" alt="Pinterest" /></li>
+            <li id="facebook"><img src="images/facebook-home.jpg" alt="Facebook Home" /></li>
+            <li id="vine"><img src="images/vine.png" alt="Vine" /></li>
+            <li id="path"><img src="images/path.jpg" alt="Path" /></li>
+          </ul>
+        </article>
+
+        <aside class="note">
+          <section>
+
+            <ul>
+              <li>
+                  <strong><a href="https://play.google.com/store/apps/details?id=com.instagram.android">Instagram</a></strong>
+                  - provides an incredibly simple interface for taking pictures, applying some basic
+                  filters, and then sharing them with friends.
+              </li>
+              <li>
+                <strong><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.plus">Google+</a></strong>
+                - one of the first a applications to auto-upload your photos, also with a great UI
+                for composing and sharing content
+              </li>
+              <li>
+                <strong><a href="https://play.google.com/store/apps/details?id=com.pinterest">Pinterest</a></strong>
+                - while primarily thought of as a content curation service for images discovered on
+                the web, they also have a great mobile experience for browsing pinboards.
+              </li>
+              <li>
+                <strong><a href="https://play.google.com/store/apps/details?id=com.facebook.home">Facebook Home</a></strong>
+                - even if you don't really like the idea of a Facebook powered home screen, it's
+                hard to deny that the application <em>looks</em> great.  Chat heads in particular
+                have received a great response, even from folks critical of the rest of the app.
+              </li>
+              <li>
+                <strong><a href="https://play.google.com/store/apps/details?id=co.vine.android">Vine</a></strong>
+                - Vine did for video what Instagram originally did for photos, making it very simple
+                to create and share simple videos.
+              </li>
+              <li>
+                <strong><a href="https://play.google.com/store/apps/details?id=com.path">Path</a></strong>
+                - one of the first successful social networks to launch with a mobile-only strategy,
+                they certainly set the bar for mobile social apps
+              </li>
+            </ul>
+
+            <p>These are some of the best mobile experiences in the industry, but they all feed into
+            data silos and sharecropped accounts.  Now I don't fundamentally have a problem with
+            these services. In fact, I've found myself consuming and sharing content on mobile a lot
+            more recently. But I really would like to maintain more ownership of my data and have
+            control over how it is accessed.</p>
+            
+            <p>While I don't personally use my phone or tablet for long-form blogging, why shouldn't
+            the mobile experience for sharing content on my own WordPress site, where I do have
+            complete control and ownership of the data, just as good as these other services?
+            Programmers often talk about making the "right way" to do something also be the easiest
+            way.  Shouldn't that principal apply here as well?</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="segue dark nobackground">
+        <hgroup>
+          <h2>
+            <div class="icon-indiewebcamp"></div>
+            IndieWebCamp
+          </h2>
+        </hgroup>
+        <aside class="note">
+          <section>
+            <p>Of course, I'm not the only one who cares deeply about owning my own data.</p>
+
+            <p><a href="http://indiewebcamp.com/">IndieWebCamp</a> is an annual event in Portland,
+            Oregon timed to be the weekend following <a href="http://opensourcebridge.org/">Open
+              Source Bridge</a>; we just had the third IndieWebCamp last month.</p>
+
+            <p>The indie web itself is actually a really simple concept... it's about owning your
+            identity and your content online.  It starts by owning a domain name, and using the
+            domain to publish your content.</p>
+
+            <p>It's important to note that the indie web is not about eschewing the silos
+            altogether.  That's actually where many previous, similar efforts have failed.  The goal
+            here is to leverage these larger services for the social connection they provide, but to
+            participate on them in a way that puts you in more control.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide>
+        <hgroup>
+          <h2>IndieWebCamp</h2>
+        </hgroup>
+        <article>
+          <div class="build" style="font-size: 1.1em;">
+            <p><strong>POSSE</strong> - Publish (on your) Own Site, Syndicate Elsewhere</p>
+            <p><strong>PESOS</strong> - Publish Elsewhere, Syndicate (to your) Own Site</p>
+            <p><strong>Self-dogfooding</strong> - "Is its creator living and breathing it in his
+            day-to-day online life? If so, awesome, if not, yawn." &mdash; Tantek Çelik</p>
+          </div>
+        </article>
+
+        <aside class="note">
+          <section>
+            <p>Publishing content can happen in two different ways.</p>
+            
+            <p>The preferred model is one where you initially publish to your own site, and then
+            syndicate elsewhere.  This frees you from the arbitrary constrains of any one network,
+            such as Twitter's character limit.  When you syndicate out to these networks, you
+            provide a link back to your original, full fidelity content.</p>
+
+            <p>The second model is one where you initially publish elsewhere, and then syndicate
+            back to your own site.  This ensures that you still have copy of your data, but puts you
+            at the mercy of the site you are publishing to.</p>
+
+            <p>Finally, the indie web puts a strong emphasis on the notion of self-dogfooding.  The
+            idea of dogfooding, or using one's own product, is relatively common in tech companies.
+            Self-dogfooding takes that one step further, and applies it to your personal day-to-day
+            life (not just your day job).  We've discovered that this results in many cases, this
+            results in better results in less time because the creators is actually buliding it for
+            themselves.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="segue dark quote nobackground">
+        <article class="flexbox vleft">
+          <q>
+            Start where you are<br />
+            Use what you have<br />
+            Do what you can
+          </q>
+
+          <footer class="author">
+            — Arthur Ashe
+          </footer>
+        </article>
+
+        <aside class="note">
+          <section>
+            <p>Self-dogfooding is about doing what works for you right now.  Start where are are
+            right now, and use what tools and skills you have to solve a single problem that you're
+            having.</p>
+
+            <p>As you look into the different ways you can get involved with open source, you're
+            going to find that this principal applies there as well. There are tons of opportunities
+            to contribute no matter where you are starting from, especially with a project like
+            WordPress.  Just do what you can.</p>
+
+            <p>So for me, that starting point was a desire to have a better experience for sharing
+            content on WordPress from my mobile device.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="nobackground screenshots" id="https">
+        <article class="flexbox vcenter">
+          <i class="lock"> HTTPS</i>
+          <div class="build">
+            <aside class="quote overlay">
+              <q>This blog isn’t terribly controversial. But if only the “controversial” stuff is
+                private, then privacy is itself suspicious. Thus, privacy should be on by
+                default.</q>
+              <footer class="author">
+                — Tim Bray, <a href="https://www.tbray.org/ongoing/When/201x/2012/12/02/HTTPS">Private
+                  By Default</a>
+              </footer>
+            </aside>
+          </div>
+        </article>
+      </slide>
+
+      <slide class="nobackground screenshots" id="all-https">
+        <article class="flexbox vcenter">
+          <img src="images/all-https.png" />
+        </article>
+
+        <aside class="note">
+          <section>
+            <p>In December of 2012 <a href="https://willnorris.com/2012/12/all-https-all-the-time">I
+              decided</a>, partly out of principal and partly just as an experiment, to require all
+            traffic on my personal site to happen over a secure HTTPS connection.</p>
+
+            <p>Due to where my site was being hosted at the time, I used a feature known as <a
+              href="http://en.wikipedia.org/wiki/Server_Name_Indication">Server Name Indication</a>.
+             Typically, a server must have a unique IP address for each secure website it hosts,
+             making it expensive, if not impossible, to host a secure site on a typical shared
+             hosting plan.  SNI allows multiple secure sites to be served from a single IP
+             address, significantly lowering the barrier to entry.  Browser support for SNI is
+             good with the latest version of IE, and the last several versions of other major
+             browsers.  Support in various HTTP libraries is spotty at best.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="nobackground screenshots">
+        <article class="flexbox vcenter">
+          <img src="images/android-error.png" />
+        </article>
+
+        <aside class="note">
+          <section>
+            <p>Android ships with two HTTP clients, the <a
+              href="http://developer.android.com/reference/org/apache/http/impl/client/DefaultHttpClient.html">Apache
+              HTTP Client</a> and Android's implementation of <a
+              href="http://developer.android.com/reference/java/net/HttpURLConnection.html">HttpURLConnection</a>.
+            Older versions of Android work better with the Apache client, however <a
+              href="https://issues.apache.org/jira/browse/HTTPCLIENT-1119">it doesn't support
+              SNI</a>.  For more recent versions of Android, HttpURLConnection is recommended.  At
+            the time, WordPress for Android used the Apache client which wouldn't work with my
+            site.</p>
+
+            <p>Now to be fair, it doesn't really surprise me that this hadn't been noticed before.
+            I only ran into it because I was using the WordPress for Android app, AND I have SSL
+            enabled for my site, AND I am using SSL with SNI.  I don't imagine that there are a very
+            large number of people who meet this criteria, so the number of effected users is
+            probably pretty low.  But for me, this was an absolutely critical problem, since it
+            prevented me from using the app at all.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="segue dark quote nobackground">
+        <article class="flexbox vleft">
+          <q>
+            Every good work of software starts by scratching a developer's personal itch.
+          </q>
+          <footer class="author">
+            — Eric Raymond, <a
+              href="http://www.catb.org/esr/writings/homesteading/cathedral-bazaar/">The Cathedral
+              and the Bazaar</a>
+          </footer>
+        </article>
+
+        <aside class="note">
+          <section>
+            <p>This is particularly important with bug fixes that are specific to a particular
+            environemnt.  These are some of the most difficult bugs to fix, so they tend not to get
+            as much attention.  (I really learned this lesson when working on the OpenID
+            plugin.)</p>
+          </section>
+        </aside>
+
+      </slide>
+
+      <slide class="nobackground screenshots">
+        <article class="flexbox vcenter">
+          <img src="images/changeset-868.png" />
+        </article>
+
+        <aside class="note">
+          <section>
+            <p>One of my very first contributions to WordPress for Android was to scratch one of my
+            own itches.  I switched the app to use the newer HTTP client which did support SNI, and
+            was thereby able to use the app with my personal website.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="segue blue-background nobackground" style="padding-left: 60px;">
+        <hgroup>
+          <h2 style="line-height: 1.5em;">Understanding <em>why</em> you want to contribute often
+            leads naturally to <em>how</em> you ought to contribute.</h2>
+        </hgroup>
+
+        <aside class="note">
+          <section>
+            <p>I've discovered that whatever the reason for why you want to contribute will often
+            lead you to how you ought to contribute.  And I've found that some of the best
+            contributors to open source projects are those who have a specific pursuit in mind, a
+            goal they are trying to accomplish.</p>
+
+            <p>Matt had the specific goal of ensuring that he would have a blogging platform to
+            continue using.  For me, I first just wanted to get the Android app working with my
+            website.</p>
+            
+            <p>As a newcomer to a project, a prerequisite for contributing to a project is first
+            understanding it.  This is a really important role, because so often the getting started
+            process doesn't get documented as well as it could.</p>
+            
+            <p>But as a secondary motivation, I wanted to have a great experience for
+            publishing content to my own site from my phone, rather than feeling drawn to publish
+            content into data silos.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="nobackground android-beauty">
+        <article>
+          <ul>
+            <li id="instagram"><img src="images/instagram.jpg" alt="Instagram" /></li>
+            <li id="google-plus"><img src="images/google-plus.jpg" alt="Google+" /></li>
+            <li id="pinterest"><img src="images/pinterest.png" alt="Pinterest" /></li>
+            <li id="facebook"><img src="images/facebook-home.jpg" alt="Facebook Home" /></li>
+            <li id="vine"><img src="images/vine.png" alt="Vine" /></li>
+            <li id="path"><img src="images/path.jpg" alt="Path" /></li>
+          </ul>
+        </article>
+      </slide>
+
+      <slide class="nobackground screenshots">
+        <article class="flexbox vcenter">
+          <img src="images/ui-sketch.jpg" />
+        </article>
+
+        <aside class="note">
+          <section>
+            <p>First, it should be said that I am by no means a graphic designer.  So when it came
+            time to try to improve the WordPress UX on Android, I truly "used what I had", which was
+            pencil and paper.  I read a lot about <a
+              href="http://developer.android.com/design/patterns/">Android design patterns</a>,
+            watched a lot of <a href="http://androiddesigninaction.com">Android Design in Action</a> (which
+            is a <strong>great</strong> web series from the Android team at Google), and printed out
+            Taylor Ling's <a
+              href="http://androiduiux.com/2013/01/06/printable-a4-screen-flow-sketch-template-free-download/">Screen
+              Flow Sketch Template</a> (all free resources).</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="nobackground screenshots">
+        <article class="flexbox vcenter">
+          <img src="images/mock-post-list.png" />
+          <img src="images/mock-comment-list.png" />
+        </article>
+
+        <aside class="note">
+          <section>
+            <p><a href="http://androiduiux.com/2013/03/12/android-ui-design-kit-psd-4-2-free-download/">Android
+              UI Design Kit for Photoshop</a></p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="nobackground screenshots">
+        <article class="flexbox vcenter">
+          <img src="images/dev-android-post.png" />
+        </article>
+      </slide>
+
+      <slide class="segue blue-background nobackground" style="padding-left: 60px;">
+        <hgroup>
+        <h2 style="line-height: 1.5em; padding-right: 1em;"><em>Not</em> getting paid to work on your passion project
+          can often be more fun.</h2>
+        </hgroup>
+
+        <aside class="note">
+          <section>
+            <p>So often, when you're getting paid to work on a project or codebase, you tend not to
+            have as much freedom to work on the parts you really want to.  You have to work on what
+            the client really wants, or the highest priority bugs.  Not that there's anything wrong
+            with that, those are important and of course need to get done.  But I've found that when
+            it comes to the projects I really love and work on for fun, getting paid to work on them
+            can take the fun out of it.</p>
+
+            <p>When I started contributing to WordPress for Android, the core team was focused on
+            other features that weren't as interesting to me at the time.  But I was still able to
+            work on the features that were important to me, as long as I got buy-in from the core
+            team.</p>
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="segue dark quote nobackground">
+        <article class="flexbox vleft">
+          <q>
+            We're the lucky set of people with the skill and opportunity to make
+            the changes we believe in.  So we should.
+          </q>
+          <footer class="author">
+            — Joe LaPenna, Google Engineer
+          </footer>
+        </article>
+
+        <aside class="note">
+          <section>
+            This quote was part of an internal Google+ post discussing feature
+            requests and bug reports between different teams at Google.  Google's
+            code base is sort of setup like a giant open source project.  With
+            only a handful of exceptions, every engineer at Google has the
+            ability to view just about any line of code for any product.  Because
+            of this, it is very easy for an engineer to send a patch to another
+            team to fix a bug or add a new feature.  More importantly, this mode
+            of contributing to other projects around the company is very much a
+            part of the culture at Google.  Googlers are empowered and encouraged
+            (expected, even) to push for changes they believe in.
+          </section>
+        </aside>
+      </slide>
+
+      <slide class="thank-you-slide segue nobackground">
+        <aside class="gdbar right"><img src="images/wordpress.svg"></aside>
+        <article class="flexbox vleft">
+          <h2>Thank You!</h2>
+        </article>
+        <p class="auto-fadein">
+          Will Norris <br />willnorris.com
+        </p>
+
+        <aside class="note">
+          <section>
+          </section>
+        </aside>
+      </slide>
+
+
+      <slide class="backdrop"></slide>
+
+    </slides>
+
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+
+    <!--[if IE]>
+      <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+      <script>CFInstall.check({mode: 'overlay'});</script>
+    <![endif]-->
+  </body>
+</html>

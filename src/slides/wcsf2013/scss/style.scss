@@ -1,0 +1,197 @@
+@import "compass/css3";
+@import "compass/css3/box-shadow";
+@import "compass/css3/transform";
+
+@import "variables";
+
+// Override variables
+$slide-border-radius: 0;
+
+$brand-small-icon-size: 75px;
+
+body {
+  min-height: 100%;
+  max-height: 100%;
+}
+
+@import "default";
+@import "print";
+@import "openwebicons";
+
+$FontAwesomePath: "../font";
+$FontAwesomeVersion: "3.2.1";
+@import "fontawesome/path";
+
+::selection {
+  background-color: #f89622;
+}
+
+aside.gdbar img {
+  margin: 11px 15px;
+}
+
+.note p + p {
+  margin-top: 1em;
+}
+
+.title-slide {
+  hgroup > p {
+    font-size: 1em;
+  }
+}
+
+.source {
+  background: rgba(0, 0, 0, 0.7);
+  color: inherit;
+  padding: 1em;
+  bottom: $slide-top-bottom-padding;
+  a {
+    color: $gray-1;
+    text-decoration: none;
+  }
+}
+
+slides > slide {
+  &:before {
+    background: none !important;
+    content: none !important;
+  }
+  &:after {
+    content: none !important;
+  }
+}
+
+slide.blue-background {
+  background: #1d6377 !important;
+  h2, h3 {
+    color: $gray-1;
+  }
+}
+
+.android-beauty {
+  article ul {
+    margin: -30px 0 0 0;
+    list-style: none;
+
+    li {
+      display: block;
+      position: absolute;
+      background-color: #FFF;
+      &[class=""] img { 
+        opacity: 0.35;
+      }
+      &:before {
+        content: none;
+      }
+    }
+    img {
+      @include transition(opacity 0.5s ease-in-out 0.2s);
+      @include box-shadow(#666 0 10px 20px);
+      height: 720px;
+      width: auto;
+    }
+    .build-current {
+      opacity: 1.0em;
+    }
+    #instagram {
+      @include rotate(-7deg);
+      top: 30px;
+      left: 0%;
+    }
+    #facebook {
+      @include rotate(2deg);
+      top: 0;
+      left: 0;
+    }
+    #google-plus {
+      @include rotate(3deg);
+      top: 5%;
+      left: 25%;
+    }
+    #path {
+      @include rotate(-8deg);
+      top: 15px;
+      left: 27%;
+    }
+    #pinterest {
+      @include rotate(-2deg);
+      top: 10px;
+      left: 48%;
+    }
+    #vine {
+      @include rotate(9deg);
+      top: 20px;
+      left: 58%;
+    }
+  }
+}
+
+.screenshots {
+  img {
+    max-width: 95%;
+    max-height: 80%;
+    margin: 0 1em;
+    @include box-shadow(#666 0 10px 20px);
+  }
+  &.nobackground img {
+    display: inline-block;
+    max-height: 90%;
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 3em;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#https {
+  .lock {
+    font-family: 'FontAwesome';
+    font-size: 7em;
+    &:before {
+      content: "\f023"
+    }
+  }
+  .overlay {
+    padding: 5em 3em;
+    .author {
+      bottom: 450px;
+    }
+  }
+}
+
+slide.current.highlight {
+  article {
+    b {
+      font-weight: normal;
+    }
+  }
+}
+
+.highlight-code slide.current.highlight {
+  article {
+    * {
+      color: rgba(230, 230, 230, 0.3);
+      @include transition(color 0.5s ease-in);
+    }
+    b {
+      color: rgba(230, 230, 230, 1.0);
+    }
+  }
+}
+
+.thank-you-slide {
+  background: #1d6377 !important;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}

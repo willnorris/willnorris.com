@@ -1,0 +1,60 @@
+---
+title: One step forward, two steps back
+date: 2014-07-06T21:55:43-07:00
+short_url: /b/4Wy1
+---
+After [9 years, 1 month, and 14 days][wordpress-post] with WordPress, I migrated my website to a new [Jekyll][]-based
+setup this past week.  I think that when you migrate from WordPress to Jekyll, you're required to immediately write
+about it, so here goes.
+
+There are a lot of reasons why people switch to static site generators like Jekyll.  There are all the normal reasons
+like the increased speed and reliability of simply serving static files, the increased security of not having any (or
+very little) server side code to be exploited, and the overall simplicity of authoring posts as plaintext markdown
+files.  All of those are reasons I can identify with and are certainly part of why I switched, but there was more to it.
+
+[wordpress-post]: https://willnorris.com/2005/05/wordpress-layouts-and-uris
+[Jekyll]: http://jekyllrb.com/
+
+## Building for the Web ##
+
+I don't know how else to put this than to say that lately I have felt like I was spending more time building for
+WordPress and less time building for the web.  Sure WordPress powers websites, and at the end of the day you still end
+up with HTML, CSS, and JavaScript.  But there is a right way and a wrong way to build things in WordPress, and it's
+almost never as simple as just sticking some HTML where it needs to go.  Idiomatic WordPress code must be designed to
+live alongside any number of other plugins or themes without interfering with them.  It requires a bit more effort on
+the part of the developer, but it's a very large part of what makes WordPress what it is.  It's what allows WordPress to
+be so versatile in the types of content it can serve, how it behaves, and what it looks like.
+
+I still maintain my [wife's website][nss] as well as [my church's][cchmb], both of which run on WordPress.  For pretty
+much anyone who asks, it's still the platform that I recommend without hesitation.  But for myself as an engineer, for
+my personal website, the added tax of building everything within the WordPress environment became a cost I no longer
+wanted to pay.  At least for right now, I want to live a little closer to the web without a content management system
+getting in the way.
+
+[nss]: https://notsoserendipitous.com/
+[cchmb]: http://cchmb.org/
+
+## Two steps back for the IndieWeb ##
+
+One of the sacrifices I consciously made in migrating off of WordPress was giving up much of the [IndieWeb][]
+functionality I had working such as sending and receiving [webmentions][].  There are certainly folks in the IndieWeb
+community that have this working for Jekyll and other static sites, so it's certainly doable.  I've gone back and forth
+for a long time about whether I want comments on my site at all, so this was easy for me to give up for right now.  I
+still have historical comments, some of which I greatly value and may resurrect, but for now they aren't being surfaced.
+[POSSEing][POSSE] posts to silo networks is a higher priority, and is something I'll need to come up with some kind of
+solution for, even if it is manual for now.
+
+One IndieWeb piece that I did maintain was my short URLs.  Though they are not being advertised on the posts right now,
+all of the historical short URLs that were being powered by [Hum][] still work.  They are now powered by a new short URL
+resolver I wrote called Gum (it's sorta like Hum, but ported to Go).
+
+Gum is a pretty good example of how I expect to continue building my site – static content with a few small Go servers
+hiding behind certain URLs powering limited dynamic content or other things that I can't do with static files.  One idea
+I've been considering for a while is looking at what content could be partially backed by [Camlistore][], but I haven't
+worked all that out yet.  One thing at a time.
+
+[IndieWeb]: http://indiewebcamp.com/
+[webmentions]: http://indiewebcamp.com/webmention
+[POSSE]: http://indiewebcamp.com/posse
+[Hum]: http://wordpress.org/plugins/hum/
+[Camlistore]: http://camlistore.org/

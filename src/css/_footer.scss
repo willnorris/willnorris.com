@@ -8,8 +8,12 @@
     margin-bottom: 2em;
   }
 
-  a:hover {
-    color: lighten($nobel, 5%)
+  a {
+    border-color: $nobel;
+    color: $nobel;
+    &:hover {
+      color: lighten($nobel, 5%)
+    }
   }
 }
 

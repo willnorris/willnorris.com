@@ -7,6 +7,8 @@ author:
   name: Will Norris
   url: https://willnorris.com/
 twitter: "@willnorris"
+include:
+  - .well-known
 
 defaults:
   -

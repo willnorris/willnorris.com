@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/willnorris
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://willnorris.com
+  * I am willnorris (https://keybase.io/willnorris) on keybase.
+  * I have a public key with fingerprint 6918 7042 4552 90C1 FCBB  5492 6B3A 242D 0BC4 CBB0
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "69187042455290c1fcbb54926b3a242d0bc4cbb0",
+            "host": "keybase.io",
+            "key_id": "6b3a242d0bc4cbb0",
+            "uid": "1517c2e639d6fe3c296129095878c200",
+            "username": "willnorris"
+        },
+        "revoke": {
+            "sig_ids": [
+                "1a1a5960216b36cd927119365ac34bc7c9ca30a3fe0ea8aaa99a9628020e73900f"
+            ]
+        },
+        "service": {
+            "hostname": "willnorris.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1404692683,
+    "expire_in": 157680000,
+    "prev": "518e3d48fa4b975002b57162f205ea370705d7a1988b36f31cf1ee2e41b4c9b5",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFlkn9QVFUUx5cloVBGLUf5ZeKLSA3ovt/vraI7GI3a0IiSmCDM+3Hf7gP2vf3l
+7goDMRbTKE4gCCgzKuGwo2DgwpSmA2KiGISGGokwIiYzReFklsQQ1Fum/vL+c+ee
+872f7zlnTnlooE4fMD/r8rdDYQtNAb0/87rtX/30SwHCq+JexFCA5MK5S5IVE7Rb
+7bLiRAwIxaIMDQiMIEmMBQIqCTxPEixG8TiHEZgIeIHQQgCJQ8yqw/9Dw/CcAybI
+qhbTHtmy6Oc8r98zl0BJlBYwSOGsSEkQFzCWQjUnlmRoRsDAnNAB7QpngZraLefl
+KardLjuQwjjEDl1qLvQX7ZBNmo8DMWQgKIdyJEsBDNU8KUFkMRpFWZwiOQEneIEW
+WIHDAYdLEECO4TiOZTmWwhiAAUjjLAASsltja54uWZiD+xt7zj9BUC1abVa76lQF
+NU/LmZ1Oq8Pgr8u51zonhnz2f5hsXlZEbbDaDxe0O2RVQQyophScsp+LEoCgtKEy
+eBwCPVbZDrNlv4KkKQZox+8DXRqSRBmIiwQjcQTP0iQAGE/SKIVJGCAhh9OABqRI
+cyjLMFrzEo4KEgohBgmUJwSWJxF/YzZFRQx03CuIkzNpTG12CufcY4dIYch+fdQL
+ugC9Lmie3r8cupCXFv2/MbGhi3TlW0u7DKtPbIsZvpo+8u5gncHWU+vJrPA+/PP8
+17fdNwdqVxy/3xme8Q763o/Hvabr3588Mto1udiRn191par4dm/91oeLHw2bS8Rt
+uaPeL2LEt46GNYapxozQmsT4R1xs7cD50j+qP3pj/rUTty52bxzPHPIUiVnBG767
+c2E2Nf/NjOrJHSmt+6AxfiS5zqfrT61+usxa+fkU0zCWT3dGH65Jru+eunHVNnmy
+GZ9d6zv02++XT19KT3BdmjZueZyXtD6t5oG571TTdZ8ee93REf1J26q+t5eDTYVJ
+qVuU+Onx092DHQNHU1q6Svonjl1rPnj3qeQuSjuXPhUVvKAs+MPuhSu7alzpn35Z
+UiDOVg2l/TCQn9NfFhQ99mLQrqKglg92TjdciPRMlJ4B2wcjVt8hO83u/nuWus9e
+VlY1Nx04G5HCpy0YDJ/ZX5n7D/crjN3hW89LK0LaNydVBB6T57WNeTMjc0ZzbBS2
+L76tzNSzbs2R9xvLLc/cJVOH9T1KZHh08e760rr7ay4qir4ha4kUXV0ZFR41UsX2
+DzcZH7esWzoTc3dX31+BvWMfs0nOQ56Nhp2v3dzQmnzl7LO6xlMTvnPe8NmmJ0vw
+1k0WMfFAcYbHFpHZ/mqFzbjs1jftiV1w4t7fNcac5QMz9bU3ms4srWp9UF86zq71
+mTfHuvs6LAdXFiBRT/4F
+=U0Qt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/willnorris
+
+==================================================================

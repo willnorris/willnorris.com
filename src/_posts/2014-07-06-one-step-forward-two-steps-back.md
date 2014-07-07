@@ -29,7 +29,7 @@ I still maintain my [wife's website][nss] as well as [my church's][cchmb], both 
 much anyone who asks, it's still the platform that I recommend without hesitation.  But for myself as an engineer, for
 my personal website, the added tax of building everything within the WordPress environment became a cost I no longer
 wanted to pay.  At least for right now, I want to live a little closer to the web without a content management system
-getting in the way.
+getting in the way.  And if I'm honest, I just want to try something new for a while.  This site is my place to do that.
 
 [nss]: https://notsoserendipitous.com/
 [cchmb]: http://cchmb.org/

@@ -35,6 +35,6 @@ or missing links on the new site, please comment below.)
 [michael heilemann]: http://binarybonsai.com/
 [kubrick]: http://binarybonsai.com/kubrick/
 [ciro]: http://www.flickr.com/photos/ciro/
-[creative commons]: http://www.creativecommons.com/
+[creative commons]: https://creativecommons.org/
 [cool uri]: http://www.w3.org/Provider/Style/URI.html
 [broken urls]: http://willnorris.com/2005/01/cooluris

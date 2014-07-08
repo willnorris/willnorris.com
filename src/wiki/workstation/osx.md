@@ -1,5 +1,4 @@
 ---
-layout: default
 title: OS X Workstation
 ---
 

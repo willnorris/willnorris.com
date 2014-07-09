@@ -61,42 +61,6 @@ Restart mysqld:
 
 Further reading: <http://stackoverflow.com/questions/4359131/brew-install-mysql-on-mac-os>
 
-## Apache ##
-
-Turn on 'Web Sharing' in the Sharing preference pane.  
-Edit `/etc/apache2/httpd.conf` with the following changes:
-
- - edit: `Listen 127.0.0.1:80`
- - uncomment: `LoadModule php5_module libexec/apache2/libphp5.so`
- - uncomment: `Include /private/etc/apache2/extra/httpd-vhosts.conf`
-
-Edit `/etc/apache2/extra/httpd-vhosts.conf` with the following changes:
-
- - comment out all `<VirtualHost>` sections
- - add the following line to the end
-
-`VirtualDocumentRoot /Users/willnorris/Sites/%0/public/`
-
-Alternately, if using \*.dev or similar hostnames, use the following virtual document root:
-
-`VirtualDocumentRoot /Users/willnorris/Sites/%-2+/public/`
-
-Edit `/etc/apache2/users/willnorris.conf` with the following changes:
-
- - edit: `Options Indexes MultiViews FollowSymLinks`
- - edit: `AllowOverride All`
- - add duplicate `<Directory>` section for "/Users/willnorris/Projects/"
-
-Restart apache:
-
-    sudo apachectl restart
-
-Create site for `localhost`:
-
-    mkdir -p ~/Sites/localhost/public
-    echo '<?php phpinfo(); ?>' > ~/Sites/localhost/public/info.php
-
-
 ## PHP ##
 
     sudo cp /etc/php.ini.default /etc/php.ini

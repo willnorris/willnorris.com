@@ -87,24 +87,6 @@ Restart mysqld:
 
 Further reading: <http://stackoverflow.com/questions/4359131/brew-install-mysql-on-mac-os>
 
-## PHP ##
-
-    sudo cp /etc/php.ini.default /etc/php.ini
-    sudo touch /var/log/php.log
-    sudo chown www /var/log/php.log
-
-Edit `/etc/php.ini` with the following changes:
-
- - edit: `date.timezone = 'America/Los_Angeles'`
- - edit: `mysql.default_socket = /tmp/mysql.sock`
- - edit: `mysqli.default_socket = /tmp/mysql.sock`
- - edit: `pdo_mysql.default_socket = /tmp/mysql.sock`
- - add: `error_log = /var/log/php.log`
-
-Restart apache:
-
-    sudo apachectl restart
-
 ## /etc/hosts ##
 
     sudo vi /etc/hosts

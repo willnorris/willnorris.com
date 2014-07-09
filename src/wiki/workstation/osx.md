@@ -7,10 +7,14 @@ title: OS X Workstation
 
 ## Host Configuration ##
 
-If necessary, configure a custom hostname by adding the following to `/etc/hostconfig`
+Set the Computer Name in the OS X Sharing Preference Pane.  If necessary, also
+configure a custom hostname by adding the following to `/etc/hostconfig`:
 
     HOSTNAME=<hostname>
 
+## Dotfiles ##
+
+[Install homedir and dotfiles](https://github.com/willnorris/dotfiles#readme)
 
 ## Homebrew ##
 
@@ -20,9 +24,9 @@ If necessary, configure a custom hostname by adding the following to `/etc/hostc
 
 Full installation docs at <https://github.com/Homebrew/homebrew/wiki/Installation>
 
-Ensure that /opt/homebrew/bin is in the path by adding the following to `~/.bash/host/$HOST`
+Ensure that /opt/homebrew/bin is in the path (for example: [mordecai.env][])
 
-    setAppHome homebrew /opt/homebrew
+[mordecai.env]: https://github.com/willnorris/dotfiles/blob/233a786841cb9c44e7e91ff21fdf73ad1a16efa7/zsh/.zsh/host/mordecai.env#L1-L4
 
 ### Packages ###
 

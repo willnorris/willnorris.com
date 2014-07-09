@@ -36,6 +36,32 @@ Additional packages that may or may not be relevant:
 
     brew install google-app-engine mercurial synergy
 
+## Nginx ##
+
+    brew install nginx
+
+Update nginx config `/opt/homebrew/etc/nginx/nginx.conf` to contain:
+
+``` nginx
+worker_processes 1;
+
+events {
+    worker_connections 1024;
+}
+
+http {
+    include mime.types;
+    sendfile on;
+    keepalive_timeout 65;
+    include /Users/willnorris/Sites/*/nginx.conf;
+}
+```
+
+In order to run on port 80, the launchctl config must be installed in `/Library/LaunchAgents`:
+
+    sudo cp /opt/homebrew/opt/nginx/homebrew.mxcl.nginx.plist /Library/LaunchAgents
+    sudo chown root /Library/LaunchAgents/homebrew.mxcl.nginx.plist
+    sudo launchctl load /Library/LaunchAgents/homebrew.mxcl.nginx.plist
 
 ## MySQL ##
 

@@ -30,11 +30,7 @@ Ensure that /opt/homebrew/bin is in the path (for example: [mordecai.env][])
 
 ### Packages ###
 
-    brew install coreutils dos2unix git grc hub pngcrush
-
-Additional packages that may or may not be relevant:
-
-    brew install google-app-engine mercurial synergy
+[List of previous packages installed](brew-list.txt)
 
 ## Nginx ##
 

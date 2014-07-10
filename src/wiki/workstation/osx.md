@@ -113,15 +113,6 @@ $cfg['Servers'][$i]['user'] = 'root';
 $cfg['Servers'][$i]['password'] = '<password>';
 ```
 
-## Miscellaneous ##
+## Ruby ##
 
-### Python Packages ###
-
-    sudo easy_install pip
-    sudo pip install octogit tox
-
-### Ruby Gems ###
-
-    sudo gem update --system
-    sudo gem install compass --pre
-    sudo gem install jekyll maruku
+[Use rbenv](https://github.com/sstephenson/rbenv)

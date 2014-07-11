@@ -13,6 +13,12 @@ configure a custom hostname by adding the following to `/etc/hostconfig`:
 
     HOSTNAME=<hostname>
 
+## SSH key ##
+
+If needed, create a new SSH key
+
+    ssh-keygen -t rsa -b 4096
+
 ## Dotfiles ##
 
 [Install homedir and dotfiles](https://github.com/willnorris/dotfiles#readme)

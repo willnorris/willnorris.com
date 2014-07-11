@@ -2,12 +2,11 @@
 layout: page
 title: About
 wordpress_id: 6
-date: '2005-05-12T08:44:01-07:00'
+date: 2005-05-12T08:44:01-07:00
 ---
 <div class="h-card vcard" markdown="1">
 
-<img src="https://s.wjn.me/300/https://willnorris.com/content/uploads/2005/05/03-800.jpg" 
-alt="Will Norris" width="300" height="300" class="u-photo alignright" />
+<img src="/2005/05/03-800.jpg" alt="Will Norris" width="300" height="300" class="u-photo photo alignright" />
 
 Hi, I’m <a href="https://willnorris.com/" class="p-name u-url fn url">Will Norris</a>. I'm a
 follower of Jesus, a husband to [Elisabeth Norris][], a citizen of the [indie web][], and an

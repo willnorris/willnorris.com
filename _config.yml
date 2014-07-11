@@ -28,11 +28,6 @@ defaults:
       type: post
     values:
       layout: post
-  -
-    scope:
-      path: "wiki"
-    values:
-      layout: wiki
 
 # Build settings
 source: src

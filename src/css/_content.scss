@@ -120,6 +120,18 @@ main {
   }
 }
 
+.entry-date {
+  color: $nobel;
+  a {
+    color: $nobel;
+    border-width: 0;
+    &:hover {
+      color: $flamingo;
+      border-width: 1px;
+    }
+  }
+}
+
 .entry-meta {
   color: $nobel;
   .entry-syndication {

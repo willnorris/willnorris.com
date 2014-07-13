@@ -120,8 +120,13 @@ main {
   }
 }
 
+.entry-title, .entry-date {
+  text-align: center;
+}
+
 .entry-date {
   color: $nobel;
+  font-size: 0.875rem;
   a {
     color: $nobel;
     border-width: 0;

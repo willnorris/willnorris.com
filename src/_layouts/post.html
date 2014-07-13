@@ -6,9 +6,11 @@ layout: default
   <header class="entry-header">
     <h1 class="p-name entry-title">{{ page.title }}</h1>
 
-    <p class="entry-date">
+    <p class="entry-date">Published on 
       <a href="{{ page.url }}" class="u-url url">
-        <time class="dt-published published" datetime="{{ page.date | date_to_xmlschema }}" title="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+        <time class="dt-published published" datetime="{{ page.date | date_to_xmlschema }}" title="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%B %-d" }}{{ page.date | ordinal }}{{ page.date | date: ", %Y at %-I:%M %p" | downcase }}{{ page.date | date: " %Z"}}
+        </time>
       </a>
     </p>
   </header>

@@ -52,7 +52,7 @@ outputs >>> {"name":"","description":"","private":false}
 ```
 
 When we created the new Repository, each of its fields were set to their [zero value][]: the empty string `""` for
-string types, and `false` for bool types.  There is no notion in Go of a declared, but uninitialized, string or bool.
+string types, and `false` for bool types.  There is no notion in Go of a declared but uninitialized variable.
 At the time of declaration, if an initial value is not assigned, then the variable is initialized to its zero value.
 Remember that, it will be important in a moment.
 
@@ -66,7 +66,7 @@ most commonly applied to HTTP, which is very straightforward: to read the curren
 operation on the resource's URI.  To update a resource, pass the new representation of the resource to its URI in a
 `PUT` operation.  The `PUT` method is defined as a complete replacement of the resource at a given URI, meaning you must
 always provide the full representation that you want to set.  But what if you only want to update a few fields in the
-resource?  That's done with the [`PATCH`][patch] method.
+resource?  That's done with the `PATCH` method, which is defined by [RFC 5789][patch].
 
 The exact semantics of how the body of a `PATCH` request is applied to the requested resource are determined by the
 media type of the request.  The way GitHub (and many other JSON APIs) handles `PATCH` requests is that you provide the
@@ -115,7 +115,7 @@ be something like:
 PATCH /repos/google/go-github HTTP/1.1
 Host: api.github.com
 
-{"name":"", "description":"new description", "private":false}
+{"name": "", "description": "new description", "private": false}
 ```
 
 Well that's not what was specified... the `name` and `private` fields were included even though they weren't part of the

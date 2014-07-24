@@ -2,7 +2,7 @@
 layout: page
 title: About
 wordpress_id: 6
-date: 2005-05-12T08:44:01-07:00
+date: '2005-05-12T08:44:01-07:00'
 ---
 <div class="h-card vcard" markdown="1">
 

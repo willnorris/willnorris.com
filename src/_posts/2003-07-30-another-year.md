@@ -1,7 +1,7 @@
 ---
 title: another year
 wordpress_id: 102
-date: '2003-07-30T00:32:25-07:00'
+date: '2003-07-30T00:32:25-05:00'
 categories:
 - personal
 tags:

@@ -1,7 +1,7 @@
 ---
 title: privacy resolutions for 2005
 wordpress_id: 95
-date: '2004-12-25T06:52:07-08:00'
+date: '2004-12-25T06:52:07-06:00'
 categories:
 - identity
 ---

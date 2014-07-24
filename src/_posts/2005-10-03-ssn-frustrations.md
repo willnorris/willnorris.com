@@ -1,7 +1,7 @@
 ---
 title: SSN frustrations
 wordpress_id: 70
-date: '2005-10-03T02:05:53-07:00'
+date: '2005-10-03T02:05:53-05:00'
 categories:
 - identity
 tags:

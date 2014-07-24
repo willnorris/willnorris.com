@@ -1,7 +1,7 @@
 ---
 title: bermuda, bahama, come on pretty momma
 wordpress_id: 106
-date: '2003-07-03T08:02:26-07:00'
+date: '2003-07-03T08:02:26-05:00'
 categories:
 - personal
 tags:

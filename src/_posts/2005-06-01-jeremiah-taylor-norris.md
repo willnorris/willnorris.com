@@ -1,7 +1,7 @@
 ---
 title: Jeremiah Taylor Norris
 wordpress_id: 39
-date: '2005-06-01T17:37:39-07:00'
+date: '2005-06-01T17:37:39-05:00'
 categories:
 - personal
 tags:

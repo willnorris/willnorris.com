@@ -1,7 +1,7 @@
 ---
 title: Counting down
 wordpress_id: 75
-date: '2005-11-02T08:52:21-08:00'
+date: '2005-11-02T08:52:21-06:00'
 categories:
 - music
 - personal

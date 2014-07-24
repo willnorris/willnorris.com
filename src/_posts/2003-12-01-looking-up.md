@@ -1,7 +1,7 @@
 ---
 title: looking up
 wordpress_id: 126
-date: '2003-12-01T09:47:48-08:00'
+date: '2003-12-01T09:47:48-06:00'
 categories:
 - technology
 ---

@@ -1,7 +1,7 @@
 ---
 title: World Wide Web [of trust]
 wordpress_id: 94
-date: '2004-12-08T14:24:32-08:00'
+date: '2004-12-08T14:24:32-06:00'
 categories:
 - identity
 - technology

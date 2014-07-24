@@ -1,6 +1,6 @@
 ---
 title: Jazz Trio at the SF Conservatory of Flowers
-date: 2014-07-02T21:47:34-07:00
+date: '2014-07-02T21:47:34-07:00'
 syndication:
  - https://plus.google.com/+willnorris/posts/Ya6yysmCJbq
 short_url: /b/4Wu1

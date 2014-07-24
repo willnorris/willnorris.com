@@ -1,6 +1,6 @@
 ---
 title: One step forward, two steps back
-date: 2014-07-06T21:55:43-07:00
+date: '2014-07-06T21:55:43-07:00'
 short_url: /b/4Wy1
 ---
 After [9 years, 1 month, and 14 days][wordpress-post] with WordPress, I migrated my website to a new [Jekyll][]-based

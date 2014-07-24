@@ -2,7 +2,7 @@
 layout: aside
 title: weird brid.gy author URLs
 wordpress_id: 1162
-date: 2014-05-28T13:50:27-07:00
+date: '2014-05-28T13:50:27-07:00'
 categories:
 - technology
 tags:

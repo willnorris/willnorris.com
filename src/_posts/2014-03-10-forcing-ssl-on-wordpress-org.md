@@ -2,7 +2,7 @@
 layout: link
 title: Forcing SSL on WordPress.org
 wordpress_id: 1148
-date: 2014-03-10T14:59:10-07:00
+date: '2014-03-10T14:59:10-07:00'
 categories:
 - technology
 tags:

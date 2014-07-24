@@ -1,7 +1,7 @@
 ---
 title: 'WordPress Plugin Pet Peeve #2: Direct Calls to Plugin Files'
 wordpress_id: 637
-date: 2009-06-02T13:05:45-07:00
+date: '2009-06-02T13:05:45-07:00'
 categories:
 - technology
 tags:

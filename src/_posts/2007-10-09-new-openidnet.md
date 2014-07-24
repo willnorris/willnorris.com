@@ -1,7 +1,7 @@
 ---
 title: New OpenID.net
 wordpress_id: 199
-date: 2007-10-09T08:31:58-07:00
+date: '2007-10-09T08:31:58-07:00'
 categories:
 - identity
 - technology

@@ -1,7 +1,7 @@
 ---
 title: Java OpenID Library - Target Audience
 wordpress_id: 895
-date: 2009-12-24T12:02:48-08:00
+date: '2009-12-24T12:02:48-08:00'
 categories:
 - identity
 - technology

@@ -1,7 +1,7 @@
 ---
 title: Testing in go-github
 wordpress_id: 1072
-date: 2013-08-22T18:23:17-07:00
+date: '2013-08-22T18:23:17-07:00'
 categories:
 - technology
 tags:

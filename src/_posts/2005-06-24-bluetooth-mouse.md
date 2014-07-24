@@ -1,7 +1,7 @@
 ---
 title: bluetooth mouse
 wordpress_id: 42
-date: 2005-06-24T08:48:39-07:00
+date: '2005-06-24T08:48:39-07:00'
 categories:
 - technology
 tags:

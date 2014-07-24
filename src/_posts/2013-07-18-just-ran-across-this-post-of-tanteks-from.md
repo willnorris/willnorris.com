@@ -2,7 +2,7 @@
 layout: aside
 title: Just ran across this post of Tantek's from
 wordpress_id: 1040
-date: 2013-07-18T14:44:26-07:00
+date: '2013-07-18T14:44:26-07:00'
 categories:
 - technology
 tags:

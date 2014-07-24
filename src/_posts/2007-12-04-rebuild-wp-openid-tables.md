@@ -1,7 +1,7 @@
 ---
 title: rebuild wp-openid tables
 wordpress_id: 215
-date: 2007-12-04T20:27:07-08:00
+date: '2007-12-04T20:27:07-08:00'
 categories:
 - identity
 - technology

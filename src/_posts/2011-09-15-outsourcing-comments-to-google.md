@@ -1,7 +1,7 @@
 ---
 title: Outsourcing comments to Google+
 wordpress_id: 929
-date: 2011-09-15T14:42:14-07:00
+date: '2011-09-15T14:42:14-07:00'
 categories:
 - technology
 tags:

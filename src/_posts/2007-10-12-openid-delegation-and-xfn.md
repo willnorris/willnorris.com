@@ -1,7 +1,7 @@
 ---
 title: OpenID delegation and XFN
 wordpress_id: 200
-date: 2007-10-12T12:51:34-07:00
+date: '2007-10-12T12:51:34-07:00'
 categories:
 - identity
 - technology

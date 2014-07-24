@@ -1,7 +1,7 @@
 ---
 title: Testing IndieWeb comments
 wordpress_id: 1032
-date: 2013-06-23T11:12:37-07:00
+date: '2013-06-23T11:12:37-07:00'
 categories:
 - technology
 ---

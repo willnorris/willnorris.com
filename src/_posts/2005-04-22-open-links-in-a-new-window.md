@@ -1,7 +1,7 @@
 ---
 title: Open links in a new window
 wordpress_id: 9
-date: 2005-04-22T10:36:10-07:00
+date: '2005-04-22T10:36:10-07:00'
 categories:
 - technology
 tags:

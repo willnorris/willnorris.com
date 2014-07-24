@@ -1,7 +1,7 @@
 ---
 title: 'WordPress Plugin Pet Peeve #1: Hardcoding wp-content'
 wordpress_id: 618
-date: 2009-05-23T15:50:31-07:00
+date: '2009-05-23T15:50:31-07:00'
 categories:
 - technology
 tags:

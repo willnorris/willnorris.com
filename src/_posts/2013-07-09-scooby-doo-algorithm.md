@@ -2,7 +2,7 @@
 layout: aside
 title: scooby doo algorithm
 wordpress_id: 1035
-date: 2013-07-09T14:17:56-07:00
+date: '2013-07-09T14:17:56-07:00'
 categories:
 - technology
 syndication:

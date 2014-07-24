@@ -1,7 +1,7 @@
 ---
 title: moved to cingular
 wordpress_id: 60
-date: 2005-08-01T21:10:52-07:00
+date: '2005-08-01T21:10:52-07:00'
 categories:
 - personal
 tags:

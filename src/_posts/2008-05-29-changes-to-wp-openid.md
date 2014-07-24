@@ -1,7 +1,7 @@
 ---
 title: Changes to wp-openid
 wordpress_id: 227
-date: 2008-05-29T17:10:47-07:00
+date: '2008-05-29T17:10:47-07:00'
 categories:
 - identity
 - technology

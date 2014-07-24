@@ -1,7 +1,7 @@
 ---
 title: back online
 wordpress_id: 105
-date: 2002-08-14T01:08:45-07:00
+date: '2002-08-14T01:08:45-07:00'
 categories:
 - technology
 tags:

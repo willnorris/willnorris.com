@@ -2,7 +2,7 @@
 layout: aside
 title: indie web reply
 wordpress_id: 1142
-date: 2014-03-07T10:50:19-08:00
+date: '2014-03-07T10:50:19-08:00'
 categories:
 - technology
 short_url: /t/K2

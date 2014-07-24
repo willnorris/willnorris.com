@@ -1,7 +1,7 @@
 ---
 title: plugin updates
 wordpress_id: 198
-date: 2007-10-01T00:31:26-07:00
+date: '2007-10-01T00:31:26-07:00'
 categories:
 - identity
 - technology

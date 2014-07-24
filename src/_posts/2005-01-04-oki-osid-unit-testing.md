@@ -1,7 +1,7 @@
 ---
 title: OKI OSID Unit Testing
 wordpress_id: 18
-date: 2005-01-04T01:31:37-08:00
+date: '2005-01-04T01:31:37-08:00'
 categories:
 - technology
 tags:

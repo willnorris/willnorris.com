@@ -1,7 +1,7 @@
 ---
 title: new features in wpopenid+
 wordpress_id: 184
-date: 2007-04-06T22:06:54-07:00
+date: '2007-04-06T22:06:54-07:00'
 categories:
 - identity
 - technology

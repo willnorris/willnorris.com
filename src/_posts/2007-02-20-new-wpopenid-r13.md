@@ -1,7 +1,7 @@
 ---
 title: new wpopenid (r13)
 wordpress_id: 174
-date: 2007-02-20T12:01:29-08:00
+date: '2007-02-20T12:01:29-08:00'
 categories:
 - identity
 - technology

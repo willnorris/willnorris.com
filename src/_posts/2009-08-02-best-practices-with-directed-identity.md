@@ -1,7 +1,7 @@
 ---
 title: Best Practices with Directed Identity
 wordpress_id: 831
-date: 2009-08-02T17:27:43-07:00
+date: '2009-08-02T17:27:43-07:00'
 categories:
 - identity
 - technology

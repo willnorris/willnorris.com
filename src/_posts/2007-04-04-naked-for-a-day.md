@@ -1,7 +1,7 @@
 ---
 title: Naked for a day
 wordpress_id: 183
-date: 2007-04-04T23:23:17-07:00
+date: '2007-04-04T23:23:17-07:00'
 categories:
 - technology
 tags:

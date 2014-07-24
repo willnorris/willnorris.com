@@ -1,7 +1,7 @@
 ---
 title: She said "yes"
 wordpress_id: 190
-date: 2007-07-08T21:41:50-07:00
+date: '2007-07-08T21:41:50-07:00'
 categories:
 - personal
 tags:

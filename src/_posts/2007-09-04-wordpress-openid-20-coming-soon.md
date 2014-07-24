@@ -1,7 +1,7 @@
 ---
 title: WordPress OpenID 2.0 (coming soon?)
 wordpress_id: 194
-date: 2007-09-04T08:27:09-07:00
+date: '2007-09-04T08:27:09-07:00'
 categories:
 - identity
 - technology

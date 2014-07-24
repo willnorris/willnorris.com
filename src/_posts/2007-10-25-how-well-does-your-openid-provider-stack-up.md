@@ -1,7 +1,7 @@
 ---
 title: How well does your OpenID Provider stack up?
 wordpress_id: 205
-date: 2007-10-25T14:37:15-07:00
+date: '2007-10-25T14:37:15-07:00'
 categories:
 - identity
 - technology

@@ -1,7 +1,7 @@
 ---
 title: tr.im python script (for Mac)
 wordpress_id: 305
-date: 2008-09-17T17:52:26-07:00
+date: '2008-09-17T17:52:26-07:00'
 categories:
 - technology
 tags:

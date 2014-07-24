@@ -1,7 +1,7 @@
 ---
 title: Accessing a Developing Application
 wordpress_id: 16
-date: 2005-01-26T20:12:00-08:00
+date: '2005-01-26T20:12:00-08:00'
 categories:
 - technology
 tags:

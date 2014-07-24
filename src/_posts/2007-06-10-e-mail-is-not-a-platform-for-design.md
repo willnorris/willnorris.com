@@ -1,7 +1,7 @@
 ---
 title: E-mail is not a platform for design
 wordpress_id: 187
-date: 2007-06-10T21:51:55-07:00
+date: '2007-06-10T21:51:55-07:00'
 categories:
 - technology
 tags:

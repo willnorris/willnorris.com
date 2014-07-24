@@ -1,7 +1,7 @@
 ---
 title: Some thoughts on Longhorn
 wordpress_id: 8
-date: 2005-04-27T08:26:25-07:00
+date: '2005-04-27T08:26:25-07:00'
 categories:
 - technology
 tags:

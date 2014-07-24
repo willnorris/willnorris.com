@@ -1,7 +1,7 @@
 ---
 title: A New Kind of OpenID Proxy
 wordpress_id: 840
-date: 2009-08-03T12:21:57-07:00
+date: '2009-08-03T12:21:57-07:00'
 categories:
 - identity
 - technology

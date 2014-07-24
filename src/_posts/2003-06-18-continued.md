@@ -1,7 +1,7 @@
 ---
 title: '...continued'
 wordpress_id: 101
-date: 2003-06-18T21:14:17-07:00
+date: '2003-06-18T21:14:17-07:00'
 categories:
 - technology
 tags:

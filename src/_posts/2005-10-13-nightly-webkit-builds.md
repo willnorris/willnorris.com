@@ -1,7 +1,7 @@
 ---
 title: Nightly WebKit builds
 wordpress_id: 73
-date: 2005-10-13T19:33:36-07:00
+date: '2005-10-13T19:33:36-07:00'
 categories:
 - technology
 tags:

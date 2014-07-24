@@ -1,7 +1,7 @@
 ---
 title: 'A class needed by class &lt;...&gt; cannot be found: org/apache/tools/ant/Task'
 wordpress_id: 14
-date: 2005-03-22T08:36:46-08:00
+date: '2005-03-22T08:36:46-08:00'
 categories:
 - technology
 tags:

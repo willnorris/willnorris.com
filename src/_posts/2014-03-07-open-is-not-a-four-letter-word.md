@@ -2,7 +2,7 @@
 layout: aside
 title: Open is not a four-letter word
 wordpress_id: 1141
-date: 2014-03-07T10:04:16-08:00
+date: '2014-03-07T10:04:16-08:00'
 categories:
 - identity
 - technology

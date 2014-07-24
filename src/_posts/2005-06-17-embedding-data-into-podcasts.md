@@ -1,7 +1,7 @@
 ---
 title: embedding data into podcasts
 wordpress_id: 37
-date: 2005-06-17T17:20:39-07:00
+date: '2005-06-17T17:20:39-07:00'
 categories:
 - technology
 tags:

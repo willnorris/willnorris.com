@@ -2,7 +2,7 @@
 layout: aside
 title: Dealing with Recruiters
 wordpress_id: 1057
-date: 2013-08-01T11:36:49-07:00
+date: '2013-08-01T11:36:49-07:00'
 categories:
 - technology
 short_url: /t/Hc

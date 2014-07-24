@@ -2,7 +2,7 @@
 layout: link
 title: License compliance at Google
 wordpress_id: 1099
-date: 2013-12-22T16:35:50-08:00
+date: '2013-12-22T16:35:50-08:00'
 categories:
 - technology
 tags:

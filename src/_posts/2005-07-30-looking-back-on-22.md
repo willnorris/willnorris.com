@@ -1,7 +1,7 @@
 ---
 title: Looking back on 22
 wordpress_id: 59
-date: 2005-07-30T20:32:14-07:00
+date: '2005-07-30T20:32:14-07:00'
 categories:
 - personal
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Why Should the Fire Die?
 wordpress_id: 67
-date: 2005-08-14T20:10:56-07:00
+date: '2005-08-14T20:10:56-07:00'
 categories:
 - music
 tags:

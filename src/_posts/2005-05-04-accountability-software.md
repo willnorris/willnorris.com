@@ -1,7 +1,7 @@
 ---
 title: Accountability Software
 wordpress_id: 7
-date: 2005-05-04T09:43:50-07:00
+date: '2005-05-04T09:43:50-07:00'
 categories:
 - technology
 tags:

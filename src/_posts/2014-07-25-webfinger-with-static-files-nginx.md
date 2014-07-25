@@ -1,5 +1,9 @@
 ---
 title: Supporting WebFinger with Static Files and Nginx
+date: '2014-07-25T09:57:08-07:00'
+syndication:
+ - https://twitter.com/willnorris/status/492710476053094402
+short_url: /b/4XG1
 ---
 
 A few weeks ago, I [switched my website][] from WordPress to a staticly generated site.  In doing so, I had to find
@@ -15,7 +19,7 @@ aside from [OpenID Connect][], but it's still something I want to continue suppo
 
 In its simplest form, WebFinger involves sending a GET request to a well-known URL, `/.well-known/webfinger`, with an
 identifier passed in the `resource` query parameter.  The server responds with a JSON document describing the requested
-resource.  Given that the contents returned depend on the value of a query parameter, it can't really do it with *just*
+resource.  Given that the contents returned depend on the value of a query parameter, it can't really be done with *just*
 static files, but it can with a little help from nginx.
 
 ## Requirements ##

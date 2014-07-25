@@ -6,7 +6,7 @@ module Jekyll
   class ImageProxyTag < Liquid::Tag
     def render(context)
       config = context.registers[:site].config
-      return context['content'] unless config.has_key?('url') and config.has_key?('imageproxy_baseurl')
+      return context['content'] unless config['url'] and config['imageproxy_baseurl']
 
       page_url = URI.join(config['url'], context['page']['url'])
 
@@ -16,6 +16,7 @@ module Jekyll
         width = i.attributes['width']
         height = i.attributes['height']
         if "#{img_url}".start_with?(config['url']) and (width or height)
+          next if img_url.to_s.end_with?('.svg') # don't proxy svg images
           proxy_url = config['imageproxy_baseurl'] + "/#{width}x#{height}/#{img_url}"
           i.attributes['src'].value = proxy_url
         end

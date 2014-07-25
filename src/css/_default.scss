@@ -27,6 +27,10 @@ a {
   &:hover {
     color: $night-rider;
   }
+
+  &:has(> img) {
+    border-bottom: none;
+  }
 }
 
 p {

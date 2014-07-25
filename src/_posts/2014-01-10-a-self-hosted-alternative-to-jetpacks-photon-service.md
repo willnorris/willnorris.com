@@ -12,7 +12,7 @@ tags:
 - image proxy
 ---
 
-<img src="jetpack-kid.jpg" alt="Young boy wearing an aviator outfit and a homemade jetpack" class="alignnone" />
+<img src="jetpack-kid.jpg" alt="Young boy wearing an aviator outfit and a homemade jetpack">
 
 Like many people, I've long had a bit of a love/hate relationship with [Jetpack][], the WordPress plugin from Automattic
 that adds a slew of features like pretty photo galleries, WordPress.com stats, automatic sharing to Google+ and Twitter,
@@ -96,9 +96,9 @@ manipulation like resizing and rotation.  All options are specified in the URL p
 to only serve images from my own sites.  And because it's written in Go, it compiles to a statically linked binary that
 is incredibly simple to deploy and manage; I've included the [upstart init script][] I use on my Ubuntu server.
 
-<figure>
+<figure class="aligncenter">
   <a href="https://github.com/willnorris/imageproxy"><img src="open-source-imageproxy.png" 
-    alt="GitHub screenshot stating, 'willnorris open sourced willnorris/imageproxy'" width="450" class="aligncenter" /></a>
+    alt="GitHub screenshot stating, 'willnorris open sourced willnorris/imageproxy'" width="450"></a>
 </figure>
 
 I've been running it here on my own site for the last month or so, and generally have been really happy with the

@@ -9,7 +9,7 @@ layout: default
     <p class="entry-date">Published on 
       <a href="{{ page.url }}" class="u-url url">
         <time class="dt-published published" datetime="{{ page.date | date_to_xmlschema }}" title="{{ page.date | date_to_xmlschema }}">
-          {{ page.date | date: "%B %-d" }}{{ page.date | ordinal }}{{ page.date | date: ", %Y at %-I:%M %p" | downcase }}{{ page.date | date: " %Z"}}
+          {% post_datetime %}
         </time>
       </a>
     </p>

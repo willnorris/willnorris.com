@@ -2,6 +2,7 @@
   background: $white-smoke;
   border-bottom: 1px solid $gainsboro;
   padding: 1em 0;
+  overflow: auto;
 
   h2 {
     font-size: 1.25rem;
@@ -14,7 +15,7 @@
 
   .photo {
     float: left;
-    margin-right: 1em
+    margin-right: 1em;
   }
 
   p {
@@ -23,10 +24,10 @@
 }
 
 .social-links {
-  font-family: 'wjn2014';
   line-height: 1;
   margin: 0;
   padding: 0;
+  font-size: 0.875rem;
 
   li {
     display: inline-block;
@@ -38,24 +39,6 @@
 
     a {
       border-bottom-width: 0;
-      color: transparent;
-      font-size: 1px;
-      letter-spacing: -1px;
-
-      &::before {
-        color: $dim-gray;
-        font-size: 1.75rem;
-        line-height: 1.75rem;
-
-      }
-      &:hover::before {
-        color: $flamingo;
-      }
-
-      &[href*="plus.google.com"]::before { content: '\f206'; }
-      &[href*="github.com"]::before      { content: '\f200'; }
-      &[href*="twitter.com"]::before     { content: '\f202'; }
-      &[href*="app.net"]::before         { content: '\e801'; }
     }
   }
 }

@@ -92,11 +92,11 @@ the above to handle proper error codes and content types.  Personally, I just ed
 
 [switched my website]: /2014/07/one-step-forward-two-steps-back
 [WebFinger]: http://webfinger.net/
-[RFC 7033]: http://tools.ietf.org/html/rfc7033
+[RFC 7033]: https://tools.ietf.org/html/rfc7033
 [OpenID Connect]: http://openid.net/specs/openid-connect-discovery-1_0.html
-[section 4.2]: https://tools.ietf.org/html/rfc7033.html#section-4.2
-[section 4.3]: https://tools.ietf.org/html/rfc7033.html#section-4.3
-[section 5]: https://tools.ietf.org/html/rfc7033.html#section-5
+[section 4.2]: https://tools.ietf.org/html/rfc7033#section-4.2
+[section 4.3]: https://tools.ietf.org/html/rfc7033#section-4.3
+[section 5]: https://tools.ietf.org/html/rfc7033#section-5
 [embedded lua module]: http://wiki.nginx.org/HttpLuaModule
 [embedded perl module]: http://nginx.org/en/docs/http/ngx_http_perl_module.html
 [ngx_set_misc module]: http://wiki.nginx.org/HttpSetMiscModule

@@ -6,12 +6,13 @@
   <link rel="shortcut icon" href="{{ "/logo.jpg" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace: 'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+{% if page.webmention_endpoint %}  <link rel="webmention" href="{{ page.webmention_endpoint }}">{% endif %}
   <link rel="{% if page.url != "/" %}home {% endif %}alternate" href="{{ "/feed.atom" | prepend: site.baseurl }}" type="application/atom+xml">
 {% if page.url == "/" %}
   <meta name="description" content="{{ site.description }}">
-  <link rel="openid.server" href="https://indieauth.com/openid"/>
-  <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{ "/logo.jpg" | prepend: site.baseurl }}" />
-  <meta name="mobile-web-app-capable" content="yes" />
+  <link rel="openid.server" href="https://indieauth.com/openid">
+  <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{ "/logo.jpg" | prepend: site.baseurl }}">
+  <meta name="mobile-web-app-capable" content="yes">
 {% else %}
   {% assign excerpt = page.content | markdownify | strip_html | split: ' ' | join: ' ' | truncatewords: 50 %}
   <meta name="description" content="{{ excerpt }}">

@@ -3,7 +3,8 @@ layout: page
 title: gum
 go_import: willnorris.com/go/gum git https://github.com/willnorris/gum
 ---
-Source code: <https://github.com/willnorris/gum>
+Source code: <https://github.com/willnorris/gum><br>
+GoDoc: <https://godoc.org/willnorris.com/go/gum>
 
 Gum is a personal short URL resolver written in Go.
 

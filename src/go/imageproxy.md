@@ -3,7 +3,8 @@ layout: page
 title: imageproxy
 go_import: willnorris.com/go/imageproxy git https://github.com/willnorris/imageproxy
 ---
-Source code: <https://github.com/willnorris/imageproxy>
+Source code: <https://github.com/willnorris/imageproxy><br>
+GoDoc: <https://godoc.org/willnorris.com/go/imageproxy>
 
 imageproxy is a caching image proxy server written in golang.  It supports
 dynamic image resizing and URL whitelisting.
@@ -30,7 +31,7 @@ imageproxy URLs are of the form `http://localhost/{options}/{remote_url}`.
 ### Options ###
 
 Options are specified as a comma delimited list of parameters, which can be
-supplied in any order.  Duplicate parameters overwrite previous values.  
+supplied in any order.  Duplicate parameters overwrite previous values.
 
 The format is a superset of [resize.ly's options](https://resize.ly/#demo).
 

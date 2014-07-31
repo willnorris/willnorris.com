@@ -6,12 +6,19 @@ layout: default
   <header class="entry-header">
     <h1 class="p-name entry-title">{{ page.title }}</h1>
 
-    <p class="entry-date">Published on 
+    <p class="entry-meta">
+      Published on 
       <a href="{{ page.url }}" class="u-url url">
         <time class="dt-published published" datetime="{{ page.date | date_to_xmlschema }}" title="{{ page.date | date_to_xmlschema }}">
           {% post_datetime %}
         </time>
       </a>
+      by
+      <span class="p-author h-card author vcard">
+        <a class="url fn" href="{{ page.author.url }}">
+          <img class="photo logo" src="{{ page.author.photo }}" alt="{{ page.author.name}}"> {{ page.author.name }}
+        </a>
+      </span>
     </p>
   </header>
 
@@ -30,11 +37,6 @@ layout: default
       </span>
       {% endif %}
     </p>
-    <div class="p-author author">
-      <data class="p-name fn" value="{{ page.author.name }}">
-      <data class="p-url url" value="{{ page.author.url }}">
-      <data class="p-photo photo" value="{{ page.author.photo }}">
-    </div>
   </footer>
 
 </article>

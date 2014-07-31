@@ -90,13 +90,19 @@ main {
   }
 }
 
-.entry-title, .entry-date {
+.entry-header {
   text-align: center;
+
+  .author .photo {
+    height: 1em;
+    vertical-align: middle;
+  }
 }
 
-.entry-date {
+.entry-meta {
   color: $nobel;
   font-size: 0.875rem;
+
   a {
     color: $nobel;
     border-width: 0;
@@ -105,10 +111,7 @@ main {
       border-width: 1px;
     }
   }
-}
 
-.entry-meta {
-  color: $nobel;
   .entry-syndication {
     display: block;
   }

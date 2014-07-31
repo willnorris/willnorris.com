@@ -135,3 +135,21 @@ figcaption {
         width:200px;
     }
 }
+
+// fragmentations
+// taken from http://tantek.com/2011/simple.css, in turn inspired by http://lea.verou.me/2012/12/animations-with-one-keyframe/
+[fragmention] {
+  background: yellow;
+  animation: fragmention 3.5s both;
+  -webkit-animation: fragmention 3.5s both;
+}
+@keyframes fragmention {
+  to {
+    background: lighten(yellow, 40%);
+  }
+}
+@-webkit-keyframes fragmention {
+  to {
+    background: lighten(yellow, 40%);
+  }
+}

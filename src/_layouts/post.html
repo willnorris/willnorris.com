@@ -28,14 +28,15 @@ layout: default
 
   <footer class="entry-footer">
     <p class="entry-meta">
-      {% if page.syndication %}
+    {% if page.syndication_links.size > 0 %}
       <span class="entry-syndication">
         Also view on:
-        {% for syn in page.syndication %}
+        {% for syn in page.syndication_links %}
           <a rel="syndication" class="u-syndication" href="{{ syn }}">{{ syn | syndication_title }}</a>{% unless forloop.last %}, {% endunless %}
         {% endfor %}
       </span>
-      {% endif %}
+    {% endif %}
+    {% for syn in page.bridgy_links %}<a href="{{ syn }}"></a>{% endfor %}
     </p>
   </footer>
 

@@ -20,7 +20,7 @@ defaults:
         twitter: "@willnorris"
         google_plus: +willnorris
       twitter_card: summary
-      webmention_endpoint: https://webmention.herokuapp.com/api/webmention
+      webmention_endpoint: /api/webmention
   -
     scope:
       path: ""

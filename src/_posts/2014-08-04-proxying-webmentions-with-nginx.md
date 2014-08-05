@@ -36,7 +36,8 @@ post][] has some details).
 [visible endpoint that teaches]: http://indiewebcamp.com/irc/2014-05-04/line/1399233029
 [this stackoverflow post]: https://stackoverflow.com/questions/10627596/nginx-proxy-or-rewrite-depending-on-user-agent
 
-**Still to do:**  Currently, when you submit the form on my webmention page it just returns a plaintext success
+**Still to do:**  <s>Currently, when you submit the form on my webmention page it just returns a plaintext success
 message, since that's what the webmention service returns.  I need to add a little javascript to the form so that it is
-submitted in an XHR request and a nicer success message can be displayed.  I'm also still not displaying received
-webmentions, but I'll get to that eventually.
+submitted in an XHR request and a nicer success message can be displayed.</s> (fixed)  
+
+I'm also still not displaying received webmentions, but I'll get to that eventually.

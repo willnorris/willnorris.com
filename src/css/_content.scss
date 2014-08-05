@@ -156,3 +156,22 @@ figcaption {
     background: transparent;
   }
 }
+
+form#webmention {
+  input[type=url] {
+    display: block;
+    width: 100%;
+  }
+
+  .response {
+    font-weight: bold;
+    margin: 0 1em;
+
+    &.success {
+      color: $eucalyptus;
+    }
+    &.error {
+      color: $flamingo;
+    }
+  }
+}

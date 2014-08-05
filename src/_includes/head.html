@@ -6,7 +6,10 @@
   <link rel="shortcut icon" href="{{ "/logo.jpg" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace: 'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
-{% if page.webmention_endpoint %}  <link rel="webmention" href="{{ page.webmention_endpoint }}">{% endif %}
+{% if page.webmention_endpoint %}
+  <link rel="webmention" href="{{ page.webmention_endpoint }}">
+  <link rel="pingback" href="https://webmention.io/webmention?forward={{ page.webmention_endpoint | prepend: site.baseurl | prepend: site.url }}" />
+{% endif %}
   <link rel="{% if page.url != "/" %}home {% endif %}alternate" href="{{ "/feed.atom" | prepend: site.baseurl }}" type="application/atom+xml">
 {% if page.url == "/" %}
   <meta name="description" content="{{ site.description }}">

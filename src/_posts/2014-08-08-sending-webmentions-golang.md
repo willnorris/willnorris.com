@@ -34,6 +34,7 @@ There's still a lot [more I want to do][] with this, such as improving the UI by
 app using termbox (an ncurses alternative), doing a better job of selecting candidate links, speeding things up by
 sending webmentions asynchronously, and being smarter about brid.gy's responses for POSSE mentions.  In the meantime,
 it's already in a very usable state, as this is what I've been using to send webmentions for the last couple of weeks.
+And in case it's not apparent, the command line tool doesn't care at all what publishing platform you use.
 
 You can find links to source, docs, and install instructions at <https://willnorris.com/go/webmention>, as well as some
 of my other go projects (mostly indieweb related) at <https://willnorris.com/go/>.

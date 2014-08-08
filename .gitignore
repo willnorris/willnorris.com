@@ -3,4 +3,5 @@ log
 public
 tmp
 
+etc/nginx-local.conf
 src/_drafts

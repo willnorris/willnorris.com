@@ -2,6 +2,8 @@
 title: Proxying webmentions with nginx
 date: 2014-08-04T19:39:28-07:00
 short_url: /b/4XT1
+syndication:
+ - https://twitter.com/willnorris/status/496486808859844608
 ---
 In my ever-continuing attempt to [indiewebify][] my [new static website][], I wanted to share what I came up with for
 receiving webmentions.  Being a static site, I have to use some kind of webmention sidecar to process and store the

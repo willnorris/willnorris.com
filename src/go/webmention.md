@@ -26,4 +26,4 @@ To install the command line tool, run:
 go-webmention is copyright Google, but is not an official Google product.  It
 is available under a [BSD License][].
 
-[BSD License]: LICENSE
+[BSD License]: https://github.com/willnorris/go-webmention/blob/master/LICENSE

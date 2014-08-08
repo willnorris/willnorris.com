@@ -17,4 +17,4 @@ algorithm.
 This library is copyright Google, but is not an official Google product.  It is
 available under a [BSD License][].
 
-[BSD License]: LICENSE
+[BSD License]: https://github.com/willnorris/go-newbase60/blob/master/LICENSE

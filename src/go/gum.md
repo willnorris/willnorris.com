@@ -26,4 +26,4 @@ may occasionally hardcode some things that limit others' use.
 Gum is copyright Google, but is not an official Google product.  It is
 available under a [BSD License][].
 
-[BSD License]: LICENSE
+[BSD License]: https://github.com/willnorris/gum/blob/master/LICENSE

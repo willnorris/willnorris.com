@@ -10,3 +10,6 @@ title: Go Packages
 
 [newbase60](newbase60)
 : Go implementation of Tantek Çelik's Newbase60 algorithm
+
+[webmention](webmention)
+: Client library and simple command line tool for sending webmentions

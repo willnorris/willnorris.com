@@ -21,9 +21,9 @@ given URL, send the actual webmention to the endpoint, and discover the URLs tha
 is used both for verification of received webmentions (to make sure that the source really does link to the target), as
 well as for finding candidates to send webmentions to, which is what my command line tool does.
 
-The command line tools takes a URL as input, discovers all the links from that page.  You can provide a CSS-style filter
-to specify the root element to look for links in; by default it looks inside elements that match `.h-entry`.  You are
-then presented with the list of discovered links, and you select which ones to send webmentions to.  This step is
+The command line tool takes a URL as input and discovers all the links from that page.  You can provide a CSS-style
+filter to specify the root element to look for links in; by default it looks inside elements that match `.h-entry`.  You
+are then presented with the list of discovered links, and you select which ones to send webmentions to.  This step is
 especially important right now because it's pretty dumb in which links it selects, so you probably don't want to send
 webmentions to all of them.  After that, it does endpoint discovery on each link and if the URL supports webmentions, it
 sends the mention.  Nothing too fancy.  You can see a simple demo here:

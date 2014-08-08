@@ -2,6 +2,7 @@
 title: Sending Webmentions with Go
 date: 2014-08-08T08:18:49-07:00
 syndication:
+ - https://twitter.com/willnorris/status/497774634238885888
 ---
 
 Earlier this week, I wrote about [how I receive webmentions][] on my site by proxying them to an external service.

@@ -1,3 +1,10 @@
+# The datetime plugin includes extensions to jekyll posts and additional filters
+# for working with dates.  Notably, jekyll heavily uses ruby Time objects which
+# lose the specified timezone.  This plugin adds a post.datetime funciont which
+# parses the front matter date variable as a ruby DateTime object.  (Note that
+# the yaml module will attempt to parse 'naked' values as a Time, so the value
+# must be enclosed in quotes, forcing yaml to interpret it as a string.)
+
 require 'liquid'
 require 'date'
 

@@ -1,3 +1,27 @@
+# The syndication plugin provides support for linking to syndicated copies of a
+# post.  Specify the URLs of syndicated copies of the post in the 'syndication'
+# variable in the post front matter.  These links will be available in templates
+# as 'post.syndication_links'.  The filter 'syndication_title' will provide a
+# human readable title for URLs on common sites, defaulting to the site domain.
+#
+# The 'post.syndication_links' property will only include syndication links that
+# include a URL path.  Links without a path are expected to mean *intended*
+# syndicated posts.  Templates can use 'post.bridgy_links' to return brid.gy
+# POSSE webmention links for services supported by brid.gy (read more at
+# https://www.brid.gy/about#publishing).  After the post has been POSSE'd
+# out, just update the syndication link with the final URL.
+#
+# Example:
+#
+# (in front matter)
+# syndication:
+#  - https://twitter.com/willnorris/status/497774634238885888
+#
+# (in template)
+# {% for syn in page.syndication_links %}
+#   <a rel="syndication" class="u-syndication" href="{{ syn }}">{{ syn | syndication_title }}</a>
+# {% endfor %}
+
 require 'liquid'
 
 module Jekyll

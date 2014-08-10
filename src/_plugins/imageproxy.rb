@@ -1,4 +1,11 @@
-# encoding: utf-8
+# The imageproxy plugin filters post content, rewriting images to use an image
+# proxy like https://willnorris.com/go/imageproxy.
+#
+# Specify the URL of the image proxy as 'imageproxy_baseurl' in the site config,
+# then use the 'proxied_content' liquid tag in templates.  <img> tags which
+# include a height or width attribute will be rewritten to use the image proxy,
+# resized to the proper dimension.
+
 require 'liquid'
 require 'nokogiri'
 

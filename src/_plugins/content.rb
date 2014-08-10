@@ -13,6 +13,7 @@
 #
 # Other files in the 'content' directory that are not in a four-digit directory
 # are left as-is.
+
 module Jekyll
   class StaticFile
     def destination(dest)

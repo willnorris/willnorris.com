@@ -1,11 +1,11 @@
 ---
-layout: page
 title: imageproxy
-go_import: willnorris.com/go/imageproxy git https://github.com/willnorris/imageproxy
+go:
+  pkg: willnorris.com/go/imageproxy
+  vcs: git
+  src: https://github.com/willnorris/imageproxy
+excerpt: Caching image proxy server
 ---
-Source code: <https://github.com/willnorris/imageproxy><br>
-GoDoc: <https://godoc.org/willnorris.com/go/imageproxy>
-
 imageproxy is a caching image proxy server written in golang.  It supports
 dynamic image resizing and URL whitelisting.
 

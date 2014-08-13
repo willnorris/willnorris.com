@@ -1,0 +1,14 @@
+---
+title: Go Packages
+layout: page
+---
+      <dl>
+        {% for pkg in site.go_packages %}
+          <dt>
+            <a class="post-link" href="{{ pkg.url | prepend: site.baseurl }}">{{ pkg.title }}</a>
+          </dt>
+          <dd>
+            {{ pkg.excerpt }}
+          </dd>
+        {% endfor %}
+      </dl>

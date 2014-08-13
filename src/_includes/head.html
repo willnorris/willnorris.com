@@ -28,7 +28,7 @@
   {% endif %}
 {% endif %}
 {% if paginator.previous_page or page.noindex %}  <meta name="robots" content="noindex">{% endif %}
-{% if page.go_import %}  <meta name="go-import" content="{{ page.go_import }}">{% endif %}
+{% if page.go %}  <meta name="go-import" content="{{ page.go.pkg }} {{ page.go.vcs }} {{ page.go.src }}">{% endif %}
 {% if page.author.url %}  <link rel="author" href="{{ page.author.url }}">{% endif %}
 {% if site.analytics_id %}{% include google-analytics.html %}{% endif %}
 </head>

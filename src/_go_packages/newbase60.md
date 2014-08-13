@@ -1,11 +1,11 @@
 ---
-layout: page
 title: newbase60
-go_import: willnorris.com/go/newbase60 git https://github.com/willnorris/go-newbase60
+go:
+  pkg: willnorris.com/go/newbase60
+  vcs: git
+  src: https://github.com/willnorris/go-newbase60
+excerpt: Go implementation of Tantek Çelik’s Newbase60 algorithm
 ---
-Source code: <https://github.com/willnorris/go-newbase60><br>
-GoDoc: <https://godoc.org/willnorris.com/go/newbase60>
-
 This package is a go implementation of [Tantek Çelik][tantek]'s [NewBase60][]
 algorithm.
 

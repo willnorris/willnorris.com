@@ -1,11 +1,11 @@
 ---
-layout: page
 title: webmention
-go_import: willnorris.com/go/webmention git https://github.com/willnorris/go-webmention
+go:
+  pkg: willnorris.com/go/webmention
+  vcs: git
+  src: https://github.com/willnorris/go-webmention
+excerpt: Client library and simple command line tool for sending webmentions
 ---
-Source code: <https://github.com/willnorris/go-webmention><br>
-GoDoc: <https://godoc.org/willnorris.com/go/webmention>
-
 go-webmention is a go library and command line tool for assissting in sending
 webmentions.
 

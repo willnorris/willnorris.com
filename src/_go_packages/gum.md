@@ -1,11 +1,11 @@
 ---
-layout: page
 title: gum
-go_import: willnorris.com/go/gum git https://github.com/willnorris/gum
+go:
+  pkg: willnorris.com/go/gum
+  vcs: git
+  src: https://github.com/willnorris/gum
+excerpt: Personal short URL resolver
 ---
-Source code: <https://github.com/willnorris/gum><br>
-GoDoc: <https://godoc.org/willnorris.com/go/gum>
-
 Gum is a personal short URL resolver written in Go.
 
 Gum is a short URL resolver for personal content (blog posts, photos, checkins,

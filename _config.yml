@@ -8,6 +8,11 @@ twitter: "@willnorris"
 include:
   - .well-known
 
+collections:
+  go_packages:
+    output: true
+    permalink: /go/:path
+
 defaults:
   -
     scope:
@@ -27,6 +32,12 @@ defaults:
       type: post
     values:
       layout: post
+  -
+    scope:
+      path: ""
+      type: go_packages
+    values:
+      layout: go-package
 
 # Build settings
 source: src

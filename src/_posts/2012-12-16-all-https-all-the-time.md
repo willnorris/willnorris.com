@@ -24,7 +24,7 @@ any page if you manually typed in the 'https', I just never really advertised it
 time.
 
 [Private By Default]: https://www.tbray.org/ongoing/When/201x/2012/12/02/HTTPS
-[willnorris.com]: https://willnorris.com/
+[willnorris.com]: /
 
 ## Why ##
 

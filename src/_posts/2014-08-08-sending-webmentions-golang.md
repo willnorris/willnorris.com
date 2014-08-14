@@ -37,8 +37,8 @@ sending webmentions asynchronously, and being smarter about brid.gy's responses 
 it's already in a very usable state, as this is what I've been using to send webmentions for the last couple of weeks.
 And in case it's not apparent, the command line tool doesn't care at all what publishing platform you use.
 
-You can find links to source, docs, and install instructions at <https://willnorris.com/go/webmention>, as well as some
-of my other go projects (mostly indieweb related) at <https://willnorris.com/go/>.
+You can find links to source, docs, and install instructions at [https://willnorris.com/go/webmention](/go/webmention),
+as well as some of my other go projects (mostly indieweb related) at [https://willnorris.com/go/](/go/).
 
 [how I receive webmentions]: /2014/08/proxying-webmentions-with-nginx
 [webmention libraries]: http://indiewebcamp.com/webmention#Libraries

@@ -28,5 +28,5 @@ dig in to some of the projects that haven't received the level of attention I wo
 that, I don't think I'm ready to say too much else about the new job, only that it is in San Francisco and that we will
 be moving up there as soon as the wedding is over and we find a place.
 
-[wedding]: http://willnorris.com/wedding/
-[moved to California]: http://willnorris.com/2006/01/life-and-love-and-why
+[wedding]: /wedding/
+[moved to California]: /2006/01/life-and-love-and-why

@@ -65,7 +65,7 @@ real cool functionality around activity streams.
 
 [one]: http://factoryjoe.com/blog/2007/12/06/oauth-10-openid-20-and-up-next-diso/
 [year]: http://redmonk.net/archives/2007/12/05/diso
-[anniversary]: http://willnorris.com/2007/12/wp-openid-moving-to-diso
+[anniversary]: /2007/12/wp-openid-moving-to-diso
 [DiSo Project]: http://diso-project.org/
 [Vidoop]: http://vidoop.com/
 [Six Apart]: http://sixapart.com/
@@ -75,6 +75,6 @@ real cool functionality around activity streams.
 [contact information]: http://portablecontacts.net/
 [WordPress]: http://wordpress.org/
 [Stephen Weber]: http://singpolyma.net/
-[willnorris.com]: http://willnorris.com/
+[willnorris.com]: /
 [Movable Type]: http://www.movabletype.org/
 [Motion]: http://www.movabletype.com/motion/

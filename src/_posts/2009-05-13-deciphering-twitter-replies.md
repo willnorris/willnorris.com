@@ -65,7 +65,7 @@ Including the `in_reply_to` paramter without the @username of the person you're 
 So if a tweet is marked as a reply, then the rules kick in which everyone is now complaining about... that you don't see
 the replies of your friends if you're not following the targeted user of the reply.
 
-[ranted about]: http://willnorris.com/2008/12/email-etiquette-replying-to-mailing-lists
+[ranted about]: /2008/12/email-etiquette-replying-to-mailing-lists
 [Twitter API]: http://apiwiki.twitter.com/
 [my own]: http://twitter.com/willnorris
 [bridal shop]: http://twitter.com/bellemariee

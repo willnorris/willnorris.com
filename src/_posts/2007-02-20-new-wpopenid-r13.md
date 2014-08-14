@@ -16,7 +16,7 @@ writing, the latest version is r13, which is actually lower than the previous re
 that I'm basing it off the revision numbers in my own repository versus the official one at sourceforge.  Also note that
 there is no longer a diff provided, since I've made the subversion repository public.
 
-<http://willnorris.com/projects/wpopenid/>
+[http://willnorris.com/projects/wpopenid/][project page]
 
 [wpopenid]: http://verselogic.net/projects/wordpress/wordpress-openid-plugin/
-[project page]: http://willnorris.com/projects/wpopenid/
+[project page]: /projects/wpopenid/

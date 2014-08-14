@@ -9,4 +9,4 @@ tags:
 - family
 ---
 Just a quick note to mention that my brother and his wife had their first child this past weekend.  I've setup a small
-site for him at <http://willnorris.com/jeremiah>
+site for him at [http://willnorris.com/jeremiah](/jeremiah)

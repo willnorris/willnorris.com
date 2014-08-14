@@ -143,7 +143,7 @@ Just pointing out that hooks exist is often enough, developers can quickly scan 
 
 [plugin API]: http://codex.wordpress.org/Plugin_API
 [Extended Profile]: http://wordpress.org/extend/plugins/extended-profile/
-[willnorris.com]: http://willnorris.com/
+[willnorris.com]: /
 [hCard microformat]: http://microformats.org/wiki/hCard
 [Brightkite]: http://brightkite.com/
 [default-filters.php]: http://core.trac.wordpress.org/browser/trunk/wp-includes/default-filters.php

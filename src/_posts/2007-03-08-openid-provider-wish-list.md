@@ -59,7 +59,7 @@ curious to know what kind of features others would like to see in an OpenID prov
 you think is realistic or easy to implement in the short term... think bigger than that, this is a wish-list after all.
 
 [prooveme]: http://prooveme.com
-[previous post]: http://willnorris.com/2007/02/strong-authentication-and-emailing-passwords
+[previous post]: /2007/02/strong-authentication-and-emailing-passwords
 [Relying Party Best Practices]: http://openid.net/wiki/index.php/Relying_Party_Best_Practices
 [certifi.ca]: http://certifi.ca
 [iamdentity]: http://iamdentity.com

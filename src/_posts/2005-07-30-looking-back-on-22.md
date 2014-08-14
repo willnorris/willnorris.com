@@ -24,6 +24,6 @@ despondent about it, but rather that I know (hope) my best years are ahead of me
 up and get here!
 
 [UofM]: http://www.memphis.edu
-[Hedmaster]: http://willnorris.com/projects/
+[Hedmaster]: /projects/
 [Visible School]: http://www.visibleschool.com
 [not in a relationship]: http://quirkyalone.net/qa/about.php

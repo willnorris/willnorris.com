@@ -29,6 +29,6 @@ the most basic XRDS discovery method.  Only a couple of the leaders are supporti
 faster) XRDS discovery.
 
 [more specs]: http://openid.net/developers/specs/
-[yadis plugin]: http://willnorris.com/projects/wp-yadis
+[yadis plugin]: /projects/wp-yadis
 [openid library]: http://openidenabled.com/
-[openid support]: http://willnorris.com/openid-support
+[openid support]: /openid-support

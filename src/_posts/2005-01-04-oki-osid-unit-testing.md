@@ -15,7 +15,7 @@ component, this shouldn't be too difficult.  There would be a test case for each
 manipulate objects and simply test that they are instances of the appropriate OSID.  The user would then write their own
 test case that passed their specific implementation of each OsidManger to OsidUnitTest.
 
-[hedmaster]: http://willnorris.com/projects/hedmaster
+[hedmaster]: /projects/hedmaster
 [oki specs]: http://www.okiproject.org/specs
 
 As the OSIDs gradually gain acceptance, I think some simple automation like this would really help people develop proper

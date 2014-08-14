@@ -44,4 +44,4 @@ notification.
 [tr.im]: http://tr.im/
 [simplejson]: http://pypi.python.org/pypi/simplejson
 [appscript]: http://appscript.sourceforge.net/
-[tr.im icon]: http://willnorris.com/svn/homedir/packages/tools/local/bin/.trim.png
+[tr.im icon]: /svn/homedir/packages/tools/local/bin/.trim.png

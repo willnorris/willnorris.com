@@ -25,7 +25,7 @@ includes the message "Free Trial active ... There is no need to pay anything yet
 
 In all, an exciting and very well implemented announcement.  Way to go, guys!
 
-[said yesterday]: http://willnorris.com/2007/02/wp-xrds#comment-1219
+[said yesterday]: /2007/02/wp-xrds#comment-1219
 [announced]: http://kveton.com/blog/2007/02/13/openid-name-great-news/
 [FreeYourID]: http://freeyourid.com/
 [originally setup]: http://www.icann.org/tlds/name1/

@@ -13,4 +13,4 @@ interesting read to say the least.
 And of course I'm the kind of person that will use the correct meaning of the phrase regardless of (and perhaps in spite
 of) the mainstream confusion... this should make for interesting conversations.
 
-[this article]: https://github.com/orgs/google/teams/python-adb-contributors
+[this article]: http://www.crh.noaa.gov/library/Grammar/Learn-curve.html

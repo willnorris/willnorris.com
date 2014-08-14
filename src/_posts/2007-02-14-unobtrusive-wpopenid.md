@@ -34,4 +34,4 @@ noticed at least one person with one in excess of 500 MB large!
 
 Download the plugin from the [project page][].
 
-[project page]: http://willnorris.com/projects/wpopenid/
+[project page]: /projects/wpopenid/

@@ -16,7 +16,7 @@ with other plugins, data corruption, library issues, etc.  In order to reach the
 have to make this plugin as easy to install and run as WordPress itself.  This is certainly no easy task, but we've come
 a very long way.  To this end, you'll find the following changes:
 
-[next major release]: http://willnorris.com/2008/09/the-next-steps-with-wp-openid
+[next major release]: /2008/09/the-next-steps-with-wp-openid
 
 ### Simplified Database Structure ###
 

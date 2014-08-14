@@ -46,9 +46,9 @@ when you change themes.
 /** Add rel="me" to social menu items. */
 function social_menu_objects($items, $args) {
     if ( 'social' == $args->menu->name ) {
-    foreach ( $items as $i ) {
-        $i->xfn .= ' me';
-    }
+      foreach ( $items as $i ) {
+          $i->xfn .= ' me';
+      }
     }
     return $items;
 }

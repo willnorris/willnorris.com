@@ -10,15 +10,14 @@ tags:
 - http
 ---
 
-**Update (Dec 2013):** If you're just looking for a good HTTP library in PHP, I currently recommend <a
-href="http://requests.ryanmccue.info/">Requests</a>.
+**Update (Dec 2013):** If you're just looking for a good HTTP library in PHP, I currently recommend [Requests][].
 
-As I mentioned in my <a href="http://willnorris.com/2009/03/the-open-stack-in-php">last post</a>, I'm currently spending
-a lot of time thinking about and coding PHP libraries for the various Open Stack protocols.  I've recently hit a common
-roadblock with a couple of the libraries, and wanted to solicit some feedback from the community.  Ironically enough,
-I'm stuck with regards to the absolutely lowest level in the technology stack that most developers have to deal with:
-HTTP.  We need good HTTP support in the Open Stack libraries to do basic things like fetching metadata documents, and
-sending OAuth and OpenID requests.  Some things to think consider:
+As I mentioned in my [last post][], I'm currently spending a lot of time thinking about and coding PHP libraries for the
+various Open Stack protocols.  I've recently hit a common roadblock with a couple of the libraries, and wanted to
+solicit some feedback from the community.  Ironically enough, I'm stuck with regards to the absolutely lowest level in
+the technology stack that most developers have to deal with: HTTP.  We need good HTTP support in the Open Stack
+libraries to do basic things like fetching metadata documents, and sending OAuth and OpenID requests.  Some things to
+think consider:
 
  - we don't need to worry about PHP 4
  - we need to be able to attach custom headers in the request
@@ -55,7 +54,8 @@ some of the most popular ones (and do leave a comment if I missed any):
  a very robust and flexible URL library that can handle everything we want to do and more.  It is relatively common on
  most PHP deployments, but because it relies on an external library, its availability is not guaranteed.
 
-So there is no single solution that we can count on.  What's that you say?  Provide an interface and then have multiple implementations that utilize several of the above methods?  That's a brilliant idea, but which one do we use?
+So there is no single solution that we can count on.  What's that you say?  Provide an interface and then have multiple
+implementations that utilize several of the above methods?  That's a brilliant idea, but which one do we use?
 
  - **[php-openid](http://github.com/bce/php-openid/blob/master/Auth/Yadis/HTTPFetcher.php)** -- the current JanRain
  library currently has it's own HTTPFetcher interface with support for libcurl and sockets.  It's written pretty
@@ -92,3 +92,6 @@ So honestly, I'm at a loss.  As with the Open Stack libraries themselves, the mo
 can always switch out the implementation later, but I really don't want to be rewriting code on a regular basis to match
 the HTTP interface du jour.  I don't have terribly strong feelings for or against any of the above, I just know we need
 something.  So here it is... what do you all prefer in terms of an HTTP client library for PHP?
+
+[Requests]: http://requests.ryanmccue.info/
+[last post]: /2009/03/the-open-stack-in-php

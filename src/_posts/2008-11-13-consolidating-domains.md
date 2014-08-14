@@ -17,7 +17,7 @@ reading now.  And I also have my "identity site" at [will.norris.name][], which 
 contact list, and a list of my profiles on various websites.  I've also used this identity site as my primary OpenID for
 quite a while.  
 
-[willnorris.com]: http://willnorris.com/
+[willnorris.com]: /
 [will.norris.name]: http://will.norris.name/
 
 I've been considering consolidating these down into a single site, putting my activity stream on the front page and my

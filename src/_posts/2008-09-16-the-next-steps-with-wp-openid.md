@@ -35,8 +35,8 @@ something and may have to add a third post, but for now we're looking at:
  - [Making the plugin more stable, extensible, and overall simpler][stability]
  - [OpenID Providing and Delegation][provider]
 
-[stability]: http://willnorris.com/2008/09/wp-openid-faster-stronger-better
-[provider]: http://willnorris.com/2008/09/providing-and-delegating-openids
+[stability]: /2008/09/wp-openid-faster-stronger-better
+[provider]: /2008/09/providing-and-delegating-openids
 
 
 ### Test it Out ###

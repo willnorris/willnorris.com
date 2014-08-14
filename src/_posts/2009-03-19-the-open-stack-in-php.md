@@ -141,4 +141,4 @@ Even if you don't have development cycles you can put into this, I've already go
 to make that I'd love feedback on, which I'll be covering in my next post: "[Why Does HTTP Suck So Much in
 PHP][http-php]".
 
-[http-php]: http://willnorris.com/2009/03/http-client-library-for-php
+[http-php]: /2009/03/http-client-library-for-php

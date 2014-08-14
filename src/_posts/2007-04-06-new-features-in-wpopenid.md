@@ -34,4 +34,4 @@ new release, and I may also wait for the 2.0 release of  JanRain's PHP OpenID li
 release candidate yesterday and I'm really anxious to start playing with it.
 
 [filed accordingly]: http://trac.wordpress.org/ticket/4108/
-[subversion]: http://willnorris.com/svn/code/wpopenid/trunk/
+[subversion]: /svn/code/wpopenid/trunk/

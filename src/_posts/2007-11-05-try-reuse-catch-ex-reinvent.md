@@ -20,7 +20,7 @@ posts so close together about such similar topics, but I realize now these reall
 concerns about hCard and privacy are very real and certainly worth consideration, but what Chris was really getting at
 was attribute naming.
 
-[limitations of hCard]: http://willnorris.com/2007/11/hcard-is-not-a-provisioning-engine-for-private-data
+[limitations of hCard]: /2007/11/hcard-is-not-a-provisioning-engine-for-private-data
 [Chris]: http://factoryjoe.com/blog/2007/11/01/hcard-for-openid-simple-registration-and-attribute-exchange/
 [Tantek's thoughts]: http://tantek.com/log/2007/11.html#d02t2318
 
@@ -84,6 +84,6 @@ attribute names.  And given that it appears as though [no one is currently suppo
 the time to make this change.
 
 [rfc2426]: http://tools.ietf.org/html/rfc2426
-[openid-support]: http://willnorris.com/openid-support
+[openid-support]: /openid-support
 
 (For the non-technical, the title roughly reads "First try to reuse.  Only if that doesn't work, then reinvent.")

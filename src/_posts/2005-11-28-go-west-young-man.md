@@ -9,4 +9,7 @@ tags:
 - vacation
 - lax
 ---
-
+I've been thinking about it for awhile, and finally decided to just do it — I’m
+heading out to Los Angeles for about a week over New Years. Just too many
+mounting reasons for me to go, and not enough reasons not to. Still have to
+work out some of the details, but that shouldn’t be too difficult.

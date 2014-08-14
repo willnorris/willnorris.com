@@ -32,11 +32,11 @@ plugin...
  - I'd like to have the plugin released around the same time as OpenID 2.0 being finalized (supposedly the first of
  October).  Given how long it's taken me to get back at it thus far, this seems realistic.
 
-[wordpress openid plugin]: http://willnorris.com/projects/wpopenid
+[wordpress openid plugin]: /projects/wpopenid
 [one brave soul]: http://kveton.com/blog/
 
 I'll also note that I've made a project page for my [MicroID plugin][].  The plugin has actually been around for quite
 some time, but somehow I missed making a page for it.  This plugin builds on some ideas in existing MicroID plugins, but
 goes a bit further to support a number of additional features.
 
-[MicroID plugin]: http://willnorris.com/projects/wp-microid
+[MicroID plugin]: /projects/wp-microid

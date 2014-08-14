@@ -28,5 +28,5 @@ something... work that benefits the community should be recognized.
 
 [Sam Alexander]: http://salexander.myvidoop.com/
 [MyVidoop]: http://myvidoop.com/
-[OpenID Support table]: http://willnorris.com/openid-support
+[OpenID Support table]: /openid-support
 [IDtail]: http://idtail.com/

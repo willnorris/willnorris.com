@@ -17,7 +17,7 @@ WordPress for almost as long, so I've been a bit bewildered with the amount of t
 attempted to get [WordPress MU][] running on my laptop.  I identified a couple of specific problems and solutions, which
 I wanted to outline here.
 
-[custom Apache setup]: http://willnorris.com/2005/05/dev_environment
+[custom Apache setup]: /2005/05/dev_environment
 [WordPress MU]: http://mu.wordpress.org/
 
 ### Choosing the right hostname ###
@@ -69,5 +69,5 @@ works for me on Mac OS X (Leopard), but I make no guarantees for anyone else.  K
 ever be needed for a development environment... if you're unable to send notification emails from your production blog,
 then you've got other problems.
 
-[Development Mailer]: http://willnorris.com/svn/will.norris.name/trunk/public/wordpress-content/plugins/development-mailer.php
+[Development Mailer]: /svn/will.norris.name/trunk/public/wordpress-content/plugins/development-mailer.php
 [mail()]: http://php.net/mail

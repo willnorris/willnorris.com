@@ -25,5 +25,5 @@ of the people that subscribe through LJ are personal friends and so aren't too i
 could also just subscribe to my [personal posts][] if you prefer.  Again, sorry for all that, but LJ **really sucks** in
 this regard.
 
-[main feed URL]: http://willnorris.com/feed/
-[personal posts]: http://willnorris.com/category/personal/feed/
+[main feed URL]: /feed/
+[personal posts]: /category/personal/feed/

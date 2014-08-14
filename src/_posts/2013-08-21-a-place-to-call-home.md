@@ -66,7 +66,7 @@ decks.  It's whatever I want it to be at the time, but it's always mine.  As Bre
 able to find me over time and space".
 
 
-[jailbreaking]: https://willnorris.com/2013/08/jailbreaking-the-internet
+[jailbreaking]: /2013/08/jailbreaking-the-internet
 [Mike Elgan]: http://elgan.com/
 [copyblogger]: http://www.copyblogger.com/google-plus-sharecropping/
 [What is a blog, anyway?]: https://plus.google.com/+MikeElgan/posts/DHAsXKwr6AR

@@ -17,7 +17,7 @@ about how directed identity has actually been implemented in projects I've been 
 learned from that.
 
 [cookie policies]: http://blog.ostp.gov/2009/07/24/cookiepolicy/
-[last post]: http://willnorris.com/2009/07/openid-directed-identity-identifier-select
+[last post]: /2009/07/openid-directed-identity-identifier-select
 
 
 ## Shibboleth and SAML ##

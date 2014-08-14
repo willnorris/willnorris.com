@@ -37,4 +37,4 @@ or missing links on the new site, please comment below.)
 [ciro]: http://www.flickr.com/photos/ciro/
 [creative commons]: https://creativecommons.org/
 [cool uri]: http://www.w3.org/Provider/Style/URI.html
-[broken urls]: http://willnorris.com/2005/01/cooluris
+[broken urls]: /2005/01/cooluris

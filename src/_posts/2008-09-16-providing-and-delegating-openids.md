@@ -30,7 +30,7 @@ configuration and supported extensions from that provider are discovered and pub
 course this data will have to be cached and probably updated on some interval, but it makes setting up delegation a
 breeze.
 
-[next major release]: http://willnorris.com/2008/09/the-next-steps-with-wp-openid
+[next major release]: /2008/09/the-next-steps-with-wp-openid
 
 ### Server Modes ###
 

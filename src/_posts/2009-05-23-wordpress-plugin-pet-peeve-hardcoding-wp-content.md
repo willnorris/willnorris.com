@@ -64,8 +64,8 @@ So plugin authors, please go and fix this in your plugins.  Please?  Otherwise I
 site.
 
 [can be moved]: http://codex.wordpress.org/Editing_wp-config.php#Moving_wp-content
-[/wordpress]: http://willnorris.com/wordpress/
-[/wordpress-content]: http://willnorris.com/wordpress-content/
+[/wordpress]: /wordpress/
+[/wordpress-content]: /wordpress-content/
 [Determining Plugin and Content Directories]: http://codex.wordpress.org/Determining_Plugin_and_Content_Directories
 [compatibility.php]: http://code.google.com/p/diso/source/browse/wordpress/openid/trunk/compatibility.php
 [WordPress OpenID Plugin]: http://wordpress.org/extend/plugins/openid/

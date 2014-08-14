@@ -22,8 +22,6 @@ I can't wait until I can finally trash these pitiful, monolithic excuses for ins
 one](http://www.jabber.org).  I just need to find a good web-based jabber client... perhaps I'm going to have to write
 my own, I don't know.
 
---  
-
 understand that I'm not really *that* upset about away messages - okay, maybe I am -  but rather abuses of technologies
 in general, and away messages just happened to be my target of the day.  if you use your away message in some ridiculous
 fashion as described above, you are more than entitled to do so...  just as I am entitled to say how retarded i think it

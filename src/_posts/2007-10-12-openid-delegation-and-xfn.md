@@ -33,4 +33,4 @@ I will be updating my [yadis plugin][] to behave in this manner as well.
 [Chris Messina]: http://factoryjoe.com/blog/
 [MyOpenID]: http://myopenid.com/
 [claimID]: http://claimid.com/willnorris
-[yadis plugin]: http://willnorris.com/projects/wp-yadis/
+[yadis plugin]: /projects/wp-yadis/

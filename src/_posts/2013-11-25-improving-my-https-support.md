@@ -15,7 +15,7 @@ removed the automatic redirect, but that was mostly to help debug clients that w
 things have just been humming right along, and today I finally got around to some upgrades I've been wanting to make to
 my HTTPS setup.
 
-[all-https]: https://willnorris.com/2012/12/all-https-all-the-time
+[all-https]: /2012/12/all-https-all-the-time
 
 
 ## Perfect Forward Secrecy ##

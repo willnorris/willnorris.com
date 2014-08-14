@@ -14,7 +14,7 @@ tags:
 comes up relatively often, and one in which most people are surprised when they hear my stance on it.  It's worthy of a
 separate discussion for those that are interested, so I've pulled it out into a separate post.*
 
-[a comment]: http://willnorris.com/2009/09/wordpress-openid-v3-3#comment-35595
+[a comment]: /2009/09/wordpress-openid-v3-3#comment-35595
 
 I’ve talked with core team about this numerous times… in fact, I spoke at [WordCamp Portland][] and [Seattle][] these
 last two weeks and talked with [Matt][] about it. For the most part, I actually agree with him that OpenID doesn’t
@@ -58,6 +58,6 @@ site-wide and per-user.
 [BuddyPress]: http://buddypress.org/
 [Mark Jaquith]: http://markjaquith.com/
 [all WP.com blogs are OpenIDs]: http://support.wordpress.com/settings/openid/
-[authentication system]: http://willnorris.com/2009/03/authentication-in-wordpress-28
+[authentication system]: /2009/03/authentication-in-wordpress-28
 [JanRain OpenID library]: http://openidenabled.com/php-openid/
 [pretty popular]: http://wordpress.org/extend/plugins/openid/stats/

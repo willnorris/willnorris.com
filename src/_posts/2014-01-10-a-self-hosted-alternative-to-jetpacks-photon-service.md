@@ -55,7 +55,7 @@ others as well, but those are the ones I looked at.  Ultimately, I wasn't comple
 because of their use of URL query parameters or they charged more than I really wanted to spend for this.  Instead, I
 started looking at self-hosted options.
 
-[https]: https://willnorris.com/2012/12/all-https-all-the-time
+[https]: /2012/12/all-https-all-the-time
 [origin pull]: http://www.whoishostingthis.com/blog/2010/06/30/cdns-push-vs-pull/
 [photon-extras]: http://developer.wordpress.com/docs/photon/api/
 [caching implications]: http://www.stevesouders.com/blog/2008/08/23/revving-filenames-dont-use-querystring/

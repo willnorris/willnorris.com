@@ -24,9 +24,9 @@ So what am I to do?  The most obvious answer is to simply use one of the larger 
 such a feature, like Google.  But I have some real problems with that, both philosophically and practically.
 Fortunately, I think I may also have a better solution.
 
-[directed identity]: http://willnorris.com/2009/08/best-practices-with-directed-identity
+[directed identity]: /2009/08/best-practices-with-directed-identity
 [WordPress OpenID plugin]: http://wordpress.org/extend/plugins/openid/
-[my sole OpenID provider]: http://willnorris.com/wordpress/index.php/openid/server
+[my sole OpenID provider]: /wordpress/index.php/openid/server
 
 
 ## Maintaining Control ##
@@ -85,7 +85,7 @@ decision.  We need a system that couldn't reveal the identity of a user even if 
 it.
 
 [MyOpenID]: http://myopenid.com/
-[directed identity implementations]: http://willnorris.com/2009/08/best-practices-with-directed-identity
+[directed identity implementations]: /2009/08/best-practices-with-directed-identity
 [shortening cookies]: http://broadcast.oreilly.com/2009/07/shortening-cookies-using-openi.html
 [privacy and government]: http://radar.oreilly.com/2009/08/privacy-and-open-government-co.html
 [maintain and respect my privacy]: http://www.google.com/search?q=warrantless+wiretapping

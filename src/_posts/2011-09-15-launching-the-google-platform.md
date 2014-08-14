@@ -31,7 +31,7 @@ This is perhaps the most important project I've worked on in my professional lif
 are beginning today.  I'm excited to see what people will build with the API, and I'll be sharing some of my own Google+
 projects very soon.
 
-[I mentioned]: http://willnorris.com/2011/06/google-plus
+[I mentioned]: /2011/06/google-plus
 [Google+]: http://www.google.com/+/
 [Google+ Platform]: http://developers.google.com/+/
 [today's announcement]: http://googleplusplatform.blogspot.com/

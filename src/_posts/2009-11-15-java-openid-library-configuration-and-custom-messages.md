@@ -17,7 +17,7 @@ kinds of messages.  While this was not specifically a core requirement of the li
 design, and just seemed like a good thing to support.  I want to talk about it here, because it illustrates how this
 portion of the library is configured, which will be important to understand later.
 
-[previously described]: http://willnorris.com/2009/11/java-openid-library-design-message-handling
+[previously described]: /2009/11/java-openid-library-design-message-handling
 
 ## Central Registry ##
 

@@ -33,7 +33,7 @@ This certainly looks like a bug. I glanced at the [brid.gy code][] briefly, but 
 [Ryan][], you have any thoughts?
 
 [brid.gy]: https://www.brid.gy/
-[this post]: https://willnorris.com/2014/05/go-rest-apis-and-pointers#comments
+[this post]: /2014/05/go-rest-apis-and-pointers#comments
 [example +1]: https://brid-gy.appspot.com/like/googleplus/111832530347449196055/z13btbeotxa1xlagq04cjrvwdoeagrwasvc0k/105078911987805797425
 [example reshare]: https://brid-gy.appspot.com/repost/googleplus/111832530347449196055/z12fcrxzklu1vrctk23xyz2h2ln5z1qau04/103038387682807517504
 [brid.gy code]: https://github.com/snarfed/bridgy

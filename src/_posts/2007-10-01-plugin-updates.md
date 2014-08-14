@@ -19,7 +19,7 @@ comments here or by email.
 
 **update**: I've also added Alexandre Passant's nice FOAF/SIOC [auto-discovery code][].
 
-[Oct 1 goal]: http://willnorris.com/2007/09/wordpress-openid-20-coming-soon
-[wp-openid]: http://willnorris.com/projects/wpopenid/
-[wp-yadis]: http://willnorris.com/projects/wp-yadis/
+[Oct 1 goal]: /2007/09/wordpress-openid-20-coming-soon
+[wp-openid]: /projects/wpopenid/
+[wp-yadis]: /projects/wp-yadis/
 [auto-discovery code]: http://apassant.net/blog/2007/09/23/retrieving-foaf-profile-from-openid/

@@ -99,10 +99,10 @@ $35, but there's a little problem...
 
 [launched]: http://blog.janrain.com/2007/02/openid-name-great-news.html
 [MyOpenID]: http://www.myopenid.com/
-[I grabbed]: http://willnorris.com/2007/02/free-your-id
+[I grabbed]: /2007/02/free-your-id
 [landing page]: http://web.archive.org/web/20080307175926/http://will.norris.name/
-[polled my friends]: http://willnorris.com/2008/11/consolidating-domains
-[challenges with OpenID]: http://willnorris.com/2008/12/challenges-in-changing-my-openid
+[polled my friends]: /2008/11/consolidating-domains
+[challenges with OpenID]: /2008/12/challenges-in-changing-my-openid
 [shutting down]: http://www.techcrunch.com/2009/07/25/freeyourid-gives-up-on-trying-to-monetize-openid/
 
 

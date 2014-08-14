@@ -148,7 +148,7 @@ Further codex reading:
   - <http://codex.wordpress.org/Query_Overview>
   - <http://codex.wordpress.org/Custom_Queries>
 
-[pet-peeve-1]: http://willnorris.com/2009/05/wordpress-plugin-pet-peeve-hardcoding-wp-content
+[pet-peeve-1]: /2009/05/wordpress-plugin-pet-peeve-hardcoding-wp-content
 [AJAX calls on admin pages]: http://codex.wordpress.org/AJAX_in_Plugins#Ajax_on_the_Administration_Side
 [WP_Rewrite]: http://codex.wordpress.org/Function_Reference/WP_Rewrite
 [common.php]: http://code.google.com/p/diso/source/browse/wordpress/openid/trunk/common.php

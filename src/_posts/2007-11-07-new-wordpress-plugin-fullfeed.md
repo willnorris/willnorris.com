@@ -33,4 +33,4 @@ wp-plugins.org.</strike>
 [Mint]: http://www.haveamint.com/
 [OpenID Planet feed]: http://planet.openid.net/
 [more-tag]: http://codex.wordpress.org/Customizing_the_Read_More
-[project page]: http://willnorris.com/projects/full-feed
+[project page]: /projects/full-feed

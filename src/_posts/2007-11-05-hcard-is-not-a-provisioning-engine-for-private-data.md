@@ -26,7 +26,7 @@ While I certainly agree with Chris that hCard has a role to play in the new worl
 or AX to be dismissed too quickly.  I don't believe he was suggesting that hCard would replace SREG/AX in all use cases,
 but I want to labor this point just a little bit so that others are not confused.
 
-[provisioning]: http://willnorris.com/2007/10/openid-is-not-a-provisioning-engine
+[provisioning]: /2007/10/openid-is-not-a-provisioning-engine
 [hcard-sreg]: http://factoryjoe.com/blog/2007/11/01/hcard-for-openid-simple-registration-and-attribute-exchange/
 
 There is one huge benefit to SREG and AX that hCard doesn't (and by it's nature, can't) address... releasing different
@@ -48,7 +48,7 @@ fine-grained level of control has always been a core requirement for the [Shibbo
 would argue that the (currently beta) Shibboleth 2.0 IdP has one of the most powerful and flexible (and admittedly,
 verbose) [filtering engines][] of its kind anywhere.
 
-[wish-list]: http://willnorris.com/2007/03/openid-provider-wish-list
+[wish-list]: /2007/03/openid-provider-wish-list
 [Shibboleth]: http://shibboleth.internet2.edu/
 [filtering engines]: https://spaces.internet2.edu/display/SHIB2/AFPAttributeFilterPolicy
 

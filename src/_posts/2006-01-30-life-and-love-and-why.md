@@ -90,6 +90,6 @@ nice relief. Most of my contact info won't be changing anytime soon, but just kn
 have the latest.  Several friends have suggested having a little send-off party (I'm thinking on the evening of the 9th,
 so everyone can meet Elisabeth), so I'll have more details here for those Memphis folks that wish to attend.
 
-[contact]: http://willnorris.com/contact/
+[contact]: /contact/
 
 (please leave any comments here as opposed to email if appropriate... makes it easier to keep everything together)

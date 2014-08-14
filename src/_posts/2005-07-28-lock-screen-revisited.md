@@ -24,4 +24,4 @@ solution] It's pretty simple...
 Scripts.qsplugin/Contents/Resources/ExtraScripts`
 * Set "Include Contents: Folder Contents" and "Depth: infinite"
 
-[lockscreen]: http://willnorris.com/2005/07/lock-screen
+[lockscreen]: /2005/07/lock-screen

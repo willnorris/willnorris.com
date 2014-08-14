@@ -12,7 +12,7 @@ like the increased speed and reliability of simply serving static files, the inc
 very little) server side code to be exploited, and the overall simplicity of authoring posts as plaintext markdown
 files.  All of those are reasons I can identify with and are certainly part of why I switched, but there was more to it.
 
-[wordpress-post]: https://willnorris.com/2005/05/wordpress-layouts-and-uris
+[wordpress-post]: /2005/05/wordpress-layouts-and-uris
 [Jekyll]: http://jekyllrb.com/
 
 ## Building for the Web ##

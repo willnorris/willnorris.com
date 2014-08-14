@@ -25,7 +25,7 @@ ago that I finally sat down to polish it up.  The first use-case we wanted to ta
 iPhone app to communicate with your blog without having to share your WordPress password.
 
 [OpenID plugin]: http://wordpress.org/extend/plugins/openid/
-[was hired by Vidoop]: http://willnorris.com/2008/05/why-im-going-to-vidoop
+[was hired by Vidoop]: /2008/05/why-im-going-to-vidoop
 [DiSo Project]: http://diso-project.org/
 [WordCamp SF 2008]: http://2008.sf.wordcamp.org/
 [slidedeck]: http://www.slideshare.net/willnorris/wordpress-oauth-presentation

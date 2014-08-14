@@ -12,10 +12,10 @@ But I was also interested in having a "[visible endpoint that teaches][]", as we
 manually submitting webmentions.  And of course, I like the idea of hosting it on my own site, so I can customize it
 exactly how I want.
 
-What I ended up with is a hybrid approach.  My new webmention endpoint is <https://willnorris.com/api/webmention>.  All
-HTTP `GET` requests to that URL are served by a static file on my webserver, while HTTP `POST` requests are forwarded to
-Pelle's webmention service using nginx's proxy module.  I feel like this gives me the best of both worlds, and the
-configuration to do it was surprisingly simple:
+What I ended up with is a hybrid approach.  My new webmention endpoint is
+[https://willnorris.com/api/webmention](/api/webmention).  All HTTP `GET` requests to that URL are served by a static
+file on my webserver, while HTTP `POST` requests are forwarded to Pelle's webmention service using nginx's proxy module.
+I feel like this gives me the best of both worlds, and the configuration to do it was surprisingly simple:
 
 ```
 location = /api/webmention {
@@ -32,7 +32,7 @@ complicated because nginx has some limits on how proxies can be configured insid
 post][] has some details).
 
 [indiewebify]: http://indiewebify.me/
-[new static website]: https://willnorris.com/2014/07/one-step-forward-two-steps-back
+[new static website]: /2014/07/one-step-forward-two-steps-back
 [Pelle Wessman]: http://voxpelli.com/
 [webmention service]: https://webmention.herokuapp.com/
 [visible endpoint that teaches]: http://indiewebcamp.com/irc/2014-05-04/line/1399233029

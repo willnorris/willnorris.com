@@ -40,8 +40,8 @@ working wherever I can find high speed internet access, and we're saying our goo
 weeks from now we'll be in San Francisco setting up the new place.  (Anyone in SOMA want to come and help assemble a LOT
 of furniture?)
 
-[previously]: http://willnorris.com/2008/04/new-beginnings
-[mentioned]: http://willnorris.com/2008/05/why-im-going-to-vidoop
+[previously]: /2008/04/new-beginnings
+[mentioned]: /2008/05/why-im-going-to-vidoop
 [Chris]: http://factoryjoe.com/
 [KitchenAid Mixer]: http://xrl.us/hnz4n
 [Tao Collection]: http://xrl.us/hnwzc

@@ -9,7 +9,7 @@ layout: default
     <p class="entry-meta">
       Published on 
       <a href="{{ page.url }}" class="u-url url">
-        <time class="dt-published published" datetime="{{ page.datetime | datetime_to_xmlschema }}" title="{{ page.datetime | datetime_to_xmlschema }}">
+        <time class="dt-published published dt-updated updated" datetime="{{ page.datetime | datetime_to_xmlschema }}" title="{{ page.datetime | datetime_to_xmlschema }}">
           {{ page.datetime | datetime: "%B %o, %Y at %-I:%M %P %:Z" }}
         </time>
       </a>

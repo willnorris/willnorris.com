@@ -10,7 +10,7 @@ date: '2005-05-12T08:44:01-07:00'
 
 Hi, I’m <a href="https://willnorris.com/" class="p-name u-url fn url">Will Norris</a>. I'm a
 follower of Jesus, a husband to [Elisabeth Norris][], a citizen of the [indie web][], and an
-engineer at Google. In that order.
+<span class="p-role role">engineer</span> at <span class="p-org org">Google</span>.  In that order.
 
 At Google, I work in our [Open Source Programs Office][]; we focus on keeping open source software
 flowing in and out of Google. Previously I was an engineer on the [Google+ API][], having spent much

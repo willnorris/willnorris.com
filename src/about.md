@@ -1,12 +1,13 @@
 ---
 layout: page
 title: About
-wordpress_id: 6
 date: '2005-05-12T08:44:01-07:00'
 ---
 <div class="h-card vcard" markdown="1">
 
-<img src="/2005/05/03-800.jpg" alt="Will Norris" width="300" height="300" class="u-photo photo alignright" />
+<figure class="alignright">
+  <img src="/2005/05/03-800.jpg" alt="Will Norris" width="300" height="300" class="u-photo photo">
+</figure>
 
 Hi, I’m <a href="https://willnorris.com/" class="p-name u-url fn url">Will Norris</a>. I'm a
 follower of Jesus, a husband to [Elisabeth Norris][], a citizen of the [indie web][], and an
@@ -21,9 +22,8 @@ WordPress, and continue to maintain a number of [plugins][] and occasionally con
 core and WordPress for Android.
 
 I can be contacted by email at will @ this domain or by phone at <span class="p-tel tel">+1 (901)
-484-9455</span>.  Links to most of my online profiles can be found on my [Google+
-page](https://plus.google.com/+willnorris/about).  I'm not interested in hearing about job
-opportunities.
+484-9455</span>.  Links to most of my online profiles can be found on my [Google+ page][].  I'm not
+interested in hearing about job opportunities.
 
 </div>
 
@@ -38,17 +38,18 @@ opportunities.
 [Shibboleth]: http://shibboleth.net/
 [USC]: http://www.usc.edu/
 [plugins]: https://profiles.wordpress.org/willnorris
+[Google+ page]: https://plus.google.com/+willnorris/about
 
 
 ### Colophon ###
 
-This site is powered by [Jekyll][] with a few custom plugins for [cleaner urls][] and other small tweaks.  I host my
+This site is powered by [Jekyll][] with a few [custom plugins][] for cleaner urls and other small tweaks.  I host my
 sites at [Linode][] and all of my domains are registered with [Google Domains][] (which I [highly recommend][]).  Short
 URLs for my content are resolved using a small server I wrote called [gum][].  Most images are proxied through my
 [imageproxy][] server to handle simple things like dynamic resizing.
 
 [Jekyll]: http://jekyllrb.com/
-[cleaner urls]: https://github.com/willnorris/jekyll-clean-urls
+[custom plugins]: https://github.com/willnorris/willnorris.com/tree/master/src/_plugins
 [Linode]: https://www.linode.com/
 [Google Domains]: https://www.google.com/domains
 [highly recommend]: /2014/06/google-domains

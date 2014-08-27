@@ -27,9 +27,9 @@ If needed, create a new SSH key
 
     sudo mkdir /opt/homebrew
     sudo chown `whoami` /opt/homebrew
-    git clone https://github.com/Homebrew/homebrew.git /opt/homebrew
+    git clone https://github.com/homebrew/homebrew.git /opt/homebrew
 
-Full installation docs at <https://github.com/Homebrew/homebrew/wiki/Installation>
+Full installation docs on the [homebrew wiki](https://github.com/homebrew/homebrew/wiki/Installation)
 
 Ensure that /opt/homebrew/bin is in the path (for example: [mordecai.env][])
 
@@ -56,15 +56,54 @@ http {
     include mime.types;
     sendfile on;
     keepalive_timeout 65;
-    include /Users/willnorris/Sites/*/nginx.conf;
+
+    # php-fpm
+    upstream php { server localhost:9000; }
+    include fastcgi.conf;
+    fastcgi_index  index.php;
+    fastcgi_intercept_errors on;
+
+    include /var/www/*/etc/nginx-local.conf;
 }
 ```
 
-In order to run on port 80, the launchctl config must be installed in `/Library/LaunchAgents`:
+Symlink `/var/www` to `$HOME/Sites`.  This really has no advantage in the short term compared to
+having nginx import from `$HOME/Sites` directly, but the hope is to eventually be able to share
+nginx configs between dev and prod.
+
+    sudo ln -s $HOME/Sites /var/www
+
+In order to run on port 80, the launchd config must be installed in `/Library/LaunchAgents`:
 
     sudo cp /opt/homebrew/opt/nginx/homebrew.mxcl.nginx.plist /Library/LaunchAgents
     sudo chown root /Library/LaunchAgents/homebrew.mxcl.nginx.plist
     sudo launchctl load /Library/LaunchAgents/homebrew.mxcl.nginx.plist
+
+## PHP ##
+
+Copy default PHP configs:
+
+    sudo cp /etc/php.ini.default /etc/php.ini
+    sudo cp /etc/php-fpm.conf.default /etc/php-fpm.conf
+    sudo chmod 644 /etc/php.ini /etc/php-fpm.conf
+
+Setup php-fpm logging:
+
+    sudo touch /var/log/php-fpm.log
+    sudo chown `whoami` /var/log/php-fpm.log
+
+    # edit /etc/php-fpm.conf to contain:
+    error_log = /var/log/php-fpm.log
+
+Config PHP to use sockets for connecting to mysql.  Edit `/etc/php.ini` to contain:
+
+    pdo_mysql.default_socket=/tmp/mysql.sock
+    mysql.default_socket = /tmp/mysql.sock
+
+Add [launchd config for php-fpm](https://github.com/willnorris/dotfiles/blob/master/mordecai/Library/LaunchAgents/org.php.php-fpm.plist):
+
+    cp org.php.php-fpm.plist ~/Library/LaunchAgents
+    launchctl load -w ~/Library/LaunchAgents/org.php.php-fpm.plist
 
 ## MySQL ##
 
@@ -77,12 +116,6 @@ Create `/etc/my.cnf` with the following contents:
 
     [mysqld]
       skip-networking
-
-    [client]
-      socket = /tmp/mysql.sock
-
-    [server]
-      socket = /tmp/mysql.sock
 
 Restart mysqld:
 
@@ -97,7 +130,6 @@ Further reading: <http://stackoverflow.com/questions/4359131/brew-install-mysql-
     # local development
     127.0.0.1  mysql
 
-
 ## phpMyAdmin ##
 
 Download from <http://www.phpmyadmin.net/> and unzip.
@@ -106,7 +138,7 @@ Download from <http://www.phpmyadmin.net/> and unzip.
     cd ~/Sites/mysql
     mv ~/Downloads/phpMyAdmin-* ./
     ln -s phpMyAdmin-* public
-    cp config.sample.inc.php config.inc.php
+    cp public/config.sample.inc.php public/config.inc.php
 
 Edit `config.inc.php` to contain the following:
 

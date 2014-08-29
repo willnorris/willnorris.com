@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-<article class="page h-entry hentry">
-
+<article class="post h-entry hentry">
   <header class="entry-header">
     <h1 class="p-name entry-title">{{ page.title }}</h1>
-
     <p class="entry-meta">
       Published on 
       <a href="{{ page.url }}" class="u-url url">
@@ -39,5 +37,4 @@ layout: default
     {% for syn in page.bridgy_links %}<a href="{{ syn }}"></a>{% endfor %}
     </p>
   </footer>
-
 </article>

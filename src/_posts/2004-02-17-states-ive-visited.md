@@ -10,7 +10,8 @@ tags:
 ---
 
 <figure class="aligncenter">
-  <img src="http://www.world66.com/myworld66/visitedStates/statemap?visited=ALAZARCACODCFLGAKSKYLAMDMSMONVNJNMNYNCOHOKPASCTNTXUTVAWVILVTOR">
+  <!-- original image: http://www.world66.com/myworld66/visitedStates/statemap?visited=ALAZARCACODCFLGAKSKYLAMDMSMONVNJNMNYNCOHOKPASCTNTXUTVAWVILVTOR -->
+  <img src="states-visited.gif">
 </figure>
 
 Created with [World66](http://www.world66.com/myworld66/visitedStates).

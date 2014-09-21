@@ -12,7 +12,9 @@ tags:
 - usc
 - openid
 ---
-<img src="http://files.willnorris.com/wordpress/images/usc-logo.png" style="float: right;" />
+<figure class="alignright">
+  <img src="/2006/01/usc.png" alt="USC logo">
+</figure>
 
 One year ago today, February 15, 2006, was my first official day here at USC.  If I recall correctly, I spent most of
 that day filling out HR paperwork and then leaving a little early to hunt for an apartment, but it marked the beginning

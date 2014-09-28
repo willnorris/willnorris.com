@@ -1,6 +1,6 @@
 # The datetime plugin includes extensions to jekyll posts and additional filters
 # for working with dates.  Notably, jekyll heavily uses ruby Time objects which
-# lose the specified timezone.  This plugin adds a post.datetime funciont which
+# lose the specified timezone.  This plugin adds a post.datetime function which
 # parses the front matter date variable as a ruby DateTime object.  (Note that
 # the yaml module will attempt to parse 'naked' values as a Time, so the value
 # must be enclosed in quotes, forcing yaml to interpret it as a string.)
@@ -25,6 +25,11 @@ module Jekyll
   end
 
   module DateFilters
+    # Format the provided timestamp.  This adds two formatting directives:
+    #
+    #  %o  - day of month as an ordinal day (e.g. '2nd', '23rd')
+    #  %:Z - timezone as abbreviated name (e.g. 'EDT', 'PST').  Currently only
+    #  supports continental US timezones.
     def datetime(input, format)
       return input if format.to_s.empty?
       return input unless date = to_datetime(input)

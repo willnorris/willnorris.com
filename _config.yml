@@ -2,7 +2,7 @@
 name: willnorris.com
 description: there's more to life than this
 url: https://willnorris.com
-imageproxy_baseurl: https://s.wjn.me
+imageproxy_baseurl: /api/imageproxy
 analytics_id: UA-620101-2
 twitter: "@willnorris"
 include:

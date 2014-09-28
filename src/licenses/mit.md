@@ -4,7 +4,7 @@ title: MIT License
 wordpress_id: 1063
 date: '2013-08-09T08:53:47-07:00'
 ---
-Copyright (c) 2014, Will Norris &lt;<https://willnorris.com/>&gt;
+Copyright (c) {{ site.time | date: '%Y' }}, Will Norris &lt;<https://willnorris.com/>&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

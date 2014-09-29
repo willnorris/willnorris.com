@@ -47,26 +47,70 @@ article.page, article.post {
   margin-bottom: 3em;
 }
 
+figure {
+  text-align: center;
+  margin: 1em 0;
+}
+
 .aligncenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.alignleft {
-  float: left;
+@media only screen and (min-width: 450px) {
+  // only float if the screen is wide enough to display it properly
+  .alignleft {
+    float: left;
+    margin-right: 1em;
+  }
+
+  .alignright {
+    float: right;
+    margin-left: 1em;
+  }
 }
 
-.alignright {
-  float: right;
+@media only screen and (min-width: 450px) and (max-width: 600px) {
+  // the screen is wide enough to float, but make sure we don't squish the text
+  // to only one or two words per line
+  .alignleft, .alignright {
+    max-width: 50%;
+    height: auto;
+
+    img:not([height]) {
+      height: auto;
+    }
+  }
 }
 
-.entry-content img {
-  height: auto;
+@media only screen and (min-width: 700px) {
+  // increase padding around floats
+  .alignleft {
+    margin-left: 1em;
+    margin-right: 2em;
+  }
+  .alignright {
+    margin-left: 2em;
+    margin-right: 1em;
+  }
 }
 
-figure {
-  text-align: center;
+figure.video {
+  // responsive embeds for things like youtube videos and such
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+
+  iframe, object, embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 main {

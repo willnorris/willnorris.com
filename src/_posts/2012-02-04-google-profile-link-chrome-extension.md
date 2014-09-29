@@ -24,7 +24,7 @@ results][rel-author] or [direct connect][], but doesn't do much for visitors to 
 badge, the design of some sites are so cluttered that the link may be difficult to find.
 
 <figure class="aligncenter">
-  <img src="willnorris.com-profile-link.png" alt="Screenshot of profile link on willnorris.com" width="458" height="274" />
+  <img src="willnorris.com-profile-link.png" alt="Screenshot of profile link on willnorris.com">
 </figure>
 
 The +Profile Link extension scans pages as you browse the web looking for links to a Google+ profile.  This can be a
@@ -42,7 +42,7 @@ links setup on their site.  For example, this would allow the address bar icon t
 profile page as seen here for Tantek.
 
 <figure class="aligncenter">
-  <img src="twitter.com-profile-link.png" alt="Screenshot of profile link on twitter.com" width="458" height="274" />
+  <img src="twitter.com-profile-link.png" alt="Screenshot of profile link on twitter.com">
 </figure>
 
 Unfortunately, the Social Graph API was [recently deprecated][] and announced that it will be retired on April 20, 2012.

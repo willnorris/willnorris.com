@@ -9,7 +9,7 @@ syndication:
 ---
 
 <aside class="alignright"><figure>
-  <img src="plus-platform.jpg" alt="Google+ Platform" width="250" height="200" />
+  <img src="plus-platform.jpg" alt="Google+ Platform">
 </figure></aside>
 
 A couple of months ago, [I mentioned][] how excited I was to reveal to family and friends what I've been working on at

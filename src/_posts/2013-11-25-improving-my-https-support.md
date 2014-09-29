@@ -43,7 +43,7 @@ result](https://www.ssllabs.com/ssltest/analyze.html?d=willnorris.com):
 
 <figure>
   <a href="https://www.ssllabs.com/ssltest/analyze.html?d=willnorris.com"><img src="ssllabs-result.png" 
-    alt="SSLLabs Result showing an 'A' rating" width="927" height="514" class="aligncenter" /></a>
+    alt="SSLLabs Result showing an 'A' rating" class="aligncenter"></a>
 </figure>
 
 [Twitter]: https://blog.twitter.com/2013/forward-secrecy-at-twitter-0

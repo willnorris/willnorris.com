@@ -38,7 +38,7 @@ One of the greatest features of Photon is that the service itself is hosted on W
 that it's very fast and stable, and frees you from having to worry about it.  The downside is that, since Automattic is
 providing it as a free service, there are some stipulations on its use, namely that it is only for sites hosted on
 WordPress.com or using the Jetpack plugin.  Since I'd been working to migrate off of Jetpack, I could no longer use the
-service.  
+service.
 
 My requirements for an image proxy were pretty simple.  First and foremost, it had to serve traffic over https, since
 [all of my content is https][https].  Next, I wanted a service that supports [origin pull][], in order to keep the
@@ -67,7 +67,7 @@ started looking at self-hosted options.
 ## Self-hosted image proxies ##
 
 <aside class="alignright"><figure>
-  <img src="ghillied-up.jpg" alt="Man wearing a ghillie camouflage suit" width="300" height="400" /> 
+  <img src="ghillied-up.jpg" alt="Man wearing a ghillie camouflage suit" width="300">
   <figcaption><a href="https://secure.flickr.com/photos/divinenephron/4857328881/">Ghillied Up, by Devon Buchanan</a></figcaption>
 </figure></aside>
 
@@ -87,7 +87,7 @@ suspect that WordPress.com adds caching at a different layer).
 ## willnorris/imageproxy ##
 
 Most of my development at work is done in Go these days, and I had been looking for an opportunity to run a real Go
-service myself (versus just deploying my code to App Engine or something), so this was a great project to do that.  
+service myself (versus just deploying my code to App Engine or something), so this was a great project to do that.
 
 The final result is just [a few hundred lines of Go code][willnorris/imageproxy], utilizing [gregjones/httpcache][]
 together with [peterbourgon/diskv] for caching remote images on disk, and [disintegration/imaging] for basic image
@@ -97,7 +97,7 @@ to only serve images from my own sites.  And because it's written in Go, it comp
 is incredibly simple to deploy and manage; I've included the [upstart init script][] I use on my Ubuntu server.
 
 <figure class="aligncenter">
-  <a href="https://github.com/willnorris/imageproxy"><img src="open-source-imageproxy.png" 
+  <a href="https://github.com/willnorris/imageproxy"><img src="open-source-imageproxy.png"
     alt="GitHub screenshot stating, 'willnorris open sourced willnorris/imageproxy'" width="450"></a>
 </figure>
 

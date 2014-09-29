@@ -48,7 +48,7 @@ it's actually a really valuable feature and I think it's in the user's best inte
 remember what started this conversation... directed identity.
 
 <figure class="aligncenter">
-  <img src="myopenid-visited-sites.png" alt="MyOpenID list of visited sites" width="638" height="139" class="border">
+  <img src="myopenid-visited-sites.png" alt="MyOpenID list of visited sites" class="border">
   <figcaption>MyOpenID's Visited Sites page</figcaption>
 </figure>
 

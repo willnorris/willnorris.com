@@ -24,7 +24,7 @@ together a Dash docset that includes every published RFC, indexed and marked up 
 contents.  It looks something like this:
 
 <figure>
-  <img src="rfcdash.png" width="932" height="524" class="border" 
+  <img src="rfcdash.png" class="border"
     alt="Screenshot of Dash application displaying 'RFC 2324 - Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)'">
 </figure>
 

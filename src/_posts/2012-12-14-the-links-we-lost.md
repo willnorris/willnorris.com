@@ -17,7 +17,7 @@ the article.  I didn't *mean* to do this; I simply used the normal share button 
 device and this is what got shared.
 
 <figure class="aligncenter">
-  <img src="pocket-share-to-google.png" alt="Screenshot of a Google+ post linking to a pocket.co URL" width="691" height="237" />
+  <img src="pocket-share-to-google.png" alt="Screenshot of a Google+ post linking to a pocket.co URL">
 </figure>
 
 A number of others apps pull these kinds of shenanigans too like Pulse News and even Google's own Currents app, and it

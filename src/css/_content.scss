@@ -197,12 +197,12 @@ figcaption {
 }
 @keyframes fragmention {
   to {
-    background: transparent;
+    background: lighten(yellow, 40%);
   }
 }
 @-webkit-keyframes fragmention {
   to {
-    background: transparent;
+    background: lighten(yellow, 40%);
   }
 }
 

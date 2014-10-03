@@ -1,7 +1,6 @@
 ---
 layout: page
 title: pgp
-wordpress_id: 186
 date: '2007-05-05T12:24:33-07:00'
 ---
 You can find my key on [MIT's keyserver][] or just use the information here.

@@ -10,7 +10,7 @@ tags:
 - indieweb
 syndication:
 - https://plus.google.com/+willnorris/posts/GTrYLPv2tpk
-short_url: /t/GW
+shortlink: /t/GW
 ---
 Anil Dash follows up his essay from last week with [Rebuilding the Web We Lost][]:
 

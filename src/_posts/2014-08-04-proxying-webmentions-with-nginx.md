@@ -1,7 +1,7 @@
 ---
 title: Proxying webmentions with nginx
 date: 2014-08-04T19:39:28-07:00
-short_url: /b/4XT1
+shortlink: /b/4XT1
 syndication:
  - https://twitter.com/willnorris/status/496486808859844608
 ---

@@ -5,6 +5,6 @@ wordpress_id: 925
 date: '2011-06-26T19:20:58-07:00'
 categories:
 - technology
-short_url: /t/FR
+shortlink: /t/FR
 ---
 Post Once, Syndicate Everywhere #pose #indieweb

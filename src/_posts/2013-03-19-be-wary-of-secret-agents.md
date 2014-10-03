@@ -8,7 +8,7 @@ categories:
 tags:
 - privacy
 - chrome
-short_url: /p/H0
+shortlink: /p/H0
 ---
 <figure class="aligncenter">
   <img src="incognito.png" alt="Screenshot of a Google Chrome incognito window, which includes the text: 'Be wary of

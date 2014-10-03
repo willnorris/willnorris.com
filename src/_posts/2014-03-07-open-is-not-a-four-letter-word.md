@@ -9,7 +9,7 @@ categories:
 tags:
 - indiewebcamp
 - open source
-short_url: /t/K1
+shortlink: /t/K1
 ---
 Inspired by hearing folks at [IndieWebCamp](http://indiewebcamp.com/) talk about fear of open-source at some companies,
 I feel like we need this on a t-shirt or something:

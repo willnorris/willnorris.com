@@ -7,7 +7,7 @@ categories:
 - technology
 syndication:
 - https://plus.google.com/+willnorris/posts/Vg21SJyeqQK
-short_url: /t/Ga
+shortlink: /t/Ga
 ---
 Mark Jaquith [talking about WordPress 3.6][], which will be focused on the post authoring experience:
 

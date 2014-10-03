@@ -7,7 +7,7 @@ categories:
 - technology
 tags:
 - indieweb
-short_url: /t/JG
+shortlink: /t/JG
 ---
 It should come as no surprise that Zeldman's post <cite>[This is a Website][]</cite> resonated with me heaviliy:
 

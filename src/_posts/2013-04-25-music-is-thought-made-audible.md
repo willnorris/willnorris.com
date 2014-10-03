@@ -8,7 +8,7 @@ categories:
 tags:
 - music
 - dance
-short_url: /t/H5
+shortlink: /t/H5
 ---
 I was listening to Forum on the drive in this morning, and they were [interviewing][] choreographer [Alonzo King][] and
 bassist and composer [Edgar Meyer][].  I absolutely loved this quote from King:

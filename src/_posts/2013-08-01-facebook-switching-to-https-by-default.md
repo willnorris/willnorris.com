@@ -8,7 +8,7 @@ categories:
 tags:
 - https
 - facebook
-short_url: /t/Hb
+shortlink: /t/Hb
 ---
 It's really nice to see Facebook moving to use [HTTPS by default for all users][https], and generally beefing up their
 TLS setup.  This is good for everyone.

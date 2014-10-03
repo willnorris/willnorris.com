@@ -3,7 +3,7 @@ title: Jazz Trio at the SF Conservatory of Flowers
 date: '2014-07-02T21:47:34-07:00'
 syndication:
  - https://plus.google.com/+willnorris/posts/Ya6yysmCJbq
-short_url: /b/4Wu1
+shortlink: /b/4Wu1
 ---
 Last week, Elisabeth and I went up to the [Conservatory of Flowers][] in Golden Gate Park.  As we were walking toward
 the entrance, I heard some music coming from the tunnel that goes under the street.  I couldn't tell if it was recorded

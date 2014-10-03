@@ -7,7 +7,7 @@ categories:
 - technology
 tags:
 - indieweb
-short_url: /t/Gx
+shortlink: /t/Gx
 ---
 [Drew McLellan on self publishing](http://allinthehead.com/retro/365/ideas-of-march-2013):
 

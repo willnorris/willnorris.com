@@ -8,7 +8,7 @@ tags:
 - pictures
 - elisabeth
 gallery: true
-short_url: /p/31
+shortlink: /p/31
 ---
 
 <div class="gallery">

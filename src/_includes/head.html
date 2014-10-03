@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" href="{{ "/logo.jpg" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace: 'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  {% shortlink %}
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 {% if page.webmention_endpoint %}
   <link rel="webmention" href="{{ page.webmention_endpoint }}">

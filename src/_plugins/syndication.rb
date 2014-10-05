@@ -13,14 +13,15 @@
 #
 # Example:
 #
-# (in front matter)
-# syndication:
-#  - https://twitter.com/willnorris/status/497774634238885888
+#   (in post front matter)
+#   syndication:
+#    - https://twitter.com/willnorris/status/497774634238885888
 #
-# (in template)
-# {% for syn in page.syndication_links %}
-#   <a rel="syndication" class="u-syndication" href="{{ syn }}">{{ syn | syndication_title }}</a>
-# {% endfor %}
+#   (in template)
+#   {% for syn in page.syndication_links %}
+#     <a rel="syndication" class="u-syndication"
+#       href="{{ syn }}">{{ syn | syndication_title }}</a>
+#   {% endfor %}
 
 require 'liquid'
 
@@ -73,7 +74,7 @@ module Jekyll
       when 'reddit.com', 'www.reddit.com'
         p = uri.path.split('/')
         if p[1] == 'r'
-          p[0,3].join('/') 
+          p[0,3].join('/')
         else
           'Reddit'
         end

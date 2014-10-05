@@ -1,4 +1,29 @@
 # The shortlink plugins adds short URLs for content.
+#
+# The added 'shortlink' liquid tag will output a <link rel="shortlink"> element
+# containing the shortlink(s) for the current post.  Shortlinks are defined in
+# 'shortlink' property in the post's front matter.  These shortlink values can
+# be absolute or relative URLs; if relative, they will be resolved relative to
+# the 'short_baseurl' value in the site config if present, falling back to the
+# 'url' config value.
+#
+# If multiple shortlink values are listed for a post, the first value will be
+# included in the href attribute of the <link> element.  Any additional values
+# will be included as a space-separated list in the 'data-alt-href' attribute.
+#
+# Example:
+#
+#   (in _config.yml)
+#   short_baseurl: http://x.com
+#
+#   (in post front matter)
+#   shortlink: /t123
+#
+#   (in template)
+#   {% shortlink %}
+#
+#   (output)
+#   <link rel="shortlink" href="http://x.com/t123">
 
 require "date"
 require "time"

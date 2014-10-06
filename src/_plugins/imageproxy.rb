@@ -1,23 +1,40 @@
-# The imageproxy plugin filters post content, rewriting images to use an image
-# proxy like https://willnorris.com/go/imageproxy.
+# The imageproxy plugin filters content, rewriting images to use an image proxy
+# like https://willnorris.com/go/imageproxy.
 #
 # Specify the URL of the image proxy as 'imageproxy_baseurl' in the site config,
-# then use the 'proxied_content' liquid tag in templates.  <img> tags which
+# then use the 'imageproxy' liquid block tag in templates.  <img> tags which
 # include a height or width attribute will be rewritten to use the image proxy,
 # resized to the proper dimension.
+#
+# Example:
+#
+#   (in _config.yml)
+#   imageproxy_baseurl: http://i.example.com
+#
+#   (in post content)
+#   <img src="http://example.com/image.jpg" width="200">
+#
+#   (in template)
+#   {% imageproxy %}
+#     {{ content }}
+#   {% endimageproxy %}
+#
+#   (output)
+#   <img src="http://i.example.com/200x/http://example.com/image.jpg" width="200">
 
 require 'liquid'
 require 'nokogiri'
 
 module Jekyll
-  class ImageProxyTag < Liquid::Tag
+  class ImageProxyTag < Liquid::Block
     def render(context)
+      content = super
       config = context.registers[:site].config
-      return context['content'] unless config['url'] and config['imageproxy_baseurl']
+      return content unless config['url'] and config['imageproxy_baseurl']
 
       page_url = URI.join(config['url'], context['page']['url'])
 
-      doc = Nokogiri::HTML.fragment(context['content'])
+      doc = Nokogiri::HTML.fragment(content)
       doc.search('.//img').each do |i|
         img_url = URI.join(page_url, i.attributes['src'])
         width = i.attributes['width']
@@ -33,4 +50,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('proxied_content', Jekyll::ImageProxyTag)
+Liquid::Template.register_tag('imageproxy', Jekyll::ImageProxyTag)

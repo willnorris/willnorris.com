@@ -5,7 +5,9 @@
 {% include header.html %}
   <div class="wrap">
     <main>
-    {% proxied_content %}
+    {% imageproxy %}
+      {{ content }}
+    {% endimageproxy %}
     </main>
   </div>
 {% include footer.html %}

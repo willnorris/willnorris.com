@@ -1,7 +1,7 @@
 ---
 title: Chad Wilkins at Google
 layout: aside
-date: 2014-08-19T13:20:43-07:00
+date: '2014-08-19T13:20:43-07:00'
 ---
 
 <img src="chad-wilkins.jpg" width="1000">

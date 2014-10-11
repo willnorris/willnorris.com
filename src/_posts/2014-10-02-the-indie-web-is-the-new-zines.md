@@ -1,7 +1,7 @@
 ---
 layout: quote
 title: The Indie Web is the new Zines
-date: 2014-10-02T15:43:08-07:00
+date: '2014-10-02T15:43:08-07:00'
 shortlink: /t4YR1
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Keeping Up
 layout: aside
-date: 2014-08-01T20:24:28-07:00
+date: '2014-08-01T20:24:28-07:00'
 syndication:
  - https://twitter.com/willnorris/status/495410703004471296
  - https://www.facebook.com/willnorris/posts/10152133143666841

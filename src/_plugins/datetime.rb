@@ -1,3 +1,6 @@
+# Copyright 2014 Google. All rights reserved.
+# Available under an MIT license that can be found in the LICENSE file.
+
 # The datetime plugin includes extensions to jekyll posts and additional filters
 # for working with dates.  Notably, jekyll heavily uses ruby Time objects which
 # lose the specified timezone.  This plugin adds a post.datetime function which

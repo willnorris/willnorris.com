@@ -1,3 +1,6 @@
+# Copyright 2014 Google. All rights reserved.
+# Available under an MIT license that can be found in the LICENSE file.
+
 # The syndication plugin provides support for linking to syndicated copies of a
 # post.  Specify the URLs of syndicated copies of the post in the 'syndication'
 # variable in the post front matter.  These links will be available in templates

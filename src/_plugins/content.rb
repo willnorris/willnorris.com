@@ -1,3 +1,6 @@
+# Copyright 2014 Google. All rights reserved.
+# Available under an MIT license that can be found in the LICENSE file.
+
 # This plugin changes the destination for some static files in the 'content'
 # directory.  If the source of the file matches 'content/[0-9]{4}' (that is,
 # the 'content' directory, followed by a four-digit directory), then the

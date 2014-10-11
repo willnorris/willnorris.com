@@ -1,3 +1,6 @@
+# Copyright 2014 Google. All rights reserved.
+# Available under an MIT license that can be found in the LICENSE file.
+
 # The shortlink plugins adds short URLs for content.
 #
 # The added 'shortlink' liquid tag will output a <link rel="shortlink"> element

@@ -1,3 +1,6 @@
+# Copyright 2014 Google. All rights reserved.
+# Available under an MIT license that can be found in the LICENSE file.
+
 # The imageproxy plugin filters content, rewriting images to use an image proxy
 # like https://willnorris.com/go/imageproxy.
 #

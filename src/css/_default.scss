@@ -1,5 +1,13 @@
 @import url('//fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro');
 
+// Default to border-box
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* --- Typographical Elements --- */
 
 body {

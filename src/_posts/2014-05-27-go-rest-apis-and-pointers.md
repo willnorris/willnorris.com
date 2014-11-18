@@ -188,8 +188,8 @@ type Repository struct {
 }
 ```
 
-This does come at a cost however, since it's a little annoying to have to create pointers to a string or bool.  You end
-up with overly verbose code such as:
+This does come at a cost however, both in terms of memory allocation and the developer experience, since it's a little
+annoying to have to create pointers to a string or bool.  You end up with overly verbose code such as:
 
 ``` go
 d := "new description"
@@ -215,11 +215,11 @@ those yet.
 
 So does any of this matter for your Go API client?  Well, it depends.  If the API doesn't do any kind of partial updates
 like `PATCH`, then you can probably leave off `omitempty`, not worry with pointers, and go on about your way.  If you
-never need to send a zero value such as empty string, `false`, `0` in a JSON or XML request (not likely), then you can
-set `omitempty` and move on.  But for most modern APIs, those won't be the case, and you should experiment to see if
+never need to send a zero value such as empty string, `false`, or `0` in a JSON or XML request (not likely), then you
+can set `omitempty` and move on.  But for most modern APIs, those won't be the case, and you should experiment to see if
 your current library prevents you from performing certain actions.
 
-(I'll also note that [google/go-github#19][] discusses alternative solutions that weren't discussed here, such as using
+(I'll also note that [google/go-github#19][] discusses alternative solutions that weren't explored here, such as using
 a field mask or using goprotobuf directly.  It may be worth looking at those.  Pointers just made sense for this
 library; use what works for you.)
 

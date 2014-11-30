@@ -1,18 +1,10 @@
+---
+# This layout provides basic structural markup, but no site header or footer.
+---
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
 <body>
-  <div class="wrap">
-    <main>
-      <article class="page h-entry hentry">
-        <header class="entry-header">
-          <h1 class="p-name entry-title">{{ page.title }}</h1>
-        </header>
-        <div class="e-content entry-content">
-        {{ content }}
-        </div>
-      </article>
-    </main>
-  </div>
+  {{ content }}
 </body>
 </html>

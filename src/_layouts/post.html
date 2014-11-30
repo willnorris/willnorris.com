@@ -1,4 +1,7 @@
 ---
+# This layout extends the default layout for blog posts.  This includes the post title and metadata
+# like post time and author, as well as all microformat markup.
+
 layout: default
 ---
 <article class="post h-entry hentry">
@@ -14,7 +17,7 @@ layout: default
       by
       <span class="p-author h-card author vcard">
         <a class="url fn" href="{{ page.author.url }}">
-          <img class="photo logo" src="{{ page.author.photo }}" alt="{{ page.author.name}}"> {{ page.author.name }}
+          <img class="photo logo" src="{{ page.author.photo }}" alt=""> {{ page.author.name }}
         </a>
       </span>
     </p>

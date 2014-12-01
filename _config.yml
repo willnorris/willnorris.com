@@ -13,6 +13,9 @@ collections:
   go_packages:
     output: true
     permalink: /go/:path
+  redirects:
+    output: true
+    permalink: /x/_/:path
 
 defaults:
   -
@@ -39,6 +42,12 @@ defaults:
       type: go_packages
     values:
       layout: go-package
+  -
+    scope:
+      path: ""
+      type: redirects
+    values:
+      layout: redirect
 
 # Build settings
 source: src

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: notice of content licenses
-noindex: true
+robots: noindex
 ---
 This directory contains various content I've uploaded, primarily photos to embed
 in blog posts.  This content comes from various sources, and therefore has

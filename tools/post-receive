@@ -5,5 +5,6 @@ export GIT_WORK_TREE=..
 git merge --ff-only push/master || exit $?
 pushd $GIT_WORK_TREE
 export JEKYLL_ENV="production"
-jekyll build
+bundle install --quiet
+bundle exec jekyll build
 popd

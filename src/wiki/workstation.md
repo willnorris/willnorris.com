@@ -41,7 +41,8 @@ Ensure that /opt/homebrew/bin is in the path (for example: [mordecai.env][])
 
 ## Nginx ##
 
-    brew install nginx
+    brew tap homebrew/nginx
+    brew install nginx-full --with-lua-module --with-set-misc-module
 
 Update nginx config `/opt/homebrew/etc/nginx/nginx.conf` to contain:
 

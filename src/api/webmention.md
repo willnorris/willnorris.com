@@ -26,6 +26,7 @@ If your publishing software doesn't send webmentions automatically, you can use 
 <script>
   $(function(){
     $('form#webmention').submit(function(event) {
+      $('.response').removeClass('success').removeClass('error').text("");
       $.post(this.action, $(this).serialize(),
         function(data) {
           $('.response').addClass('success').text(data.message);

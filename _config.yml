@@ -39,6 +39,12 @@ defaults:
   -
     scope:
       path: ""
+      type: drafts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
       type: go_packages
     values:
       layout: go-package

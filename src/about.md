@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-date: '2005-05-12T08:44:01-07:00'
 ---
 <div class="h-card vcard" markdown="1">
 

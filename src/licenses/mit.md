@@ -1,7 +1,6 @@
 ---
 layout: page
 title: MIT License
-date: '2013-08-09T08:53:47-07:00'
 ---
 Copyright (c) {{ site.time | date: '%Y' }}, Will Norris &lt;<https://willnorris.com/>&gt;
 

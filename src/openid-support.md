@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Comparison of Support among OpenID Providers
-date: '2009-06-10T01:14:11-07:00'
 ---
 **Gone as of December 2013**
 

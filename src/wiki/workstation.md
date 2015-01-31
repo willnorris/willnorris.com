@@ -74,11 +74,11 @@ nginx configs between dev and prod.
 
     sudo ln -s $HOME/Sites /var/www
 
-In order to run on port 80, the launchd config must be installed in `/Library/LaunchAgents`:
+In order to run on port 80, the launchd config must be installed in `/Library/LaunchDaemons`:
 
-    sudo cp /opt/homebrew/opt/nginx/homebrew.mxcl.nginx.plist /Library/LaunchAgents
-    sudo chown root /Library/LaunchAgents/homebrew.mxcl.nginx.plist
-    sudo launchctl load /Library/LaunchAgents/homebrew.mxcl.nginx.plist
+    sudo cp /opt/homebrew/opt/nginx-full/homebrew.mxcl.nginx-full.plist /Library/LaunchDaemons
+    sudo chown root /Library/LaunchDaemons/homebrew.mxcl.nginx-full.plist
+    sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.nginx-full.plist
 
 ## PHP ##
 

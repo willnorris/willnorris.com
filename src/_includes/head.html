@@ -18,7 +18,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{ "/logo.jpg" | prepend: site.baseurl }}">
   <meta name="mobile-web-app-capable" content="yes">
 {% else %}
-  {% assign excerpt = page.content | markdownify | strip_html | split: ' ' | join: ' ' | truncatewords: 50 %}
+  {% assign excerpt = page.content | markdownify | strip_tags: 'aside,figure' | strip_html | split: ' ' | join: ' ' | truncatewords: 50 %}
   <meta name="description" content="{{ excerpt }}">
   {% if page.twitter_card %}
     <meta name="twitter:card" content="{{ page.twitter_card }}">

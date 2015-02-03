@@ -42,7 +42,7 @@ think my grandparents ever stopped calling me William, but after a while I got o
 
 ## Identity Online
 
-I think that I really started giving thought to my online identity when I was in college at George Tech.  When I was a
+I think that I really started giving thought to my online identity when I was in college at Georgia Tech.  When I was a
 student, we were all given a "GT Number", which was simply an opaque username and email address.  Mine was *gte739u*,
 and so my email address was *gte739u@prism.gatech.edu*.  Everyone had these numbers, and we all got used to them.
 Papers and tests might have a place to put your name, but they **always** had a place to put your GT Number.  We weren't

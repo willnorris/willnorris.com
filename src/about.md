@@ -9,9 +9,9 @@ title: About
 </figure>
 
 Hi, I’m <a href="https://willnorris.com/" class="p-name u-url fn url">Will Norris</a>. I'm a
-follower of Jesus, a husband to [Elisabeth Norris][], a citizen of the [indie web][], and a <span
-class="p-role role">software engineer</span> at <span class="p-org org">Google</span>.  In that
-order.
+follower of Jesus, a husband to [Elisabeth][], a father to [Gabriel][], a citizen of the [indie
+web][], and a <span class="p-role role">software engineer</span> at <span class="p-org
+org">Google</span>.  In that order.
 
 I've been at Google [since 2010][], currently working in the [Open Source Programs Office][]
 focusing on projects to make it easier to use and release open source software at Google.  I
@@ -32,7 +32,8 @@ interested in hearing about job opportunities.
 
 </div>
 
-[Elisabeth Norris]: https://notsoserendipitous.com/
+[Elisabeth]: https://notsoserendipitous.com/
+[Gabriel]: https://gabenorris.com/
 [indie web]: http://indiewebcamp.com/
 [since 2010]: /2010/01/going-to-google
 [Open Source Programs Office]: https://developers.google.com/open-source/

@@ -29,7 +29,8 @@
   {% endif %}
 {% endif %}
 {% if page.robots %}  <meta name="robots" content="{{ page.robots }}">{% endif %}
-{% if page.go %}  <meta name="go-import" content="{{ page.go.pkg }} {{ page.go.vcs }} {{ page.go.src }}">{% endif %}
+{% if page.go %}  <meta name="go-import" content="{{ page.go.pkg }} {{ page.go.vcs }} {{ page.go.src }}">
+  <meta name="go-source" content="{{ page.go.pkg }} _ {{ page.go.src }}/tree/master{/dir} {{ page.go.src }}/blob/master{/dir}/{file}#L{line}">{% endif %}
 {% if page.author.url %}  <link rel="author" href="{{ page.author.url }}">{% endif %}
 {% if site.analytics_id %}{% include google-analytics.html %}{% endif %}
 </head>

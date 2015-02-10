@@ -14,8 +14,7 @@ enough to justify their own repository.
 The `timestamp` tool prints time in a variety of formats including unix
 timestamp, RFC 3339, ordinal date, and epoch days.  Install by running:
 
-    go get willnorris.com/go/tools
-    go install willnorris.com/go/tools/timestamp
+    go get willnorris.com/go/tools/timestamp
 
 Run `timestamp -help` for complete usage.
 

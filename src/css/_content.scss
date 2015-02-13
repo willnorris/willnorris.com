@@ -104,7 +104,7 @@ figure.video {
   height: 0;
   overflow: hidden;
 
-  iframe, object, embed {
+  iframe, object, embed, video {
     position: absolute;
     top: 0;
     left: 0;
@@ -176,7 +176,7 @@ figcaption {
   line-height: 0.8;
 }
 
-.gallery {
+.gallery.packed {
     max-width:1600px;
     position:absolute;
     top:0;

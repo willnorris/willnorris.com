@@ -1,23 +1,29 @@
 <script src="{{ "/js/jquery-1.11.1.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/imagesloaded-3.1.8.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/masonry-3.1.5.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/fancybox-2.1.5.js" | prepend: site.baseurl }}"></script>
 <script>
   $(function(){
     var $gallery = $('.gallery');
 
-    $gallery.masonry({
+    var $packed = $gallery.filter('.packed').masonry({
       itemSelector: 'a',
       isAnimated: false,
       gutter: 9,
+    });
+
+    // layout masonry again after all images have loaded
+    $packed.imagesLoaded( function() {
+      $packed.masonry();
     });
 
     $gallery.find('> a')
       .attr('rel', 'gallery')
       .fancybox({
         beforeShow : function() {
-          var alt = this.element.find('img').attr('alt');
-          this.inner.find('img').attr('alt', alt);
-          this.title = alt;
+          var title = this.element.find('img').attr('title');
+          this.inner.find('img').attr('title', title);
+          this.title = title;
         },
         openEffect: 'fade',
         closeEffect: 'fade',

@@ -11,7 +11,7 @@ gallery: true
 shortlink: /p/31
 ---
 
-<div class="gallery">
+<figure class="gallery packed">
   <a href="DSC_3755.jpg"><img src="DSC_3755.jpg" alt="Elisabeth 1" width="300"></a>
   <a href="DSC_3904.jpg"><img src="DSC_3904.jpg" alt="Elisabeth 2" width="300"></a>
   <a href="DSC_3932.jpg"><img src="DSC_3932.jpg" alt="Elisabeth 3" width="300"></a>
@@ -20,4 +20,4 @@ shortlink: /p/31
   <a href="DSC_4005.jpg"><img src="DSC_4005.jpg" alt="Elisabeth 6" width="300"></a>
   <a href="DSC_4048.jpg"><img src="DSC_4048.jpg" alt="Elisabeth 7" width="300"></a>
   <a href="DSC_4078.jpg"><img src="DSC_4078.jpg" alt="Elisabeth 8" width="300"></a>
-</div>
+</figure>

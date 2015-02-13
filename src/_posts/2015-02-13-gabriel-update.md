@@ -3,6 +3,10 @@ title: Gabriel Update
 date: '2015-02-13T14:20:08-08:00'
 shortlink: /b/4_e1
 gallery: true
+syndication:
+ - https://www.facebook.com/willnorris/posts/10152512521341841
+ - https://plus.google.com/+willnorris/posts/RFidPNrwwHq
+ - https://twitter.com/willnorris/status/566382236203634688
 ---
 
 My [post last week][] was supposed to just be a teaser, immediately followed by a post containing

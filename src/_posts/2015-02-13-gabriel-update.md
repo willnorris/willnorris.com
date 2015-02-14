@@ -30,11 +30,11 @@ catching your own child as he is born is a pretty amazing experience!
 
 Now, a week and half into things, we're all doing really well.  Elisabeth has been on bed rest while
 she was recovering, but is now able to be up and about a lot more.  Gabe has been having a little
-trouble latching on whlie nursing, partially due to a lip and tongue tie.  We took him to the
+trouble latching on while nursing, partially due to a lip and tongue tie.  We took him to the
 dentist this past week to have a frenectomy done, where they used a laser to release both ties.
 He's still having a bit of trouble latching, but it's been a marked improvement.  In the meantime,
-we've been hand feeding him breastmilk with a syringe and small tube.  We're doing that instead of a
-bottle for now in the hopes that it will make transitioning back to the breast a little easier.
+we've been hand feeding him breast milk with a syringe and small tube.  We're doing that instead of
+a bottle for now in the hopes that it will make transitioning back to the breast a little easier.
 He's still not gaining as much weight as we would like to see, but we're confident we'll get there.
 But hand feeding also means that we can share the job of feeding, which has been a nice break for
 Elisabeth, and has given me more bonding time with Gabe, which is great.
@@ -78,11 +78,11 @@ suitable for printing, and promise that we will get those to you.)*
 And finally, a huge thank you to our birth team: our midwife [Sharon Economides][], our secondary
 midwife [Heather Briggs][], our doula [Natalie Anderson][], and our birth photographer [Stephanie
 Morgan][].  Thanks to [Lori Ismail][] at [Blossom Birth][] who, in combination with all of the
-preparation we recieved from Sharon, really helped educate us to make well-informed decisions
+preparation we received from Sharon, really helped educate us to make well-informed decisions
 regarding every aspect of this birth.  And also to [Daniella Dayoub][] who has spent the last year
 and half getting Elisabeth (and me) on track physically and nutritionally.  We have no doubt that
 the pregnancy and birth went as smoothly as it did thanks to all of the preparation that was done
-beforehand.  I specifically mention each one of these people becase they are all amazing at their
+beforehand.  I specifically mention each one of these people because they are all amazing at their
 jobs, and I would heartily recommend them for anyone that requires any of their services.
 
 While I don't have any direct experience with hospital births to compare this to, I couldn't imagine

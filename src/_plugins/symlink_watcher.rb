@@ -13,7 +13,7 @@ require 'jekyll-watch'
 
 module Jekyll
   module Watcher
-    def build_listener_with_symlinks(options)
+    def build_listener_with_symlinks(site, options)
       src = options['source']
       dirs = [src]
       Find.find(src).each do |f|
@@ -27,7 +27,7 @@ module Jekyll
         dirs,
         :ignore => listen_ignore_paths(options),
         :force_polling => options['force_polling'],
-        &(listen_handler(options))
+        &(listen_handler(site))
       )
     end
 

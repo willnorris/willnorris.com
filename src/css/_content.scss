@@ -185,7 +185,9 @@ figcaption {
         display: block;
         border: 0;
         float: left;
-        width:200px;
+        line-height: 0;
+        max-width: 230px;
+        margin-bottom: 10px;
     }
 }
 

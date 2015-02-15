@@ -177,7 +177,7 @@ the developer (and include those in our JSON serialization).  And that's where p
 
 The zero value for a pointer is `nil`, regardless of what it is a pointer for.  So by using pointers for our struct
 fields, we can unambiguously differentiate between an unset value, `nil`, and an intentional zero value, such as `""`,
-`false`, or `0`.  This is exactly what [goprotobuf][] does, for exactly this reason.  So this results in our final
+`false`, or `0`.  This is exactly what [golang/protobuf][] does, for exactly this reason.  So this results in our final
 `Repository` type of:
 
 ``` go
@@ -197,8 +197,8 @@ r := &github.Repository{Description:&d}
 client.Repositories.Edit("google", "go-github", r)
 ```
 
-To make this easier, go-github provides a handful of convenience functions copied over from goprotobuf for creating
-pointer types:
+To make this easier, go-github provides a handful of convenience functions copied over from the protobuf package for
+creating pointer types:
 
 ``` go
 r := &github.Repository{Description: github.String("new description")}
@@ -206,10 +206,10 @@ client.Repositories.Edit("google", "go-github", r)
 ```
 
 Using pointers also means that clients of the library will need to perform their own nil checks where appropriate to
-prevent panics.  goprotobuf generates accessor methods to help make this a little easier, but go-github hasn't added
-those yet.
+prevent panics.  The protobuf library generates accessor methods to help make this a little easier, but go-github hasn't
+added those yet.
 
-[goprotobuf]: https://code.google.com/p/goprotobuf/
+[golang/protobuf]: https://github.com/golang/protobuf
 
 ## Other libraries ##
 
@@ -220,8 +220,8 @@ can set `omitempty` and move on.  But for most modern APIs, those won't be the c
 your current library prevents you from performing certain actions.
 
 (I'll also note that [google/go-github#19][] discusses alternative solutions that weren't explored here, such as using
-a field mask or using goprotobuf directly.  It may be worth looking at those.  Pointers just made sense for this
-library; use what works for you.)
+a field mask or using the protobuf package directly.  It may be worth looking at those.  Pointers just made sense for
+this library; use what works for you.)
 
 ### Related Reading ###
 

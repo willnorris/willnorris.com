@@ -77,6 +77,11 @@ are rotated **after** being resized.
 The `fv` option will flip the image vertically.  The `fh` option will flip the
 image horizontally.  Images are flipped **after** being resized and rotated.
 
+#### Quality ####
+
+The `q{percentage}` option can be used to specify the output quality (JPEG
+only).  If not specified, the default value of `95` is used.
+
 ### Remote URL ###
 
 The URL of the original image to load is specified as the remainder of the
@@ -105,6 +110,83 @@ x100    | 100px tall, proportional width           | ![x100](https://willnorris.
 150,fit | scale to fit 150px square, no cropping   | ![150,fit](https://willnorris.com/api/imageproxy/150,fit/https://willnorris.com/2013/12/small-things.jpg)
 100,r90 | 100px square, rotated 90 degrees         | ![100,r90](https://willnorris.com/api/imageproxy/100,r90/https://willnorris.com/2013/12/small-things.jpg)
 100,fv,fh | 100px square, flipped horizontal and vertical | ![100,fv,fh](https://willnorris.com/api/imageproxy/100,fv,fh/https://willnorris.com/2013/12/small-things.jpg)
+200x,q60 | 200px wide, proportional height, 60% quality | ![200x,q60](https://willnorris.com/api/imageproxy/200x,q60/https://willnorris.com/2013/12/small-things.jpg)
+
+
+## Getting Started ##
+
+Install the package using:
+
+    go get willnorris.com/go/imageproxy/cmd/imageproxy
+
+Once installed, ensure `$GOPATH/bin` is in your `$PATH`, then run the proxy using:
+
+    imageproxy
+
+This will start the proxy on port 8080, without any caching and with no host
+whitelist (meaning any remote URL can be proxied).  Test this by navigating to
+<http://localhost:8080/500/https://octodex.github.com/images/codercat.jpg> and
+you should see a 500px square coder octocat.
+
+### Disk cache ###
+
+By default, the imageproxy command uses an in-memory cache that will grow
+unbounded.  To cache images on disk instead, include the `cacheDir` flag:
+
+    imageproxy -cacheDir /tmp/imageproxy
+
+Reload the [codercat URL](http://localhost:8080/500/https://octodex.github.com/images/codercat.jpg),
+and then inspect the contents of `/tmp/imageproxy`.  There should be two files
+there, one for the original full-size codercat image, and one for the resized
+500px version.
+
+### Host whitelist ###
+
+You can limit the remote hosts that the proxy will fetch images from using the
+`whitelist` flag.  This is useful, for example, for locking the proxy down to
+your own hosts to prevent others from abusing it.  Of course if you want to
+support fetching from any host, leave off the whitelist flag.  Try it out by
+running:
+
+    imageproxy -whitelist example.com
+
+Reload the [codercat URL](http://localhost:8080/500/https://octodex.github.com/images/codercat.jpg),
+and you should now get an error message.  You can specify multiple hosts as a
+comma separated list, or prefix a host value with `*.` to allow all sub-domains
+as well.
+
+Run `imageproxy -help` for a complete list of flags the command accepts.  If
+you want to use a different caching implementation, it's probably easiest to
+just make a copy of `cmd/imageproxy/main.go` and customize it to fit your
+needs... it's a very simple command.
+
+
+## Deploying ##
+
+You can build and deploy imageproxy using any standard go toolchain, but here's
+how I do it.
+
+I use [goxc](https://github.com/laher/goxc) to build and deploy to an Ubuntu
+server.  I have a `$GOPATH/willnorris.com/go/imageproxy/.goxc.local.json` file
+which limits builds to 64-bit linux:
+
+``` json
+ {
+   "ConfigVersion": "0.9",
+   "BuildConstraints": "linux,amd64"
+ }
+```
+
+I then run `goxc` which compiles the static binary and creates a deb package at
+`build/0.2.1/imageproxy_0.2.1_amd64.deb` (or whatever the current version is).
+I copy this file to my server and install it using `sudo dpkg -i
+imageproxy_0.2.1_amd64.deb`, which is installed to `/usr/bin/imageproxy`.
+
+Ubuntu uses upstart to manage services, so I copy
+[`etc/imageproxy.conf`](etc/imageproxy.conf) to `/etc/init/imageproxy.conf` on
+my server and start it using `sudo service imageproxy start`.  You will
+certainly want to modify that upstart script to suit your desired
+configuration.
 
 
 ## License ##

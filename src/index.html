@@ -12,7 +12,7 @@
       <h2>Recent Posts</h2>
       <ul class="posts">
         {% for post in site.posts limit:10 %}
-          <li>
+          <li{% if post.draft? %} class="draft"{% endif %}>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             <time class="dt-published published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
           </li>

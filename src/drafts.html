@@ -3,7 +3,7 @@ layout: default
 robots: noindex
 ---
 <ul class="posts">{% for post in site.posts %}{% if post.draft? %}
-  <li>
+  <li{% if post.draft? %} class="draft"{% endif %}>
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     <time class="dt-published published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
   </li>

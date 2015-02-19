@@ -199,6 +199,13 @@ figcaption {
     }
 }
 
+.footnotes {
+  font-size: 0.875rem;
+  code {
+    font-size: 1em;
+  }
+}
+
 // fragmentations
 // taken from http://tantek.com/2011/simple.css, in turn inspired by http://lea.verou.me/2012/12/animations-with-one-keyframe/
 [fragmention], :target {

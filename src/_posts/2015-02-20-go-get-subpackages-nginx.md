@@ -78,6 +78,14 @@ location ~* ^/go/\w+/.+ {
 }
 ```
 
+As noted on <http://wiki.nginx.org/IfIsEvil>, this is actually one of the few scenarios where
+using an if directive inside a location context is safe.  What we're doing here is first matching
+any requests that start with `/go`, followed by at least two additional path segments: `/\w+` which
+identifies our top-level package, and `/.+` that identifies some sub-package.  Then we use nginx's
+special `$arg_name` [embedded variables][] to check if the `go-get` query parameter is set, and if
+so, rewrite the request to the page for the top-level package.  Otherwise, we display a custom 404
+page.
+
 This now means that <https://willnorris.com/go/imageproxy/cmd/imageproxy> will properly return a
 `404`, but <https://willnorris.com/go/imageproxy/cmd/imageproxy?go-get=1> will be
 rewritten to return the same response as <https://willnorris.com/go/imageproxy>, meta include and
@@ -90,3 +98,4 @@ all.
 [image proxy server]: /2014/01/a-self-hosted-alternative-to-jetpacks-photon-service
 [still return a 404]: https://github.com/golang/go/blob/1ae124b5ff38045008402b51017c8303eef2cda1/src/cmd/go/http.go#L81-L82
 [internal packages]: https://golang.org/s/go14internal
+[embedded variables]: http://nginx.org/en/docs/http/ngx_http_core_module.html#variables

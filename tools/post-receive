@@ -6,5 +6,5 @@ git merge --ff-only push/master || exit $?
 pushd $GIT_WORK_TREE
 export JEKYLL_ENV="production"
 bundle install --quiet
-tools/build --force-rebuild
+tools/build --full-rebuild
 popd

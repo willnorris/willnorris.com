@@ -43,7 +43,6 @@ module Jekyll
         width = i.attributes['width']
         height = i.attributes['height']
         if "#{img_url}".start_with?(config['url']) and (width or height)
-          next if img_url.to_s.end_with?('.svg') # don't proxy svg images
           proxy_url = config['imageproxy_baseurl'] + "/#{width}x#{height}/#{img_url}"
           i.attributes['src'].value = proxy_url
         end

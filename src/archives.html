@@ -7,7 +7,7 @@ robots: noindex
         {% assign year = post.date | date: "%Y" %}
         {% if year != previous %}
           {% if previous != 0 %}</ul>{% endif %}
-        <h2>{{ year }}</h2>
+        <h2 id="{{ year }}">{{ year }}</h2>
         <ul class="posts">
         {% endif %}
           <li{% if post.draft? %} class="draft"{% endif %}>

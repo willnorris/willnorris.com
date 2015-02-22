@@ -46,25 +46,25 @@ implicitly cause all links that go off-site to open in a new window while still 
 link to open in a new window by using `rel="external"`.  Additionally, you can use `rel="local"` to explicitly force an
 off-site link to NOT open in a new window.  For example, if your site were hosted at `www.foo.com`, then
 
-``` markup
+``` html
 <a href="http://www.foo.com/"></a>
 ```
 
 would open in the same window,
 
-``` markup
+``` html
 <a href="http://www.foo.com/" rel="external"></a>
 ```
 
 would open in a new window,
 
-``` markup
+``` html
 <a href="http://www.bar.com/"></a>
 ```
 
 would open in a new window, and
 
-``` markup
+``` html
 <a href="http://www.bar.com/" rel="local"></a>
 ```
 

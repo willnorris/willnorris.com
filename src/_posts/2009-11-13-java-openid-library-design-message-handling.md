@@ -78,7 +78,7 @@ openid.sreg.required:email,fullname
 
 Yeah it has no signature, etc, but that's not the point.  What might this look like in XML?
 
-``` markup
+``` xml
 <message xmlns="http://specs.openid.net/auth/2.0" 
             xmlns:sreg="http://openid.net/extensions/sreg/1.1">
     <mode>checkid_setup</mode>

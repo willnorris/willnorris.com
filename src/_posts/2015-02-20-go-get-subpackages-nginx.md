@@ -21,7 +21,7 @@ here's a basic example.  The import path for my [image proxy server][] is
 `willnorris.com/go/imageproxy`.  When you run `go get willnorris.com/go/imageproxy`, go fetches
 <https://willnorris.com/go/imageproxy?go-get=1> and discovers the `go-import` meta tag:
 
-```markup
+``` html
 <meta name="go-import" content="willnorris.com/go/imageproxy git https://github.com/willnorris/imageproxy">
 ```
 
@@ -49,7 +49,7 @@ above on the URL for the `cmd/imageproxy` package.  Interestingly, the URL can [
 It's also worth noting that the meta import for the `cmd/imageproxy` package URL should not be
 modified from the main imageproxy package.  That is, it should still read:
 
-```markup
+``` html
 <meta name="go-import" content="willnorris.com/go/imageproxy git https://github.com/willnorris/imageproxy">
 ```
 
@@ -68,7 +68,7 @@ is to just rewrite the request inside nginx.  And in an attempt to ensure that I
 URLs with duplicate content, I only do this for URLs that contain `?go-get=1`, which go appends to
 all `go get` requests.  Here's the nginx configuration I use for this:
 
-```nginx
+``` nginx
 # Allow go subpackages to be fetchable with `go get`
 location ~* ^/go/\w+/.+ {
   if ($arg_go-get) {

@@ -11,13 +11,17 @@ title: OS X Workstation
 Set the Computer Name in the OS X Sharing Preference Pane.  If necessary, also
 configure a custom hostname by adding the following to `/etc/hostconfig`:
 
-    HOSTNAME=<hostname>
+``` sh
+HOSTNAME=<hostname>
+```
 
 ## SSH key ##
 
 If needed, create a new SSH key
 
-    ssh-keygen -t rsa -b 4096
+``` sh
+ssh-keygen -t rsa -b 4096
+```
 
 ## Dotfiles ##
 
@@ -25,9 +29,11 @@ If needed, create a new SSH key
 
 ## Homebrew ##
 
-    sudo mkdir /opt/homebrew
-    sudo chown `whoami` /opt/homebrew
-    git clone https://github.com/homebrew/homebrew.git /opt/homebrew
+``` sh
+sudo mkdir /opt/homebrew
+sudo chown `whoami` /opt/homebrew
+git clone https://github.com/homebrew/homebrew.git /opt/homebrew
+```
 
 Full installation docs on the [homebrew wiki](https://github.com/homebrew/homebrew/wiki/Installation)
 
@@ -41,8 +47,10 @@ Ensure that /opt/homebrew/bin is in the path (for example: [mordecai.env][])
 
 ## Nginx ##
 
-    brew tap homebrew/nginx
-    brew install nginx-full --with-lua-module --with-set-misc-module
+``` sh
+brew tap homebrew/nginx
+brew install nginx-full --with-lua-module --with-set-misc-module
+```
 
 Update nginx config `/opt/homebrew/etc/nginx/nginx.conf` to contain:
 
@@ -72,74 +80,96 @@ Symlink `/var/www` to `$HOME/Sites`.  This really has no advantage in the short 
 having nginx import from `$HOME/Sites` directly, but the hope is to eventually be able to share
 nginx configs between dev and prod.
 
-    sudo ln -s $HOME/Sites /var/www
+``` sh
+sudo ln -s $HOME/Sites /var/www
+```
 
 In order to run on port 80, the launchd config must be installed in `/Library/LaunchDaemons`:
 
-    sudo cp /opt/homebrew/opt/nginx-full/homebrew.mxcl.nginx-full.plist /Library/LaunchDaemons
-    sudo chown root /Library/LaunchDaemons/homebrew.mxcl.nginx-full.plist
-    sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.nginx-full.plist
+``` sh
+sudo cp /opt/homebrew/opt/nginx-full/homebrew.mxcl.nginx-full.plist /Library/LaunchDaemons
+sudo chown root /Library/LaunchDaemons/homebrew.mxcl.nginx-full.plist
+sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.nginx-full.plist
+```
 
 ## PHP ##
 
 Copy default PHP configs:
 
-    sudo cp /etc/php.ini.default /etc/php.ini
-    sudo cp /etc/php-fpm.conf.default /etc/php-fpm.conf
-    sudo chmod 644 /etc/php.ini /etc/php-fpm.conf
+``` sh
+sudo cp /etc/php.ini.default /etc/php.ini
+sudo cp /etc/php-fpm.conf.default /etc/php-fpm.conf
+sudo chmod 644 /etc/php.ini /etc/php-fpm.conf
+```
 
 Setup php-fpm logging:
 
-    sudo touch /var/log/php-fpm.log
-    sudo chown `whoami` /var/log/php-fpm.log
+``` sh
+sudo touch /var/log/php-fpm.log
+sudo chown `whoami` /var/log/php-fpm.log
 
-    # edit /etc/php-fpm.conf to contain:
-    error_log = /var/log/php-fpm.log
+# edit /etc/php-fpm.conf to contain:
+error_log = /var/log/php-fpm.log
+```
 
 Config PHP to use sockets for connecting to mysql.  Edit `/etc/php.ini` to contain:
 
-    pdo_mysql.default_socket=/tmp/mysql.sock
-    mysql.default_socket = /tmp/mysql.sock
+``` ini
+pdo_mysql.default_socket=/tmp/mysql.sock
+mysql.default_socket = /tmp/mysql.sock
+```
 
 Add [launchd config for php-fpm](https://github.com/willnorris/dotfiles/blob/master/mordecai/Library/LaunchAgents/org.php.php-fpm.plist):
 
-    cp org.php.php-fpm.plist ~/Library/LaunchAgents
-    launchctl load -w ~/Library/LaunchAgents/org.php.php-fpm.plist
+``` sh
+cp org.php.php-fpm.plist ~/Library/LaunchAgents
+launchctl load -w ~/Library/LaunchAgents/org.php.php-fpm.plist
+```
 
 ## MySQL ##
 
-    brew install mysql
-    mysql_install_db --verbose --user=$(whoami) --basedir="$(brew --prefix mysql)" --datadir=/opt/homebrew/var/mysql --tmpdir=/tmp
-    mysql.server start
-    mysql_secure_installation
+``` sh
+brew install mysql
+mysql_install_db --verbose --user=$(whoami) --basedir="$(brew --prefix mysql)" --datadir=/opt/homebrew/var/mysql --tmpdir=/tmp
+mysql.server start
+mysql_secure_installation
+```
 
 Create `/etc/my.cnf` with the following contents:
 
-    [mysqld]
-      skip-networking
+``` ini
+[mysqld]
+  skip-networking
+```
 
 Restart mysqld:
 
-    mysql.server restart
+``` sh
+mysql.server restart
+```
 
 Further reading: <http://stackoverflow.com/questions/4359131/brew-install-mysql-on-mac-os>
 
 ## /etc/hosts ##
 
-    sudo vi /etc/hosts
+```
+sudo vi /etc/hosts
 
-    # local development
-    127.0.0.1  mysql
+# local development
+127.0.0.1  mysql
+```
 
 ## phpMyAdmin ##
 
 Download from <http://www.phpmyadmin.net/> and unzip.
 
-    mkdir -p ~/Sites/mysql
-    cd ~/Sites/mysql
-    mv ~/Downloads/phpMyAdmin-* ./
-    ln -s phpMyAdmin-* public
-    cp public/config.sample.inc.php public/config.inc.php
+``` sh
+mkdir -p ~/Sites/mysql
+cd ~/Sites/mysql
+mv ~/Downloads/phpMyAdmin-* ./
+ln -s phpMyAdmin-* public
+cp public/config.sample.inc.php public/config.inc.php
+```
 
 Edit `config.inc.php` to contain the following:
 

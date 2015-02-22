@@ -20,7 +20,7 @@ Reposts" of [this post][].
 Next I looked at the markup brid.gy generates for these webmentions.  Compare an [example +1][] versus an [example
 reshare][].  The +1 contains the following snippet:
 
-``` markup
+``` html
 <div class="h-card p-author">
     <div class="p-name"><a class="u-url" href="https://profiles.google.com/105078911987805797425">Cristian Gary Bufadel</a></div>
 <a class="u-url" href="https://plus.google.com/105078911987805797425"></a>

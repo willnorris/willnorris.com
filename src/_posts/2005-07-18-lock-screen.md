@@ -14,7 +14,7 @@ Yet another application ([locktight][]) that I've replaced with [Quicksilver][].
 
 After reading the comments in [this hint][] at macosxhints.com, I discovered this little bit of applescript.
 
-```
+``` applescript
 tell application "ScreenSaverEngine" to activate
 ```
 

@@ -33,7 +33,7 @@ This sets up a couple of variables to keep track of which object is currently th
 level is.  It also provides a function for an element to request focus and a function to finally grant focus after all
 is said and done.  Now in your website, call requestFocus for each element necessary.  It might look something like...
 
-``` markup
+``` html
 <form id="loginForm">
     <input type="text" id="username" />
     <input type="password" id="password" />

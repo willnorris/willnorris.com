@@ -14,7 +14,7 @@ The WebKit team [announced][] a [new site][] today where you can download nightl
 cool.  I went ahead and wrote the following simple shell script to automate the process of downloading and installing
 the latest build:
 
-```
+``` sh
 #!/bin/sh
 
 curl -o /tmp/webkit.dmg http://nightly.webkit.org/builds/Latest-WebKit-CVS.dmg

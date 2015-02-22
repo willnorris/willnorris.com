@@ -39,7 +39,7 @@ So instead of pushing to the current branch, I have a dedicated ref on the serve
 `push/master` that I use just for pushing changes live.  In my git client on my laptop, I have the
 following config:
 
-```
+``` ini
 [remote "live"]
   url = judah:/var/www/willnorris.com
   push = refs/heads/master:refs/push/master

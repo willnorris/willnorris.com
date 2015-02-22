@@ -17,7 +17,7 @@ What I ended up with is a hybrid approach.  My new webmention endpoint is
 file on my webserver, while HTTP `POST` requests are forwarded to Pelle's webmention service using nginx's proxy module.
 I feel like this gives me the best of both worlds, and the configuration to do it was surprisingly simple:
 
-```
+``` nginx
 location = /api/webmention {
   if ($request_method = POST) {
     proxy_pass https://webmention.herokuapp.com;

@@ -41,7 +41,7 @@ There were a few optional parts of the spec I explicitly chose not to support:
 
 So, my final nginx configuration for supporting WebFinger is:
 
-```
+``` nginx
 location = /.well-known/webfinger {
   if ($request_method !~ ^(GET|HEAD)$) { return 405; }
   set_by_lua $resource 'return ngx.unescape_uri(ngx.req.get_uri_args()["resource"])';

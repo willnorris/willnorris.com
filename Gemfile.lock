@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: e240bbb1bf6743a35476157605fe96496e55b529
+  revision: a608494e18cec86637c1d72cbcb5d038b6d18207
   branch: master
   specs:
     jekyll (3.0.0.pre.beta1)
@@ -25,7 +25,7 @@ GEM
       sass (~> 3.2)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
-    kramdown (1.5.0)
+    kramdown (1.6.0)
     liquid (3.0.1)
     listen (2.8.5)
       celluloid (>= 0.15.2)
@@ -40,7 +40,7 @@ GEM
       ffi (>= 0.5.0)
     rouge (1.8.0)
     safe_yaml (1.0.4)
-    sass (3.4.12)
+    sass (3.4.13)
     timers (4.0.1)
       hitimes
 

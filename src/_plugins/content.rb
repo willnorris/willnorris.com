@@ -20,8 +20,8 @@
 module Jekyll
   class StaticFile
     def destination(dest)
-      dir = @dir.sub(/^\/content\/([0-9]{4}\/)/, '/\1')
-      File.join(*[dest, dir, @name].compact)
+      dir = destination_rel_dir.sub(%r(^/content/(\d{4}(/|$))), '/\1')
+      @site.in_dest_dir(*[dest, dir, @name].compact)
     end
   end
 end

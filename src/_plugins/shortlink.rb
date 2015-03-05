@@ -52,6 +52,8 @@ module Jekyll
         links << URI.join(base, "/p/#{wordpress_id}")
       end
 
+      links = links.uniq
+
       unless links.empty?
         # TODO: there must be a better way to do this
         doc = Nokogiri::HTML::DocumentFragment.parse "<link>"

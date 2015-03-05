@@ -8,25 +8,25 @@
 # filesystem.  This plugin will cause jekyll to regenerate my site when any
 # files in my drafts folder change.
 
-require 'find'
-require 'jekyll-watch'
+require "find"
+require "jekyll-watch"
 
 module Jekyll
   module Watcher
     def build_listener_with_symlinks(site, options)
-      src = options['source']
+      src = options["source"]
       dirs = [src]
       Find.find(src).each do |f|
-        next if f == "#{src}/_drafts" and not options['show_drafts']
+        next if f == "#{src}/_drafts" and not options["show_drafts"]
         # TODO(willnorris): filter ignored files
         dirs << f if File.directory?(f) and File.symlink?(f)
       end
 
-      require 'listen'
+      require "listen"
       Listen.to(
         dirs,
         :ignore => listen_ignore_paths(options),
-        :force_polling => options['force_polling'],
+        :force_polling => options["force_polling"],
         &(listen_handler(site))
       )
     end

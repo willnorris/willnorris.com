@@ -7,24 +7,24 @@
 # parses the front matter date variable as a ruby DateTime object.
 #
 # This plugin requires that post date fields be specified as quoted strings.
-# Otherwise, the yaml module will attempt to parse 'naked' values as a Time,
+# Otherwise, the yaml module will attempt to parse "naked" values as a Time,
 # which loses the specified timezone value.
 
-require 'liquid'
-require 'date'
+require "liquid"
+require "date"
 
 module Jekyll
   class Post
     def datetime
-      if !data.has_key?('datetime')
-        unless data['date'].kind_of? String
+      if !data.has_key?("datetime")
+        unless data["date"].kind_of? String
           Jekyll.logger.error "ERROR:", "datetime plugin requires that all dates be specified as strings"
-          Jekyll.logger.error "", "#{@name} contains date of type '#{data['date'].class}'"
+          Jekyll.logger.error "", "#{@name} contains date of type '#{data["date"].class}'"
           exit(1)
         end
-        data['datetime'] = DateTime.parse(data['date'].to_s)
+        data["datetime"] = DateTime.parse(data["date"].to_s)
       end
-      data['datetime']
+      data["datetime"]
     end
 
     def to_liquid_with_datetime(attrs = ATTRIBUTES_FOR_LIQUID)
@@ -37,15 +37,15 @@ module Jekyll
   module DateFilters
     # Format the provided timestamp.  This adds two formatting directives:
     #
-    #  %o  - day of month as an ordinal day (e.g. '2nd', '23rd')
-    #  %:Z - timezone as abbreviated name (e.g. 'EDT', 'PST').  Currently only
+    #  %o  - day of month as an ordinal day (e.g. "2nd", "23rd")
+    #  %:Z - timezone as abbreviated name (e.g. "EDT", "PST").  Currently only
     #  supports continental US timezones.
     def datetime(input, format)
       return input if format.to_s.empty?
       return input unless date = to_datetime(input)
 
-      format.gsub!('%o', ordinal(date.strftime('%e').to_i))
-      format.gsub!('%:Z', timezone(date))
+      format.gsub!("%o", ordinal(date.strftime("%e").to_i))
+      format.gsub!("%:Z", timezone(date))
 
       date.strftime(format.to_s)
     end
@@ -95,7 +95,7 @@ module Jekyll
       return obj if obj.respond_to?(:strftime)
 
       case obj
-      when 'now'.freeze, 'today'.freeze
+      when "now".freeze, "today".freeze
         DateTime.now
       when /\A\d+\z/, Integer
         DateTime.at(obj.to_i)

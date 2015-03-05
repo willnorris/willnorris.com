@@ -30,37 +30,36 @@
 
 require "date"
 require "time"
-require 'nokogiri'
+require "nokogiri"
 
 module Jekyll
   class ShortlinkTag < Liquid::Tag
     def render(context)
       config = context.registers[:site].config
-      base = config.has_key?('short_baseurl') ? config['short_baseurl'] : config['url']
+      base = config.has_key?("short_baseurl") ? config["short_baseurl"] : config["url"]
 
       links = []
-      Array(context['page']['shortlink']).each do |link|
-        uri = URI.join(base, link)
-        links.push(uri)
+      Array(context["page"]["shortlink"]).each do |link|
+        links << URI.join(base, link)
       end
 
       # TODO: generate and add date-based shortlink
 
       # old WordPress links
-      wordpress_id = context['page']['wordpress_id']
+      wordpress_id = context["page"]["wordpress_id"]
       if wordpress_id
-        links.push(URI.join(base, "/b/#{wordpress_id.to_sxg}"))
-        links.push(URI.join(base, "/p/#{wordpress_id}"))
+        links << URI.join(base, "/b/#{wordpress_id.to_sxg}")
+        links << URI.join(base, "/p/#{wordpress_id}")
       end
 
-      if links.size > 0
+      unless links.empty?
         # TODO: there must be a better way to do this
-        doc = Nokogiri::HTML::DocumentFragment.parse '<link>'
-        link = doc.at_css 'link'
-        link['rel'] = "shortlink"
-        link['href'] = links[0]
-        if links.size > 1
-          link['data-alt-href'] = links[1..-1].join(" ")
+        doc = Nokogiri::HTML::DocumentFragment.parse "<link>"
+        link = doc.at_css "link"
+        link["rel"] = "shortlink"
+        link["href"] = links.shift
+        unless links.empty?
+          link["data-alt-href"] = links.join(" ")
         end
         doc.to_html
       end
@@ -68,12 +67,12 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('shortlink', Jekyll::ShortlinkTag)
+Liquid::Template.register_tag("shortlink", Jekyll::ShortlinkTag)
 
 # NewBase60 implementation by Shane Becker and friends (https://github.com/veganstraightedge/new_base_60)
 # Released under CC0 (Public Domain).
 class NewBase60
-  VERSION    = '1.1.2'
+  VERSION    = "1.1.2"
   VOCABULARY = "0123456789ABCDEFGHJKLMNPQRSTUVWXYZ_abcdefghijkmnopqrstuvwxyz"
 
   def initialize(base_60)

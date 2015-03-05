@@ -48,18 +48,18 @@ module Jekyll
 
       # old WordPress links
       wordpress_id = context['page']['wordpress_id']
-      if wordpress_id then
+      if wordpress_id
         links.push(URI.join(base, "/b/#{wordpress_id.to_sxg}"))
         links.push(URI.join(base, "/p/#{wordpress_id}"))
       end
 
-      if links.size > 0 then
+      if links.size > 0
         # TODO: there must be a better way to do this
         doc = Nokogiri::HTML::DocumentFragment.parse '<link>'
         link = doc.at_css 'link'
         link['rel'] = "shortlink"
         link['href'] = links[0]
-        if links.size > 1 then
+        if links.size > 1
           link['data-alt-href'] = links[1..-1].join(" ")
         end
         doc.to_html

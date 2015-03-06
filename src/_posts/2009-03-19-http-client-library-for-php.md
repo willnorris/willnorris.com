@@ -1,7 +1,7 @@
 ---
 title: HTTP Client Library for PHP
-wordpress_id: 546
 date: '2009-03-19T15:18:02-07:00'
+shortlink: [/b/96, /p/546]
 categories:
 - technology
 tags:

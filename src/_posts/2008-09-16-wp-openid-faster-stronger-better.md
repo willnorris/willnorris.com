@@ -1,7 +1,7 @@
 ---
 title: wp-openid - faster, stronger, better
-wordpress_id: 268
 date: '2008-09-16T14:17:48-07:00'
+shortlink: [/b/4U, /p/268]
 categories:
 - identity
 - technology

@@ -1,14 +1,13 @@
 ---
 layout: aside
 title: Music is thought made audible
-wordpress_id: 1025
 date: '2013-04-25T10:43:46-07:00'
+shortlink: /t/H5
 categories:
 - music
 tags:
 - music
 - dance
-shortlink: /t/H5
 ---
 I was listening to Forum on the drive in this morning, and they were [interviewing][] choreographer [Alonzo King][] and
 bassist and composer [Edgar Meyer][].  I absolutely loved this quote from King:

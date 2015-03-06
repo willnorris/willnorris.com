@@ -1,7 +1,7 @@
 ---
 title: They get it
-wordpress_id: 38
 date: '2005-05-24T00:56:14-05:00'
+shortlink: [/b/d, /p/38]
 categories:
 - technology
 tags:

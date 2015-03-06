@@ -1,7 +1,7 @@
 ---
 title: Adding rel="me" to WordPress Social Menus
-wordpress_id: 1132
 date: '2014-01-21T23:06:32-08:00'
+shortlink: /b/Js
 categories:
 - identity
 - technology

@@ -1,7 +1,7 @@
 ---
 title: airline seat websites
-wordpress_id: 151
 date: '2006-06-25T04:12:44-07:00'
+shortlink: [/b/2X, /p/151]
 categories:
 - technology
 ---

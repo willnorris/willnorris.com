@@ -1,9 +1,9 @@
 ---
 title: closed or open
-wordpress_id: 122
 date: '2003-11-23T04:26:39-06:00'
+shortlink: [/b/22, /p/122]
 categories:
-- technology
+- personal
 ---
 It's early morning<br>
 No one is awake<br>

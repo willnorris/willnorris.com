@@ -1,7 +1,7 @@
 ---
 title: technology and privacy
-wordpress_id: 115
 date: '2003-08-13T23:59:50-05:00'
+shortlink: [/b/1v, /p/115]
 categories:
 - identity
 - technology

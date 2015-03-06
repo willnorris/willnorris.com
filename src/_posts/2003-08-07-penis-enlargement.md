@@ -1,7 +1,7 @@
 ---
 title: penis enlargement
-wordpress_id: 100
 date: '2003-08-07T07:48:11-05:00'
+shortlink: [/b/1f, /p/100]
 categories:
 - technology
 tags:

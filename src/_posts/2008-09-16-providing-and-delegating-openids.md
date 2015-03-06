@@ -1,7 +1,7 @@
 ---
 title: Providing and Delegating OpenIDs
-wordpress_id: 270
 date: '2008-09-16T14:18:00-07:00'
+shortlink: [/b/4W, /p/270]
 categories:
 - identity
 - technology

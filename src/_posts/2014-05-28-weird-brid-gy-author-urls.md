@@ -1,8 +1,8 @@
 ---
 layout: aside
 title: weird brid.gy author URLs
-wordpress_id: 1162
 date: '2014-05-28T13:50:27-07:00'
+shortlink: /t/KN
 categories:
 - technology
 tags:
@@ -10,7 +10,6 @@ tags:
 - brid.gy
 syndication:
 - https://github.com/snarfed/bridgy/issues/160
-shortlink: /t/KN
 ---
 For a while, I've noticed that [brid.gy][] was providing `profiles.google.com` URLs for authors for some Google+
 activities.  Today, I dug into it a little and discovered that it's only doing this for +1s; Google+ reshares have the

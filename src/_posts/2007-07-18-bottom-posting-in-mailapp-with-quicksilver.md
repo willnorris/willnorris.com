@@ -1,7 +1,7 @@
 ---
 title: Bottom posting in Mail.app (with Quicksilver)
-wordpress_id: 191
 date: '2007-07-18T13:23:43-07:00'
+shortlink: [/b/3B, /p/191]
 categories:
 - technology
 tags:

@@ -1,7 +1,7 @@
 ---
 title: learning curves
-wordpress_id: 108
 date: '2003-08-07T06:29:04-05:00'
+shortlink: [/b/1o, /p/108]
 categories:
 - personal
 ---

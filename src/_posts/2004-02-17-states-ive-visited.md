@@ -1,7 +1,7 @@
 ---
 title: states I've visited
-wordpress_id: 118
 date: '2004-02-17T08:09:38-06:00'
+shortlink: [/b/1y, /p/118]
 categories:
 - personal
 tags:

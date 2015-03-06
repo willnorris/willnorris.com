@@ -1,7 +1,7 @@
 ---
 title: The Next Steps with wp-openid
-wordpress_id: 265
 date: '2008-09-16T14:17:21-07:00'
+shortlink: [/b/4R, /p/265]
 categories:
 - identity
 - technology

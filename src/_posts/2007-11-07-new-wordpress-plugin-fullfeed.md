@@ -1,7 +1,7 @@
 ---
 title: New WordPress plugin - FullFeed
-wordpress_id: 210
 date: '2007-11-07T16:05:23-08:00'
+shortlink: [/b/3W, /p/210]
 categories:
 - technology
 tags:

@@ -1,7 +1,7 @@
 ---
 title: iPod Shuffle
-wordpress_id: 72
 date: '2005-09-25T23:40:35-05:00'
+shortlink: [/b/1C, /p/72]
 categories:
 - technology
 tags:

@@ -1,7 +1,7 @@
 ---
 title: OpenID provider wish-list
-wordpress_id: 179
 date: '2007-03-08T01:35:04-08:00'
+shortlink: [/b/2z, /p/179]
 categories:
 - identity
 - technology

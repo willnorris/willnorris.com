@@ -1,7 +1,7 @@
 ---
 title: new template
-wordpress_id: 64
 date: '2005-08-05T16:36:47-05:00'
+shortlink: [/b/14, /p/64]
 categories:
 - technology
 tags:

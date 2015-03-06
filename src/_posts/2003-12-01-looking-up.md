@@ -1,9 +1,9 @@
 ---
 title: looking up
-wordpress_id: 126
 date: '2003-12-01T09:47:48-06:00'
+shortlink: [/b/26, /p/126]
 categories:
-- technology
+- personal
 ---
 okay, so i guess things are beginning to look up... i don't have to take my political science final even though i've
 missed more than enough days to require me to; my english professor told the class not to worry about the two quizzes

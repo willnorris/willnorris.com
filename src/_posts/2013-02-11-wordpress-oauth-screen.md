@@ -1,14 +1,13 @@
 ---
 layout: image
 title: WordPress OAuth Screen
-wordpress_id: 1005
 date: '2013-02-11T14:41:02-08:00'
+shortlink: /p/Gk
 categories:
 - technology
 tags:
 - wordpress
 - oauth
-shortlink: /p/Gk
 ---
 
 Pop Quiz.  After clicking "Authorize" on this page, what do you think Klout will have access to on my WordPress blog?

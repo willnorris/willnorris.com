@@ -1,7 +1,7 @@
 ---
 title: back online
-wordpress_id: 104
 date: '2003-09-20T05:05:20-05:00'
+shortlink: [/b/1j, /p/104]
 categories:
 - technology
 ---

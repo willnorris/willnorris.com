@@ -1,13 +1,12 @@
 ---
 layout: aside
 title: scooby doo algorithm
-wordpress_id: 1035
 date: '2013-07-09T14:17:56-07:00'
+shortlink: /t/HF
 categories:
 - technology
 syndication:
 - https://plus.google.com/+willnorris/posts/Bggjvb2kVQz
-shortlink: /t/HF
 ---
 Today I learned, while reading about the new `<main>` element [recently added][] to HTML5, that the [Scooby Doo
 Algorithm][] is a thing:

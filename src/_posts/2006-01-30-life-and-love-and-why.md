@@ -1,7 +1,7 @@
 ---
 title: Life and Love and Why
-wordpress_id: 131
 date: '2006-01-30T13:29:00-06:00'
+shortlink: [/b/2B, /p/131]
 categories:
 - personal
 tags:

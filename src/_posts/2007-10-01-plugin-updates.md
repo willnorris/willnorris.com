@@ -1,7 +1,7 @@
 ---
 title: plugin updates
-wordpress_id: 198
 date: '2007-10-01T00:31:26-07:00'
+shortlink: [/b/3J, /p/198]
 categories:
 - identity
 - technology

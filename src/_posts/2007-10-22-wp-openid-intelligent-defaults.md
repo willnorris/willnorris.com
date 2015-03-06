@@ -1,7 +1,7 @@
 ---
 title: wp-openid intelligent defaults
-wordpress_id: 203
 date: '2007-10-22T15:46:24-07:00'
+shortlink: [/b/3P, /p/203]
 categories:
 - identity
 - technology

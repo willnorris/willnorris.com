@@ -1,7 +1,7 @@
 ---
 title: Google Error
-wordpress_id: 177
 date: '2007-02-25T23:06:46-08:00'
+shortlink: [/b/2x, /p/177]
 categories:
 - technology
 ---

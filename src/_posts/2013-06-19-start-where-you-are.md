@@ -1,8 +1,8 @@
 ---
 layout: quote
 title: Start where you are
-wordpress_id: 1028
 date: '2013-06-19T09:48:44-07:00'
+shortlink: /b/H8
 categories:
 - personal
 - technology

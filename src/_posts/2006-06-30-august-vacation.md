@@ -1,7 +1,7 @@
 ---
 title: August Vacation
-wordpress_id: 152
 date: '2006-06-30T11:56:08-07:00'
+shortlink: [/b/2Y, /p/152]
 categories:
 - personal
 tags:

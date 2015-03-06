@@ -1,7 +1,7 @@
 ---
 title: WordPress plugins - development version
-wordpress_id: 216
 date: '2007-12-07T09:52:46-08:00'
+shortlink: [/b/3b, /p/216]
 categories:
 - identity
 - technology

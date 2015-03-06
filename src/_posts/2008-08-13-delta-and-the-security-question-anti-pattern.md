@@ -1,7 +1,7 @@
 ---
 title: Delta and the Security Question Anti-Pattern
-wordpress_id: 251
 date: '2008-08-13T17:47:49-07:00'
+shortlink: [/b/4B, /p/251]
 categories:
 - identity
 - technology

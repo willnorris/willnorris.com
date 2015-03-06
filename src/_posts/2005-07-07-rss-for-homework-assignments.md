@@ -1,7 +1,7 @@
 ---
 title: rss for homework assignments
-wordpress_id: 50
 date: '2005-07-07T18:44:19-05:00'
+shortlink: [/b/q, /p/50]
 categories:
 - technology
 tags:

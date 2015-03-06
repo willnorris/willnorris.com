@@ -1,7 +1,7 @@
 ---
 title: Consolidating domains
-wordpress_id: 391
 date: '2008-11-13T17:37:24-08:00'
+shortlink: [/b/6X, /p/391]
 categories:
 - identity
 - personal

@@ -1,7 +1,7 @@
 ---
 title: Elijah Lee Norris
-wordpress_id: 150
 date: '2006-06-20T11:57:53-07:00'
+shortlink: [/b/2W, /p/150]
 categories:
 - personal
 tags:

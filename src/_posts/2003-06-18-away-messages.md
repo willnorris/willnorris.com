@@ -1,7 +1,7 @@
 ---
 title: away messages
-wordpress_id: 99
 date: '2003-06-18T19:05:15-05:00'
+shortlink: [/b/1e, /p/99]
 categories:
 - technology
 tags:

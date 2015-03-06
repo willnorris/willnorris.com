@@ -1,7 +1,7 @@
 ---
 title: let's try this again
-wordpress_id: 97
 date: '2003-11-21T03:56:50-06:00'
+shortlink: [/b/1c, /p/97]
 categories:
 - technology
 ---

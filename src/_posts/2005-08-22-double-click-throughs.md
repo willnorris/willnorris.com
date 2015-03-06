@@ -1,7 +1,7 @@
 ---
 title: Double Click-Throughs
-wordpress_id: 69
 date: '2005-08-22T10:57:01-05:00'
+shortlink: [/b/19, /p/69]
 categories:
 - technology
 tags:

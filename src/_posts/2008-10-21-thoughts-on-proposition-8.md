@@ -1,7 +1,7 @@
 ---
 title: Thoughts on Proposition 8
-wordpress_id: 369
 date: '2008-10-21T01:21:08-07:00'
+shortlink: [/b/69, /p/369]
 categories:
 - personal
 - news

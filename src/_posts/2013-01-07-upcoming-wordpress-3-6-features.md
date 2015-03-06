@@ -1,13 +1,12 @@
 ---
 layout: link
 title: Upcoming WordPress 3.6 features
-wordpress_id: 995
 date: '2013-01-07T12:36:51-08:00'
+shortlink: /t/Ga
 categories:
 - technology
 syndication:
 - https://plus.google.com/+willnorris/posts/Vg21SJyeqQK
-shortlink: /t/Ga
 ---
 Mark Jaquith [talking about WordPress 3.6][], which will be focused on the post authoring experience:
 

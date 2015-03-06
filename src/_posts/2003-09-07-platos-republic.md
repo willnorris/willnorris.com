@@ -1,7 +1,7 @@
 ---
 title: Plato's Republic
-wordpress_id: 123
 date: '2003-09-07T22:34:18-05:00'
+shortlink: [/b/23, /p/123]
 categories:
 - technology
 tags:

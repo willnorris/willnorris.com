@@ -1,7 +1,7 @@
 ---
 title: One year at USC
-wordpress_id: 172
 date: '2007-02-15T12:25:34-08:00'
+shortlink: [/b/2s, /p/172]
 categories:
 - identity
 - personal

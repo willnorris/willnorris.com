@@ -1,13 +1,12 @@
 ---
 layout: link
 title: Git is the next Unix
-wordpress_id: 920
 date: '2011-03-13T22:06:45-07:00'
+shortlink: /t/FL
 categories:
 - technology
 tags:
 - git
-shortlink: /t/FL
 ---
 [Avery Pennarun](http://apenwarr.ca/log/?m=200801#31) in 2008:
 

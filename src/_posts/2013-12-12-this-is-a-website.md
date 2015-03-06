@@ -1,13 +1,12 @@
 ---
 layout: link
 title: This is a Website
-wordpress_id: 1096
 date: '2013-12-12T08:46:44-08:00'
+shortlink: /t/JG
 categories:
 - technology
 tags:
 - indieweb
-shortlink: /t/JG
 ---
 It should come as no surprise that Zeldman's post <cite>[This is a Website][]</cite> resonated with me heaviliy:
 

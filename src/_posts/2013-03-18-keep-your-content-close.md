@@ -1,13 +1,12 @@
 ---
 layout: link
 title: Keep your content close
-wordpress_id: 1017
 date: '2013-03-18T12:41:27-07:00'
+shortlink: /t/Gx
 categories:
 - technology
 tags:
 - indieweb
-shortlink: /t/Gx
 ---
 [Drew McLellan on self publishing](http://allinthehead.com/retro/365/ideas-of-march-2013):
 

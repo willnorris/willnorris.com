@@ -1,7 +1,7 @@
 ---
 title: Lock Screen
-wordpress_id: 55
 date: '2005-07-18T12:07:21-05:00'
+shortlink: [/b/v, /p/55]
 categories:
 - technology
 tags:

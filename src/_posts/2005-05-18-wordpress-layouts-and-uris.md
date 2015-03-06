@@ -1,7 +1,7 @@
 ---
 title: wordpress, layouts, and URIs
-wordpress_id: 33
 date: '2005-05-18T00:28:01-05:00'
+shortlink: [/b/Z, /p/33]
 categories:
 - technology
 tags:

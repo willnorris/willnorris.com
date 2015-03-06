@@ -1,7 +1,7 @@
 ---
 title: out of town
-wordpress_id: 218
 date: '2007-12-15T11:44:04-08:00'
+shortlink: [/b/3d, /p/218]
 categories:
 - personal
 tags:

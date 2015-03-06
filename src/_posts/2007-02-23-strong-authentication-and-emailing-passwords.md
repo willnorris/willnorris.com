@@ -1,7 +1,7 @@
 ---
 title: strong authentication and emailing passwords
-wordpress_id: 176
 date: '2007-02-23T17:24:36-08:00'
+shortlink: [/b/2w, /p/176]
 categories:
 - identity
 - technology

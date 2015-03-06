@@ -1,7 +1,7 @@
 ---
 title: Do What it Says
-wordpress_id: 61
 date: '2005-08-02T08:03:24-05:00'
+shortlink: [/b/11, /p/61]
 categories:
 - personal
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Deciphering Twitter @replies
-wordpress_id: 596
 date: '2009-05-13T10:38:43-07:00'
+shortlink: [/b/9w, /p/596]
 categories:
 - technology
 ---

@@ -1,7 +1,7 @@
 ---
 title: Bigger and Better Things
-wordpress_id: 586
 date: '2009-05-12T13:18:18-07:00'
+shortlink: [/b/9m, /p/586]
 categories:
 - personal
 - news

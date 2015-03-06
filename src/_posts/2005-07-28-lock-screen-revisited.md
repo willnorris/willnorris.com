@@ -1,7 +1,7 @@
 ---
 title: Lock Screen revisited
-wordpress_id: 58
 date: '2005-07-28T16:30:10-05:00'
+shortlink: [/b/y, /p/58]
 categories:
 - technology
 tags:

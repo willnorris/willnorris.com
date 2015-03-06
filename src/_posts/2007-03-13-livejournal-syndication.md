@@ -1,7 +1,7 @@
 ---
 title: LiveJournal syndication
-wordpress_id: 182
 date: '2007-03-13T15:24:31-07:00'
+shortlink: [/b/32, /p/182]
 categories:
 - personal
 - technology

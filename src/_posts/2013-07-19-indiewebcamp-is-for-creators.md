@@ -1,8 +1,8 @@
 ---
 layout: quote
 title: IndieWebCamp is for creators
-wordpress_id: 1041
 date: '2013-07-19T14:17:07-07:00'
+shortlink: /b/HM
 categories:
 - technology
 tags:

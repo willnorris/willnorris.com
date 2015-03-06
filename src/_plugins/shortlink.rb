@@ -45,13 +45,6 @@ module Jekyll
 
       # TODO: generate and add date-based shortlink
 
-      # old WordPress links
-      wordpress_id = context["page"]["wordpress_id"]
-      if wordpress_id
-        links << URI.join(base, "/b/#{wordpress_id.to_sxg}")
-        links << URI.join(base, "/p/#{wordpress_id}")
-      end
-
       links = links.uniq
 
       unless links.empty?

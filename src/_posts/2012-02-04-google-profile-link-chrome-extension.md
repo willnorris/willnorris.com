@@ -1,7 +1,7 @@
 ---
 title: Google+ Profile Link Chrome Extension
-wordpress_id: 958
 date: '2012-02-04T20:41:21-08:00'
+shortlink: /b/Fy
 categories:
 - technology
 tags:

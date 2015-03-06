@@ -1,11 +1,10 @@
 ---
 layout: aside
 title: Dealing with Recruiters
-wordpress_id: 1057
 date: '2013-08-01T11:36:49-07:00'
+shortlink: /t/Hc
 categories:
 - technology
-shortlink: /t/Hc
 ---
 My favorite new technique for dealing with recruiters...
 

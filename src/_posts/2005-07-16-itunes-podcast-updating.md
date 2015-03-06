@@ -1,7 +1,7 @@
 ---
 title: iTunes podcast updating
-wordpress_id: 53
 date: '2005-07-16T00:46:46-05:00'
+shortlink: [/b/t, /p/53]
 categories:
 - technology
 tags:

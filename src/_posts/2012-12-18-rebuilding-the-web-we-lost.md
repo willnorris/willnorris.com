@@ -1,8 +1,8 @@
 ---
 layout: link
 title: Rebuilding the Web We Lost
-wordpress_id: 990
 date: '2012-12-18T17:58:17-08:00'
+shortlink: /t/GW
 categories:
 - technology
 tags:
@@ -10,7 +10,6 @@ tags:
 - indieweb
 syndication:
 - https://plus.google.com/+willnorris/posts/GTrYLPv2tpk
-shortlink: /t/GW
 ---
 Anil Dash follows up his essay from last week with [Rebuilding the Web We Lost][]:
 

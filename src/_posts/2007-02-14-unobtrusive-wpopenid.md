@@ -1,7 +1,7 @@
 ---
 title: Unobtrusive wpopenid
-wordpress_id: 170
 date: '2007-02-14T05:23:30-08:00'
+shortlink: [/b/2q, /p/170]
 categories:
 - identity
 - technology

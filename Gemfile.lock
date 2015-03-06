@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: a608494e18cec86637c1d72cbcb5d038b6d18207
+  revision: 66785b43ba55d55db77f1e6983324c54013d1f3c
   branch: master
   specs:
-    jekyll (3.0.0.pre.beta1)
+    jekyll (3.0.0.beta2)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)

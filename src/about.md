@@ -26,6 +26,8 @@ longer use WordPress for this site, I still manage other WordPress-powered site,
 maintain a number of [plugins][] and occasionally contribute to WordPress core and WordPress for
 Android.
 
+### Contact ###
+
 I can be contacted by email at will @ this domain or by phone at <span class="p-tel tel">+1 (901)
 484-9455</span>.  Links to most of my online profiles can be found on my [Google+ page][].  I'm not
 interested in hearing about job opportunities.

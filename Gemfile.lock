@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: e82eaa4b0f27f15de13bde04ccaca88b7ecbdf37
+  revision: f908051aa403e32d8f52f7f68c3252b7688f07a3
   branch: master
   specs:
     jekyll (3.0.0.pre.beta2)
@@ -27,8 +27,8 @@ GEM
       listen (~> 2.7)
     kramdown (1.6.0)
     liquid (3.0.1)
-    listen (2.9.0)
-      celluloid (>= 0.15.2)
+    listen (2.10.0)
+      celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)

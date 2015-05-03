@@ -3,7 +3,7 @@ title: tools
 go:
   pkg: willnorris.com/go/tools
   vcs: git
-  src: https://github.com/willnorris/go-tools
+  src: https://github.com/willnorris/tools
 excerpt: Assorted command line tools
 ---
 This package contains assorted command line tools that aren't quite big
@@ -23,4 +23,4 @@ Run `timestamp -help` for complete usage.
 These tools are copyright Google, but are not an official Google products.
 They are available under a [BSD License][].
 
-[BSD License]: https://github.com/willnorris/go-tools/blob/master/LICENSE
+[BSD License]: https://github.com/willnorris/tools/blob/master/LICENSE

@@ -3,11 +3,11 @@ title: webmention
 go:
   pkg: willnorris.com/go/webmention
   vcs: git
-  src: https://github.com/willnorris/go-webmention
+  src: https://github.com/willnorris/webmention
 excerpt: Client library and simple command line tool for sending webmentions
 ---
-go-webmention is a go library and command line tool for assissting in sending
-webmentions.
+webmention is a go library and command line tool for assissting in sending
+[webmentions](http://indiewebcamp.com/Webmention).
 
 Install the library by running:
 
@@ -23,7 +23,7 @@ To install the command line tool, run:
 
 ## License ##
 
-go-webmention is copyright Google, but is not an official Google product.  It
+This library is copyright Google, but is not an official Google product.  It
 is available under a [BSD License][].
 
-[BSD License]: https://github.com/willnorris/go-webmention/blob/master/LICENSE
+[BSD License]: https://github.com/willnorris/webmention/blob/master/LICENSE

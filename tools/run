@@ -4,4 +4,4 @@
 
 cd $(dirname $0)/..
 set -x
-bundle exec jekyll build --watch --verbose --config _config.yml,_debug.yml $@ .
+bundle exec jekyll build --watch --config _config.yml,_debug.yml $@ .

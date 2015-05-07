@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: f908051aa403e32d8f52f7f68c3252b7688f07a3
+  revision: a1d78cdea6a0008fc72ac01bdedf7df9b91e56c1
   branch: master
   specs:
-    jekyll (3.0.0.pre.beta2)
+    jekyll (3.0.0.pre.beta3)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -25,8 +25,8 @@ GEM
       sass (~> 3.2)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
-    kramdown (1.6.0)
-    liquid (3.0.1)
+    kramdown (1.7.0)
+    liquid (3.0.2)
     listen (2.10.0)
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)

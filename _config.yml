@@ -15,7 +15,7 @@ collections:
     permalink: /go/:path
   redirects:
     output: true
-    permalink: /x/_/:path
+    permalink: /_/:path
 
 defaults:
   -

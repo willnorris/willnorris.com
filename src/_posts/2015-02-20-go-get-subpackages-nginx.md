@@ -25,9 +25,9 @@ here's a basic example.  The import path for my [image proxy server][] is
 <meta name="go-import" content="willnorris.com/go/imageproxy git https://github.com/willnorris/imageproxy">
 ```
 
-That instructs go that any package with the prefix `willnorris.com/go/proxy` can be found in the git
-repository at `https://github.com/willnorris.com/imageproxy`.  This is the exact package we were
-looking for, so go will then checkout the git repository.  No problem.
+That instructs go that any package with the prefix `willnorris.com/go/imageproxy` can be found in
+the git repository at `https://github.com/willnorris.com/imageproxy`.  This is the exact package we
+were looking for, so go will then checkout the git repository.  No problem.
 
 ## Fetching Sub-Packages ##
 

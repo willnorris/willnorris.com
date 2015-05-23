@@ -7,8 +7,8 @@
 {% include header.html %}
 {% include profile-card.html %}
 
-  <div class="wrap">
-    <main class="home">
+  <main class="home">
+    <div class="wrap">
       <h2>Recent Posts</h2>
       <ul class="posts">
         {% for post in site.posts limit:10 %}
@@ -19,8 +19,8 @@
         {% endfor %}
       </ul>
       <p><a href="/archives" class="more">view all posts</a></p>
-    </main>
-  </div>
+    </div>
+  </main>
 
 {% include footer.html %}
 </body>

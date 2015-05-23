@@ -7,11 +7,11 @@
 {% include head.html %}
 <body>
 {% include header.html %}
-  <div class="wrap">
-    <main>
+  <main>
+    <div class="wrap">
     {% imageproxy %}{{ content }}{% endimageproxy %}
-    </main>
-  </div>
+    </div>
+  </main>
 {% include footer.html %}
   <script src="/js/highlight-20150221.js"></script>
   <script>hljs.configure({classPrefix:''}); hljs.initHighlightingOnLoad();</script>

@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: a1d78cdea6a0008fc72ac01bdedf7df9b91e56c1
+  revision: 7a12f32078a5304fb1ed6c890acff0bbe6314566
   branch: master
   specs:
-    jekyll (3.0.0.pre.beta3)
+    jekyll (3.0.0.pre.beta5)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -35,12 +35,12 @@ GEM
     mini_portile (0.6.2)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
-    rb-fsevent (0.9.4)
+    rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    rouge (1.8.0)
+    rouge (1.9.0)
     safe_yaml (1.0.4)
-    sass (3.4.13)
+    sass (3.4.14)
     timers (4.0.1)
       hitimes
 

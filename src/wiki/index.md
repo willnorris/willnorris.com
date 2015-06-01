@@ -9,7 +9,7 @@ of pages like any other.
 ### Pages ###
 
 <ul>
-{% for p in site.pages %}{% if p.url contains "/wiki/" and p.url != page.url %}
+  {% for p in site.wiki %}
     <li><a href="{{ p.url }}">{{ p.title }}</a></li>
-{% endif %}{% endfor %}
+  {% endfor %}
 </ul>

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Ideas for Android Wear
 ---
 

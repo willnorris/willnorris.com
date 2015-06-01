@@ -1,5 +1,4 @@
 ---
-layout: page
 title: OS X Workstation
 ---
 

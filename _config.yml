@@ -16,6 +16,9 @@ collections:
   redirects:
     output: true
     permalink: /_/:path
+  wiki:
+    output: true
+    permalink: /wiki/:path
 
 defaults:
   -
@@ -54,6 +57,12 @@ defaults:
       type: redirects
     values:
       layout: redirect
+  -
+    scope:
+      path: ""
+      type: wiki
+    values:
+      layout: page
 
 # Build settings
 source: src

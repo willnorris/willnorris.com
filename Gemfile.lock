@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: 7a12f32078a5304fb1ed6c890acff0bbe6314566
+  revision: 90514b3536c2a6d6dfc379b91bd1252c3bc09dad
   branch: master
   specs:
-    jekyll (3.0.0.pre.beta5)
+    jekyll (3.0.0.pre.beta8)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -19,15 +19,15 @@ GEM
     celluloid (0.16.0)
       timers (~> 4.0.0)
     colorator (0.1)
-    ffi (1.9.8)
+    ffi (1.9.10)
     hitimes (1.2.2)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
-    kramdown (1.7.0)
-    liquid (3.0.2)
-    listen (2.10.0)
+    kramdown (1.8.0)
+    liquid (3.0.3)
+    listen (2.10.1)
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -38,9 +38,9 @@ GEM
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    rouge (1.9.0)
+    rouge (1.9.1)
     safe_yaml (1.0.4)
-    sass (3.4.14)
+    sass (3.4.16)
     timers (4.0.1)
       hitimes
 

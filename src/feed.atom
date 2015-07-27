@@ -7,6 +7,7 @@
   <link href="{{ "/" | prepend: site.url }}" rel="alternate" type="text/html"/>
   <link href="{{ page.url | prepend: site.url }}" rel="self" type="application/atom+xml"/>
   <link href="https://creativecommons.org/licenses/by/4.0/" rel="license" type="text/html"/>
+  <link href="https://willnorris.superfeedr.com/" rel="hub"/>
   <rights>
     Copyright 2002-{{ site.time | date: "%Y" }} Will Norris.  Unless noted
     otherwise, text content in this feed is licensed under a Creative Commons

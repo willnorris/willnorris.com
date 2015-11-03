@@ -29,19 +29,17 @@
 require "liquid"
 
 module Jekyll
-  class Post
-    def syndication_links
-      return unless data.has_key?("syndication")
-      Array(data["syndication"]).select do |syn|
+  module Syndication extend self
+    def syndication_links(data)
+      Array(data).select do |syn|
         uri = URI(syn)
         uri.path.length > 0 && uri.path != "/"
       end
     end
 
-    def bridgy_links
-      return unless data.has_key?("syndication")
+    def bridgy_links(data)
       links = []
-      Array(data["syndication"]).each do |syn|
+      Array(data).each do |syn|
         uri = URI(syn)
         next if uri.path.length > 0 && uri.path != "/"
         case uri.host
@@ -54,40 +52,40 @@ module Jekyll
       links
     end
 
-    def to_liquid_with_syndication(attrs = ATTRIBUTES_FOR_LIQUID)
-      to_liquid_without_syndication(attrs + %w[syndication_links bridgy_links])
-    end
-    alias_method :to_liquid_without_syndication, :to_liquid
-    alias_method :to_liquid, :to_liquid_with_syndication
-  end
-
-  module Syndication
-    # Get title for syndication URL.
-    def syndication_title(url)
-      uri = URI(url)
-      case uri.host
-      when "facebook.com", "www.facebook.com"
-        "Facebook"
-      when "github.com", "www.github.com"
-        "GitHub"
-      when "news.ycombinator.com"
-        "Hacker News"
-      when "plus.google.com"
-        "Google+"
-      when "reddit.com", "www.reddit.com"
-        p = uri.path.split("/")
-        if p[1] == "r"
-          p[0,3].join("/")
+    module Filters
+      # Get title for syndication URL.
+      def syndication_title(url)
+        uri = URI(url)
+        case uri.host
+        when "facebook.com", "www.facebook.com"
+          "Facebook"
+        when "github.com", "www.github.com"
+          "GitHub"
+        when "news.ycombinator.com"
+          "Hacker News"
+        when "plus.google.com"
+          "Google+"
+        when "reddit.com", "www.reddit.com"
+          p = uri.path.split("/")
+          if p[1] == "r"
+            p[0,3].join("/")
+          else
+            "Reddit"
+          end
+        when "twitter.com", "www.twitter.com"
+          "Twitter"
         else
-          "Reddit"
+          uri.host
         end
-      when "twitter.com", "www.twitter.com"
-        "Twitter"
-      else
-        uri.host
       end
     end
   end
 end
 
-Liquid::Template.register_filter(Jekyll::Syndication)
+Jekyll::Hooks.register :posts, :pre_render do |post, data|
+  links = data["page"]["syndication"]
+  data["page"]["syndication_links"] = Jekyll::Syndication.syndication_links(links)
+  data["page"]["bridgy_links"] = Jekyll::Syndication.bridgy_links(links)
+end
+
+Liquid::Template.register_filter(Jekyll::Syndication::Filters)

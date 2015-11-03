@@ -10,28 +10,29 @@
 # Otherwise, the yaml module will attempt to parse "naked" values as a Time,
 # which loses the specified timezone value.
 
-require "liquid"
 require "date"
 
-module Jekyll
-  class Post
-    def datetime
-      if !data.has_key?("datetime")
-        unless data["date"].kind_of? String
-          Jekyll.logger.error "ERROR:", "datetime plugin requires that all dates be specified as strings"
-          Jekyll.logger.error "", "#{@name} contains date of type '#{data["date"].class}'"
-          exit(1)
-        end
-        data["datetime"] = DateTime.parse(data["date"].to_s)
-      end
-      data["datetime"]
-    end
+# Hook to populate the "datetime" data field for posts.
+Jekyll::Hooks.register :posts, :pre_render do |post, data|
+  page = data["page"]
+  unless page["original_date"].kind_of? String
+    Jekyll.logger.error "ERROR:", "datetime plugin requires that all dates be specified as strings"
+    Jekyll.logger.error "", "#{@name} contains date of type '#{page["original_date"].class}'"
+    exit(1)
+  end
+  page["datetime"] = DateTime.parse(page["original_date"].to_s)
+end
 
-    def to_liquid_with_datetime(attrs = ATTRIBUTES_FOR_LIQUID)
-      to_liquid_without_datetime(attrs + %w[datetime])
+module Jekyll
+  class Document
+    # monkey-patch merge_data in order to preserve the originally specified date value
+    def merge_data_preserve_date!(other)
+      data = merge_data_overwrite_datetime!(other)
+      data["original_date"] = other["date"] if !other["date"].nil?
+      data
     end
-    alias_method :to_liquid_without_datetime, :to_liquid
-    alias_method :to_liquid, :to_liquid_with_datetime
+    alias_method :merge_data_overwrite_datetime!, :merge_data!
+    alias_method :merge_data!, :merge_data_preserve_date!
   end
 
   module DateFilters

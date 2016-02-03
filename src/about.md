@@ -55,14 +55,14 @@ interested in hearing about job opportunities.
 ### Colophon ###
 
 This site is powered by [Jekyll][] with a few [custom plugins][] for cleaner urls and other small
-tweaks.  I host my sites at [Linode][] and all of my domains are registered with [Google Domains][]
-(which I [highly recommend][]).  Short URLs for my content are resolved using a small server I wrote
-called [gum][].  Most images are proxied through my [imageproxy][] server to handle simple things
-like dynamic resizing.
+tweaks.  I host my sites on [Google Cloud Platform][] and all of my domains are registered with
+[Google Domains][] (which I [highly recommend][]).  Short URLs for my content are resolved using a
+small server I wrote called [gum][].  Most images are proxied through my [imageproxy][] server to
+handle simple things like dynamic resizing.
 
 [Jekyll]: http://jekyllrb.com/
 [custom plugins]: https://github.com/willnorris/willnorris.com/tree/master/src/_plugins
-[Linode]: https://www.linode.com/
+[Google Cloud Platform]: https://www.google.com/cloud
 [Google Domains]: https://www.google.com/domains
 [highly recommend]: /2014/06/google-domains
 [gum]: /go/gum

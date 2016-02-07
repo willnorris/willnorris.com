@@ -7,15 +7,15 @@ syndication:
  - https://www.facebook.com/willnorris/posts/10152512521341841
  - https://plus.google.com/+willnorris/posts/RFidPNrwwHq
  - https://twitter.com/willnorris/status/566382236203634688
+image:
+  url: DSC07158.jpg
+  alt: Gabriel with lamb from Ireland
+  position: 50% 50%
 ---
 
 My [post last week][] was supposed to just be a teaser, immediately followed by a post containing
 more details about Gabriel's birth.  Then things got busy and now a week has slipped by.  So, even
 thought it's a little later than I intended, here's an update.
-
-<figure class="gallery">
-  <a href="DSC07158.jpg"><img src="DSC07158.jpg" alt="Gabriel with lamb from Ireland"></a>
-</figure>
 
 I guess the first thing is to formally announce that [Elisabeth][] and I now have a son, [Gabriel
 James Norris][].  Many people didn't know we were pregnant, as we only shared that with family and a
@@ -61,6 +61,7 @@ suitable for printing, and promise that we will get those to you.)*
 </figure>
 
 <figure class="gallery packed">
+  <a href="DSC07158.jpg"><img src="DSC07158.jpg" alt="Gabriel with lamb from Ireland" width="300"></a>
   <a href="DSC07109.jpg"><img src="DSC07109.jpg" alt="Gabriel sucking on Elisabeth's finger while Kitty inspects" width="300"></a>
   <a href="DSC07120.jpg"><img src="DSC07120.jpg" alt="Gabriel making a funny face" width="300"></a>
   <a href="DSC07126.jpg"><img src="DSC07126.jpg" alt="Gabriel looking at Will making a surprised face" width="300"></a>

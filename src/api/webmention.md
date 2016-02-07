@@ -22,7 +22,6 @@ If your publishing software doesn't send webmentions automatically, you can use 
   <p><input type="submit"><span class="response"></span></p>
 </form>
 
-<script src="{{ "/js/jquery-1.11.1.js" | prepend: site.baseurl }}"></script>
 <script>
   $(function(){
     $('form#webmention').submit(function(event) {

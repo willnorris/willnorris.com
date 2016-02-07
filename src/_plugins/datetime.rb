@@ -26,8 +26,8 @@ end
 module Jekyll
   class Document
     # monkey-patch merge_data in order to preserve the originally specified date value
-    def merge_data_preserve_date!(other)
-      data = merge_data_overwrite_datetime!(other)
+    def merge_data_preserve_date!(other, source: "YAML front matter")
+      data = merge_data_overwrite_datetime!(other, source: source)
       data["original_date"] = other["date"] if !other["date"].nil?
       data
     end

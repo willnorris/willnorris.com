@@ -10,11 +10,24 @@
   <main>
     {% imageproxy %}{{ content }}{% endimageproxy %}
   </main>
+  <script src="/js/jquery-1.11.1.js"></script>
 {% include footer.html %}
   <script src="/js/highlight-20150221.js"></script>
   <script>hljs.configure({classPrefix:''}); hljs.initHighlightingOnLoad();</script>
   <script src="/js/fragmention-20140731.js" async></script>
   <script src="/js/headroom-0.7.0.js"></script>
   <script>var h = new Headroom(document.querySelector('.site-header'), {offset:200, tolerance:10}); h.init();</script>
+  <script>
+    var lastScrollTop = $(window).scrollTop();
+    $(window).scroll(function(){
+       var scrollAmt = $(this).scrollTop();
+       var deltaS = scrollAmt - lastScrollTop;
+       $('.entry-header[data-background] .wrap').css({
+          marginBottom: "-=" + deltaS/10,
+          opacity: "-=" + deltaS/800
+        });
+      lastScrollTop = scrollAmt;
+     });
+  </script>
 </body>
 </html>

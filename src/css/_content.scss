@@ -58,6 +58,27 @@ figure {
   margin-right: auto;
 }
 
+// set negative margins to fill viewport width
+@mixin full-width-negative-margin() {
+  margin-left: calc((100vw - 100% - 15px)/-2);
+  margin-right: calc((100vw - 100% - 15px)/-2);
+}
+
+.full {
+  @include full-width-negative-margin;
+  img {
+    width: 100vw;
+  }
+}
+
+.outset {
+  @include full-width-negative-margin;
+}
+
+.alignleft, .alignright {
+  transition: all 200ms ease-in-out;
+}
+
 @media only screen and (min-width: 450px) {
   // only float if the screen is wide enough to display it properly
   .alignleft {
@@ -71,7 +92,7 @@ figure {
   }
 }
 
-@media only screen and (min-width: 450px) and (max-width: 600px) {
+@media only screen and (min-width: 450px) and (max-width: 960px) {
   // the screen is wide enough to float, but make sure we don't squish the text
   // to only one or two words per line
   .alignleft, .alignright {
@@ -93,6 +114,24 @@ figure {
   .alignright {
     margin-left: 2em;
     margin-right: 1em;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  $outset: -75px;
+  .outset {
+    max-width: 100vw;
+    margin-left: $outset * 2;
+    margin-right: $outset * 2;
+
+    &.alignleft {
+      margin-right: 2em;
+      margin-left: $outset;
+    }
+    &.alignright {
+      margin-left: 2em;
+      margin-right: $outset;
+    }
   }
 }
 

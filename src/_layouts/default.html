@@ -16,7 +16,11 @@
   <script>hljs.configure({classPrefix:''}); hljs.initHighlightingOnLoad();</script>
   <script src="/js/fragmention-20140731.js" async></script>
   <script src="/js/headroom-0.7.0.js"></script>
-  <script>var h = new Headroom(document.querySelector('.site-header'), {offset:200, tolerance:10}); h.init();</script>
+  <script>
+    var siteHeader = document.querySelector('.site-header');
+    siteHeader.addEventListener('click', function() { window.scrollTo(0,0); }, false);
+    var h = new Headroom(siteHeader, {offset:200, tolerance:10}); h.init();
+  </script>
   <script>
     var lastScrollTop = $(window).scrollTop();
     $(window).scroll(function(){

@@ -10,9 +10,11 @@ tags:
 - jetpack
 - photon
 - image proxy
+image:
+  url: jetpack-kid.jpg
+  position: 15% top
+  alt: Young boy wearing an aviator outfit and a homemade jetpack
 ---
-
-<img src="jetpack-kid.jpg" alt="Young boy wearing an aviator outfit and a homemade jetpack">
 
 Like many people, I've long had a bit of a love/hate relationship with [Jetpack][], the WordPress plugin from Automattic
 that adds a slew of features like pretty photo galleries, WordPress.com stats, automatic sharing to Google+ and Twitter,

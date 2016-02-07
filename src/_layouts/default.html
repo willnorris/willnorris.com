@@ -18,7 +18,12 @@
   <script src="/js/headroom-0.7.0.js"></script>
   <script>
     var siteHeader = document.querySelector('.site-header');
-    siteHeader.addEventListener('click', function() { window.scrollTo(0,0); }, false);
+    $(siteHeader).click(function(e) {
+      if (e.target == siteHeader) {
+        $('html,body').animate({scrollTop: 0});
+        return false;
+      }
+    });
     var h = new Headroom(siteHeader, {offset:200, tolerance:10}); h.init();
   </script>
   <script>

@@ -6,11 +6,11 @@ categories:
 - technology
 syndication:
 - https://plus.google.com/+willnorris/posts/8A9uDsy6Gdz
+image:
+  url: home-doormat.jpg
+  alt: Doormat with a tilde and forward slash
+  position: 50% 70%
 ---
-<aside class="alignright"><figure>
-  <img src="home-doormat.jpg" alt="Home Doormat, by Conor" width="250" />
-  <figcaption><a href="https://secure.flickr.com/photos/ronocdh/4456877019/">Home Doormat, by Conor</a></figcaption>
-</figure></aside>
 
 Last week, in [a post talking about the IndieWeb][jailbreaking], I shared my concerns with [Mike Elgan][]'s "Blogs of
 August", in which he encourages individuals to blog exclusively on Google+ for the month of August.  I'm happy that the
@@ -58,13 +58,14 @@ ever change.
 
 ### A place to call home ###
 
-*This is my website. There are many like it, but this one is mine.*  
+*This is my website. There are many like it, but this one is mine.*
 
 My website is more than just a blog, and it has changed over the years.  I've used my site as a personal portfolio, as a
 playground to experiment with different technologies, and as a place to host non-blog content like photos and slide
 decks.  It's whatever I want it to be at the time, but it's always mine.  As Brett puts it, "this is where you'll be
 able to find me over time and space".
 
+*Header image: [Home Doormat, by Conor](https://secure.flickr.com/photos/ronocdh/4456877019/)*
 
 [jailbreaking]: /2013/08/jailbreaking-the-internet
 [Mike Elgan]: http://elgan.com/

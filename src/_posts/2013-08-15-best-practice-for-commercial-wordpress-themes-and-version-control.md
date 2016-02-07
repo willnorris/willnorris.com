@@ -9,7 +9,7 @@ tags:
 - genesis
 - gpl
 ---
-<aside class="alignright"><figure>
+<aside class="alignright outset"><figure>
   <a href="http://my.studiopress.com/themes/genesis/"><img src="genesis.png" alt="Genesis" width="200" /></a>
 </figure></aside>
 

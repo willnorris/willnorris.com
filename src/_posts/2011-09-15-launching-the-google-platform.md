@@ -8,7 +8,7 @@ syndication:
 - https://plus.google.com/+willnorris/posts/DTzTGDhbjvj
 ---
 
-<aside class="alignright"><figure>
+<aside class="alignright outset"><figure>
   <img src="plus-platform.jpg" alt="Google+ Platform">
 </figure></aside>
 

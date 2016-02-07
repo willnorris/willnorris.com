@@ -14,6 +14,8 @@ well worth checking out.
 
 And here he is with his 8-string baritone ukulele banjo.
 
-<img src="ukelele-banjo.jpg" width="1000">
+<figure class="outset">
+  <img src="ukelele-banjo.jpg">
+</figure>
 
 [Chad Wilkins]: http://chadwilkinsmusic.com/

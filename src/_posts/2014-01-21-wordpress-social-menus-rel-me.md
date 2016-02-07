@@ -29,7 +29,7 @@ supported in WordPress themes.
 
 ## rel="me" ##
 
-<aside class="alignright"><figure>
+<aside class="alignright outset"><figure>
   <img src="rel-me-shirt.jpg" alt="T-shirt with slogan: I love me some rel=&quot;me&quot;" width="200" /> 
   <figcaption><a href="http://www.zazzle.com/i_love_me_some_rel_me_shirt-235414618479188408">I love me some rel="me" shirt, by Zazzle</a></figcaption>
 </figure></aside>

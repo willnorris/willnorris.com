@@ -15,8 +15,8 @@ Google's Open Source office, with the task of figuring out how to manage Googler
 GitHub.  I had already been working on this for close to year in my 20% time, but it was becoming clear that this was
 going to require full-time focus.
 
-<aside class="alignright"><figure>
-  <img src="codercat.jpg" alt="Coder Octocat holding a cup of coffee and laptop" width="300" style="max-width: 150px;" />
+<aside class="alignright outset"><figure>
+  <img src="codercat.jpg" alt="Coder Octocat holding a cup of coffee and laptop" width="400" style="max-width: 200px;" />
 </figure></aside>
 
 One thing I realized very early on was that the standard tools that GitHub provides for managing organizations and
@@ -65,8 +65,8 @@ varying responses being handled properly?
 
 ## Using Go's httptest package ##
 
-<aside class="alignright"><figure>
-  <img src="gopher.png" alt="The Go Gopher" height="150" />
+<aside class="alignleft outset"><figure>
+  <img src="gopher.png" alt="The Go Gopher" height="200" />
 </figure></aside>
 
 Within Go, there are a couple of ways you can perform the above tests.  One approach is to create a custom

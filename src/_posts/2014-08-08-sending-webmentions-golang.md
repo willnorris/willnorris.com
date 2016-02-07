@@ -9,7 +9,7 @@ syndication:
 Earlier this week, I wrote about [how I receive webmentions][] on my site by proxying them to an external service.
 Today, I'd like to share how I send webmentions using a simple library and command line tool I wrote.
 
-<figure class="alignright">
+<figure class="alignright outset">
   <img src="webmention.svg" width="200">
 </figure>
 

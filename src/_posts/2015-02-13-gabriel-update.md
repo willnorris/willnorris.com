@@ -39,7 +39,7 @@ He's still not gaining as much weight as we would like to see, but we're confide
 But hand feeding also means that we can share the job of feeding, which has been a nice break for
 Elisabeth, and has given me more bonding time with Gabe, which is great.
 
-<figure class="gallery">
+<figure class="gallery outset">
   <a href="WJN_1593.jpg"><img src="WJN_1593.jpg" alt="Feeding Gabriel with a syringe"></a>
   <figcaption>Feeding Gabriel with a syringe</figcaption>
 </figure>

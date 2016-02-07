@@ -17,7 +17,7 @@ advocating the use of a personal website as your primary identity online.
 Of course I loved seeing this, as it is completely inline with the first principles of [IndieWebCamp][] and countless
 other efforts that encourage individuals to take more control of their online identity.
 
-<figure class="alignright">
+<figure class="alignright outset">
   <a href="wordcamp-badge.jpg"><img src="wordcamp-badge.jpg" alt="WordCamp badge" width="250" /></a>
 </figure>
 

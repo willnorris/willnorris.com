@@ -1,0 +1,17 @@
+.headroom {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform 200ms ease-in-out;
+}
+
+.headroom.headroom--pinned {
+  transform: translateY(0%);
+  transition-duration: 300ms;
+}
+
+.headroom.headroom--unpinned {
+  transform: translateY(-100%);
+}

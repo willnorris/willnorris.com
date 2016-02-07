@@ -156,6 +156,27 @@ main {
   }
 }
 
+// display large header background image
+.entry-header[data-background] {
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  margin: -2em 0 2em 0;
+  @media only screen and (min-width: 600px) {
+    margin-top: -4em;
+  }
+  > .wrap {
+    align-self: flex-end;
+    padding-bottom: 2em;
+  }
+  h1 {
+    color: $white;
+  }
+  .entry-meta, .entry-meta a {
+    color: $gainsboro;
+  }
+}
+
 .entry-meta {
   color: $nobel;
   font-size: 0.875rem;

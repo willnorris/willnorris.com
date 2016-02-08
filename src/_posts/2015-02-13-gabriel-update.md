@@ -10,7 +10,7 @@ syndication:
 image:
   url: DSC07158.jpg
   alt: Gabriel with lamb from Ireland
-  position: 50% 50%
+  position: 60% 50%
 ---
 
 My [post last week][] was supposed to just be a teaser, immediately followed by a post containing

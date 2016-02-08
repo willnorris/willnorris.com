@@ -10,7 +10,7 @@ tags:
 - gpl
 ---
 <aside class="alignright outset"><figure>
-  <a href="http://my.studiopress.com/themes/genesis/"><img src="genesis.png" alt="Genesis" width="200" /></a>
+  <img src="genesis.png" alt="Genesis" width="200" />
 </figure></aside>
 
 I've long kept my WordPress sites in version control (and if you're not doing the same, [let Mark Jaquith tell you why

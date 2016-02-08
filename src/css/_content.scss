@@ -254,13 +254,21 @@ figcaption {
   position:absolute;
   top:0;
 
-  > a {
+  a {
     display: block;
     border: 0;
     float: left;
     line-height: 0;
     max-width: 230px;
     margin-bottom: 10px;
+  }
+  @media only screen and (max-width: 450px) {
+    a {
+      max-width: initial;
+    }
+    img {
+      width: 100%;
+    }
   }
 }
 

@@ -1,10 +1,8 @@
 # Site settings
 name: willnorris.com
 description: there's more to life than this
-url: https://willnorris.com
-imageproxy_baseurl: /api/imageproxy
-short_baseurl: https://wjn.me
-analytics_id: UA-620101-2
+url: http://willnorris.dev
+short_baseurl: http://willnorris.dev
 twitter: "@willnorris"
 include:
   - .well-known

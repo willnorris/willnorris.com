@@ -26,17 +26,31 @@
     });
     var h = new Headroom(siteHeader, {offset:200, tolerance:10}); h.init();
   </script>
+  <script src="/js/debounce-1.1.js"></script>
+  <script src="/js/fluidbox-2.0.2.js"></script>
+
   <script>
-    var lastScrollTop = $(window).scrollTop();
-    $(window).scroll(function(){
-       var scrollAmt = $(this).scrollTop();
-       var deltaS = scrollAmt - lastScrollTop;
-       $('.entry-header[data-background] .wrap').css({
+    $(function(){
+      var $anchors = $('.entry-content a');
+      $anchors.fluidbox();
+
+      // implement parallax effect for article title.
+      var lastScrollTop = $(window).scrollTop();
+      $(window).scroll(function(){
+        var scrollAmt = $(this).scrollTop();
+        var deltaS = scrollAmt - lastScrollTop;
+        $('.entry-header[data-background] .wrap').css({
           marginBottom: "-=" + deltaS/10,
           opacity: "-=" + deltaS/800
         });
-      lastScrollTop = scrollAmt;
-     });
+        lastScrollTop = scrollAmt;
+
+        // close fluidbox if scrolled more than 10px
+        if (Math.abs(deltaS) > 10) {
+          $anchors.trigger('close.fluidbox');
+        }
+      });
+    });
   </script>
 </body>
 </html>

@@ -1,6 +1,5 @@
 <script src="/js/imagesloaded-3.1.8.js"></script>
 <script src="/js/masonry-3.1.5.js"></script>
-<script src="/js/fancybox-2.1.5.js"></script>
 <script>
   $(function(){
     var $gallery = $('.gallery');
@@ -14,34 +13,5 @@
     $packed.imagesLoaded( function() {
       $packed.masonry();
     });
-
-    $gallery.find('> a')
-      .attr('rel', 'gallery')
-      .fancybox({
-        keys: {
-          next : {
-            13 : 'left', // enter
-            34 : 'up',   // page down
-            39 : 'left', // right arrow
-            40 : 'up',   // down arrow
-            74 : 'up'    // j
-          },
-          prev : {
-            8  : 'right',  // backspace
-            33 : 'down',   // page up
-            37 : 'right',  // left arrow
-            38 : 'down',    // up arrow
-            75 : 'down'    // k
-          },
-          close  : [27], // escape key
-          play   : [32], // space - start/stop slideshow
-          toggle : [70]  // letter "f" - toggle fullscreen
-        },
-        openEffect: 'fade',
-        closeEffect: 'fade',
-        nextEffect: 'fade',
-        prevEffect: 'fade',
-        padding: 10,
-      });
   });
 </script>

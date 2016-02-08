@@ -29,7 +29,9 @@ especially important right now because it's pretty dumb in which links it select
 webmentions to all of them.  After that, it does endpoint discovery on each link and if the URL supports webmentions, it
 sends the mention.  Nothing too fancy.  You can see a simple demo here:
 
-<script type="text/javascript" src="https://asciinema.org/a/11344.js" id="asciicast-11344" async=""></script>
+<figure class="aligncenter">
+  <script type="text/javascript" src="https://asciinema.org/a/11344.js" id="asciicast-11344" async=""></script>
+</figure>
 
 There's still a lot [more I want to do][] with this, such as improving the UI by making this a "full screen" terminal
 app using termbox (an ncurses alternative), doing a better job of selecting candidate links, speeding things up by

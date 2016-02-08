@@ -24,7 +24,7 @@
         return false;
       }
     });
-    var h = new Headroom(siteHeader, {offset:200, tolerance:10}); h.init();
+    var h = new Headroom(siteHeader, {offset:200, tolerance:{up:10, down:0}}); h.init();
   </script>
   <script src="/js/debounce-1.1.js"></script>
   <script src="/js/fluidbox-2.0.2.js"></script>
@@ -32,7 +32,9 @@
   <script>
     $(function(){
       var $anchors = $('.entry-content a');
-      $anchors.fluidbox();
+      $anchors.fluidbox({
+        viewportFill: 1,
+      });
 
       // implement parallax effect for article title.
       var lastScrollTop = $(window).scrollTop();

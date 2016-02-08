@@ -259,15 +259,24 @@ figcaption {
     border: 0;
     float: left;
     line-height: 0;
-    max-width: 230px;
     margin-bottom: 10px;
   }
-  @media only screen and (max-width: 450px) {
+  img {
+    width: 100%;
+  }
+  @media only screen and (min-width: 450px) {
     a {
-      max-width: initial;
+      max-width: calc((100% - 10px) / 2);
     }
-    img {
-      width: 100%;
+  }
+  @media only screen and (min-width: 700px) {
+    a {
+      max-width: calc((100% - (2 * 10px)) / 3);
+    }
+  }
+  @media only screen and (min-width: 850px) {
+    a {
+      max-width: calc((100% - (3 * 10px)) / 4);
     }
   }
 }

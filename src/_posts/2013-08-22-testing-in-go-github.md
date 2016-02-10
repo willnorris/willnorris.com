@@ -79,7 +79,7 @@ and additionally allowed for testing custom transports like our
 [`UnauthenticatedRateLimitedTransport`][rate-limited-transport].  And because the library already supported overriding
 the base URL used for API calls (originally added to support GitHub Enterprise), I could easily point a client at my
 test server and send real HTTP requests.  As far as the client is concerned, there is absolutely no difference between
-running during tests and running in production; the requests are simply being sent do a different URL.  The [setup
+running during tests and running in production; the requests are simply being sent to a different URL.  The [setup
 code][] for my tests looks like this:
 
 ``` go
@@ -177,4 +177,4 @@ written for HTTP clients.  So if you have any tips to share for testing HTTP cli
 [users_test]: https://github.com/google/go-github/blob/182cb7f67ded579fb7038c0194c2784e2fff9ccf/github/users_test.go#L36-L54
 [URL parameters]: https://github.com/google/go-github/blob/3bb8a96d4846d1bef2f45e0b27eef4bcbbca2df0/github/github_test.go#L58-L64
 [custom HTTP headers]: https://github.com/google/go-github/blob/3bb8a96d4846d1bef2f45e0b27eef4bcbbca2df0/github/github_test.go#L66-L70
-[table driven tests]: https://code.google.com/p/go-wiki/wiki/TableDrivenTests
+[table driven tests]: https://golang.org/wiki/TableDrivenTests

@@ -221,6 +221,12 @@ main {
   }
 }
 
+.hide {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
 .entry-meta {
   color: $nobel;
   font-size: 0.875rem;

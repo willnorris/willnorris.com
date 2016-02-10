@@ -37,6 +37,9 @@ $fluidbox__animation-bg-color: $fluidbox__overlay-bg-color !default;
   position: relative;
   transition: all $fluidbox__transition-duration ease-in-out;
 }
+.fluidbox--closed {
+  cursor: zoom-in;
+}
 .fluidbox__thumb {
   transition: opacity 0s ease-in-out 0s;
   /* To prevent flickering, we delay the showing of the image */

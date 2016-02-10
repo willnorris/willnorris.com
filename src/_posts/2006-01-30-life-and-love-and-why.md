@@ -37,7 +37,7 @@ wanted to create that I'd be a great fit for.  It's now about three weeks later,
 
 ### ...and Love... ###
 
-<aside class="alignleft"><figure>
+<aside class="alignleft outset"><figure>
   <a href="http://www.flickr.com/photos/wnorris/tags/elisabeth/">
     <img src="will-and-elisabeth.jpg" alt="Elisabeth leaning her head on Will's shoulder" width="400">
   </a>

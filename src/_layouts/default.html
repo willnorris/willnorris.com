@@ -31,8 +31,8 @@
 
   <script>
     $(function(){
-      var $anchors = $('.entry-content a');
-      $anchors.fluidbox({
+      var $imageAnchors = $('.entry-content a').filter('[href$=".jpg"],[href$=".jpeg"],[href$=".png"]');
+      $imageAnchors.fluidbox({
         viewportFill: 1,
       });
 
@@ -42,14 +42,14 @@
         var scrollAmt = $(this).scrollTop();
         var deltaS = scrollAmt - lastScrollTop;
         $('.entry-header[data-background] .wrap').css({
-          marginBottom: "-=" + deltaS/10,
+          marginBottom: "-=" + deltaS/8,
           opacity: "-=" + deltaS/800
         });
         lastScrollTop = scrollAmt;
 
         // close fluidbox if scrolled more than 10px
         if (Math.abs(deltaS) > 10) {
-          $anchors.trigger('close.fluidbox');
+          $imageAnchors.trigger('close.fluidbox');
         }
       });
     });

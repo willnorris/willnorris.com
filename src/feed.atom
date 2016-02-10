@@ -21,7 +21,10 @@
     <title>{{ post.title | xml_escape }}</title>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <content type="html" xml:base="{{ url }}"><![CDATA[{{ post.content }}]]></content>
+    <content type="html" xml:base="{{ url }}"><![CDATA[
+      {% if post.image %}<img src="{{ post.image.url }}" alt="{{ post.image.alt }}" />{% endif %}
+      {{ post.content }}
+    ]]></content>
     <link href="{{ url }}" rel="alternate" type="text/html"/>
     <author>
       <name>{{ post.author.name }}</name>

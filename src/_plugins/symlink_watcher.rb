@@ -24,15 +24,14 @@ module Jekyll
 
       require "listen"
       Listen.to(
-        dirs,
+        *dirs,
         :ignore => listen_ignore_paths(options),
-        :force_polling => options["force_polling"],
+        :force_polling => options['force_polling'],
         &(listen_handler(site))
       )
     end
 
-    # TODO: this doesn't work with the latest version of jekyll-watch
-    #alias_method :build_listener_without_symlinks, :build_listener
-    #alias_method :build_listener, :build_listener_with_symlinks
+    alias_method :build_listener_without_symlinks, :build_listener
+    alias_method :build_listener, :build_listener_with_symlinks
   end
 end

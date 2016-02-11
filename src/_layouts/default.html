@@ -25,6 +25,7 @@
       }
     });
     var h = new Headroom(siteHeader, {offset:200, tolerance:{up:10, down:0}}); h.init();
+    if (window.location.hash) { h.unpin(); }
   </script>
   <script src="/js/debounce-1.1.js"></script>
   <script src="/js/fluidbox-2.0.2.js"></script>

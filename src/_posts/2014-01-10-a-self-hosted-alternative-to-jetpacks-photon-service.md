@@ -94,9 +94,9 @@ service myself (versus just deploying my code to App Engine or something), so th
 The final result is just [a few hundred lines of Go code][willnorris/imageproxy], utilizing [gregjones/httpcache][]
 together with [peterbourgon/diskv] for caching remote images on disk, and [disintegration/imaging] for basic image
 manipulation like resizing and rotation.  All options are specified in the URL path, mimicking the format that
-[resize.ly][] uses, and it supports whitelisting of remote hosts, so the instance that I run on s.wjn.me is locked down
-to only serve images from my own sites.  And because it's written in Go, it compiles to a statically linked binary that
-is incredibly simple to deploy and manage; I've included the [upstart init script][] I use on my Ubuntu server.
+[resize.ly][] uses, and it supports whitelisting of remote hosts, so the instance that I run is locked down to only
+serve images from my own sites.  And because it's written in Go, it compiles to a statically linked binary that is
+incredibly simple to deploy and manage; I've included the [upstart init script][] I use on my Ubuntu server.
 
 <figure class="aligncenter">
   <a href="https://github.com/willnorris/imageproxy"><img src="open-source-imageproxy.png"

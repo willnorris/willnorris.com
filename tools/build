@@ -3,4 +3,12 @@
 # run jekyll for production build
 
 cd $(dirname $0)/..
+
+# Set timezone to one that observes daylights savings.  If the server is set to
+# UTC (which GCE instances are), then ruby will not recognize that any time
+# values are ever in DST, regardless of the timezone specified in the value.
+# I don't think it matters what TZ value is set here, as long as it is not UTC,
+# but I go ahead and set it to my personal local timezone.
+export TZ="America/Los_Angeles"
+
 bundle exec jekyll build --config _config.yml,_production.yml $@ .

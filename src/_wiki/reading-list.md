@@ -4,8 +4,12 @@ title: Reading List
 
 ## 2016 ##
 
+ - [The Spirit of the Disciplines](http://www.dwillard.org/books/SpDisciplines.asp)
+   - Start: 2015-03-01
+
  - [The Hitch Hiker's Guide to the Galaxy](http://www.douglasadams.com/creations/0345391802.html)
    - Start: 2015-01-15
+   - End: 2015-02-26
 
  - [The One Year Uncommon Life Daily Challenge](http://www.coachdungy.com/index.php/product/the-one-year-uncommon-life-daily-challenge/)
    - Start: 2016-01-01

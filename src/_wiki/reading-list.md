@@ -7,6 +7,9 @@ title: Reading List
  - [The Meaning of Marriage](http://www.timothykeller.com/books/the-meaning-of-marriage)
    - Start: 2016-04-01
 
+ - [The Go Programming Language](http://www.gopl.io/)
+   - Start: 2016-03-29
+
  - [The Spirit of the Disciplines](http://www.dwillard.org/books/SpDisciplines.asp)
    - Start: 2016-03-01
 

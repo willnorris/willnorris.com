@@ -51,6 +51,9 @@ println(string(b))
 outputs >>> {"name":"","description":"","private":false}
 ```
 
+[Try it in the Go Playground.](https://play.golang.org/p/jT8_RVjWfN)
+{: .small }
+
 When we created the new Repository, each of its fields were set to their [zero value][]: the empty string `""` for
 string types, and `false` for bool types.  There is no notion in Go of a declared but uninitialized variable.
 At the time of declaration, if an initial value is not assigned, then the variable is initialized to its zero value.
@@ -134,6 +137,9 @@ type Repository struct {
 }
 ```
 
+[Try it in the Go Playground.](https://play.golang.org/p/R_bGLOiJP3)
+{: .small }
+
 Now the empty string for `name` and the false value for `private` are omitted, resulting in the desired HTTP request:
 
 ``` http
@@ -166,6 +172,9 @@ Host: api.github.com
 {}
 ```
 
+[Try it in the Go Playground.](https://play.golang.org/p/P57mxpmkPR)
+{: .small }
+
 Because all fields on our `Repository` struct are now set to their zero value, this marshals to an empty JSON object.
 This request would have no effect whatsoever.
 
@@ -196,6 +205,9 @@ d := "new description"
 r := &github.Repository{Description:&d}
 client.Repositories.Edit("google", "go-github", r)
 ```
+
+[Try it in the Go Playground.](https://play.golang.org/p/1oSPiyrcoY)
+{: .small }
 
 To make this easier, go-github provides a handful of convenience functions copied over from the protobuf package for
 creating pointer types:

@@ -5,3 +5,6 @@ public
 tmp
 
 src/_drafts
+
+etc/fullchain.pem
+etc/privkey.pem

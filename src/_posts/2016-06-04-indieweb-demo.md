@@ -1,0 +1,9 @@
+---
+title: IndieWeb Summit 2016 Demo
+date: "2016-06-04T11:44:49-07:00"
+shortlink: /t/4hb1
+syndication:
+ - https://brid.gy/publish/twitter
+---
+
+Demoing my simple publishing workflow at IndieWeb Summit 2016.

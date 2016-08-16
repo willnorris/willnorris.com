@@ -4,20 +4,28 @@ title: Reading List
 
 ## 2016 ##
 
+ - [Cryptonomicon](http://www.cryptonomicon.com/)
+   - Start: 2016-08-13
+
+ - [Pwning Tomorrow](https://supporters.eff.org/donate/pwning-tomorrow)
+   - Start: 2016-07-17
+   - End: 2016-08-11
+
+ - The Pursuit of God
+   - Start: 2016-07-11
+
  - [The Meaning of Marriage](http://www.timothykeller.com/books/the-meaning-of-marriage)
    - Start: 2016-04-01
+   - End: 2016-06-17
 
  - [The Go Programming Language](http://www.gopl.io/)
    - Start: 2016-03-29
-
- - [The Spirit of the Disciplines](http://www.dwillard.org/books/SpDisciplines.asp)
-   - Start: 2016-03-01
 
  - [The Hitch Hiker's Guide to the Galaxy](http://www.douglasadams.com/creations/0345391802.html)
    - Start: 2016-01-15
    - End: 2016-02-26
 
- - [The One Year Uncommon Life Daily Challenge](http://www.coachdungy.com/index.php/product/the-one-year-uncommon-life-daily-challenge/)
+ - [The One Year Uncommon Life Daily Challenge](http://www.coachdungy.com/product/the-one-year-uncommon-life-daily-challenge/)
    - Start: 2016-01-01
 
 ## 2015 ##

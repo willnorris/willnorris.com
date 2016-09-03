@@ -29,19 +29,19 @@ Android.
 ### Contact ###
 
 I can be contacted by email at will @ this domain or by phone at <span class="p-tel tel">+1 (901)
-484-9455</span>.  Links to most of my online profiles can be found on my [Google+ page][].  I'm not
-interested in hearing about job opportunities.
+484-9455</span>.  I'm "willnorris" on most sites.  I'm not interested in hearing about job
+opportunities.
 
 </div>
 
 [Elisabeth]: https://notsoserendipitous.com/
 [Gabriel]: https://gabenorris.com/
-[indie web]: http://indiewebcamp.com/
+[indie web]: https://indiewebcamp.com/
 [since 2010]: /2010/01/going-to-google
 [Open Source Programs Office]: https://developers.google.com/open-source/
 [Google+ API]: https://developers.google.com/+/api/
 [OpenID]: http://openid.net/
-[OAuth]: http://oauth.net/
+[OAuth]: https://oauth.net/
 [XRD]: http://docs.oasis-open.org/xri/xrd/v1.0/xrd-1.0.html
 [Activity Streams]: http://activitystrea.ms/
 [Shibboleth]: http://shibboleth.net/
@@ -49,16 +49,15 @@ interested in hearing about job opportunities.
 [written in go]: /go/
 [WordPress]: https://wordpress.org/
 [plugins]: https://profiles.wordpress.org/willnorris
-[Google+ page]: https://plus.google.com/+willnorris/about
 
 
 ### Colophon ###
 
-This site is powered by [Jekyll][] with a few [custom plugins][] for cleaner urls and other small
-tweaks.  I host my sites on [Google Cloud Platform][] and all of my domains are registered with
-[Google Domains][] (which I [highly recommend][]).  Short URLs for my content are resolved using a
-small server I wrote called [gum][].  Most images are proxied through my [imageproxy][] server to
-handle simple things like dynamic resizing.
+This site is powered by [Jekyll][] with a few [custom plugins][].  I host my sites on [Google Cloud
+Platform][] and all of my domains are registered with [Google Domains][] (which I [highly
+recommend][]).  Short URLs for my content are resolved using a small server I wrote called [gum][].
+Most images are proxied through my [imageproxy][] server to handle simple things like dynamic
+resizing.
 
 [Jekyll]: http://jekyllrb.com/
 [custom plugins]: https://github.com/willnorris/willnorris.com/tree/master/src/_plugins

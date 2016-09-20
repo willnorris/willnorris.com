@@ -7,7 +7,7 @@ Or perhaps you were trying to get in touch with a friend or relative or client o
 Norris.  Or maybe Bill Norris.  Or perhaps Wayne or Ward or Walter Norris.  But alas, you've reached
 the wrong Will Norris.
 
-I'm in my early thirties.  I'm a software engineer at Google.  I'm married to [my lovely
+I'm in my mid thirties.  I'm a software engineer at Google.  I'm married to [my lovely
 wife](http://notsoserendipitous.com/).  We live near San Francisco, California.
 
 I am *not* a [bartender in Austin, Texas](https://twitter.com/wnorris3).  I am *not* a lawyer in Los

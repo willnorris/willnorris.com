@@ -9,8 +9,8 @@ own your comment by posting it on your own site first and then sending it to me 
 I'm not actually displaying comments currently, but I do receive webmentions so that I can display them in the future.
 If your publishing software doesn't send webmentions automatically, you can use the form below to send one my way.
 
-[Indie Web comments]: http://indiewebcamp.com/comment
-[webmention]: http://indiewebcamp.com/webmention
+[Indie Web comments]: https://indieweb.org/comment
+[webmention]: https://indieweb.org/webmention
 
 <form id="webmention" method="POST">
   <p><label>URL of your post (the webmention <code>source</code>):

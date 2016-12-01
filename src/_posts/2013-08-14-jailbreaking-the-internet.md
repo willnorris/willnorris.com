@@ -54,7 +54,7 @@ demonstrates that the indie web has a long way to go, both in terms of education
 the closing of his Wired piece, "the movement is unfinished."
 
 [Klint Finley]: http://klintfinley.com/
-[IndieWebCamp]: http://indiewebcamp.com/
+[IndieWebCamp]: https://indieweb.org/
 [wired article]: http://www.wired.com/wiredenterprise/2013/08/indie-web/
 [Mike Elgan]: http://elgan.com/
 [blogs-of-august]: https://plus.google.com/+MikeElgan/posts/frQofcy95zk

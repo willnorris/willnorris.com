@@ -52,7 +52,7 @@ IndieWeb.
 
 Read more at <https://www.google.com/domains>.
 
-[personal domain]: http://indiewebcamp.com/personal-domain
+[personal domain]: https://indieweb.org/personal-domain
 [place to call home]: /2013/08/a-place-to-call-home
 [audit log]: https://www.google.com/settings/security
 [honan]: http://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/

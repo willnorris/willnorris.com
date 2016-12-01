@@ -31,11 +31,11 @@ wanting to use, which means the proxy just works.  Had I wanted to map a differe
 complicated because nginx has some limits on how proxies can be configured inside `if` blocks ([this stackoverflow
 post][] has some details).
 
-[indiewebify]: http://indiewebify.me/
+[indiewebify]: https://indiewebify.me/
 [new static website]: /2014/07/one-step-forward-two-steps-back
 [Pelle Wessman]: http://voxpelli.com/
 [webmention service]: https://webmention.herokuapp.com/
-[visible endpoint that teaches]: http://indiewebcamp.com/irc/2014-05-04/line/1399233029
+[visible endpoint that teaches]: https://indieweb.org/irc/2014-05-04/line/1399233029
 [this stackoverflow post]: https://stackoverflow.com/questions/10627596/nginx-proxy-or-rewrite-depending-on-user-agent
 
 **Still to do:**  <s>Currently, when you submit the form on my webmention page it just returns a plaintext success

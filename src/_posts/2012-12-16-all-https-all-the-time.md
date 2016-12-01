@@ -55,7 +55,7 @@ private by default.
 
 [excellent list]: https://www.tbray.org/ongoing/When/201x/2012/12/02/HTTPS#p-2
 [The Eternal Value of Privacy]: https://www.schneier.com/essay-114.html
-[Indie Web Camp]: http://indiewebcamp.com/
+[Indie Web Camp]: https://indieweb.org/
 
 ## Flipping the Switch ##
 

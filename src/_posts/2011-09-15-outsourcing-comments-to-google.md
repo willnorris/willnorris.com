@@ -32,7 +32,7 @@ so I'm sure I'll enhance it over time.  Please [file any bugs][] or feature requ
 [so]: https://twitter.com/ChrisSaad/status/101351327149473792
 [quietly]: https://twitter.com/willnorris/status/101351800992575488
 [Shane Becker]: http://iamshane.com/
-[IndieWebCamp]: http://indiewebcamp.com/
+[IndieWebCamp]: https://indieweb.org/
 [we announced]: http://googleplusplatform.blogspot.com/
 [Google+]: http://www.google.com/+
 [+1 button]: http://developers.google.com/+/plugins/+1button/

@@ -36,7 +36,7 @@ opportunities.
 
 [Elisabeth]: https://notsoserendipitous.com/
 [Gabriel]: https://gabenorris.com/
-[indie web]: https://indiewebcamp.com/
+[indie web]: https://indieweb.org/
 [since 2010]: /2010/01/going-to-google
 [Open Source Programs Office]: https://developers.google.com/open-source/
 [Google+ API]: https://developers.google.com/+/api/

@@ -53,8 +53,8 @@ or something similar) with a few small Go servers hiding behind certain URLs pow
 things that I can't do with static files.  One idea I've been considering for a while is looking at what content could
 be partially backed by [Camlistore][], but I haven't worked all that out yet.  One thing at a time.
 
-[IndieWeb]: http://indiewebcamp.com/
-[webmentions]: http://indiewebcamp.com/webmention
-[POSSE]: http://indiewebcamp.com/posse
+[IndieWeb]: https://indieweb.org/
+[webmentions]: https://indieweb.org/webmention
+[POSSE]: https://indieweb.org/posse
 [Hum]: http://wordpress.org/plugins/hum/
 [Camlistore]: http://camlistore.org/

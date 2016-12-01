@@ -43,7 +43,7 @@ sessions.
 
 [linked to]: http://ma.tt/2012/12/real-lawyers-have-blogs/
 [home base]: http://kevin.lexblog.com/2012/12/10/a-lawyers-home-base-on-the-web-is-their-blog/
-[IndieWebCamp]: http://indiewebcamp.com/
+[IndieWebCamp]: https://indieweb.org/
 [2013 Attendee page]: http://2013.sf.wordcamp.org/attendees/
 [tried to ask about it]: https://twitter.com/willnorris/status/355547956662906881
 [I fixed my badge]: wordcamp-badge-fixed.jpg

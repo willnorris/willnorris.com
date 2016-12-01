@@ -11,6 +11,6 @@ tags:
 My favorite quote that I came up with, that will sadly not make it into my slides for [WordCamp
 SF](http://2013.sf.wordcamp.org/) next week:
 
-> Coffee is for closers.  IndieWebCamp is for [creators](http://indiewebcamp.com/creator).
+> Coffee is for closers.  IndieWebCamp is for [creators](https://indieweb.org/creator).
 
 My wife wasn't sure people would get the reference.

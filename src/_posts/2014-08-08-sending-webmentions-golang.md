@@ -43,5 +43,5 @@ You can find links to source, docs, and install instructions at [https://willnor
 as well as some of my other go projects (mostly indieweb related) at [https://willnorris.com/go/](/go/).
 
 [how I receive webmentions]: /2014/08/proxying-webmentions-with-nginx
-[webmention libraries]: http://indiewebcamp.com/webmention#Libraries
+[webmention libraries]: https://indieweb.org/webmention#Libraries
 [more I want to do]: https://github.com/willnorris/go-webmention/issues

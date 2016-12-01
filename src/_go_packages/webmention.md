@@ -6,8 +6,8 @@ go:
   src: https://github.com/willnorris/webmention
 excerpt: Client library and simple command line tool for sending webmentions
 ---
-webmention is a go library and command line tool for assissting in sending
-[webmentions](http://indiewebcamp.com/Webmention).
+webmention is a go library and command line tool for assisting in sending
+[webmentions](https://indieweb.org/Webmention).
 
 Install the library by running:
 

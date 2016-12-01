@@ -13,8 +13,8 @@ styling to what Tantek is using.  I spent my birthday writing a go webmention li
 first attempt at POSSEing using [brid.gy][].  Assuming this works, my next step will be documenting my workflow and
 publishing some code.
 
-[Indie Web]: https://indiewebcamp.com/
+[Indie Web]: https://indieweb.org/
 [additions this week]: http://tantek.com/2014/207/t2/deploy-fragmention-indieweb-showdonttell
-[fragmentions]: https://indiewebcamp.com/fragmention
+[fragmentions]: https://indieweb.org/fragmention
 [try it out]: /2014/07/webfinger-with-static-files-nginx##content+negotiation
 [brid.gy]: https://www.brid.gy/

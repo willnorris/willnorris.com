@@ -1,13 +1,10 @@
 ---
-title: OS X Workstation
+title: macOS Workstation
 ---
-
-# Setting up OS X #
-
 
 ## Host Configuration ##
 
-Set the Computer Name in the OS X Sharing Preference Pane.  If necessary, also
+Set the Computer Name in the macOS Sharing Preference Pane.  If necessary, also
 configure a custom hostname by adding the following to `/etc/hostconfig`:
 
 ``` sh

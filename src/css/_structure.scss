@@ -4,9 +4,12 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  margin-top: 4rem;
 }
 main {
   flex: 1;
+  clear: both;
+  margin: 2rem 0;
 }
 
 .wrap {
@@ -16,11 +19,6 @@ main {
   max-width: 960px;
   padding-left: 5%;
   padding-right: 5%;
-}
-
-main {
-  clear: both;
-  margin: 2rem 0;
 }
 
 @media only screen and (min-width: 600px) {

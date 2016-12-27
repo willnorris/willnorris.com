@@ -20,20 +20,16 @@
 
   <script>
     $(function(){
+      // add lightbox for linked images
       var $imageAnchors = $('.entry-content a').filter('[href$=".jpg"],[href$=".jpeg"],[href$=".png"]');
       $imageAnchors.fluidbox({
         viewportFill: 1,
       });
 
-      // implement parallax effect for article title.
       var lastScrollTop = $(window).scrollTop();
       $(window).scroll(function(){
         var scrollAmt = $(this).scrollTop();
         var deltaS = scrollAmt - lastScrollTop;
-        $('.entry-header[data-background] .wrap').css({
-          marginBottom: "-=" + deltaS/8,
-          opacity: "-=" + deltaS/800
-        });
         lastScrollTop = scrollAmt;
 
         // close fluidbox if scrolled more than 10px

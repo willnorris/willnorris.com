@@ -14,12 +14,12 @@
 
   a {
     border: none;
-    color: $nobel;
+    color: $gainsboro;
     display: block;
     font-size: 1.125rem;
 
     &:hover {
-      color: lighten($nobel, 5%)
+      color: lighten($gainsboro, 5%)
     }
   }
 }

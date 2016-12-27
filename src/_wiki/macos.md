@@ -2,14 +2,12 @@
 title: macOS Workstation
 ---
 
+* TOC
+{:toc}
+
 ## Host Configuration ##
 
-Set the Computer Name in the macOS Sharing Preference Pane.  If necessary, also
-configure a custom hostname by adding the following to `/etc/hostconfig`:
-
-``` sh
-HOSTNAME=<hostname>
-```
+Set the Computer Name in the macOS Sharing Preference Pane.
 
 ## SSH key ##
 
@@ -19,34 +17,37 @@ If needed, create a new SSH key
 ssh-keygen -t rsa -b 4096
 ```
 
-## Dotfiles ##
-
-[Install homedir and dotfiles](https://github.com/willnorris/dotfiles#readme)
-
 ## Homebrew ##
 
 ``` sh
 sudo mkdir /opt/homebrew
 sudo chown `whoami` /opt/homebrew
-git clone https://github.com/homebrew/homebrew.git /opt/homebrew
+git clone https://github.com/Homebrew/brew.git /opt/homebrew
 ```
 
-Full installation docs on the [homebrew wiki](https://github.com/homebrew/homebrew/wiki/Installation)
+## Dotfiles ##
 
-Ensure that /opt/homebrew/bin is in the path (for example: [mordecai.env][])
-
-[mordecai.env]: https://github.com/willnorris/dotfiles/blob/233a786841cb9c44e7e91ff21fdf73ad1a16efa7/zsh/.zsh/host/mordecai.env#L1-L4
-
-### Packages ###
-
-[List of previous packages installed](brew-list.txt)
-
-## Nginx ##
+Install [rcm](https://github.com/thoughtbot/rcm#readme):
 
 ``` sh
-brew tap homebrew/nginx
-brew install nginx-full --with-lua-module --with-set-misc-module
+/opt/homebrew/bin/brew install thoughtbot/formulae/rcm
 ```
+
+[Install dotfiles](https://github.com/willnorris/dotfiles#readme)
+
+## Homebrew Packages ##
+
+Install [Homebrew packages](https://github.com/willnorris/dotfiles/blob/master/Brewfile) (this will
+take a while):
+
+``` sh
+brew tap Homebrew/bundle
+
+cd ~/.dotfiles
+brew bundle
+```
+
+## Nginx ##
 
 Update nginx config `/opt/homebrew/etc/nginx/nginx.conf` to contain:
 
@@ -69,82 +70,38 @@ http {
     fastcgi_intercept_errors on;
 
     include /var/www/*/etc/nginx-local.conf;
+
+    # default server config for .dev hosts
+    server {
+        server_name ~^(?<domain>.+)\.dev$;
+        root /var/www/$domain/public;
+        index index.php;
+        location ~ \.php$ {
+            fastcgi_pass php;
+        }
+    }
 }
 ```
 
-Symlink `/var/www` to `$HOME/Sites`.  This really has no advantage in the short term compared to
-having nginx import from `$HOME/Sites` directly, but the hope is to eventually be able to share
-nginx configs between dev and prod.
+Symlink `/var/www` to `$HOME/Sites`:
 
 ``` sh
 sudo ln -s $HOME/Sites /var/www
 ```
 
-In order to run on port 80, the launchd config must be installed in `/Library/LaunchDaemons`:
+In order to run on port 80, start as root:
 
 ``` sh
-sudo cp /opt/homebrew/opt/nginx-full/homebrew.mxcl.nginx-full.plist /Library/LaunchDaemons
-sudo chown root /Library/LaunchDaemons/homebrew.mxcl.nginx-full.plist
-sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.nginx-full.plist
-```
-
-## PHP ##
-
-Copy default PHP configs:
-
-``` sh
-sudo cp /etc/php.ini.default /etc/php.ini
-sudo cp /etc/php-fpm.conf.default /etc/php-fpm.conf
-sudo chmod 644 /etc/php.ini /etc/php-fpm.conf
-```
-
-Setup php-fpm logging:
-
-``` sh
-sudo touch /var/log/php-fpm.log
-sudo chown `whoami` /var/log/php-fpm.log
-
-# edit /etc/php-fpm.conf to contain:
-error_log = /var/log/php-fpm.log
-```
-
-Config PHP to use sockets for connecting to mysql.  Edit `/etc/php.ini` to contain:
-
-``` ini
-pdo_mysql.default_socket=/tmp/mysql.sock
-mysql.default_socket = /tmp/mysql.sock
-```
-
-Add [launchd config for php-fpm](https://github.com/willnorris/dotfiles/blob/master/mordecai/Library/LaunchAgents/org.php.php-fpm.plist):
-
-``` sh
-cp org.php.php-fpm.plist ~/Library/LaunchAgents
-launchctl load -w ~/Library/LaunchAgents/org.php.php-fpm.plist
+sudo /opt/hombrew/bin/brew services start nginx-full
 ```
 
 ## MySQL ##
 
+Secure the installation:
+
 ``` sh
-brew install mysql
-mysql_install_db --verbose --user=$(whoami) --basedir="$(brew --prefix mysql)" --datadir=/opt/homebrew/var/mysql --tmpdir=/tmp
-mysql.server start
 mysql_secure_installation
 ```
-
-Create `/etc/my.cnf` with the following contents:
-
-``` ini
-[mysqld]
-  skip-networking
-```
-
-Restart mysqld:
-
-``` sh
-mysql.server restart
-```
-
-Further reading: <http://stackoverflow.com/questions/4359131/brew-install-mysql-on-mac-os>
 
 ## /etc/hosts ##
 
@@ -152,29 +109,20 @@ Further reading: <http://stackoverflow.com/questions/4359131/brew-install-mysql-
 sudo vi /etc/hosts
 
 # local development
-127.0.0.1  mysql
+127.0.0.1  mysql.dev
 ```
 
 ## phpMyAdmin ##
 
-Download from <http://www.phpmyadmin.net/> and unzip.
-
 ``` sh
 mkdir -p ~/Sites/mysql
-cd ~/Sites/mysql
-mv ~/Downloads/phpMyAdmin-* ./
-ln -s phpMyAdmin-* public
-cp public/config.sample.inc.php public/config.inc.php
+ln -s /opt/homebrew/share/phpmyadmin ~/Sites/mysql/public
 ```
 
-Edit `config.inc.php` to contain the following:
+Edit `/opt/homebrew/etc/phpmyadmin.config.inc.php` to contain:
 
 ``` php
-/* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'config';
-/* Server parameters */
-$cfg['Servers'][$i]['host'] = 'localhost';
-$cfg['Servers'][$i]['connect_type'] = 'socket';
 $cfg['Servers'][$i]['user'] = 'root';
 $cfg['Servers'][$i]['password'] = '<password>';
 ```

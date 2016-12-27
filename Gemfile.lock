@@ -23,6 +23,8 @@ GEM
     colorator (1.1.0)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
+    jekyll-default-layout (0.1.4)
+      jekyll (~> 3.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -51,6 +53,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll!
+  jekyll-default-layout
   nokogiri
 
 BUNDLED WITH

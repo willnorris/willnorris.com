@@ -79,3 +79,6 @@ kramdown:
   auto_id_stripping: true
   enable_coderay: false
   hard_wrap: false
+
+gems:
+  - jekyll-default-layout

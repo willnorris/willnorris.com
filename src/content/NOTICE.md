@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Notice of Content Licenses
 robots: noindex
 ---

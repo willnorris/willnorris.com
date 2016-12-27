@@ -1,5 +1,4 @@
 ---
-layout: page
 title: This is not the Will Norris you're looking for
 ---
 Hi, I'm [Will Norris](/).  If I directed you to this page, then you may also be named Will Norris.

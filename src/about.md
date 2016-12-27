@@ -1,5 +1,4 @@
 ---
-layout: page
 title: About
 ---
 <div class="h-card vcard" markdown="1">

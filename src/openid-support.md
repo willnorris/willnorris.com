@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Comparison of Support among OpenID Providers
 ---
 **Gone as of December 2013**

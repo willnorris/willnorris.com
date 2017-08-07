@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', :git => 'https://github.com/jekyll/jekyll', :branch => 'master'
+gem 'jekyll'
 gem 'nokogiri'
 
 group :jekyll_plugins do

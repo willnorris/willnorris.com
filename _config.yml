@@ -80,5 +80,5 @@ kramdown:
   enable_coderay: false
   hard_wrap: false
 
-gems:
+plugins:
   - jekyll-default-layout

@@ -37,7 +37,7 @@ opportunities.
 [Gabriel]: https://gabenorris.com/
 [indie web]: https://indieweb.org/
 [since 2010]: /2010/01/going-to-google
-[Open Source Programs Office]: https://developers.google.com/open-source/
+[Open Source Programs Office]: https://opensource.google.com/
 [Google+ API]: https://developers.google.com/+/api/
 [OpenID]: http://openid.net/
 [OAuth]: https://oauth.net/

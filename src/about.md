@@ -8,8 +8,8 @@ title: About
 </figure>
 
 Hi, I'm <a href="https://willnorris.com/" class="p-name u-url fn url">Will Norris</a>. I'm a
-follower of Jesus, a husband to [Elisabeth][], a father to [Gabriel][], a citizen of the [indie
-web][], and a <span class="p-role role">software engineer</span> at <span class="p-org
+follower of Jesus, a husband to [Elisabeth][], a father to [Gabriel][] and [Judah][], a citizen of
+the [indie web][], and a <span class="p-role role">software engineer</span> at <span class="p-org
 org">Google</span>.  In that order.
 
 I've been at Google [since 2010][], currently working in the [Open Source Programs Office][]
@@ -35,6 +35,7 @@ opportunities.
 
 [Elisabeth]: https://notsoserendipitous.com/
 [Gabriel]: https://gabenorris.com/
+[Judah]: https://judahnorris.com/
 [indie web]: https://indieweb.org/
 [since 2010]: /2010/01/going-to-google
 [Open Source Programs Office]: https://opensource.google.com/

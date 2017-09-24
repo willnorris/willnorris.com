@@ -1,0 +1,80 @@
+www.willnorris.com {
+  redir https://willnorris.com{path}
+}
+
+willnorris.com {
+  root /var/www/willnorris.com/public
+  log / /var/www/willnorris.com/log/access.log "{combined}"
+  errors /var/www/willnorris.com/log/error.log {
+    403 errors/403.html
+    404 errors/404.html
+    500 errors/500.html
+    502 errors/500.html
+    503 errors/500.html
+    504 errors/500.html
+  }
+  ext .html
+
+  header / Strict-Transport-Security "max-age=31536000;";
+
+  # go packages
+  #gopkg /go/imageproxy https://github.com/willnorris/imageproxy
+
+  header /wiki/ X-Robots-Tag "noindex"
+  expires {
+    match \.(js|css|png|jpg|jpeg|gif|ico|woff)$ 32d
+  }
+
+  redir 302 {
+    /contact "/about#contact"
+    /contact/ "/about#contact"
+    /about/resume /about
+    /blog /
+  }
+
+  redir 301 {
+    /about/ /about
+    /index.php /
+    /images/logo.jpg /logo.jpg
+    /images/avatars/will.jpg /logo.jpg
+    /photo.jpg /logo.jpg
+
+    /feed /feed.atom
+    /feed/ /feed.atom
+  }
+
+  proxy /api/imageproxy/ localhost:4593 {
+    without /api/imageproxy/
+  }
+
+  proxy /-/ localhost:8080 {
+    without /-/
+  }
+
+  proxy / localhost:8088 {
+    transparent
+  }
+}
+
+willnorris.com/tmp/ {
+  root /var/www/willnorris.com/tmp
+  browse / /var/www/willnorris.com/etc/browse.tpl
+  header / X-Robots-Tag "noindex"
+}
+
+wjn.me {
+  redir https://willnorris.com{uri}
+}
+
+wjn.me/.well-known/ {
+  root /var/www/wjn.me/public/.well-known/
+}
+
+s.wjn.me {
+  gzip
+  header / Strict-Transport-Security "max-age=31536000;";
+  proxy / localhost:3179 {
+    transparent
+    websocket
+  }
+}

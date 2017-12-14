@@ -46,8 +46,3 @@ Connect from Secure Shell:
 ## Dotfiles
 
 Follow standard instructions from <https://github.com/willnorris/dotfiles#readme>.
-
-To install rcm in termux:
-
-    curl -O https://apt.thoughtbot.com/debian/pool/main/r/rcm/rcm_1.3.1-1_all.deb
-    dpkg -i rcm_1.3.1-1_all.deb

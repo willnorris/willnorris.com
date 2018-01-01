@@ -31,7 +31,7 @@ Basic setup:
 Setup SSH server:
 
     mkdir -p ~/storage/downloads/.termux/ssh
-    ssh-keygen -t rsa -b 4096 -f ~/storage/downloads/.termux/ssh/termux-id_rsa
+    ssh-keygen -t rsa -b 4096 -P "" -f ~/storage/downloads/.termux/ssh/termux-id_rsa
     cat ~/storage/downloads/.termux/ssh/termux-id_rsa.pub >> ~/.ssh/authorized_keys
     termux-chroot
     sshd

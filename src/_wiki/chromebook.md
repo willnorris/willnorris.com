@@ -17,7 +17,14 @@ Enable Linux Apps for Chromebook at `chrome://settings/crostini/details`and laun
 Install common packages:
 
     sudo apt-get update
-    sudo apt-get install git keychain man manpages mosh tmux zsh
+    sudo apt-get install git keychain man manpages mosh zsh
+
+Some packages need to be installed from backports to get the desired version:
+
+    echo "deb http://ftp.debian.org/debian $(lsb_release -c -s)-backports main" | sudo tee -a /etc/apt/sources.list.d/backports.list
+    sudo apt-get update
+    sudo apt-get -t $(lsb_release -c -s)-backports install tmux
+
 
 Basic setup:
 

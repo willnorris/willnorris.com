@@ -27,13 +27,12 @@ git clone https://github.com/Homebrew/brew.git /opt/homebrew
 
 ## Dotfiles ##
 
-Install [rcm](https://github.com/thoughtbot/rcm#readme):
+Follow standard instructions from <https://github.com/willnorris/dotfiles#readme>:
 
 ``` sh
-/opt/homebrew/bin/brew install thoughtbot/formulae/rcm
+git clone https://github.com/willnorris/dotfiles ~/.dotfiles
+PATH="~/.dotfiles/rcm/bin:$PATH" rcup
 ```
-
-[Install dotfiles](https://github.com/willnorris/dotfiles#readme)
 
 ## Homebrew Packages ##
 

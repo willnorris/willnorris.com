@@ -36,7 +36,7 @@ Basic setup:
 Follow standard instructions from <https://github.com/willnorris/dotfiles#readme>:
 
     git clone https://github.com/willnorris/dotfiles ~/.dotfiles
-    path=(~/.dotfiles/rcm/bin $path) rcup
+    PATH="~/.dotfiles/rcm/bin:$PATH" rcup
 
 ## Apps
 

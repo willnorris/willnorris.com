@@ -41,7 +41,7 @@ ol, ul {
 }
 
 blockquote, blockquote::before {
-  color: $nobel;
+  color: $dim-gray;
 }
 
 blockquote {
@@ -113,7 +113,7 @@ textarea {
   background-color: $white;
   border: 1px solid $gainsboro;
   box-shadow: 1px 1px 3px lighten($gainsboro, 5%) inset;
-  color: $nobel;
+  color: $dim-gray;
   font-size: 1rem;
   padding: 0.5em 1em;
 }

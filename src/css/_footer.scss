@@ -14,9 +14,9 @@
 
   a {
     border-color: $nobel;
-    color: $nobel;
+    color: $dim-gray;
     &:hover {
-      color: lighten($nobel, 5%)
+      color: lighten($dim-gray, 15%)
     }
   }
 }
@@ -24,12 +24,19 @@
 .copyright {
   background-color: $night-rider;
   clear: both;
-  color: $nobel;
+  color: $gainsboro;
   font-size: 0.875rem;
   padding: 1rem 0;
   text-align: center;
 
   p {
     margin: 0;
+  }
+
+  a {
+    color: $gainsboro;
+    &:hover {
+      color: darken($gainsboro, 15%)
+    }
   }
 }

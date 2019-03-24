@@ -17,7 +17,7 @@ Enable Linux Apps for Chromebook at `chrome://settings/crostini/details`and laun
 Install common packages:
 
     sudo apt-get update
-    sudo apt-get install git keychain man manpages mosh zsh
+    sudo apt-get install git keychain lsb-release man manpages mosh zsh
 
 Some packages need to be installed from backports to get the desired version:
 
@@ -28,8 +28,7 @@ Some packages need to be installed from backports to get the desired version:
 
 Basic setup:
 
-    sudo passwd $USER
-    chsh -s /usr/bin/zsh
+    sudo chsh -s /usr/bin/zsh $USER
 
 ## Dotfiles
 

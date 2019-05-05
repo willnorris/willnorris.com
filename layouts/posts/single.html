@@ -1,0 +1,41 @@
+{{ define "main" }}
+<article class="post h-entry hentry">
+  <header class="entry-header"{{ with .Params.image }} data-background
+          style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5) 35%), url({{ .url }}); background-position:{{ .position }};" {{ end }}>
+    <div class="wrap">
+      <h1 class="p-name entry-title">{{ .Title }}</h1>
+      <p class="entry-meta">
+        Published on
+        <a href="{{ .Permalink }}" class="u-url url">
+          <time class="dt-published published dt-updated updated" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" title="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+            {{/* TODO: figure out how to include timezone in output */}}
+            {{ .Date.Format "January 2, 2006 at 3:04 pm" }}
+          </time>
+        </a>
+        by
+        <span class="p-author h-card author vcard">
+          <a class="url" href="{{ $.Param "author.url" }}">
+            <img class="photo logo" src="{{ $.Param "author.photo" }}" alt=""> <span class="fn">{{ $.Param "author.name" }}</span>
+          </a>
+        </span>
+      </p>
+    </div>
+  </header>
+
+  <div class="e-content entry-content wrap">
+    {{ with .Params.image }}<img src="{{ .url }}" class="u-featured hide" alt="{{ .alt }}" />{{ end }}
+    {{ .Content }}
+  </div>
+
+  <footer class="entry-footer wrap">
+    <p class="entry-meta">
+    {{- $syn_links := delimit (apply (apply .Params.syndication "partial" "syndication-link.html" ".") "chomp" ".") ", " -}}
+    {{- with $syn_links -}}
+      <span class="entry-syndication">
+        Also view on: {{ . | safeHTML }}
+      </span>
+    {{- end -}}
+    </p>
+  </footer>
+</article>
+{{ end }}

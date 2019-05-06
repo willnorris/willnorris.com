@@ -1,18 +1,24 @@
-{{ define "main" }}
-  {{ partial "profile-card.html" }}
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+  {{- partial "head.html" . -}}
+  <body>
+    {{- partial "header.html" . -}}
+    {{- partial "profile-card.html" -}}
+      <main>
+        <div class="home wrap">
+          <h2>Recent Posts</h2>
+          <ul class="posts">
+          {{- range first 10 (where .Site.RegularPages "Type" "eq" "posts") -}}
+            <li>
+              <a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a>
+              <time class="dt-published published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            </li>
+          {{- end -}}
+          </ul>
 
-  <div class="home wrap">
-    <h2>Recent Posts</h2>
-    <ul class="posts">
-    {{- range first 10 (where .Site.RegularPages "Type" "eq" "posts") -}}
-      <li>
-        <a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a>
-        <time class="dt-published published" datetime=""></time>
-        <time class="dt-published published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-      </li>
-    {{- end -}}
-    </ul>
-
-    <a href="/posts/" class="more">view all posts</a>
-  </div>
-{{ end }}
+          <a href="{{ relref . "posts" }}" class="more">view all posts</a>
+        </div>
+      </main>
+    {{- partial "footer.html" . -}}
+  </body>
+</html>

@@ -4,7 +4,7 @@ go:
   pkg: willnorris.com/go/gum
   vcs: git
   src: https://github.com/willnorris/gum
-excerpt: Personal short URL resolver
+description: Personal short URL resolver
 ---
 Gum is a personal short URL resolver written in Go.  It is primarily designed
 to be used with statically generated sites.

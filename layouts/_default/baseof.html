@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode | default "en" }}">
-  {{- partial "head.html" . -}}
+  <head>
+{{ partial "head.html" . -}}
+{{- block "head" . }}{{- end }}
+  </head>
   <body>
     {{- partial "header.html" . -}}
       <main>

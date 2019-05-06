@@ -4,7 +4,7 @@ go:
   pkg: willnorris.com/go/tools
   vcs: git
   src: https://github.com/willnorris/tools
-excerpt: Assorted command line tools
+description: Assorted command line tools
 ---
 This package contains assorted command line tools that aren't quite big
 enough to justify their own repository.

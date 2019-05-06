@@ -4,7 +4,7 @@ go:
   pkg: willnorris.com/go/imageproxy
   vcs: git
   src: https://github.com/willnorris/imageproxy
-excerpt: Caching image proxy server
+description: Caching image proxy server
 ---
 imageproxy is a caching image proxy server written in go.  It features:
 

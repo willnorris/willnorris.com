@@ -4,7 +4,7 @@ go:
   pkg: willnorris.com/go/gifresize
   vcs: git
   src: https://github.com/willnorris/gifresize
-excerpt: Simple package for transforming animated GIFs
+description: Simple package for transforming animated GIFs
 ---
 gifresize is a simple go package for transforming animated GIFs.
 

@@ -4,7 +4,7 @@ go:
   pkg: willnorris.com/go/newbase60
   vcs: git
   src: https://github.com/willnorris/newbase60
-excerpt: Go implementation of Tantek Çelik’s NewBase60 algorithm
+description: Go implementation of Tantek Çelik’s NewBase60 algorithm
 ---
 This package is a go implementation of [Tantek Çelik][tantek]'s [NewBase60][]
 algorithm.

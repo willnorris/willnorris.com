@@ -4,7 +4,7 @@ go:
   pkg: willnorris.com/go/webmention
   vcs: git
   src: https://github.com/willnorris/webmention
-excerpt: Client library and simple command line tool for sending webmentions
+description: Client library and simple command line tool for sending webmentions
 ---
 webmention is a go library and command line tool for assisting in sending
 [webmentions](https://indieweb.org/Webmention).

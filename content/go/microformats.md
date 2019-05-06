@@ -4,6 +4,6 @@ go:
   pkg: willnorris.com/go/microformats
   vcs: git
   src: https://github.com/willnorris/microformats
-excerpt: work in progress
+description: work in progress
 ---
 work in progress

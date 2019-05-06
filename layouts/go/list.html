@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="page h-entry hentry wrap">
+  <header class="entry-header">
+    <h1 class="p-name entry-title">{{ .Title }}</h1>
+  </header>
+  <div class="e-content entry-content">
+    {{ .Content }}
+  </div>
+  <dl>
+  {{- range .Pages -}}
+    <dt><a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a></dt>
+    <dd>{{ .Description | default .Summary }}</dd>
+  {{- end -}}
+  </dl>
+</article>
+{{ end }}

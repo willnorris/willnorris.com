@@ -1,7 +1,7 @@
 ---
 title: About
 ---
-<div class="h-card vcard" markdown="1">
+ <div class="h-card vcard">
 
 <figure class="alignright">
   <img src="/2005/05/03-800.jpg" alt="Will Norris" width="300" class="u-photo photo">
@@ -11,6 +11,7 @@ Hi, I'm <a href="https://willnorris.com/" class="p-name u-url fn url">Will Norri
 follower of Jesus, a husband to [Elisabeth][], a father to [Gabriel][] and [Judah][], a citizen of
 the [indie web][], and a <span class="p-role role">software engineer</span> at <span class="p-org
 org">Google</span>.  In that order.
+</div>
 
 I've been at Google [since 2010][], currently working in the [Open Source Programs Office][]
 focusing on projects to make it easier to use and release open source software at Google.  I
@@ -30,8 +31,6 @@ Android.
 I can be contacted by email at will @ this domain or by phone at <span class="p-tel tel">+1 (901)
 484-9455</span>.  I'm "willnorris" on most sites.  I'm not interested in hearing about job
 opportunities.
-
-</div>
 
 [Elisabeth]: https://notsoserendipitous.com/
 [Gabriel]: https://gabenorris.com/

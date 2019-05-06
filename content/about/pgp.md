@@ -5,7 +5,7 @@ You can find my key on [MIT's keyserver][] or just use the information here.
 
 [MIT's keyserver]: https://pgp.mit.edu/pks/lookup?op=vindex&search=0x6B3A242D0BC4CBB0
 
-<pre>
+```
 pub   4096R/0BC4CBB0 2014-06-26
       Key fingerprint = 6918 7042 4552 90C1 FCBB  5492 6B3A 242D 0BC4 CBB0
 uid                  Will Norris &lt;will@willnorris.com&gt;
@@ -109,4 +109,4 @@ sdxHtSxYSzFkwa5FewR4YA5cipOhdG0UbEqgMgJc6QUof0zOwuQyrpZywgWqo2un
 w92orC3PZQbtmAJB9gGGsErDdU1Mk8cOh+mp
 =vYWf
 -----END PGP PUBLIC KEY BLOCK-----
-</pre>
+```

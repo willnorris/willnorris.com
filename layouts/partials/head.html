@@ -1,40 +1,36 @@
-  <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
+  <title>{{ block "title" . }}{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="shortcut icon" href="/logo.jpg">
+  <link rel="shortcut icon" href="{{ "logo.jpg" | relURL }}">
   <link rel="canonical" href="{{ .Permalink }}">
-  {{/* shortlink */}}
+  {{/*- if .Params.shortlink }}
+  {{ partial "shortlink" . }}{{ end */}}
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:400,700|Merriweather:400,700">
-  {{/* if page.webmention_endpoint }}
-    <link rel="webmention" href="{{ page.webmention_endpoint }}">
-    <link rel="pingback" href="https://webmention.io/webmention?forward={{ page.webmention_endpoint | prepend: site.url }}" />
-  {{ endif */}}
+  {{- with $.Param "webmention_endpoint" }}
+    <link rel="webmention" href="{{ . }}">
+    <link rel="pingback" href="https://webmention.io/webmention?forward={{ . | absURL }}" />
+  {{- end }}
   <link rel="{{ if .IsHome }}home {{ end }}alternate" href="/feed.atom" type="application/atom+xml">
-{{ if .IsHome }}
+
+{{- if .IsHome }}
   <meta name="description" content="{{ $.Site.Params.description }}">
   <link rel="openid.server" href="https://indieauth.com/openid">
-  <link rel="apple-touch-icon-precomposed" sizes="128x128" href="/logo.jpg">
+  <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{ "logo.jpg" | relURL }}">
   <meta name="mobile-web-app-capable" content="yes">
-{{ else }}
-  <meta name="description" content="{{ .Summary }}">
-{{ end }}
+{{- else }}
+  <meta name="description" content="{{ .Description | default .Summary}}">
+{{- end -}}
 
-{{/*
-{% if page.url == "/" %}
-{% else %}
-  {{ assign excerpt = page.content | markdownify | strip_tags: 'aside,figure' | strip_html | split: ' ' | join: ' ' | truncatewords: 50 | escape }}
-  {% if page.twitter_card %}
-    <meta name="twitter:card" content="{{ page.twitter_card }}">
-    {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% endif %}
-    <meta name="twitter:description" content="{{ excerpt }}">
-    {% if site.twitter %}<meta name="twitter:site" content="{{ site.twitter }}">{% endif %}
-    {% if page.author.twitter %}<meta name="twitter:creator" content="{{ page.author.twitter }}">{% endif %}
-  {% endif %}
-{% endif %}
-{% if page.robots %}  <meta name="robots" content="{{ page.robots }}">{% endif %}
-{% if page.go %}  <meta name="go-import" content="{{ page.go.pkg }} {{ page.go.vcs }} {{ page.go.src }}">
-  <meta name="go-source" content="{{ page.go.pkg }} _ {{ page.go.src }}/tree/master{/dir} {{ page.go.src }}/blob/master{/dir}/{file}#L{line}">{% endif %}
-{% if page.author.url %}  <link rel="author" href="{{ page.author.url }}">{% endif %}
-{% if site.analytics_id %}{% include google-analytics.html %}{% endif %}
-*/}}
+{{- if not .IsHome -}}
+  {{- if $.Param "twitter_card" }}
+    <meta name="twitter:card" content="{{ $.Param "twitter_card" }}">
+    {{ with .Title }}<meta name="twitter:title" content="{{ . }}">{{ end }}
+    <meta name="twitter:description" content="{{ .Description | default .Summary }}">
+    {{ with .Site.Params.twitter }}<meta name="twitter:site" content="{{ . }}">{{ end }}
+    {{ with $.Param "author.twitter" }}<meta name="twitter:creator" content="{{ . }}">{{ end }}
+  {{- end -}}
+{{- end -}}
+{{- with .Params.robots }}  <meta name="robots" content="{{ . }}">{{ end -}}
+{{- with $.Param "author.url" }}  <link rel="author" href="{{ . }}">{{ end -}}
+{{- template "_internal/google_analytics_async.html" . -}}

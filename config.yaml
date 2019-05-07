@@ -8,6 +8,7 @@ params:
     name: "Will Norris"
     url: "https://willnorris.com/"
     photo: "/logo.jpg"
+  short_baseurl: "https://wjn.me/"
 
 disableHugoGeneratorInject: true
 

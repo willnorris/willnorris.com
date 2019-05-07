@@ -1,5 +1,6 @@
 ---
 title: About
+menu: "main"
 ---
  <div class="h-card vcard">
 

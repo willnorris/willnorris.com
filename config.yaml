@@ -14,9 +14,3 @@ disableHugoGeneratorInject: true
 
 permalinks:
   posts: "/:year/:month/:title/"
-
-menu:
-  main:
-    - identifier: about
-      name: about
-      url: /about/

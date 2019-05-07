@@ -1,5 +1,7 @@
-<script src="/js/imagesloaded-3.1.8.js"></script>
-<script src="/js/masonry-3.1.5.js"></script>
+{{- $imagesloaded := resources.Get "js/imagesloaded.js" | resources.Fingerprint -}}
+<script src="{{ $imagesloaded.RelPermalink }}"></script>
+{{- $masonry := resources.Get "js/masonry.js" | resources.Fingerprint }}
+<script src="{{ $masonry.RelPermalink }}"></script>
 <script>
   $(function(){
     var $gallery = $('.gallery');

@@ -14,3 +14,20 @@ disableHugoGeneratorInject: true
 
 permalinks:
   posts: "/:year/:month/:title/"
+
+# disable taxonomy pages
+taxonomies: []
+
+mediaTypes:
+  application/atom+xml:
+    suffixes: [xml]
+
+outputFormats:
+  atom:
+    basename: atom
+    isPlainText: false
+    mediaType: application/atom+xml
+
+outputs:
+  home: [html, atom]
+  section: [html]

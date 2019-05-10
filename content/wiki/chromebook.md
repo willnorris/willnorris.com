@@ -5,8 +5,7 @@ title: Chromebook
 Chrome OS automatically restores Chrome apps and settings on new machines, so this guide is really
 about setting up crostini, also known as "Linux Apps for Chromebook".
 
-* TOC
-{:toc}
+{{<toc>}}
 
 ## Crostini
 

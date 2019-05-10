@@ -43,6 +43,11 @@
   }
 }
 
+#TableOfContents > ul {
+	list-style: none;
+	margin-left: 0;
+}
+
 article.page, article.post {
   margin-bottom: 3em;
 }

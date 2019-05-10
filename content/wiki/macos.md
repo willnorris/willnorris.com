@@ -2,8 +2,7 @@
 title: macOS Workstation
 ---
 
-* TOC
-{:toc}
+{{<toc>}}
 
 ## Host Configuration ##
 

@@ -1,7 +1,7 @@
 ---
 title: MIT License
 ---
-Copyright (c) YYYY, Will Norris &lt;<https://willnorris.com/>&gt;
+Copyright (c) {{<year>}}, Will Norris &lt;<https://willnorris.com/>&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

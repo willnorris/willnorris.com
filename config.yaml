@@ -16,6 +16,8 @@ params:
   twitter_card: "summary"
   twitter: "@willnorris"
 
+googleAnalytics: UA-620101-2
+
 disableHugoGeneratorInject: true
 
 permalinks:

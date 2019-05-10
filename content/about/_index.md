@@ -10,8 +10,8 @@ menu: "main"
 
 Hi, I'm <a href="https://willnorris.com/" class="p-name u-url fn url">Will Norris</a>. I'm a
 follower of Jesus, a husband to [Elisabeth][], a father to [Gabriel][] and [Judah][], a citizen of
-the [indie web][], and a <span class="p-role role">software engineer</span> at <span class="p-org
-org">Google</span>.  In that order.
+the [indie web][], and an <span class="p-role role">engineering manager</span> at <span class="p-org
+org">Google</span>.
 </div>
 
 I've been at Google [since 2010][], currently working in the [Open Source Programs Office][]

@@ -1,0 +1,5 @@
+<li>
+  <a class="post-link" href="{{ .Permalink }}">
+    {{- printf "%s/%s" (path.Base (path.Dir (path.Dir .Permalink))) (path.Base .Permalink) -}}
+  </a>
+</li>

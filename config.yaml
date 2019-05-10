@@ -1,0 +1,41 @@
+baseURL: "https://willnorris.com/"
+languageCode: "en-us"
+title: "willnorris.com"
+
+params:
+  description: "there's more to life than this"
+  author:
+    name: "Will Norris"
+    url: "https://willnorris.com/"
+    photo: "/logo.jpg"
+    twitter: "@willnorris"
+  short_baseurl: "https://wjn.me/"
+  imageproxy:
+    url: "https://willnorris.com/api/imageproxy/"
+    default_baseurl: "https://willnorris.com/"
+  twitter_card: "summary"
+  twitter: "@willnorris"
+
+googleAnalytics: UA-620101-2
+
+disableHugoGeneratorInject: true
+
+permalinks:
+  posts: "/:year/:month/:slug/"
+
+# disable taxonomy pages
+taxonomies: []
+
+mediaTypes:
+  application/atom+xml:
+    suffixes: [xml]
+
+outputFormats:
+  atom:
+    basename: atom
+    isPlainText: false
+    mediaType: application/atom+xml
+
+outputs:
+  home: [html, atom]
+  section: [html]

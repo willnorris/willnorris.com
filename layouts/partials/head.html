@@ -1,0 +1,41 @@
+  <title>{{ block "title" . }}{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="{{ "logo.jpg" | relURL }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{- if .Params.shortlink }}
+  {{ partial "shortlink" . }}{{ end }}
+
+  {{- $style := resources.Get "css/style.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:400,700|Merriweather:400,700">
+
+  {{- template "_internal/google_analytics_async.html" . }}
+
+  {{- with $.Param "webmention_endpoint" }}
+    <link rel="webmention" href="{{ . }}">
+    <link rel="pingback" href="https://webmention.io/webmention?forward={{ . | absURL }}" />
+  {{- end }}
+  <link rel="{{ if .IsHome }}home {{ end }}alternate" href="/feed.atom" type="application/atom+xml">
+
+{{- if .IsHome }}
+  <meta name="description" content="{{ $.Site.Params.description }}">
+  <link rel="openid.server" href="https://indieauth.com/openid">
+  <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{ "logo.jpg" | relURL }}">
+  <meta name="mobile-web-app-capable" content="yes">
+{{- else }}
+  <meta name="description" content="{{ .Description | default .Summary}}">
+{{- end -}}
+
+{{- if not .IsHome -}}
+  {{- if $.Param "twitter_card" }}
+    <meta name="twitter:card" content="{{ $.Param "twitter_card" }}">
+    {{ with .Title }}<meta name="twitter:title" content="{{ . }}">{{ end }}
+    <meta name="twitter:description" content="{{ .Description | default .Summary }}">
+    {{ with .Site.Params.twitter }}<meta name="twitter:site" content="{{ . }}">{{ end }}
+    {{ with $.Param "author.twitter" }}<meta name="twitter:creator" content="{{ . }}">{{ end }}
+  {{- end -}}
+{{- end -}}
+{{- with .Params.robots }}  <meta name="robots" content="{{ . }}">{{ end -}}
+{{- with $.Param "author.url" }}  <link rel="author" href="{{ . }}">{{ end -}}
+{{- template "_internal/google_analytics_async.html" . -}}

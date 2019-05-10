@@ -1,0 +1,15 @@
+{{- $url := urls.Parse . -}}
+{{- $host := strings.TrimPrefix "www." $url.Host -}}
+<a rel="syndication" class="u-syndication" href="{{ . }}">
+  {{- if eq $host "facebook.com" }}Facebook
+  {{- else if eq $host "github.com" }}GitHub
+  {{- else if eq $host "news.ycombinator.com" }}Hacker News
+  {{- else if eq $host "plus.google.com" }}Google+
+  {{- else if eq $host "reddit.com" -}}
+    {{- $p := split $url.Path "/" -}}
+    {{- if eq (index $p 1) "r" -}}
+      /r/{{ index $p 2 -}}
+    {{- else }}Reddit{{ end }}
+  {{- else if eq $host "twitter.com" }}Twitter
+  {{- else }}{{ $host }}{{ end -}}
+</a>

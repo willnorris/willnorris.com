@@ -1,0 +1,19 @@
+{{- $imagesloaded := resources.Get "js/imagesloaded.js" | resources.Fingerprint -}}
+<script src="{{ $imagesloaded.RelPermalink }}"></script>
+{{- $masonry := resources.Get "js/masonry.js" | resources.Fingerprint }}
+<script src="{{ $masonry.RelPermalink }}"></script>
+<script>
+  $(function(){
+    var $gallery = $('.gallery');
+
+    var $packed = $gallery.filter('.packed').masonry({
+      itemSelector: 'a',
+      gutter: 10,
+    });
+
+    // layout masonry again after all images have loaded
+    $packed.imagesLoaded( function() {
+      $packed.masonry();
+    });
+  });
+</script>

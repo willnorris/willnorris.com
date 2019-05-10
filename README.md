@@ -1,5 +1,5 @@
 This repository contains the source code for my personal website,
-<https://willnorris.com/>.  It is built using [Jekyll](http://jekyllrb.com).
+<https://willnorris.com/>.  It is built using [Hugo](https://gohugo.io/).
 
 
 ## Unstable Repo Warning ##
@@ -15,6 +15,6 @@ Unless otherwise noted, text content is licensed under a Creative Commons
 Attribution 4.0 International License and code is available under an MIT
 License.  Copies of both can be found in the [LICENSE](./LICENSE) file.
 
-The [src/content](./src/content) directory contains images and media from a
-variety of sources with different licensing restrictions.  I've attempted to
-document some of them at [src/content/NOTICE.md](./src/content/NOTICE.md).
+Several posts contain images and media from a variety of sources with different
+licensing restrictions.  I've attempted to document some of them at
+[content/notice.md](./content/notice.md).

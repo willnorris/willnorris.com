@@ -1,10 +1,7 @@
-.jekyll-metadata
-.sass-cache
 log
 public
 tmp
-
-src/_drafts
+_gen
 
 etc/fullchain.pem
 etc/privkey.pem

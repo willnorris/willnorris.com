@@ -1,0 +1,23 @@
+// colors (http://www.color-blindness.com/color-name-hue/)
+$flamingo: #ac291f;
+$eucalyptus: #309f4b;
+$night-rider: #333;
+$dim-gray: #555;
+$nobel: #999;
+$gainsboro: #ddd;
+$white-smoke: #f5f5f5;
+$white: #fff;
+
+@import "normalize";
+
+@import "default";
+@import "structure";
+@import "header";
+@import "navigation";
+@import "content";
+@import "footer";
+@import "fluidbox";
+@import "media-queries";
+
+// syntax highlighting
+@import "highlight-github";

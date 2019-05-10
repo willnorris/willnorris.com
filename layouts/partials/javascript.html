@@ -1,0 +1,39 @@
+{{- $jquery := resources.Get "js/jquery.js" | resources.Fingerprint }}
+<script src="{{ $jquery.RelPermalink }}"></script>
+
+{{- $highlight := resources.Get "js/highlight.js" | resources.Fingerprint }}
+<script src="{{ $highlight.RelPermalink }}"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+{{- $fragmention := resources.Get "js/fragmention.js" | resources.Fingerprint }}
+<script src="{{ $fragmention.RelPermalink }}"></script>
+
+{{- $debounce := resources.Get "js/debounce.js" | resources.Fingerprint }}
+<script src="{{ $debounce.RelPermalink }}"></script>
+
+{{- $fluidbox := resources.Get "js/fluidbox.js" | resources.Fingerprint }}
+<script src="{{ $fluidbox.RelPermalink }}"></script>
+
+<script>
+  $(function(){
+    // add lightbox for linked images
+    var $imageAnchors = $('.entry-content a').filter('[href$=".jpg"],[href$=".jpeg"],[href$=".png"]');
+    $imageAnchors.fluidbox({
+      viewportFill: 1,
+    });
+
+    var lastScrollTop = $(window).scrollTop();
+    $(window).scroll(function(){
+      var scrollAmt = $(this).scrollTop();
+      var deltaS = scrollAmt - lastScrollTop;
+      lastScrollTop = scrollAmt;
+
+      // close fluidbox if scrolled more than 10px
+      if (Math.abs(deltaS) > 10) {
+        $imageAnchors.trigger('close.fluidbox');
+      }
+    });
+  });
+</script>
+
+{{ if .Params.gallery }}{{ partial "gallery-script.html" . }}{{ end }}

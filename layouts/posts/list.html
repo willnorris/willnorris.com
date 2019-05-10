@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article class="page h-entry hentry wrap">
+  <div class="e-content entry-content">
+    {{ .Content }}
+  </div>
+  {{ $previous := "" }}
+  {{- range .Pages -}}
+    {{ $year := dateFormat "2006" .Date }}
+    {{ if ne $year $previous }}
+      {{ if $previous }}</ul>{{ end }}
+      <h2 id="{{$year}}">{{$year}}</h2>
+      <ul class="posts">
+    {{ end }}
+    {{ .Render "li" }}
+    {{ $previous = $year }}
+  {{- end -}}
+  </ul>
+</article>
+{{ end }}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ partial "shortlink" . }}
+    <link rel="canonical" href="{{ .Params.redirect_url }}">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0; url={{ .Params.redirect_url }}">
+  </head>
+  <body>
+    <a href="{{ .Params.redirect_url }}">Moved Permanently</a>
+  </body>
+</html>

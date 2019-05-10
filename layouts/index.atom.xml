@@ -1,0 +1,33 @@
+{{ $rfc3339 := "2006-01-02T15:04:05Z07:00" -}}
+{{ `<?xml version="1.0" encoding="utf-8"?>` | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <title>{{ .Site.Title }}</title>
+  <id>{{ with .OutputFormats.Get "atom" }}{{ .Permalink }}{{ end }}</id>
+  <link href="{{ .Site.BaseURL }}" rel="alternate" type="text/html"/>
+  <link href="{{ with .OutputFormats.Get "atom" }}{{ .Permalink }}{{ end }}" rel="self" type="application/atom+xml"/>
+  <link href="https://creativecommons.org/licenses/by/4.0/" rel="license" type="text/html"/>
+  <link href="https://willnorris.superfeedr.com/" rel="hub"/>
+  <rights>
+    Copyright 2002-{{ now.Format "2006" }} Will Norris.  Unless noted
+    otherwise, text content in this feed is licensed under a Creative Commons
+    Attribution 4.0 International License and code under an MIT License.
+  </rights>
+  <updated>{{ .Site.LastChange.Format $rfc3339 }}</updated>
+{{ range first 10 .Pages }}
+  <entry>
+    <id>{{ .Permalink }}</id>
+    <title>{{ .Title }}</title>
+    <published>{{ .Date.Format $rfc3339 }}</published>
+    <updated>{{ .Lastmod.Format $rfc3339 }}</updated>
+    <content type="html" xml:base="{{ .Permalink }}">{{ "<![CDATA[" | safeHTML }}
+      {{ with .Params.image }}<img src="{{ .url }}" alt="{{ .alt }}" />{{ end }}
+      {{ .Content }}
+    ]]></content>
+    <link href="{{ .Permalink }}" rel="alternate" type="text/html"/>
+    <author>
+      <name>{{ $.Param "author.name" }}</name>
+      <uri>{{ $.Param "author.url" }}</uri>
+    </author>
+  </entry>
+{{ end }}
+</feed>

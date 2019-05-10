@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# run hugo development server 
+
+cd $(dirname $0)/..
+set -x
+hugo serve $@

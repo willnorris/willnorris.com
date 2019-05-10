@@ -19,7 +19,7 @@ params:
 disableHugoGeneratorInject: true
 
 permalinks:
-  posts: "/:year/:month/:title/"
+  posts: "/:year/:month/:slug/"
 
 # disable taxonomy pages
 taxonomies: []

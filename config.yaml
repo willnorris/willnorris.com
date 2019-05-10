@@ -8,10 +8,13 @@ params:
     name: "Will Norris"
     url: "https://willnorris.com/"
     photo: "/logo.jpg"
+    twitter: "@willnorris"
   short_baseurl: "https://wjn.me/"
   imageproxy:
     url: "https://willnorris.com/api/imageproxy/"
     default_baseurl: "https://willnorris.com/"
+  twitter_card: "summary"
+  twitter: "@willnorris"
 
 disableHugoGeneratorInject: true
 

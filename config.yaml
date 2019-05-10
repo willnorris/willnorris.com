@@ -21,7 +21,7 @@ googleAnalytics: UA-620101-2
 disableHugoGeneratorInject: true
 
 permalinks:
-  posts: "/:year/:month/:slug/"
+  posts: "/:year/:month/:filename/"
 
 # disable taxonomy pages
 taxonomies: []

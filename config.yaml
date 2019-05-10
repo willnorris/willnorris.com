@@ -9,6 +9,9 @@ params:
     url: "https://willnorris.com/"
     photo: "/logo.jpg"
   short_baseurl: "https://wjn.me/"
+  imageproxy:
+    url: "https://willnorris.com/api/imageproxy/"
+    default_baseurl: "https://willnorris.com/"
 
 disableHugoGeneratorInject: true
 

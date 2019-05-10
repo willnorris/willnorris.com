@@ -61,19 +61,19 @@ suitable for printing, and promise that we will get those to you.)*
 </figure>
 
 <figure class="gallery packed">
-  <a href="DSC07158.jpg"><img src="DSC07158.jpg" alt="Gabriel with lamb from Ireland" width="300"></a>
-  <a href="DSC07109.jpg"><img src="DSC07109.jpg" alt="Gabriel sucking on Elisabeth's finger while Kitty inspects" width="300"></a>
-  <a href="DSC07120.jpg"><img src="DSC07120.jpg" alt="Gabriel making a funny face" width="300"></a>
-  <a href="DSC07126.jpg"><img src="DSC07126.jpg" alt="Gabriel looking at Will making a surprised face" width="300"></a>
-  <a href="DSC07132.jpg"><img src="DSC07132.jpg" alt="Will touching Gabriel" width="300"></a>
-  <a href="DSC07143.jpg"><img src="DSC07143.jpg" alt="Gabriel resting on Elisabeth's chest" width="300"></a>
-  <a href="DSC07174.jpg"><img src="DSC07174.jpg" alt="Gabriel in basket sucking Elisabeth's finger" width="300"></a>
-  <a href="DSC07178.jpg"><img src="DSC07178.jpg" alt="Gabriel lying on crocheted blanket" width="300"></a>
-  <a href="DSC07180.jpg"><img src="DSC07180.jpg" alt="Gabriel lying in basket with lamb" width="300"></a>
-  <a href="DSC07183.jpg"><img src="DSC07183.jpg" alt="Gabriel lying in basket with lamb" width="300"></a>
-  <a href="DSC07229.jpg"><img src="DSC07229.jpg" alt="Gabriel lying in Elisabeth's arms" width="300"></a>
-  <a href="DSC07236.jpg"><img src="DSC07236.jpg" alt="Gabriel lying in Elisabeth's arms" width="300"></a>
-  <a href="DSC07251.jpg"><img src="DSC07251.jpg" alt="Gabriel lying in Will's arms" width="300"></a>
+  <a href="DSC07158.jpg">{{<img src="DSC07158.jpg" alt="Gabriel with lamb from Ireland" width="300">}}</a>
+  <a href="DSC07109.jpg">{{<img src="DSC07109.jpg" alt="Gabriel sucking on Elisabeth's finger while Kitty inspects" width="300">}}</a>
+  <a href="DSC07120.jpg">{{<img src="DSC07120.jpg" alt="Gabriel making a funny face" width="300">}}</a>
+  <a href="DSC07126.jpg">{{<img src="DSC07126.jpg" alt="Gabriel looking at Will making a surprised face" width="300">}}</a>
+  <a href="DSC07132.jpg">{{<img src="DSC07132.jpg" alt="Will touching Gabriel" width="300">}}</a>
+  <a href="DSC07143.jpg">{{<img src="DSC07143.jpg" alt="Gabriel resting on Elisabeth's chest" width="300">}}</a>
+  <a href="DSC07174.jpg">{{<img src="DSC07174.jpg" alt="Gabriel in basket sucking Elisabeth's finger" width="300">}}</a>
+  <a href="DSC07178.jpg">{{<img src="DSC07178.jpg" alt="Gabriel lying on crocheted blanket" width="300">}}</a>
+  <a href="DSC07180.jpg">{{<img src="DSC07180.jpg" alt="Gabriel lying in basket with lamb" width="300">}}</a>
+  <a href="DSC07183.jpg">{{<img src="DSC07183.jpg" alt="Gabriel lying in basket with lamb" width="300">}}</a>
+  <a href="DSC07229.jpg">{{<img src="DSC07229.jpg" alt="Gabriel lying in Elisabeth's arms" width="300">}}</a>
+  <a href="DSC07236.jpg">{{<img src="DSC07236.jpg" alt="Gabriel lying in Elisabeth's arms" width="300">}}</a>
+  <a href="DSC07251.jpg">{{<img src="DSC07251.jpg" alt="Gabriel lying in Will's arms" width="300">}}</a>
 </figure>
 
 And finally, a huge thank you to our birth team: our midwife [Sharon Economides][], our secondary

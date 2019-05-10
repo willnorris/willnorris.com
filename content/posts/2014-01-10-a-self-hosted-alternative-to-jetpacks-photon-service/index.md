@@ -33,7 +33,7 @@ If you want to jump straight to the goods, you can [find the code on GitHub][wil
 ## Image proxy services ##
 
 <aside class="alignleft outset"><figure>
-  <img src="wordpress-cogs.png" alt="WordPress logo" width="350" />
+  {{<img src="wordpress-cogs.png" alt="WordPress logo" width="350">}}
 </figure></aside>
 
 One of the greatest features of Photon is that the service itself is hosted on WordPress.com infrastructure, which means
@@ -69,7 +69,7 @@ started looking at self-hosted options.
 ## Self-hosted image proxies ##
 
 <aside class="alignright outset"><figure>
-  <img src="ghillied-up.jpg" alt="Man wearing a ghillie camouflage suit" width="350">
+  {{<img src="ghillied-up.jpg" alt="Man wearing a ghillie camouflage suit" width="350">}}
   <figcaption><a href="https://secure.flickr.com/photos/divinenephron/4857328881/">Ghillied Up, by Devon Buchanan</a></figcaption>
 </figure></aside>
 

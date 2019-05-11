@@ -53,13 +53,12 @@ opportunities.
 
 ### Colophon ###
 
-This site is powered by [Jekyll][] with a few [custom plugins][].  I host my sites on [Google Cloud
-Platform][] and all of my domains are registered with [Google Domains][] (which I [highly
-recommend][]).  Short URLs for my content are resolved using a small server I wrote called [gum][].
-Most images are proxied through my [imageproxy][] server to handle simple things like dynamic
-resizing.
+This site is powered by [Hugo][], hosted on [Google Cloud Platform][] and all of my domains are
+registered with [Google Domains][] (which I [highly recommend][]).  Short URLs for my content are
+resolved using a small server I wrote called [gum][].  Most images are proxied through my
+[imageproxy][] server to handle simple things like dynamic resizing.
 
-[Jekyll]: http://jekyllrb.com/
+[Hugo]: https://gohugo.io
 [custom plugins]: https://github.com/willnorris/willnorris.com/tree/master/src/_plugins
 [Google Cloud Platform]: https://www.google.com/cloud
 [Google Domains]: https://www.google.com/domains

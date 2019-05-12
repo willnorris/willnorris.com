@@ -13,25 +13,30 @@ Shortcode usage:
 
 See more details on imageproxy at https://github.com/willnorris/imageproxy
 */}}
-{{- $proxy := strings.TrimSuffix "/" .Page.Site.Params.imageproxy.url }}
-
 {{- $src := .Get "src" }}
-{{- with $.Page.Resources.GetMatch (.Get "src") }}
-  {{- $src = .Permalink }}
-{{- end }}
-{{- $src := strings.TrimPrefix $.Page.Site.Params.imageproxy.default_baseurl $src }}
 
-{{- $options := .Get "options" | default "x" }}
-{{- if eq $options "x" }}
-  {{- with .Get "width" }}
-    {{- $options = printf "%s%s" . $options }}
+{{- if .Page.Site.Params.imageproxy.url }}
+  {{- $proxy := strings.TrimSuffix "/" .Page.Site.Params.imageproxy.url }}
+
+  {{- with $.Page.Resources.GetMatch (.Get "src") }}
+    {{- $src = .Permalink }}
   {{- end }}
-  {{- with .Get "height" }}
-    {{- $options = printf "%s%s" $options . }}
+  {{- $src := strings.TrimPrefix $.Page.Site.Params.imageproxy.default_baseurl $src }}
+
+  {{- $options := .Get "options" | default "x" }}
+  {{- if eq $options "x" }}
+    {{- with .Get "width" }}
+      {{- $options = printf "%s%s" . $options }}
+    {{- end }}
+    {{- with .Get "height" }}
+      {{- $options = printf "%s%s" $options . }}
+    {{- end }}
   {{- end }}
+
+  {{- $src = printf "%s/%s/%s" $proxy $options $src }}
 {{- end -}}
 
-<img src="{{ printf "%s/%s/%s" $proxy $options $src }}" alt="{{ .Get "alt" }}"
+<img src="{{ $src }}" alt="{{ .Get "alt" }}"
   {{- with .Get "class" }} class="{{.}}"{{ end }}
   {{- with .Get "width" }} width="{{.}}"{{ end }}
   {{- with .Get "height" }} height="{{.}}"{{ end }}>

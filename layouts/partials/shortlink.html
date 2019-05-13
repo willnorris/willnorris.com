@@ -12,6 +12,8 @@
   {{- else }}
     {{- $alts = $alts | append $url }}
   {{- end }}
-{{- end -}}
+{{- end }}
 
-<link rel="shortlink" href="{{ $main }}"{{ with $alts }} data-alt-href="{{ delimit . " " }}"{{ end }}>
+{{- if $main }}
+  <link rel="shortlink" href="{{ $main }}"{{ with $alts }} data-alt-href="{{ delimit . " " }}"{{ end }}>
+{{- end -}}

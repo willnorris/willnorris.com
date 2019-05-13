@@ -9,14 +9,8 @@ params:
     url: "https://willnorris.com/"
     photo: "/logo.jpg"
     twitter: "@willnorris"
-  short_baseurl: "https://wjn.me/"
-  imageproxy:
-    url: "https://willnorris.com/api/imageproxy/"
-    default_baseurl: "https://willnorris.com/"
   twitter_card: "summary"
   twitter: "@willnorris"
-
-googleAnalytics: UA-620101-2
 
 disableHugoGeneratorInject: true
 

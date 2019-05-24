@@ -36,7 +36,9 @@ See more details on imageproxy at https://github.com/willnorris/imageproxy
   {{- $src = printf "%s/%s/%s" $proxy $options $src }}
 {{- end -}}
 
-<img src="{{ $src }}" alt="{{ .Get "alt" }}"
+<img src="{{ $src }}"
+  {{- with .Get "alt" }} alt="{{ . }}"{{ end }}
   {{- with .Get "class" }} class="{{.}}"{{ end }}
   {{- with .Get "width" }} width="{{.}}"{{ end }}
-  {{- with .Get "height" }} height="{{.}}"{{ end }}>
+  {{- with .Get "height" }} height="{{.}}"{{ end -}}
+>

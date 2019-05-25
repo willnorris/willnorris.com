@@ -5,3 +5,5 @@ _gen
 
 etc/fullchain.pem
 etc/privkey.pem
+
+content/posts/drafts

@@ -1,7 +1,7 @@
 params:
   short_baseurl: "https://wjn.me/"
   imageproxy:
-    url: "https://willnorris.com/api/imageproxy/"
+    url: "https://imageproxy.willnorris.com/"
     default_baseurl: "https://willnorris.com/"
 
 googleAnalytics: UA-620101-2

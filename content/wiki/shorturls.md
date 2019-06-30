@@ -2,8 +2,6 @@
 title: Short URLs
 ---
 
-# Short URLs #
-
 Most all content on this site has an associated short URL which is advertised on the page in a
 `rel="shortlink"` link.  Those short URLs are resolved using a small server called [gum][].
 

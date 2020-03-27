@@ -38,14 +38,14 @@ opportunities.
 [Judah]: https://judahnorris.com/
 [indie web]: https://indieweb.org/
 [since 2010]: /2010/01/going-to-google
-[Open Source Programs Office]: https://opensource.google.com/
-[Google+ API]: https://developers.google.com/+/api/
-[OpenID]: http://openid.net/
+[Open Source Programs Office]: https://opensource.google/
+[Google+ API]: https://en.wikipedia.org/wiki/Google+
+[OpenID]: https://openid.net/
 [OAuth]: https://oauth.net/
 [XRD]: http://docs.oasis-open.org/xri/xrd/v1.0/xrd-1.0.html
-[Activity Streams]: http://activitystrea.ms/
-[Shibboleth]: http://shibboleth.net/
-[USC]: http://www.usc.edu/
+[Activity Streams]: https://activitystrea.ms/
+[Shibboleth]: https://shibboleth.net/
+[USC]: https://www.usc.edu/
 [written in go]: /go/
 [WordPress]: https://wordpress.org/
 [plugins]: https://profiles.wordpress.org/willnorris
@@ -53,15 +53,17 @@ opportunities.
 
 ### Colophon ###
 
-This site is powered by [Hugo][], hosted on [Google Cloud Platform][] and all of my domains are
-registered with [Google Domains][] (which I [highly recommend][]).  Short URLs for my content are
+[This site][] is powered by [Hugo][], hosted on [Google Cloud Platform][] and all of my domains are
+registered with [Google Domains][] (which I [highly recommend][]).  [Short URLs][] for my content are
 resolved using a small server I wrote called [gum][].  Most images are proxied through my
 [imageproxy][] server to handle simple things like dynamic resizing.
 
+[This site]: https://github.com/willnorris/willnorris.com
 [Hugo]: https://gohugo.io
 [custom plugins]: https://github.com/willnorris/willnorris.com/tree/master/src/_plugins
 [Google Cloud Platform]: https://www.google.com/cloud
 [Google Domains]: https://www.google.com/domains
 [highly recommend]: /2014/06/google-domains
+[Short URLs]: /wiki/shorturls
 [gum]: /go/gum
 [imageproxy]: /go/imageproxy

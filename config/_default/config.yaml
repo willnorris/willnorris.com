@@ -20,6 +20,11 @@ permalinks:
 # disable taxonomy pages
 taxonomies: []
 
+markup:
+  highlight:
+    codeFences: false
+    style: friendly
+
 mediaTypes:
   application/atom+xml:
     suffixes: [xml]

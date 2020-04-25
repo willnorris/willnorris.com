@@ -21,6 +21,9 @@ permalinks:
 taxonomies: []
 
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     codeFences: false
     style: friendly

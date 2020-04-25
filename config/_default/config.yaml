@@ -12,8 +12,6 @@ params:
   twitter_card: "summary"
   twitter: "@willnorris"
 
-disableHugoGeneratorInject: true
-
 permalinks:
   posts: "/:year/:month/:filename/"
 

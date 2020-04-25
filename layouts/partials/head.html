@@ -1,6 +1,7 @@
   <title>{{ block "title" . }}{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  {{ hugo.Generator }}
   <link rel="shortcut icon" href="{{ "logo.jpg" | relURL }}">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ range .AlternativeOutputFormats -}}

@@ -1,10 +1,6 @@
 {{- $jquery := resources.Get "js/jquery.js" | resources.Fingerprint }}
 <script src="{{ $jquery.RelPermalink }}"></script>
 
-{{- $highlight := resources.Get "js/highlight.js" | resources.Fingerprint }}
-<script src="{{ $highlight.RelPermalink }}"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
 {{- $fragmention := resources.Get "js/fragmention.js" | resources.Fingerprint }}
 <script src="{{ $fragmention.RelPermalink }}"></script>
 

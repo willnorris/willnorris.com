@@ -183,6 +183,7 @@ dd {
 
 code, kbd, pre, samp {
   font-family: "Source Code Pro", monospace;
+  font-size: 1rem;
 }
 
 pre {
@@ -197,14 +198,8 @@ pre {
   tab-size: 2;
 }
 
-code {
-  font-family: "Source Code Pro", monospace;
-  font-size: 1rem;
-}
-
 :not(pre) > code {
   background: $white-smoke;
-  color: #000;
   padding: 0.1em 0.3em;
   border-radius: 3px;
 }

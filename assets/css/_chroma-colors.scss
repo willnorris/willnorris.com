@@ -1,0 +1,168 @@
+// modified from chroma github theme
+// 
+//   hugo gen chromastyles --style=github
+
+.chroma {
+  // Other
+  .x {  }
+  // Error
+  .err { color: #a61717; background-color: #e3d2d2 }
+  // LineTableTD
+  .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+  // LineTable
+  .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
+  // LineHighlight
+  .hl { display: block; width: 100%;background-color: #ffffcc }
+  // LineNumbersTable
+  .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+  // LineNumbers
+  .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+  // Keyword
+  .k { color: #000000; font-weight: bold }
+  // KeywordConstant
+  .kc { color: #000000; font-weight: bold }
+  // KeywordDeclaration
+  .kd { color: #000000; font-weight: bold }
+  // KeywordNamespace
+  .kn { color: #000000; font-weight: bold }
+  // KeywordPseudo
+  .kp { color: #000000; font-weight: bold }
+  // KeywordReserved
+  .kr { color: #000000; font-weight: bold }
+  // KeywordType
+  .kt { color: #445588; font-weight: bold }
+  // Name
+  .n {  }
+  // NameAttribute
+  .na { color: #008080 }
+  // NameBuiltin
+  .nb { color: #0086b3 }
+  // NameBuiltinPseudo
+  .bp { color: #999999 }
+  // NameClass
+  .nc { color: #445588; font-weight: bold }
+  // NameConstant
+  .no { color: #008080 }
+  // NameDecorator
+  .nd { color: #3c5d5d; font-weight: bold }
+  // NameEntity
+  .ni { color: #800080 }
+  // NameException
+  .ne { color: #990000; font-weight: bold }
+  // NameFunction
+  .nf { color: #990000; font-weight: bold }
+  // NameFunctionMagic
+  .fm {  }
+  // NameLabel
+  .nl { color: #990000; font-weight: bold }
+  // NameNamespace
+  .nn { color: #555555 }
+  // NameOther
+  .nx {  }
+  // NameProperty
+  .py {  }
+  // NameTag
+  .nt { color: #000080 }
+  // NameVariable
+  .nv { color: #008080 }
+  // NameVariableClass
+  .vc { color: #008080 }
+  // NameVariableGlobal
+  .vg { color: #008080 }
+  // NameVariableInstance
+  .vi { color: #008080 }
+  // NameVariableMagic
+  .vm {  }
+  // Literal
+  .l {  }
+  // LiteralDate
+  .ld {  }
+  // LiteralString
+  .s { color: #dd1144 }
+  // LiteralStringAffix
+  .sa { color: #dd1144 }
+  // LiteralStringBacktick
+  .sb { color: #dd1144 }
+  // LiteralStringChar
+  .sc { color: #dd1144 }
+  // LiteralStringDelimiter
+  .dl { color: #dd1144 }
+  // LiteralStringDoc
+  .sd { color: #dd1144 }
+  // LiteralStringDouble
+  .s2 { color: #dd1144 }
+  // LiteralStringEscape
+  .se { color: #dd1144 }
+  // LiteralStringHeredoc
+  .sh { color: #dd1144 }
+  // LiteralStringInterpol
+  .si { color: #dd1144 }
+  // LiteralStringOther
+  .sx { color: #dd1144 }
+  // LiteralStringRegex
+  .sr { color: #009926 }
+  // LiteralStringSingle
+  .s1 { color: #dd1144 }
+  // LiteralStringSymbol
+  .ss { color: #990073 }
+  // LiteralNumber
+  .m { color: #009999 }
+  // LiteralNumberBin
+  .mb { color: #009999 }
+  // LiteralNumberFloat
+  .mf { color: #009999 }
+  // LiteralNumberHex
+  .mh { color: #009999 }
+  // LiteralNumberInteger
+  .mi { color: #009999 }
+  // LiteralNumberIntegerLong
+  .il { color: #009999 }
+  // LiteralNumberOct
+  .mo { color: #009999 }
+  // Operator
+  .o { color: #000000; font-weight: bold }
+  // OperatorWord
+  .ow { color: #000000; font-weight: bold }
+  // Punctuation
+  .p {  }
+  // Comment
+  .c { color: #999988; font-style: italic }
+  // CommentHashbang
+  .ch { color: #999988; font-style: italic }
+  // CommentMultiline
+  .cm { color: #999988; font-style: italic }
+  // CommentSingle
+  .c1 { color: #999988; font-style: italic }
+  // CommentSpecial
+  .cs { color: #999999; font-weight: bold; font-style: italic }
+  // CommentPreproc
+  .cp { color: #999999; font-weight: bold; font-style: italic }
+  // CommentPreprocFile
+  .cpf { color: #999999; font-weight: bold; font-style: italic }
+  // Generic
+  .g {  }
+  // GenericDeleted
+  .gd { color: #000000; background-color: #ffdddd }
+  // GenericEmph
+  .ge { color: #000000; font-style: italic }
+  // GenericError
+  .gr { color: #aa0000 }
+  // GenericHeading
+  .gh { color: #999999 }
+  // GenericInserted
+  .gi { color: #000000; background-color: #ddffdd }
+  // GenericOutput
+  .go { color: #888888 }
+  // GenericPrompt
+  .gp { color: #555555 }
+  // GenericStrong
+  .gs { font-weight: bold }
+  // GenericSubheading
+  .gu { color: #aaaaaa }
+  // GenericTraceback
+  .gt { color: #aa0000 }
+  // GenericUnderline
+  .gl { text-decoration: underline }
+  // TextWhitespace
+  .w { color: #bbbbbb }
+}

@@ -23,7 +23,8 @@ markup:
     renderer:
       unsafe: true
   highlight:
-    codeFences: false
+    codeFences: true
+    noClasses: false
     style: friendly
 
 mediaTypes:

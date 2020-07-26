@@ -13,7 +13,7 @@ tags:
 **Update** - thirteen minutes after I posted this, Carsten pointed out there is another plugin that does this exact same
 thing (and is in fact named the same!).  Go check out [cavemonkey's plugin][cavemonkey].
 
-[cavemonkey]: http://cavemonkey50.com/code/full-feed/
+[cavemonkey]: https://web.archive.org/web/20071107/http://cavemonkey50.com/code/full-feed/
 
 I noticed an interesting phenomenon this last week -- [Mint][] recorded a 400% increase in page hits on Tuesday, the day
 after I made two blog posts about OpenID.  Now it's not unusual for the hits to go up after a new OpenID post since I'm
@@ -30,7 +30,6 @@ wordpress-core changes to include more-tag splitting as a filter on `the_content
 <strike>For now the plugin can be found on my local project page, but I've requested a project space on
 wp-plugins.org.</strike>
 
-[Mint]: http://www.haveamint.com/
-[OpenID Planet feed]: http://planet.openid.net/
+[Mint]: https://haveamint.com/
+[OpenID Planet feed]: https://web.archive.org/web/20071107/http://planet.openid.net
 [more-tag]: http://codex.wordpress.org/Customizing_the_Read_More
-[project page]: /projects/full-feed

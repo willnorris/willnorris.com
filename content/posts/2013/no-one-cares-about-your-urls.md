@@ -22,9 +22,9 @@ actively blog?  Yeah, that's right, on [leahculver.com][].
 The *only* way for you to ensure the integrity and longevity of your content is for you to take ownership of how it is
 accessed.  Do yourself a favor and go buy a domain that you use for publishing your content.
 
-[Posterous shutting down]: http://blog.posterous.com/thanks-from-posterous
+[Posterous shutting down]: https://web.archive.org/web/20130219/http://blog.posterous.com/thanks-from-posterous
 [tantek-comparison]: http://tantek.com/2013/046/t1/sixapart-twitter-pownce-posterous-ownyourdata
-[Pownce shutting down]: http://blog.pownce.com/2008/12/01/goodbye-pownce-hello-six-apart/
+[Pownce shutting down]: https://web.archive.org/web/20130219/http://blog.pownce.com/2008/12/01/goodbye-pownce-hello-six-apart/
 [leahculver.vox.com]: http://leahculver.vox.com/
 [leahculver.typepad.com/vox]: http://leahculver.typepad.com/vox
 [leahculver.typepad.com]: http://leahculver.typepad.com/

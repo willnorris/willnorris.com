@@ -34,5 +34,5 @@ new file, `chmod +x` it, and drop it into /etc/daily to have it run each morning
 
 _(updated 2005-12-21 to reflect new webkit packaging and fix minor bugs)_
 
-[announced]: http://webkit.opendarwin.org/blog/?p=29
-[new site]: http://nightly.webkit.org/builds/
+[announced]: https://web.archive.org/web/20051013/http://webkit.opendarwin.org/blog/?p=29
+[new site]: https://webkit.org/nightly

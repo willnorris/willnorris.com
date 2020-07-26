@@ -14,4 +14,4 @@ browsers, but if this layout looks like crap in your particular browser I'd love
 me know which browser you're using).
 
 [David LeBer]: http://david.codeferous.com/
-[Todd Klassy]: http://www.flickr.com/photos/latitudes/30612777/
+[Todd Klassy]: http://www.flickr.com/photos/latitudes/

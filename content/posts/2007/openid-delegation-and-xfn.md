@@ -28,9 +28,9 @@ different services.  Here's a concrete example of my OpenID delegation links her
 
 I will be updating my [yadis plugin][] to behave in this manner as well.
 
-[FreeYourID]: http://freeyourid.com/
-[will.norris.name]: http://will.norris.name/
+[FreeYourID]: https://web.archive.org/web/20071012/http://freeyourid.com/
+[will.norris.name]: https://web.archive.org/web/20071012/http://will.norris.name/
 [Chris Messina]: http://factoryjoe.com/blog/
-[MyOpenID]: http://myopenid.com/
-[claimID]: http://claimid.com/willnorris
+[MyOpenID]: https://web.archive.org/web/20071012/http://myopenid.com/
+[claimID]: https://web.archive.org/web/20071012/http://claimid.com/willnorris
 [yadis plugin]: /projects/wp-yadis/

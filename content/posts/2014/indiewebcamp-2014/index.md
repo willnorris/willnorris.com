@@ -27,13 +27,12 @@ facepile, rather than a regular comment, but it's definitely good enough for now
 
 We also spent a lot of time talking through the challenges of running a site with HTTPS, and what levels of SSL support
 people should try to achieve and where that fits in with [IndieMark](https://indieweb.org/IndieMark).  I'm not sure
-if all the notes have made it into the wiki yet, but the [etherpad from the session is available][https-etherpad].
+if all the notes have made it into the wiki yet<strike>, but the etherpad from the session is available</strike>.
 
 Finally, I really came to realize that we have a **long** way to go to make it easier for WordPress users to get set up
 on the indie web.  Though I'm happy to report that [Dan Gillmor][], [Scott Jenson][], and [Darius Dunlap][] also got
 their WordPress sites up and running with webmentions and brid.gy.
 
-[https-etherpad]: https://etherpad.mozilla.org/indiewebcamp-https
 [Dan Gillmor]: http://dangillmor.com/2014/03/08/learning-about-and-deploying-indieweb-tools/
 [Scott Jenson]: http://jenson.org/
 [Darius Dunlap]: http://dunlaps.net/darius/2014/03/08/indieweb-camp/

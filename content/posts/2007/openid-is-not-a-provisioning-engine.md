@@ -48,7 +48,7 @@ becomes your console. :)
 [ESB]: http://en.wikipedia.org/wiki/Enterprise_service_bus
 [EMS]: http://en.wikipedia.org/wiki/Enterprise_messaging_system
 [EAI]: http://en.wikipedia.org/wiki/Enterprise_application_integration
-[JEvent]: http://devel.it.su.se/pub/jsp/polopoly.jsp?d=1227
+[JEvent]: https://web.archive.org/web/20071030/http://devel.it.su.se/pub/jsp/polopoly.jsp?d=1227
 [pubsub]: http://www.xmpp.org/extensions/xep-0060.html
 
 The other method of getting at user data is for each relying party to pull the data.  This is the model we use at USC,

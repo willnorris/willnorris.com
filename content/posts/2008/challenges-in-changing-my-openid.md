@@ -63,7 +63,7 @@ from overloading normal HTTP requests where possible.
 [OpenID4Java][] library.  I'm fairly certain all major search engine spiders include a user agent, so this should be a
 fairly safe addition.
 
-[OpenID4Java]: http://openid4java.org
+[OpenID4Java]: https://github.com/jbufu/openid4java
 
 ### Additional Note for FastCGI Users ###
 

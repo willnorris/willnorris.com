@@ -52,7 +52,7 @@ resize images to whatever size I need.  Some of the [extras that Photon supports
 brightness are neat, but I don't ever use them.  Finally, I strongly preferred a service that doesn't rely on URL query
 parameters, since that can have [caching implications][].
 
-That left me with three main services I looked at: [resize.ly][], [embed.ly][], and [cloudinary][].  There are probably
+That left me with three main services I looked at: resize.ly, [embed.ly][], and [cloudinary][].  There are probably
 others as well, but those are the ones I looked at.  Ultimately, I wasn't completely happy with any of them, either
 because of their use of URL query parameters or they charged more than I really wanted to spend for this.  Instead, I
 started looking at self-hosted options.
@@ -61,7 +61,6 @@ started looking at self-hosted options.
 [origin pull]: http://www.whoishostingthis.com/blog/2010/06/30/cdns-push-vs-pull/
 [photon-extras]: http://developer.wordpress.com/docs/photon/api/
 [caching implications]: http://www.stevesouders.com/blog/2008/08/23/revving-filenames-dont-use-querystring/
-[resize.ly]: https://resize.ly/
 [embed.ly]: http://embed.ly/display
 [cloudinary]: http://cloudinary.com/
 
@@ -94,7 +93,7 @@ service myself (versus just deploying my code to App Engine or something), so th
 The final result is just [a few hundred lines of Go code][willnorris/imageproxy], utilizing [gregjones/httpcache][]
 together with [peterbourgon/diskv] for caching remote images on disk, and [disintegration/imaging] for basic image
 manipulation like resizing and rotation.  All options are specified in the URL path, mimicking the format that
-[resize.ly][] uses, and it supports whitelisting of remote hosts, so the instance that I run is locked down to only
+resize.ly uses, and it supports whitelisting of remote hosts, so the instance that I run is locked down to only
 serve images from my own sites.  And because it's written in Go, it compiles to a statically linked binary that is
 incredibly simple to deploy and manage; I've included the [upstart init script][] I use on my Ubuntu server.
 

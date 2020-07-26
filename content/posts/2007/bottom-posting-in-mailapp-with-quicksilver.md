@@ -25,4 +25,4 @@ as triggers within Quicksilver for use specifically within Mail.app.
 
 [his applescript]: http://daringfireball.net/2007/07/non_top_posting_scripts
 [FastScripts]: http://www.red-sweater.com/fastscripts/
-[Quicksilver]: http://quicksilver.blacktree.com/
+[Quicksilver]: https://qsapp.com/

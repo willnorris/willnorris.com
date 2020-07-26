@@ -76,4 +76,4 @@ Also on WordPress Extend: <http://wordpress.org/extend/plugins/hum/>
 [partitioning]: http://ttk.me/w/Whistle#design
 [read the source]: https://github.com/willnorris/wordpress-hum
 
-[IndieWebCamp]: http://plancast.com/p/3cos/indiewebcamp
+[IndieWebCamp]: https://web.archive.org/web/20110127/http://plancast.com/p/3cos/indiewebcamp

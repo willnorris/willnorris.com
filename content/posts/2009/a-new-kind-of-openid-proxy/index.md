@@ -16,7 +16,7 @@ things that has always bothered me about the prospect of sites **requiring** the
 means I can no longer use my self-hosted OpenID to login.  Currently, I have the [WordPress OpenID plugin][] installed,
 and I use it as [my sole OpenID provider][].  While the plugin does support identifier select (mainly for blogs which
 have multiple authors), it does not support directed identity.  But even if it did, it wouldn't make much sense... an
-OpenID URL of the form "http://willnorris.com/openid/9eb4d59c1d488a4" doesn't do a very good job of masking who it
+OpenID URL of the form `http://willnorris.com/openid/9eb4d59c1d488a4` doesn't do a very good job of masking who it
 belongs to.  No matter how opaque the path, the URL is still rooted at the authority "willnorris.com" which means it can
 belong to only one person -- me.  
 
@@ -84,10 +84,10 @@ sufficient.  I think we need a system that protects user privacy as a technical 
 decision.  We need a system that couldn't reveal the identity of a user even if the Chief Justice himself were to order
 it.
 
-[MyOpenID]: http://myopenid.com/
+[MyOpenID]: https://web.archive.org/web/20090803/http://myopenid.com/
 [directed identity implementations]: /2009/08/best-practices-with-directed-identity
-[shortening cookies]: http://broadcast.oreilly.com/2009/07/shortening-cookies-using-openi.html
-[privacy and government]: http://radar.oreilly.com/2009/08/privacy-and-open-government-co.html
+[shortening cookies]: https://web.archive.org/web/20090803/http://broadcast.oreilly.com/2009/07/shortening-cookies-using-openi.html
+[privacy and government]: https://web.archive.org/web/20090803/http://radar.oreilly.com/2009/08/privacy-and-open-government-co.html
 [maintain and respect my privacy]: http://www.google.com/search?q=warrantless+wiretapping
 
 
@@ -136,9 +136,9 @@ trusted to do everything possible to protect user privacy.  It's also worth noti
 suggests that there would be only one OpenID proxy... there can, and should, be several proxies for user's to choose
 from, all using these same (or similar) techniques.
 
-[Emailtoid]: http://emailtoid.net/
-[RPX]: https://rpxnow.com/
-[Vidoop Connect]: http://vidoop.com/vidoopconnect/
+[Emailtoid]: https://web.archive.org/web/20090803/http://emailtoid.net/
+[RPX]: https://web.archive.org/web/20090803/https://rpxnow.com/
+[Vidoop Connect]: https://web.archive.org/web/20090803/http://vidoop.com/vidoopconnect/
 
 
 ## Adding user salt ##
@@ -148,7 +148,7 @@ straight-forward, but also a little more difficult for some users.  If Alice's O
 directed identity to the OpenID proxy, that would be sufficient for salting the proxy's hashing algorithm.  So long as
 that directed identity is not being stored by the proxy, there would be no way to trace back any identifiers the proxy
 generates.  It's worth noting that in this case, a self-hosted directed identity actually would be sufficient.  Remember
-earlier when I mentioned that the URL "http://willnorris.com/openid/9eb4d59c1d488a4" wouldn't do much for protecting my
+earlier when I mentioned that the URL `http://willnorris.com/openid/9eb4d59c1d488a4` wouldn't do much for protecting my
 identity?  That is true, but for the purposes of salting the proxy's hashing algorithm, it would work just fine.  But
 this of course still requires that the user have access to an OpenID provider that supports directed identity.  The
 WordPress OpenID plugin which I use does not currently, so this wouldn't work for me.
@@ -175,8 +175,8 @@ would no longer appear as the same user at OSHA.gov.
 
 So there are some additional practical matters that I think must be considered for this solution to truly work.  First
 of all, *what happens if the proxy's secret salt is compromised?*  This would certainly be a bad thing, but not quite as
-bad as it would be in a standard directed identity situation.  Remember in our final algorithm from [last time][directed
-identity implementations], the secret salt was the one and only key that protected the privacy of the user in a
+bad as it would be in a standard directed identity situation.  Remember in our final algorithm from 
+[last time][directed identity implementations], the secret salt was the one and only key that protected the privacy of the user in a
 generated directed identifier.  If the salt is compromised by a party, they could then brute-force the hashing algorithm
 and identify the true identity of a user associated with a directed identifier.  But remember that one of the goals of
 the proxy is to protect the true identity of the user from even the proxy itself... that's why we added the user salt.
@@ -196,13 +196,13 @@ trust the site that is asking them to authenticate, and additionally if they wan
 to the party.  The relying party is identified using a URL known as the "trust root".  So a user may see a prompt
 (borrowing from MyOpenID's language) along the lines of:
 
-> You are signing in to **proxy.example.net/** as **http://alice.example.org/**.
+> You are signing in to `proxy.example.net/` as `http://alice.example.org/`.
 
 Traditionally, the decision that Alice makes here is recorded so that she is not prompted each time she logs in.  So if
 she wants to make a different decision depending on which site she is logging in to, then the OpenID proxy would need to
 change its trust root.  One example might result in a prompt that looks like:
 
-> You are signing in to **proxy.example.net/site/osha.gov** as **http://alice.example.org/**.
+> You are signing in to `proxy.example.net/site/osha.gov` as `http://alice.example.org/`.
 
 This would record her decision specifically for "OSHA.gov via proxy.example.net".  Using this method, she could easily
 release different attributes for different relying parties, without any changes to her OpenID provider whatsoever.

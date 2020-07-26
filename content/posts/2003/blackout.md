@@ -13,6 +13,6 @@ northeast.
 
 [update] i also came across these [before][] and [after][] photos from the NOAA (thanks to slashdot).
 
-[here]: http://gregpalast.com/printerfriendly.cfm?artid=257
-[before]: http://www.noaanews.noaa.gov/nightlights/blackout081403-20hrsbefore-text.jpg
-[after]: http://www.noaanews.noaa.gov/nightlights/blackout081503-7hrsafter-text.jpg
+[here]: https://web.archive.org/web/20030816/http://www.gregpalast.com/printerfriendly.cfm?artid=257
+[before]: https://web.archive.org/web/20030816/http://www.noaanews.noaa.gov/nightlights/blackout081403-20hrsbefore-text.jpg
+[after]: https://web.archive.org/web/20030816/http://www.noaanews.noaa.gov/nightlights/blackout081503-7hrsafter-text.jpg

@@ -32,9 +32,9 @@ seamless to the end user -- that's the way URIs were meant to be.  If you have u
 community a favor -- fix them now, (but [don't break your old links][broken urls]).  (If you happen to notice any broken
 or missing links on the new site, please comment below.)
 
-[michael heilemann]: http://binarybonsai.com/
-[kubrick]: http://binarybonsai.com/kubrick/
-[ciro]: http://www.flickr.com/photos/ciro/
+[michael heilemann]: https://binarybonsai.com/
+[kubrick]: https://web.archive.org/web/20050518/http://binarybonsai.com/kubrick/
+[ciro]: https://www.flickr.com/photos/ciro/
 [creative commons]: https://creativecommons.org/
-[cool uri]: http://www.w3.org/Provider/Style/URI.html
+[cool uri]: https://www.w3.org/Provider/Style/URI.html
 [broken urls]: /2005/01/cooluris

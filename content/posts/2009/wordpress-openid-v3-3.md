@@ -40,7 +40,7 @@ know.  Please use the [DiSo issue tracker][] to report any new bugs, or to remin
 not fixed in this release.
 
 [WordPress OpenID plugin]: http://wordpress.org/extend/plugins/openid
-[EAUT]: http://eaut.org/
+[EAUT]: https://web.archive.org/web/20090928/http://eaut.org/
 [IDIB]: http://code.google.com/p/idib/
 [WebFinger]: http://code.google.com/p/webfinger/
 [DiSo issue tracker]: http://code.google.com/p/diso/issues

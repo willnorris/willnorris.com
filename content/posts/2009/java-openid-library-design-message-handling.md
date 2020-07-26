@@ -36,8 +36,8 @@ it written down in *some* form.)
 [JOID]: http://code.google.com/p/joid/
 [OpenID4Java]: http://code.google.com/p/openid4java/
 [my post]: http://groups.google.com/group/openid4java/browse_thread/thread/f0775348b3b7f3f/f93d22fe21a6e37e
-[OpenSSO]: https://opensso.dev.java.net/
-[PIP]: https://pip.verisignlabs.com/
+[OpenSSO]: https://en.wikipedia.org/wiki/OpenAM
+[PIP]: https://web.archive.org/web/20091113/https://pip.verisignlabs.com/
 
 
 ## Message Handling Flow ##
@@ -106,12 +106,12 @@ anything about this prefix, and quite frankly it's the only part that should.
 Okay, so now that we have our ParameterMap, it needs to be converted into an actual message object, which is the job for
 a MessageUnmarshaller.
 
-[ParameterMap]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/common/ParameterMap.java?view=markup
+[ParameterMap]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/common/ParameterMap.java
 [LinkedHashMap]: http://java.sun.com/j2se/1.5.0/docs/api/java/util/LinkedHashMap.html
 [QName]: http://java.sun.com/j2se/1.5.0/docs/api/javax/xml/namespace/QName.html
-[MessageDecoder]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/encoding/MessageDecoder.java?view=markup
+[MessageDecoder]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/encoding/MessageDecoder.java
 [URL Form encoding]: http://openid.net/specs/openid-authentication-2_0.html#rfc.section.4.1.2
-[URLFormCodec]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/encoding/impl/URLFormCodec.java?view=markup
+[URLFormCodec]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/encoding/impl/URLFormCodec.java
 
 
 ### Unmarshalling messages ###
@@ -134,12 +134,12 @@ used during transport.  Really all that's being represented is a list of attribu
 URIs.  It's the [FetchRequestUnmarshaller][] that is responsible for taking the AX message parameters, dereferencing the
 attribute aliases, and populating the FetchRequest object appropriately.
 
-[Message unmarshallers]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/io/MessageUnmarshaller.java?view=markup
+[Message unmarshallers]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/io/MessageUnmarshaller.java
 [DHPublicKey]: http://java.sun.com/j2se/1.5.0/docs/api/javax/crypto/interfaces/DHPublicKey.html
-[AssociationRequest]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/AssociationRequest.java?view=markup
-[AssociationRequestUnmarshaller]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/impl/AssociationRequestUnmarshaller.java?view=markup
-[FetchRequest]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/extensions/ax/FetchRequest.java?view=markup
-[FetchRequestUnmarshaller]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/extensions/ax/impl/FetchRequestUnmarshaller.java?view=markup
+[AssociationRequest]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/AssociationRequest.java
+[AssociationRequestUnmarshaller]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/impl/AssociationRequestUnmarshaller.java
+[FetchRequest]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/extensions/ax/FetchRequest.java
+[FetchRequestUnmarshaller]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/extensions/ax/impl/FetchRequestUnmarshaller.java
 
 
 ### Reversing the process ###
@@ -150,12 +150,12 @@ through a [MessageEncoder][] that produces some kind of transport specific forma
 string, as is the case with direct responses, it may be a URL suitable for redirecting the user to, or it may be an HTML
 response to use for HTML form submission.
 
-[MessageMarshaller]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/io/MessageMarshaller.java?view=markup
-[MessageEncoder]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/encoding/MessageEncoder.java?view=markup
+[MessageMarshaller]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/io/MessageMarshaller.java
+[MessageEncoder]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/encoding/MessageEncoder.java
 
 
 ## Uniformity over brevity ##
 
 Depending on how you separate them, there are roughly nine different message types in the core OpenID 2.0 spec, and for each of these message types, the Internet2 library has five files that handle the processing.  There's the message interface, the concrete implementation, the message builder (which I didn't actually talk about in this post), the message marshaller, and the message unmarshaller.  At times all these files may seem needlessly verbose, especially when you see that some of them are only a few lines long.  It turns out that this separation doesn't necessarily result in more lines of code, just that the code is broken up into smaller chunks.  Besides, the goal here is not conciseness.  The goal is uniformity and predictability in how messages are processed, as well as clean, logical separation of duties.  When every message is processed in exactly the same way, bugs tend to expose themselves much earlier in the process, and strange edge cases are far rarer.  When things are logically separated, it makes the overall architecture much easier to understand.  And perhaps more importantly, it makes it possible to fully understand one part of the library without needing to be concerned with others.  You can go in and look at the code for [signing messages][], and not have to wade through code dealing with transport encodings.
 
-[signing messages]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/security/SecurityUtils.java?view=markup
+[signing messages]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/security/SecurityUtils.java

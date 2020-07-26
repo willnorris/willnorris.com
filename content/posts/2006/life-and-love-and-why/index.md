@@ -68,7 +68,7 @@ had.  I would have been continuing with the project I've been working on the las
 ways in medical and government applications.  I'd be contributing to cancer research projects, helping secure
 inter-departmental communication within the national government -- it's what I like to refer to as "saving the world"
 type of stuff.  On top of that I love DC, love politics, and would only be a couple of hours away from my brother and
-[his family][] in North Carolina.
+his family in North Carolina.
 
 This isn't to say that I'm at all disappointed in the job at USC, quite the contrary in fact.  I say all this now so
 that when I tell you that I'm moving to California for a girl, you can understand that this is not a whimsical,
@@ -78,7 +78,6 @@ wasn't serious.  We're being very deliberate to keep our friends, families, and 
 to make sure we do this right.  Right now she's in school at [SDSU][] working on a bachelor's degree in business.
 Hopefully she'll be graduating Spring 2007, and after that... well, all in good time.
 
-[his family]: http://www.flickr.com/photos/wnorris/sets/399105/
 [sdsu]: http://www.sdsu.edu/
 
 

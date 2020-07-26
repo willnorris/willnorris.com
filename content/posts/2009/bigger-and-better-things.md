@@ -48,5 +48,5 @@ We've setup an internal mailing list so if you've got a position or two open, pl
 along.
 
 [few in particular]: http://en.wikipedia.org/wiki/Telecast_(band)
-[official announcement]: http://blog.vidoop.com/2009/05/company-update/
+[official announcement]: https://web.archive.org/web/20090512/http://blog.vidoop.com/2009/05/company-update/
 [updated resume]: /about/resume

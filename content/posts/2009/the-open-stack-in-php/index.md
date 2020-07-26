@@ -27,7 +27,7 @@ Control.
 </figure>
 
 [DiSo Project]: http://diso-project.org/
-[Johannes Ernst's]: http://netmesh.info/jernst/2008/11/05
+[Johannes Ernst's]: https://web.archive.org/web/20090319/http://netmesh.info/jernst/2008/11/05
 [John McCrea's]: http://www.flickr.com/photos/56624456@N00/3020508770/
 
 ## PHP ##
@@ -120,14 +120,14 @@ see it rely on a separate library for discovery.
 [xrds-simple Google Code repository]: http://code.google.com/p/xrds-simple/source/browse/code/php/XrdsSimpleParser.php
 [openid-discovery]: http://github.com/bce/php-openid/tree/master/Auth/Yadis
 [oauth-discovery]: http://code.google.com/p/oauth-php/source/browse/trunk/library/discovery/xrds_parse.php
-[Eran Hammer-Lahav]: http://www.hueniverse.com/
+[Eran Hammer-Lahav]: https://web.archive.org/web/20090319/http://www.hueniverse.com/
 [Yadis]: http://yadis.org/
 [XRDS]: http://en.wikipedia.org/wiki/XRDS
 [OAuth Discovery]: http://oauth.net/discovery/
 [XRDS-Simple]: http://xrds-simple.net/
 [OASIS XRI TC]: http://www.oasis-open.org/committees/xri/
-[LRDD]: http://www.hueniverse.com/hueniverse/2009/03/the-discovery-protocol-stack.html
-[XRD]: http://www.hueniverse.com/hueniverse/2009/03/xrd-document-structure.html
+[LRDD]: https://web.archive.org/web/20090319/http://www.hueniverse.com/hueniverse/2009/03/the-discovery-protocol-stack.html
+[XRD]: https://web.archive.org/web/20090319/http://www.hueniverse.com/hueniverse/2009/03/xrd-document-structure.html
 [XRDS-Simple library]: http://github.com/willnorris/php-xrd/tree/master
 [separate branch]: http://github.com/willnorris/php-xrd/tree/XRD
 

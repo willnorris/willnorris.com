@@ -21,4 +21,4 @@ So I just got an email about [GopherCon][]'s Significant Other and Family Track:
 This is amazingly cool!  I don't think I've ever seen a conference that specifically planned
 something like this for families.
 
-[GopherCon]: https://gophercon.com/
+[GopherCon]: https://www.gophercon.com/

@@ -22,4 +22,4 @@ Information Technology, 2007][study]</cite>.
 
 I'd highly recommend this to any technology firm targeting the college demographic.
 
-[study]: http://connect.educause.edu/library/abstract/TheECARStudyofUnderg/45075
+[study]: https://web.archive.org/web/20070911/http://connect.educause.edu/library/abstract/TheECARStudyofUnderg/45075

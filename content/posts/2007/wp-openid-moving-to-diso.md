@@ -27,7 +27,7 @@ at wp-plugins will also be moved over to Google Code, which should provide some 
 you're interested in following the progress of wp-openid or the other DiSo projects, feel free to join the [DiSo Google
 Group][].
 
-[Steve Ivy]: http://redmonk.net/archives/2007/12/05/diso/
+[Steve Ivy]: https://web.archive.org/web/20071210/http://redmonk.net/archives/2007/12/05/diso/
 [Chris Messina]: http://factoryjoe.com/blog/2007/12/06/oauth-10-openid-20-and-up-next-diso/
 [DiSo Project]: http://www.diso-project.org/
 [WordPress]: http://wordpress.org/

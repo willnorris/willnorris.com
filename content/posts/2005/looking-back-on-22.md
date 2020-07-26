@@ -23,7 +23,7 @@ certainly wasn't the flux I had imagined it would be.  I'm quite some distance f
 despondent about it, but rather that I know (hope) my best years are ahead of me and really wish they'd hurry the hell
 up and get here!
 
-[UofM]: http://www.memphis.edu
-[Hedmaster]: /projects/
-[Visible School]: http://www.visibleschool.com
-[not in a relationship]: http://quirkyalone.net/qa/about.php
+[UofM]: https://www.memphis.edu/
+[Hedmaster]: https://web.archive.org/web/2005/https://willnorris.com/projects/hedmaster
+[Visible School]: https://visible.edu/
+[not in a relationship]: http://quirkyalone.net/index.php/about-2/

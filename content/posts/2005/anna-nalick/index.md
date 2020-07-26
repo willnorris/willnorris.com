@@ -55,6 +55,6 @@ Anna Nalick "get's it".  Amazing natural talent, welcoming stage presence, and a
 personable with her fans -- if this is any indication of how other aspects of her career are handled now and in the
 future, she's certainly going to make it big.  (And in case you hadn't noticed, she's quite pretty too!)
 
-[Top Artists]: http://www.audioscrobbler.com/user/hugwill#topartists
-[her online journal]: http://www.annanalick.com
-[we were taking a picture]: http://www.flickr.com/photos/wnorris/23182954/in/photostream/
+[Top Artists]: https://last.fm/user/hugwill#topartists
+[her online journal]: https://www.annanalick.com
+[we were taking a picture]: https://www.flickr.com/photos/wnorris/23182954/in/photostream/

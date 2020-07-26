@@ -27,10 +27,10 @@ it [on their site][].  And just in case there was ever any doubt as to the amoun
 into their online services, they've even published a [best practices][] guide.  When it comes to publishers, _they_ get
 it.
 
-[apple]: http://www.apple.com
-[lenny's sub shop]: http://www.lennyssubshop.com/
-[gotee records]: http://www.gotee.com
-[visible school]: http://www.visibleschool.com
-[esv]: http://www.gnpcb.org/esv/
-[on their site]: http://www.biblegateway.com
-[best practices]: http://www.gnpcb.org/esv/share/about/
+[apple]: https://www.apple.com
+[lenny's sub shop]: https://www.lennys.com/
+[gotee records]: https://www.gotee.com
+[visible school]: https://visible.edu/
+[esv]: https://www.esv.org/
+[on their site]: https://www.biblegateway.com/
+[best practices]: https://web.archive.org/web/20110805185144/http://www.gnpcb.org/esv/share/about/

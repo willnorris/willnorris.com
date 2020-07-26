@@ -19,7 +19,7 @@ tripod and getting the manual focus adjustment just right.  But there's still so
 amazing about seeing it directly through a scope yourself versus just seeing pictures.
 
 [Elisabeth]: https://notsoserendipitous.com/
-[Celestron Ultima 100]: http://www.celestron.com/browse-shop/sport-optics/spotting-scopes/ultima-100-45-degree-spotting-scope
+[Celestron Ultima 100]: https://www.celestron.com/products/ultima-100-45-degree-spotting-scope
 
 <figure>
   <a href="moon.jpg"><img src="moon.jpg" alt="close-up photo of the moon"></a>

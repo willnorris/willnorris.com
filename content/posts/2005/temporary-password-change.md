@@ -20,4 +20,4 @@ Directory][] does some weird things with the password attribute in LDAP so I'm n
 but it's certainly an idea worth pursuing.
 
 [visible school]: http://www.visibleschool.com
-[open directory]: http://www.apple.com/server/macosx/open_directory.html
+[open directory]: https://web.archive.org/web/20050422/http://www.apple.com/server/macosx/open_directory.html

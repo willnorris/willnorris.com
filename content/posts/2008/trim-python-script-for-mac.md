@@ -28,7 +28,7 @@ includes the shortened URL along with some other data.  Quickly realizing that A
 well, I decided that this would be a good opportunity to start learning Python.  The result was the following Python
 script:
 
-<http://willnorris.com/svn/homedir/packages/tools/local/bin/trimURL>
+<https://github.com/willnorris/dotfiles/blob/e7a2759/packages/tools/local/bin/trimURL>
 
 It follows the same flow as mentioned above, making use of a couple of Python modules (which are required for running
 this script): [simplejson][] and [appscript][].  Put this script in a directory that Quicksilver scans (I think the
@@ -36,7 +36,7 @@ Terminal Quicksilver plugin is also required).  If you want to authenticate to t
 your `~/.netrc` file.  I also set the script's file icon to be the [tr.im icon][], so it will be displayed in the Growl
 notification.
 
-[Quicksilver]: http://www.blacktree.com/
+[Quicksilver]: https://qsapp.com/
 [xrl.us]: http://xrl.us/
 [bit.ly]: http://bit.ly/
 [Twitterific]: http://iconfactory.com/software/twitterrific
@@ -44,4 +44,4 @@ notification.
 [tr.im]: http://tr.im/
 [simplejson]: http://pypi.python.org/pypi/simplejson
 [appscript]: http://appscript.sourceforge.net/
-[tr.im icon]: /svn/homedir/packages/tools/local/bin/.trim.png
+[tr.im icon]: https://github.com/willnorris/dotfiles/blob/e7a2759/packages/tools/local/bin/.trim.png

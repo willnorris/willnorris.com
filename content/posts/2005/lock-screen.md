@@ -23,5 +23,5 @@ the default in locktight and I'm kinda used to it)
 
 
 [locktight]: http://mac.pieters.cx/
-[quicksilver]: http://quicksilver.blacktree.com/
-[this hint]: http://www.macosxhints.com/article.php?story=20050706194219822
+[quicksilver]: https://qsapp.com/
+[this hint]: https://web.archive.org/web/20050718/http://www.macosxhints.com/article.php?story=20050706194219822

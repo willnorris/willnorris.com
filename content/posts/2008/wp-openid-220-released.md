@@ -16,7 +16,7 @@ I've just released version 2.2.0 of the OpenID plugin for WordPress.  Notable ad
  - POST replay for comments - this should fix all the compatibility issues with other comment related plugins like
  reCaptcha.
  - MUCH better memory usage - like no longer needlessly building a 2MB object on every page load!
- - support for [Email Address to URL Transformation](http://eaut.org) - now you can use an email address anywhere you
+ - support for [Email Address to URL Transformation][eaut] - now you can use an email address anywhere you
  normally use an OpenID
  - fixed [OpenID Spoofing vulnerability](http://plugins.trac.wordpress.org/ticket/702) - users' profile URLs must match
  one of their OpenIDs
@@ -32,3 +32,5 @@ know if you find any problems.
 
 With this out the door, I'll be jumping right into my feature list for the next major release -- adding a native OpenID
 Server and delegation capabilities.  At that point, it should be able to handle all of your OpenID related needs.
+
+[eaut]: https://web.archive.org/web/20080723/http://eaut.org

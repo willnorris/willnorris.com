@@ -17,4 +17,4 @@ classes, etc.  Granted, it'd be just as easy to hand out a syllabus at the begin
 resources available on a website somewhere, but I just like the idea of all the assignments of all of my classes waiting
 for me in my RSS reader.
 
-[Appcasting]: http://www.speirs.org/appcasting/
+[Appcasting]: https://web.archive.org/web/20050707/https://fraserspeirs.livejournal.com/835238.html

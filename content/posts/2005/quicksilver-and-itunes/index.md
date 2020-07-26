@@ -14,7 +14,7 @@ I'm generally a big fan of the Unix axiom of applications doing one thing and do
 applications is running all the time and takes up 20MB of active memory I tend to make an exception and [Quicksilver][]
 is providing an excellent alternative to several smalls apps I use.
 
-[Quicksilver]: http://quicksilver.blacktree.com
+[Quicksilver]: https://qsapp.com/
 
 I originally used [MenuTunes][], and most recently [Synergy][] to provide global "hotkeys" to do some simple things like
 play/pause iTunes, skip to next or previous track, and display some information about the current track.  Quicksilver's
@@ -93,5 +93,5 @@ end tell
 ```
 
 [Growl]: http://www.growl.info/
-[MenuTunes]: http://www.ithinksw.com/products/menutunes/
-[Synergy]: http://synergy.wincent.com/
+[MenuTunes]: http://ithinksw.com/menutunes
+[Synergy]: https://wincent.com/products/synergy

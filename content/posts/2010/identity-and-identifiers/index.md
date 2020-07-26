@@ -33,9 +33,9 @@ names for my brother and me, they went through all the possible nicknames and ma
 Occasionally my mom would slip and call me William, and I remember that I used to get really mad about that.  I don't
 think my grandparents ever stopped calling me William, but after a while I got over it.
 
-[Abraham]: http://read.ly/gen17.5.nkjv
-[Israel]: http://read.ly/gen32.28.nkjv
-[Paul]: http://read.ly/acts13.9.nkjv
+[Abraham]: https://www.esv.org/gen17:5
+[Israel]: https://www.esv.org/gen32:28
+[Paul]: https://www.esv.org/acts13:9
 [new Islamic name]: http://islamqa.com/en/ref/23273
 [regnal name]: http://en.wikipedia.org/wiki/Regnal_name
 
@@ -97,8 +97,8 @@ third-level .name to a different registrar (in fact, most registrars won't even 
 My domain was scheduled to expire in a few weeks, and I would have liked to just let it go so I don't have to spend the
 $35, but there's a little problem...
 
-[launched]: http://blog.janrain.com/2007/02/openid-name-great-news.html
-[MyOpenID]: http://www.myopenid.com/
+[launched]: https://web.archive.org/web/20100101/http://janrain.com/blogs/2007/02/openid-name-great-news.html
+[MyOpenID]: https://web.archive.org/web/20100101/http://www.myopenid.com/
 [I grabbed]: /2007/02/free-your-id
 [landing page]: http://web.archive.org/web/20080307175926/http://will.norris.name/
 [polled my friends]: /2008/11/consolidating-domains
@@ -126,8 +126,8 @@ be fair parties to place the blame on, but this post isn't about placing blame. 
 technologists developing and deploying this stuff to start thinking through the entire account lifecycle.
 
 [Disqus]: http://disqus.com/
-[Clickpass]: http://clickpass.com/
-[Pibb]: http://pibb.com/
+[Clickpass]: https://web.archive.org/web/20100101/http://clickpass.com/
+[Pibb]: https://web.archive.org/web/2008/http://pibb.com/
 [blame the OpenID protocol]: http://groups.google.com/group/openid/browse_thread/thread/14be357ff51029c1/388ace21c099a221?#388ace21c099a221
 [XRI]: http://en.wikipedia.org/wiki/Extensible_Resource_Identifier
 
@@ -156,7 +156,7 @@ well, have considered doing the same.
 I guess my point is just this.  Identity is important.  And identifiers change.  So we need to be ready for that as we
 continue to build the "social web".
 
-[they announced]: http://web.archive.org/web/20080523225546/blog.vidoop.com/archives/111
+[they announced]: https://web.archive.org/web/20100101/blog.vidoop.com/archives/111
 [WordCamp]: http://wordcamp.org/
 [Chris Messina]: http://factoryjoe.com/blog/2009/03/02/rip-factoryjoe/
 [Tom Coates]: http://twitter.com/plasticbagUK/status/6037730041

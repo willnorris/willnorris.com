@@ -62,8 +62,8 @@ should be relatively simple to instead hook into a simple whitelist managed with
 service like [BotBouncer][] or [Jyte][].  In fact, I have an idea for one such service rolling around in my head, which
 will hopefully be integrated into a future version of the plugin.
 
-[BotBouncer]: http://botbouncer.com/
-[Jyte]: http://jyte.com/
+[BotBouncer]: https://web.archive.org/web/20071022/http://botbouncer.com/
+[Jyte]: https://web.archive.org/web/20071022/http://www.jyte.com/
 
 All of this is implemented in subversion, so grab a copy from [trunk][] and see how you like it.
 

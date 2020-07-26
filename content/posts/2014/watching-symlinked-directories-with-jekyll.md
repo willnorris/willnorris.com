@@ -28,4 +28,4 @@ seems to work pretty well.
 [listen gem]: https://github.com/guard/listen
 [have struggled with]: https://github.com/guard/listen/issues/25
 [different philosophies]: https://github.com/jekyll/jekyll/issues/1469#issuecomment-23831358
-[symlink_watcher]: https://github.com/willnorris/willnorris.com/blob/master/src/_plugins/symlink_watcher.rb
+[symlink_watcher]: https://github.com/willnorris/willnorris.com/blob/jekyll/src/_plugins/symlink_watcher.rb

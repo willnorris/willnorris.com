@@ -15,7 +15,7 @@ work on.  This becomes more complicated considering what I use... my personal ma
 on Linux, and my primary development machine at UofM is SunOS.  Additionally, there are certain settings I want on all
 Visible School machines (regardless of OS or hostname) but no others.  Additionally, I like to have a minimalistic
 terminal prompt, so I use color to know what host I'm connected to.  What I ended up with is this
-[`~/.bashrc`](https://github.com/willnorris/dotfiles/blob/master/bash/.bashrc)
+[`~/.bashrc`](https://github.com/willnorris/dotfiles/blob/38e4ebd/bash/.bashrc)
 
 This file is basically a launchpad for all of my other files, so let me explain how this all works line by line...
 
@@ -32,7 +32,7 @@ administrator may setup PATHs specific to this machine.
 
     [ -f ~/.bash/all ] && [ -r ~/.bash/all ] && source ~/.bash/all
 
-[`~/.bash/all.pre.login`](https://github.com/willnorris/dotfiles/blob/master/bash/.bash/all.pre.login) contains things
+[`~/.bash/all.pre.login`](https://github.com/willnorris/dotfiles/blob/38e4ebd/bash/.bash/all.pre.login) contains things
 that should be used by all machines...  things like my name, default editor, various aliases, etc, as well as a custom
 function to setup my prompt
 

@@ -10,5 +10,5 @@ flexible system... so far i'm liking it a lot.  So maybe this means I'll get aro
 week like I had hoped at one time... we'll see.  Not much time to get into stuff right now, seeing as how it is almost
 six in the morning - will have to do some updating when I get to work.
 
-[movabletype]: http://www.movabletype.org
-[blosxom]: http://www.blosxom.com
+[movabletype]: https://www.movabletype.org
+[blosxom]: http://blosxom.sf.net/

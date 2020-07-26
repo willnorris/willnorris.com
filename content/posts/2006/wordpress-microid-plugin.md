@@ -86,7 +86,7 @@ all this in this fashion actually helped clear it up in my head as well).
 
 [Richard's post]: http://www.richardkmiller.com/blog/archives/2006/03/microid-plugin-for-wordpress
 [microID blog]: http://microid.org/blog/?p=8
-[Jeremie]: http://jeremie.com/
+[Jeremie]: https://web.archive.org/web/20060707/http://jeremie.com/blog/
 [microID homepage]: http://microid.org/
 [claimID]: http://claimid.com/
 [FAQ]: http://microid.org/blog/?p=5

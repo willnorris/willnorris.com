@@ -11,7 +11,7 @@ image:
 As I fully expected, I did much less reading this year than in previous years.  Having
 [a newborn](/2015/02/gabriel-update) will do that do you.
 
-**<cite>[Xenocide](http://www.hatrack.com/osc/books/xenocide/xenocide.shtml), Orson Scott Card</cite>**.
+**<cite>[Xenocide](http://www.hatrack.com/osc/books/xenocide/), Orson Scott Card</cite>**.
 This is the third book in the Ender's Game series, and maybe the last I'll read for a little while.
 I actually really enjoyed how the story developed in distinct parts on different worlds, only to be
 brought back together toward the end.  But the resolution to the final conflict was just too

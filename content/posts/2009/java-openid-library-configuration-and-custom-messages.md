@@ -50,18 +50,18 @@ name like it does in the [ParameterMap][], instead it is just a container for a 
 Perhaps this is technically a misuse of the QName object, but it's working fine for now.  A static instance of each
 factory is available from the [Configuration][] class.
 
-[AuthenticationRequest]: http://svn.middleware.georgetown.edu/view/java-openid/trunk/src/main/java/edu/internet2/middleware/openid/message/AuthenticationRequest.java?view=markup
-[AuthenticationRequestImpl]: http://svn.middleware.georgetown.edu/view/java-openid/trunk/src/main/java/edu/internet2/middleware/openid/message/impl/AuthenticationRequestImpl.java?view=markup
-[AuthenticationRequestBuilder]: http://svn.middleware.georgetown.edu/view/java-openid/trunk/src/main/java/edu/internet2/middleware/openid/message/impl/AuthenticationRequestBuilder.java?view=markup
-[AuthenticationRequestMarshaller]: http://svn.middleware.georgetown.edu/view/java-openid/trunk/src/main/java/edu/internet2/middleware/openid/message/impl/AuthenticationRequestMarshaller.java?view=markup
-[AuthenticationRequestUnmarshaller]: http://svn.middleware.georgetown.edu/view/java-openid/trunk/src/main/java/edu/internet2/middleware/openid/message/impl/AuthenticationRequestUnmarshaller.java?view=markup
-[AuthenticationRequestValidator]: http://svn.middleware.georgetown.edu/view/java-openid/trunk/src/main/java/edu/internet2/middleware/openid/message/impl/AuthenticationRequestValidator.java?view=markup
-[MessageBuilderFactory]: http://svn.middleware.georgetown.edu/view/java-openid/trunk/src/main/java/edu/internet2/middleware/openid/message/MessageBuilderFactory.java?view=markup
-[MessageMarshallerFactory]: http://svn.middleware.georgetown.edu/view/java-openid/trunk/src/main/java/edu/internet2/middleware/openid/message/io/MessageMarshallerFactory.java?view=markup
-[MessageUnmarshallerFactory]: http://svn.middleware.georgetown.edu/view/java-openid/trunk/src/main/java/edu/internet2/middleware/openid/message/io/MessageUnmarshallerFactory.java?view=markup
+[AuthenticationRequest]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/AuthenticationRequest.java
+[AuthenticationRequestImpl]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/impl/AuthenticationRequestImpl.java
+[AuthenticationRequestBuilder]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/impl/AuthenticationRequestBuilder.java
+[AuthenticationRequestMarshaller]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/impl/AuthenticationRequestMarshaller.java
+[AuthenticationRequestUnmarshaller]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/impl/AuthenticationRequestUnmarshaller.java
+[AuthenticationRequestValidator]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/impl/AuthenticationRequestValidator.java
+[MessageBuilderFactory]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/MessageBuilderFactory.java
+[MessageMarshallerFactory]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/io/MessageMarshallerFactory.java
+[MessageUnmarshallerFactory]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/message/io/MessageUnmarshallerFactory.java
 [QName]: http://java.sun.com/j2se/1.5.0/docs/api/javax/xml/namespace/QName.html
-[ParameterMap]: http://svn.middleware.georgetown.edu/view/java-openid/trunk/src/main/java/edu/internet2/middleware/openid/common/ParameterMap.java?view=markup
-[Configuration]: http://svn.middleware.georgetown.edu/view/java-openid/trunk/src/main/java/edu/internet2/middleware/openid/Configuration.java?view=markup
+[ParameterMap]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/common/ParameterMap.java
+[Configuration]: https://github.com/willnorris/java-openid/blob/master/src/main/java/edu/internet2/middleware/openid/Configuration.java
 
 ## Message Flow (redux) ##
 

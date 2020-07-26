@@ -37,7 +37,7 @@ leaning Ruby in order to write the [handful of plugins][jekyll plugins] I run on
 decided to list it anyway.
 
 [migrated my site]: /2014/07/one-step-forward-two-steps-back
-[jekyll plugins]: https://github.com/willnorris/willnorris.com/tree/master/src/_plugins
+[jekyll plugins]: https://github.com/willnorris/willnorris.com/tree/jekyll/src/_plugins
 
 **<cite>[Restless](http://www.jennieallen.com/books/restless/), Jennie Allen</cite>**.  I read
 through this as part of another small group Elisabeth and I hosted.  It was a bit of an experiment

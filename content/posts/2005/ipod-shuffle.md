@@ -19,5 +19,5 @@ are intentionally just trying to drain the batteries like I am (which is no simp
 (Apparently most all of the new iPods do this, but I never noticed because I have a 3rd generation).
 
 [local Apple Store]: http://www.apple.com/retail/saddlecreek/
-[iPod Nano]: http://www.apple.com/ipodnano/
-[iPod Shuffle]: http://www.apple.com/ipodshuffle/
+[iPod Nano]: https://web.archive.org/web/20050925/https://www.apple.com/ipodnano/
+[iPod Shuffle]: https://web.archive.org/web/20050925/https://www.apple.com/ipodshuffle/

@@ -52,13 +52,13 @@ before I took this job, but that's not why I did.  I took the job because the te
 the kinds of problems we're up against, and they are ready to take a shot at developing some real solutions.  Well that
 and I really can't wait to get started working with Chris a lot more. :)
 
-[not]: http://blog.vidoop.com/archives/111
-[exactly]: http://www.readwriteweb.com/archives/messina_norris_vidoop.php
+[not]: https://web.archive.org/web/20080515/http://blog.vidoop.com/archives/111
+[exactly]: https://web.archive.org/web/20080515/http://www.readwriteweb.com/archives/messina_norris_vidoop.php
 [news]: http://factoryjoe.com/blog/2008/05/13/im-joining-vidoop-to-work-on-diso-full-time/
-[at]: http://kveton.com/blog/2008/05/14/solutions-more-than-technology/
-[this]: http://redmonk.net/archives/2008/05/14/distributed-social-networkers/
-[Shibboleth]: http://shibboleth.internet2.edu/
-[announced]: http://google-code-updates.blogspot.com/2008/02/urls-are-people-too.html
+[at]: https://web.archive.org/web/20080515/http://kveton.com/blog/2008/05/14/solutions-more-than-technology/
+[this]: https://web.archive.org/web/20080515/http://redmonk.net/archives/2008/05/14/distributed-social-networkers/
+[Shibboleth]: https://shibboleth.net/
+[announced]: https://web.archive.org/web/20080515/http://google-code-updates.blogspot.com/2008/02/urls-are-people-too.html
 [SGFoo]: http://sgfoocamp08.pbwiki.com/FrontPage
-[among other things]: http://kveton.com/blog/2008/02/04/sg-foocamp-08-wrap-up/
-[Luke Sontag]: http://www.vidoop.com/management.php
+[among other things]: https://web.archive.org/web/20080515/http://kveton.com/blog/2008/02/04/sg-foocamp-08-wrap-up/
+[Luke Sontag]: https://web.archive.org/web/20080515/http://vidoop.com/management.php

@@ -62,5 +62,5 @@ if it's already there then I would suggest to developers to use the same value f
 
 [NetNewsWire]: http://ranchero.com/netnewswire
 [interesting reads]: http://www.google.com/search?q=click-through+site%3Adaringfireball.net
-[HIG]: http://developer.apple.com/documentation/UserExperience/Conceptual/OSXHIGuidelines/
+[HIG]: https://web.archive.org/web/20050822/https://developer.apple.com/documentation/UserExperience/Conceptual/OSXHIGuidelines/
 [banner ads]: http://en.wikipedia.org/wiki/Click-through_rate

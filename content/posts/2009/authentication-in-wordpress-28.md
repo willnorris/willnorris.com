@@ -56,7 +56,7 @@ Instead, [Peter Westwood][] came up with a better solution using a well-establis
 the new authentication system.
 
 [advocated]: https://core.trac.wordpress.org/ticket/8833
-[Peter Westwood]: http://peter.westwood.name/
+[Peter Westwood]: https://web.archive.org/web/20090310/peter.westwood.name
 
 
 ## Solution ##

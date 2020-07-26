@@ -29,12 +29,12 @@ providing rich metadata and search capabilities.  That idea has long since been 
 they are still working on an extensive document metadata index.  As it turns out, this should be very similar to
 [Spotlight][].  Longhorn will also have "virtual directories", akin to "smart folders" in Tiger.  Blow for blow, it
 seems Microsoft and Apple have very similar plans for changing [for the better] how people will interact with their
-files.  I say this not accuse one company of copying the other; on the contrary, I see this paridigm as a rather natural
+files.  I say this not accuse one company of copying the other; on the contrary, I see this paradigm as a rather natural
 progression based on current trends in the search industry.  What really gets me though, is the timeline -- Tiger debuts
 in two days, while the most recently announced debut goal for Longhorn is "Holiday 2006" (given Microsoft's track
 record, this can be read as "mid to late 2007 at the earliest").  We're talking about a 2 year difference here...  that
 is _several_ lifetimes in this industry; I can't possibly imagine what Apple will be rolling out two years from now.
 
 [slashdot article]: http://slashdot.org/article.pl?sid=05/04/27/0422250
-[presentation]: http://www.microsoft.com/events/executives/billgates.mspx
-[spotlight]: http://www.apple.com/macosx/features/spotlight/
+[presentation]: https://web.archive.org/web/20050427/http://www.microsoft.com/events/executives/billgates.mspx
+[spotlight]: https://web.archive.org/web/20050427/http://www.apple.com/macosx/features/spotlight/

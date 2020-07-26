@@ -24,11 +24,11 @@ I wanted to outline here.
 
 Part of my custom setup is that I have a whole slew of bogus hostnames pointing to localhost, which Apache then
 dynamically maps to the correct document root.  For the most part, I just drop the TLD from the actual hostname... so
-*http://willnorris/* is my locally hosted development site for this blog *http://willnorris.com/*, and
-*http://will.norris/* is my development site for *http://will.norris.name/*.  I also keep a handful of WordPress
-versions running locally, so I can test plugins in those different environments -- *http://wordpress-2.3/*,
-*http://wordpress-2.5/*, etc.  When I began to setup my WordPress MU (and [BuddyPress][]) instance, I used the site
-*http://wpmu/*.  The installation went fine, but when I tried to login it failed every time.  Given that this same setup
+`http://willnorris/` is my locally hosted development site for this blog `http://willnorris.com/`, and
+`http://will.norris/` is my development site for `http://will.norris.name/`.  I also keep a handful of WordPress
+versions running locally, so I can test plugins in those different environments -- `http://wordpress-2.3/`,
+`http://wordpress-2.5/`, etc.  When I began to setup my WordPress MU (and [BuddyPress][]) instance, I used the site
+`http://wpmu/`.  The installation went fine, but when I tried to login it failed every time.  Given that this same setup
 worked fine with single-user WordPress, I was quite confused.  I quickly realized though, that the authentication
 cookies were never being set for WPMU... in fact no cookies were.
 
@@ -50,7 +50,7 @@ world.  You see, the [HTTP Cookie Spec][] (Section 4.3.2 Rejecting Cookies) requ
 an "embedded dot".  This is a security feature that prevents a site from setting a cookie on a top level domain like
 ".com".  Since single-user WordPress wasn't specifying a domain attribute, it didn't have any problem setting the
 cookie.  Because my hostname *wpmu* doesn't contain an embedded dot, the browser was properly rejecting the cookies,
-preventing me from being able to login.  So our solution here was to use the site *http://wp.mu/* (note the added dot in
+preventing me from being able to login.  So our solution here was to use the site `http://wp.mu/` (note the added dot in
 the middle) for hosting our WordPress MU development site.
 
 [setcookie()]: http://php.net/setcookie

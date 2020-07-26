@@ -70,7 +70,7 @@ up needing to do this at USC, we built the tools that would enable us to identif
 belonged to.  In the event that a relying party reported that a particular user was abusing their system, we wanted to
 make sure we could identify who it was.
 
-[transientid]: http://svn.middleware.georgetown.edu/view/java-shib-common/branches/REL_1/src/main/java/edu/internet2/middleware/shibboleth/common/attribute/resolver/provider/attributeDefinition/TransientIdAttributeDefinition.java?view=markup
+[transientid]: https://git.shibboleth.net/view/?p=java-shib-common.git;a=blob;f=src/main/java/edu/internet2/middleware/shibboleth/common/attribute/resolver/provider/attributeDefinition/TransientIdAttributeDefinition.java;h=45f9888406fed596dd5fb7373944a12193497078;hb=HEAD
 [USC]: http://www.usc.edu/
 
 ## The realities of deployment ##
@@ -79,8 +79,8 @@ The above algorithm actually works pretty well for generating unique and secure 
 identity provider, and service provider.  But what happens when one of those values change?  At USC, users could request
 that their username be changed for a variety of reasons, and approximately 300 such requests were made each year.  So
 using the above algorithm, a username change would change every one of the user's generated persistent identifiers.  And
-the reality is, businesses are often bought out by other businesses.  What happens when "http://sp.example.com/" needs
-to change to "http://sp.new-company.com/"?  That will effect the generated persistent identifier for **every** user.
+the reality is, businesses are often bought out by other businesses.  What happens when `http://sp.example.com/` needs
+to change to `http://sp.new-company.com/`?  That will effect the generated persistent identifier for **every** user.
 How do you deal with these realities?  There are a number of ways, and I'll outline just a few.  There is no one *right*
 solution, as the policy and practices of a particular institution will greatly impact their decision of how to address
 these situations.

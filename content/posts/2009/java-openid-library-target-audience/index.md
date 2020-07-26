@@ -64,7 +64,7 @@ together.
 If this sounds like a lot of work left up to the user just for something as simple as OpenID, you're right... it is a
 lot of work.  But when you really need that level of control, it's important that the library support that.
 
-[similar libraries]: http://opensaml.org/
+[similar libraries]: https://git.shibboleth.net/view/?p=java-opensaml2.git;a=summary
 [Tapestry]: http://tapestry.apache.org/
 [JSF]: http://java.sun.com/javaee/javaserverfaces/
 
@@ -127,6 +127,6 @@ management layer.
 (And in case it's not clear, the final layer in grey in the stack above are other pieces that will make use of the
 OpenID library, but will likely not be part of the library itself.)
 
-[OpenID4Java]: http://openid4java.org/
+[OpenID4Java]: https://github.com/jbufu/openid4java
 [Joid]: http://code.google.com/p/joid/
 [Shibboleth IdP Extension]: https://wiki.shibboleth.net/confluence/display/SHIB2/IdP+OpenID

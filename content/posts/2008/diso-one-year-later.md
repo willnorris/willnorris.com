@@ -64,12 +64,12 @@ developing implementations on top of [Movable Type][], including the recently an
 real cool functionality around activity streams.
 
 [one]: http://factoryjoe.com/blog/2007/12/06/oauth-10-openid-20-and-up-next-diso/
-[year]: http://redmonk.net/archives/2007/12/05/diso
+[year]: https://web.archive.org/web/20081218/http://redmonk.net/archives/2007/12/05/diso
 [anniversary]: /2007/12/wp-openid-moving-to-diso
 [DiSo Project]: http://diso-project.org/
-[Vidoop]: http://vidoop.com/
+[Vidoop]: https://web.archive.org/web/20081218/http://vidoop.com/
 [Six Apart]: http://sixapart.com/
-[service and metadata discovery]: http://xrds-simple.net/
+[service and metadata discovery]: https://web.archive.org/web/20081218/http://xrds-simple.net/
 [authentication]: http://openid.net/
 [API access]: http://oauth.net/
 [contact information]: http://portablecontacts.net/

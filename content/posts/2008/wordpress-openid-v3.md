@@ -32,7 +32,7 @@ read about [here][faster-stronger-better].
 
 [now available]: http://wordpress.org/extend/plugins/openid/
 [previously mentioned]: /2008/09/the-next-steps-with-wp-openid
-[eaut]: http://eaut.org
+[eaut]: https://web.archive.org/web/20081001/eaut.org
 [documented here]: http://wiki.diso-project.org/WordPress-OpenID
 [XRDS-Simple plugin]: http://wordpress.org/extend/plugins/xrds-simple/
 [faster-stronger-better]: /2008/09/wp-openid-faster-stronger-better

@@ -18,7 +18,7 @@ contact list, and a list of my profiles on various websites.  I've also used thi
 quite a while.  
 
 [willnorris.com]: /
-[will.norris.name]: http://will.norris.name/
+[will.norris.name]: https://web.archive.org/web/20081113/http://will.norris.name/
 
 I've been considering consolidating these down into a single site, putting my activity stream on the front page and my
 blog under a sub-directory.  Of course I'll setup proper redirects and such so that no links will be broken.  I can also

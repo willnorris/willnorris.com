@@ -63,7 +63,7 @@ The second thing I did was much easier, and that was to enable HTTP Strict Trans
 > insert http:// for them.
 > 
 > However, HTTP is insecure. An attacker can grab that connection, manipulate it and only the most eagle eyed users
-> might notice that it redirected to https://www.bank0famerica.com or some such. From then on, the user is under the
+> might notice that it redirected to `https://www.bank0famerica.com` or some such. From then on, the user is under the
 > control of the attacker, who can intercept passwords etc at will.
 
 This is enabled simply by returning a header in all HTTPS responses.  I added the following line in my `.htaccess` file,

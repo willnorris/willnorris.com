@@ -37,5 +37,5 @@ the same core engine can be shared across every version of x3watch.
 - could easily be expanded to include other transfer methods such as FTP (though this would use more domain matching,
 and not as much content analysis)
 
-[x3watch]: http://www.x3watch.com
-[x3church forums]: http://www.xxxchurch.com/forum/
+[x3watch]: https://www.x3watch.com/
+[x3church forums]: https://web.archive.org/web/20050504/http://www.xxxchurch.com/forum/

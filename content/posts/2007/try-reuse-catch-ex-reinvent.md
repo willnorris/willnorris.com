@@ -38,8 +38,8 @@ defined][] which will likely be useful in common scenarios.
 
 [sreg]: http://openid.net/specs/openid-simple-registration-extension-1_0.html
 [attribute exchange]: http://openid.net/specs/openid-attribute-exchange-1_0-07.html
-[axschema.org]: http://www.axschema.org/
-[already been defined]: http://www.axschema.org/types/
+[axschema.org]: https://web.archive.org/web/20071105/http://www.axschema.org/
+[already been defined]: https://web.archive.org/web/20071105/http://www.axschema.org/types/
 
 
 ### Attributes in Higher Education ###

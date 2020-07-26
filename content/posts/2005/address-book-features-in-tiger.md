@@ -37,5 +37,5 @@ stored where they belong... in Visible School's master contact database.  As we 
 well, and when the next fundraiser comes along, Rick simply searches for "donor" again.  It doesn't seem all that
 revolutionary, but if you could see the way things are done now you'd understand how great this would be.
 
-[address book]: http://www.apple.com/macosx/features/addressbook
+[address book]: https://web.archive.org/web/20050412/http://www.apple.com/macosx/features/addressbook/
 [eduPersonAffiliation]: http://www.nmi-edit.org/eduPerson/draft-internet2-mace-dir-eduperson-00.html

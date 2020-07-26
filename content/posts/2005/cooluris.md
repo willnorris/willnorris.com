@@ -83,5 +83,6 @@ downside is that you have to rebuild the hash anytime you add new entries.  With
 at any time and they'll automatically be grabbed by apache.  If you're interested in hash files, search
 [here][modrewrite] for "hash file".
 
-So does it work?  Try going to <http://www.skillet.com/skilletnews.gif> and you should be redirected to
-<http://www.skillet.com/images/titles/news.gif>.
+So does it work?  Try going to `http://www.skillet.com/skilletnews.gif` and you should be redirected to
+`http://www.skillet.com/images/titles/news.gif`.  [Perhaps ironically, in the years since this post was
+written, the site has changed and neither link works any longer.]

@@ -116,4 +116,4 @@ clean up and release soon.  In the meantime, take a look at the proxy server at
 [gregjones/httpcache]: https://github.com/gregjones/httpcache
 [peterbourgon/diskv]: https://github.com/peterbourgon/diskv
 [disintegration/imaging]: https://github.com/disintegration/imaging
-[upstart init script]: https://github.com/willnorris/imageproxy/blob/master/scripts/imageproxy.conf
+[upstart init script]: https://github.com/willnorris/imageproxy/blob/main/etc/imageproxy.conf

@@ -20,9 +20,9 @@ git really doesn't like you pushing into the current branch of a non-bare reposi
 won't let you do it:
 
 ```
-% git push origin master
+% git push origin main
 Total 0 (delta 0), reused 0 (delta 0)
-remote: error: refusing to update checked out branch: refs/heads/master
+remote: error: refusing to update checked out branch: refs/heads/main
 remote: error: By default, updating the current branch in a non-bare repository
 remote: error: is denied, because it will make the index and work tree inconsistent
 remote: error: with what you pushed, and will require 'git reset --hard' to match
@@ -33,20 +33,20 @@ As the error message indicates, there's good reason for this, since it will leav
 an inconsistent state.  Performing a `git reset --hard` will reset the state, but if there were any
 local changes in the remote repository, they will be completely lost.
 
-## refs/push/master ##
+## refs/push/main ##
 
 So instead of pushing to the current branch, I have a dedicated ref on the server named
-`push/master` that I use just for pushing changes live.  In my git client on my laptop, I have the
+`push/main` that I use just for pushing changes live.  In my git client on my laptop, I have the
 following config:
 
 ``` ini
 [remote "live"]
   url = judah:/var/www/willnorris.com
-  push = refs/heads/master:refs/push/master
+  push = refs/heads/main:refs/push/main
 ```
 
-This allows me to simply run `git push live` to push my changes into `push/master`.  Then I can use
-hooks on the server to merge those changes into the master branch and rebuild the site.
+This allows me to simply run `git push live` to push my changes into `push/main`.  Then I can use
+hooks on the server to merge those changes into the main branch and rebuild the site.
 
 ## pre-receive hook ##
 
@@ -72,14 +72,14 @@ Attempting to push when I have uncommitted changes on the server will fail with 
 Total 0 (delta 0), reused 0 (delta 0)
 remote: Cannot push changes: Your index contains uncommitted changes.
 To judah:/var/www/willnorris.com
- ! [remote rejected] master -> refs/push/master (pre-receive hook declined)
+ ! [remote rejected] main -> refs/push/main (pre-receive hook declined)
  error: failed to push some refs to 'judah:/var/www/willnorris.com'
 ```
 
 ## post-receive hook ##
 
 If the pre-receive hook passes, I then have a post-receive hook that merges the changes from
-`push/master` and runs jekyll to build the site.  But what if instead of uncommitted changes, I have
+`push/main` and runs jekyll to build the site.  But what if instead of uncommitted changes, I have
 committed changes in the server's working copy?  I don't want to overwrite those changes, so I pass
 the `--ff-only` flag to `git merge` to ensure it only performs fast-forward merges.  If it's unable
 to fast-forward merge, then the post-receive hook fails with a message like:
@@ -93,7 +93,7 @@ Writing objects: 100% (3/3), 311 bytes | 0 bytes/s, done.
 Total 3 (delta 2), reused 0 (delta 0)
 remote: fatal: Not possible to fast-forward, aborting.
 To judah:/var/www/willnorris.com
-   bdb2c1a..a2727f4  master -> refs/push/master
+   bdb2c1a..a2727f4  main -> refs/push/main
 ```
 
 In this case I have to manually fix it, often by force pushing, then manually rebasing the changes
@@ -108,7 +108,7 @@ If the merge succeeds, then the post-receive hook runs jekyll to rebuild the sit
 
 export GIT_WORK_TREE=..
 
-git merge --ff-only push/master || exit $?
+git merge --ff-only push/main || exit $?
 pushd $GIT_WORK_TREE
 export JEKYLL_ENV="production"
 jekyll build
@@ -137,12 +137,12 @@ remote:       Generating...
 remote:                     done.
 remote: /var/www/willnorris.com/.git
 To judah:/var/www/willnorris.com
-   bdb2c1a..a2727f4  master -> refs/push/master
+   bdb2c1a..a2727f4  main -> refs/push/main
 ```
 
 And that's it... a few lines in `.git/config` on my laptop and two small hooks on the server.  There
 is still some room for improvement; for example, right now the post-receive hook runs regardless of
-what ref I push to.  This could be updated to only run when I push to `push/master`, but as it is,
+what ref I push to.  This could be updated to only run when I push to `push/main`, but as it is,
 that's all I ever do so I'm not too worried about it.  This is good enough to give me very easy
 push-to-deploy while making sure I don't overwrite any changes on the server.
 
@@ -152,6 +152,6 @@ projects._
 [search]: https://www.google.com/search?q=jekyll+push+to+deploy
 [Jekyll docs]: http://jekyllrb.com/docs/deployment-methods/#git-post-receive-hook
 [site repository]: https://github.com/willnorris/willnorris.com
-[pre-receive hook]: https://github.com/willnorris/willnorris.com/blob/master/tools/pre-receive
-[post-receive hook]: https://github.com/willnorris/willnorris.com/blob/master/tools/post-receive
+[pre-receive hook]: https://github.com/willnorris/willnorris.com/blob/main/tools/pre-receive
+[post-receive hook]: https://github.com/willnorris/willnorris.com/blob/main/tools/post-receive
 [Junio Hamano]: http://git-blame.blogspot.com/

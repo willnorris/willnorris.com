@@ -60,7 +60,6 @@ resolved using a small server I wrote called [gum][].  Most images are proxied t
 
 [This site]: https://github.com/willnorris/willnorris.com
 [Hugo]: https://gohugo.io
-[custom plugins]: https://github.com/willnorris/willnorris.com/tree/master/src/_plugins
 [Google Cloud Platform]: https://www.google.com/cloud
 [Google Domains]: https://www.google.com/domains
 [highly recommend]: /2014/06/google-domains

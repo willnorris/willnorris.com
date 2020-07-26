@@ -14,7 +14,7 @@ title: Windows Workstation
 
 - [Installation instructions for WSL 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install)
 - Install [Windows Terminal](ms-windows-store://pdp/?ProductId=9n0dx20hk701)
-  - Copy [settings.jsonc](https://github.com/willnorris/dotfiles/blob/master/tag-windows/terminal/settings.jsonc)
+  - Copy [settings.jsonc](https://github.com/willnorris/dotfiles/blob/main/tag-windows/terminal/settings.jsonc)
 - Install Linux distro(s):
   [Ubuntu](ms-windows-store://pdp/?ProductId=9nblggh4msv6),
   [Debian](ms-windows-store://pdp/?ProductId=9msvkqc78pk6)

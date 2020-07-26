@@ -2,7 +2,7 @@
 
 export GIT_WORK_TREE=..
 
-git merge --ff-only push/master || exit $?
+git merge --ff-only push/main || exit $?
 pushd $GIT_WORK_TREE
 tools/build
 popd

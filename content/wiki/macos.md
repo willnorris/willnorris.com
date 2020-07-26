@@ -35,7 +35,7 @@ PATH="~/.dotfiles/rcm/bin:$PATH" rcup
 
 ## Homebrew Packages ##
 
-Install [Homebrew packages](https://github.com/willnorris/dotfiles/blob/master/Brewfile) (this will
+Install [Homebrew packages](https://github.com/willnorris/dotfiles/blob/main/Brewfile) (this will
 take a while):
 
 ``` sh

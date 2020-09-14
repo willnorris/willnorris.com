@@ -28,6 +28,19 @@ If needed, create a new SSH key in PowerShell
 ssh-keygen -t rsa -b 4096
 ```
 
+## Mouse settings
+
+View scroll direction for all input devices:
+
+    Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0
+
+Use inverted scroll direction for all devices:
+
+    Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath FlipFlopWheel 1 }
+
+
+Change `FlipFlopWheel 0` to go back to standard scroll direction.
+
 ## Dotfiles
 
 Follow standard instructions from

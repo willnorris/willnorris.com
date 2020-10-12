@@ -41,6 +41,15 @@ Use inverted scroll direction for all devices:
 
 Change `FlipFlopWheel 0` to go back to standard scroll direction.
 
+## Keyboard settings
+
+Map caps lock key to control.  (Save to `caps.reg` file and run)
+
+    Windows Registry Editor Version 5.00
+
+    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+    "Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00
+
 ## Dotfiles
 
 Follow standard instructions from

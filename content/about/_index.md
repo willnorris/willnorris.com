@@ -2,7 +2,7 @@
 title: About
 menu: "main"
 ---
- <div class="h-card vcard">
+<div class="h-card vcard">
 
 <figure class="alignright">
   {{<img src="03-800.jpg" alt="Will Norris" width="300" class="u-photo photo">}}
@@ -10,16 +10,16 @@ menu: "main"
 
 Hi, I'm <a href="https://willnorris.com/" class="p-name u-url fn url">Will Norris</a>. I'm a
 follower of Jesus, a husband to [Elisabeth][], a father to [Gabriel][] and [Judah][], a citizen of
-the [indie web][], and an <span class="p-role role">engineering manager</span> at <span class="p-org
-org">Google</span>.
+the [indie web][], and the <span class="p-role role">Open Source Lead</span> at <span class="p-org
+org">Twitter</span>.
 </div>
 
-I've been at Google [since 2010][], currently working in the [Open Source Programs Office][]
-focusing on projects to make it easier to use and release open source software at Google.  I
-previously helped design and build the [Google+ API][], having spent much of my career working on
-developing tools and technologies for the social web like [OpenID][], [OAuth][], [XRD][], and
-[Activity Streams][].  I also spent a number of years in the enterprise identity management space
-working on [Shibboleth][] and LDAP directories at [USC][].  
+Prior to Twitter I was at Google [for 10 years][], with most of that time spent in their [Open
+Source Programs Office][] leading the engineering and license compliance groups.  I had previously
+helped design and build the [Google+ API][], having spent much of my career working on developing
+tools and technologies for the social web like [OpenID][], [OAuth][], [XRD][], and [Activity
+Streams][].  I also spent a number of years in the enterprise identity management space working on
+[Shibboleth][] and LDAP directories at [USC][].
 
 Almost all of my personal projects these days are [indie web][] related, mostly [written in go][].
 I'm also a huge fan of [WordPress][] and their mission to democratize publishing.  Even though I no
@@ -37,7 +37,7 @@ opportunities.
 [Gabriel]: https://gabenorris.com/
 [Judah]: https://judahnorris.com/
 [indie web]: https://indieweb.org/
-[since 2010]: /2010/01/going-to-google
+[for 10 years]: /2020/09/leaving-google/
 [Open Source Programs Office]: https://opensource.google/
 [Google+ API]: https://en.wikipedia.org/wiki/Google+
 [OpenID]: https://openid.net/

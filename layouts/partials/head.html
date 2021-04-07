@@ -41,4 +41,4 @@
 {{- end -}}
 {{- with .Params.robots }}  <meta name="robots" content="{{ . }}">{{ end -}}
 {{- with $.Param "author.url" }}  <link rel="author" href="{{ . }}">{{ end -}}
-{{- template "_internal/google_analytics_async.html" . -}}
+<script async defer data-domain="willnorris.com" src="https://stats.wjn.me/js/plausible.js"></script>

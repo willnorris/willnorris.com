@@ -20,6 +20,8 @@ taxonomies: []
 
 markup:
   goldmark:
+    extensions:
+      footnote: true
     parser:
       attribute:
         block: true

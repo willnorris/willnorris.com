@@ -20,6 +20,10 @@ taxonomies: []
 
 markup:
   goldmark:
+    parser:
+      attribute:
+        block: true
+        headline: true
     renderer:
       unsafe: true
   highlight:

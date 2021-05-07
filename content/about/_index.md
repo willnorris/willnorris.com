@@ -5,7 +5,7 @@ menu: "main"
 <div class="h-card vcard">
 
 <figure class="alignright">
-  {{<img src="norris-family.jpg" alt="Norris Family" width="300" class="u-photo photo">}}
+  {{<img src="norris-family.jpg" alt="Norris Family" width="300" height="300" class="u-photo photo">}}
 </figure>
 
 Hi, I'm <a href="https://willnorris.com/" class="p-name u-url fn url">Will Norris</a>. I'm a
@@ -27,7 +27,7 @@ longer use WordPress for this site, I still manage other WordPress-powered site,
 maintain a number of [plugins][] and occasionally contribute to WordPress core and WordPress for
 Android.
 
-### Contact ###
+## Contact ##
 
 I can be contacted by email at will @ this domain or by phone at <span class="p-tel tel">+1 (901)
 484-9455</span>.  I'm "willnorris" on most sites.  I'm not interested in hearing about job
@@ -51,7 +51,7 @@ opportunities.
 [plugins]: https://profiles.wordpress.org/willnorris
 
 
-### Colophon ###
+## Colophon ##
 
 [This site][] is powered by [Hugo][], hosted on [Google Cloud Platform][] and all of my domains are
 registered with [Google Domains][] (which I [highly recommend][]).  [Short URLs][] for my content are

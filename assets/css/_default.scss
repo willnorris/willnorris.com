@@ -11,7 +11,7 @@ html {
 body {
   background-color: $white;
   color: $night-rider;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Segoe UI",system-ui,-apple-system,sans-serif;
   font-size: 1.125rem; // 18px
   line-height: 1.8;
 }
@@ -63,7 +63,6 @@ blockquote::before {
 
 h1, h2, h3, h4, h5, h6 {
   color: $night-rider;
-  font-family: "Merriweather", serif;
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 1rem;
@@ -182,7 +181,7 @@ dd {
 }
 
 code, kbd, pre, samp {
-  font-family: "Source Code Pro", monospace;
+  font-family: monospace;
   font-size: 1rem;
 }
 

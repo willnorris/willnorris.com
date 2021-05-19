@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd $(dirname $0)/..
+set -x
+git fetch github
+git merge --ff-only github/main || exit $?
+hugo $@

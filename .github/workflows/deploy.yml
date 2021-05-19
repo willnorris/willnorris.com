@@ -7,30 +7,5 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-      MACHINE: levi
     steps:
-    - name: Setup Tailscale
-      id: tailscale
-      uses: tailscale/github-action@2abbb8373220d3d05090e239417d28c25d9911a4
-      with:
-        authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
-        version: 1.8.3
-    - name: Add SSH key
-      id: ssh
-      env:
-        SSH_KEY: ${{ secrets.SSH_KEY }}
-      run: |
-        mkdir -p ~/.ssh
-        MACHINE_IP="$(tailscale ip -6 $MACHINE)"
-        ssh-keyscan $MACHINE_IP >> ~/.ssh/known_hosts
-        printf "%s" "$SSH_KEY" > ~/.ssh/key
-        chmod 600 ~/.ssh/key
-    - name: Sync and rebuild
-      id: sync-and-rebuild
-      run: |
-        MACHINE_IP="$(tailscale ip -6 $MACHINE)"
-        ssh -i ~/.ssh/key "willnorris@$MACHINE_IP"
-    - name: Disconnect from Tailscale
-      run: |
-        sudo $(which tailscale) logout
+    - run: curl -i -u ":${{ secrets.REBUILD_PASSWORD }}" https://willnorris.com/api/rebuild

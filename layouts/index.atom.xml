@@ -13,7 +13,7 @@
     Attribution 4.0 International License and code under an MIT License.
   </rights>
   <updated>{{ .Site.LastChange.Format $rfc3339 }}</updated>
-{{ range first 10 .Pages }}
+{{ range first 10 .Site.RegularPages }}
   <entry>
     <id>{{ .Permalink }}</id>
     <title>{{ .Title }}</title>

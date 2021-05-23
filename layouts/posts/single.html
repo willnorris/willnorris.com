@@ -19,6 +19,7 @@
           </a>
         </span>
       </p>
+      {{- with .Params.image.alt }}<span role="img" aria-label="{{ . }}"></span>{{ end -}}
     </div>
   </header>
 

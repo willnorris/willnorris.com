@@ -26,10 +26,10 @@ See more details on imageproxy at https://github.com/willnorris/imageproxy
   {{- $options := .Get "options" | default "x" }}
   {{- if eq $options "x" }}
     {{- with .Get "width" }}
-      {{- $options = printf "%s%s" . $options }}
+      {{- $options = printf "%d%s" (mul (int .) 2) $options }}
     {{- end }}
     {{- with .Get "height" }}
-      {{- $options = printf "%s%s" $options . }}
+      {{- $options = printf "%s%d" $options (mul (int .) 2) }}
     {{- end }}
   {{- end }}
 

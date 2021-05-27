@@ -9,7 +9,7 @@ params:
     url: "https://willnorris.com/"
     photo: "/logo.jpg"
     twitter: "@willnorris"
-  twitter_card: "summary"
+  twitter_card: "summary_large_image"
   twitter: "@willnorris"
 
 permalinks:

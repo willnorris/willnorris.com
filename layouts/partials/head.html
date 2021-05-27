@@ -32,6 +32,7 @@
     <meta name="twitter:card" content="{{ $.Param "twitter_card" }}">
     {{ with .Title }}<meta name="twitter:title" content="{{ . }}">{{ end }}
     <meta name="twitter:description" content="{{ .Description | default .Summary }}">
+    {{ with .Params.image }}<meta name="twitter:image" content="{{ (index ($.Resources.Match .url) 0).Permalink }}">{{ end }}
     {{ with .Site.Params.twitter }}<meta name="twitter:site" content="{{ . }}">{{ end }}
     {{ with $.Param "author.twitter" }}<meta name="twitter:creator" content="{{ . }}">{{ end }}
   {{- end -}}

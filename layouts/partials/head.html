@@ -34,7 +34,10 @@
     {{ with $.Param "author.twitter" }}<meta name="twitter:creator" content="{{ . }}">{{ end }}
     {{ with .Title }}<meta property="og:title" content="{{ . }}">{{ end }}
     <meta property="og:description" content="{{ .Description | default .Summary }}">
-    {{ with .Params.image }}<meta property="og:image" content="{{ (index ($.Resources.Match .url) 0).Permalink }}">{{ end }}
+    {{- with .Params.image }}
+    <meta property="og:image" content="{{ (index ($.Resources.Match .url) 0).Permalink }}">
+    {{ with .alt }}<meta property="og:image:alt" content="{{ . }}">{{ end }}
+    {{ end }}
   {{- end -}}
 {{- end -}}
 {{- with .Params.robots }}  <meta name="robots" content="{{ . }}">{{ end -}}

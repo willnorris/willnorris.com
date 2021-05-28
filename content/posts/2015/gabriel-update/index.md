@@ -39,8 +39,8 @@ He's still not gaining as much weight as we would like to see, but we're confide
 But hand feeding also means that we can share the job of feeding, which has been a nice break for
 Elisabeth, and has given me more bonding time with Gabe, which is great.
 
-<figure class="gallery outset">
-  <a href="WJN_1593.jpg"><img src="WJN_1593.jpg" alt="Feeding Gabriel with a syringe"></a>
+<figure class="outset">
+  <a href="WJN_1593.jpg">{{<img src="WJN_1593.jpg" alt="Feeding Gabriel with a syringe" width="300">}}</a>
   <figcaption>Feeding Gabriel with a syringe</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ suitable for printing, and promise that we will get those to you.)*
   </video>
 </figure>
 
-<figure class="gallery packed">
+<figure class="gallery">
   <a href="DSC07158.jpg">{{<img src="DSC07158.jpg" alt="Gabriel with lamb from Ireland" width="300">}}</a>
   <a href="DSC07109.jpg">{{<img src="DSC07109.jpg" alt="Gabriel sucking on Elisabeth's finger while Kitty inspects" width="300">}}</a>
   <a href="DSC07120.jpg">{{<img src="DSC07120.jpg" alt="Gabriel making a funny face" width="300">}}</a>

@@ -258,35 +258,17 @@ figcaption {
   line-height: 0.8;
 }
 
-.gallery.packed {
-  max-width:1600px;
-  position:absolute;
-  top:0;
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-rows: masonry;
+  column-gap: 1em;
+  align-items: center;
+  justify-items: center;
 
   a {
-    display: block;
+    line-height: 1;
     border: 0;
-    float: left;
-    line-height: 0;
-    margin-bottom: 10px;
-  }
-  img {
-    width: 100%;
-  }
-  @media only screen and (min-width: 450px) {
-    a {
-      max-width: calc((100% - 10px) / 2);
-    }
-  }
-  @media only screen and (min-width: 700px) {
-    a {
-      max-width: calc((100% - (2 * 10px)) / 3);
-    }
-  }
-  @media only screen and (min-width: 850px) {
-    a {
-      max-width: calc((100% - (3 * 10px)) / 4);
-    }
   }
 }
 

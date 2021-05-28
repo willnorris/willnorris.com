@@ -1,4 +1,54 @@
 {{- $fragmention := resources.Get "js/fragmention.js" | resources.Fingerprint }}
 <script src="{{ $fragmention.RelPermalink }}"></script>
 
-{{ if .Params.gallery }}{{ partial "gallery-script.html" . }}{{ end }}
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    {{ "// display lightbox for linked images" | safeJS }}
+    (async () => {
+      var imageAnchors = Array.from(document.querySelectorAll('.entry-content a'))
+          .filter(a => a.href.match(/.(jpg|jpeg|png)$/))
+      if (imageAnchors.length) {
+        await import({{ (resources.Get "js/jquery-slim.mjs" | resources.Fingerprint).RelPermalink }})
+        await import({{ (resources.Get "js/debounce.mjs" | resources.Fingerprint).RelPermalink }})
+        await import({{ (resources.Get "js/fluidbox.mjs" | resources.Fingerprint).RelPermalink }})
+
+        var $imageAnchors = $(imageAnchors);
+        $imageAnchors.fluidbox({
+          viewportFill: 1,
+        });
+
+        var lastScrollTop = $(window).scrollTop();
+        $(window).scroll(() => {
+          var scrollAmt = $(this).scrollTop();
+          var deltaS = scrollAmt - lastScrollTop;
+          lastScrollTop = scrollAmt;
+
+          {{ "// close fluidbox if scrolled more than 10px" | safeJS }}
+          if (Math.abs(deltaS) > 10) {
+            $imageAnchors.trigger('close.fluidbox');
+          }
+        });
+      }
+    })();
+
+    // display galleries in masonry grid
+    (async function() {
+      let galleries = document.querySelectorAll('.gallery')
+      if (galleries.length && !CSS.supports("grid-template-rows", "masonry")) {
+        {{ "// fallback to use macy.js to display masonry grid if needed" | safeJS }}
+        let {default:macy} = await import({{ (resources.Get "js/macy.mjs" | resources.Fingerprint).RelPermalink }})
+        macy({
+            container: '.gallery',
+            mobileFirst: true,
+            columns: 1,
+            margin: 5,
+            breakAt: {
+                450: { columns: 2 },
+                700: { columns: 3, margin: 10 },
+                850: { columns: 4 }
+            },
+          });
+      }
+    })();
+  });
+</script>

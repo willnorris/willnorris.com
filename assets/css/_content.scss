@@ -262,7 +262,8 @@ figcaption {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-template-rows: masonry;
-  column-gap: 1em;
+  column-gap: 1ex;
+  row-gap: 1ex;
   align-items: center;
   justify-items: center;
 

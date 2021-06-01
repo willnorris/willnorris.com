@@ -1,5 +1,7 @@
 {{- $fragmention := resources.Get "js/fragmention.js" | resources.Fingerprint }}
-<script src="{{ $fragmention.RelPermalink }}"></script>
+<script src="{{ $fragmention.RelPermalink }}" async></script>
+{{- $webmention := resources.Get "js/webmention.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $webmention.RelPermalink }}" async></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {

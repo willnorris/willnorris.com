@@ -227,7 +227,7 @@ A more detailed example:
     }
 
     return`
-      <a
+      <li><a
         class="reaction"
         rel="nofollow ugc"
         title="${who} ${response}"
@@ -236,7 +236,7 @@ A more detailed example:
         ${authorPhoto}
         ${(reactEmoji[r['wm-property']] || '💥')}
         ${rsvp}
-      </a>
+      </a></li>
     `;
   }
 

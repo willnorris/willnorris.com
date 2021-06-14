@@ -5,14 +5,14 @@
     {{- partial "header.html" . -}}
     {{- partial "profile-card.html" -}}
       <main>
-        <div class="home wrap h-feed">
+        <div class="home wrap">
           <h2>Recent Posts</h2>
           <ul class="posts">
           {{- range first 10 (where .Site.RegularPages "Type" "eq" "posts") -}}
             {{ .Render "li" }}
           {{- end -}}
           </ul>
-          <a href="{{ relref . "posts" }}" class="more">view all posts</a>
+          <a href="{{ relref . "posts" }}" rel="feed" class="more">view all posts</a>
         </div>
       </main>
     {{- partial "footer.html" . -}}

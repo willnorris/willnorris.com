@@ -5,7 +5,7 @@
     {{- partial "header.html" . -}}
     {{- partial "profile-card.html" -}}
       <main>
-        <div class="home wrap">
+        <div class="home wrap h-feed">
           <h2>Recent Posts</h2>
           <ul class="posts">
           {{- range first 10 (where .Site.RegularPages "Type" "eq" "posts") -}}

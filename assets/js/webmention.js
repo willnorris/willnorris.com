@@ -391,6 +391,10 @@ A more detailed example:
 
     pages.forEach(function (path) {
       apiURL += `&target[]=${encodeURIComponent('http:' + path)}&target[]=${encodeURIComponent('https:' + path)}`;
+      if (path.endsWith('/')) {
+        path = path.substring(0, path.length - 1);
+        apiURL += `&target[]=${encodeURIComponent('http:' + path)}&target[]=${encodeURIComponent('https:' + path)}`;
+      }
     });
 
     /** @type {WebmentionResponse} */

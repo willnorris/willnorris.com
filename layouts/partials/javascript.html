@@ -5,7 +5,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    {{ "// display lightbox for linked images" | safeJS }}
+    // display lightbox for linked images
     (async () => {
       var imageAnchors = Array.from(document.querySelectorAll('.entry-content a'))
           .filter(a => a.href.match(/.(jpg|jpeg|png)$/))
@@ -50,6 +50,14 @@
                 850: { columns: 4 }
             },
           });
+      }
+    })();
+
+    // render tweets
+    (async function() {
+      const tweets = document.querySelectorAll('.twitter-tweet')
+      if (tweets.length) {
+        import("https://platform.twitter.com/widgets.js")
       }
     })();
   });

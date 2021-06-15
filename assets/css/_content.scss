@@ -285,9 +285,9 @@ figcaption {
 }
 
 .twitter-tweet-rendered {
-  margin-left: auto;
-  margin-right: auto;
-}
+  // !important to override inline top and bottom margin set by twitter platform js
+  margin: 2em auto !important;
+ }
 
 
 // fragmentations

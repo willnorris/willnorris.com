@@ -15,6 +15,19 @@ params:
 permalinks:
   posts: "/:year/:month/:filename/"
 
+enableGitInfo: true
+frontmatter:
+  date:
+    - date
+    - publishDate
+    - lastmod
+    - :git
+    - :fileModTime
+  lastmod:
+    - :git
+    - :fileModTime
+    - :default
+
 # disable taxonomy pages
 taxonomies: []
 

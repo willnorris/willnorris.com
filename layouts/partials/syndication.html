@@ -1,0 +1,7 @@
+{{- $syn_links := delimit (apply (apply .Params.syndication "partial" "syndication-link.html" ".") "chomp" ".") ", " -}}
+{{- with $syn_links -}}
+  <span class="entry-syndication">
+    Also view on: {{ . | safeHTML }}
+  </span>
+{{- end -}}
+

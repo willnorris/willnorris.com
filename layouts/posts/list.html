@@ -3,17 +3,13 @@
   <div>
     {{ .Content }}
   </div>
-  {{ $previous := "" }}
-  {{- range .Pages -}}
-    {{ $year := dateFormat "2006" .Date }}
-    {{ if ne $year $previous }}
-      {{ if $previous }}</ul>{{ end }}
-      <h2 id="{{$year}}">{{$year}}</h2>
-      <ul class="posts">
-    {{ end }}
-    {{ .Render "li" }}
-    {{ $previous = $year }}
+  {{- range .Pages.GroupByDate "2006" -}}
+    <h2 id="{{.Key}}">{{.Key}}</h2>
+    <ul class="posts">
+      {{- range .Pages -}}
+        {{ .Render "li" }}
+      {{- end -}}
+    </ul>
   {{- end -}}
-  </ul>
 </article>
 {{ end }}

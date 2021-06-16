@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article class="page h-entry hentry wrap">
+  <header class="entry-header">
+    <h1 class="p-name entry-title">{{ .Title }}</h1>
+  </header>
+  <div class="e-content entry-content">
+    {{ .Content }}
+  </div>
+
+  {{- range .Sections -}}
+  {{ $section := trim (strings.TrimPrefix .Section .Dir) "/" }}
+  <section>
+    <h2 id="{{ $section }}">{{ $section }}</h2>
+    <ul class="posts">
+    {{- range .Pages -}}
+      {{ .Render "li" }}
+    {{- end -}}
+    </ul>
+  </section>
+  {{- end -}}
+</article>
+{{ end }}

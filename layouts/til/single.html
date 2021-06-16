@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="page h-entry hentry wrap">
+  <header class="entry-header">
+    <h1 class="p-name entry-title">{{ .Title }}</h1>
+  </header>
+  <div class="e-content entry-content">
+    {{ .Content }}
+  </div>
+  <footer class="entry-footer">
+    <p class="entry-meta">
+      <a href="{{ .Permalink }}"><time class="dt-published published dt-updated updated" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" title="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 2, 2006 at 3:04 pm" }}</time></a><br/>
+    {{- partial "syndication" . -}}
+    </p>
+  </footer>
+</article>
+{{ end }}

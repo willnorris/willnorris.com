@@ -12,6 +12,6 @@ document.querySelector('video').playbackRate=2.0;
 ```
 
 Bookmarklet with prompt:
-<a href="javascript: const speed=prompt('Playback speed', '2');document.querySelector('video').playbackRate=speed;">Playback Speed</a>
+<a href="javascript: var speed=prompt('Playback speed', '2');document.querySelector('video').playbackRate=speed;">Playback Speed</a>
 
 From: <https://stackoverflow.com/questions/3027707>

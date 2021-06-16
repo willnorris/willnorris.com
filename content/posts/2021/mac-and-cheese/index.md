@@ -7,7 +7,7 @@ image:
   url: mac-and-cheese.jpg
   position: center 50%
 syndication:
-  - https://twitter.com/
+  - https://twitter.com/willnorris/status/1405202952533409795
 ---
 
 We were a Kraft household growing up, certainly eating our fair share of blue

@@ -12,6 +12,7 @@ params:
   twitter_card: "summary_large_image"
   twitter: "@willnorris"
   headerMeta: false
+  breadcrumbs: false
 
 permalinks:
   posts: "/:year/:month/:filename/"

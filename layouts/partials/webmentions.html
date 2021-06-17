@@ -1,0 +1,42 @@
+{{- $key := string (delimit (split (trim .RelPermalink "/") "/") ":") -}}
+{{- $mentions := index $.Site.Data.mentions $key -}}
+{{- $likes := slice -}}
+{{- $reposts := slice -}}
+{{- $other := slice -}}
+{{- range $mentions -}}
+  {{- if eq (index . "wm-property") "like-of" -}}
+    {{- $likes = $likes | append . -}}
+  {{- else if eq (index . "wm-property") "repost-of" -}}
+    {{- $reposts = $reposts | append . -}}
+  {{- else -}}
+    {{- $other = $other | append . -}}
+  {{- end -}}
+{{- end -}}
+<div id="webmentions" class="wrap">
+  {{- with $likes }}
+  <h2>Likes</h2>
+  <ul class="reacts">
+    {{- range . }}
+    <li><a class="reaction" href="{{ .url }}" title="{{ .author.name }}"><img src="{{ .author.photo }}" loading="lazy" decoding="async" alt="{{ .author.name }}"></a>
+    {{- end }}
+  </ul>
+  {{- end }}
+
+  {{- with $reposts }}
+  <h2>Reposts</h2>
+  <ul class="reacts">
+    {{- range . }}
+    <li><a class="reaction" href="{{ .url }}" title="{{ .author.name }}"><img src="{{ .author.photo }}" loading="lazy" decoding="async" alt="{{ .author.name }}"></a>
+    {{- end }}
+  </ul>
+  {{- end }}
+
+  {{- with $other }}
+  <h2>Mentions</h2>
+  <ul class="reacts">
+    {{- range . }}
+    <li><a class="reaction" href="{{ .url }}" title="{{ .author.name }}"><img src="{{ .author.photo }}" loading="lazy" decoding="async" alt="{{ .author.name }}"></a>
+    {{- end }}
+  </ul>
+  {{- end }}
+</div>

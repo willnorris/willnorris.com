@@ -35,7 +35,6 @@
     {{- partial "syndication" . -}}
     </p>
   </footer>
-
-  <div id="webmentions" class="wrap"></div>
+  {{ partial "webmentions" . }}
 </article>
 {{ end }}

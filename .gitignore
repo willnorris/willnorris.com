@@ -2,6 +2,9 @@ log
 public
 tmp
 _gen
+node_modules
+
+.env
 
 etc/fullchain.pem
 etc/privkey.pem

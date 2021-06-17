@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Pelle Wessman",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/500a4883279015b8c0bf56f607034761ddc0c366c0275632662441f25af5351c.png",
+    "url": "https://twitter.com/voxpelli"
+  },
+  "url": "https://twitter.com/willnorris/status/492710476053094402#favorited-by-18331731",
+  "published": null,
+  "wm-received": "2021-06-02T16:15:51Z",
+  "wm-id": 1178266,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/492710476053094402/18331731",
+  "wm-target": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "like-of": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

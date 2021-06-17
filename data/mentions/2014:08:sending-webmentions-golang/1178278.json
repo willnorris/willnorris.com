@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Matthias Pfefferle",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/e9761b83d27c9bd2c2d7a79551e35f4ef653187a4788286dab63bdfc387ecbe1.jpg",
+    "url": "https://twitter.com/pfefferle"
+  },
+  "url": "https://twitter.com/pfefferle/status/497797971569049602",
+  "published": "2014-08-08T17:34:19+00:00",
+  "wm-received": "2021-06-02T16:16:36Z",
+  "wm-id": 1178278,
+  "wm-source": "https://brid.gy/repost/twitter/willnorris/497774634238885888/497797971569049602",
+  "wm-target": "https://willnorris.com/2014/08/sending-webmentions-golang/",
+  "content": {
+    "text": "here's a little go client I wrote for sending webmentions #indieweb willnorris.com/2014/08/sendin…"
+  },
+  "repost-of": "https://willnorris.com/2014/08/sending-webmentions-golang/",
+  "wm-property": "repost-of",
+  "wm-private": false
+}

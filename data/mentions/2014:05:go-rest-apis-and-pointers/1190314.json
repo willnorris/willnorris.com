@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Emir",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/6b46bdd7775bf4656d1bfe9fa09fb4a15cc01e8a7ab4dd7f249c9aefdc06b2eb.png",
+    "url": "https://twitter.com/emrullahluleci"
+  },
+  "url": "https://twitter.com/emrullahluleci/status/1001743004326080512",
+  "published": "2018-05-30T08:31:58+00:00",
+  "wm-received": "2021-06-15T06:42:51Z",
+  "wm-id": 1190314,
+  "wm-source": "https://brid.gy/post/twitter/willnorris/1001743004326080512",
+  "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "content": {
+    "html": "Finally figured out how to set struct values empty intentionally while using 'omitempty' in fields. <a href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers\">willnorris.com/2014/05/go-res…</a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers/\"></a>",
+    "text": "Finally figured out how to set struct values empty intentionally while using 'omitempty' in fields. willnorris.com/2014/05/go-res…"
+  },
+  "mention-of": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "wm-property": "mention-of",
+  "wm-private": false
+}

@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "IndieWebCamp",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/c07ef948f96ae5b4c3e0e61b4f779d9ddf84a55b79c58482e3e4bf7b435364ac.jpeg",
+    "url": "https://twitter.com/indiewebcamp"
+  },
+  "url": "https://twitter.com/indiewebcamp/status/497791776132833280",
+  "published": "2014-08-08T17:09:42+00:00",
+  "wm-received": "2021-06-02T16:16:37Z",
+  "wm-id": 1178279,
+  "wm-source": "https://brid.gy/repost/twitter/willnorris/497774634238885888/497791776132833280",
+  "wm-target": "https://willnorris.com/2014/08/sending-webmentions-golang/",
+  "content": {
+    "text": "here's a little go client I wrote for sending webmentions #indieweb willnorris.com/2014/08/sendin…"
+  },
+  "repost-of": "https://willnorris.com/2014/08/sending-webmentions-golang/",
+  "wm-property": "repost-of",
+  "wm-private": false
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Kyle Kelley 🚰",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/20a714807349d542ed4f88e73793b7156d79c27cb61ea0416c1790f917669eb2.jpg",
+    "url": "https://twitter.com/rgbkrk"
+  },
+  "url": "https://twitter.com/willnorris/status/492710476053094402#favorited-by-1038630643",
+  "published": null,
+  "wm-received": "2021-06-02T16:16:04Z",
+  "wm-id": 1178271,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/492710476053094402/1038630643",
+  "wm-target": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "like-of": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "John Sheehan",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/4e13d3fd9c50a0b28c74486325e27a57e97b7e1b86feb700f1094c32b147aa54.jpg",
+    "url": "https://twitter.com/johnsheehan"
+  },
+  "url": "https://twitter.com/johnsheehan/status/566387897641607168",
+  "published": "2015-02-14T00:06:12+00:00",
+  "wm-received": "2021-06-01T19:55:09Z",
+  "wm-id": 1177068,
+  "wm-source": "https://brid.gy/comment/twitter/willnorris/566382236203634688/566387897641607168",
+  "wm-target": "https://willnorris.com/2015/02/gabriel-update/",
+  "content": {
+    "html": "<a href=\"https://twitter.com/willnorris\">@willnorris</a> congrats will!",
+    "text": "@willnorris congrats will!"
+  },
+  "in-reply-to": "https://willnorris.com/2015/02/gabriel-update/",
+  "wm-property": "in-reply-to",
+  "wm-private": false
+}

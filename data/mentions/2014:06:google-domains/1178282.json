@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Tantek",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/38f635b64f6add618dfb72c1f115322b8c92777ddc5efd2784806c2d3f20df2e.jpeg",
+    "url": "https://twitter.com/t"
+  },
+  "url": "https://twitter.com/willnorris/status/481244318275887106#favorited-by-11628",
+  "published": null,
+  "wm-received": "2021-06-02T16:18:16Z",
+  "wm-id": 1178282,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/481244318275887106/11628",
+  "wm-target": "https://willnorris.com/2014/06/google-domains/",
+  "like-of": "https://willnorris.com/2014/06/google-domains/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

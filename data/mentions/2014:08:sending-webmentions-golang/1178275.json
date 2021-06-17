@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jay Greasley",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/31f7f9112da1423c58fd63d47e222e4143abe3d8497edb610ee5850b950357d6.jpg",
+    "url": "https://twitter.com/JayGreasley"
+  },
+  "url": "https://twitter.com/willnorris/status/497774634238885888#favorited-by-14233500",
+  "published": null,
+  "wm-received": "2021-06-02T16:16:32Z",
+  "wm-id": 1178275,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/497774634238885888/14233500",
+  "wm-target": "https://willnorris.com/2014/08/sending-webmentions-golang/",
+  "like-of": "https://willnorris.com/2014/08/sending-webmentions-golang/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

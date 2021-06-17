@@ -7,10 +7,18 @@
     {{ .Content }}
   </div>
 
+  {{- with (where .Pages "IsPage" true) -}}
+  <ul class="posts">
+  {{- range . -}}
+    {{ .Render "li" }}
+  {{- end -}}
+  {{- end -}}
+  </ul>
+
   {{- range .Sections -}}
   {{ $section := trim (strings.TrimPrefix .Section .Dir) "/" }}
-  <section>
-    <h2 id="{{ $section }}">{{ $section }}</h2>
+  <section id="{{ $section }}">
+    <h2>{{ $section }}</h2>
     <ul class="posts">
     {{- range .Pages -}}
       {{ .Render "li" }}

@@ -1,10 +1,13 @@
+// adapted from https://github.com/petergoes/petergoes.nl/blob/main/_automations/store-webmentions.mjs
+// Original Copyright (c) 2021 Peter Goes
+// SPDX-License-Identifier: MIT
+
 import fs from 'fs'
 import path from 'path'
 import fetch from 'node-fetch'
 import dotenv from 'dotenv'
 
 dotenv.config()
-
 
 const domain = 'https://willnorris.com'
 const targetFolder = path.join(process.cwd(), 'data', 'mentions')

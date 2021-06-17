@@ -43,4 +43,5 @@ jobs:
           title: inbound webmentions
           labels: |
             webmentions
+          assignees: willnorris
           body:

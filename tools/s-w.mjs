@@ -1,10 +1,6 @@
 import fs from 'fs'
 import path from 'path'
 import fetch from 'node-fetch'
-import filter from 'lodash/fp/filter.js'
-import get from 'lodash/fp/get.js'
-import forEach from 'lodash/fp/forEach.js'
-import mkdirp from 'mkdirp'
 import dotenv from 'dotenv'
 
 dotenv.config()
@@ -19,16 +15,12 @@ const apiOptions = [
 ]
 
 fetch(`${apiEndpoint}?${apiOptions.join('&')}`)
-  .then(convertResponseToJson)
+  .then(r => r.json())
   .then(checkDataValidity)
-  .then(get('children'))
+  .then(m => m.children)
   .then(m => m.map(rewriteHTTPS))
-  .then(filter(targetIsNotHomepage))
-  .then(forEach(writeMentionToFile))
-
-function convertResponseToJson(response) {
-  return response.json()
-}
+  .then(m => m.filter(targetIsNotHomepage))
+  .then(m => m.forEach(writeMentionToFile))
 
 function checkDataValidity(data) {
   if ("children" in data) return data
@@ -51,7 +43,7 @@ function writeMentionToFile(mention) {
   const target = mention['wm-target'].replace(domain, '').replace(/(^\/|\/$)/g, '').replace(/\//g, ':')
   const outputFolder = path.join(targetFolder, target)
 
-  mkdirp.sync(outputFolder)
+  fs.mkdirSync(outputFolder, { recursive: true })
 
   fs.writeFileSync(
     path.join(outputFolder, `${id}.json`),

@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Nathan Craddock",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/5923f2487becb3c675f60215b0b11b24b5e8182fac2371b78803faad4c1e0fe1.png",
+    "url": "https://twitter.com/nkcraddock"
+  },
+  "url": "https://twitter.com/nkcraddock/status/498184013463302144",
+  "published": "2014-08-09T19:08:19+00:00",
+  "wm-received": "2021-06-02T16:15:36Z",
+  "wm-id": 1178261,
+  "wm-source": "https://brid.gy/repost/twitter/willnorris/471420969504878592/498184013463302144",
+  "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "content": {
+    "text": "why go-github uses pointers for struct fields and (in some cases) you should too: willnorris.com/2014/05/go-res…"
+  },
+  "repost-of": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "wm-property": "repost-of",
+  "wm-private": false
+}

@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "John Mahoney",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/22a1d24cbe70072b5ab35ac029896e99d705ffcc7edcb39878074930704cc335.jpg",
+    "url": "https://twitter.com/jjmiv"
+  },
+  "url": "https://twitter.com/jjmiv/status/745661422403624960",
+  "published": "2016-06-22T16:55:11+00:00",
+  "wm-received": "2021-06-02T16:24:42Z",
+  "wm-id": 1178301,
+  "wm-source": "https://brid.gy/repost/twitter/willnorris/745660232785813504/745661422403624960",
+  "wm-target": "https://willnorris.com/2016/06/gophercon-family-track/",
+  "content": {
+    "html": "Amazingly impressed that @gophercon has a \"Significant Others &amp; Family\" track! Never seen anything like this before willnorris.com/2016/06/gopher…",
+    "text": "Amazingly impressed that @gophercon has a \"Significant Others & Family\" track! Never seen anything like this before willnorris.com/2016/06/gopher…"
+  },
+  "repost-of": "https://willnorris.com/2016/06/gophercon-family-track/",
+  "wm-property": "repost-of",
+  "wm-private": false
+}

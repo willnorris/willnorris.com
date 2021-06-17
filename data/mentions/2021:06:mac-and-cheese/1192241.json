@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mike McCune",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/50653554b79abe591711f8c229b430de5baafc60e05032eec96fed8d83249850.jpg",
+    "url": "https://twitter.com/mccun934"
+  },
+  "url": "https://twitter.com/willnorris/status/1405202952533409795#favorited-by-14923009",
+  "published": null,
+  "wm-received": "2021-06-16T16:48:20Z",
+  "wm-id": 1192241,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1405202952533409795/14923009",
+  "wm-target": "https://willnorris.com/2021/06/mac-and-cheese/",
+  "like-of": "https://willnorris.com/2021/06/mac-and-cheese/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

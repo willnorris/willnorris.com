@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Praveen kishor",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/0e1b91d0617d74c2a91e09b7d06f81b67aed807cf373551dff542937c6eaa3b8.jpg",
+    "url": "https://twitter.com/praveenkishor12"
+  },
+  "url": "https://twitter.com/praveenkishor12/status/494078900230578176",
+  "published": "2014-07-29T11:16:04+00:00",
+  "wm-received": "2021-06-02T16:16:05Z",
+  "wm-id": 1178272,
+  "wm-source": "https://brid.gy/repost/twitter/willnorris/492710476053094402/494078900230578176",
+  "wm-target": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "content": {
+    "text": "my little nginx config for properly supporting WebFinger with static files: willnorris.com/2014/07/webfin…"
+  },
+  "repost-of": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "wm-property": "repost-of",
+  "wm-private": false
+}

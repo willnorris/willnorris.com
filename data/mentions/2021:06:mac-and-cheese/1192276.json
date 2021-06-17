@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Matt S",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/44cff10eb24f37bfdd085dc708edd3504ac2687e502a15930e9e0287a34f8891.jpg",
+    "url": "https://twitter.com/msilver"
+  },
+  "url": "https://twitter.com/willnorris/status/1405202952533409795#favorited-by-3562351",
+  "published": null,
+  "wm-received": "2021-06-16T17:17:57Z",
+  "wm-id": 1192276,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1405202952533409795/3562351",
+  "wm-target": "https://willnorris.com/2021/06/mac-and-cheese/",
+  "like-of": "https://willnorris.com/2021/06/mac-and-cheese/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

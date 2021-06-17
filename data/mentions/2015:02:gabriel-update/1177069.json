@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Adewale Oshineye",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/c929afbbc531048b44167fbd8c34959bcf053f8c5cd272fe5665ce43a85b70d4.jpeg",
+    "url": "https://twitter.com/ade_oshineye"
+  },
+  "url": "https://twitter.com/ade_oshineye/status/566574377618378753",
+  "published": "2015-02-14T12:27:12+00:00",
+  "wm-received": "2021-06-01T19:55:14Z",
+  "wm-id": 1177069,
+  "wm-source": "https://brid.gy/comment/twitter/willnorris/566382236203634688/566574377618378753",
+  "wm-target": "https://willnorris.com/2015/02/gabriel-update/",
+  "content": {
+    "html": "<a href=\"https://twitter.com/willnorris\">@willnorris</a> congratulations!",
+    "text": "@willnorris congratulations!"
+  },
+  "in-reply-to": "https://willnorris.com/2015/02/gabriel-update/",
+  "wm-property": "in-reply-to",
+  "wm-private": false
+}

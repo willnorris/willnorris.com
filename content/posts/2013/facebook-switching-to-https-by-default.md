@@ -2,7 +2,7 @@
 layout: link
 title: Facebook switching to HTTPS by default
 date: '2013-08-01T07:55:17-07:00'
-shortlink: /t/Hb
+aliases: /t/Hb
 categories:
 - technology
 tags:

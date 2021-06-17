@@ -1,7 +1,7 @@
 ---
 title: bermuda, bahama, come on pretty momma
 date: '2003-07-03T08:02:26-05:00'
-shortlink: [/b/1m, /p/106]
+aliases: [/b/1m, /p/106]
 categories:
 - personal
 tags:

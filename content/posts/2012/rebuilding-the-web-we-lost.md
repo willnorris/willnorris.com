@@ -2,7 +2,7 @@
 layout: link
 title: Rebuilding the Web We Lost
 date: '2012-12-18T17:58:17-08:00'
-shortlink: /t/GW
+aliases: /t/GW
 categories:
 - technology
 tags:

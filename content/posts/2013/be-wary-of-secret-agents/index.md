@@ -2,7 +2,7 @@
 layout: image
 title: Be wary of secret agents
 date: '2013-03-19T10:09:56-07:00'
-shortlink: /p/H0
+aliases: /p/H0
 categories:
 - technology
 tags:

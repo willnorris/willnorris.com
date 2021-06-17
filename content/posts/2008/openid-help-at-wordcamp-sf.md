@@ -1,7 +1,7 @@
 ---
 title: OpenID help at WordCamp SF
 date: '2008-08-11T22:19:30-07:00'
-shortlink: [/b/47, /p/247]
+aliases: [/b/47, /p/247]
 categories:
 - technology
 tags:

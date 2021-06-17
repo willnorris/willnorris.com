@@ -1,7 +1,7 @@
 ---
 title: RFCs for Dash.app
 date: '2014-03-21T14:27:29-07:00'
-shortlink: /b/KC
+aliases: /b/KC
 categories:
 - technology
 tags:

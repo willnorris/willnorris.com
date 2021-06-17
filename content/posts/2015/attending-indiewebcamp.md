@@ -1,7 +1,7 @@
 ---
 title: Attending IndieWebCamp SF 2015
 date: "2015-10-23T09:28:15-07:00"
-shortlink: /t/4dr1
+aliases: /t/4dr1
 ---
 
 I'm looking forward to <data class="p-rsvp" value="yes">attending</data> <a

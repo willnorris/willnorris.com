@@ -1,7 +1,7 @@
 ---
 title: be vsble
 date: '2006-04-18T20:16:19-07:00'
-shortlink: [/b/2V, /p/149]
+aliases: [/b/2V, /p/149]
 categories:
 - personal
 tags:

@@ -2,7 +2,7 @@
 layout: aside
 title: Music is thought made audible
 date: '2013-04-25T10:43:46-07:00'
-shortlink: /t/H5
+aliases: /t/H5
 categories:
 - music
 tags:

@@ -1,7 +1,7 @@
 ---
 title: alive and well in LA
 date: '2006-02-22T19:37:47-08:00'
-shortlink: [/b/2P, /p/143]
+aliases: [/b/2P, /p/143]
 image:
   url: "los-angeles-skyline.jpg"
   position: "center bottom"

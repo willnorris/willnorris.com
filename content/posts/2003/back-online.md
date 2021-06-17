@@ -1,7 +1,7 @@
 ---
 title: back online
 date: '2003-09-20T05:05:20-05:00'
-shortlink: [/b/1j, /p/104]
+aliases: [/b/1j, /p/104]
 categories:
 - technology
 ---

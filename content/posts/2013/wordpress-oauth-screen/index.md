@@ -2,7 +2,7 @@
 layout: image
 title: WordPress OAuth Screen
 date: '2013-02-11T14:41:02-08:00'
-shortlink: /p/Gk
+aliases: /p/Gk
 categories:
 - technology
 tags:

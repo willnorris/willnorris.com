@@ -1,7 +1,7 @@
 ---
 title: Accessing a Developing Application
 date: '2005-01-26T20:12:00-06:00'
-shortlink: [/b/G, /p/16]
+aliases: [/b/G, /p/16]
 categories:
 - technology
 tags:

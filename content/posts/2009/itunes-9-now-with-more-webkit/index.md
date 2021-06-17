@@ -1,7 +1,7 @@
 ---
 title: iTunes 9, now with more WebKit
 date: '2009-09-09T13:26:12-07:00'
-shortlink: [/b/EQ, /p/864]
+aliases: [/b/EQ, /p/864]
 categories:
 - technology
 ---

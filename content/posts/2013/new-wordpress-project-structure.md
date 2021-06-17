@@ -1,7 +1,7 @@
 ---
 title: New WordPress project structure
 date: '2013-08-06T13:50:30-07:00'
-shortlink: /b/Hd
+aliases: /b/Hd
 categories:
 - technology
 tags:

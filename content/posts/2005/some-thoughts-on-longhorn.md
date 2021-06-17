@@ -1,7 +1,7 @@
 ---
 title: Some thoughts on Longhorn
 date: '2005-04-27T08:26:25-05:00'
-shortlink: [/b/8, /p/8]
+aliases: [/b/8, /p/8]
 categories:
 - technology
 tags:

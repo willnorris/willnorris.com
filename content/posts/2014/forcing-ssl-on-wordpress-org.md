@@ -2,7 +2,7 @@
 layout: link
 title: Forcing SSL on WordPress.org
 date: '2014-03-10T14:59:10-07:00'
-shortlink: /t/K8
+aliases: /t/K8
 categories:
 - technology
 tags:

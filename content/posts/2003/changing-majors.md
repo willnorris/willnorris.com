@@ -1,7 +1,7 @@
 ---
 title: changing majors
 date: '2003-08-09T16:24:27-05:00'
-shortlink: [/b/1s, /p/112]
+aliases: [/b/1s, /p/112]
 categories:
 - personal
 tags:

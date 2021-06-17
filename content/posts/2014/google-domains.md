@@ -1,7 +1,7 @@
 ---
 title: Google Domains
 date: '2014-06-23T18:07:43-07:00'
-shortlink: /b/KS
+aliases: /b/KS
 categories:
 - technology
 tags:

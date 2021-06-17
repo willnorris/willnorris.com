@@ -8,7 +8,7 @@
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
 
-  {{- if .Params.shortlink }}
+  {{- if .Params.aliases }}
   {{- partial "shortlink" . }}{{ end }}
 
   {{- $style := resources.Get "css/style.scss" | toCSS | minify | fingerprint }}

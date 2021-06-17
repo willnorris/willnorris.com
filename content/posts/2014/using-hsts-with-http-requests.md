@@ -1,7 +1,7 @@
 ---
 title: Using HSTS with HTTP requests
 date: '2014-03-10T15:41:17-07:00'
-shortlink: /b/KA
+aliases: /b/KA
 categories:
 - technology
 tags:

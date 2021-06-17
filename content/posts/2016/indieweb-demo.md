@@ -1,7 +1,7 @@
 ---
 title: IndieWeb Summit 2016 Demo
 date: "2016-06-04T11:44:49-07:00"
-shortlink: /t/4hb1
+aliases: /t/4hb1
 syndication:
  - https://twitter.com/willnorris/status/739166425269424128
 ---

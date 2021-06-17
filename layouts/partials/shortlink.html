@@ -1,16 +1,18 @@
 {{- $base := $.Site.BaseURL }}
 {{- with $.Site.Params.short_baseurl }}{{ $base = . }}{{ end }}
 
-{{- $links := .Params.shortlink }}
+{{- $links := .Params.aliases }}
 {{- if not (reflect.IsSlice $links) }}{{ $links = slice $links }}{{ end }}
 {{- $main := "" }}{{ $alts := slice }}
 
 {{- range $i, $link := $links }}
-  {{- $url := printf "%s/%s" (strings.TrimRight "/" $base) (strings.TrimLeft "/" $link) }}
-  {{- if eq $i 0 }}
-    {{- $main = $url }}
-  {{- else }}
-    {{- $alts = $alts | append $url }}
+  {{- if (findRE "^/[a-z]/[^/]+/?$" $link) -}}
+    {{- $url := printf "%s/%s" (strings.TrimRight "/" $base) (strings.TrimLeft "/" $link) }}
+    {{- if eq $main "" }}
+      {{- $main = $url }}
+    {{- else }}
+      {{- $alts = $alts | append $url }}
+    {{- end -}}
   {{- end }}
 {{- end }}
 

@@ -1,7 +1,7 @@
 ---
 title: Testing in go-github
 date: '2013-08-22T18:23:17-07:00'
-shortlink: /b/Hs
+aliases: /b/Hs
 categories:
 - technology
 tags:

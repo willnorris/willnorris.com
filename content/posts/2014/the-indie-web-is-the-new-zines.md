@@ -2,7 +2,7 @@
 layout: quote
 title: The Indie Web is the new Zines
 date: '2014-10-02T15:43:08-07:00'
-shortlink: [/t/4YR1, /t4YR1]
+aliases: [/t/4YR1, /t4YR1]
 ---
 
 I really love these two quotes from Lillian Karabaic's great piece, <cite><a

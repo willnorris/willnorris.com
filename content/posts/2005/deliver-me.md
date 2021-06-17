@@ -1,7 +1,7 @@
 ---
 title: Deliver me
 date: '2005-11-22T23:22:58-06:00'
-shortlink: [/b/1G, /p/76]
+aliases: [/b/1G, /p/76]
 categories:
 - personal
 tags:

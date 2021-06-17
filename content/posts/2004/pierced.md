@@ -1,7 +1,7 @@
 ---
 title: pierced
 date: '2004-01-11T19:54:39-06:00'
-shortlink: [/b/1r, /p/111]
+aliases: [/b/1r, /p/111]
 categories:
 - technology
 ---

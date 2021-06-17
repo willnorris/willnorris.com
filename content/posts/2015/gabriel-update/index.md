@@ -1,7 +1,7 @@
 ---
 title: Gabriel Update
 date: '2015-02-13T14:20:08-08:00'
-shortlink: /b/4_e1
+aliases: /b/4_e1
 gallery: true
 syndication:
  - https://www.facebook.com/willnorris/posts/10152512521341841

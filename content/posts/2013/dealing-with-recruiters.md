@@ -2,7 +2,7 @@
 layout: aside
 title: Dealing with Recruiters
 date: '2013-08-01T11:36:49-07:00'
-shortlink: /t/Hc
+aliases: /t/Hc
 categories:
 - technology
 ---

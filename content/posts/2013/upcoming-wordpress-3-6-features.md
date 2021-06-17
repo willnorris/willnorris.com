@@ -2,7 +2,7 @@
 layout: link
 title: Upcoming WordPress 3.6 features
 date: '2013-01-07T12:36:51-08:00'
-shortlink: /t/Ga
+aliases: /t/Ga
 categories:
 - technology
 syndication:

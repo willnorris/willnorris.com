@@ -1,7 +1,7 @@
 ---
 title: Challenges in changing my OpenID
 date: '2008-12-19T14:35:21-08:00'
-shortlink: [/b/7c, /p/457]
+aliases: [/b/7c, /p/457]
 categories:
 - identity
 - technology

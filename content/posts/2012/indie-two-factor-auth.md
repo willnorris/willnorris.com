@@ -1,7 +1,7 @@
 ---
 title: indie two-factor auth
 date: '2012-06-13T11:26:41-07:00'
-shortlink: /b/G8
+aliases: /b/G8
 categories:
 - technology
 syndication:

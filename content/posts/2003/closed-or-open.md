@@ -1,7 +1,7 @@
 ---
 title: closed or open
 date: '2003-11-23T04:26:39-06:00'
-shortlink: [/b/22, /p/122]
+aliases: [/b/22, /p/122]
 categories:
 - personal
 ---

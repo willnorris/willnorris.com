@@ -2,7 +2,7 @@
 layout: link
 title: This is a Website
 date: '2013-12-12T08:46:44-08:00'
-shortlink: /t/JG
+aliases: /t/JG
 categories:
 - technology
 tags:

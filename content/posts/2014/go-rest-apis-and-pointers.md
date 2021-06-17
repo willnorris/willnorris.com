@@ -1,7 +1,7 @@
 ---
 title: Go, REST APIs, and Pointers
 date: '2014-05-27T15:34:24-07:00'
-shortlink: /b/KL
+aliases: /b/KL
 categories:
 - technology
 tags:

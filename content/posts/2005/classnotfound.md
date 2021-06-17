@@ -1,7 +1,7 @@
 ---
 title: 'A class needed by class &lt;...&gt; cannot be found: org/apache/tools/ant/Task'
 date: '2005-03-22T08:36:46-06:00'
-shortlink: [/b/E, /p/14]
+aliases: [/b/E, /p/14]
 categories:
 - technology
 tags:

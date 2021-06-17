@@ -2,7 +2,7 @@
 layout: aside
 title: scooby doo algorithm
 date: '2013-07-09T14:17:56-07:00'
-shortlink: /t/HF
+aliases: /t/HF
 categories:
 - technology
 syndication:

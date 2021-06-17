@@ -1,7 +1,7 @@
 ---
 title: 'WordPress Plugin Pet Peeve #3: Not being extensible'
 date: '2009-06-04T08:53:25-07:00'
-shortlink: [/b/BB, /p/671]
+aliases: [/b/BB, /p/671]
 categories:
 - technology
 tags:

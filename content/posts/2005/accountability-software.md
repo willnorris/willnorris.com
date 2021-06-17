@@ -1,7 +1,7 @@
 ---
 title: Accountability Software
 date: '2005-05-04T09:43:50-05:00'
-shortlink: [/b/7, /p/7]
+aliases: [/b/7, /p/7]
 categories:
 - technology
 tags:

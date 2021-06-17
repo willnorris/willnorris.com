@@ -1,7 +1,7 @@
 ---
 title: Free Your ID
 date: '2007-02-13T20:12:55-08:00'
-shortlink: [/b/2p, /p/169]
+aliases: [/b/2p, /p/169]
 categories:
 - identity
 - technology

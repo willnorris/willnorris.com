@@ -1,7 +1,7 @@
 ---
 title: Strengthening HTTP
 date: '2014-01-10T10:05:59-08:00'
-shortlink: /b/Ji
+aliases: /b/Ji
 categories:
 - technology
 tags:

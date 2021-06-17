@@ -1,7 +1,7 @@
 ---
 title: delegating focus
 date: '2005-08-15T21:14:04-05:00'
-shortlink: [/b/18, /p/68]
+aliases: [/b/18, /p/68]
 categories:
 - technology
 tags:

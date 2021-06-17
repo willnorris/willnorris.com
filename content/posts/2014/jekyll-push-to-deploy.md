@@ -1,7 +1,7 @@
 ---
 title: Static Site Push to Deploy
 date: '2014-09-08T17:44:25-07:00'
-shortlink: /b/4Y21
+aliases: /b/4Y21
 syndication:
  - https://twitter.com/willnorris/status/509141063479459840
  - https://plus.google.com/+willnorris/posts/MLLHumYrYob

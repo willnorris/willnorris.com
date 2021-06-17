@@ -1,7 +1,7 @@
 ---
 title: Testing IndieWeb comments
 date: '2013-06-23T11:12:37-07:00'
-shortlink: /b/HC
+aliases: /b/HC
 categories:
 - technology
 ---

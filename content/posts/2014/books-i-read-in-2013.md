@@ -1,7 +1,7 @@
 ---
 title: Books I Read in 2013
 date: '2014-02-26T17:23:55-08:00'
-shortlink: /b/Jr
+aliases: /b/Jr
 categories:
 - personal
 tags:

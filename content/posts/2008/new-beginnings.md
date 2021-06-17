@@ -1,7 +1,7 @@
 ---
 title: New Beginnings
 date: '2008-04-18T09:07:33-07:00'
-shortlink: [/b/3j, /p/224]
+aliases: [/b/3j, /p/224]
 categories:
 - personal
 tags:

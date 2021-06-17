@@ -1,7 +1,7 @@
 ---
 title: Books I Read in 2014
 date: '2015-02-02T14:46:38-08:00'
-shortlink: /b/4_U1
+aliases: /b/4_U1
 image:
   url: books.jpg
   alt: Books

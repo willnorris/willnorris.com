@@ -1,7 +1,7 @@
 ---
 title: Outsourcing comments to Google+
 date: '2011-09-15T14:42:14-07:00'
-shortlink: /b/FV
+aliases: /b/FV
 categories:
 - technology
 tags:

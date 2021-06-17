@@ -1,7 +1,7 @@
 ---
 title: fix to problems with webobjects builder
 date: '2005-07-05T22:30:02-05:00'
-shortlink: [/b/p, /p/49]
+aliases: [/b/p, /p/49]
 categories:
 - technology
 tags:

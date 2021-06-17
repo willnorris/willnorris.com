@@ -3,7 +3,7 @@ layout: status
 title: Excited to finally be able to talk to family and friends about what I've been
   working on
 date: '2011-06-28T12:39:20-07:00'
-shortlink: /t/FT
+aliases: /t/FT
 categories:
 - technology
 ---

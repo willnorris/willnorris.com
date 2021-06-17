@@ -2,7 +2,7 @@
 layout: aside
 title: demoing stuff for indiewebcamp
 date: '2013-06-22T10:43:48-07:00'
-shortlink: /t/HB
+aliases: /t/HB
 categories:
 - technology
 ---

@@ -1,7 +1,7 @@
 ---
 title: IndieWebCamp SF 2014
 date: '2014-03-08T15:31:14-08:00'
-shortlink: /b/K4
+aliases: /b/K4
 categories:
 - technology
 tags:

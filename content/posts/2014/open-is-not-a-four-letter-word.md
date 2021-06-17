@@ -2,7 +2,7 @@
 layout: aside
 title: Open is not a four-letter word
 date: '2014-03-07T10:04:16-08:00'
-shortlink: /t/K1
+aliases: /t/K1
 categories:
 - identity
 - technology

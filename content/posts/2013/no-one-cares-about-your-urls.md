@@ -1,7 +1,7 @@
 ---
 title: No one cares about your URLs (so buy a domain)
 date: '2013-02-19T11:30:32-08:00'
-shortlink: /b/Go
+aliases: /b/Go
 categories:
 - technology
 syndication:

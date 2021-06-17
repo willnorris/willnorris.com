@@ -1,7 +1,7 @@
 ---
 title: Jailbreaking the Internet
 date: '2013-08-14T12:50:40-07:00'
-shortlink: /b/Hk
+aliases: /b/Hk
 categories:
 - technology
 tags:

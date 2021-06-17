@@ -1,7 +1,7 @@
 ---
 title: 'Startup Idea: Hotel Software'
 date: '2013-07-21T19:25:49-07:00'
-shortlink: /b/HN
+aliases: /b/HN
 categories:
 - technology
 tags:

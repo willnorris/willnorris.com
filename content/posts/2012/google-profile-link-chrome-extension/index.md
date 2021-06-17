@@ -1,7 +1,7 @@
 ---
 title: Google+ Profile Link Chrome Extension
 date: '2012-02-04T20:41:21-08:00'
-shortlink: /b/Fy
+aliases: /b/Fy
 categories:
 - technology
 tags:

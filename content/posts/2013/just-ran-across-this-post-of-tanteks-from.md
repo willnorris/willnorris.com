@@ -2,7 +2,7 @@
 layout: aside
 title: Just ran across this post of Tantek's from
 date: '2013-07-18T14:44:26-07:00'
-shortlink: /t/HL
+aliases: /t/HL
 categories:
 - technology
 tags:

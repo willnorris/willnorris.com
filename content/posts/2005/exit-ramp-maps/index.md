@@ -1,7 +1,7 @@
 ---
 title: Exit ramp maps
 date: '2005-04-13T09:00:04-05:00'
-shortlink: [/b/B, /p/11]
+aliases: [/b/B, /p/11]
 categories:
 - technology
 tags:

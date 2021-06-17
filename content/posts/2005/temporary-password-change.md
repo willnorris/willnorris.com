@@ -1,7 +1,7 @@
 ---
 title: Temporary Password Change
 date: '2005-04-22T09:39:12-05:00'
-shortlink: [/b/A, /p/10]
+aliases: [/b/A, /p/10]
 categories:
 - technology
 tags:

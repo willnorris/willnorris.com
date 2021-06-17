@@ -1,7 +1,7 @@
 ---
 title: Improving my HTTPS support
 date: '2013-11-25T12:41:36-08:00'
-shortlink: /b/J6
+aliases: /b/J6
 categories:
 - technology
 tags:

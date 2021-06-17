@@ -1,7 +1,7 @@
 ---
 title: DiSo - One Year Later
 date: '2008-12-18T12:35:13-08:00'
-shortlink: [/b/7Q, /p/444]
+aliases: [/b/7Q, /p/444]
 categories:
 - identity
 - technology

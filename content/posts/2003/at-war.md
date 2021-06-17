@@ -1,7 +1,7 @@
 ---
 title: at war
 date: '2003-03-18T23:34:06-06:00'
-shortlink: [/b/1i, /p/103]
+aliases: [/b/1i, /p/103]
 categories:
 - personal
 - news

@@ -1,7 +1,7 @@
 ---
 title: Attending IndieWeb Summit 2016
 date: "2016-05-25T12:44:41-07:00"
-shortlink: /t/4hS1
+aliases: /t/4hS1
 image:
  url: indiewebcamp-logo-lockup-color.svg
  position: center 20%

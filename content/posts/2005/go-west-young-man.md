@@ -1,7 +1,7 @@
 ---
 title: Go West Young Man
 date: '2005-11-28T20:35:19-06:00'
-shortlink: [/b/1H, /p/77]
+aliases: [/b/1H, /p/77]
 categories:
 - personal
 tags:

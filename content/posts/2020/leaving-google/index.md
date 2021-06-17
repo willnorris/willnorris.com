@@ -1,7 +1,7 @@
 ---
 title: Leaving Google
 date: 2020-09-18T14:38:23-07:00
-shortlink: /b/58i1
+aliases: /b/58i1
 image:
  url: google.jpg
  position: center 50%

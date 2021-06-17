@@ -1,7 +1,7 @@
 ---
 title: Changes to wp-openid
 date: '2008-05-29T17:10:47-07:00'
-shortlink: [/b/3n, /p/227]
+aliases: [/b/3n, /p/227]
 categories:
 - identity
 - technology

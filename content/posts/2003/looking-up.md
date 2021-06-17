@@ -1,7 +1,7 @@
 ---
 title: looking up
 date: '2003-12-01T09:47:48-06:00'
-shortlink: [/b/26, /p/126]
+aliases: [/b/26, /p/126]
 categories:
 - personal
 ---

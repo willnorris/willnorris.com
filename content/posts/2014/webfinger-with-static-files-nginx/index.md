@@ -3,7 +3,7 @@ title: Supporting WebFinger with Static Files and Nginx
 date: '2014-07-25T09:57:08-07:00'
 syndication:
  - https://twitter.com/willnorris/status/492710476053094402
-shortlink: /b/4XG1
+aliases: /b/4XG1
 ---
 
 A few weeks ago, I [switched my website][] from WordPress to a staticly generated site.  In doing so, I had to find

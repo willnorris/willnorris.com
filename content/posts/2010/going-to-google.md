@@ -1,7 +1,7 @@
 ---
 title: Going to Google
 date: '2010-01-26T08:11:49-08:00'
-shortlink: [/b/F3, /p/903]
+aliases: [/b/F3, /p/903]
 categories:
 - identity
 - personal

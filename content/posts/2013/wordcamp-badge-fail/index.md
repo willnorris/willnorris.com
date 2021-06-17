@@ -1,7 +1,7 @@
 ---
 title: WordCamp badge fail
 date: '2013-07-26T14:19:01-07:00'
-shortlink: /b/HQ
+aliases: /b/HQ
 categories:
 - technology
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Anna Nalick
 date: '2005-07-03T01:00:00-05:00'
-shortlink: [/b/n, /p/47]
+aliases: [/b/n, /p/47]
 categories:
 - music
 tags:

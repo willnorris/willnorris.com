@@ -1,7 +1,7 @@
 ---
 title: Boxed Mac and Cheese
 date: 2021-06-15T22:39:49-07:00
-shortlink: /b/5DD1
+aliases: /b/5DD1
 image:
   # https://unsplash.com/photos/lLpccUSDWQg
   url: mac-and-cheese.jpg

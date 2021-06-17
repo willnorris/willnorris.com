@@ -2,7 +2,7 @@
 layout: link
 title: Keep your content close
 date: '2013-03-18T12:41:27-07:00'
-shortlink: /t/Gx
+aliases: /t/Gx
 categories:
 - technology
 tags:

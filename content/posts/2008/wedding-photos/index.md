@@ -1,7 +1,7 @@
 ---
 title: Wedding Photos
 date: '2008-06-18T23:45:28-07:00'
-shortlink: [/b/3o, /p/228]
+aliases: [/b/3o, /p/228]
 categories:
 - personal
 tags:

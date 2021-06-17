@@ -2,7 +2,7 @@
 layout: quote
 title: IndieWebCamp is for creators
 date: '2013-07-19T14:17:07-07:00'
-shortlink: /b/HM
+aliases: /b/HM
 categories:
 - technology
 tags:

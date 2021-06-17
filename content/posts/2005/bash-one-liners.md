@@ -1,7 +1,7 @@
 ---
 title: bash one-liners
 date: '2005-03-29T23:52:55-06:00'
-shortlink: [/b/D, /p/13]
+aliases: [/b/D, /p/13]
 categories:
 - technology
 tags:

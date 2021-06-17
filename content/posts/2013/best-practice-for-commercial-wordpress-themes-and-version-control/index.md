@@ -1,7 +1,7 @@
 ---
 title: Best practice for commercial WordPress themes and version control
 date: '2013-08-15T18:27:30-07:00'
-shortlink: /b/Hn
+aliases: /b/Hn
 categories:
 - technology
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Launching the Google+ Platform
 date: '2011-09-15T11:31:51-07:00'
-shortlink: /b/FY
+aliases: /b/FY
 categories:
 - technology
 syndication:

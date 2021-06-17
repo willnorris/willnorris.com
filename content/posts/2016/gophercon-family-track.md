@@ -1,7 +1,7 @@
 ---
 title: GopherCon Family Track
 date: "2016-06-22T09:42:24-07:00"
-shortlink: /b/4hu1
+aliases: /b/4hu1
 syndication:
  - https://twitter.com/willnorris/status/745660232785813504
 ---

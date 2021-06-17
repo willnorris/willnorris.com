@@ -1,7 +1,7 @@
 ---
 title: All https, all the time
 date: '2012-12-16T21:10:09-08:00'
-shortlink: /b/GR
+aliases: /b/GR
 categories:
 - technology
 tags:

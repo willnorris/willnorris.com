@@ -1,7 +1,7 @@
 ---
 title: tr.im python script (for Mac)
 date: '2008-09-17T17:52:26-07:00'
-shortlink: [/b/55, /p/305]
+aliases: [/b/55, /p/305]
 categories:
 - technology
 tags:

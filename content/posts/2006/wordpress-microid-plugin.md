@@ -1,7 +1,7 @@
 ---
 title: wordpress microID plugin
 date: '2006-07-07T13:13:49-07:00'
-shortlink: [/b/2Z, /p/153]
+aliases: [/b/2Z, /p/153]
 categories:
 - identity
 tags:

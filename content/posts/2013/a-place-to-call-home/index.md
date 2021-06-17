@@ -1,7 +1,7 @@
 ---
 title: A place to call home
 date: '2013-08-21T09:38:12-07:00'
-shortlink: /b/Hq
+aliases: /b/Hq
 categories:
 - technology
 syndication:

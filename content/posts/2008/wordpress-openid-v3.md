@@ -1,7 +1,7 @@
 ---
 title: WordPress OpenID v3.0
 date: '2008-10-01T18:44:29-07:00'
-shortlink: [/b/5c, /p/337]
+aliases: [/b/5c, /p/337]
 categories:
 - identity
 - technology

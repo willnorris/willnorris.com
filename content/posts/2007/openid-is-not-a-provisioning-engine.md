@@ -1,7 +1,7 @@
 ---
 title: OpenID is not a provisioning engine
 date: '2007-10-30T01:11:46-07:00'
-shortlink: [/b/3S, /p/206]
+aliases: [/b/3S, /p/206]
 categories:
 - identity
 - technology

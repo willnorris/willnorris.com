@@ -1,7 +1,7 @@
 ---
 title: WordPress OpenID 2.0 (coming soon?)
 date: '2007-09-04T08:27:09-07:00'
-shortlink: [/b/3E, /p/194]
+aliases: [/b/3E, /p/194]
 categories:
 - identity
 - technology

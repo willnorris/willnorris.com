@@ -1,7 +1,7 @@
 ---
 title: Counting down
 date: '2005-11-02T08:52:21-06:00'
-shortlink: [/b/1F, /p/75]
+aliases: [/b/1F, /p/75]
 categories:
 - music
 - personal

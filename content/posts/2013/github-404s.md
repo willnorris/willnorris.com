@@ -2,7 +2,7 @@
 layout: aside
 title: GitHub 404s
 date: '2013-07-12T11:05:01-07:00'
-shortlink: /t/HG
+aliases: /t/HG
 categories:
 - technology
 tags:

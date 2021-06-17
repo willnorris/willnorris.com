@@ -1,7 +1,7 @@
 ---
 title: Books I Read in 2015
 date: '2016-02-08T16:54:23-08:00'
-shortlink: /b/4ff1
+aliases: /b/4ff1
 image:
   url: kindle.jpg
   alt: Reading an electronic book on a Kindle

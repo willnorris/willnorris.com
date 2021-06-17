@@ -1,7 +1,7 @@
 ---
 title: Best Practices with Directed Identity
 date: '2009-08-02T17:27:43-07:00'
-shortlink: [/b/Dr, /p/831]
+aliases: [/b/Dr, /p/831]
 categories:
 - identity
 - technology

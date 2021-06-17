@@ -1,7 +1,7 @@
 ---
 title: Display likes in a facepile
 date: '2014-03-09T22:42:59-07:00'
-shortlink: /b/K6
+aliases: /b/K6
 categories:
 - technology
 tags:

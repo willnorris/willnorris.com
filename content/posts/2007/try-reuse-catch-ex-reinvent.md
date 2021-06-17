@@ -1,7 +1,7 @@
 ---
 title: try { reuse; } catch (Ex) { reinvent; }
 date: '2007-11-05T20:49:45-08:00'
-shortlink: [/b/3U, /p/208]
+aliases: [/b/3U, /p/208]
 categories:
 - identity
 - technology

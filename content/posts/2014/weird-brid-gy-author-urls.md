@@ -2,7 +2,7 @@
 layout: aside
 title: weird brid.gy author URLs
 date: '2014-05-28T13:50:27-07:00'
-shortlink: /t/KN
+aliases: /t/KN
 categories:
 - technology
 tags:

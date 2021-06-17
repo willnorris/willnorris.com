@@ -2,7 +2,7 @@
 layout: aside
 title: indie web reply
 date: '2014-03-07T10:50:19-08:00'
-shortlink: /t/K2
+aliases: /t/K2
 categories:
 - technology
 ---

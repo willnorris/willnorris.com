@@ -1,7 +1,7 @@
 ---
 title: Shibboleth 1.3 released
 date: '2005-07-27T14:19:17-05:00'
-shortlink: [/b/w, /p/56]
+aliases: [/b/w, /p/56]
 categories:
 - identity
 - technology

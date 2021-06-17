@@ -1,7 +1,7 @@
 ---
 title: New OpenID.net
 date: '2007-10-09T08:31:58-07:00'
-shortlink: [/b/3K, /p/199]
+aliases: [/b/3K, /p/199]
 categories:
 - identity
 - technology

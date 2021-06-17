@@ -1,7 +1,7 @@
 ---
 title: Fetching Go Sub-Packages on Static Sites
 date: "2015-02-20T00:28:16-08:00"
-shortlink: /b/4_m1
+aliases: /b/4_m1
 ---
 
 One of my favorite things about Go is that there is no central repository for third-party libraries

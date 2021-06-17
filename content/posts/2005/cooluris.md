@@ -1,7 +1,7 @@
 ---
 title: Fix old broken URLs with mod_rewrite
 date: '2005-01-13T15:03:57-06:00'
-shortlink: [/b/H, /p/17]
+aliases: [/b/H, /p/17]
 categories:
 - technology
 tags:

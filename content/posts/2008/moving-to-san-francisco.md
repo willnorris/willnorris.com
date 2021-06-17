@@ -1,7 +1,7 @@
 ---
 title: Moving to San Francisco
 date: '2008-06-28T10:48:45-07:00'
-shortlink: [/b/3q, /p/230]
+aliases: [/b/3q, /p/230]
 categories:
 - personal
 tags:

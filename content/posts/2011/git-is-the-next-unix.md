@@ -2,7 +2,7 @@
 layout: link
 title: Git is the next Unix
 date: '2011-03-13T22:06:45-07:00'
-shortlink: /t/FL
+aliases: /t/FL
 categories:
 - technology
 tags:

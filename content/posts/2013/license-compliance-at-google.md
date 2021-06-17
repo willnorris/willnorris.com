@@ -2,7 +2,7 @@
 layout: link
 title: License compliance at Google
 date: '2013-12-22T16:35:50-08:00'
-shortlink: /t/JK
+aliases: /t/JK
 categories:
 - technology
 tags:

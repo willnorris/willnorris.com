@@ -1,7 +1,7 @@
 ---
 title: quicksilver and itunes
 date: '2005-06-27T12:26:01-05:00'
-shortlink: [/b/i, /p/43]
+aliases: [/b/i, /p/43]
 categories:
 - technology
 tags:

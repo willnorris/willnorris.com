@@ -1,7 +1,7 @@
 ---
 title: Spring Semester.  Day 1.
 date: '2004-01-12T22:13:50-06:00'
-shortlink: [/b/29, /p/129]
+aliases: [/b/29, /p/129]
 categories:
 - technology
 ---

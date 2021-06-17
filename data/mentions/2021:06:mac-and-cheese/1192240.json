@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Leslie Hawthorn",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/81b6c7be2e4d8c5ac797b769b0c74f384a9ad55524a5d00038bc98ad7176a7b4.jpg",
+    "url": "https://twitter.com/lhawthorn"
+  },
+  "url": "https://twitter.com/willnorris/status/1405202952533409795#favorited-by-19682566",
+  "published": null,
+  "wm-received": "2021-06-16T16:48:20Z",
+  "wm-id": 1192240,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1405202952533409795/19682566",
+  "wm-target": "https://willnorris.com/2021/06/mac-and-cheese/",
+  "like-of": "https://willnorris.com/2021/06/mac-and-cheese/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

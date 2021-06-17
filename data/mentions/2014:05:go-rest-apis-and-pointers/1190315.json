@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Village Nick",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/fe9b2136ee9342a36f472d4050f7b319ef048d72a279ece3f2f4c2eadb66b0ba.png",
+    "url": "https://twitter.com/_nicovillanueva"
+  },
+  "url": "https://twitter.com/_nicovillanueva/status/1002601233742524416",
+  "published": "2018-06-01T17:22:16+00:00",
+  "wm-received": "2021-06-15T06:42:59Z",
+  "wm-id": 1190315,
+  "wm-source": "https://brid.gy/post/twitter/willnorris/1002601233742524416",
+  "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "content": {
+    "html": "Super interesante post de manejo de nil values y punteros en Go, cuando se juega con REST APIs\n<a href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers\">willnorris.com/2014/05/go-res…</a>\n\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers/\"></a>",
+    "text": "Super interesante post de manejo de nil values y punteros en Go, cuando se juega con REST APIs\nwillnorris.com/2014/05/go-res…"
+  },
+  "mention-of": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "wm-property": "mention-of",
+  "wm-private": false
+}

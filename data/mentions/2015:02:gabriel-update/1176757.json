@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Matthias Pfefferle",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/e9761b83d27c9bd2c2d7a79551e35f4ef653187a4788286dab63bdfc387ecbe1.jpg",
+    "url": "https://twitter.com/pfefferle"
+  },
+  "url": "https://twitter.com/willnorris/status/566382236203634688#favorited-by-613043",
+  "published": null,
+  "wm-received": "2021-06-01T16:31:24Z",
+  "wm-id": 1176757,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/566382236203634688/613043",
+  "wm-target": "https://willnorris.com/2015/02/gabriel-update/",
+  "like-of": "https://willnorris.com/2015/02/gabriel-update/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

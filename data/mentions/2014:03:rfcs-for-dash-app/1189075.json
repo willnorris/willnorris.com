@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "literally misandré",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/af476b1e445a7e25ddec4245dc5f3eb468f7a9fd31098c40eea7cc6c35bc57c3.jpg",
+    "url": "https://twitter.com/indirect"
+  },
+  "url": "https://twitter.com/indirect/status/465864402198351872",
+  "published": "2014-05-12T14:41:43+00:00",
+  "wm-received": "2021-06-14T06:58:29Z",
+  "wm-id": 1189075,
+  "wm-source": "https://brid.gy/post/twitter/willnorris/465864402198351872",
+  "wm-target": "https://willnorris.com/2014/03/rfcs-for-dash-app/",
+  "content": {
+    "html": "all the RFCs offline and searchable locally! wheeeeeeeeeeeeeee <a href=\"https://willnorris.com/2014/03/rfcs-for-dash-app\">willnorris.com/2014/03/rfcs-f…</a> (thanks <a href=\"https://twitter.com/willnorris\">@willnorris</a>!)\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/03/rfcs-for-dash-app/\"></a>",
+    "text": "all the RFCs offline and searchable locally! wheeeeeeeeeeeeeee willnorris.com/2014/03/rfcs-f… (thanks @willnorris!)"
+  },
+  "mention-of": "https://willnorris.com/2014/03/rfcs-for-dash-app/",
+  "wm-property": "mention-of",
+  "wm-private": false
+}

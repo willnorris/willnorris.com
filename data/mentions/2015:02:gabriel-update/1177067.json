@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "julia ferraioli",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/246e48aa332e89809fe1003975853ed4e19a842dae5913be85dd17e065d3e15e.jpg",
+    "url": "https://twitter.com/juliaferraioli"
+  },
+  "url": "https://twitter.com/juliaferraioli/status/566388124062711811",
+  "published": "2015-02-14T00:07:06+00:00",
+  "wm-received": "2021-06-01T19:54:50Z",
+  "wm-id": 1177067,
+  "wm-source": "https://brid.gy/comment/twitter/willnorris/566382236203634688/566388124062711811",
+  "wm-target": "https://willnorris.com/2015/02/gabriel-update/",
+  "content": {
+    "html": "<a href=\"https://twitter.com/willnorris\">@willnorris</a> such fantastic news! Congrats to your whole family!",
+    "text": "@willnorris such fantastic news! Congrats to your whole family!"
+  },
+  "in-reply-to": "https://willnorris.com/2015/02/gabriel-update/",
+  "wm-property": "in-reply-to",
+  "wm-private": false
+}

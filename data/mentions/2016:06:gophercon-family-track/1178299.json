@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "GopherCon",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/412ce4c46e4c097ca37f0a74f0d9e485154ce8a8bbac34c1fc68d353033c5f52.jpg",
+    "url": "https://twitter.com/GopherCon"
+  },
+  "url": "https://twitter.com/GopherCon/status/745663593706749952",
+  "published": "2016-06-22T17:03:49+00:00",
+  "wm-received": "2021-06-02T16:24:38Z",
+  "wm-id": 1178299,
+  "wm-source": "https://brid.gy/repost/twitter/willnorris/745660232785813504/745663593706749952",
+  "wm-target": "https://willnorris.com/2016/06/gophercon-family-track/",
+  "content": {
+    "html": "Amazingly impressed that @gophercon has a \"Significant Others &amp; Family\" track! Never seen anything like this before willnorris.com/2016/06/gopher…",
+    "text": "Amazingly impressed that @gophercon has a \"Significant Others & Family\" track! Never seen anything like this before willnorris.com/2016/06/gopher…"
+  },
+  "repost-of": "https://willnorris.com/2016/06/gophercon-family-track/",
+  "wm-property": "repost-of",
+  "wm-private": false
+}

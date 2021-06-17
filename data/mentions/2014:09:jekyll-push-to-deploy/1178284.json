@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Gennady Feldman",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/1c65ccfc22036050849317ac46577d05f02765a8f2016096f46fcdf89b9fe66a.jpg",
+    "url": "https://twitter.com/gena01"
+  },
+  "url": "https://twitter.com/willnorris/status/509141063479459840#favorited-by-15208551",
+  "published": null,
+  "wm-received": "2021-06-02T16:18:59Z",
+  "wm-id": 1178284,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/509141063479459840/15208551",
+  "wm-target": "https://willnorris.com/2014/09/jekyll-push-to-deploy/",
+  "like-of": "https://willnorris.com/2014/09/jekyll-push-to-deploy/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

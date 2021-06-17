@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jᵾlien Genestoux",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/1c4eefaae056b2962c2038838168f28ddd447dc4bffdee800db75387db4a8914.jpeg",
+    "url": "https://twitter.com/julien51"
+  },
+  "url": "https://twitter.com/willnorris/status/492710476053094402#favorited-by-5381582",
+  "published": null,
+  "wm-received": "2021-06-02T16:15:52Z",
+  "wm-id": 1178267,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/492710476053094402/5381582",
+  "wm-target": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "like-of": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

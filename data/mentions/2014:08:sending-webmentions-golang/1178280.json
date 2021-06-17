@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Kevin Marks",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/03a26dfe8ff49e220dd488fe203b495697be6bb7a18cd31ece35b40327749b6d.jpg",
+    "url": "https://twitter.com/kevinmarks"
+  },
+  "url": "https://twitter.com/kevinmarks/status/497789629303517184",
+  "published": "2014-08-08T17:01:10+00:00",
+  "wm-received": "2021-06-02T16:16:38Z",
+  "wm-id": 1178280,
+  "wm-source": "https://brid.gy/repost/twitter/willnorris/497774634238885888/497789629303517184",
+  "wm-target": "https://willnorris.com/2014/08/sending-webmentions-golang/",
+  "content": {
+    "text": "here's a little go client I wrote for sending webmentions #indieweb willnorris.com/2014/08/sendin…"
+  },
+  "repost-of": "https://willnorris.com/2014/08/sending-webmentions-golang/",
+  "wm-property": "repost-of",
+  "wm-private": false
+}

@@ -1,0 +1,26 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://notiz.blog/2013/06/20/5231/",
+  "published": "2013-06-20T19:56:05+02:00",
+  "wm-received": "2021-06-07T08:16:55Z",
+  "wm-id": 1182112,
+  "wm-source": "https://notiz.blog/2013/06/20/5231/",
+  "wm-target": "https://willnorris.com/2013/06/testing-indieweb-comments",
+  "summary": {
+    "content-type": "text/plain",
+    "value": "My Webmention plugin for #WordPress should be kind of stable now&#8230; Time to ping the #IndieWeb #Conversations from @eschnou, @Barnaby Walters, @Ben Werdmuller, @Tom Morris, @Will Norris, and @Aaron Parecki. &#8230;and some &lt;3 for Sandeep Shetty"
+  },
+  "content": {
+    "html": "<p>My Webmention plugin for #WordPress should be kind of stable now... Time to ping the #IndieWeb #Conversations from <a href=\"https://web.archive.org/web/20150320090209/https://eschnou.com/entry/testing-indieweb-federation-with-waterpigscouk-aaronpareckicom-and--62-24908.html\">@eschnou</a>, <a href=\"https://waterpigs.co.uk/notes/4QbH5C/\">@Barnaby Walters</a>, <a href=\"http://werd.io/view/51c525d1bed7de22492c1804\">@Ben Werdmuller</a>, <a href=\"https://web.archive.org/web/20160322142025/https://tommorris.org/posts/8386\">@Tom Morris</a>, <a href=\"https://willnorris.com/2013/06/testing-indieweb-comments\">@Will Norris</a>, and <a href=\"http://aaronparecki.com/replies/2013/06/20/1/webmention-indieweb\">@Aaron Parecki</a>.</p>\n\n\n\n<p>...and some &lt;3 for <a href=\"http://www.sandeep.io/39\">Sandeep Shetty</a></p>",
+    "text": "My Webmention plugin for #WordPress should be kind of stable now... Time to ping the #IndieWeb #Conversations from @eschnou, @Barnaby Walters, @Ben Werdmuller, @Tom Morris, @Will Norris, and @Aaron Parecki.\n\n\n\n...and some <3 for Sandeep Shetty"
+  },
+  "mention-of": "https://willnorris.com/2013/06/testing-indieweb-comments",
+  "wm-property": "mention-of",
+  "wm-private": false
+}

@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Rick Turoczy",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/b80087d7c8e73b387027af80379e6fc1efaf54e85bcb052bec53636b73619dc8.jpg",
+    "url": "https://twitter.com/turoczy"
+  },
+  "url": "https://twitter.com/turoczy/status/4478924680",
+  "published": "2009-09-29T20:21:21+00:00",
+  "wm-received": "2021-06-14T06:50:10Z",
+  "wm-id": 1189073,
+  "wm-source": "https://brid.gy/post/twitter/willnorris/4478924680",
+  "wm-target": "https://willnorris.com/2009/09/openid-and-wordpress-core/",
+  "content": {
+    "html": "RT <a href=\"https://twitter.com/willnorris\">@willnorris</a>: my thoughts on including the OpenID plugin into WordPress core http://willnorris.com/p/878\n<a class=\"u-mention\" href=\"http://willnorris.com/p/878\"></a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2009/09/openid-and-wordpress-core/\"></a>",
+    "text": "RT @willnorris: my thoughts on including the OpenID plugin into WordPress core http://willnorris.com/p/878"
+  },
+  "mention-of": "https://willnorris.com/2009/09/openid-and-wordpress-core/",
+  "wm-property": "mention-of",
+  "wm-private": false
+}

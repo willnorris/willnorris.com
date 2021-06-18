@@ -25,7 +25,7 @@
         <a href="{{ .url }}" class="u-url" title="{{ .author.name }}">
           <span class="p-author h-card">
             <img src="{{ .author.photo }}" loading="lazy" decoding="async" alt="{{ .author.name }}">
-            <a href="{{ .author.url }}"></a>
+            <a href="{{ .author.url }}" class="p-name u-url" style="display: none">{{ .author.name }}</a>
           </span>
         </a>
       </li>
@@ -43,7 +43,7 @@
         <a href="{{ .url }}" class="u-url" title="{{ .author.name }}">
           <span class="p-author h-card">
             <img src="{{ .author.photo }}" loading="lazy" decoding="async" alt="{{ .author.name }}">
-            <a href="{{ .author.url }}"></a>
+            <a href="{{ .author.url }}" class="p-name u-url" style="display: none">{{ .author.name }}</a>
           </span>
         </a>
       </li>

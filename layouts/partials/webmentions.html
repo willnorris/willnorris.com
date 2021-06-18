@@ -59,7 +59,7 @@
         <img src="{{ .author.photo }}" alt="" class="u-photo" loading="lazy" decoding="async">
         {{ .author.name }}
       {{ if .url }}</a>{{ else }}</span>{{ end }}
-      <a href="#comment-{{ index . "wm-id" }}"><time class="dt-published">{{ .published }}</time></a>
+      <a href="#comment-{{ index . "wm-id" }}">{{ partial "time" .published }}</time></a>
     </div>
     <div class="e-content">
       {{ .content.html | markdownify }}

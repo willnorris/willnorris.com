@@ -9,10 +9,7 @@
       <p class="entry-meta">
         Published on
         <a href="{{ .Permalink }}" class="u-url url">
-          <time class="dt-published published dt-updated updated" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" title="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-            {{/* TODO: figure out how to include timezone in output */}}
-            {{ .Date.Format "January 2, 2006 at 3:04 pm" }}
-          </time>
+          {{ partial "time" .Date }}
         </a>
         by
         <span class="p-author h-card author vcard">

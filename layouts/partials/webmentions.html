@@ -55,10 +55,10 @@
   {{- range $other }}
   <article id="comment-{{ index . "wm-id" }}" class="p-comment h-entry">
     <div class="comment-meta">
-      <a href="{{ .url }}" class="p-author h-card">
-        <img src="{{ .author.photo }}" class="u-photo" loading="lazy" decoding="async">
+      {{ if .url }}<a href="{{ .url }}"{{ else }}<span{{ end }} class="p-author h-card">
+        <img src="{{ .author.photo }}" alt="" class="u-photo" loading="lazy" decoding="async">
         {{ .author.name }}
-      </a>
+      {{ if .url }}</a>{{ else }}</span>{{ end }}
       <a href="#comment-{{ index . "wm-id" }}"><time class="dt-published">{{ .published }}</time></a>
     </div>
     <div class="e-content">

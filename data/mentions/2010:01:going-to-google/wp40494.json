@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "DGentry",
+    "url": "http://codingrelic.geekhold.com/",
+    "photo": "https://www.gravatar.com/avatar/a5274c69de87610590b2f62c2fa3ad0d?d=404"
+  },
+  "url": "http://codingrelic.geekhold.com/",
+  "published": "2010-01-26T16:47:52-08:00",
+  "content": {
+    "html": "<p>Congratulations, I look forward to the products of your work there!</p>\n",
+    "text": ""
+  },
+  "wm-id": "40494",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

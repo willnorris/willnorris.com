@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Khürt",
+    "url": "http://islandinthenet.com/",
+    "photo": "https://www.gravatar.com/avatar/7fa94585b903e6e183d6164b16b1b573?d=404"
+  },
+  "url": "http://islandinthenet.com/",
+  "published": "2009-03-11T12:33:42-07:00",
+  "content": {
+    "html": "\"I hate blogs making me get a whole new login account all the time. Which makes me hate forcing that on others.\" is precisely the reason why OAuth in WordPress makes more sense than OpenID.  I already have accounts with Facebook and Google etc.  I also have OpenID but I'd rather click one button than enter a URL.",
+    "text": ""
+  },
+  "wm-id": "29633",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name",
+  "published": "2008-11-14T02:14:17-08:00",
+  "content": {
+    "html": "but again, keeping the sites separate (even with duplicated content) prevents the desired effect of merging their Google reputations.\r\n\r\nI wouldn't expect Google to anticipate something like this... it's certainly an edge case, and one I created myself by setting these up as two different websites to begin with.",
+    "text": ""
+  },
+  "wm-id": "26258",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/11/consolidating-domains/"
+}

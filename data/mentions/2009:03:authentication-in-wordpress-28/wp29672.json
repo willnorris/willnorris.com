@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-03-12T15:44:24-07:00",
+  "content": {
+    "html": "Allan: just to clarify, the new chaining of authentication (which *is* a lot like Apache) is a feature of WordPress 2.8, it has nothing to do with OAuth directly.  These changes to the WordPress authentication system are not specifically about enabling OAuth, although that was the use case that prompted them.  The idea behind these changes is to make WordPress authentication much more pluggable and clean regardless of what authentication method you're using.  Looking back at the old auth code, you're right, even something like LDAP wasn't terribly clean integration.  The new hook will make this much, much easier for all authentication plugins.",
+    "text": ""
+  },
+  "wm-id": "29672",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

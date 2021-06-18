@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8 Baker: téléchargement et infos",
+    "url": "http://www.webinventif.fr/wordpress-28-baker/"
+  },
+  "url": "http://www.webinventif.fr/wordpress-28-baker/",
+  "published": "2009-06-11T06:14:18-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31870",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

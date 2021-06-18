@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Dana",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/1cd37158a2a880b2975f4597b6394f31?d=404"
+  },
+  "url": "",
+  "published": "2005-07-29T22:56:33-07:00",
+  "content": {
+    "html": "I know I'm early, but happy birthday will.",
+    "text": ""
+  },
+  "wm-id": "17",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/07/lock-screen-revisited/"
+}

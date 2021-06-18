@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "iPhrankie",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/8493478de0bcc5cda3c9bf47407892d3?d=404"
+  },
+  "url": "",
+  "published": "2007-03-17T05:42:35-07:00",
+  "content": {
+    "html": "I'm trying the plug-in on my site and I'm having a small problem.\r\n\r\nInstead of showing the nickname of the person who posted the comment, it's showing \"Anonymous\" which links to the person's web site.\r\n\r\nHow do I get it to show the persons nickname which is in their profile?\r\n\r\nMy site does require logging in before posting comments.",
+    "text": ""
+  },
+  "wm-id": "1502",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "willnorris.com &raquo; Blog Archive &raquo; Lock Screen revisited",
+    "url": "http://willnorris.com/2005/07/lock-screen-revisited"
+  },
+  "url": "http://willnorris.com/2005/07/lock-screen-revisited",
+  "published": "2005-07-28T21:30:18-07:00",
+  "content": {
+    "html": "[...] Lock Screen revisited [...]",
+    "text": ""
+  },
+  "wm-id": "16",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2005/07/lock-screen/"
+}

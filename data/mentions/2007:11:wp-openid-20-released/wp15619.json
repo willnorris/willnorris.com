@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Eko Pramuyanto",
+    "url": "http://maseko.com/",
+    "photo": "https://www.gravatar.com/avatar/048bd7af50149973a894476acd0e2964?d=404"
+  },
+  "url": "http://maseko.com/",
+  "published": "2007-12-03T02:54:40-08:00",
+  "content": {
+    "html": "<p>Just test how it works. Delete this then.. thanks</p>\n",
+    "text": ""
+  },
+  "wm-id": "15619",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

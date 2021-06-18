@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "mattc",
+    "url": "http://orangesplotch.com/",
+    "photo": "https://www.gravatar.com/avatar/2709aa311a568e7b5577abf2658d6cdb?d=404"
+  },
+  "url": "http://orangesplotch.com/",
+  "published": "2009-06-16T18:16:04-07:00",
+  "content": {
+    "html": "<p>I just recently discovered that my plugin is guilty of this offense. Apologies to everyone I've offended up to now. Thanks to your post, I quickly corrected the error.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32023",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/05/wordpress-plugin-pet-peeve-hardcoding-wp-content/"
+}

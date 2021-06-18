@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name/",
+  "published": "2008-08-11T19:28:40-07:00",
+  "content": {
+    "html": "@LifeAsItComes (Kevin): well that issues certainly doesn't exist anymore in its current form, simply because authentication requests would never have a return_to of anything in wp-admin/... all responses comes back to /?openid_consumer.",
+    "text": ""
+  },
+  "wm-id": "23074",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

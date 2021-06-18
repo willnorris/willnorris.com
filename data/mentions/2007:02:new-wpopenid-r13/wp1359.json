@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-02-27T19:05:30-08:00",
+  "content": {
+    "html": "[quote comment=\"1358\"]One request: Could you post the actual code for the comment form? Yours is much nicer than the code in the readme.[/quote]\r\nActually, I'm just using what is built in to the plugin... I've got the last three options checked -- \"Comment Form\", \"Internal Style\", and \"Unobtrusive Mode\".  <s>I don't have \"Login Form\" checked because it does some really funny style stuff, and just haven't had a chance to fix that yet.</s>\r\n\r\nUpdate: I now have all four options checked for this site... just need a little CSS tweak to hide the login form from the main page.",
+    "text": ""
+  },
+  "wm-id": "1359",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

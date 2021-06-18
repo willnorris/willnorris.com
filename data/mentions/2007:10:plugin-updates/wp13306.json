@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "url": ""
+  },
+  "url": "",
+  "published": "2007-10-02T16:41:40-07:00",
+  "content": {
+    "html": "<p>Will, I just noticed this in your blog and wanted to give you a heads up.  Nothing to do with wp-openid.</p>\n\n<p>The Quoter plugin has a bug in WP 2.3.  In certain circumstances, it will automatically quote the last comment.  For example, if you log out and view this post, so that the comment form Name and Mail fields are blank, you will see that Quoter automatically fills in the comment field with a quote from the pingback about OpenID and Microformats.</p>\n\n<p>I published a hack fix for this in the <a href=\"http://www.damagedgoods.it/wp-plugins/quoter/#comment-30399\">Quoter Plugin comments</a>.</p>\n",
+    "text": ""
+  },
+  "wm-id": "13306",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

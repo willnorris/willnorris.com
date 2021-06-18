@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "David Collantes",
+    "url": "http://collantes.us/",
+    "photo": "https://www.gravatar.com/avatar/5d9f1c3ee5af8404251503405f19455b?d=404"
+  },
+  "url": "http://collantes.us/",
+  "published": "2009-09-28T20:29:11-07:00",
+  "content": {
+    "html": "<p>For of all, thank you for the release. I am one of the many that have asked, many times, to get OpenID as part of the WordPress core. I consider this important, and a good replacement for the current WordPress login mechanism. Yet, I have gotten much resistance from wordpress.org.</p>\n\n<p>Perhaps as the main developer of this plugin you could weight in and endorse the inclusion of OpenID as part of the WordPress core. Perhaps they will listen to you.</p>\n",
+    "text": ""
+  },
+  "wm-id": "35592",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/wordpress-openid-v3-3/"
+}

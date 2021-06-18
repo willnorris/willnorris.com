@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "aquariumfish",
+    "url": "http://www.aquariumfish.me",
+    "photo": "https://www.gravatar.com/avatar/5a3b8a49154da4f296f95e8380eb744f?d=404"
+  },
+  "url": "http://www.aquariumfish.me",
+  "published": "2009-06-02T00:37:22-07:00",
+  "content": {
+    "html": "Much say I'm not that keen on OpenID myself. Many say it's not secure enough for many valid reasons.",
+    "text": ""
+  },
+  "wm-id": "31516",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

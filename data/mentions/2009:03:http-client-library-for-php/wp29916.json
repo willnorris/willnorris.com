@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "http://singpolyma.net/",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "http://singpolyma.net/",
+  "published": "2009-03-20T13:13:50-07:00",
+  "content": {
+    "html": "Native cURL in PHP is very common, but, as you say, not guarenteed.\r\n\r\nFor simple requests, the most common thing to do is try cURL if it's around, and if it's not, fall back to sockets/fopen.   If there's no cURL and remote\\_url\\_fopen is off, things become much harder.  Thankfully this is extremely rare.",
+    "text": ""
+  },
+  "wm-id": "29916",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/http-client-library-for-php/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Claas",
+    "url": "http://www.havaneser-hunde.de/gesundheit",
+    "photo": "https://www.gravatar.com/avatar/c727b8ca9ddbc2ffe8c87b902d2b5b41?d=404"
+  },
+  "url": "http://www.havaneser-hunde.de/gesundheit",
+  "published": "2010-02-24T22:12:56-08:00",
+  "content": {
+    "html": "<p>Or a german version? please!</p>\n",
+    "text": ""
+  },
+  "wm-id": "41747",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chris Messina",
+    "url": "http://factoryjoe.com/",
+    "photo": "https://www.gravatar.com/avatar/8403e20f058363f718144dd51faa65a7?d=404"
+  },
+  "url": "http://factoryjoe.com/",
+  "published": "2008-07-25T21:29:23-07:00",
+  "content": {
+    "html": "Sidenote: Hey Will what do you think about making it easier to provide you with debugging information, and a better diagnostic dashboard for folks who are trying to figure out what (or where) things are going wrong?\r\n\r\nIt seems to me that the current UI might be a little hard to get to or make use of... It might also be useful to add a link to a Satisfaction site for support -- or to the wordpress.org support page.\r\n\r\nThoughts?",
+    "text": ""
+  },
+  "wm-id": "22569",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

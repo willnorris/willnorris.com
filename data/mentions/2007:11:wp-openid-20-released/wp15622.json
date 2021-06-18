@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Thomas Renger",
+    "url": "http://wazong.de/blog/",
+    "photo": "https://www.gravatar.com/avatar/1d6a0566df7760e7d1507810b71a363e?d=404"
+  },
+  "url": "http://wazong.de/blog/",
+  "published": "2007-12-03T12:52:07-08:00",
+  "content": {
+    "html": "<p>Turns out that the problem described above was a bug in the JanRain PHP libs (but I don't know on which side of the protocol) that garbled the shared secret. After deleting the association from both databases it worked.</p>\n",
+    "text": ""
+  },
+  "wm-id": "15622",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mike Walsh",
+    "url": "http://inspirationdate.net/"
+  },
+  "url": "http://inspirationdate.net/",
+  "published": "2008-03-20T02:59:51-07:00",
+  "content": {
+    "html": "<p>asdf</p>\n",
+    "text": ""
+  },
+  "wm-id": "18721",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

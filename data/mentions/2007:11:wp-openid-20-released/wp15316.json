@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Robert Jones",
+    "url": "http://robertjones.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/b64b6a5eceabf52d71345805f2caefa9?d=404"
+  },
+  "url": "http://robertjones.myopenid.com/",
+  "published": "2007-11-23T17:58:04-08:00",
+  "content": {
+    "html": "<p>Congratulations on an excellent and much-needed plugin!</p>\n\n<p>I'm having trouble with delegated OpenID.</p>\n\n<p>I'm http://robertjones.myopenid.com and have delegated http://www.jonesieboy.co.uk/blog to refer to that openid</p>\n\n<p>When I try to post a comment using the original myopenid url, all is well, but when I use my blog url, my blog (and yours) chuck back a \"need name and email\" error, despite the fact that the <a href=\"http://www.openidenabled.com/resources/openid-test/checkup/\">openid checker</a> reports that my blog is a functioning openid.</p>\n\n<p>Any ideas?</p>\n",
+    "text": ""
+  },
+  "wm-id": "15316",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

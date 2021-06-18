@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "https://singpolyma.net/",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "https://singpolyma.net/",
+  "published": "2011-01-28T01:14:44-08:00",
+  "content": {
+    "html": "<p>I haven't changed my permalink structure at all.  The algo link gives the epoch day (and thus the year and month) and from that one can look through posts on that day and find the nth one</p>\n",
+    "text": ""
+  },
+  "wm-id": "53775",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2011/01/hum-personal-url-shortener-wordpress/"
+}

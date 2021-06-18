@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Oliver Wagner",
+    "url": "http://owagner.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/c2e4a383ad0dd4bfc1d0e30c83b2193b?d=404"
+  },
+  "url": "http://owagner.myopenid.com/",
+  "published": "2007-03-23T13:01:53-07:00",
+  "content": {
+    "html": "I tried the other Fork of this plugin at http://sourceforge.net/projects/wpopenid/\r\n\r\nThis leads to a similiar result. There seems to be a problem with the variable Globals:\r\n\r\n[FAIL] unknown library variable: GLOBALS\r\n\r\nAny idea?",
+    "text": ""
+  },
+  "wm-id": "1654",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

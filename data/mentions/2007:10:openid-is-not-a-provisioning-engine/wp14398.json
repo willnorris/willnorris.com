@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "James Henstridge",
+    "url": "http://blogs.gnome.org/jamesh",
+    "photo": "https://www.gravatar.com/avatar/9d9b7698c26959f57c0e3814005b8b52?d=404"
+  },
+  "url": "http://blogs.gnome.org/jamesh",
+  "published": "2007-10-30T13:40:27-07:00",
+  "content": {
+    "html": "<p>The OpenID attribute exchange protocol does define a method for an OP to push changes out to RPs, so provided that part of the protocol is implemented the RP does not have to wait for the user to re-authenticate.</p>\n\n<p>While you might not be able to rely on this in the wild right now, you can in more controlled systems (e.g. using OpenID as a single sign-on system for a group of web sites).</p>\n",
+    "text": ""
+  },
+  "wm-id": "14398",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/openid-is-not-a-provisioning-engine/"
+}

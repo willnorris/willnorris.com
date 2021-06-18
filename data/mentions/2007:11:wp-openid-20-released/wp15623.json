@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Alexandre Passant",
+    "url": "http://apassant.net/",
+    "photo": "https://www.gravatar.com/avatar/fc2e6ca03e3de80932fc06a983a6996d?d=404"
+  },
+  "url": "http://apassant.net/",
+  "published": "2007-12-03T15:43:57-08:00",
+  "content": {
+    "html": "<p>test ... do not work on my website, delegating my URI to myopenID</p>\n",
+    "text": ""
+  },
+  "wm-id": "15623",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

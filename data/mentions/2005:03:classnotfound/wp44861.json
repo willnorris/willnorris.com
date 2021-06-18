@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Anton",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/e94f333a72b0b6b4b3e66e43f328cda0?d=404"
+  },
+  "url": "",
+  "published": "2010-06-28T15:07:32-07:00",
+  "content": {
+    "html": "<p>Fortunately, Google helped me to find this page :) Thanks for saving my time!</p>\n",
+    "text": ""
+  },
+  "wm-id": "44861",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/03/classnotfound/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Java OpenID Library - Configuration and Custom Messages &#8212; Will Norris",
+    "url": "http://willnorris.com/2009/11/java-openid-library-configuration-and-custom-messages"
+  },
+  "url": "http://willnorris.com/2009/11/java-openid-library-configuration-and-custom-messages",
+  "published": "2009-11-16T04:34:07-08:00",
+  "content": {
+    "html": "<p>[...] Will Norris Thoughts on Identity, OpenID, WordPress, and Life   Skip to content BlogAboutProjectsArchives       &laquo; Java OpenID Library Design - Message Handling [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "37999",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/11/java-openid-library-design-message-handling/"
+}

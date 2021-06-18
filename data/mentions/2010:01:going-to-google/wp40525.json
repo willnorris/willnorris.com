@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "BandonRandon",
+    "url": "http://blog.bandonrandon.com",
+    "photo": "https://www.gravatar.com/avatar/dac89d5507bf98bba513d511dc594afd?d=404"
+  },
+  "url": "http://blog.bandonrandon.com",
+  "published": "2010-01-26T20:48:06-08:00",
+  "content": {
+    "html": "<p>Good work and good luck. I'm excited to see what the team will bring forward this year.</p>\n",
+    "text": ""
+  },
+  "wm-id": "40525",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Safari self replicates itself…. for fun : RefreshTheNet.com",
+    "url": "http://refreshthenet.com/2010/03/23/safari-self-replicates-itself%e2%80%a6-for-fun/"
+  },
+  "url": "http://refreshthenet.com/2010/03/23/safari-self-replicates-itself%e2%80%a6-for-fun/",
+  "published": "2010-03-23T07:58:22-07:00",
+  "content": {
+    "html": "<p>[...] always felt like they were extending OS X GUI elements to the web, even going so far as to make the iTunes store mostly out of Webkit. With that in mind and being inspired by David DeSandro&#8217;s Opera Logo made in CSS, I decided [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "42493",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

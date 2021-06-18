@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jilles",
+    "url": "http://www.jillesvangurp.com/",
+    "photo": "https://www.gravatar.com/avatar/d4bba89347dad67c8de96a876b93c5aa?d=404"
+  },
+  "url": "http://www.jillesvangurp.com/",
+  "published": "2009-01-02T08:41:33-08:00",
+  "content": {
+    "html": "I'd say, don't bother with the .name tld. Basically it's just one of the many new TLDs and each new one makes all of the previous ones even less relevant.\r\n\r\nOpenID shouldn't be depending on TLDs. The decision to put .name in the actual spec was a bad one. If someone invents a .stupidmoron TLD and starts using it, it should just work of course but otherwise just stick with the same identifier you use anyway. For the moment, .com is easier to guess than .name or .tel (a recent addition).",
+    "text": ""
+  },
+  "wm-id": "28037",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/11/consolidating-domains/"
+}

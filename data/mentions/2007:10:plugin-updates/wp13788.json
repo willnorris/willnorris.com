@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Larry Salibra",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/3458c907dd67cd5b8901afcc5ec7c443?d=404"
+  },
+  "url": "",
+  "published": "2007-10-16T16:34:18-07:00",
+  "content": {
+    "html": "<p>The plugin doesn't seem to work with http:// OpenIDs that delegate to https:// OpenIDs either.  XRIs work great though. Thanks!</p>\n",
+    "text": ""
+  },
+  "wm-id": "13788",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

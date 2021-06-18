@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "my so-called blog (redux)",
+    "url": "http://www.aioxipa.com/mrg/?p=37"
+  },
+  "url": "http://www.aioxipa.com/mrg/?p=37",
+  "published": "2006-02-10T05:07:33-08:00",
+  "content": {
+    "html": "<strong>maybe itâ€™s not the bees that knowâ€¦...</strong>\r\n\r\nSo I made the jump back to a regular desktop at home today. The difference in screen brightness between my actual monitor and the screen on my old TiBook was getting to me so I slapped Slackware Linux on my Athlon and set it up. I now have another com...",
+    "text": ""
+  },
+  "wm-id": "47",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2006/01/life-and-love-and-why/"
+}

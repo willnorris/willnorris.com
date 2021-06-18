@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Blaenk Denum",
+    "url": "http://blaenkdenum.com",
+    "photo": "https://www.gravatar.com/avatar/a80b03b2036a8832fe77fa65c4c309fb?d=404"
+  },
+  "url": "http://blaenkdenum.com",
+  "published": "2008-06-25T22:45:33-07:00",
+  "content": {
+    "html": "Just updated to revision 315, wonder if that'll fix any issues.",
+    "text": ""
+  },
+  "wm-id": "21593",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

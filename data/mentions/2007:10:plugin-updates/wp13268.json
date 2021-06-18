@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "blog.jillesvangurp.com : OpenID &#38; Microformats in Wordpress",
+    "url": "http://blog.jillesvangurp.com/2007/10/01/openid-microformats-in-wordpress/"
+  },
+  "url": "http://blog.jillesvangurp.com/2007/10/01/openid-microformats-in-wordpress/",
+  "published": "2007-10-01T20:09:30-07:00",
+  "content": {
+    "html": "[...] &#38; Microformats in Wordpress  The good news is that Will Norris is making progress with his openid plugin. Once he puts up a release, I&#8217;m probably going to give it a try once he puts up a release [...]",
+    "text": ""
+  },
+  "wm-id": "13268",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/10/plugin-updates/"
+}

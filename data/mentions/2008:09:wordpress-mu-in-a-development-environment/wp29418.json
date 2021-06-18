@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Miranda",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/0cf21c43457a6346fefabe0c69ab24a7?d=404"
+  },
+  "url": "",
+  "published": "2009-03-05T16:41:16-08:00",
+  "content": {
+    "html": "Thanks so much!",
+    "text": ""
+  },
+  "wm-id": "29418",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment/"
+}

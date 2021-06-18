@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name/",
+  "published": "2008-07-25T21:11:15-07:00",
+  "content": {
+    "html": "Chris: yours is very likely a SSL cert problem... it looks like you have your site redirect to an HTTPS version which is protected with a CACert certificate.  While I actually love CACert and use them as my CA of choice for many applications, most curl installations do not have them in the list of trusted CAs.  You'll either need to modify your site so that XRDS discovery can be performed without SSL, or get a certificate from a more commonly trusted CA.",
+    "text": ""
+  },
+  "wm-id": "22567",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

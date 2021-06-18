@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Sébastien Brault",
+    "url": "http://openid.orange.fr/sebastien.brault"
+  },
+  "url": "http://openid.orange.fr/sebastien.brault",
+  "published": "2008-04-01T09:50:50-07:00",
+  "content": {
+    "html": "<p>Test with an Orange OpenID.</p>\n",
+    "text": ""
+  },
+  "wm-id": "19009",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

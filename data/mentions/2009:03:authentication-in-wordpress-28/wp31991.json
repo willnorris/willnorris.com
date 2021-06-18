@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8 Tips and Tricks Collection | Jokefunfun",
+    "url": "http://www.jokefunfun.info/?p=61"
+  },
+  "url": "http://www.jokefunfun.info/?p=61",
+  "published": "2009-06-15T12:24:07-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 – Will Norris [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31991",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

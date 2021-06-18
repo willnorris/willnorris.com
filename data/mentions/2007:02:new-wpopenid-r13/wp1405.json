@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Christian Spanring's Blog",
+    "url": "http://spanring.eu/blog/2007/03/07/openid-in-wordpress/"
+  },
+  "url": "http://spanring.eu/blog/2007/03/07/openid-in-wordpress/",
+  "published": "2007-03-07T13:35:03-08:00",
+  "content": {
+    "html": "<strong>OpenID in WordPress...</strong>\n\nSeems to be a good year for OpenID: some big players - AOL, Microsoft, Yahoo!, Digg - are slowly approaching to OpenID implementations and since yesterday WordPress.com accounts can be used as OpenIDs too.\nI bet a native OpenID support in WordPress can...",
+    "text": ""
+  },
+  "wm-id": "1405",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

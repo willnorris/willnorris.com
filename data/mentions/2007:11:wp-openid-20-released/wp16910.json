@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Verteilte soziale Netzwerke mit Wordpress: DiSo &#8212; mrtopf.de",
+    "url": "http://mrtopf.de/blog/web20/verteilte-soziale-netzwerke-mit-wordpress-diso/"
+  },
+  "url": "http://mrtopf.de/blog/web20/verteilte-soziale-netzwerke-mit-wordpress-diso/",
+  "published": "2008-01-14T10:36:39-08:00",
+  "content": {
+    "html": "<p>[...] wird daher auch auf Will Norris&#8217; wp-openid-plugin [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "16910",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

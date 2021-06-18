@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Erik",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/a848d0af455920f0142d60fb157352ce?d=404"
+  },
+  "url": "",
+  "published": "2009-11-14T15:48:56-08:00",
+  "content": {
+    "html": "<p>Just wanted to let you know that the \"author homepage\"-link in the wordpress plugin directory for open id is broken.</p>\n\n<p>/Erik</p>\n",
+    "text": ""
+  },
+  "wm-id": "37944",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/wordpress-openid-v3-3/"
+}

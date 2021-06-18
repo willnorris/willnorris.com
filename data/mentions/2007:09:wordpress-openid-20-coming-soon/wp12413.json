@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Scott Kveton",
+    "url": "http://scott.kveton.com/",
+    "photo": "https://www.gravatar.com/avatar/26ce066cbce15955355741f4bac1dfb6?d=404"
+  },
+  "url": "http://scott.kveton.com/",
+  "published": "2007-09-04T17:41:51-07:00",
+  "content": {
+    "html": "I prefer \"foolhardy\" over \"brave\" ... :-)\r\n\r\nGreat work Will ... the new plugin is a dream and works well with the two themes I've tested it with.  Thanks so much!",
+    "text": ""
+  },
+  "wm-id": "12413",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/09/wordpress-openid-20-coming-soon/"
+}

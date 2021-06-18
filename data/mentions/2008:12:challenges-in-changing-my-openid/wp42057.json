@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "OpenID: Redirects and Delegation &raquo; Code Nomad",
+    "url": "http://jasonkarns.com/blog/2010/03/06/openid-redirects-and-delegation/"
+  },
+  "url": "http://jasonkarns.com/blog/2010/03/06/openid-redirects-and-delegation/",
+  "published": "2010-03-06T22:59:40-08:00",
+  "content": {
+    "html": "<p>[...] some digging and a bit of guidance by this post (thanks Will), I discovered [http://openid.net/specs/openid-authentication-2_0.html#normalization] [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "42057",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/12/challenges-in-changing-my-openid/"
+}

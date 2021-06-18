@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Garcia",
+    "url": "http://will.ph/",
+    "photo": "https://www.gravatar.com/avatar/685115963dc64b4adc3092412ccf8f1b?d=404"
+  },
+  "url": "http://will.ph/",
+  "published": "2008-05-21T20:39:23-07:00",
+  "content": {
+    "html": "<p>Congrats on the new job! Also, I wanted to thank you for updating the OpenID plugin for WP. Just wanted to suggest to use the class \"form-table\" instead of \"optiontable\" in the options page of the plugin to have a more consistent look with WP2.5. Anyway, thanks for the great plugin.</p>\n",
+    "text": ""
+  },
+  "wm-id": "20392",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/why-im-going-to-vidoop/"
+}

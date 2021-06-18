@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Martin-Louis Bright",
+    "url": "http://mlbright.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/45bc3a17372036a020bc551ecedc94ad?d=404"
+  },
+  "url": "http://mlbright.myopenid.com/",
+  "published": "2007-09-05T03:21:49-07:00",
+  "content": {
+    "html": "Hi!\r\n\r\nThanks for working on this.  I had a few problems installing the latest wpopenid from trunk...\r\n\r\nFirst, the plugin is expecting the file Auth/OpenID/SReg.php to be Sreg.php (lower case r). Then wordpress seems to be happy with the plugin.\r\n\r\nHowever, I then receive a database error after I successfully login to my openid provider and get redirected back to my blog.\r\n\r\nWordPress database error: [Unknown column 'server_url' in 'field list']\r\nREPLACE INTO wp_openid_settings (blah blah blah)\r\n\r\nThere is apparently no server_url field in the wp_openid_settings table.  I'm using MySQL 4.1",
+    "text": ""
+  },
+  "wm-id": "12430",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/09/wordpress-openid-20-coming-soon/"
+}

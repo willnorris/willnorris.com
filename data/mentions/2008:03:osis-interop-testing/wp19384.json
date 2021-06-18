@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "VladStar",
+    "url": "http://vladstar.com/",
+    "photo": "https://www.gravatar.com/avatar/214d5529c580e37ba0466cf0d660d80e?d=404"
+  },
+  "url": "http://vladstar.com/",
+  "published": "2008-04-17T19:55:36-07:00",
+  "content": {
+    "html": "<p>Test</p>\n",
+    "text": ""
+  },
+  "wm-id": "19384",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

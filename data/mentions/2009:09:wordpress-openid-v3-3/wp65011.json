@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "rn3aoh",
+    "url": "http://rn3aoh.net/",
+    "photo": "https://www.gravatar.com/avatar/b1e55e8e44526e581ae83c30e8fb98cc?d=404"
+  },
+  "url": "http://rn3aoh.net/",
+  "published": "2011-07-31T08:06:56-07:00",
+  "content": {
+    "html": "<p>As far as I can see, with current Wordpress (and that apparently includes your own site) the latest version of the plugin no longer works. Not to mention that it hasn't been developed for over a year.</p>\n\n<p>Is there any chance this will be fixed, or should everyone look for alternatives? I'm afraid while there are several viable alternatives, they all create user records rather than just post identified comments, which I find unacceptable.</p>\n",
+    "text": ""
+  },
+  "wm-id": "65011",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/wordpress-openid-v3-3/"
+}

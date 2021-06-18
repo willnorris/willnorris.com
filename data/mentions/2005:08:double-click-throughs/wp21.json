@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Brent Simmons",
+    "url": "http://inessential.com/",
+    "photo": "https://www.gravatar.com/avatar/381e5f32ed20acd38b0196080a4f5242?d=404"
+  },
+  "url": "http://inessential.com/",
+  "published": "2005-08-22T17:42:40-07:00",
+  "content": {
+    "html": "The behavior you're seeing is the standard Cocoa behavior. There are no settings in Interface Builder for how this works -- the way it works is the way it works.\r\n\r\nI *highly* recommend reporting it as a bug to Apple. (But use their apps as examples, so they won't think it's a NetNewsWire bug.)\r\n\r\nhttps://bugreport.apple.com/\r\n\r\nYou do need to be an ADC member -- but, if you're not a member already, you can become one for free.",
+    "text": ""
+  },
+  "wm-id": "21",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/08/double-click-throughs/"
+}

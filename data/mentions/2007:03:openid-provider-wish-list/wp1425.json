@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://willis.myopenid.com/",
+    "url": "http://willis.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/8d4ae97daf471a93618a02dc54f46181?d=404"
+  },
+  "url": "http://willis.myopenid.com/",
+  "published": "2007-03-09T17:06:00-08:00",
+  "content": {
+    "html": "Excellent list.  I'm not sure I understand what you mean by the Identity Linking item, though.  Doesn't the decision to regard multiple IDs as equivalent short out the need for those IDs?  I'm talking conceptually here, not just in OpenID.  If the user regards the IDs as equivalent, then it is superfluous to ask the implementation to understand them as equivalent, too.  The user can act as any of them, with the same outcome.  Human third parties would have something to gain by perceiving the equivalence, but again this is not something that the identity service needs to (or could) understand as well.",
+    "text": ""
+  },
+  "wm-id": "1425",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/03/openid-provider-wish-list/"
+}

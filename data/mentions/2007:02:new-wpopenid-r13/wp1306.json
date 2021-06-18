@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Yann Lugrin",
+    "url": "http://www.sans-savoir.net/",
+    "photo": "https://www.gravatar.com/avatar/43f18344ef6330277f70a955f2a5bab6?d=404"
+  },
+  "url": "http://www.sans-savoir.net/",
+  "published": "2007-02-22T12:52:15-08:00",
+  "content": {
+    "html": "<p>Hi,</p>\n\n<p>Sorry for my english (i speak french). I have installed wpopenid+ on my blog, thanks for new feature and bug correction.</p>\n\n<p>I have changed an element in plugin, if name, mail and website field have data, i use this and not sreg data (i have added url). It is for authorize user to override information for current comment.</p>\n\n<p>I don't have include this in plugin options but if you can add an option to enable this feature it is a good idea. I can send a patch to you if you want.</p>\n",
+    "text": ""
+  },
+  "wm-id": "1306",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

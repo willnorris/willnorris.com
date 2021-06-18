@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "David Collantes",
+    "url": "http://collantes.us/",
+    "photo": "https://www.gravatar.com/avatar/5d9f1c3ee5af8404251503405f19455b?d=404"
+  },
+  "url": "http://collantes.us/",
+  "published": "2007-04-12T13:52:00-07:00",
+  "content": {
+    "html": "Nice to see that your patch was added to the main trunk and it will be on the next release (and now on SVN). Almost everyone I know (me included, of course) requires name and email to be entered, so the \"edge\" case might not be a biggie.",
+    "text": ""
+  },
+  "wm-id": "2369",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

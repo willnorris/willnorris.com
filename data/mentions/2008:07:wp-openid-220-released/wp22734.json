@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "http://singpolyma@singpolyma.net",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "http://singpolyma@singpolyma.net",
+  "published": "2008-07-31T15:22:58-07:00",
+  "content": {
+    "html": "Does your EAUT implementation fall back nicely to the existing way we do email-as-openID?  Does it have a last-resort-emailtoid checkbox we can turn on?\r\n\r\nTesting the answer to my first question in the comment... heh",
+    "text": ""
+  },
+  "wm-id": "22734",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

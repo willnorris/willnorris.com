@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "David80",
+    "url": "http://www.androidspiele.net",
+    "photo": "https://www.gravatar.com/avatar/3c68e9db8ef0faf7f6746be848eaa1af?d=404"
+  },
+  "url": "http://www.androidspiele.net",
+  "published": "2010-09-01T09:54:15-07:00",
+  "content": {
+    "html": "<p>I think Oauth is not necessary anymore, because Facebook Connect is coming more and more. So do i use Facebook connect on my blog at: http://www.androidspiele.net</p>\n\n<p>What do you think?</p>\n",
+    "text": ""
+  },
+  "wm-id": "46698",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

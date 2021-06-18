@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "NIka Jones",
+    "url": "http://blog.ouno.com",
+    "photo": "https://www.gravatar.com/avatar/c6dfe80572512a1854cc26e8fce45ccf?d=404"
+  },
+  "url": "http://blog.ouno.com",
+  "published": "2010-01-07T09:03:55-08:00",
+  "content": {
+    "html": "<p>Will:</p>\n\n<p>Great post on how ownership of a name/identity can change, either through a conscious effort (ie. William to Will) or a situation out of your control (FreeYourId being sold, and the new company not providing the service you want --either for the price or services offered).</p>\n\n<p>I think that approach to identity should be the, \"Google Commodity Server\" approach. Where it is known that Google uses commodity servers in production, which are expected to fail. So processes have been put into place to deal with something that is \"expected\" to happen, a failure in something, anything.</p>\n\n<p>In a way all public-facing identifiers should be expected to recycle, or \"go away,\" in identifying a particular person or thing. It's sad to say but even http://[www.]facebook.com/nika.jones  (which should be me, but I didn't act quick enough <em>smile</em>) will go away someday. It may take 60 years or so, but there is a day when it will need to eventually hit the recycle bin.</p>\n\n<p>=nika</p>\n",
+    "text": ""
+  },
+  "wm-id": "39600",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/identity-and-identifiers/"
+}

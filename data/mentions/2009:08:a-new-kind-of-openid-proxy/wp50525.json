@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Fred Trotter",
+    "url": "http://www.fredtrotter.com",
+    "photo": "https://www.gravatar.com/avatar/588ecab83eeb0b8f3dbdae29578c0b9f?d=404"
+  },
+  "url": "http://www.fredtrotter.com",
+  "published": "2010-12-02T17:47:03-08:00",
+  "content": {
+    "html": "<p>Will,\n        would like to discuss this type of directed-identity proxy further... could you drop me an email?</p>\n\n<p>-FT</p>\n",
+    "text": ""
+  },
+  "wm-id": "50525",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/08/a-new-kind-of-openid-proxy/"
+}

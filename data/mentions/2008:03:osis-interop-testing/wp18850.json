@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Prabath",
+    "url": "https://is.test.wso2.org/user/dilan",
+    "photo": "https://www.gravatar.com/avatar/9946e4fb0feffa9ea0f97081d5dc74c0?d=404"
+  },
+  "url": "https://is.test.wso2.org/user/dilan",
+  "published": "2008-03-26T07:26:14-07:00",
+  "content": {
+    "html": "<p>Another test</p>\n",
+    "text": ""
+  },
+  "wm-id": "18850",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

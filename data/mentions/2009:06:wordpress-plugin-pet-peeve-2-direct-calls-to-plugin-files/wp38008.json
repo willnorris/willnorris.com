@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "No more direct calls at alex.rabe",
+    "url": "http://alexrabe.de/2009/11/16/no-more-direct-calls/"
+  },
+  "url": "http://alexrabe.de/2009/11/16/no-more-direct-calls/",
+  "published": "2009-11-16T12:17:10-08:00",
+  "content": {
+    "html": "<p>[...] be the solution for my problems and in the same second I spin my ideas he linked to an article from Will Norris. I never ever get the same idea since I wrote my first plugin, it&#8217;s really simple to realize [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "38008",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files/"
+}

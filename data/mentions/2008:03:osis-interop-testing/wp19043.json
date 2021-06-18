@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "https://me.yahoo.com/a/CBkqPIl2ruQwzcv.PPStXsaI7JIFBA--#04941",
+    "url": "https://me.yahoo.com/a/CBkqPIl2ruQwzcv.PPStXsaI7JIFBA--#04941"
+  },
+  "url": "https://me.yahoo.com/a/CBkqPIl2ruQwzcv.PPStXsaI7JIFBA--#04941",
+  "published": "2008-04-02T16:01:43-07:00",
+  "content": {
+    "html": "<p>Test comment using Yahoo OpenID...\nDuane</p>\n",
+    "text": ""
+  },
+  "wm-id": "19043",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

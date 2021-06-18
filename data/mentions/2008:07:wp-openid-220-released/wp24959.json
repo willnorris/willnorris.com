@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Ray",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/2c883df3584d51217310051fa380c81e?d=404"
+  },
+  "url": "",
+  "published": "2008-09-16T16:01:09-07:00",
+  "content": {
+    "html": "I got a question.\r\n\r\nIf I created an account and add identify link, I can still use my chosen username. \r\n\r\nIf I didn't create an account and use identify link to login &amp; create account, I will not be able to switch my user name away from identify link.\r\n\r\nAm I correct regard to this?\r\nIs it possible to pull first name, last name, or username from 3rd party, such as \"Yahoo\".\r\n\r\nThanks in advance.",
+    "text": ""
+  },
+  "wm-id": "24959",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-11-16T03:49:03-08:00",
+  "content": {
+    "html": "<p>Luke: so I actually planned to address a couple of your questions in future posts.  I'll see about getting them written and posted sooner rather than later.  No public Javadocs just yet, but code is available from: <a href=\"https://svn.middleware.georgetown.edu/java-openid/trunk/\">https://svn.middleware.georgetown.edu/java-openid/trunk/</a>.  And the unit tests should give a slightly better idea of how to use the library until I get better documentation written.</p>\n",
+    "text": ""
+  },
+  "wm-id": "37997",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/11/java-openid-library-design-message-handling/"
+}

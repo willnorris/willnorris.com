@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-04-11T15:00:51-07:00",
+  "content": {
+    "html": "[quote comment=\"2326\"]On the same topic (OpenID, JanRain, etc), you mentioned they have published and RC for 2.0, was that on the PHP Library? I looked and only saw Python. I would not mind using the RC, to report bugs, etc.[/quote]\r\nThey've published an RC for both <a href=\"http://lists.openidenabled.com/pipermail/dev/2007-April/000401.html\">Python</a> and <a href=\"http://lists.openidenabled.com/pipermail/dev/2007-April/000411.html\">PHP</a>.  I believe there are a few API changes, so the PHP one likely won't work with this plugin yet, but I haven't tested it.",
+    "text": ""
+  },
+  "wm-id": "2335",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8 Tips and Tricks | What&#8217;s UP",
+    "url": "http://www.magnussen.nl/2009/06/wordpress-2-8-tips-and-tricks/"
+  },
+  "url": "http://www.magnussen.nl/2009/06/wordpress-2-8-tips-and-tricks/",
+  "published": "2009-06-11T06:42:38-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 – Will Norris [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31871",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

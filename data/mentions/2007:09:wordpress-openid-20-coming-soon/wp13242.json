@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Curt Pederson",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/dfc4f1008aafa0efdb98641647169d2a?d=404"
+  },
+  "url": "",
+  "published": "2007-10-01T02:17:16-07:00",
+  "content": {
+    "html": "Will,\r\n\r\nI've been working with the previous version and never really got it working right, so I just checked out the latest code from SVN and replaced the old version with the latest code.  When I tried logging in, it gave me the following error:\r\n\r\nWordPress database error: [Unknown column 'server_url' in 'field list']\r\nREPLACE INTO wp_openid_settings (server_url, timestamp, salt) VALUES (blah, blah, blah)\r\n\r\nI was going to try and add the column myself, but I figured I'd let you know about it and just wait for the gold version.",
+    "text": ""
+  },
+  "wm-id": "13242",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/09/wordpress-openid-20-coming-soon/"
+}

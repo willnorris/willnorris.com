@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Martin Paljak",
+    "url": "http://martin.paljak.pri.ee/",
+    "photo": "https://www.gravatar.com/avatar/8c575ef5de5544151602a70ccdb18747?d=404"
+  },
+  "url": "http://martin.paljak.pri.ee/",
+  "published": "2007-11-28T16:43:48-08:00",
+  "content": {
+    "html": "<p>Nice to see that here the 2.0 specific directed identity feature worked like a charm. I entered openid.ee as the website URL and the comment got a really obvious Anonymous name even.</p>\n\n<p>Unfortunately on my site it doesn't work that smoothly. I probably should work with templates a bit. Also Spam Karma did not like the post with the anonymous URL.</p>\n\n<p>Other than that - great plugin, shall use it, thanks!</p>\n",
+    "text": ""
+  },
+  "wm-id": "15502",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

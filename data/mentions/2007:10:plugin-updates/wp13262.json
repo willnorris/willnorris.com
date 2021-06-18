@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-10-01T17:47:20-07:00",
+  "content": {
+    "html": "@Shack, well it looks like your PHP was configured without PEAR.  I thought that PEAR_Log didn't depend on the rest of pear and could be used standalone, but I guess I didn't look close enough.  I'll need to work out another way to do logging I guess.  <a href=\"http://willnorris.com/about#contact\">Contact me</a> directly and I'll let you know when I've got something new for you to try.\r\n\r\n<strong>update:</strong> Actually it is a standalone module, so PEAR isn't the problem.  I believe it may be your include_path, so I've made a couple of changes.  Try the latest in SVN and let me know how it goes.",
+    "text": ""
+  },
+  "wm-id": "13262",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

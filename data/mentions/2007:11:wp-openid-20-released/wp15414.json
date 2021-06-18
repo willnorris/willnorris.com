@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "john jones",
+    "url": "http://john.jones.name/",
+    "photo": "https://www.gravatar.com/avatar/34411057511597b593a7bc275ad9814f?d=404"
+  },
+  "url": "http://john.jones.name/",
+  "published": "2007-11-26T12:52:37-08:00",
+  "content": {
+    "html": "<p>I love the idea of this plugin but it simply returns a fatal error when I try and activate it....\n\"Plugin could not be activated because it triggered a fatal error.\"</p>\n\n<p>I cant see where to debug it at all can you give me any advice ? \n(logs etc )</p>\n",
+    "text": ""
+  },
+  "wm-id": "15414",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

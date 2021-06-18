@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name",
+  "published": "2008-11-14T02:03:07-08:00",
+  "content": {
+    "html": "Sure, it's not a problem for browsers getting redirected over... I could simply use \r\n<pre>    &lt;meta http-equiv=\"refresh\" /&gt;</pre>\r\n\r\nThe problem is that Google won't transfer the reputation I've built up on .name over to .com in that case.  In order for Google to transfer that reputation over, I have to do an actual redirect (possibly even a 301 - permanent redirect)",
+    "text": ""
+  },
+  "wm-id": "26256",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/11/consolidating-domains/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "OpenID and WordPress Core &#8212; Will Norris",
+    "url": "http://willnorris.com/2009/09/openid-and-wordpress-core"
+  },
+  "url": "http://willnorris.com/2009/09/openid-and-wordpress-core",
+  "published": "2009-09-29T20:18:30-07:00",
+  "content": {
+    "html": "<p>[...] were necessary to allow plugins to provide that functionality. In fact, I overhauled how the authentication system is extended in WordPress 2.8 simply to make things like OpenID and OAuth much easier to [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "35643",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

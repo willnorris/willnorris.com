@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Nika Jones",
+    "url": "http://www.ouno.com",
+    "photo": "https://www.gravatar.com/avatar/a3443d5a5d864bc9fb1fcd4b3c73d11d?d=404"
+  },
+  "url": "http://www.ouno.com",
+  "published": "2009-05-28T19:46:36-07:00",
+  "content": {
+    "html": "For what it's worth you can have custom headers with the file resources option. You can look at file\\_get\\_contents and the custom context options (Yeah, PUTs and DELETEs are possible). One annoying thing I found though, is that when you receive a 400 range response, the return is just false, and you can't retrieve any of the information from the response or headers.",
+    "text": ""
+  },
+  "wm-id": "31462",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/http-client-library-for-php/"
+}

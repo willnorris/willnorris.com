@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "The Doctor What",
+    "url": "http://docwhat.gerf.org/",
+    "photo": "https://www.gravatar.com/avatar/4a9afb8413be5d6f15fa908efb129bf4?d=404"
+  },
+  "url": "http://docwhat.gerf.org/",
+  "published": "2008-07-25T02:03:49-07:00",
+  "content": {
+    "html": "Heya Will!\r\n\r\nLooks like something is broken in either the OpenID library or in WP-OpenID.  I get this error message on my test system:\r\n\r\nCould not discover an OpenID identity server endpoint at the url: docwhat.gerf.org\r\n\r\nWhen I updated to 2.20 most of my patches to OpenID fell out.  I assume this is a good thing.  If you recall, I had patches to fix the web page parsing.\r\n\r\nThe old findHTML() function seems to be gone, so I assume that they aren't needed anymore?\r\n\r\nI can see that it does (two?) fetches of docwhat.gerf.org. But I don't seem to be able to figure out where in the parsing it fails. :-(\r\n\r\nOthers seem to be having trouble too:\r\nhttp://wordpress.org/support/topic/191523",
+    "text": ""
+  },
+  "wm-id": "22544",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

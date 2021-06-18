@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-02-14T23:22:38-08:00",
+  "content": {
+    "html": "<p>you silly people with your silly i-names :-)  anyway, it works now.  However, I also need to fix it so that if your OpenID provider doesn't support sreg, then it will use the name and email from the comment form.  Once that is fixed, I'll upload a new patch.  Thanks for catching that.  I deleted your account from wordpress, so try logging in again and see if it works correctly.</p>\n",
+    "text": ""
+  },
+  "wm-id": "1258",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/unobtrusive-wpopenid/"
+}

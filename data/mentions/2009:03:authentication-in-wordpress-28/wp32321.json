@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8 Tips and Tricks Collection | Fresh News - Blog Design, Wordpress, Blogger, and Web Development",
+    "url": "http://www.news.magznetwork.com/wordpress-28-tips-and-tricks-collection.html"
+  },
+  "url": "http://www.news.magznetwork.com/wordpress-28-tips-and-tricks-collection.html",
+  "published": "2009-07-02T17:16:43-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 – Will Norris [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32321",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

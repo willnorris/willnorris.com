@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Elaminen",
+    "url": "http://www.elaminen.com",
+    "photo": "https://www.gravatar.com/avatar/a2bc4e36c65e994d53da4caec3a56222?d=404"
+  },
+  "url": "http://www.elaminen.com",
+  "published": "2007-04-20T21:55:00-07:00",
+  "content": {
+    "html": "I'd suggest that you use the livejournal crossposter plugin and simply set up an account at livejournal, with the comments link coming here - that's what I do.\r\n\r\nI'm here trying to get some openID action working on my K2 WP blog, by the way, and saw a LJ related post. I want openID commenting so that my LJ friends can comment, you see.",
+    "text": ""
+  },
+  "wm-id": "2606",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/03/livejournal-syndication/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Saurabh Kaushik",
+    "url": "http://www.nanosaka.com",
+    "photo": "https://www.gravatar.com/avatar/504d6641482260daa5f86b4d2f89047f?d=404"
+  },
+  "url": "http://www.nanosaka.com",
+  "published": "2007-12-12T11:52:34-08:00",
+  "content": {
+    "html": "<p>OpenId is great idea to move close to Semantic Web World. And if WordPress can integrate it into their solution, i think it will start a wave to support it and eventually, Facebook types of business will come around and dance together.</p>\n",
+    "text": ""
+  },
+  "wm-id": "15826",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wp-openid-moving-to-diso/"
+}

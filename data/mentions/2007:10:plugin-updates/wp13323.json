@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "phenix",
+    "url": "http://phenixascending.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/5b7d87f8e1201406d03839979fdfc1b8?d=404"
+  },
+  "url": "http://phenixascending.myopenid.com/",
+  "published": "2007-10-03T06:41:29-07:00",
+  "content": {
+    "html": "<p>Does your plugin not support typekey openid addresses?</p>\n",
+    "text": ""
+  },
+  "wm-id": "13323",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

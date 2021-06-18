@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "matt.gehrisch.us/author/matt&hellip;",
+    "url": "http://matt.gehrisch.us/author/matt/"
+  },
+  "url": "http://matt.gehrisch.us/author/matt/",
+  "published": "2009-04-01T13:50:57-07:00",
+  "content": {
+    "html": "I'm using the OpenID Wordpress plugin (v.3.2.2) with a Wordrpess-mu install.\r\n\r\nThe 3.2.2 works again (the previous version broke when I updated to WPMU 2.7).\r\n\r\nThe problem I'm having is when I try to submit any changes on the OpenID plugin settings page.  I receive a message: \"Error! Options page not found.\".  options.php is the file that is being called in my browser when this happens.\r\n\r\nAny ideas?",
+    "text": ""
+  },
+  "wm-id": "30303",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

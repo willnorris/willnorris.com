@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2010-11-03T00:38:05-07:00",
+  "content": {
+    "html": "<p>Yeah, unfortunately Google is a bit hard to penetrate sometimes.  I've talked with the PM of the Libraries API, and there are some pretty high standards for what libraries we support.  The whole point of the Libraries API was to help make sites faster, which is only really effective and worth the expense (granted, it's not <em>that</em> much) once you hit a certain critical mass.  I'm still pushing to get Modernizr added, but for small things like individual jQuery plugins, they'll likely never be added.</p>\n\n<p>I absolutely love the idea of Cached Commons being run sort of like ruby gems, with individual library authors being responsible for updates.  This actually supports my idea of GitHub working with you to make this a little more official.  They did this for gems for a while (http://gems.github.com/)... it'd be great to do something similar for JS libraries.  Really just need to establish a gemspec equivalent for javascript.</p>\n",
+    "text": ""
+  },
+  "wm-id": "49118",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/10/cached-commons/"
+}

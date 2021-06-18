@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Henry M",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/10fc9ea1192e5b4c3d8320579b136553?d=404"
+  },
+  "url": "",
+  "published": "2009-03-25T14:04:58-07:00",
+  "content": {
+    "html": "I tried several of the libraries mentioned and they all seem having problems w/ https",
+    "text": ""
+  },
+  "wm-id": "30106",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/http-client-library-for-php/"
+}

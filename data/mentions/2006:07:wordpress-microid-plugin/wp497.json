@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Fred",
+    "url": "http://chimprawk.blogspot.com/",
+    "photo": "https://www.gravatar.com/avatar/dd9f2966f1ab0eb63ed5d541541a1576?d=404"
+  },
+  "url": "http://chimprawk.blogspot.com/",
+  "published": "2006-07-07T19:47:20-07:00",
+  "content": {
+    "html": "<p>You're absolutely right on a number of points.  If the communication identifier - the email - isn't verified, the  generated MicroID is just another piece of cruft.  Verify the email and things get interesting (granted - maybe more trouble than anyone wants to go to on a comment - but if you can comment with OpenID, you're absolutely right - things got a lot more interesting).</p>\n\n<p>As to the end of your second points, right now the verifier's are very rudimentary.  I believe as this matures, verifiers will interpret the DOM and be able to tell exactly what content on a page is \"claimed\" by a certain MicroID.  That gets pretty exciting.</p>\n\n<p>I really keep thinking back to the very logical tie-ins between openID commenting and MicroID...very very powerful stuff!</p>\n\n<p>Great post.</p>\n",
+    "text": ""
+  },
+  "wm-id": "497",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2006/07/wordpress-microid-plugin/"
+}

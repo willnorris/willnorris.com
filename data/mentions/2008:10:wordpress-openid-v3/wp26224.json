@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name",
+  "published": "2008-11-13T02:02:12-08:00",
+  "content": {
+    "html": "how are you adding jQuery 1.2.6 to your theme?  Are you using WordPress's enqueue_script and replacing the already-queued jQuery?  If not, then that's your problem.",
+    "text": ""
+  },
+  "wm-id": "26224",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

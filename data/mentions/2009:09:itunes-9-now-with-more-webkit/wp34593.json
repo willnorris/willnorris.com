@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Grab bag: New life for iTunes, Hubble, Globe (Jarrett House North)",
+    "url": "http://www.jarretthousenorth.com/2009/09/09/links-for-2009-09-09/"
+  },
+  "url": "http://www.jarretthousenorth.com/2009/09/09/links-for-2009-09-09/",
+  "published": "2009-09-10T13:27:46-07:00",
+  "content": {
+    "html": "<p>[...] iTunes 9, now with more WebKit — Will Norris Evidence that iTunes 9 content is plain ol&#8217; gzipped HTML. I wonder what sort of XSS protection is in the iTunes Store&#8230; (tags: itunes) [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "34593",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

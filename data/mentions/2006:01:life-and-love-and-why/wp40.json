@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Joe",
+    "url": "http://www.cpujoe.com",
+    "photo": "https://www.gravatar.com/avatar/3c9693d916eb5c43ad227e3138e6d82a?d=404"
+  },
+  "url": "http://www.cpujoe.com",
+  "published": "2006-01-30T21:27:02-08:00",
+  "content": {
+    "html": "Hey man, sounds like a really great opportunity. I'm really glad and excited for the both of you and I wish you both the best of luck.\r\n\r\nAnd if you do change your mind, there's always a warm bed and hot meal for you here in Alexandria.",
+    "text": ""
+  },
+  "wm-id": "40",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2006/01/life-and-love-and-why/"
+}

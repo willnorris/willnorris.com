@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chris",
+    "url": "http://cjp.0x1.net",
+    "photo": "https://www.gravatar.com/avatar/050e261bcf87770dbcf0f137b354ef09?d=404"
+  },
+  "url": "http://cjp.0x1.net",
+  "published": "2008-07-25T20:43:31-07:00",
+  "content": {
+    "html": "When I try to add my OpenID to my user account in WP 2.6, I get:\r\n\r\nError: OpenID assertion failed: BAD_REQUEST\r\n\r\nI checked the settings, nothing red.\r\n\r\nAny ideas?  I'm delegating to verisign labs.  Haven't had problems with DOPPLR or identi.ca.\r\n\r\nAlso, in posting this comment here, I got a \"We were unable to authenticate your claimed OpenID, however you can continue to post your comment without OpenID\".",
+    "text": ""
+  },
+  "wm-id": "22566",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

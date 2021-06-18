@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "John Bachir",
+    "url": "http://claimid.com/jjb",
+    "photo": "https://www.gravatar.com/avatar/75fb60cc633a994debfe8b3a19eb91cb?d=404"
+  },
+  "url": "http://claimid.com/jjb",
+  "published": "2009-10-09T00:03:00-07:00",
+  "content": {
+    "html": "<p>Nice work Will, thanks for keeping this up!</p>\n\n<p>Something I'm going to need in the near future is for BuddyPress to be an OpenID producer with profiles, not blogs, as the endpoints.</p>\n\n<p>You and I talked at IIW about how it might be nice to make WordPress \"profiles\" (/author/willnorris) serve as OpenID endpoints in this plugin. If I end up implementing the BuddyPress profile endpoints, I'll see if I can make the system abstract enough so that arbitrary system urls can server as endpoints, and then maybe we can get standalone/MU WordPress profiles as endpoints as well.</p>\n\n<p>Let me know if you have any thoughts on this.</p>\n\n<p>John</p>\n",
+    "text": ""
+  },
+  "wm-id": "36041",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/wordpress-openid-v3-3/"
+}

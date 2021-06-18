@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Divided By Zer0",
+    "url": "http://dbzer0.com/",
+    "photo": "https://www.gravatar.com/avatar/1fff10a9fb70219a8190f3c1b477d388?d=404"
+  },
+  "url": "http://dbzer0.com/",
+  "published": "2008-02-28T11:02:37-08:00",
+  "content": {
+    "html": "<p>Question, how can I make the Website field only look for an open ID if the website is an openID provider (like you have done in your comment field)? If change the input name of the website field, then it always looks for authentication.</p>\n",
+    "text": ""
+  },
+  "wm-id": "17896",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

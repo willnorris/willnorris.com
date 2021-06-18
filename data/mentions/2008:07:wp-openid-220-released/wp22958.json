@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name/",
+  "published": "2008-08-06T17:38:24-07:00",
+  "content": {
+    "html": "@bobrik: I just left a comment there with my OpenID and didn't have any trouble.",
+    "text": ""
+  },
+  "wm-id": "22958",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

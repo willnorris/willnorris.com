@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Ben",
+    "url": "http://benwerd.com/",
+    "photo": "https://www.gravatar.com/avatar/5947809f7886abaae9965805a4967118?d=404"
+  },
+  "url": "http://benwerd.com/",
+  "published": "2010-01-26T16:53:40-08:00",
+  "content": {
+    "html": "<p>Congratulations! I'm not a little jealous - the social web team at Google is shaping into a real powerhouse. It really sounds like good things are afoot.</p>\n",
+    "text": ""
+  },
+  "wm-id": "40495",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

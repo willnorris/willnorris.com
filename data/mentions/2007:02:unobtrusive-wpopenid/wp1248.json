@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Dmitry Shechtman",
+    "url": "http://www.phpbb.cc/",
+    "photo": "https://www.gravatar.com/avatar/bea4cb4a69d7a5b44501928136359032?d=404"
+  },
+  "url": "http://www.phpbb.cc/",
+  "published": "2007-02-14T22:26:46-08:00",
+  "content": {
+    "html": "<p>Look at my URL on the previous comment, and you'll find another bug to solve... ;-)</p>\n",
+    "text": ""
+  },
+  "wm-id": "1248",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/unobtrusive-wpopenid/"
+}

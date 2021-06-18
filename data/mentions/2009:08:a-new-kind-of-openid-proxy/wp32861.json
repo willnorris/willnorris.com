@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "http://singpolyma.net/",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "http://singpolyma.net/",
+  "published": "2009-08-03T20:33:25-07:00",
+  "content": {
+    "html": "<p>Ah, ok, so you want to make sure only Alice can authenticate as distinctivepseudonym, but that distinctivepseudonym cannot be mapped to Alice.  That makes sense.</p>\n\n<p>I'm not sure about trusting a single node.  I guess if the server was 100% libre and there were many instances of it running one could choose a server run by someone that seemed trustworthy (like the EFF, a friend with a VPS, or a random dude).</p>\n\n<p>The UX is aweful, but the solution presenting itself to me just now is the same as used in ToR and Mixmaster : chaining.  If you give proxy1 only the address of proxy2, and proxy2 some proxy3 and proxy3 some OpenID you own, then proxy3 knows you use proxy2 and proxy2 knows you use proxy1 and v.v., but only proxy3 gets any info about you and they don't have any way to know what site you actually logged in to.</p>\n\n<p>Actually, that UX is only bad the first time.  If proxy1 can be set to remember you, then you only go through all the steps once.  Thereafter it's seamless, and all proxy1 or the site has on you is proxy2.com/HASH</p>\n\n<p>Of course, like many chaining systems, this does not work if proxies1-3 are working together.  Longer chains make this less likely, but more annoying to set up.  In practice, choosing proxies in different countries and with unrelated affiliations minimizes this risk.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32861",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/08/a-new-kind-of-openid-proxy/"
+}

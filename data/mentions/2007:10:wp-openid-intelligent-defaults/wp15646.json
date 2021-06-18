@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mr. Gunn",
+    "url": "http://synthesis.williamgunn.org",
+    "photo": "https://www.gravatar.com/avatar/dd180bbb9fdc0c5692f2428e3a9ad008?d=404"
+  },
+  "url": "http://synthesis.williamgunn.org",
+  "published": "2007-12-04T21:39:50-08:00",
+  "content": {
+    "html": "<p>I've had a commenter tell me they were asked for either a password or an OpenID, even though I have \"anyone can register\" checked.  Could this be because they wrote their non-OpenID blog in the space?</p>\n",
+    "text": ""
+  },
+  "wm-id": "15646",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/wp-openid-intelligent-defaults/"
+}

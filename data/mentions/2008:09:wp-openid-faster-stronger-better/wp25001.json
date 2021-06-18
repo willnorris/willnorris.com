@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Silicon Florist&#8217;s links arrangement for September 16 &raquo; Silicon Florist",
+    "url": "http://siliconflorist.com/2008/09/16/silicon-florists-links-arrangement-for-september-16/"
+  },
+  "url": "http://siliconflorist.com/2008/09/16/silicon-florists-links-arrangement-for-september-16/",
+  "published": "2008-09-17T07:02:36-07:00",
+  "content": {
+    "html": "[...] wp-openid - faster, stronger, better Will Norris (creator of wp-openid, the WordPress plugin many folks use to manage OpenID logins on their blogs) writes &#8220;One of the primary focuses for this next major release of wp-openid is stability. While most people have had great success with the plugin, there are a fair number that seem to have all kinds of strange problems, ranging from conflicts with other plugins, data corruption, library issues, etc. In order to reach the level of adoption I’d love to see, we have to make this plugin as easy to install and run as WordPress itself. This is certainly no easy task, but we’ve come a very long way.&#8221; [...]",
+    "text": ""
+  },
+  "wm-id": "25001",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/09/wp-openid-faster-stronger-better/"
+}

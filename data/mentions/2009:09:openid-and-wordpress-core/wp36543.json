@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Lloyd",
+    "url": "http://blog.floydius.com/",
+    "photo": "https://www.gravatar.com/avatar/1c33d9c9a2067e8e107b3f93079e098f?d=404"
+  },
+  "url": "http://blog.floydius.com/",
+  "published": "2009-10-19T22:46:55-07:00",
+  "content": {
+    "html": "<p>a) I'm really glad to see 3.3 out.  Thanks so much for fixing the issue with improper sreg retrieval.  I tried to fix it on my own, but my lack of coding skills provided several fruitless hours of trying.</p>\n\n<p>b) I would love to see OpenID get to the point of being so ubiquitous that it is fitting for core.  In the current state, I think you're right though.</p>\n\n<p>c) one thing still missing from the openid standard is avatar support.  gravatar is nice because everyone uses it, but it gives a third party too much information for those of us who want to host openid on our own server. pavatar is my favorite implementation so far, but no one uses it.  it would be nice to see a simple line of code added to the sreg standard with a link to an avatar.  seems like that would be just as easy to check at login as it is to check for a gravatar image.</p>\n\n<p>d) this is pretty unrelated, but how on earth did you manipulate the widget code so that the little openid icon in the recent posts doesn't get mixed in with the name of the poster?  if you see my blog you'll know what i'm talking about.</p>\n",
+    "text": ""
+  },
+  "wm-id": "36543",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/openid-and-wordpress-core/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://themoniker.livejournal.com/",
+    "url": "http://themoniker.livejournal.com/",
+    "photo": "https://www.gravatar.com/avatar/da47bd4dece99f82a93df00891fec718?d=404"
+  },
+  "url": "http://themoniker.livejournal.com/",
+  "published": "2008-08-19T11:55:45-07:00",
+  "content": {
+    "html": "With a Livejournal openID, I'm getting this problem:\r\nhttp://wordpress.org/support/topic/194995\r\nwhich, if I correctly understand this blog post:\r\nhttp://sbrlabs.com/blog/?p=7540\r\nis caused by the same lack of an XML-DOM parser that shows up as an error when I try to log-in with a Yahoo/Flickr openID.\r\nIn other words, I won't be able to use openid until PHP is upgraded or extended on my server.\r\nThere's also a javascript error because add_openid_to_comment_form gets called in every footer, but the function is included only on pages with comment forms.",
+    "text": ""
+  },
+  "wm-id": "23260",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

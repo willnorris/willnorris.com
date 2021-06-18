@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "lordphoenix",
+    "url": "http://www.lordphoenix.info",
+    "photo": "https://www.gravatar.com/avatar/4e0ca45c72d5110587c0d139426eeec7?d=404"
+  },
+  "url": "http://www.lordphoenix.info",
+  "published": "2007-10-31T10:35:02-07:00",
+  "content": {
+    "html": "<p>Is this release compatible with Wordpress 2.3?</p>\n",
+    "text": ""
+  },
+  "wm-id": "14429",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

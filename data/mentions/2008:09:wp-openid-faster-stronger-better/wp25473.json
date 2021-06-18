@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress OpenID v3.0",
+    "url": "http://willnorris.com/2008/10/wordpress-openid-v3"
+  },
+  "url": "http://willnorris.com/2008/10/wordpress-openid-v3",
+  "published": "2008-10-02T07:18:38-07:00",
+  "content": {
+    "html": "[...] It&#8217;s worth mentioning that pretty much all of the new features require that you also have the XRDS-Simple plugin installed. There are also a number of other changes in regards to simplifying and stabilizing the plugin, than can be read about here. [...]",
+    "text": ""
+  },
+  "wm-id": "25473",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/09/wp-openid-faster-stronger-better/"
+}

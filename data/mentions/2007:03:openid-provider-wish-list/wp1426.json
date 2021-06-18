@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Dmitry Shechtman",
+    "url": "http://xri.net/=damnian",
+    "photo": "https://www.gravatar.com/avatar/bea4cb4a69d7a5b44501928136359032?d=404"
+  },
+  "url": "http://xri.net/=damnian",
+  "published": "2007-03-10T00:43:09-08:00",
+  "content": {
+    "html": "Indeed, well said. As for identity linking, Mark Wahl recently proposed to make the OP act as a proxy for multiple OpenID identities. Is that something you'd like your provider to do?",
+    "text": ""
+  },
+  "wm-id": "1426",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/03/openid-provider-wish-list/"
+}

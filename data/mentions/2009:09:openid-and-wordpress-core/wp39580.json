@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Bring Your Own Terms Of Service | BuddyPress in 2009 &amp; nitpicks to improve in 2010",
+    "url": "http://byotos.com/2009/12/buddypress-in-2009-nitpicks-to-improve-in-2010/"
+  },
+  "url": "http://byotos.com/2009/12/buddypress-in-2009-nitpicks-to-improve-in-2010/",
+  "published": "2010-01-06T12:14:13-08:00",
+  "content": {
+    "html": "<p>[...] BuddyPress IRC chatroom last night and chat a little about this with him. Be sure to look at his OpenID on WordPress [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "39580",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/09/openid-and-wordpress-core/"
+}

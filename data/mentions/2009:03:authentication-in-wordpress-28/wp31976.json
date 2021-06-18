@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "10 Cool WordPress 2.8 Hacks and Tutorials to tinker with | rapid-DEV.net",
+    "url": "http://rapid-dev.net/2009/06/10-cool-wordpress-28-hacks-and-tutorials-to-tinker-with/"
+  },
+  "url": "http://rapid-dev.net/2009/06/10-cool-wordpress-28-hacks-and-tutorials-to-tinker-with/",
+  "published": "2009-06-15T06:14:17-07:00",
+  "content": {
+    "html": "<p>[...] 10. Authentication in WordPress 2.8 [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31976",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

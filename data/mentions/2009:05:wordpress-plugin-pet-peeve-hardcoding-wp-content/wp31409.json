@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Joseph Scott",
+    "url": "http://josephscott.org/",
+    "photo": "https://www.gravatar.com/avatar/582b66ad5ae1b69c7601a990cb9a661a?d=404"
+  },
+  "url": "http://josephscott.org/",
+  "published": "2009-05-25T15:33:40-07:00",
+  "content": {
+    "html": "I've run into this problem with a few plugins as well.  I got tired of fixing plugin each time a new version of the plugin was released, so I added a few mod_rewrite rules to ensures that the requests ended up in the right spot.\r\n\r\nI ended up adding those rules to my 'WordPress in a separate directory from SVN' post:\r\n\r\nhttp://josephscott.org/archives/2009/02/installing-wordpress-as-a-subversion-checkout-or-external-in-a-subdirectory/",
+    "text": ""
+  },
+  "wm-id": "31409",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/05/wordpress-plugin-pet-peeve-hardcoding-wp-content/"
+}

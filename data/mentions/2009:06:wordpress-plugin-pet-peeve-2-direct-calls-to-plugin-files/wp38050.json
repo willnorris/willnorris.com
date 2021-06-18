@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Kiper IT-konsult",
+    "url": "http://kitkonsult.se",
+    "photo": "https://www.gravatar.com/avatar/50f6027e90f0b13d01faf2b362a76b24?d=404"
+  },
+  "url": "http://kitkonsult.se",
+  "published": "2009-11-17T18:00:48-08:00",
+  "content": {
+    "html": "<p>Thank you Will for this great post and thanks to Alex that posted about it so I could find it!\nI have been delving deeper and deeper under the hood of WP lately and it is great to find articles that are so clear and to the point. It is sometimes hard to see the forest for all the trees...</p>\n",
+    "text": ""
+  },
+  "wm-id": "38050",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files/"
+}

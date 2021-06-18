@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "BuddyPress in 2009 &amp; nitpicks to improve in 2010 &laquo; metabiscuits.com",
+    "url": "http://metabiscuits.com/2009/12/18/buddypress-in-2009-nitpicks-to-improve-in-2010/"
+  },
+  "url": "http://metabiscuits.com/2009/12/18/buddypress-in-2009-nitpicks-to-improve-in-2010/",
+  "published": "2009-12-18T22:33:35-08:00",
+  "content": {
+    "html": "<p>[...] BuddyPress IRC chatroom last night and chat a little about this with him. Be sure to look at his OpenID on WordPress [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "39135",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/09/openid-and-wordpress-core/"
+}

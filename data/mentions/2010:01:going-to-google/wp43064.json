@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Otto",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/056f9b792c5f2eeb550b887e7f0870c1?d=404"
+  },
+  "url": "",
+  "published": "2010-04-12T18:37:16-07:00",
+  "content": {
+    "html": "<p>That's awesome since there are working the best of the best. ;-)\nBest Regards from <a href=\"http://www.wuestenigel.com\">Otto</a></p>\n",
+    "text": ""
+  },
+  "wm-id": "43064",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

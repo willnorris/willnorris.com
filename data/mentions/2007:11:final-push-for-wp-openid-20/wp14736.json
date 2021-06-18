@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "sairuh",
+    "url": "http://sairuh.org/",
+    "photo": "https://www.gravatar.com/avatar/b68163b7cd80b9ceecdadd634a856de0?d=404"
+  },
+  "url": "http://sairuh.org/",
+  "published": "2007-11-08T21:27:55-08:00",
+  "content": {
+    "html": "<p>Hmm, I'm trying out rev24325 on my site, and I get the following error on single post pages, right above the displayed comments.</p>\n\n<p><code>\nWordPress database error: [Unknown column 'openid' in 'where clause']\nSELECT * FROM wp_comments WHERE comment_post_ID = '9' AND openid = 1 AND comment_author_url = 'http://sairuh.org' AND comment_author != 'sairuh' AND comment_approved = '0' ORDER BY comment_date\n</code></p>\n\n<p>What could be causing this?</p>\n",
+    "text": ""
+  },
+  "wm-id": "14736",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/final-push-for-wp-openid-20/"
+}

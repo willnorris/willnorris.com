@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-10-19T23:06:48-07:00",
+  "content": {
+    "html": "<p>@Lloyd  just like I believe there are features that don't necessarily belong in WordPress core, there are features I don't believe belong in the core OpenID plugin.  In fact, the last release dropped support for two such technologies, EAUT and IDIB.  The plugin however is designed to be extensible, so support for those, and any other extensions (like pavatar), should be able to be added as separate plugins.  Right now, pavatar has nothing to do with OpenID directly, so it wouldn't belong in the OpenID plugin anyway.  It is very unlikely that avatar support would be added to SReg... it's pretty well frozen.  Attribute Exchange on the other hand is another matter... in fact there are already a few image attributes defined at <a href=\"http://www.axschema.org/types/\">http://www.axschema.org/types/</a>.</p>\n\n<p>As for your last question, the secret lies <a href=\"http://code.google.com/p/diso/source/detail?r=910\">here</a>.  It's ugly, but it works.  It will be in the next release, or you can just grab the latest comments.php from trunk.</p>\n",
+    "text": ""
+  },
+  "wm-id": "36545",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/openid-and-wordpress-core/"
+}

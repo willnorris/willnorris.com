@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-03-10T21:27:39-07:00",
+  "content": {
+    "html": "I certainly agree that WordPress is pretty hefty as it is.  However, as more and more services are using OAuth for API access, it begins to make a lot of sense that it should be a core capability of the platform.  PollDaddy, an Automattic property, launched a new API today which does not use OAuth.  Perhaps they would have used OAuth if it were available in WP core?  Who knows.\r\n\r\nI definitely think OAuth in WP core makes a lot more sense than OpenID in WP core... whether they realize it or not, there are far more users that would make use of OAuth if it were available to plugin authors.",
+    "text": ""
+  },
+  "wm-id": "29610",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

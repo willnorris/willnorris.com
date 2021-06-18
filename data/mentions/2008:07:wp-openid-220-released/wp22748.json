@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Vidoop Labs &raquo; Blog Archive &raquo; Time to get some code on your hands!",
+    "url": "http://labs.vidoop.com/2008/07/30/hello-world/"
+  },
+  "url": "http://labs.vidoop.com/2008/07/30/hello-world/",
+  "published": "2008-07-31T23:32:01-07:00",
+  "content": {
+    "html": "[...] of the DiSo project, who happened to co-author the OAuth spec and wrote the WordPress OpenID plugin, amongst many other things.  Then by launching the email to url translation service emailtoid.net [...]",
+    "text": ""
+  },
+  "wm-id": "22748",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://www.flickr.com/photos/weinschenker",
+    "url": "http://www.flickr.com/photos/weinschenker",
+    "photo": "https://www.gravatar.com/avatar/ce601a132e9fec10ac955493120682ed?d=404"
+  },
+  "url": "http://www.flickr.com/photos/weinschenker",
+  "published": "2008-09-11T13:11:28-07:00",
+  "content": {
+    "html": "Do you also currently face issues with the use of Yahoo!-OpenIDs?\r\n\r\nI can't login with Yahoo-IDs on my WPOpenID-Installation.",
+    "text": ""
+  },
+  "wm-id": "24618",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

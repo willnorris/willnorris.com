@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mary Anne",
+    "url": "http://quackingalone.com/blog/",
+    "photo": "https://www.gravatar.com/avatar/af7664b31424f046dc56af63856da036?d=404"
+  },
+  "url": "http://quackingalone.com/blog/",
+  "published": "2010-10-10T17:46:06-07:00",
+  "content": {
+    "html": "<p>Trying to make OpenID work here. Congrats on the Google job BTW, hopefully you can make the Wordpress OpenID plugin actually work with Blogger comments.</p>\n",
+    "text": ""
+  },
+  "wm-id": "48221",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

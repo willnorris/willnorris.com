@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Danny Ayers",
+    "url": "http://dannyayers.com",
+    "photo": "https://www.gravatar.com/avatar/7028f422ca6da0180de6c9d922a3228f?d=404"
+  },
+  "url": "http://dannyayers.com",
+  "published": "2007-11-01T09:46:37-07:00",
+  "content": {
+    "html": "<p>For many years Semantic Web technologies have been weak on\n(distributed) authentication and the like, so it's quite funny to see\nthe question \"So what's the equivalent [of LDAP] in the decentralized\nOpenID world?\".</p>\n\n<p>The decentralised OpenID world is the Web, and the Web of Data story\nis pretty well figured out with RDF (check the material around <a\nhref=\"http://en.wikipedia.org/wiki/Linked_Data\">Linked Data</a>).\nSpecifically for the LDAP kind of situation, you'd probably want FOAF\n+ vCard/RDF terms.</p>\n\n<p>Microformats like hCard are consistent with this, and can be directly\ninterpreted as RDF using <a\nhref=\"http://www.w3.org/TR/grddl-primer/\">GRDDL</a>.</p>\n\n<p>(I forgot to mention there's now a foaf:openid property)</p>\n",
+    "text": ""
+  },
+  "wm-id": "14716",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/openid-is-not-a-provisioning-engine/"
+}

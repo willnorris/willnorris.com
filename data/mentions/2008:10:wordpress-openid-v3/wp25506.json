@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Kevin",
+    "url": "http://lifeasitcomes.com/",
+    "photo": "https://www.gravatar.com/avatar/129d4ee560a9268e641d8a5969f19961?d=404"
+  },
+  "url": "http://lifeasitcomes.com/",
+  "published": "2008-10-03T17:23:28-07:00",
+  "content": {
+    "html": "Thanks Will!  This update fixes my Dreamhost issues!",
+    "text": ""
+  },
+  "wm-id": "25506",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

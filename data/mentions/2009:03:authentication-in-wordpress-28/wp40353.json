@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "reiner",
+    "url": "http://www.greetsiel-feriendomizil.de",
+    "photo": "https://www.gravatar.com/avatar/0e70b714b4ff9ac79edde8ffa9fe23e2?d=404"
+  },
+  "url": "http://www.greetsiel-feriendomizil.de",
+  "published": "2010-01-22T12:15:41-08:00",
+  "content": {
+    "html": "<p>Do you plan to provide a french version of the plugin</p>\n",
+    "text": ""
+  },
+  "wm-id": "40353",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

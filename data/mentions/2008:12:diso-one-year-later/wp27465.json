@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mark",
+    "url": "http://orbum.net/mark/author/mark/",
+    "photo": "https://www.gravatar.com/avatar/e50f4402cd331b7e9de1dd81c2f918f6?d=404"
+  },
+  "url": "http://orbum.net/mark/author/mark/",
+  "published": "2008-12-18T23:29:47-08:00",
+  "content": {
+    "html": "Well, it looks to me like you're doing an incredible service for Wordpress. Not to mention the community of users.\r\n\r\nPersonally, I'm not very fond at all of the \"social networking\" technologies. If we were not a society so dominated by financial marketing interests and surveillance, I might think differently.\r\n\r\nThat being said, authentication mechanisms like OpenID are extraordinarily useful and beneficial. I don't think that OpenID fits just into social networking technologies, though. It's far more broad, or fundamental. I'm really grateful for your work, bringing it to Wordpress. Regardless of who's done what, anywhere else.",
+    "text": ""
+  },
+  "wm-id": "27465",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/12/diso-one-year-later/"
+}

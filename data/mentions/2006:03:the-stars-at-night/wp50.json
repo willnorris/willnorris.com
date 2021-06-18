@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "mrg",
+    "url": "http://www.aioxipa.com/mrg/"
+  },
+  "url": "http://www.aioxipa.com/mrg/",
+  "published": "2006-03-07T01:00:49-08:00",
+  "content": {
+    "html": "holy crap, you saw stars?",
+    "text": ""
+  },
+  "wm-id": "50",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2006/03/the-stars-at-night/"
+}

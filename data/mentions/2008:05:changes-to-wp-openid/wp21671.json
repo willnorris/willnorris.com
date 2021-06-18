@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Blaenk Denum",
+    "url": "http://blaenkdenum.com/",
+    "photo": "https://www.gravatar.com/avatar/183ede6a94a34822098fd62afd0b32a8?d=404"
+  },
+  "url": "http://blaenkdenum.com/",
+  "published": "2008-06-28T05:05:23-07:00",
+  "content": {
+    "html": "The XRDS-Simple plugin obviously worked, but your plugin still doesn\\'t. I rebuilt the permalink structure, rebuilt the plugin\\'s tables, and finally cleared my super cache and still nothing. I wonder if it has anything to do with the fact that I\\'m testing it with my openid, blaenkdenum.myopenid.com and the fact that that site is also its delegate, though I didn\\'t have this problem before. Logging in doesn\\'t work either. With logging in I get &lt;a href=\\",
+    "text": ""
+  },
+  "wm-id": "21671",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

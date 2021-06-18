@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Dennis",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/ca122eca5d377d3a3e856aee13ec0cc9?d=404"
+  },
+  "url": "",
+  "published": "2008-07-26T09:01:06-07:00",
+  "content": {
+    "html": "@TheDoctorWhat Thanks for your advice. I installed the latest version of the plugin (2.2.1) and verified that everything is on the plugin side is okay, the line reads the following:\r\n\r\n[OK] Big Integer support: GMP is installed.\r\n\r\nUnfortunately it still doesn't work. I guess it would be good to pick up Chris' idea, so I can find out and provide more information about what's going wrong.\r\n\r\nHave a nice weekend,\r\nDennis",
+    "text": ""
+  },
+  "wm-id": "22584",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

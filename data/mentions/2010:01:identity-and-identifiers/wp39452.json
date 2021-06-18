@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Dmitry Shechtman",
+    "url": "http://shecht.wordpress.com/",
+    "photo": "https://www.gravatar.com/avatar/65b02c72404b4e3bad4a026e275f089e?d=404"
+  },
+  "url": "http://shecht.wordpress.com/",
+  "published": "2010-01-02T20:57:49-08:00",
+  "content": {
+    "html": "<p>I hate to say \"I told you so\", but I blogged about FreeYourID just a day after you did, though much less favorably.</p>\n\n<p>My old blog is now gone along with the domain name (oh the irony!), but thanks to the Wayback Machine, the post (complete with some witty comments from GNR and JanRain) is still here:</p>\n\n<p>http://web.archive.org/web/20070827002759/http://blog.phpbb.cc/2007/02/14/thank-you-for-not-registering/</p>\n\n<p>Identity IS important. Don't entrust it with the wrong people.</p>\n",
+    "text": ""
+  },
+  "wm-id": "39452",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/identity-and-identifiers/"
+}

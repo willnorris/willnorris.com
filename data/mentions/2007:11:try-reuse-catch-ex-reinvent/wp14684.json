@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "OpenID und hCard Teil II at notizBlog - a private weblog written by Matthias Pfefferle",
+    "url": "http://notizblog.org/2007/11/06/openid-und-hcard-teil-ii/"
+  },
+  "url": "http://notizblog.org/2007/11/06/openid-und-hcard-teil-ii/",
+  "published": "2007-11-06T21:03:02-08:00",
+  "content": {
+    "html": "<p>[...] bin mal gespannt, ob hCard und OpenID irgendwann auf einen gemeinsamen Nenner kommen und welche neuen Authentifizierungs-Systeme dadurch erm&#246;glicht werden. yigg [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "14684",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/11/try-reuse-catch-ex-reinvent/"
+}

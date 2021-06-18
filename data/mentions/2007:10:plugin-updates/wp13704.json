@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-10-12T22:39:08-07:00",
+  "content": {
+    "html": "<p>@Brian: hmm... looks like the plugin doesn't support https OpenIDs.  That's certainly a problem.</p>\n",
+    "text": ""
+  },
+  "wm-id": "13704",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

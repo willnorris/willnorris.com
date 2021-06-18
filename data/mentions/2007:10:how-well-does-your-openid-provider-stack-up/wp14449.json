@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jason",
+    "url": "http://jamster.claimid.com",
+    "photo": "https://www.gravatar.com/avatar/60257374b85ade8826280bd1403fd8b7?d=404"
+  },
+  "url": "http://jamster.claimid.com",
+  "published": "2007-10-31T20:07:06-07:00",
+  "content": {
+    "html": "<p>would love to get my hands on this to test my own site.</p>\n",
+    "text": ""
+  },
+  "wm-id": "14449",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/how-well-does-your-openid-provider-stack-up/"
+}

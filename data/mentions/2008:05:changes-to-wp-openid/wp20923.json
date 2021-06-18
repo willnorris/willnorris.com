@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://philsblogging.com/",
+    "url": "http://philsblogging.com/"
+  },
+  "url": "http://philsblogging.com/",
+  "published": "2008-06-05T19:34:15-07:00",
+  "content": {
+    "html": "<p>hey, do you plan on giving the option of connecting an wordpress account that already existed before with an openID account?\nplease let me know, i'd love to hear more about this feature. thx.</p>\n",
+    "text": ""
+  },
+  "wm-id": "20923",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

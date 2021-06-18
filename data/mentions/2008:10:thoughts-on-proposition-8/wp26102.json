@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name",
+  "published": "2008-11-04T20:39:26-08:00",
+  "content": {
+    "html": "@HIllary: I voted by absentee ballot last week... no on prop 8, and Obama for president.\r\n\r\nI had not seen Lessig's video on prop 8, thanks for that link.  I do find it interesting that he opposes prop 8 on a completely different ground, and he does make a very interesting argument.",
+    "text": ""
+  },
+  "wm-id": "26102",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/thoughts-on-proposition-8/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Eran Sandler",
+    "url": "http://eran.sandler.co.il/",
+    "photo": "https://www.gravatar.com/avatar/620af82de14e41fd6b58a61fd78329af?d=404"
+  },
+  "url": "http://eran.sandler.co.il/",
+  "published": "2007-02-14T07:50:48-08:00",
+  "content": {
+    "html": "<p>Will, I was looking into creating such a plugin myself, but after seeing this you seem to be in a far better state than I am :-)</p>\n\n<p>I was also thinking along these lines but figured that one cannot really intercept the xrds.xml call in all platforms (specifically on Windows) so I would simply generate it on the fly whenever someone saves the configuration.</p>\n\n<p>If you need help with anything regarding the plugin itself ping me at [my first name]@sandler.co.il.</p>\n",
+    "text": ""
+  },
+  "wm-id": "1225",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/wp-xrds/"
+}

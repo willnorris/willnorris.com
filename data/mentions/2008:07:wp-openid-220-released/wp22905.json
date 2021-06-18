@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "sairuh",
+    "url": "http://iwaruna.com",
+    "photo": "https://www.gravatar.com/avatar/b68163b7cd80b9ceecdadd634a856de0?d=404"
+  },
+  "url": "http://iwaruna.com",
+  "published": "2008-08-04T21:19:04-07:00",
+  "content": {
+    "html": "I installed v2.2.1 (on WP 2.4.1), and no longer seem to be able to post comments when your plugin is activated. I get the following error when wp-comments-post.php runs:\r\n\r\n<code>You must submit a comment using the comment form.</code>\r\n\r\nI checked the plugin's status info, which displays a failure for Big Integer support:\r\n\r\n<code>[FAIL] Big Integer support: The OpenID Library is operating in Dumb Mode. Recommend installing GMP support.</code>\r\n\r\nAre there any workarounds I could apply? Comments can be posted if I turn off openid, but of course that means no openid support for my site.\r\n\r\nThanks in advance!",
+    "text": ""
+  },
+  "wm-id": "22905",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

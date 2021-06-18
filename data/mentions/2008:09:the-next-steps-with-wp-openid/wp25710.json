@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Providing and Delegating OpenIDs",
+    "url": "http://willnorris.com/2008/09/providing-and-delegating-openids"
+  },
+  "url": "http://willnorris.com/2008/09/providing-and-delegating-openids",
+  "published": "2008-10-15T20:45:43-07:00",
+  "content": {
+    "html": "[...] next major release of wp-openid includes a built-in OpenID provider and delegation engine. This will certainly be the [...]",
+    "text": ""
+  },
+  "wm-id": "25710",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/09/the-next-steps-with-wp-openid/"
+}

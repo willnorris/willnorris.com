@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-03-11T18:51:17-07:00",
+  "content": {
+    "html": "@Ramon: the plugin isn't in the WordPress directory yet... that's intentional.  It's not not quite ready for users.\r\n\r\n@Khürt: I think you're misunderstanding what OAuth is for... it's not for authenticating to a website yourself, it's for API authentication.  What you're describing is still OpenID, whether you initiate with a big button or by typing a URL.\r\n\r\n@Stephen: actually no, we haven't gotten AtomPub working yet.  I guess I just forgot :).  I'll definitely try and get those changes in before 2.8 releases.",
+    "text": ""
+  },
+  "wm-id": "29645",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

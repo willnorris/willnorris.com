@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Aswath Rao",
+    "url": "http://www.mocaedu.com/mt",
+    "photo": "https://www.gravatar.com/avatar/759bdb754714c6e0d336e0625f56c2dd?d=404"
+  },
+  "url": "http://www.mocaedu.com/mt",
+  "published": "2009-08-01T14:58:55-07:00",
+  "content": {
+    "html": "<p>Directed Identity is useful in cases where I would like to maintain different persona. But I am still bound to a single OP. As we saw from the case of myVidoop, that is not safe. That is why I prefer delegation. Once I do that, I can create different OpenIDs easily on my own, without the need of directed identity.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32801",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/07/openid-directed-identity-identifier-select/"
+}

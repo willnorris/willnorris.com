@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mark Cross",
+    "url": "http://markcross.openid.co.uk/",
+    "photo": "https://www.gravatar.com/avatar/e765cdfc7c16e9f976885f4352cc6b6f?d=404"
+  },
+  "url": "http://markcross.openid.co.uk/",
+  "published": "2008-10-02T08:26:57-07:00",
+  "content": {
+    "html": "Well done Will - magic stuff!",
+    "text": ""
+  },
+  "wm-id": "25476",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

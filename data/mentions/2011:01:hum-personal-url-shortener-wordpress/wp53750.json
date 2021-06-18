@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "https://singpolyma.net/",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "https://singpolyma.net/",
+  "published": "2011-01-27T17:14:09-08:00",
+  "content": {
+    "html": "<p>This is similar to my old Shorten plugin.  The / after the b (something my impl also did) is superfluous, you can take it out if you only use a single char for partitioning.</p>\n\n<p>On algorithmic reversing.  For sngpl.ma I chose to use algo shortening (same algo as Whistle) for one reason: durability.  What if I leave Wordpress?  What if my DB (and backups) get lost?  What if my site goes offline?  With an algo shortener you can look up the post in the Internet Archive or similar even if my site goes away.</p>\n",
+    "text": ""
+  },
+  "wm-id": "53750",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2011/01/hum-personal-url-shortener-wordpress/"
+}

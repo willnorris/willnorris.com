@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Garcia",
+    "url": "http://will.ph/",
+    "photo": "https://www.gravatar.com/avatar/685115963dc64b4adc3092412ccf8f1b?d=404"
+  },
+  "url": "http://will.ph/",
+  "published": "2008-04-18T13:05:21-07:00",
+  "content": {
+    "html": "<p>Any updates on the wordpress plugin? I only have one issue with the plugin not working with WordPress 2.5 and that is toggling the system information. Other than that, everything's peachy. Thanks again for this great plugin.</p>\n",
+    "text": ""
+  },
+  "wm-id": "19410",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wp-openid-moving-to-diso/"
+}

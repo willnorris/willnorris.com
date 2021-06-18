@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-08-03T20:16:28-07:00",
+  "content": {
+    "html": "<p>yes, I mention that the secret salt can't be stored by the proxy, but failed to mention that the OpenID itself couldn't be stored as well... I've updated the post to state that... thanks.</p>\n\n<p>An \"always true\" OP does me no good, because then that means anyone could login to OSHA.gov as me and read through my correspondence with them.  The goal here is not <strong>just</strong> anonymity.  That can be accomplished by never logging-in in the first place.  The goal here is to continue to provide real individual user accounts without revealing the identity of the users.  And additionally ensuring that the identity of the user can't be discovered with subpoenas to the OpenID provider or whomever.  (Of course IP address logs are another matter, with different solutions).</p>\n",
+    "text": ""
+  },
+  "wm-id": "32860",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/08/a-new-kind-of-openid-proxy/"
+}

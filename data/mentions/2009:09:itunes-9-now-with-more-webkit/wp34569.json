@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "jrk",
+    "url": "http://",
+    "photo": "https://www.gravatar.com/avatar/8c2165912e98ecaf995d377590a00e66?d=404"
+  },
+  "url": "http://",
+  "published": "2009-09-10T09:13:03-07:00",
+  "content": {
+    "html": "<p>this whole webkit rendering makes my itunes really slow - on my 2009 imac. feels like playing a high end video game on a low end pc.</p>\n\n<p>apple should improve the performance :(</p>\n\n<p>regards,\njrk\n<a href=\"http://www.fluxforge.com\">fluxforge.com</a></p>\n",
+    "text": ""
+  },
+  "wm-id": "34569",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

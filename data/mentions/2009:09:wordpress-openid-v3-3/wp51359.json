@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "cobain",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/532055ab536ea50211cf7730c963f1f8?d=404"
+  },
+  "url": "",
+  "published": "2010-12-23T21:48:58-08:00",
+  "content": {
+    "html": "<p>There is a bug in plugin (OpenID v3.3.3) in file wp-content/plugins/openid/common.php on line 543.</p>\n\n<p>Replace</p>\n\n<p>echo '{ valid:' . ( is_url_openid( $_REQUEST['url'] ) ? 'true' : 'false' ) . ', nonce:\"' . wp_create_nonce('openid_ajax') . '\" }';</p>\n\n<p>with</p>\n\n<p>echo '{ \"valid\":' . ( is_url_openid( $_REQUEST['url'] ) ? 'true' : 'false' ) . ', \"nonce\":\"' . wp_create_nonce('openid_ajax') . '\" }';</p>\n\n<p>otherwise when you try to enter OpenID URL you get \"errorparse\" and checkbox don't appear.</p>\n",
+    "text": ""
+  },
+  "wm-id": "51359",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/wordpress-openid-v3-3/"
+}

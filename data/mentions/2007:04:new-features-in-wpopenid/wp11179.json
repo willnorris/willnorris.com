@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Alex",
+    "url": "http://adumont.serveblog.net/",
+    "photo": "https://www.gravatar.com/avatar/0c5cbed4004fc60e871825f9ae8de4ff?d=404"
+  },
+  "url": "http://adumont.serveblog.net/",
+  "published": "2007-08-07T17:25:09-07:00",
+  "content": {
+    "html": "Hi,\r\n\r\nWhen I try to post a comment with my OpenID at my blog, I get the following error:\r\n\r\n\r\nFatal error: Call to a member function on a non-object in /data/web/wordpress/wp213/wp-content/plugins/wpopenid/openid-registration.php on line 472\r\n\r\nI'm running Debian Etch, with php4 4.4.4-8+etch4 and WordPress 2.1.3 .\r\n\r\nAny idea? If you need more information, please ask,\r\n\r\nAlex",
+    "text": ""
+  },
+  "wm-id": "11179",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

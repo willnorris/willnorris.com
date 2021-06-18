@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "iTunes 9 Brings Apple TV Problems",
+    "url": "http://www.theosquest.com/2009/09/14/itunes-9-brings-apple-tv-problems/"
+  },
+  "url": "http://www.theosquest.com/2009/09/14/itunes-9-brings-apple-tv-problems/",
+  "published": "2009-09-14T23:54:56-07:00",
+  "content": {
+    "html": "<p>[...] a potential problem is the switch (or at least greater use of) from Cocoa to Webkit which has been reported by some [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "34868",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

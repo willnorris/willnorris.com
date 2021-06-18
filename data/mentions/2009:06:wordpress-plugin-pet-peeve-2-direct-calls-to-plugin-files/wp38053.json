@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-11-17T18:41:10-08:00",
+  "content": {
+    "html": "<p>Olivier: the only way you would need something like <code>require_once('../../../wp-config.php')</code> in your code is if you are calling your plugin files directly, and they need access to WP functions.  This is really bad, you never want to do this.</p>\n\n<p>So instead of calling your plugin file directly, and having it try to bootstrap the WP environment, what you want to do is actually send the request through WordPress (so the environment gets setup properly) and then have the requested passed off to your plugin to process it.  You accomplish the same thing, but this is the Right Way to do it.</p>\n\n<p>The <a href=\"http://codex.wordpress.org/AJAX_in_Plugins\">AJAX in Plugins</a> Codex page suggests that you can still use <code>/wp-admin/admin-ajax.php</code> to process user facing AJAX calls.  I was thinking that wasn't possibly, but I certainly could be wrong... might be worth looking into.</p>\n",
+    "text": ""
+  },
+  "wm-id": "38053",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files/"
+}

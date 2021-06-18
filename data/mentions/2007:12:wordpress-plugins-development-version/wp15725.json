@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "OpenID 2.0…Final(ly)! | Michael Gracie",
+    "url": "http://michaelgracie.com/2007/12/07/openid-20%e2%80%a6finally/"
+  },
+  "url": "http://michaelgracie.com/2007/12/07/openid-20%e2%80%a6finally/",
+  "published": "2007-12-07T21:35:18-08:00",
+  "content": {
+    "html": "<p>[...] interest  . Will Norris completed the project himself, and you can find the Wordpress plug-in here - Will has provided a link to fixed repositories, in case you are part of the &#8220;can I smoke [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "15725",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/12/wordpress-plugins-development-version/"
+}

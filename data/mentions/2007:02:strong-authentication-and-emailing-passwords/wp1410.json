@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "OpenID provider wish-list at willnorris.com",
+    "url": "http://willnorris.com/2007/03/openid-provider-wish-list"
+  },
+  "url": "http://willnorris.com/2007/03/openid-provider-wish-list",
+  "published": "2007-03-08T09:35:12-08:00",
+  "content": {
+    "html": "[...]  Tags: No Tags.      A week or so ago, Nic Ferrier of prooveme contacted me in regards to a previous post I made that referenced prooveme.com in regards to strong authentication. He ended the [...]",
+    "text": ""
+  },
+  "wm-id": "1410",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/02/strong-authentication-and-emailing-passwords/"
+}

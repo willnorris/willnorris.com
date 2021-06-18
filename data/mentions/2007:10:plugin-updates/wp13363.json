@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-10-04T08:47:09-07:00",
+  "content": {
+    "html": "<p>@Shack - thanks, that's exactly the kind of feedback I was hoping for.  I was really hoping to make a release this week, but I'm not sure that is going to happen.  I'm in San Diego all next week for <a href=\"http://events.internet2.edu/2007/fall-mm/\">a conference</a>, and will likely be spending the rest of this week and the weekend preparing for that.  I think the plugin is pretty stable at this point, but I'd like to work out a few remaining bugs before tagging 2.0.  If you happen to figure out solutions to any of these, that would be great to include them in the release.</p>\n\n<p>And another possible bug... why does your gravatar show up in your second comment, but not your first?  Did you put a different value in the email field, or did wp-openid not retrieve your email via sreg on one?</p>\n\n<p>I'll really have to think about your third point there.  You're absolutely right about it, but I'm not sure how to implement the solution.  Having two links definitely works, but would break the elegance of the current implementation... right now I just add a class to the author link and let CSS handle the logo.  Perhaps that could be another admin option or something.</p>\n",
+    "text": ""
+  },
+  "wm-id": "13363",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

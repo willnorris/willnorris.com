@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Thomas Huhn",
+    "url": "http://thuhn.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/bd4086aa6205c86cc0d7b31aca3c8874?d=404"
+  },
+  "url": "http://thuhn.myopenid.com/",
+  "published": "2007-02-22T15:59:35-08:00",
+  "content": {
+    "html": "<p>Hello!\nAs far as I can see, your OpenID implementation seems to work perfectly.\nI confirm your submission to the \"<a href=\"http://openiddirectory.com\" title=\"The OpenID Directory\">The OpenID Directory</a>\" with this comment.\nThanks and congratulations!\nThomas</p>\n",
+    "text": ""
+  },
+  "wm-id": "1308",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

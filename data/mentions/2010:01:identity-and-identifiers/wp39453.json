@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2010-01-02T21:00:37-08:00",
+  "content": {
+    "html": "<p>@Dmitry: heh, I actually intended to include a link to your post for exactly that reason... because you <strong>did</strong> warn people about that.  Unfortunately, the wayback machine was having trouble yesterday and wouldn't load the page, so I left it out.</p>\n",
+    "text": ""
+  },
+  "wm-id": "39453",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/identity-and-identifiers/"
+}

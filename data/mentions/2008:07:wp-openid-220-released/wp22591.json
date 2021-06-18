@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Christoph Blecker",
+    "url": "http://www.toph.ca",
+    "photo": "https://www.gravatar.com/avatar/fcd2abbabb76c699d92995199cad566b?d=404"
+  },
+  "url": "http://www.toph.ca",
+  "published": "2008-07-26T13:54:35-07:00",
+  "content": {
+    "html": "Since upgrading, the wp-openid doesn't seem to handle openid redirects. I get the following error:\r\n\r\nCould not discover an OpenID identity server endpoint at the url: toph.ca\r\n\r\nAny idea on what is going on?",
+    "text": ""
+  },
+  "wm-id": "22591",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "himself",
+    "url": "http://himself.myid.net/",
+    "photo": "https://www.gravatar.com/avatar/698b2c831ce3da7ef25bdb9ce47a1395?d=404"
+  },
+  "url": "http://himself.myid.net/",
+  "published": "2008-06-10T10:07:08-07:00",
+  "content": {
+    "html": "<p>Hello,</p>\n\n<p>plugin is not working with myid.net :(</p>\n",
+    "text": ""
+  },
+  "wm-id": "21090",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

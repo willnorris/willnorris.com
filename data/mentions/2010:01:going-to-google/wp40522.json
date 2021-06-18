@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Thomas Hawk",
+    "url": "http://thomashawk.com",
+    "photo": "https://www.gravatar.com/avatar/803c9ccdf94fe14127d4d2c4e3a1f98b?d=404"
+  },
+  "url": "http://thomashawk.com",
+  "published": "2010-01-26T19:40:50-08:00",
+  "content": {
+    "html": "<p>Congrats on the new job at Google.  Google should consider putting together a viable social based photo sharing site.  There is a huge opportunity here to put something spectacular together.</p>\n",
+    "text": ""
+  },
+  "wm-id": "40522",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

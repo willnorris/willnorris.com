@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Tom Nielsen",
+    "url": "http://olliatauburn.org/blogs",
+    "photo": "https://www.gravatar.com/avatar/7cf3f3afdc95830c639e6db85b666daa?d=404"
+  },
+  "url": "http://olliatauburn.org/blogs",
+  "published": "2009-06-06T15:29:43-07:00",
+  "content": {
+    "html": "Will,\r\n\r\nHow do I turn off the 'Email Mapping' option as I need to use Gmail as the Provider? I see code referring to the mapping option in the plugin's admin-panels.php file, but don't see that setting option in Dashboard | Settings | OpenID.\r\n\r\nAs is, with mapping on, a new WordPress user is created but doesn't provide first and last name (maybe even nickname,and password?) that I'm hoping to get from Gmail. And the emailtoid OpenID is less than memorable, user-friendly.\r\n\r\nWhat changes do I need to be make to the plugin so I can use Gmail? And would the Gmail OpenID be the same as the Google account used to login to Gmail, e.g., 'accountname@gmail.com', or would it be 'gmail.com/u/accountname'? \r\n\r\nI'm trying to upgrade a site where members (seniors, ages 55-90+, many who are not very sophisticated or experienced net users) can login to Gmail with a single, memorable username and then access the WordPress blogs without needing to register (or be registered) with another username and password (see: <a href=\"http://olliatauburn.org/blogs\"> OLLI at Auburn Blogs</a>).\r\n\r\nThanks.\r\n\r\n- Tom",
+    "text": ""
+  },
+  "wm-id": "31782",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

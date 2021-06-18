@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "bobrik",
+    "url": "http://bobrik.name/",
+    "photo": "https://www.gravatar.com/avatar/37ceb873ee50e3fa1ca956b3734e7604?d=404"
+  },
+  "url": "http://bobrik.name/",
+  "published": "2008-08-05T15:20:20-07:00",
+  "content": {
+    "html": "Hey! Cna you explain something about this: http://bobrik.name/2008/08/05/some-updates/#comment-2259\r\nComments without openid works fine. Maybe some staff in hooks?",
+    "text": ""
+  },
+  "wm-id": "22924",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

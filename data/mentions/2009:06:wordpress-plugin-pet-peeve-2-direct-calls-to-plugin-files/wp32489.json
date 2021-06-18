@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "wp-content in Code is a Tell for Common WordPress Coding Mistakes &lt; A Fool&#8217;s Wisdom",
+    "url": "http://foolswisdom.com/wp-content-in-code-is-a-tell-for-common-wordpress-coding-mistakes/"
+  },
+  "url": "http://foolswisdom.com/wp-content-in-code-is-a-tell-for-common-wordpress-coding-mistakes/",
+  "published": "2009-07-13T18:59:51-07:00",
+  "content": {
+    "html": "<p>[...] is a topic for me to postulate on another day. Will has written the very relevant &#8220;WordPress Plugin Pet Peeve #2: Direct Calls to Plugin Files&#8220;. Duane Storey has taken a crack at a &#8220;WordPress Plugin Checker&#8220;  for these and [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32489",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files/"
+}

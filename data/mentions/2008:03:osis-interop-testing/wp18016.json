@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Steve Ivy",
+    "url": "http://redmonk.net/",
+    "photo": "https://www.gravatar.com/avatar/e20c9d4743598f3adca3575d74689356?d=404"
+  },
+  "url": "http://redmonk.net/",
+  "published": "2008-03-03T19:03:50-08:00",
+  "content": {
+    "html": "<p>this may be a test</p>\n",
+    "text": ""
+  },
+  "wm-id": "18016",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

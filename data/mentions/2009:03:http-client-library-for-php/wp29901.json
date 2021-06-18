@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Beau",
+    "url": "http://dentedreality.com.au/",
+    "photo": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?d=404"
+  },
+  "url": "http://dentedreality.com.au/",
+  "published": "2009-03-20T00:02:44-07:00",
+  "content": {
+    "html": "Yep, fair enough. and as you say -- the only changes will be feature additions (e.g. better support for SSL and some other things that are a little bit fluid still) and then bug fixes, so probably not that big of a deal to keep up to date with it.",
+    "text": ""
+  },
+  "wm-id": "29901",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/http-client-library-for-php/"
+}

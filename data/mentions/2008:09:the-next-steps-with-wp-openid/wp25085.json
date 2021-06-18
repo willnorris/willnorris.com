@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress wird OpenID-Provider at notizBlog - a private weblog written by Matthias Pfefferle",
+    "url": "http://notizblog.org/2008/09/17/wordpress-wird-openid-provider/"
+  },
+  "url": "http://notizblog.org/2008/09/17/wordpress-wird-openid-provider/",
+  "published": "2008-09-18T06:24:44-07:00",
+  "content": {
+    "html": "[...] The Next Steps with wp-openid [...]",
+    "text": ""
+  },
+  "wm-id": "25085",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/09/the-next-steps-with-wp-openid/"
+}

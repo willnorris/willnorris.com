@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8 Beta RC1 | Word Press Magazine",
+    "url": "http://wordpressmagazine.net/2009/07/wordpress-2-8-beta-rc1/"
+  },
+  "url": "http://wordpressmagazine.net/2009/07/wordpress-2-8-beta-rc1/",
+  "published": "2009-07-15T06:58:51-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32507",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

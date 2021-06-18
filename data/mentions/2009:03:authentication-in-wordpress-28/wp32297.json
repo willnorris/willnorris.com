@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "??? &raquo; Blog Archive &raquo; WordPress 2.8?? for ????",
+    "url": "http://010wu.cn/?p=329"
+  },
+  "url": "http://010wu.cn/?p=329",
+  "published": "2009-07-01T11:15:10-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 – Will Norris [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32297",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

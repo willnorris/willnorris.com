@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Igel",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/5425c6aab894b6c4bf7eecc4c0404e6b?d=404"
+  },
+  "url": "",
+  "published": "2009-09-18T17:55:22-07:00",
+  "content": {
+    "html": "<p>Good hack, i appreciate! Regards <a href=\"http://www.arveno.info\">Arveno</a></p>\n",
+    "text": ""
+  },
+  "wm-id": "35149",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-3-not-being-extensible/"
+}

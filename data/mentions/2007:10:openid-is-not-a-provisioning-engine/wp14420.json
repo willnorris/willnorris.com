@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chris Messina",
+    "url": "http://factoryjoe.com/",
+    "photo": "https://www.gravatar.com/avatar/8403e20f058363f718144dd51faa65a7?d=404"
+  },
+  "url": "http://factoryjoe.com/",
+  "published": "2007-10-31T04:39:12-07:00",
+  "content": {
+    "html": "<p>Oh, and Will, it'd be awesome if you could put pressure on the OpenID spec folks to use vcard attributes for SREG!! ;)</p>\n",
+    "text": ""
+  },
+  "wm-id": "14420",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/openid-is-not-a-provisioning-engine/"
+}

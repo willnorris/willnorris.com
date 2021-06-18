@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Best Practices with Directed Identity &#8212; Will Norris",
+    "url": "http://willnorris.com/2009/08/best-practices-with-directed-identity"
+  },
+  "url": "http://willnorris.com/2009/08/best-practices-with-directed-identity",
+  "published": "2009-08-03T03:48:35-07:00",
+  "content": {
+    "html": "<p>[...] Will Norris Thoughts on Identity, OpenID, WordPress, and Life   Skip to content BlogAboutProjectsArchives       &laquo; Directed Identity vs Identifier Select [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32834",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/07/openid-directed-identity-identifier-select/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Dicas e truques para a versão Wordpress 2.8 | Site Wordpress",
+    "url": "http://www.sitewordpress.com/dicas-e-truques-para-a-versao-wordpress-2_8/"
+  },
+  "url": "http://www.sitewordpress.com/dicas-e-truques-para-a-versao-wordpress-2_8/",
+  "published": "2009-06-14T18:14:07-07:00",
+  "content": {
+    "html": "<p>[...] Autenticação no WordPress 2.8 – Will Norris [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31956",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "http://singpolyma.net/",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "http://singpolyma.net/",
+  "published": "2009-03-10T21:11:14-07:00",
+  "content": {
+    "html": "I'm not sure how good an idea it would be to include OAuth in WP core anyway.  There's already way too much crap in there.",
+    "text": ""
+  },
+  "wm-id": "29609",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

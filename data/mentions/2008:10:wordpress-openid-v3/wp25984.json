@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name",
+  "published": "2008-10-30T18:35:14-07:00",
+  "content": {
+    "html": "@aun: Are you trying to login to your website, using your website as an OpenID?  If so, that certainly won't work... it's a chicken and egg problem.  The only way that would actually work is if you're delegating your OpenID to another provider, which it doesn't look like you're doing.\r\n\r\nWe definitely need to add some more warning/error messages when users get into this kind of never-ending circular login flow.",
+    "text": ""
+  },
+  "wm-id": "25984",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

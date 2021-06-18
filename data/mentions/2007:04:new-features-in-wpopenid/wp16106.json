@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Iwaruna.com &raquo; OpenID for comments in Iwaruna.com",
+    "url": "http://iwaruna.com/2007/08/12/openid-for-comments-in-iwarunacom/"
+  },
+  "url": "http://iwaruna.com/2007/08/12/openid-for-comments-in-iwarunacom/",
+  "published": "2007-12-24T03:10:48-08:00",
+  "content": {
+    "html": "<p>[...] a page about comment moderation? I thought I was able to submit comments before&#8230;&#8221; A known bug, where I&#8217;ll need to moderate the comment to make it appear. Fortunately this doesn&#8217;t [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "16106",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

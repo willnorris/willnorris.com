@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Kevin W. Hammond",
+    "url": "http://kevinha.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/bc2f4535ee16031b7253fd9cf0c75d19?d=404"
+  },
+  "url": "http://kevinha.myopenid.com/",
+  "published": "2008-05-28T22:02:02-07:00",
+  "content": {
+    "html": "<p>Testing OpenID ... feel free to delete me.</p>\n",
+    "text": ""
+  },
+  "wm-id": "20597",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/out-of-town/"
+}

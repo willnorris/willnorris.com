@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Matthias Pfefferle",
+    "url": "http://notizblog.org/",
+    "photo": "https://www.gravatar.com/avatar/0584d6991c186c9561863e080ff279e8?d=404"
+  },
+  "url": "http://notizblog.org/",
+  "published": "2008-10-02T07:05:02-07:00",
+  "content": {
+    "html": "First of all... You have done some awesome work! Thanks a lot :)\r\n\r\n...but I have a little problem with EAUT and the mapping function: http://eaut.org/example/?email=pfefferle%40notizblog.org\r\n(I run the plugin in single-user mode)",
+    "text": ""
+  },
+  "wm-id": "25472",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

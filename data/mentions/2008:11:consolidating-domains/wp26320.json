@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "CanyonR",
+    "url": "http://canyonr.com",
+    "photo": "https://www.gravatar.com/avatar/8f2e084699f11f30d7664a2d2182ab36?d=404"
+  },
+  "url": "http://canyonr.com",
+  "published": "2008-11-15T17:57:16-08:00",
+  "content": {
+    "html": "I would put everything onto willnorris.com and start rebuilding the google juice that you would loose. What are you planning on doing with the blog url? I would expect it's either blog. or /blog. Is there any evidence that google prefers one over the other?",
+    "text": ""
+  },
+  "wm-id": "26320",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/11/consolidating-domains/"
+}

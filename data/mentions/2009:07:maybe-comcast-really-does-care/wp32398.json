@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-07-07T18:17:31-07:00",
+  "content": {
+    "html": "<ul>\n<li>Doesn't look like Verizon offers service where I live.\n<li>Service outage was due to human error, so any other company could have made the same mistake</li>\n<li>I can't find anyone else that can compare with 15 Mbps down for $20 a month</li>\n</ul>\n\n<p>You Verizon fanboy! ;-P</p>\n",
+    "text": ""
+  },
+  "wm-id": "32398",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/07/maybe-comcast-really-does-care/"
+}

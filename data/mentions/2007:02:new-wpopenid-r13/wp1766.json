@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "OpenID - die ersten Schritte : agenturblog.de",
+    "url": "http://www.agenturblog.de/2007-03/openid-die-ersten-schritte/"
+  },
+  "url": "http://www.agenturblog.de/2007-03/openid-die-ersten-schritte/",
+  "published": "2007-03-27T08:59:24-07:00",
+  "content": {
+    "html": "[...] sagen - erforderlich ist es aus meiner Sicht eigentlich nicht. Eine Erweiterung dieses Plugins hat Will Norris unl&#228;ngst ver&#246;ffentlicht - diese Variante konnte ich bei mir allerdings nicht [...]",
+    "text": ""
+  },
+  "wm-id": "1766",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8: Features and tips — gunnerpress.com",
+    "url": "http://gunnerpress.com/wordpress/wordpress-2-8-features-and-tips"
+  },
+  "url": "http://gunnerpress.com/wordpress/wordpress-2-8-features-and-tips",
+  "published": "2009-06-11T16:19:49-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31882",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "will",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2006-07-07T22:01:52-07:00",
+  "content": {
+    "html": "<p>The biggest problem I see with joined openID and microID at this point is the person identifier used -- openID uses a URL while microID uses an email address.  I think the most logical thing would be to modify the microID spec to optionally accept a URL as the identity token instead of an email address.</p>\n\n<p>The whole idea of URL as an identifier seems to be unique to openID, but I think it is a very natural one.  I would love to see other things use it as well (such as gravatar.com).  This quickly becomes very cyclic -- in order to use URL as an identifier, it must be verified.  In order to verify ownership of the URL one could either fully implement openID and be done with it, or continue using email address internally and then use microID to verify ownership of the URL.</p>\n",
+    "text": ""
+  },
+  "wm-id": "498",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2006/07/wordpress-microid-plugin/"
+}

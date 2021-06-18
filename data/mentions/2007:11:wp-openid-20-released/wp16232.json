@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jose Angel F.",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/934a8b2dbb103e10e08363e598cae092?d=404"
+  },
+  "url": "",
+  "published": "2007-12-29T12:01:19-08:00",
+  "content": {
+    "html": "<p>(Third part of the test: no longer using OpenId but my name and e-mail instead)</p>\n",
+    "text": ""
+  },
+  "wm-id": "16232",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

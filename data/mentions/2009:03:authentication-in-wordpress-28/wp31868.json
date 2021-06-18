@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8 Tips and Tricks Collection | Weblog Tools Collection",
+    "url": "http://weblogtoolscollection.com/archives/2009/06/10/wordpress-28-tips-and-tricks-collection/"
+  },
+  "url": "http://weblogtoolscollection.com/archives/2009/06/10/wordpress-28-tips-and-tricks-collection/",
+  "published": "2009-06-11T03:33:09-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 – Will Norris [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31868",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

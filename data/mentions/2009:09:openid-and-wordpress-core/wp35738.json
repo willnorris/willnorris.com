@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "http://singpolyma.net/",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "http://singpolyma.net/",
+  "published": "2009-10-01T18:43:25-07:00",
+  "content": {
+    "html": "<p>Being a fan of modular software design, I believe this should <em>never</em> go into core.  The plugin might get packaged with core, but nothing more.</p>\n\n<p>I was a huge fan of the laconi.ca decision to plugin-ify most of their previously \"core\" functions because, well, it's just a good idea.</p>\n",
+    "text": ""
+  },
+  "wm-id": "35738",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/openid-and-wordpress-core/"
+}

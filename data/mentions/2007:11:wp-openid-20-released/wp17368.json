@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "smurf",
+    "url": "http://1303.at",
+    "photo": "https://www.gravatar.com/avatar/e6eab49f8353e1594eb5ce92dc58e6db?d=404"
+  },
+  "url": "http://1303.at",
+  "published": "2008-02-05T16:48:47-08:00",
+  "content": {
+    "html": "<p>The error-log (php.log) from my $Rev: 13 $ was 1,5GB!! :o</p>\n",
+    "text": ""
+  },
+  "wm-id": "17368",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

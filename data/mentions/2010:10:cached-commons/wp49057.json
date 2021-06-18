@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Lance Pollard",
+    "url": "http://viatropos.com",
+    "photo": "https://www.gravatar.com/avatar/a2beb162438985ede0a49b240aa17ca1?d=404"
+  },
+  "url": "http://viatropos.com",
+  "published": "2010-11-01T03:52:19-07:00",
+  "content": {
+    "html": "<p>Hey Will,</p>\n\n<p>Thanks for the shout out!  You bring up a lot of good points.</p>\n\n<p>The past few months I have been very busy so I haven't been fast in staying updated with the latest libraries.  The goal is to ultimately have it like rubygems.org, where people can publish straight to it and each individual who owns the library manages the versions and all that.  I will do that one of these days (unless someone else would like to fork the project and go with it!).</p>\n\n<p>Part of the reason I started doing this was because Google was/is not at all responsive to any inquiries, and they're definitely not going to be hosting that library X that just came out last week (like the <a href=\"http://github.com/zachstronaut/jquery-animate-css-rotate-scale?locale=sv\">jquery rotation animation library</a>).</p>\n\n<p>The other main reason was because, when you start getting 20+ projects you're building, and all of them use common libraries, it just made sense to start storing them in one place.  Re-downloading them and keeping all the versions in sync between 20 projects is no fun.  The CDN aspect of Github Pages was a nice side effect.</p>\n\n<p>Good point about the cookie-less domain, I'll set that up.</p>\n\n<p>About relying on cachedcommons.org.  While I will do everything I can to keep things running smoothly and stay up-to-date, definitely feel free to fork the project and setup your own domain for your projects.  You can stay in sync with the main branch, add a bunch of other libraries, and help move this thing forward all while making sure your projects only rely on a CDN you've set up.</p>\n\n<p>Cheers,\nLance</p>\n",
+    "text": ""
+  },
+  "wm-id": "49057",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/10/cached-commons/"
+}

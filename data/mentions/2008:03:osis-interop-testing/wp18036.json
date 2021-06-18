@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Pascal Van Hecke",
+    "url": "http://pascal.vanhecke.info/",
+    "photo": "https://www.gravatar.com/avatar/72488418662605a15c3bf92428317b12?d=404"
+  },
+  "url": "http://pascal.vanhecke.info/",
+  "published": "2008-03-04T14:15:34-08:00",
+  "content": {
+    "html": "<p>(testing mylid.net)</p>\n",
+    "text": ""
+  },
+  "wm-id": "18036",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

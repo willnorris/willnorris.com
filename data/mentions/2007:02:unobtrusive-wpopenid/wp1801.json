@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-03-28T15:17:18-07:00",
+  "content": {
+    "html": "[quote comment=\"1799\"]If moderation is fully enabled, will OpenID users see their comment as pending? With Alan's version you see nothing...[/quote]\r\nRight now, it still behaves the same way as Alan's version.  I wasn't aware of this \"bug\" until this last weekend when someone else mentioned it, as I don't normally moderate posts.  I'll certainly add that to the list of feature requests though.",
+    "text": ""
+  },
+  "wm-id": "1801",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/unobtrusive-wpopenid/"
+}

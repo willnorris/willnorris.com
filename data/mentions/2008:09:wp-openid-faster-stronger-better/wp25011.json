@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "http://singpolyma.net/",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "http://singpolyma.net/",
+  "published": "2008-09-17T13:14:10-07:00",
+  "content": {
+    "html": "<blockquote>Want to pull profile data from FOAF instead of sreg?</blockquote>\r\n\r\nIs this something we can hook into nicely from wp-diso-profile for importing hCards, instead of the hacky \"first log in, import URL if they have one\" method we have now?",
+    "text": ""
+  },
+  "wm-id": "25011",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wp-openid-faster-stronger-better/"
+}

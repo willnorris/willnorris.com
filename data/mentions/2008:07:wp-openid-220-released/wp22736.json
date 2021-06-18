@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "http://singpolyma.net",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "http://singpolyma.net",
+  "published": "2008-07-31T15:24:34-07:00",
+  "content": {
+    "html": "Ah, maybe your site just hates my domain... neither version of my OpenID works.  Meh",
+    "text": ""
+  },
+  "wm-id": "22736",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

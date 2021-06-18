@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-12-03T17:27:22-08:00",
+  "content": {
+    "html": "<p>@Alexandre: yes, there is an <a href=\"http://dev.wp-plugins.org/ticket/701\">open ticket</a> for adding FOAF, among other protocols.  I can't guarantee when I'll get it added, there are method stubs in the plugin where this planned to go and patches are always welcome.  I spent too much time on wp-openid to get 2.0 released, so now I'm spending a little time on other projects (and my day-job) :).</p>\n",
+    "text": ""
+  },
+  "wm-id": "15626",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

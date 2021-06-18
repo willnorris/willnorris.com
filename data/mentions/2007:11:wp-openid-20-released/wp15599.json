@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Thomas Renger",
+    "url": "http://wazong.de/id/dentaku",
+    "photo": "https://www.gravatar.com/avatar/1d6a0566df7760e7d1507810b71a363e?d=404"
+  },
+  "url": "http://wazong.de/id/dentaku",
+  "published": "2007-12-01T21:24:50-08:00",
+  "content": {
+    "html": "<p>OpenID Test</p>\n",
+    "text": ""
+  },
+  "wm-id": "15599",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

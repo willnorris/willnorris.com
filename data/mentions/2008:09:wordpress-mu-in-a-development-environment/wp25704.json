@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "GeekTieGuy &raquo; Make WordPress MU work in a development environment without a domain",
+    "url": "http://www.geektieguy.com/2008/10/15/make-wordpress-mu-work-in-a-development-environment-without-a-domain/"
+  },
+  "url": "http://www.geektieguy.com/2008/10/15/make-wordpress-mu-work-in-a-development-environment-without-a-domain/",
+  "published": "2008-10-15T15:01:15-07:00",
+  "content": {
+    "html": "[...] MU to work on a machine that isn&#8217;t on any domain, i.e. doesn&#8217;t have a dot in its name, this article by Will Norris leads you down a possible [...]",
+    "text": ""
+  },
+  "wm-id": "25704",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-03-10T01:32:32-08:00",
+  "content": {
+    "html": "[quote comment=\"1425\"]If the user regards the IDs as equivalent, then it is superfluous to ask the implementation to understand them as equivalent, too.[/quote]\r\n\r\nThe primary use case I'm thinking about is voluntary identity aggregation.  There is certainly a case for an individual desiring to have multiple IDs and keep them separate, and that is easy enough to do today.  However, what if I have multiple IDs (perhaps one for work and one for personal use) but I <i>want</i> people to know that they belong to the same person?  There's no good way to do that right now.\r\n\r\nInterestingly, Martin Atkins also <a href=\"http://apparentlymart.livejournal.com/6600.html\">wrote</a> about a similar topic today, as did <a href=\"http://www.notsorelevant.com/2007-03-04/problem-of-multiple-openid-accounts/\">Carsten PÃ¶tter</a> last week.\r\n\r\n[quote comment=\"1426\"]As for identity linking, Mark Wahl recently proposed to make the OP act as a proxy for multiple OpenID identities. Is that something you'd like your provider to do?[/quote]It sounds like Mark was talking a bit about attribute aggregation as well, unless I read it wrong.  Proxying identities I might be okay with, but when it comes to attributes I get a bit more paranoid.  I'm not sure I want my primary OP knowing what kind of attributes my bank or doctor's office might be asserting about me.",
+    "text": ""
+  },
+  "wm-id": "1427",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/03/openid-provider-wish-list/"
+}

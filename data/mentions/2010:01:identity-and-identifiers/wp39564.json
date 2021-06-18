@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Equals Drummond &raquo; Blog Archive &raquo; Will Norris on Identity and (Non-Recyclable) Identifiers",
+    "url": "http://www.equalsdrummond.name/?p=252"
+  },
+  "url": "http://www.equalsdrummond.name/?p=252",
+  "published": "2010-01-06T03:29:30-08:00",
+  "content": {
+    "html": "<p>[...] wonderful example is Will Norris&#8217; post about identity and identifiers. He speaks from long experience (and he&#8217;s worked on several identity protocols, including [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "39564",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2010/01/identity-and-identifiers/"
+}

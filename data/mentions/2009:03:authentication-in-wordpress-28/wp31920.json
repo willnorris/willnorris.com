@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "New Features of Wordpress 2.8 | pekakbongol.com",
+    "url": "http://pekakbongol.com/belajar-nge-blog/new-features-of-wordpress-28.html"
+  },
+  "url": "http://pekakbongol.com/belajar-nge-blog/new-features-of-wordpress-28.html",
+  "published": "2009-06-13T01:19:59-07:00",
+  "content": {
+    "html": "<p>[...] 2.8 Widget – WP Engineer * WordPress 2.8 and the body_class() Function – Nathan Rice * Authentication in WordPress 2.8 – Will Norris * Loading JavaScript in Footer in WordPress 2.8 – Lester [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31920",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

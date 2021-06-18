@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name",
+  "published": "2008-10-30T23:22:03-07:00",
+  "content": {
+    "html": "@Josh: Meaning integration with wp-openid?  Well, I'm hesitant to hard-code support for any OpenID Provider directly into the plugin.  Google <a href=\"http://google-code-updates.blogspot.com/2008/10/moving-another-step-closer-to-single.html\">will be adding support</a> for directed identity shortly, so that users just have to type \"gmail.com\" to login.  Microsoft's OpenID provider won't be production <a href=\"http://dev.live.com/blogs/devlive/archive/2008/10/27/421.aspx\">until 2009</a>, so I'm not too worried about it.",
+    "text": ""
+  },
+  "wm-id": "25987",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

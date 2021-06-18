@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name/",
+  "published": "2008-08-06T17:33:49-07:00",
+  "content": {
+    "html": "@Pawel, sorry about that... I did get your comment, I guess I just forgot to go in and approve it.  I did however contact the admin of openid.pl and we figured out what the problem was.  It was a minor bug in wp-openid -- it was adding a trailing slash to the trust\\_root URL, but not the return\\_to URL.  Therefore openid.pl rightfully detected that the return\\_to was not under the same path as the trust\\_root and therefore rejected it.  Strangely, it doesn't seem like any other OpenID providers are comparing to that much scrutiny (or they are ignoring the trailing slash problem).  In any event, I've update the plugin in SVN, and verified that it works... try again on this site to see it working.  The patch will be included in the next release, which I'll try to do today.",
+    "text": ""
+  },
+  "wm-id": "22957",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

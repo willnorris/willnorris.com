@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Igel",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/5425c6aab894b6c4bf7eecc4c0404e6b?d=404"
+  },
+  "url": "",
+  "published": "2009-08-28T11:20:05-07:00",
+  "content": {
+    "html": "<p>Hi Will,</p>\n\n<p>thanks for your OAuth approach in WordPress. As we can see on Twitter there is a big demand for this kind of solutions, because user/password is very 1.0. ;)</p>\n\n<p>Best Regards from <a href=\"http://www.twitter-trends.de/\">German Twitter Trends</a>.</p>\n",
+    "text": ""
+  },
+  "wm-id": "33867",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

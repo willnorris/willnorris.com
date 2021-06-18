@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Nick",
+    "url": "http://Ask.eMoneyAdvisor.com",
+    "photo": "https://www.gravatar.com/avatar/765fea8ad10e040cdb8c6235ffb3f6d6?d=404"
+  },
+  "url": "http://Ask.eMoneyAdvisor.com",
+  "published": "2011-05-25T23:33:57-07:00",
+  "content": {
+    "html": "<p>I have seen some plugins us a filter on init() to force authentication. I am trying to force users to have to had authenticate as well as the authentication coming from my app.</p>\n\n<p>Seem to be running into issues between filter on init and authenticate mostly I think because I don't understand what the functions should do wordpress wise with setting cookies for rest to work.</p>\n\n<p>Any ideas?</p>\n",
+    "text": ""
+  },
+  "wm-id": "60569",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

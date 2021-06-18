@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Scott Robinson",
+    "url": "http://quadhome.com/",
+    "photo": "https://www.gravatar.com/avatar/1945ab4cdb87eaf5a5c906fa884c29f1?d=404"
+  },
+  "url": "http://quadhome.com/",
+  "published": "2007-11-06T02:45:49-08:00",
+  "content": {
+    "html": "<p>It seems very unlikely to me that you would use the same OpenID for exposures of identity. That's a single unique identifier that the other sites (as adversaries) can correlate with.</p>\n\n<p>Once you separate have separate OpenIDs, having separate hCards is a clear jump.</p>\n\n<p>So, no, I don't think this argument works.</p>\n\n<p>However, hCards are semi-public and certain that is an issue. If the hCard concept has the consumer accessing the same URL - then there must be a way to recognize the source and return customized information.</p>\n\n<p>And I haven't heard any talk of how that is supposed to occur.</p>\n",
+    "text": ""
+  },
+  "wm-id": "14663",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/hcard-is-not-a-provisioning-engine-for-private-data/"
+}

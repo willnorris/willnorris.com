@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Building the user-centered web | Ben Werdmuller",
+    "url": "http://benwerd.com/2009/07/building-the-user-centered-web/"
+  },
+  "url": "http://benwerd.com/2009/07/building-the-user-centered-web/",
+  "published": "2009-07-01T18:04:32-07:00",
+  "content": {
+    "html": "<p>[...] The Open Stack is a set of developing technologies that address some of the issues. [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32302",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/the-open-stack-in-php/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Lukas",
+    "url": "http://blog.brodowski.net.pl",
+    "photo": "https://www.gravatar.com/avatar/72371f6d80acf5a0b490737e4d78e0c4?d=404"
+  },
+  "url": "http://blog.brodowski.net.pl",
+  "published": "2007-12-10T14:35:37-08:00",
+  "content": {
+    "html": "<p>Hi. Thanks for reply.\nYes. same situation.\nIt's not server issue because I have another wordpress on the same server and there is everything ok.</p>\n",
+    "text": ""
+  },
+  "wm-id": "15784",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wordpress-plugins-development-version/"
+}

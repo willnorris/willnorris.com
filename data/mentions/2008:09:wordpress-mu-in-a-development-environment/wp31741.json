@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "sean steezy",
+    "url": "http://www.seansteezy.com/",
+    "photo": "https://www.gravatar.com/avatar/e0c76a99cebba91f9015675715d652f9?d=404"
+  },
+  "url": "http://www.seansteezy.com/",
+  "published": "2009-06-04T17:00:25-07:00",
+  "content": {
+    "html": "Um, I may be retarded when it comes to this stuff (design mostly), but I have this same issue, but I have no idea what you're talking about. I'm running wpmu on iis 6 and got this far.\r\n\r\nI can remote in to the server, windows 2003, but I have no idea where to add the dot to the domain, or to set the cookie. \r\n\r\nwhere do i change the \"domain part of the cookie response header\"?\r\n\r\nany help is much appreciated.",
+    "text": ""
+  },
+  "wm-id": "31741",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment/"
+}

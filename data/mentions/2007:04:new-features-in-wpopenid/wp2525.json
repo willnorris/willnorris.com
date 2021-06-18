@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Sam",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/eaab6c73aeb21d98aa9a7147af06804d?d=404"
+  },
+  "url": "",
+  "published": "2007-04-16T23:45:24-07:00",
+  "content": {
+    "html": "While trying to get this to work with Peter's Anti-Spam (http://www.theblog.ca/?p=21), the security code that was entered is lost when it redirects you to GetOpenID.com. Is there a way to get it to validate the OpenID and capatcha at the same time?",
+    "text": ""
+  },
+  "wm-id": "2525",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

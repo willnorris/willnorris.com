@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Terrell",
+    "url": "http://terrellrussell.com/",
+    "photo": "https://www.gravatar.com/avatar/112fb685c2402e6fce3c1f01aa5cac5f?d=404"
+  },
+  "url": "http://terrellrussell.com/",
+  "published": "2010-01-26T19:18:51-08:00",
+  "content": {
+    "html": "<p>This is great news.  Congratulations!</p>\n",
+    "text": ""
+  },
+  "wm-id": "40517",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

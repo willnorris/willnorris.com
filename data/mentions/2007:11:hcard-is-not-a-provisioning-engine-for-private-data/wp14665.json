@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "try { reuse; } catch (Ex) { reinvent; }",
+    "url": "http://willnorris.com/2007/11/try-reuse-catch-ex-reinvent"
+  },
+  "url": "http://willnorris.com/2007/11/try-reuse-catch-ex-reinvent",
+  "published": "2007-11-06T03:49:49-08:00",
+  "content": {
+    "html": "<p>[...] willnorris.com managing identities   Skip to content AboutpgpProjectsWordPress YADIS/XRDS PluginWordPress OpenID PluginWordPress MicroID Pluginwp-xrdswpopenidArchives     &laquo; hCard is not a provisioning engine (for private data) [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "14665",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/11/hcard-is-not-a-provisioning-engine-for-private-data/"
+}

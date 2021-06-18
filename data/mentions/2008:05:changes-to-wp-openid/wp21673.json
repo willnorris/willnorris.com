@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Blaenk Denum",
+    "url": "http://blaenkdenum.com/",
+    "photo": "https://www.gravatar.com/avatar/183ede6a94a34822098fd62afd0b32a8?d=404"
+  },
+  "url": "http://blaenkdenum.com/",
+  "published": "2008-06-28T05:15:48-07:00",
+  "content": {
+    "html": "Score! :D I did the obvious thing (How could I have overlooked it earlier) and checked the date of the comment I posted saying \\'it worked\\' above and looked in the svn log for the last revision at or before that date. I\\'m at revision 228 and everything is working perfectly fine. The reason I wanted to try it was because you said you needed testers and figured I should help testing given that I develop the recaptcha plugin which was one of the ones which had problems with this plugin, and the reason this plugin needs testing is because you\\'re trying an alternative method of authentication which allows for the usage of these plugins (Like recaptcha). But hey I\\'ll back off to avoid annoying you any further and wait for the stable release.",
+    "text": ""
+  },
+  "wm-id": "21673",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Gustavo",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/1bb53796846432c7a5e004ffa2adb21d?d=404"
+  },
+  "url": "",
+  "published": "2010-09-01T23:09:43-07:00",
+  "content": {
+    "html": "<p>I would like to build a java swing application that will have a embedded web-browser, and I want to prevent the users to see the HTML content or to have direct access to my URLs.</p>\n\n<p>I was thinks to do something similar to ITunes until now (MVC framework on server side and encrypt data to send back to client side).</p>\n\n<p>Do you recommend me some other approach? There´s a secure way to do this?</p>\n\n<p>Thanks.</p>\n",
+    "text": ""
+  },
+  "wm-id": "46720",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

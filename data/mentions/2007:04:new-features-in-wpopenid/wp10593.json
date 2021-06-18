@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-07-24T21:39:58-07:00",
+  "content": {
+    "html": "[quote comment=\"10591\"]Am I missing something, or is it just an incompatibility with 2.2.1?[/quote]\r\n\r\nthere have been multiple reports of problems with 2.2.1.  In fact, <a href=\"http://michaelgracie.com/2007/07/23/the-wp-openid-upgradebug-fix-bounty/\">a bounty</a> has been offered to fix that and other issues (if I don't get to them first :) )",
+    "text": ""
+  },
+  "wm-id": "10593",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

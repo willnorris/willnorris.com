@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Alexandre Passant &raquo; Blog Archive &raquo; Retrieving FOAF profile from OpenID",
+    "url": "http://apassant.net/blog/2007/09/23/retrieving-foaf-profile-from-openid/"
+  },
+  "url": "http://apassant.net/blog/2007/09/23/retrieving-foaf-profile-from-openid/",
+  "published": "2007-09-23T12:51:02-07:00",
+  "content": {
+    "html": "[...] Dan Brickley&#8217;s experiments, I&#8217;ve just setup an OpenID plug-in for this weblog, allowing anyone to register using OpenID, since users now need to register to [...]",
+    "text": ""
+  },
+  "wm-id": "12960",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/09/wordpress-openid-20-coming-soon/"
+}

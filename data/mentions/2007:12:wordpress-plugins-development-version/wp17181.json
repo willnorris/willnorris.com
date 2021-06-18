@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "James Asher",
+    "url": "http://mrasher.com/",
+    "photo": "https://www.gravatar.com/avatar/f0546923932f1d5b757e6d69dcf9c6ed?d=404"
+  },
+  "url": "http://mrasher.com/",
+  "published": "2008-01-28T04:59:05-08:00",
+  "content": {
+    "html": "<p>Just wanted to say that I like the plugin and I installed in on two sites today.</p>\n",
+    "text": ""
+  },
+  "wm-id": "17181",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wordpress-plugins-development-version/"
+}

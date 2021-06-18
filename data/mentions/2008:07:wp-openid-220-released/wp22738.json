@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name/",
+  "published": "2008-07-31T16:23:33-07:00",
+  "content": {
+    "html": "Stephen, you seem to be running into the same problem as DocWhat above... Bad Behavior is causing a HTTP 400 when php-openid requests your XRDS document.",
+    "text": ""
+  },
+  "wm-id": "22738",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

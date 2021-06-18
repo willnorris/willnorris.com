@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Matthias",
+    "url": "http://netsensei.nl",
+    "photo": "https://www.gravatar.com/avatar/f44f88457bd3560c47b3e4b4a607bc72?d=404"
+  },
+  "url": "http://netsensei.nl",
+  "published": "2008-07-20T18:44:30-07:00",
+  "content": {
+    "html": "Hi!\r\n\r\nThx for fixing the $_POST issue :) I developed Simple OpenID last year and also did the replay dance with code found in wp-comments-post.php :p It's great to see you found a workaround for the $_GET block. \r\n\r\nI tested revision 338 against the anti spam plugin WP Mollom. I did have issues with $_POST with version 2.1.9 of WP OpenID but the development version works like a charm. \r\n\r\nThanks for fixing this :)\r\n\r\nWith regards.",
+    "text": ""
+  },
+  "wm-id": "22410",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Aswath Rao",
+    "url": "http://www.mocaedu.com/mt",
+    "photo": "https://www.gravatar.com/avatar/759bdb754714c6e0d336e0625f56c2dd?d=404"
+  },
+  "url": "http://www.mocaedu.com/mt",
+  "published": "2009-08-02T01:41:17-07:00",
+  "content": {
+    "html": "<p>@Will, yes it would be ironic if I had meant :identifier select\", but stated \"directed identity. But I did not as the followup comment by @John suggests. You should give more credit to yourself that your lengthy explanation will make its point.</p>\n\n<p>@John, I am afraid that you are right in your prediction regarding large OPs. Well meaning efforts to improve UX with \"NASCAR style buttons\" favoring large OPs stacks the deck against some of the fundamental aspects of OpenID that attracted me in the first place.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32809",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/07/openid-directed-identity-identifier-select/"
+}

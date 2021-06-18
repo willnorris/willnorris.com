@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Dmitry Shechtman",
+    "url": "http://xri.net/=damnian",
+    "photo": "https://www.gravatar.com/avatar/bea4cb4a69d7a5b44501928136359032?d=404"
+  },
+  "url": "http://xri.net/=damnian",
+  "published": "2007-02-15T18:36:50-08:00",
+  "content": {
+    "html": "<p>I tried installing the patched version yesterday, but it failed (just like the unpatched one did earlier). Is it 2.0.x compatible?</p>\n",
+    "text": ""
+  },
+  "wm-id": "1273",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/unobtrusive-wpopenid/"
+}

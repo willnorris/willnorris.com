@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Alan J Castonguay",
+    "url": "http://verselogic.net/",
+    "photo": "https://www.gravatar.com/avatar/0a194990dffc2111b2943b5aea750ed1?d=404"
+  },
+  "url": "http://verselogic.net/",
+  "published": "2007-10-26T01:58:14-07:00",
+  "content": {
+    "html": "<p>Initially, Will, I thought you were crazy for splitting the comment loop from auto-registration. When I stopped to think about the process a little more, I realized that only Livejournal does it like that. It's completely contrary to the Wordpress comment paradigm. Thank you for fixing my mistakes. :)</p>\n",
+    "text": ""
+  },
+  "wm-id": "14164",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/wp-openid-intelligent-defaults/"
+}

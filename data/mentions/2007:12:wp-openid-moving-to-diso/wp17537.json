@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Alan J Castonguay",
+    "url": "http://verselogic.net/",
+    "photo": "https://www.gravatar.com/avatar/0a194990dffc2111b2943b5aea750ed1?d=404"
+  },
+  "url": "http://verselogic.net/",
+  "published": "2008-02-12T18:00:46-08:00",
+  "content": {
+    "html": "<p>How very interesting.. I look forward to seeing what develops.</p>\n",
+    "text": ""
+  },
+  "wm-id": "17537",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wp-openid-moving-to-diso/"
+}

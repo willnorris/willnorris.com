@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-02-15T19:15:26-08:00",
+  "content": {
+    "html": "<p>Hmm, I'm honestly not sure.  I'm running 2.1, and I haven't tested it on anything else.  In trying to address the name/email issue I mentioned in my last comment, I found a larger problem with the way wpopenid interacts with other plugins that filter comments.  I'm going to be working on that, and I'll look at version compatibility as well.</p>\n\n<p>I did manage to email Alan (I was using .com instead of .net, doh!), but I haven't heard back from him yet.  This is turning out to be some pretty major changes, so I'd like to see them committed upstream, if possible.  Otherwise, I might have to make this an unofficial fork.</p>\n",
+    "text": ""
+  },
+  "wm-id": "1274",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/unobtrusive-wpopenid/"
+}

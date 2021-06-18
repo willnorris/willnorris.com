@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jason Kuhn",
+    "url": "http://spaceyraygun.net/",
+    "photo": "https://www.gravatar.com/avatar/06661fd4a8619892aa8021ee57d9a597?d=404"
+  },
+  "url": "http://spaceyraygun.net/",
+  "published": "2008-11-20T22:13:39-08:00",
+  "content": {
+    "html": "This is a great plugin! Thank you very much for your hard work!\r\n\r\nI do have a question though... in the user's profile editor there is a field called \"OpenID Delegation\". \r\n\r\nI try to put in a 3rd party OpenID and save my settings, logout and back in. Instead of logging in using that OpenID I specified, it creates an entirely new account!\r\n\r\nWhen I put in my OpenID in the \"Your OpenIDs\" section, it works just fine.\r\n\r\nWhat is that \"OpenID Delegation\" field for? I'm afraid my users won't know what to do with it!\r\n\r\nThanks again!\r\nJason",
+    "text": ""
+  },
+  "wm-id": "26481",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/providing-and-delegating-openids/"
+}

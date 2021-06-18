@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Louis",
+    "url": "http://lostinyork.blogspot.com",
+    "photo": "https://www.gravatar.com/avatar/a3b1d2b31d6436cc04693ba4da2943b6?d=404"
+  },
+  "url": "http://lostinyork.blogspot.com",
+  "published": "2008-01-24T11:07:51-08:00",
+  "content": {
+    "html": "<p>I'd like to use the plug-in, but I keep getting \"fatal error\" when trying to activate it... I'm guessing it's because php5 is required? I suppose I can only wait for my webhost to upgrade it, then... (still on php4)</p>\n",
+    "text": ""
+  },
+  "wm-id": "17132",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wordpress-plugins-development-version/"
+}

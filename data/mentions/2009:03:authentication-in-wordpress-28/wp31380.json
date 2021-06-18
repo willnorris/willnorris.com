@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8: What’s new - op111.net",
+    "url": "http://op111.net/71"
+  },
+  "url": "http://op111.net/71",
+  "published": "2009-05-23T14:01:12-07:00",
+  "content": {
+    "html": "[...] Authentication in WordPress 2.8 — Will Norris [...]",
+    "text": ""
+  },
+  "wm-id": "31380",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

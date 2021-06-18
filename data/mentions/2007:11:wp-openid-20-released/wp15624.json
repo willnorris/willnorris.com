@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Alexandre Passant",
+    "url": "http://apassant.net/",
+    "photo": "https://www.gravatar.com/avatar/fc2e6ca03e3de80932fc06a983a6996d?d=404"
+  },
+  "url": "http://apassant.net/",
+  "published": "2007-12-03T15:48:00-08:00",
+  "content": {
+    "html": "<p>Well, de-activating, re-activating (2 times) the plug-in on my website made it work finally. Certainly related to what Thomas mentions.</p>\n\n<p>Do you plan to re-add the FOAF/SIOC features in the future ? I'll post a simmple hack for this on my blog for this release soon.</p>\n",
+    "text": ""
+  },
+  "wm-id": "15624",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

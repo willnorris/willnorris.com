@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mike Jones",
+    "url": "http://mbj.myvidoop.com",
+    "photo": "https://www.gravatar.com/avatar/eb7202501bfd4d12afc872dc02b4e4e6?d=404"
+  },
+  "url": "http://mbj.myvidoop.com",
+  "published": "2008-03-06T21:22:22-08:00",
+  "content": {
+    "html": "<p>Comment made with myvidoop OpenID</p>\n",
+    "text": ""
+  },
+  "wm-id": "18136",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8 is uit (+Resources) : WordPress Dimensie",
+    "url": "http://wpdimensie.nl/wordpress/wordpress-2-8-is-uit-resources.htm"
+  },
+  "url": "http://wpdimensie.nl/wordpress/wordpress-2-8-is-uit-resources.htm",
+  "published": "2009-06-15T08:44:28-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31980",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Frederick J. Ding",
+    "url": "http://www.geekie.org/",
+    "photo": "https://www.gravatar.com/avatar/7682dc03445122083b795d4c937e0226?d=404"
+  },
+  "url": "http://www.geekie.org/",
+  "published": "2007-11-11T16:16:38-08:00",
+  "content": {
+    "html": "<p>Hi, I've successfully implemented your plugin on my blog, www.geekie.org , but I've found that it's not possible for an administrator to edit a user's identity URL's. Perhaps this would make for a useful feature?</p>\n\n<p>Fortunately, the OpenID login and profile implementations work great! No bugs, as far as I can tell. Of course, I've made some changes to the source code in order to integrate it with my blog's design.</p>\n\n<p>Thanks for the great work.</p>\n",
+    "text": ""
+  },
+  "wm-id": "14844",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

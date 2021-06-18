@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-10-02T15:01:03-07:00",
+  "content": {
+    "html": "[quote comment=\"13298\"]<b>WOOT!</b> Revision 20707 seems to have fixed my database table problems!  I'll let you know how it goes!  Thanks![/quote]\r\ngood, good.  I did a lot of testing yesterday using WP 2.2 and 2.3, PHP4 and PHP5, TextDrive and DreamHost hosting environments.  When all was said and done, it worked beautifully in all of them.  I think we're very close now.",
+    "text": ""
+  },
+  "wm-id": "13299",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Engine &raquo; Blog Archive &raquo; Multiblog single login in WP 2.6",
+    "url": "http://engine.taffel.se/2008/11/18/multiblog-single-login-in-wp-26/"
+  },
+  "url": "http://engine.taffel.se/2008/11/18/multiblog-single-login-in-wp-26/",
+  "published": "2008-11-18T19:56:37-08:00",
+  "content": {
+    "html": "[...] couldn&#8217;t for the life of me get this to work in my test environment until I read this post and learned that the cookie domain has to have an internal dot (.) in it to be accepted by the [...]",
+    "text": ""
+  },
+  "wm-id": "26421",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment/"
+}

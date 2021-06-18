@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Shack Dougall",
+    "url": "http://liferain.com/id/ShackDougall/",
+    "photo": "https://www.gravatar.com/avatar/86ae08848cd3917e67c360e0521d7b24?d=404"
+  },
+  "url": "http://liferain.com/id/ShackDougall/",
+  "published": "2007-10-01T16:53:09-07:00",
+  "content": {
+    "html": "I'm using Wordpress 2.3, PHP 5.1.6, and the latest from wp-openid trunk (revision 20593).  I'm getting a fatal error when trying to activate the plugin. <code>Fatal error: Call to undefined method Log_error_log::error() in /var/www/vhosts/liferain.com/httpdocs/id/ShackDougall/wp-content/plugins/openid/interface.php on line 36</code>  In case it's helpful, here's a link to my server's <a href=\"http://liferain.com/id/ShackDougall/php-info/\">phpinfo</a>.  The fatal error is some kind of misconfiguration in logging, I guess, but if you look at line 36, it looks like the line that's failing is <code>if( !$this-&gt;logic-&gt;enabled ) { // Something broke, can't start UI</code>.  I'm not sure how to proceed.  Any thoughts?",
+    "text": ""
+  },
+  "wm-id": "13258",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

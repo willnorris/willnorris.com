@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jeremy",
+    "url": "http://jeremy.sunriseroad.net/",
+    "photo": "https://www.gravatar.com/avatar/52d83bb8f0321b186ab83bc0945d87ec?d=404"
+  },
+  "url": "http://jeremy.sunriseroad.net/",
+  "published": "2007-10-02T23:11:06-07:00",
+  "content": {
+    "html": "<p>Testing with my <a href=\"http://wordpress.org/extend/plugins/mu-open-id/\">MU OpenID</a>.</p>\n",
+    "text": ""
+  },
+  "wm-id": "13313",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/09/wordpress-openid-20-coming-soon/"
+}

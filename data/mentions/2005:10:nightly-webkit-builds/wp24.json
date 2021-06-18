@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2005-10-19T15:31:15-07:00",
+  "content": {
+    "html": "<blockquote>This script is insecure because it not only runs with root privileges</blockquote>\r\nWell, the script itself can be run as any user.  It would only run as root if you use /etc/daily to have it run automtically (which I suggested only because it's the easiest).  There are of course numerous other ways you could run the script as a non root user, such as from a user's cron job or a launchd script (which would probably be the best way really).\r\n\r\n<blockquote>Someone could put a nasty link at â€œ/tmp/webkit.dmgâ€? which could result in you unwittingly overwriting or modifying an important file elsewhere on the filesystem.</blockquote>\r\nActually, it would only replace the link itself.  I just experimented with both a soft link and hard link, and in both cases the link was replaced while the original file elsewhere on the file system was untouched.  I'd be interested in hearing instructions for replicating the kind of behavior you described (though I'm pretty sure it's not possible).\r\n\r\nIs it insecure?  arguably, but I don't think so.  Is it the best way to go about it?  Perhaps not.  There's <a href=\"http://webkit.opendarwin.org/blog/?p=29#comment-230\" rel=\"nofollow\">a comment</a> on the original article about a product called NightShift that seems to do basically the same thing (though I've not looked at it, and can't really speak as to how good it is).",
+    "text": ""
+  },
+  "wm-id": "24",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/10/nightly-webkit-builds/"
+}

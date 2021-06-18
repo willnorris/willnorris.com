@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Dmitry Shechtman",
+    "url": "http://shecht.wordpress.com/",
+    "photo": "https://www.gravatar.com/avatar/65b02c72404b4e3bad4a026e275f089e?d=404"
+  },
+  "url": "http://shecht.wordpress.com/",
+  "published": "2010-01-02T21:10:23-08:00",
+  "content": {
+    "html": "<p>Wow, that was fast! :)</p>\n\n<p>I wasn't the only one, so I hardly deserve the credit. Too bad Krishnan's blog is dead.</p>\n\n<p>P.S. I love the current OpenID plugin UI!</p>\n",
+    "text": ""
+  },
+  "wm-id": "39455",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/identity-and-identifiers/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Alexandre Dumont",
+    "url": "http://adumont.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/7fb3117beb2fc470a245919f0cd0a864?d=404"
+  },
+  "url": "http://adumont.myopenid.com/",
+  "published": "2007-07-28T15:21:19-07:00",
+  "content": {
+    "html": "Just trying the plugin from your own site :-)",
+    "text": ""
+  },
+  "wm-id": "10702",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

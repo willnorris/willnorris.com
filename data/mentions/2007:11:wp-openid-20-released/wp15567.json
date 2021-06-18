@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mr. Gunn",
+    "url": "http://synthesis.williamgunn.org",
+    "photo": "https://www.gravatar.com/avatar/dd180bbb9fdc0c5692f2428e3a9ad008?d=404"
+  },
+  "url": "http://synthesis.williamgunn.org",
+  "published": "2007-11-30T16:54:20-08:00",
+  "content": {
+    "html": "<p>I'm having an issue that I didn't have before.</p>\n\n<p>I'm running my own OpenID server, using Siege's phpMyID, and I can log in using http://williamgunn.org/me/OpenID.config.php?openid.mode=login, (delegated as http://williamgunn.org), but if I use that as anywhere(own my site, or here, or a couple other sites I tried, I get \"We were unable to authenticate your OpenID.\"</p>\n\n<p>It used to work, and now without changing any of the phpMyID code, it's not working anymore, anywhere.</p>\n\n<p>Any insight?</p>\n",
+    "text": ""
+  },
+  "wm-id": "15567",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

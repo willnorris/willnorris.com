@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Cryptosmith &raquo; Open ID still struggling on WordPress",
+    "url": "http://www.cryptosmith.com/archives/220"
+  },
+  "url": "http://www.cryptosmith.com/archives/220",
+  "published": "2008-08-12T16:00:23-07:00",
+  "content": {
+    "html": "[...] Another post suggests that that&#8217;s the problem: Open ID fails due to unexpected settings on the client blog and the identity server. [...]",
+    "text": ""
+  },
+  "wm-id": "23101",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/08/openid-help-at-wordcamp-sf/"
+}

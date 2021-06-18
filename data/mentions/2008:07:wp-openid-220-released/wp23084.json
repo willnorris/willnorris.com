@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "brainsolid",
+    "url": "http://binaries.ru/",
+    "photo": "https://www.gravatar.com/avatar/0c38b13a1079cb0e672503bd84e9fbba?d=404"
+  },
+  "url": "http://binaries.ru/",
+  "published": "2008-08-12T08:51:53-07:00",
+  "content": {
+    "html": "And what about <a href=\"http://wordpress.org/support/topic/195727?replies=1#post-825853\">my wuestion</a>?",
+    "text": ""
+  },
+  "wm-id": "23084",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

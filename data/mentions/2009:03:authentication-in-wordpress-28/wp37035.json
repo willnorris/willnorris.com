@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jerod Santo",
+    "url": "http://blog.jerodsanto.net",
+    "photo": "https://www.gravatar.com/avatar/37f5b02845d2bfa71641ec9736d58061?d=404"
+  },
+  "url": "http://blog.jerodsanto.net",
+  "published": "2009-10-27T19:49:36-07:00",
+  "content": {
+    "html": "<p>I have to agree with Clifton and say that I'm confused about this filter chain and think it could have security concerns. Will, could you please address this issue?</p>\n",
+    "text": ""
+  },
+  "wm-id": "37035",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

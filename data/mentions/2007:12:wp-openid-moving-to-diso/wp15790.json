@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chris Messina",
+    "url": "http://factoryjoe.com/",
+    "photo": "https://www.gravatar.com/avatar/8403e20f058363f718144dd51faa65a7?d=404"
+  },
+  "url": "http://factoryjoe.com/",
+  "published": "2007-12-10T20:28:21-08:00",
+  "content": {
+    "html": "<p>Yay! Totally excited about what comes next!</p>\n",
+    "text": ""
+  },
+  "wm-id": "15790",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wp-openid-moving-to-diso/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "myID",
+    "url": "http://www.myid.net/help/tips",
+    "photo": "https://www.gravatar.com/avatar/3af3782e0e188b40d7de933932d0cea9?d=404"
+  },
+  "url": "http://www.myid.net/help/tips",
+  "published": "2007-10-14T15:12:15-07:00",
+  "content": {
+    "html": "<p>In the case of myID, we do not yet use rel=\"me\" as shown above. However our company will definitely consider your suggestion. Please, visit our blog to read more information. http://blog.openmaru.com/en</p>\n\n<p>\n</p>\n",
+    "text": ""
+  },
+  "wm-id": "13764",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/openid-delegation-and-xfn/"
+}

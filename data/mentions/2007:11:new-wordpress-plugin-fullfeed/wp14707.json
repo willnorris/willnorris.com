@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Carsten Pötter",
+    "url": "http://notsorelevant.com/",
+    "photo": "https://www.gravatar.com/avatar/96cbbd21f8d60106ac4ab1f93d7aa7a8?d=404"
+  },
+  "url": "http://notsorelevant.com/",
+  "published": "2007-11-07T23:18:03-08:00",
+  "content": {
+    "html": "<p>Ah, good to know. I thought you had switched to summary feeds.</p>\n\n<p>BTW, there is at least another WordPress plugin which proves full text feeds: http://cavemonkey50.com/code/full-feed/</p>\n",
+    "text": ""
+  },
+  "wm-id": "14707",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/new-wordpress-plugin-fullfeed/"
+}

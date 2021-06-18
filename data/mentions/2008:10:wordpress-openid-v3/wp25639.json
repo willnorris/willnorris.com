@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jeff Clark",
+    "url": "http://cowgod.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/b64f6d5b6e0dc9880c030ab90c0fde85?d=404"
+  },
+  "url": "http://cowgod.myopenid.com/",
+  "published": "2008-10-11T22:20:15-07:00",
+  "content": {
+    "html": "it's nice to see you are still working hard on this plugin.  thanks.\r\n\r\ni'm having one problem...  i swear there used to be an option in version 2 that allowed you to require either name and email or an openid, but not all three for comments.  without changing any of my other settings, i tried to add a comment with an openid url and got the error that name and email are required.\r\n\r\nany way to do this?",
+    "text": ""
+  },
+  "wm-id": "25639",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

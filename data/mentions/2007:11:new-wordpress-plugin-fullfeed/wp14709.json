@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Ronald Heft",
+    "url": "http://cavemonkey50.com/",
+    "photo": "https://www.gravatar.com/avatar/45d6e861e9c2610872157388e98669ba?d=404"
+  },
+  "url": "http://cavemonkey50.com/",
+  "published": "2007-11-08T00:03:26-08:00",
+  "content": {
+    "html": "<p>Thanks for giving a shout out to my plugin Will.</p>\n\n<p>By the way, I am still looking to implement your OpenID plugin on my site, just haven't found the time yet.</p>\n",
+    "text": ""
+  },
+  "wm-id": "14709",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/new-wordpress-plugin-fullfeed/"
+}

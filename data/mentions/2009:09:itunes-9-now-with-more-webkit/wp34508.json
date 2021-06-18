@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "iTunes 9 usa WebKit para a navegação da nova iTunes Store | MacMagazine",
+    "url": "http://macmagazine.uol.com.br/2009/09/09/itunes-9-usa-webkit-para-a-navegacao-da-nova-itunes-store/"
+  },
+  "url": "http://macmagazine.uol.com.br/2009/09/09/itunes-9-usa-webkit-para-a-navegacao-da-nova-itunes-store/",
+  "published": "2009-09-09T22:41:19-07:00",
+  "content": {
+    "html": "<p>[...] Store, que pode ser manipulada via HTML se você for um webmaster profissional, conforme mostra um teste feito pelo programador Will [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "34508",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

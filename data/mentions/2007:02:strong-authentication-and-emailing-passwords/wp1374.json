@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-03-01T20:40:30-08:00",
+  "content": {
+    "html": "[quote comment=\"1373\"]The issue here is that they actually know what your password is, meaning it is stored somewhere on their end in plain-text.[/quote]\r\nOh I certainly agree in principal... password should be thrown into something like Kerberos which is actually designed for this, and then point of all applications at that.  That's the way everything works at my employer, with the addition of an LDAP directory which applications can use to authenticate users, although the directory in turns goes to Kerberos.\r\n\r\nHowever, given the type of setup a company like TxD must have, I can somewhat understand the need for not doing this, especially since that password is shared among so many systems (not that I necessarily agree with that either).",
+    "text": ""
+  },
+  "wm-id": "1374",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/strong-authentication-and-emailing-passwords/"
+}

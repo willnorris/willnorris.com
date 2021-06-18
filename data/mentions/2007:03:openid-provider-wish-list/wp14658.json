@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "hCard is not a provisioning engine (for private data)",
+    "url": "http://willnorris.com/2007/11/hcard-is-not-a-provisioning-engine-for-private-data"
+  },
+  "url": "http://willnorris.com/2007/11/hcard-is-not-a-provisioning-engine-for-private-data",
+  "published": "2007-11-05T23:30:17-08:00",
+  "content": {
+    "html": "<p>[...] to provide to a relying party, but do not want to publish in my public hCard. As I included in my OpenID provider wish-list, OpenID providers will need to provide the tools to manage the policies controlling this release of [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "14658",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/03/openid-provider-wish-list/"
+}

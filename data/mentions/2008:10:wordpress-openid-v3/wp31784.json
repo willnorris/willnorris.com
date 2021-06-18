@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Tom Nielsen",
+    "url": "http://olliatauburn.org/blogs",
+    "photo": "https://www.gravatar.com/avatar/7cf3f3afdc95830c639e6db85b666daa?d=404"
+  },
+  "url": "http://olliatauburn.org/blogs",
+  "published": "2009-06-06T17:33:34-07:00",
+  "content": {
+    "html": "Whoa! I just checked back and noticed that the code for email mapping in admin-panels.php was commented out! When I uncommented it the plugin would no longer work.\r\n\r\nSo how is it possible for this plugin to handle OpenIDs other than by email mapping via emailtoid.net?",
+    "text": ""
+  },
+  "wm-id": "31784",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

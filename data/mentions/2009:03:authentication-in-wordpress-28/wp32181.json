@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8 Beta RC1 | Fresh News - Blog Design, Wordpress, Blogger, and Web Development",
+    "url": "http://www.news.magznetwork.com/wordpress-28-beta-rc1.html"
+  },
+  "url": "http://www.news.magznetwork.com/wordpress-28-beta-rc1.html",
+  "published": "2009-06-25T14:09:20-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32181",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

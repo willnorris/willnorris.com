@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "SwfObj Updates for WP 2.8 &raquo; orangeSplotch.com",
+    "url": "http://orangesplotch.com/blog/swfobj-updates-for-wp-2-8/"
+  },
+  "url": "http://orangesplotch.com/blog/swfobj-updates-for-wp-2-8/",
+  "published": "2009-06-17T02:56:19-07:00",
+  "content": {
+    "html": "<p>[...] it would get errors when they tried to use the SwfObj plugin. There&#8217;s a good post on how to correct the wp-content hardcoding problem if you are guilty of it [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32034",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/05/wordpress-plugin-pet-peeve-hardcoding-wp-content/"
+}

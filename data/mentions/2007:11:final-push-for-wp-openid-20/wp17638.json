@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Tim McCormack",
+    "url": "http://www.brainonfire.net/",
+    "photo": "https://www.gravatar.com/avatar/5d532e51427ef2f4ded31aaca16c8baf?d=404"
+  },
+  "url": "http://www.brainonfire.net/",
+  "published": "2008-02-18T01:01:08-08:00",
+  "content": {
+    "html": "<p>Oh, I'm glad to see this. I've been fighting with the original wpopenid from VerseLogic, despairing at the out-of-date plugin page and unmaintained bug list.</p>\n\n<p>Hopefully, I'll have better luck with a, y'know, <em>actually up-to-date</em> version of the thing. :-)</p>\n",
+    "text": ""
+  },
+  "wm-id": "17638",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/final-push-for-wp-openid-20/"
+}

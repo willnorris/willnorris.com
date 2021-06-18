@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Silicon Florist&#8217;s links arrangement for July 23 &raquo; Silicon Florist",
+    "url": "http://siliconflorist.com/2008/07/23/silicon-florists-links-arrangement-for-july-23/"
+  },
+  "url": "http://siliconflorist.com/2008/07/23/silicon-florists-links-arrangement-for-july-23/",
+  "published": "2008-07-24T06:59:00-07:00",
+  "content": {
+    "html": "[...] wp-openid 2.2.0 released Will Norris of Vidoop has released version 2.2.0 of the OpenID plugin for WordPress. This version includes &#8220;support for Email Address to URL Transformation - now you can use an email address anywhere you normally use an OpenID.&#8221; EAUT! [...]",
+    "text": ""
+  },
+  "wm-id": "22504",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

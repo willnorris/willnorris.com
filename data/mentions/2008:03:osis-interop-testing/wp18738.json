@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://openid.aol.com/wjn730",
+    "url": "http://openid.aol.com/wjn730"
+  },
+  "url": "http://openid.aol.com/wjn730",
+  "published": "2008-03-20T22:20:21-07:00",
+  "content": {
+    "html": "<p>one more test.</p>\n",
+    "text": ""
+  },
+  "wm-id": "18738",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

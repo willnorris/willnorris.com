@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "OpenID and WordPress Core &#8212; Will Norris",
+    "url": "http://willnorris.com/2009/09/openid-and-wordpress-core"
+  },
+  "url": "http://willnorris.com/2009/09/openid-and-wordpress-core",
+  "published": "2009-09-29T20:17:26-07:00",
+  "content": {
+    "html": "<p>[...] was actually a comment I left on my last post about the v3.3 release of the OpenID plugin. It is a topic that comes up [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "35642",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/09/wordpress-openid-v3-3/"
+}

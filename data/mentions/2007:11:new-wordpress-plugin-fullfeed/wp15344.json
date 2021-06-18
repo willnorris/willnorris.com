@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress Plug-ins I Use And Why | Thom Allen Weblog",
+    "url": "http://www.digitalthom.com/2007/11/23/wordpress-plug-ins-i-use-and-why/"
+  },
+  "url": "http://www.digitalthom.com/2007/11/23/wordpress-plug-ins-i-use-and-why/",
+  "published": "2007-11-24T03:22:17-08:00",
+  "content": {
+    "html": "<p>[...] Full Feed: This plug-in creates full posts in my RSS feed. [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "15344",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/11/new-wordpress-plugin-fullfeed/"
+}

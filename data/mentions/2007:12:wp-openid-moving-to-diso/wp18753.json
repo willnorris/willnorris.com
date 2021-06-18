@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Arkix",
+    "url": "http://agrandesrasgos.com/"
+  },
+  "url": "http://agrandesrasgos.com/",
+  "published": "2008-03-21T19:01:31-07:00",
+  "content": {
+    "html": "<p>It seems don't work very well. error to send comments.</p>\n",
+    "text": ""
+  },
+  "wm-id": "18753",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wp-openid-moving-to-diso/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-02-22T17:08:51-08:00",
+  "content": {
+    "html": "<p>Ahh, I get what you're saying... that does make sense.  I wonder if perhaps the best way to address this issue is to recommend OpenID delegation?</p>\n\n<p>[But aside from delegation...] so, this definitely wouldn't work if you are using unobtrusive mode, since there is only a single input field for website, and that has to be the OpenID.  If you're using 'classic' mode, then you've got a separate input field for website... all you'd need then is an additional checkbox with some text somewhere along the lines of \"Use this information for creating my profile.\"  What if the account already exists?  Do you overwrite the profile data using what they filled in, sort of providing an alternative for updating your profile if you don't have access to wp-admin?</p>\n",
+    "text": ""
+  },
+  "wm-id": "1312",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

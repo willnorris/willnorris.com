@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Joseph Scott",
+    "url": "http://josephscott.org/",
+    "photo": "https://www.gravatar.com/avatar/582b66ad5ae1b69c7601a990cb9a661a?d=404"
+  },
+  "url": "http://josephscott.org/",
+  "published": "2009-03-11T17:16:27-07:00",
+  "content": {
+    "html": "Will's been doing great work here.\r\n\r\nI'm excited at the prospect of having OAuth support in core WordPress.  I see this as an important foundation piece that will allow WordPress to expand it's abilities as an application platform.",
+    "text": ""
+  },
+  "wm-id": "29642",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

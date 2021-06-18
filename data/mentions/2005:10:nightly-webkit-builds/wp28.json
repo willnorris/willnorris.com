@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2005-11-13T22:40:46-08:00",
+  "content": {
+    "html": "@AlthA: Perhaps you missed the last paragraph of my last comment where I mentioned NightShift.  After downloading it and looking at it, the main additional thing it seems to support is backing up the last copy of WebKit.  That could be added to this script with one additional line, but I didn't see it as a huge thing.  I find it a little silly when people write full Cocoa apps to do something that can just as easily be done with a 7 line bash script.  I guess I'm just more comfortable at a command line -- to each their own.",
+    "text": ""
+  },
+  "wm-id": "28",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/10/nightly-webkit-builds/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "JanRain helps the other side of the OpenID (and OAuth) equation &raquo; Silicon Florist",
+    "url": "http://siliconflorist.com/2008/10/09/janrain-helps-the-other-side-of-the-openid-and-oauth-equation/"
+  },
+  "url": "http://siliconflorist.com/2008/10/09/janrain-helps-the-other-side-of-the-openid-and-oauth-equation/",
+  "published": "2008-10-10T06:35:21-07:00",
+  "content": {
+    "html": "[...] my mind, JanRain&#8217;s solution has a great deal in common with Will Norris&#8217; brilliant OpenID plugin for WordPress, wp-openid. But for a much larger [...]",
+    "text": ""
+  },
+  "wm-id": "25611",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/09/wp-openid-faster-stronger-better/"
+}

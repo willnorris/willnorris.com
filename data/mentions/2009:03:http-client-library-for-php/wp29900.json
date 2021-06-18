@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-03-19T23:55:55-07:00",
+  "content": {
+    "html": "yeah, I really like the idea of using WP_Http because I do know it will be maintained and I really like the interface... very clean and simple.  I don't want to stub out the WP functions, given that this is going to be a core part of the Open Stack PHP libraries.  If anything, I'd maintain a simplified version of it... don't really need cookie support or more than two or so of the available HTTP methods (curl and sockets, probably).  It means I'd have to stay on top of changes, but I'm generally okay with that, especially given that they should only be bug fixes... HTTP isn't changing any time soon.",
+    "text": ""
+  },
+  "wm-id": "29900",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/http-client-library-for-php/"
+}

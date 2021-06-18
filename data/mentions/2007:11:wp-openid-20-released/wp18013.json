@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Tobias Wolter",
+    "url": "http://ydal.de/",
+    "photo": "https://www.gravatar.com/avatar/27f366ff7bd2f4cc31d9ec09016c067a?d=404"
+  },
+  "url": "http://ydal.de/",
+  "published": "2008-03-03T16:09:53-08:00",
+  "content": {
+    "html": "<p>Hey there, I'm using a version of Wordpress running on localization and the most recent Wordpress, and I'm having trouble adding an OpenID to my account. Creating an account with an OpenID is no problem, but retroactively adding an OpenID does not work; after requesting the authorization from the server, and getting redirected back, I end up on the users admin page with the ID not being added to the account. Is there a common reason for this, or do I need to pester admins for logfiles?</p>\n",
+    "text": ""
+  },
+  "wm-id": "18013",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Rob",
+    "url": "http://isthisreallynecessary.com",
+    "photo": "https://www.gravatar.com/avatar/2c8224e1a13dfa9818eea57740b466ca?d=404"
+  },
+  "url": "http://isthisreallynecessary.com",
+  "published": "2009-09-09T22:36:37-07:00",
+  "content": {
+    "html": "<p>Adding &lt;base href=\"http://ax.itunes.apple.com\"&gt; inside &lt;head&gt; is a quick one-shot way to deal with relative URLs while working with a local copy of the file.</p>\n",
+    "text": ""
+  },
+  "wm-id": "34506",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

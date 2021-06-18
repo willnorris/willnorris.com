@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Bram Pitoyo",
+    "url": "http://brampitoyo.com/",
+    "photo": "https://www.gravatar.com/avatar/a8efc289fbc1888e23178d442b6be7ef?d=404"
+  },
+  "url": "http://brampitoyo.com/",
+  "published": "2009-05-13T08:55:36-07:00",
+  "content": {
+    "html": "I echo what Chris wrote: the draw of Portland is only getting stronger. We’ll see you up here!",
+    "text": ""
+  },
+  "wm-id": "31186",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/05/bigger-and-better-things/"
+}

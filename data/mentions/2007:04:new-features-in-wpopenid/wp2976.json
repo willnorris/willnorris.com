@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Emma",
+    "url": "http://www.tech.port.ac.uk/staffweb/duke-wie/blog",
+    "photo": "https://www.gravatar.com/avatar/2f4a18c1598269b6107432ffe35ebeae?d=404"
+  },
+  "url": "http://www.tech.port.ac.uk/staffweb/duke-wie/blog",
+  "published": "2007-04-26T11:38:49-07:00",
+  "content": {
+    "html": "Hi\r\nI have installed the plugin, but I have got an error. As soon as I tried to activate it, I got \"Fatal error: Call to undefined function: set_include_path() in /home/sites/site4/users/duke-wie/web/blog/wp-content/plugins/wpopenid/openid-registration.php on line 919\"\r\n\r\nLooking at the blog, it had the OpenID logo by the login area, but when I tried to enter one, it crashed with the same error.\r\n\r\nI've got WordPress 2.0.10. I've fogotten what the php version is, but I know that it's the one that's not quite enough to allow us to use WP 2.1 (? php v 3???)",
+    "text": ""
+  },
+  "wm-id": "2976",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

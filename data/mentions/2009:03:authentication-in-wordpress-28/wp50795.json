@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "jnathan",
+    "url": "http://jaynathan.org",
+    "photo": "https://www.gravatar.com/avatar/447dd2f1ef7bb4259e73e98f43c45d94?d=404"
+  },
+  "url": "http://jaynathan.org",
+  "published": "2010-12-09T15:59:47-08:00",
+  "content": {
+    "html": "<p>Is there way to do this yet that anyone knows of? I would like to allow users to authenticate to my wordpress site using an oauth compliant service. Is there a plugin based on the thinking in this article? Has it been added to the Wordpress core?</p>\n",
+    "text": ""
+  },
+  "wm-id": "50795",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

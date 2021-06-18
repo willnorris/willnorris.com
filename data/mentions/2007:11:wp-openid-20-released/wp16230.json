@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://technorati.com/people/technorati/joseangelf",
+    "url": "http://technorati.com/people/technorati/joseangelf"
+  },
+  "url": "http://technorati.com/people/technorati/joseangelf",
+  "published": "2007-12-29T11:54:51-08:00",
+  "content": {
+    "html": "<p>This is a test...</p>\n",
+    "text": ""
+  },
+  "wm-id": "16230",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Blaenk Denum",
+    "url": "http://blaenkdenum.com/",
+    "photo": "https://www.gravatar.com/avatar/183ede6a94a34822098fd62afd0b32a8?d=404"
+  },
+  "url": "http://blaenkdenum.com/",
+  "published": "2008-06-28T05:06:30-07:00",
+  "content": {
+    "html": "Well, that didn\\'t go well. Simply put I said that I will wait until you finish the plugin to not get \\'in the way\\' of things. I never should\\'ve updated from that other revision I was using which worked (Whichever revision that was).",
+    "text": ""
+  },
+  "wm-id": "21672",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

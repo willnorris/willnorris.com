@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "danfulbright.com/",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/72fc773e541d26bc23de610caaad314b?d=404"
+  },
+  "url": "",
+  "published": "2009-05-16T17:14:10-07:00",
+  "content": {
+    "html": "My concern is that people will start doing replies in an unofficial way, to make sure they show up in other people's streams. For example, not using in_reply_to and saying \"To @username, I agree!\" This will break threading, which is a Bad Thing (tm).",
+    "text": ""
+  },
+  "wm-id": "31259",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/05/deciphering-twitter-replies/"
+}

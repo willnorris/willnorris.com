@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Joe",
+    "url": "http://cpujoe.com",
+    "photo": "https://www.gravatar.com/avatar/3c9693d916eb5c43ad227e3138e6d82a?d=404"
+  },
+  "url": "http://cpujoe.com",
+  "published": "2007-07-26T20:30:48-07:00",
+  "content": {
+    "html": "I envy your cleverness.\r\n\r\nAnd congrats...",
+    "text": ""
+  },
+  "wm-id": "10647",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/07/she-said-yes/"
+}

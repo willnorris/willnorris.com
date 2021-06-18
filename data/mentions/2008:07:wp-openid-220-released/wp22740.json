@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name/",
+  "published": "2008-07-31T17:23:47-07:00",
+  "content": {
+    "html": "I've posted to the <a href=\"http://wordpress.org/support/topic/193409\">WordPress Forums</a> as well as the JanRain <a href=\"http://lists.openidenabled.com/pipermail/dev/2008-July/001394.html\">dev mailing list</a>, so we'll see what people have to say.  My thinking on the matter:\r\n\r\n - it's a valid http request, so Bad Behavior should allow it, regardless\r\n - I don't **want** to ship a modified version of the JanRain library if I can at all keep from it\r\n - I **will** ship a modified version of the library if we need to, but I want some more information before doing so",
+    "text": ""
+  },
+  "wm-id": "22740",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

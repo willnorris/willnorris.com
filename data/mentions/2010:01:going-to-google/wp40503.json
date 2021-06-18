@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Bob Uva",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/6452e3162d2c705d5b3ecd5e24223b40?d=404"
+  },
+  "url": "",
+  "published": "2010-01-26T17:49:19-08:00",
+  "content": {
+    "html": "<p>Congrats, Will! Sorry we didn't connect much while you were here in Portland but I wish you all the best with Google. And Half Moon Bay? Awesome!</p>\n",
+    "text": ""
+  },
+  "wm-id": "40503",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

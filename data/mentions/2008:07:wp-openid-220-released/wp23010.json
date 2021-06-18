@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://yeleleo.livejournal.com/",
+    "url": "http://yeleleo.livejournal.com/",
+    "photo": "https://www.gravatar.com/avatar/de526712b0c82a63dc91e19fcb2da87f?d=404"
+  },
+  "url": "http://yeleleo.livejournal.com/",
+  "published": "2008-08-08T19:35:42-07:00",
+  "content": {
+    "html": "@will, I have only one library &amp; I can share my log through email. mail to mail@yeleleo.co.uk",
+    "text": ""
+  },
+  "wm-id": "23010",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

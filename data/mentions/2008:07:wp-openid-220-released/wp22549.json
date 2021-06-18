@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Dennis",
+    "url": "http://dennisbloete.de",
+    "photo": "https://www.gravatar.com/avatar/ca122eca5d377d3a3e856aee13ec0cc9?d=404"
+  },
+  "url": "http://dennisbloete.de",
+  "published": "2008-07-25T06:43:07-07:00",
+  "content": {
+    "html": "@Will What do you mean by big integer support? On the config page there are no errors displayed, everything seems fine on the WordPress side.",
+    "text": ""
+  },
+  "wm-id": "22549",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://hugwill.livejournal.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://hugwill.livejournal.com/",
+  "published": "2009-10-07T18:13:50-07:00",
+  "content": {
+    "html": "<p>test comment with livejournal OpenID</p>\n",
+    "text": ""
+  },
+  "wm-id": "35979",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/openid-and-wordpress-core/"
+}

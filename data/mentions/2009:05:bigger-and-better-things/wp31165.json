@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Joe Stump",
+    "url": "http://www.joestump.net/",
+    "photo": "https://www.gravatar.com/avatar/2e47ce8a038f8eaf3fe80c069e380814?d=404"
+  },
+  "url": "http://www.joestump.net/",
+  "published": "2009-05-12T21:53:46-07:00",
+  "content": {
+    "html": "I &lt;3 the Pacific Northwest. I lived in Seattle for 3 years and, despite being in SF for almost that long, consider Seattle home. Good luck with your new ventures!",
+    "text": ""
+  },
+  "wm-id": "31165",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/05/bigger-and-better-things/"
+}

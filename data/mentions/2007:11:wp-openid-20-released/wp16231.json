@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://technorati.com/people/technorati/joseangelf",
+    "url": "http://technorati.com/people/technorati/joseangelf"
+  },
+  "url": "http://technorati.com/people/technorati/joseangelf",
+  "published": "2007-12-29T11:59:50-08:00",
+  "content": {
+    "html": "<p>... and this is the second half of the test in order to agree with Rodolfo Zanzibar: what's the point on having OpenId if it doesn't show your  identity but merely your link? How can I modify my template in order to show it? (I am using now the core WP comment_author_link function)</p>\n\n<p>(Check it in Blogger, this issue is solved there!!)</p>\n",
+    "text": ""
+  },
+  "wm-id": "16231",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name",
+  "published": "2008-11-14T01:53:34-08:00",
+  "content": {
+    "html": "I do have <a href=\"http://www.will.norris.name\">www.will.norris.name</a> as well as <a href=\"http://willnorris.name\">willnorris.name</a> for exactly the reason you described.  can't do much about the *.name.com though.\r\n\r\nthe problem with trying to forward the .name, but still use it as an OpenID, is a question of how to technically do that.  In order to get the \"Google juice\" from .name to be pushed over to .com, I have to use an HTTP redirect.  However, if I do that, then the OpenID will be redirected as well.  Technically I'm supposed to be able to use a 303 redirect, which should not effect the OpenID stuff, but few libraries handle that properly.  Realistically, I'm just going to have to choose one or the other.",
+    "text": ""
+  },
+  "wm-id": "26252",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/11/consolidating-domains/"
+}

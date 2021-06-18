@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Blaenk Denum",
+    "url": "http://blaenkdenum.com",
+    "photo": "https://www.gravatar.com/avatar/a80b03b2036a8832fe77fa65c4c309fb?d=404"
+  },
+  "url": "http://blaenkdenum.com",
+  "published": "2008-06-25T22:43:27-07:00",
+  "content": {
+    "html": "Hey, when people post words with apostrophes like \"I'm thinking, don't do it!\", it escapes the apostrophes in the end result and looks weird, like the above will become \"I\\'m thinking, don\\'t do it!\". Can this be caused by your plugin? Because it only happens with people who post comments from OpenID. Using HEAD from svn.",
+    "text": ""
+  },
+  "wm-id": "21592",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

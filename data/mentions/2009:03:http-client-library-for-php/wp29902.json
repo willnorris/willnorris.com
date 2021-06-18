@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Joseph Scott",
+    "url": "http://josephscott.org/",
+    "photo": "https://www.gravatar.com/avatar/582b66ad5ae1b69c7601a990cb9a661a?d=404"
+  },
+  "url": "http://josephscott.org/",
+  "published": "2009-03-20T00:35:33-07:00",
+  "content": {
+    "html": "I haven't looked at it in awhile, but this might be interesting:\r\n\r\nhttp://code.blitzaffe.com/pages/phpclasses/category/52/fileid/7\r\n\r\nIt implements the curl API in pure PHP if the curl PHP extension isn't available.",
+    "text": ""
+  },
+  "wm-id": "29902",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/http-client-library-for-php/"
+}

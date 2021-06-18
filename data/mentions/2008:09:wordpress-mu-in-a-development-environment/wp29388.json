@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-03-04T21:09:30-08:00",
+  "content": {
+    "html": "You need to add an entry into your hosts file.  Depending on your OS, it is <a href=\"http://en.wikipedia.org/wiki/Hosts_file#Location_and_default_content\">in different places</a>.  If you're doing this from the virtual server itself, you'll want to add the following:\r\n\r\n<pre>127.0.0.1  wp.mu</pre>\r\n\r\nIf you're connected from a different machine (like the host machine which the virtual one is running on), you'll change the IP address to be the IP of the virtual server.",
+    "text": ""
+  },
+  "wm-id": "29388",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment/"
+}

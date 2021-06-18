@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "willnorris.com &raquo; Blog Archive &raquo; wordpress, layouts, and URIs",
+    "url": "http://willnorris.com/2005/05/wordpress-layouts-and-uris"
+  },
+  "url": "http://willnorris.com/2005/05/wordpress-layouts-and-uris",
+  "published": "2005-07-05T21:29:21-07:00",
+  "content": {
+    "html": "[...] And finally a small toot of my own horn &#8212; because I took the time and effort to generate cool uris when I used blosxom, I was able to switch blogging apps without breaking any links (that I&#8217;m aware of). I&#8217;m using a completely different system, written in a different language, using a different storage mechanism for the data, and it&#8217;s all seamless to the end user &#8212; that&#8217;s the way URIs were meant to be. If you have ugly URIs, do yourself and the web community a favor &#8212; fix them now, (but don&#8217;t break your old links). (If you happen to notice any broken or missing links on the new site, please comment below.) [...]",
+    "text": ""
+  },
+  "wm-id": "13",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2005/01/cooluris/"
+}

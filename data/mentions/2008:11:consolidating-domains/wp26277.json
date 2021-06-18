@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "http://singpolyma.net/",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "http://singpolyma.net/",
+  "published": "2008-11-14T14:51:26-08:00",
+  "content": {
+    "html": "I prefer will.norris.name\r\nI'm a firm believer that personal websites should not be *.com.\r\nJust make sure you do proper 301's to the right sub-sections of the new site and it won't really matter :)",
+    "text": ""
+  },
+  "wm-id": "26277",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/11/consolidating-domains/"
+}

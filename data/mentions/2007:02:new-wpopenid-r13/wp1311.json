@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Yann Lugrin",
+    "url": "http://www.sans-savoir.net/",
+    "photo": "https://www.gravatar.com/avatar/43f18344ef6330277f70a955f2a5bab6?d=404"
+  },
+  "url": "http://www.sans-savoir.net/",
+  "published": "2007-02-22T16:55:22-08:00",
+  "content": {
+    "html": "<p>I agree with you, but it is possible to modify its informations in WordPress profile, it is better if the user have this choice with first comment.</p>\n\n<p>If website is set the openid page, many page don't have a link to a other page (everyone does not use claimid :)) and a Blog comment without possibility to create a link to another blog is a problem no ? For name and email, OpenID informations can be ok, but not for website.</p>\n",
+    "text": ""
+  },
+  "wm-id": "1311",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

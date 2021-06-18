@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "plugin updates at willnorris.com",
+    "url": "http://willnorris.com/2007/10/plugin-updates"
+  },
+  "url": "http://willnorris.com/2007/10/plugin-updates",
+  "published": "2007-10-01T07:31:32-07:00",
+  "content": {
+    "html": "[...] trying to reach my Oct 1 goal, I did a good bit of work on two of my plugins this weekend, wp-openid and wp-yadis. For anyone [...]",
+    "text": ""
+  },
+  "wm-id": "13247",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/09/wordpress-openid-20-coming-soon/"
+}

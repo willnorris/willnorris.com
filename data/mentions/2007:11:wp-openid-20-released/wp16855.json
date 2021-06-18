@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "archGFX Habari",
+    "url": "http://archgfx.net/habari/shame-on-me"
+  },
+  "url": "http://archgfx.net/habari/shame-on-me",
+  "published": "2008-01-12T17:03:35-08:00",
+  "content": {
+    "html": "<p>[...] security on anything that I sign into with OpenID. I'm using it for this site with openID+ v2.0(released friday), although the previous versions have been [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "16855",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

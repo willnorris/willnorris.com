@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Keith Dsouza",
+    "url": "http://techie-buzz.com",
+    "photo": "https://www.gravatar.com/avatar/d344937385c993e036c5bfdbd45fae13?d=404"
+  },
+  "url": "http://techie-buzz.com",
+  "published": "2010-11-24T18:36:19-08:00",
+  "content": {
+    "html": "<p>I know I am too late on this, but do you have a working version of the oAuth authentication for WP as posted in this http://www.slideshare.net/willnorris/wordpress-oauth-presentation</p>\n\n<p>I am working on something related and wanted oAuth, any help will be appreciated. Since you do not have a subscribe to comments here I would appreciate a reply by email.</p>\n",
+    "text": ""
+  },
+  "wm-id": "50040",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "John Kolbert",
+    "url": "http://www.johnkolbert.com/wordpress/how-to-add-your-own-authentication-criteria/"
+  },
+  "url": "http://www.johnkolbert.com/wordpress/how-to-add-your-own-authentication-criteria/",
+  "published": "2010-08-10T05:18:27-07:00",
+  "content": {
+    "html": "<p>[...] with WordPress 2.8, an &#8216;authenticate&#8217; filter was added which allowed for some flexibility when authenticating a user with out having to completely [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "45931",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

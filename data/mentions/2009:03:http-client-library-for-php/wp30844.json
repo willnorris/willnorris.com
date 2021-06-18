@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chad La Joie",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/848d99d33746e502d3f3a5bc1fc40025?d=404"
+  },
+  "url": "",
+  "published": "2009-04-23T19:14:21-07:00",
+  "content": {
+    "html": "Will, just a small aside, I would try to make sure you had cookie support.  It's been my experience that in almost all the cases where you don't think you need it you run in to some edge case where you actually do need it.\r\n\r\nAlso, could you ask the WP people if they could more cleanly separate their HTTP library from their main code?  Sounds like it could be generally useful.",
+    "text": ""
+  },
+  "wm-id": "30844",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/http-client-library-for-php/"
+}

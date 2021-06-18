@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Matthias Pfefferle",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/0584d6991c186c9561863e080ff279e8?d=404"
+  },
+  "url": "",
+  "published": "2008-09-19T19:29:23-07:00",
+  "content": {
+    "html": "Nice to hear :)",
+    "text": ""
+  },
+  "wm-id": "25175",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wp-openid-faster-stronger-better/"
+}

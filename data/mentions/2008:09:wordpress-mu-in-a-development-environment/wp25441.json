@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name",
+  "published": "2008-09-30T17:03:17-07:00",
+  "content": {
+    "html": "@senthil: yes, if you turned off the domain part of the cookie response header, it should probably work.  If you've got WPMU setup to use sub-domains for user blogs (like wordpress.com does), then this will likely break the ability to go between hosted blogs and still be logged in.  If however you are using sub-directories, it should work fine.  (Keep in mind, I've not actually tested this, but it seems reasonable).",
+    "text": ""
+  },
+  "wm-id": "25441",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment/"
+}

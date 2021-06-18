@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Alexandre Passant",
+    "url": "http://apassant.net/",
+    "photo": "https://www.gravatar.com/avatar/fc2e6ca03e3de80932fc06a983a6996d?d=404"
+  },
+  "url": "http://apassant.net/",
+  "published": "2007-09-23T13:02:16-07:00",
+  "content": {
+    "html": "Hi,\r\n\r\nExcept a few includes that do not work with WP2.3 (see WP bugtracker) it seems to work fine with latest WP version, great !\r\n\r\nI updated it so that it can retrieve a FOAF profile for any user registering a WP weblog. FOAF is a 'machine-readable' format (in the Semantic Web way) that defines who you are, you knows, your interests ... Thus, people register with their openID URL, and using the FOAF profile you can know more about them, without they need to complete anything on your blog. More to come soon, but you can already check it there: http://apassant.net/blog/2007/09/23/retrieving-foaf-profile-from-openid/\r\n\r\nCheers",
+    "text": ""
+  },
+  "wm-id": "12962",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/09/wordpress-openid-20-coming-soon/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-03-04T19:32:06-08:00",
+  "content": {
+    "html": "@Miranda: you shouldn't actually have to rename the machine itself, just setup a virtual host in IIS or Apache that has a dot in the name.  You will of course need to add an entry to the appropriate hosts file so that your browser knows how to resolve that hostname.",
+    "text": ""
+  },
+  "wm-id": "29386",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment/"
+}

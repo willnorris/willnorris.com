@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Dentaku &raquo; Blog Archiv &raquo; Neu hier: OpenID",
+    "url": "http://wazong.de/blog/2007/12/02/neu-hier-openid/"
+  },
+  "url": "http://wazong.de/blog/2007/12/02/neu-hier-openid/",
+  "published": "2007-12-02T18:50:51-08:00",
+  "content": {
+    "html": "<p>[...] einer OpenID-Anmeldung ausrüsten. Die Wordpress-Installation für dieses Blog hat jetzt schon das WP-OpenID-Plugin von Will Norris. Wer mit einer OpenID-fähigen URL kommentiert, der kann sich die Eingaben für [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "15618",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "sairuh",
+    "url": "http://sairuh.org/",
+    "photo": "https://www.gravatar.com/avatar/b68163b7cd80b9ceecdadd634a856de0?d=404"
+  },
+  "url": "http://sairuh.org/",
+  "published": "2007-11-08T17:46:47-08:00",
+  "content": {
+    "html": "<p>I managed to miss this article as I was on vacation. I've tried svn truck v24319 of WP-OpenID+, and WP-Yadis (v1.2) still doesn't manage to delegate. However, if this comment appears here, it means that it does work, and that (1) I somehow flubbed the svn install, or (2) the trunk version I have is out of date. (Tested on WP 2.3.1.)</p>\n",
+    "text": ""
+  },
+  "wm-id": "14729",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/wp-openid-intelligent-defaults/"
+}

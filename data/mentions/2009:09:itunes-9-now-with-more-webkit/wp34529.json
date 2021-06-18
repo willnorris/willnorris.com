@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jon H",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/10b766b4752a9a4b472648ece4acef19?d=404"
+  },
+  "url": "",
+  "published": "2009-09-10T02:08:25-07:00",
+  "content": {
+    "html": "<p>I noticed that, on my 10.5, non-iPhone-developing machine, the iTunes 9 installer required that I quit Xcode. I don't recall that happening before.</p>\n",
+    "text": ""
+  },
+  "wm-id": "34529",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

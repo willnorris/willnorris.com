@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "http://singpolyma.net/",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "http://singpolyma.net/",
+  "published": "2009-03-11T13:27:17-07:00",
+  "content": {
+    "html": "Oh, btw, now that you've got XML-RPC working, does AtomPub still work?  (I mean, I would assume so, but thought I'd ask.)",
+    "text": ""
+  },
+  "wm-id": "29635",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

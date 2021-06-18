@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2005-07-31T01:36:13-07:00",
+  "content": {
+    "html": "thanks :)",
+    "text": ""
+  },
+  "wm-id": "19",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/07/lock-screen-revisited/"
+}

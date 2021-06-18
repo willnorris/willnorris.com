@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "The Doctor What",
+    "url": "http://docwhat.gerf.org/",
+    "photo": "https://www.gravatar.com/avatar/4a9afb8413be5d6f15fa908efb129bf4?d=404"
+  },
+  "url": "http://docwhat.gerf.org/",
+  "published": "2008-09-03T14:16:44-07:00",
+  "content": {
+    "html": "I use this recipe to cut down on post spam: http://docwhat.gerf.org/2007/08/rename-wp-comment-post/\r\n\r\nYour plugin has wp-comments-post.php hardcoded into it.\r\n\r\nWould it be possible to make this a configurable option so I don't have to remember to patch your plugin every time?\r\n\r\nI would be fine with a 'silent' option that requires direct SQL access or something like that.\r\n\r\nCiao!",
+    "text": ""
+  },
+  "wm-id": "23979",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

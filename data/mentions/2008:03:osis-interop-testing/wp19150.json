@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Shane Weeden",
+    "url": "https://ibmaus27.lnk.telstra.net/shane",
+    "photo": "https://www.gravatar.com/avatar/4c59789e000b701c0ba2e29a8ea3da9e?d=404"
+  },
+  "url": "https://ibmaus27.lnk.telstra.net/shane",
+  "published": "2008-04-07T17:50:02-07:00",
+  "content": {
+    "html": "<p>testing using IBM OpenID</p>\n",
+    "text": ""
+  },
+  "wm-id": "19150",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

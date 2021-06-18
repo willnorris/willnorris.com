@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Lukas",
+    "url": "http://blog.brodowski.net.pl",
+    "photo": "https://www.gravatar.com/avatar/72371f6d80acf5a0b490737e4d78e0c4?d=404"
+  },
+  "url": "http://blog.brodowski.net.pl",
+  "published": "2007-12-07T17:09:04-08:00",
+  "content": {
+    "html": "<p>Hi. I have problem with WP-OpenID.\nI was trying this openid plugin for wordpress: http://sourceforge.net/projects/wpopenid/ and now i can't activate Your WP-OpenID. When I try to activate it want to download plugins.php.\nCan You help me wit this?</p>\n",
+    "text": ""
+  },
+  "wm-id": "15717",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wordpress-plugins-development-version/"
+}

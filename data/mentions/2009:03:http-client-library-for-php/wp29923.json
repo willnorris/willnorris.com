@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-03-20T16:55:04-07:00",
+  "content": {
+    "html": "@Jacob: yes, I have certainly been thinking about the license issue.  The other libraries I mentioned in my last post are either MIT or Apache, so this would be a departure.  Personally, I wouldn't be terribly effected by the license, since all the DiSo work is open source anyway.  The bigger concern is users of the libraries... I'll have to ping some of them and see if GPLv2 would be a problem for them.  My gut tells me to stay away from it and leave no room for doubt, though.",
+    "text": ""
+  },
+  "wm-id": "29923",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/http-client-library-for-php/"
+}

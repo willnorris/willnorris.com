@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8 might break login compatibility (again) &laquo; _ck_ says&#8230;",
+    "url": "http://ckon.wordpress.com/2009/04/03/wordpress-28-might-break-login-compatibility-again/"
+  },
+  "url": "http://ckon.wordpress.com/2009/04/03/wordpress-28-might-break-login-compatibility-again/",
+  "published": "2009-06-19T02:54:36-07:00",
+  "content": {
+    "html": "<p>[...] So since it&#8217;s all working/stable now, guess what, they are tampering with it again:  http://willnorris.com/2009/03/authentication-in-wordpress-28 [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32080",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

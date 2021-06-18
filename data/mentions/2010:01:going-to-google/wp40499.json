@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Eric Amundson",
+    "url": "http://sewmyheadon.com",
+    "photo": "https://www.gravatar.com/avatar/d54d4cd1dc0f6a01cab444f64717271a?d=404"
+  },
+  "url": "http://sewmyheadon.com",
+  "published": "2010-01-26T17:16:29-08:00",
+  "content": {
+    "html": "<p>Congrats Will!  I'm excited for you and looking forward to hearing more about your work at Google after you've settled in.</p>\n\n<p>Cheers!</p>\n",
+    "text": ""
+  },
+  "wm-id": "40499",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

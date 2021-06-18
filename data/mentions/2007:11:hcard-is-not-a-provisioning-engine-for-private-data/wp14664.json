@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-11-06T02:50:55-08:00",
+  "content": {
+    "html": "<p>agreed, it is much more likely that truly different personas would be represented by different OpenID URLs, but many providers support this concept today as I described it.</p>\n\n<p>The much more provocative use case is private data, and I really don't think shoe-horning hCard is the most appropriate or secure way of handling that.  Not only because of the technical question of how it would be done, but also because I am much more comfortable knowing that it can only occur <em>at the time I login</em>, as is the case with SREG/AX (excepting that AX can perform subsequent updates of the data).</p>\n",
+    "text": ""
+  },
+  "wm-id": "14664",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/hcard-is-not-a-provisioning-engine-for-private-data/"
+}

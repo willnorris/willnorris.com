@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Matthias Pfefferle",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/0584d6991c186c9561863e080ff279e8?d=404"
+  },
+  "url": "",
+  "published": "2008-09-19T15:29:09-07:00",
+  "content": {
+    "html": "Will you drop IDIP support for wp-openid 3.0? You disabled the XRDS-Code and renamed the OpenID input-fields...",
+    "text": ""
+  },
+  "wm-id": "25166",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wp-openid-faster-stronger-better/"
+}

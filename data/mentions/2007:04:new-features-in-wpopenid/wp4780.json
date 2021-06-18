@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Koesmanto Bong",
+    "url": "http://thisis.myvidoop.com/",
+    "photo": "https://www.gravatar.com/avatar/9256a89d0dbc0d9cea76f6e6e8080cf1?d=404"
+  },
+  "url": "http://thisis.myvidoop.com/",
+  "published": "2007-05-14T18:27:19-07:00",
+  "content": {
+    "html": "I am on a PC that runs Windows XP Home Edition (my Mac died last week and should get it back in a few days) and xampp for php, mysql, apache stuff.  I just installed Wordpress and the openid+ plugin locally.  after browsing for patches to fix the blank pages and comments not showing unless logged in issues, i finally got most things to work.  One major thing that doesn't work is the openid authentication.  \r\n\r\nas i mentioned before, i am running this locally.  after getting redirected to myopenid provider and authenticated, i was sent back to the wp login page with this error: OpenID Authentication Failed: Server denied check_authentication.  is that because i am running everything in my local box now?  or is there something that i am missing?\r\n\r\ni checked out the latest codes from your repository (r30).\r\n\r\nthanks for the help.",
+    "text": ""
+  },
+  "wm-id": "4780",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

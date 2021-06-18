@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Ben",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/0fff2a954331b2acaeaa71c9273d5e58?d=404"
+  },
+  "url": "",
+  "published": "2006-12-15T03:28:58-08:00",
+  "content": {
+    "html": "<p>hey, on the skillet site, which i must say is awesome, when you go to \"shows\", the up arrow doesn't work, maybe its just me. otherwise, the site is awesome!</p>\n",
+    "text": ""
+  },
+  "wm-id": "1077",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2006/10/comatose/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Lloyd",
+    "url": "http://blog.floydius.com/",
+    "photo": "https://www.gravatar.com/avatar/1c33d9c9a2067e8e107b3f93079e098f?d=404"
+  },
+  "url": "http://blog.floydius.com/",
+  "published": "2009-10-20T01:53:32-07:00",
+  "content": {
+    "html": "<p>I never realized until now that sreg was not a core part of OpenID.  My only real understanding of openid came from installing and configuring phpmyid, which is what i used prior to finding your wordpress plugin.  I'd never even heard of AX until i read this post.</p>\n\n<p>I knew pavatar was not connected with openID, i just always wished it was because i like the idea of hosting my own image and not having to check in with another server.  the one wordpress plugin i ever found that enabled pavatar was <a href=\"http://cdn.john-noone.com/2007/06/identikit2.zip\">identikit</a>.  It had some bugs though, and I am not competent enough with php to fix them.  In any case, if any openid extension allows for linking to an avatar anywhere, and the consumer sites will support it, i'm on board with that.</p>\n\n<p>Finally, thanks for the assistance with the widgit code.  I never would have found that, and I sure never would have figured out how to do that on my own.</p>\n",
+    "text": ""
+  },
+  "wm-id": "36551",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/openid-and-wordpress-core/"
+}

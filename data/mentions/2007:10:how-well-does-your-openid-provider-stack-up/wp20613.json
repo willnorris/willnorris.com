@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Shauna",
+    "url": "http://shaunaslifeinpain.blogspot.com/",
+    "photo": "https://www.gravatar.com/avatar/d5f7796422a481e1b8eaa177a6cd0cc7?d=404"
+  },
+  "url": "http://shaunaslifeinpain.blogspot.com/",
+  "published": "2008-05-29T07:43:59-07:00",
+  "content": {
+    "html": "<p>Great Chart and looks like your move will be a smart one.   Wish I knew more about the entire Open ID subject, but I'm still learning.  Will keep up here to see the progress.  Keep up the good work!!</p>\n\n<p>Peace!</p>\n",
+    "text": ""
+  },
+  "wm-id": "20613",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/how-well-does-your-openid-provider-stack-up/"
+}

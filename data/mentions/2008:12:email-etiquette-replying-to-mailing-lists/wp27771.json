@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mark",
+    "url": "http://orbum.net/mark/author/mark/",
+    "photo": "https://www.gravatar.com/avatar/e50f4402cd331b7e9de1dd81c2f918f6?d=404"
+  },
+  "url": "http://orbum.net/mark/author/mark/",
+  "published": "2008-12-25T22:42:53-08:00",
+  "content": {
+    "html": "Ahh... it's actually a huge relief knowing I'm not the only cranky person today.\r\n\r\nQuite right Will!\r\n\r\nMerry Christmas to you, too.",
+    "text": ""
+  },
+  "wm-id": "27771",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/12/email-etiquette-replying-to-mailing-lists/"
+}

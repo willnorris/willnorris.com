@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Don Park",
+    "url": "http://donpark.org",
+    "photo": "https://www.gravatar.com/avatar/0839bed78f8f75c8cca3d4477a7fa637?d=404"
+  },
+  "url": "http://donpark.org",
+  "published": "2010-01-02T00:30:56-08:00",
+  "content": {
+    "html": "<p>I find it curious with the various systems of naming user@system system.com/user etc. that twitter has shown a single word can be enough space to provide names for the planet. 6 chars with a-z are 308 million names, 8 chars are 208 billion names.</p>\n\n<p>i am glad to have a vanity domain for myself and with openid delegation i know the identifier will outlast any one provider. at the same time, it appears the email address has beaten the URL as identifier (Facebook, Digg, etc). OpenID's adoption of EAUT will be important.</p>\n",
+    "text": ""
+  },
+  "wm-id": "39434",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/identity-and-identifiers/"
+}

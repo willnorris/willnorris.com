@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chris Messina",
+    "url": "http://factoryjoe.com/",
+    "photo": "https://www.gravatar.com/avatar/8403e20f058363f718144dd51faa65a7?d=404"
+  },
+  "url": "http://factoryjoe.com/",
+  "published": "2007-10-31T01:52:50-07:00",
+  "content": {
+    "html": "<p>Apparently Plaxo doesn't like this form... so for now (until it's fixed) I'll have to duplicate my links: one for openid.delegate and the other for rel-me.</p>\n",
+    "text": ""
+  },
+  "wm-id": "14415",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/openid-delegation-and-xfn/"
+}

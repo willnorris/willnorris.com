@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Allan Clark",
+    "url": "http://tech.b.chickenandporn.com",
+    "photo": "https://www.gravatar.com/avatar/3b280e59aa368e6467ff75032400e184?d=404"
+  },
+  "url": "http://tech.b.chickenandporn.com",
+  "published": "2009-03-12T16:19:08-07:00",
+  "content": {
+    "html": "@Will: Yay!  Cleaner Auth.  Thanks for clarifying, I think I get it now.  Cool!",
+    "text": ""
+  },
+  "wm-id": "29673",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

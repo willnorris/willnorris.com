@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-06-05T20:07:30-07:00",
+  "content": {
+    "html": "The OpenID plugin respects the WordPress setting which allows new people to register.  You need to go to the WordPress General Settings page and check the box that says \"Anyone can register\".  Otherwise, OpenIDs can only be added to existing WordPress user accounts.",
+    "text": ""
+  },
+  "wm-id": "31766",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

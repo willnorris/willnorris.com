@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://www.gwytherinn.com/",
+    "url": "http://www.gwytherinn.com/",
+    "photo": "https://www.gravatar.com/avatar/60562ee45af397e451acd0f2137734b3?d=404"
+  },
+  "url": "http://www.gwytherinn.com/",
+  "published": "2008-09-20T02:45:20-07:00",
+  "content": {
+    "html": "Partly a test, partly here to say that this is an awesome plugin. I went looking for something to give OpenID functionality to my wordpress blog and came across this. Sadly, for now the only openID I've gotten to work is my flickr account. Not sure why that is, whenever I login to other openID sites it just redirects me back to my site without a comment. It does the same on other sites I've tested too.\r\n\r\nI'm sure you've heard about this issue before, I just hope it's fixed come next release! I wanted to be able to delegate my own openID, excited about that feature being added. Keep up the good work!",
+    "text": ""
+  },
+  "wm-id": "25214",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wp-openid-faster-stronger-better/"
+}

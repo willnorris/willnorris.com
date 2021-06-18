@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Tom",
+    "url": "http://steamreview.org",
+    "photo": "https://www.gravatar.com/avatar/e140623b88f677b56cde01ff91a7548d?d=404"
+  },
+  "url": "http://steamreview.org",
+  "published": "2008-08-17T18:20:34-07:00",
+  "content": {
+    "html": "@Sebastian: I'm having the same problem. The linking only works when I point <em>directly</em> to the server's location - the header s at my homepage aren't followed.\r\n\r\nHowever, the process just completed first time when I tested posting an OpenID comment while logged out of my local mirror of my blog. Could be because it's a local mirror, could be because I was using IE to avoid logging out of Fx, could be because I was logged out...who knows.\r\n\r\n<a href=\"http://code.google.com/p/diso/issues/detail?id=75&amp;colspec=ID%20Type%20Project%20Status%20Priority%20Milestone%20Owner%20Summary\">I submitted a bug report about it the other day.</a>\r\n\r\n(Another bug: this comment wouldn't submit until I entered a name and e-mail!)",
+    "text": ""
+  },
+  "wm-id": "23223",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Matthias Pfefferle",
+    "url": "http://notizblog.org/",
+    "photo": "https://www.gravatar.com/avatar/0584d6991c186c9561863e080ff279e8?d=404"
+  },
+  "url": "http://notizblog.org/",
+  "published": "2008-10-02T07:24:04-07:00",
+  "content": {
+    "html": "Ups, I had a look at the source code and found the problem... the email-address I tried was not the one I used within my wordpress account. Now it works perfect. Thanks anyway ;)",
+    "text": ""
+  },
+  "wm-id": "25474",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

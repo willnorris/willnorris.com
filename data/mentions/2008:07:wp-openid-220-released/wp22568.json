@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name/",
+  "published": "2008-07-25T21:22:52-07:00",
+  "content": {
+    "html": "@Christian: your server is returning an HTTP 400 to the request made by the openid library.  The exact request (which reproduces the 400 over telnet) is:\r\n\r\n<pre>GET / HTTP/1.1\r\nRange: bytes=0-1048576\r\nUser-Agent: php-openid/2.1.0 (php/5.2.5) curl/7.16.3\r\nHost: docwhat.gerf.org\r\nAccept: application/xrds+xml, text/html; q=0.3, application/xhtml+xml; 0.5</pre>",
+    "text": ""
+  },
+  "wm-id": "22568",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

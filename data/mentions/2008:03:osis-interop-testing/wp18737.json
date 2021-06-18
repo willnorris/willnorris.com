@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "CA RO",
+    "url": "http://www.flickr.com/photos/link2caro",
+    "photo": "https://www.gravatar.com/avatar/b196c4b134694f63fb4cc4dd409ffcc1?d=404"
+  },
+  "url": "http://www.flickr.com/photos/link2caro",
+  "published": "2008-03-20T21:39:32-07:00",
+  "content": {
+    "html": "<p>Test Gravatar</p>\n",
+    "text": ""
+  },
+  "wm-id": "18737",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

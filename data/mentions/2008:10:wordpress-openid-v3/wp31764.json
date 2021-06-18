@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "emailtoid.net/i/37c110f8/…",
+    "url": "http://emailtoid.net/i/37c110f8/4f027a6f/",
+    "photo": "https://www.gravatar.com/avatar/7f7b63939f4163689045027512a05268?d=404"
+  },
+  "url": "http://emailtoid.net/i/37c110f8/4f027a6f/",
+  "published": "2009-06-05T19:08:08-07:00",
+  "content": {
+    "html": "I am getting the following when I try to login with my Gmail OpenID:\r\n\r\n\"Your have entered a valid OpenID, but this site is not currently accepting new accounts.\"\r\n\r\nXDRS-Simple 1.0 and OpenID 3.2.2 are installed and all users are checked in the Settings.\r\n\r\nWhat do I need to do to fix this problem?",
+    "text": ""
+  },
+  "wm-id": "31764",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Divided By Zer0",
+    "url": "http://dbzer0.com/",
+    "photo": "https://www.gravatar.com/avatar/1fff10a9fb70219a8190f3c1b477d388?d=404"
+  },
+  "url": "http://dbzer0.com/",
+  "published": "2008-02-29T08:55:27-08:00",
+  "content": {
+    "html": "<p>Thanks for the answer Will, but unfortunately it does not work for me. The plugin mentions that it works with Kubrick or Sandbox themes but mine is based on Hemingway :-/</p>\n\n<p>Generally when I added the plugin, nothing seemed to happen to the template. When I changed the name of the website field to \"openid_url\" then it always asks for authentication and fails if it is missing. If I keep the field as \"url\" then it never asks for authentication.</p>\n\n<p>I've made <a href=\"http://wordpress.org/support/topic/159062?replies=1#post-700242\">a thread of the WP forums</a> if that is easier for you</p>\n",
+    "text": ""
+  },
+  "wm-id": "17945",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

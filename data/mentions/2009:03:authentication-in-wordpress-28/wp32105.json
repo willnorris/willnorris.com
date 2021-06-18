@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Internet Marketing and Consulting » Wordpress 2.8 - Does it Work?",
+    "url": "http://makehowto.info/wordpress-28-does-it-work/"
+  },
+  "url": "http://makehowto.info/wordpress-28-does-it-work/",
+  "published": "2009-06-20T10:03:51-07:00",
+  "content": {
+    "html": "<p>[...] Read more about Authentication in Wordpress 2.8 [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32105",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

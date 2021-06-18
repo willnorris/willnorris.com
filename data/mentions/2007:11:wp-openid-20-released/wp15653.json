@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Devon Young",
+    "url": "http://devonyoung.com/",
+    "photo": "https://www.gravatar.com/avatar/4fa416230ab37be9be8467fb9420ad74?d=404"
+  },
+  "url": "http://devonyoung.com/",
+  "published": "2007-12-05T02:25:43-08:00",
+  "content": {
+    "html": "<p>It'd be a useful plugin, if the readme.txt included some clues on how to tweak my comments.php so the plugin can work. I've activated the plugin but I'm completely lost.</p>\n",
+    "text": ""
+  },
+  "wm-id": "15653",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

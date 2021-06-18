@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "taggy",
+    "url": "http://theyagar.com",
+    "photo": "https://www.gravatar.com/avatar/784ad5dea94aac3111d91a7d56211d36?d=404"
+  },
+  "url": "http://theyagar.com",
+  "published": "2007-12-02T04:58:05-08:00",
+  "content": {
+    "html": "<p>hey ! i installed openid but unable to get it on to my comments and login page ,how can i manually edit the comments page,the readme isnt helpful</p>\n",
+    "text": ""
+  },
+  "wm-id": "15610",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

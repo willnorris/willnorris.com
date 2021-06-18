@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2008-06-10T20:23:13-07:00",
+  "content": {
+    "html": "<p>[quote comment=\"21056\"]</p>\n\n<p>i think wp-openID have some bugs that will conflict with other plugins. for example, wp thread comment. will you fix it?</p>\n\n<p>[/quote]This is currently fixed in the latest trunk code and will be included in the next minor version (2.2)</p>\n",
+    "text": ""
+  },
+  "wm-id": "21107",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-05-14T20:13:18-07:00",
+  "content": {
+    "html": "try using the new repository located at wp-plugins.org (http://svn.wp-plugins.org/openid/trunk/).. I just haven't gotten around to updating the project page with the new repository URL.  I've never had any problems doing authentication with wordpress running on my local machine.",
+    "text": ""
+  },
+  "wm-id": "4781",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

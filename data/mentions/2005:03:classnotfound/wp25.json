@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Kit",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/f1a41f00eac91827a1f46959ec99bc12?d=404"
+  },
+  "url": "",
+  "published": "2005-10-27T14:24:45-07:00",
+  "content": {
+    "html": "I did the same thing trying to install svnant.  Thanks for saving the few hairs I've got left on my head...",
+    "text": ""
+  },
+  "wm-id": "25",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/03/classnotfound/"
+}

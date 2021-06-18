@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://wnorris.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://wnorris.myopenid.com/",
+  "published": "2008-08-17T18:23:34-07:00",
+  "content": {
+    "html": "[quote comment=\"23190\"]Will you add support for the avatar system for Openid?\r\nhttp://www.openvatar.com\r\n[/quote]\r\nYou should be able to do this pretty easily already... the get_avatar() function added in 2.5 is pluggable, and wp-openid provides a is_comment_openid() function.  Using those, an openvatar plugin could be done with pretty minimal code.",
+    "text": ""
+  },
+  "wm-id": "23224",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

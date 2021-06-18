@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stéphane Corlosquet",
+    "url": "http://openspring.net/",
+    "photo": "https://www.gravatar.com/avatar/3ae70c15acd7f2631003f55e8d281b20?d=404"
+  },
+  "url": "http://openspring.net/",
+  "published": "2010-08-13T15:01:56-07:00",
+  "content": {
+    "html": "<p>You might also want to look at Drupal's HTTP client at http://api.drupal.org/api/function/drupal_http_request/7 - it's pretty self contained. It references other Drupal specific functions but you could easily remove then. License is GPLv2.</p>\n",
+    "text": ""
+  },
+  "wm-id": "46071",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/http-client-library-for-php/"
+}

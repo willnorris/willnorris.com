@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Romain",
+    "url": "http://www.artistes-du-web.com",
+    "photo": "https://www.gravatar.com/avatar/93b8775b07e2b92d1421a19407dd697c?d=404"
+  },
+  "url": "http://www.artistes-du-web.com",
+  "published": "2009-04-01T21:42:26-07:00",
+  "content": {
+    "html": "Do you plan to provide a french version of the plugin ? Or do you need translators ?",
+    "text": ""
+  },
+  "wm-id": "30313",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

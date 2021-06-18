@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "AlthA",
+    "url": "http://webkit.opendarwin.org",
+    "photo": "https://www.gravatar.com/avatar/236bc57eee61d74f377f2e999bb98e16?d=404"
+  },
+  "url": "http://webkit.opendarwin.org",
+  "published": "2005-11-12T14:34:11-08:00",
+  "content": {
+    "html": "You should look into NightShift: http://homepage.mac.com/reinholdpenner/ this does what you want and more :)",
+    "text": ""
+  },
+  "wm-id": "27",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/10/nightly-webkit-builds/"
+}

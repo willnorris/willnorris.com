@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Tom Nielsen",
+    "url": "http://tomn-olli.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/7cf3f3afdc95830c639e6db85b666daa?d=404"
+  },
+  "url": "http://tomn-olli.myopenid.com/",
+  "published": "2009-10-08T21:14:52-07:00",
+  "content": {
+    "html": "<p>Will,</p>\n\n<p>Why do Google Apps OpenIDs (e.g., username@gmail.com or  justinc@olliatauburn.com, a Google Apps Education Edition hosted account) not work at this site and at my test site where I have OpenID 3.3.1/WordPress 2.8.2 installed?</p>\n\n<p>justinc@olliatauburn.com and other olliatauburn.org email addresses work as OpenIDs at this demo/test site <a href=\"http://rails-authlogic-rpx-sample.heroku.com/user_sessions/new\">http://rails-authlogic-rpx-sample.heroku.com/user_sessions/new</a> and username@gamail.com works there, too, when Google is selected as the provider.</p>\n\n<p>I'm hoping to give members of OLLI a single hosted Google Apps\naccount and have them use their OLLI Gmail email addresses as their OpenIDs for our WordPress blog.</p>\n\n<p>Thanks for any guidance/help.</p>\n\n<ul>\n<li>Tom</li>\n</ul>\n",
+    "text": ""
+  },
+  "wm-id": "36031",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/wordpress-openid-v3-3/"
+}

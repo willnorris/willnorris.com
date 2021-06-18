@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Comme une image",
+    "url": "http://cui.burp.fr/",
+    "photo": "https://www.gravatar.com/avatar/559007ad886e39df29720530a3bf23c3?d=404"
+  },
+  "url": "http://cui.burp.fr/",
+  "published": "2008-02-14T18:40:33-08:00",
+  "content": {
+    "html": "<p>Would be great if DiSo includes int8 purpose so that « OpenID Enabled » could be localized (hmmm, don't be too scared, « OpenID » in french isn't translated « IdOuvert » – not yet !).</p>\n",
+    "text": ""
+  },
+  "wm-id": "17586",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wp-openid-moving-to-diso/"
+}

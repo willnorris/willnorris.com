@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "HTTP Client Library for PHP &#8212; Will Norris",
+    "url": "http://willnorris.com/2009/03/http-client-library-for-php"
+  },
+  "url": "http://willnorris.com/2009/03/http-client-library-for-php",
+  "published": "2009-05-28T20:17:23-07:00",
+  "content": {
+    "html": "[...] Thoughts on Identity, OpenID, WordPress, and Life   Skip to content BlogAboutProjectsArchives       &laquo; The Open Stack (in PHP) Bigger and Better Things [...]",
+    "text": ""
+  },
+  "wm-id": "31464",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/the-open-stack-in-php/"
+}

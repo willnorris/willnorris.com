@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Andy Oram (praxagora) 's status on Tuesday, 04-Aug-09 02:28:46 UTC - Identi.ca",
+    "url": "http://identi.ca/notice/7516064"
+  },
+  "url": "http://identi.ca/notice/7516064",
+  "published": "2009-08-04T02:28:53-07:00",
+  "content": {
+    "html": "<p>[...]  http://willnorris.com/2009/08/best-practices-with-directed-identity  [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32883",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/08/best-practices-with-directed-identity/"
+}

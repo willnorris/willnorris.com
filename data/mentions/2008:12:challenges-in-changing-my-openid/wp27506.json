@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Martin Atkins",
+    "url": "http://mart.degeneration.co.uk"
+  },
+  "url": "http://mart.degeneration.co.uk",
+  "published": "2008-12-19T23:02:49-08:00",
+  "content": {
+    "html": "At Six Apart we ran into this when we deprecated typekey.com in favor of typepad.com. Initially we had the former redirecting to the latter, but that broke everyone who had used TypeKey for OpenID.\r\n\r\nIn the end we went for a kinda-ugly solution where we do . We found that when the refresh delay is zero search engines tend to treat it as a redirect, so it works for browsers and for search engines without breaking OpenID.\r\n\r\nThis (moving OpenID identifiers) is definitely a pain point for OpenID today... we need a good, standard solution for this.",
+    "text": ""
+  },
+  "wm-id": "27506",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/12/challenges-in-changing-my-openid/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "coda",
+    "url": "http://coda.co.za",
+    "photo": "https://www.gravatar.com/avatar/d079549ecc8b475e9a5f98bbcbc7671e?d=404"
+  },
+  "url": "http://coda.co.za",
+  "published": "2008-11-13T01:35:28-08:00",
+  "content": {
+    "html": "Hi Will. I'm experiencing issues where I'm already including jQuery 1.2.6 in the theme, and then the plugin includes an older version too. Is there a possible workaround for this? I've tried to stop the plugin from including the jQuery script (function openid_js_setup()) but didn't have much luck. Any ideas? Thanks.",
+    "text": ""
+  },
+  "wm-id": "26222",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

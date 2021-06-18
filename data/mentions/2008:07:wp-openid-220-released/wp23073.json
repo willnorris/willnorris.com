@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://lifeasitcomes.com/",
+    "url": "http://lifeasitcomes.com/",
+    "photo": "https://www.gravatar.com/avatar/129d4ee560a9268e641d8a5969f19961?d=404"
+  },
+  "url": "http://lifeasitcomes.com/",
+  "published": "2008-08-11T19:17:39-07:00",
+  "content": {
+    "html": "Will, is <a href=\"http://wordpress.org/support/topic/147391\">this issue</a> still open and/or being worked?  Something in the latest changelog sounded like it, so I got excited, but the problem still seems to exist.\r\n\r\nThanks for your hard work on this!",
+    "text": ""
+  },
+  "wm-id": "23073",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

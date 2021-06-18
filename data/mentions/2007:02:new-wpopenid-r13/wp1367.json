@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mark Szpakowski",
+    "url": "http://xri.net/=mark.szpakowski",
+    "photo": "https://www.gravatar.com/avatar/46d28d4acfcd0e9ef458ec76f3795577?d=404"
+  },
+  "url": "http://xri.net/=mark.szpakowski",
+  "published": "2007-02-28T17:22:10-08:00",
+  "content": {
+    "html": "I've installed this, but it does not seem to support iNames (on my installation - I was able to add a comment here :-). Attempting to add a comment on my local site using my iName results in \"Could not discover an OpenID identity server endpoint at the url.\"\r\n\r\nIs this a configuration issue (btw, I'm using PHP 4.4.4)?",
+    "text": ""
+  },
+  "wm-id": "1367",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

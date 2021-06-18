@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Ajaxian &raquo; Safari self replicates itself&#8230;. for fun",
+    "url": "http://ajaxian.com/archives/safari-self-replicates-itself-for-fun"
+  },
+  "url": "http://ajaxian.com/archives/safari-self-replicates-itself-for-fun",
+  "published": "2010-03-22T13:23:18-07:00",
+  "content": {
+    "html": "<p>[...] always felt like they were extending OS X GUI elements to the web, even going so far as to make the iTunes store mostly out of Webkit. With that in mind and being inspired by David DeSandro&#8217;s Opera Logo made in CSS, I decided [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "42472",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

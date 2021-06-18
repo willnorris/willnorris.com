@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "An overview on Wordpress 2.8 | Word-ex-press",
+    "url": "http://www.word-ex-press.com/?p=16"
+  },
+  "url": "http://www.word-ex-press.com/?p=16",
+  "published": "2009-06-11T16:13:25-07:00",
+  "content": {
+    "html": "<p>[...] WPEngineer explains how to build a Wordpress 2.8 widget, using object-oriented php; Joseph Scott how to manage the new features of the XML-RPC and AtomPub with Baker; Weblog Tools Collection collected a list of articles dealing with Wordpress 2.8; Justin Tadlock explains the management and customization of taxonomies in the new version; Will Norris wrote an article about new features in authentication. [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31881",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Michael Gracie",
+    "url": "http://michaelgracie.com/",
+    "photo": "https://www.gravatar.com/avatar/206fe37a443480c92d08b634c03c5533?d=404"
+  },
+  "url": "http://michaelgracie.com/",
+  "published": "2007-09-12T05:18:23-07:00",
+  "content": {
+    "html": "Will,\r\n\r\nCurious if you figured out that \"options\" replication issue we discussed?\r\n\r\nI'll be glad to restart testing over here any time you like - just give the go ahead for \"the one with less guts than Kveton.\" :-)",
+    "text": ""
+  },
+  "wm-id": "12655",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/09/wordpress-openid-20-coming-soon/"
+}

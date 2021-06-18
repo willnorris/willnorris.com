@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jacob Santos",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/595aa98ef5e416c3965d0305a90a8a24?d=404"
+  },
+  "url": "",
+  "published": "2009-03-20T13:59:41-07:00",
+  "content": {
+    "html": "You might have forgotten Zend Framework HTTP component or choose to not include it because it is larger than the HTTP API that is in WordPress.\r\n\r\nI've thought about stripping the WordPress dependencies from the HTTP API myself and releasing it as a stand alone library. Never got around to it. And it would still be GPLv2.\r\n\r\nWhat you need to concern yourself, really, is the license. If you use the HTTP API from WordPress, than anything you create using it will have to be compatible with GPLv2, also the library will only be able to be used in GPLv2 software or compatible. Also, any software using it when running will become GPLv2.\r\n\r\nIf you are not okay with that, then you should look at the other libraries or do the NIH approach.\r\n\r\nYou will find that when developing your own library, then the PHP documentation isn't entirely correct and omits bugs in PHP that need to be addressed in your code.",
+    "text": ""
+  },
+  "wm-id": "29919",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/http-client-library-for-php/"
+}

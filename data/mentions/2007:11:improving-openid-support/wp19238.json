@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "JunkieYard Dot Com",
+    "url": "http://www.JunkieYard.Com/",
+    "photo": "https://www.gravatar.com/avatar/41d84339318755c1b1a48b65af63ca18?d=404"
+  },
+  "url": "http://www.JunkieYard.Com/",
+  "published": "2008-04-12T16:56:10-07:00",
+  "content": {
+    "html": "<p>I got this error message when I tried to login to my site using the WP-OpenID 2.1.8 :(</p>\n\n<p>Fatal error: Call to undefined method Log_file::error() in /wp-content/plugins/openid/logic.php on line 653</p>\n\n<p>When I snoop around the logic.php line 653 it say something about a log file and it might be a bug?</p>\n",
+    "text": ""
+  },
+  "wm-id": "19238",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/improving-openid-support/"
+}

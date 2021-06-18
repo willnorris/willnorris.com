@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "MikeTheMan",
+    "url": "http://www.miketheman.net/",
+    "photo": "https://www.gravatar.com/avatar/fd9f2db04817cb74f6a37c48947f3e8c?d=404"
+  },
+  "url": "http://www.miketheman.net/",
+  "published": "2007-09-01T02:32:18-07:00",
+  "content": {
+    "html": "Does this plugin provide an OpenID server, so I can then use my own URL to log into other sites?\r\nIf not, can you recommend a simple, no-shell-access alternative?",
+    "text": ""
+  },
+  "wm-id": "12288",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

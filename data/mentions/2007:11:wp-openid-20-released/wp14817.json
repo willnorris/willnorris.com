@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "url": "http://antonborisov.livejournal.com/"
+  },
+  "url": "http://antonborisov.livejournal.com/",
+  "published": "2007-11-11T05:25:43-08:00",
+  "content": {
+    "html": "<p>Hello!\nI've installed your OpenID Plugin on my website but still couldn't make it work. Can you explain what I need to fill out if I have an account on the Livejournal website, as example?</p>\n",
+    "text": ""
+  },
+  "wm-id": "14817",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

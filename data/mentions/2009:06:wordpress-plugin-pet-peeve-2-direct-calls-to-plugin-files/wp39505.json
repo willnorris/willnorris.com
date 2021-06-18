@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WPBook 1.4 Released | Open Parenthesis",
+    "url": "http://www.openparenthesis.org/2010/01/04/wpbook-1-4-released"
+  },
+  "url": "http://www.openparenthesis.org/2010/01/04/wpbook-1-4-released",
+  "published": "2010-01-04T15:20:52-08:00",
+  "content": {
+    "html": "<p>[...] Removed hard coded reference to config.php, routing Facebook comment submission through WordPress&#8217; built in query parser instead (See http://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files) [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "39505",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Sebastian Djupsjöbacka",
+    "url": "http://djupsjobacka.com/id/basse",
+    "photo": "https://www.gravatar.com/avatar/3db175cb0437b90bc36038928c97d281?d=404"
+  },
+  "url": "http://djupsjobacka.com/id/basse",
+  "published": "2008-08-15T12:59:34-07:00",
+  "content": {
+    "html": "I'm having problems with WP-OpenID 2.2.2. When I try to log in to my blog I get the following error message:\r\n\"Could not discover an OpenID identity server endpoint at the url: http://djupsjobacka.com/id/basse\"\r\n\r\nI know the OpenID I used is ok, because I use it on other sites without problems. What could be wrong?",
+    "text": ""
+  },
+  "wm-id": "23168",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

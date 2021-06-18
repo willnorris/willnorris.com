@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "oAuth support in Twitter and WordPress 2.8 - Night Dreaming (by Sudar)",
+    "url": "http://sudarmuthu.com/blog/2009/03/29/oauth-support-in-twitter-and-wordpress-28.html"
+  },
+  "url": "http://sudarmuthu.com/blog/2009/03/29/oauth-support-in-twitter-and-wordpress-28.html",
+  "published": "2009-07-31T05:07:06-07:00",
+  "content": {
+    "html": "<p>[...] 2.8 will also enable support for oAuth. Will Norris, has published an article explaining how oAuth is planned to be implemented in WordPress 2.8. There are yet some limitations (oAuth libraries need PHP5) but it’s a great [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32756",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

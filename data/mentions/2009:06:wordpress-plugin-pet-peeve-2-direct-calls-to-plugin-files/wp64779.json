@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "michaelwender.com &raquo; An In-Depth Introduction to my First Commercial WordPress Theme",
+    "url": "http://michaelwender.com/blog/2011/07/18/an-in-depth-introduction-to-my-first-commercial-wordpress-theme/"
+  },
+  "url": "http://michaelwender.com/blog/2011/07/18/an-in-depth-introduction-to-my-first-commercial-wordpress-theme/",
+  "published": "2011-07-26T16:10:44-07:00",
+  "content": {
+    "html": "<p>[...] Using jQuery to Query Featured Images To achieve these goals, I began coding the front-end using jQuery. Then for my AJAX calls, I added code to my theme’s functions.php so that WordPress could receive my query requests directly. This meant my AJAX calls could reference the theme’s main URL (e.g. http://example.com?action=getimage) rather than referencing some additional PHP file setup to specifically handle AJAX requests (for more info on this, check out this post by Will Norris). [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "64779",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files/"
+}

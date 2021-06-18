@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Further Adventures in OpenID Delegation Land at The Musings of Chris Samuel",
+    "url": "http://www.csamuel.org/2007/04/23/further-adventures-in-openid-delegation-land/"
+  },
+  "url": "http://www.csamuel.org/2007/04/23/further-adventures-in-openid-delegation-land/",
+  "published": "2007-04-23T11:18:10-07:00",
+  "content": {
+    "html": "[...] Evan&#8217;s OpenID Delegation plugin I came across Will Norris&#8217;s WP-Yadis plugin (originally wp-xrds) but it didn&#8217;t really work under PHP5 and so I had quickly skipped over it. Having found [...]",
+    "text": ""
+  },
+  "wm-id": "2714",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/02/wp-xrds/"
+}

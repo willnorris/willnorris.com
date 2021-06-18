@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Fernando",
+    "url": "http://www.openvatar.com/",
+    "photo": "https://www.gravatar.com/avatar/714bccd647e090619ce2a771ec838b64?d=404"
+  },
+  "url": "http://www.openvatar.com/",
+  "published": "2008-08-16T11:32:24-07:00",
+  "content": {
+    "html": "Will you add support for the avatar system for Openid?\r\n\r\nhttp://www.openvatar.com\r\n\r\nThanks.",
+    "text": ""
+  },
+  "wm-id": "23190",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

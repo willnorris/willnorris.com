@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Michael Richardson",
+    "url": "http://mtrichardson.myvidoop.com/",
+    "photo": "https://www.gravatar.com/avatar/7d4c56e2b144266b589421b9303a55af?d=404"
+  },
+  "url": "http://mtrichardson.myvidoop.com/",
+  "published": "2008-05-15T09:39:21-07:00",
+  "content": {
+    "html": "<p>I can't wait to work with you, Will!  It's very exciting stuff.</p>\n",
+    "text": ""
+  },
+  "wm-id": "20219",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/why-im-going-to-vidoop/"
+}

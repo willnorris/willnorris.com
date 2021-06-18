@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://lifeasitcomes.com/blog/",
+    "url": "http://lifeasitcomes.com/blog/"
+  },
+  "url": "http://lifeasitcomes.com/blog/",
+  "published": "2007-12-12T19:50:18-08:00",
+  "content": {
+    "html": "<p>test</p>\n",
+    "text": ""
+  },
+  "wm-id": "15836",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

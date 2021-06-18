@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Beau",
+    "url": "http://dentedreality.com.au/",
+    "photo": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?d=404"
+  },
+  "url": "http://dentedreality.com.au/",
+  "published": "2009-03-19T23:46:52-07:00",
+  "content": {
+    "html": "Having worked with it myself, I quite like the WP HTTP library, and I think it covers everything you need (and, as you said, a bit more). It's going to be kept up to date because it's a core part of WordPress, so that's a benefit, and it supports chunked transfers, gzip etc.\r\n\r\nOh, and as far as re-purposing it for use outside of WP, I already thought about this a little bit before. The main WP-specific stuff that it uses which you'd need to work around are the filters/actions that WP uses. I *think* you could handle this by basically just including a small wrapper that defined those functions, and made them do basically nothing (except return the value they were handed). This isn't particularly slick or optimized, but it'd avoid needing to rewrite/modify the code every time it was updated at WP.\r\n\r\nHere's a list of WP functions used from a quick look:\r\n\r\n - has\\_filter()\r\n - apply\\_filters()\r\n - wp\\_parse\\_args()\r\n - get\\_option()\r\n - has\\_action()\r\n - do\\_action()\r\n\r\nThey could easily be \"stubbed\" to avoid unknown function calls. There are probably also some constants that would need to be defined to avoid warnings etc.\r\n\r\nJust a thought.",
+    "text": ""
+  },
+  "wm-id": "29899",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/http-client-library-for-php/"
+}

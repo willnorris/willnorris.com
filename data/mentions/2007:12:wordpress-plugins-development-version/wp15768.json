@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chris Messina",
+    "url": "http://factoryjoe.com/",
+    "photo": "https://www.gravatar.com/avatar/8403e20f058363f718144dd51faa65a7?d=404"
+  },
+  "url": "http://factoryjoe.com/",
+  "published": "2007-12-09T22:00:43-08:00",
+  "content": {
+    "html": "<p>Hmm, Lukas, it looks like there's a server issue... I'm not sure this is related to wp-openid. When you completely delete the plugin directory, and then visit the plugins page, does the same problem happen?</p>\n",
+    "text": ""
+  },
+  "wm-id": "15768",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wordpress-plugins-development-version/"
+}

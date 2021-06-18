@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Graeme Findlay",
+    "url": "http://graeme.findlay.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/6fbcf24a96eec368d7c15bb79d014302?d=404"
+  },
+  "url": "http://graeme.findlay.myopenid.com/",
+  "published": "2009-04-16T12:34:49-07:00",
+  "content": {
+    "html": "Any chance someone can check the posts on the WP forums? I've had a query up for 2 weeks with no response (not the only one with the same error).\r\n\r\nhttp://wordpress.org/support/topic/257773?replies=2\r\n\r\nHere's the content of my request:\r\n\r\nRunning OpenID 3.2.2 on WP 2.7.1.\r\n\r\nEvery time I try to add a new OpenID I get the message \"OpenIDloginfailed:Invalidopenid.modeNomodeset\".\r\n\r\nI'm logged into the MyOpenID site already and have used the id elsewhere without issues, so the id is valid and already logged in.\r\n\r\nHelp?",
+    "text": ""
+  },
+  "wm-id": "30714",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

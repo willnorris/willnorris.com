@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Rodolfo Zanzibar",
+    "url": "http://kirkh.myopenid.com/"
+  },
+  "url": "http://kirkh.myopenid.com/",
+  "published": "2007-12-13T02:33:32-08:00",
+  "content": {
+    "html": "<p>odd that I have to enter a Name as well as my openID to post a comment.  What is the point of an Open ID login if I still have to enter a name for the comment?</p>\n",
+    "text": ""
+  },
+  "wm-id": "15847",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

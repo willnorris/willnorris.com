@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Olivier",
+    "url": "http://www.lautre-monde.fr",
+    "photo": "https://www.gravatar.com/avatar/fc60441f13ee52d154786040e5f319b1?d=404"
+  },
+  "url": "http://www.lautre-monde.fr",
+  "published": "2009-11-17T11:38:11-08:00",
+  "content": {
+    "html": "<p>Hello,</p>\n\n<p>Great post however I am not really clear on how to deal with the :\nrequire_once('../../../wp-config.php');</p>\n\n<p>I need to use the get_option function to get the site url which I then use in an ajax call :\njQuery.post(\"/wp-admin/admin-ajax.php\"...</p>\n\n<p>I have been through the methods you suggest but I don't really understand. The codex describes the method to perform Ajax calls on the admin and frontend sides. You need to include the wp-config.php to get the site url... I fully agree on the fact that this may cause some problems if the installation uses non standard paths but I don't get from your note the way to deal with that... I should have missed something...</p>\n",
+    "text": ""
+  },
+  "wm-id": "38038",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files/"
+}

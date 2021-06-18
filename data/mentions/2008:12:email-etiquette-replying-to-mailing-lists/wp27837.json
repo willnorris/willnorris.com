@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "http://singpolyma.net/",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "http://singpolyma.net/",
+  "published": "2008-12-27T19:43:26-08:00",
+  "content": {
+    "html": "This is indeed annoying.  In line with those who do this, are those who just dump their \"reply\" at the top of a message and leave *the whole thread* in reverse order, at the bottom.  The amount of time I spend scrolling down to find what they're replying to, guessing at it half the time, then coming back up, is atrocious.  If people would just put their reply content right after the sections they reply to (aka intermixing) it would save me at least an hour each day.\r\n\r\n*sigh* too much bad netiquette these days.",
+    "text": ""
+  },
+  "wm-id": "27837",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/12/email-etiquette-replying-to-mailing-lists/"
+}

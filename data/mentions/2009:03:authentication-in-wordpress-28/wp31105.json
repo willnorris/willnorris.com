@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "HealthMatters | WordPress Plugins News: Coffee2Code Plugin Marathon, Plugin Podcast, Plugin Developer Center, Plugin Checklist",
+    "url": "http://healthontap.com/wordpress-plugins-news-coffee2code-plugin-marathon-plugin-podcast-plugin-developer-center-plugin-checklist"
+  },
+  "url": "http://healthontap.com/wordpress-plugins-news-coffee2code-plugin-marathon-plugin-podcast-plugin-developer-center-plugin-checklist",
+  "published": "2009-05-10T07:48:06-07:00",
+  "content": {
+    "html": "[...] Will Norris &#8211; Authentication in WordPress 2.8 [...]",
+    "text": ""
+  },
+  "wm-id": "31105",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

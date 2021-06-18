@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Where we&#8217;re going with Activity Streams | FactoryCity",
+    "url": "http://factoryjoe.com/blog/2008/12/20/where-were-going-with-activity-streams/"
+  },
+  "url": "http://factoryjoe.com/blog/2008/12/20/where-were-going-with-activity-streams/",
+  "published": "2008-12-20T16:38:03-08:00",
+  "content": {
+    "html": "[...] DiSo Project is just over a year old. It&#8217;s remained a somewhat amorphous blob of related ideas, concepts and [...]",
+    "text": ""
+  },
+  "wm-id": "27528",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/12/diso-one-year-later/"
+}

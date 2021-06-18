@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-10-23T18:56:25-07:00",
+  "content": {
+    "html": "<p>[quote comment=\"13788\"]</p>\n\n<p>The plugin doesn't seem to work with http:// OpenIDs that delegate to https:// OpenIDs either.  XRIs work great though. Thanks!</p>\n\n<p>[/quote]\nTurns out it was a problem with the CA cert bundle in libcurl.  I've had the good folks at Joyent update that and it seems to work fine.  See new FAQ item in http://svn.wp-plugins.org/openid/trunk/readme.txt</p>\n",
+    "text": ""
+  },
+  "wm-id": "14044",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

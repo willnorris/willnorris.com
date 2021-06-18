@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-07-07T19:34:29-07:00",
+  "content": {
+    "html": "<p>@mklprc: While I agree that sometimes the phone support folks aren't as knowledgeable as one might like, that really wasn't the case here.  Because my line had been physically disconnected, there really was nothing that could be done to troubleshoot my modem remotely.  If anything, that would be another thing that should be added to Comcast's internal support system.  Why wasn't the technician doing phone support not able to pull up all recent service requests for my address?  If he had been able to, he would have clearly seen that a work order to disconnect service was recently performed.  Or perhaps he was able to do such a lookup, but failed to.  In that case, it would be a matter of training the phone techs better on what all they should check when troubleshooting an issue like this.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32401",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/07/maybe-comcast-really-does-care/"
+}

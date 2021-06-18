@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-03-24T19:00:57-07:00",
+  "content": {
+    "html": "no problem... I certainly don't mind people testing the plugin here, but for future folks please use <a href=\"http://willnorris.com/2007/02/unobtrusive-wpopenid\">this original post</a> to make test comments, just so they're all kept together.\r\n\r\nThanks.",
+    "text": ""
+  },
+  "wm-id": "1675",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/03/livejournal-syndication/"
+}

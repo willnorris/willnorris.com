@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Iwaruna.com &raquo; OpenID for comments in Iwaruna.com",
+    "url": "http://iwaruna.com/2007/08/12/openid-for-comments-in-iwarunacom/"
+  },
+  "url": "http://iwaruna.com/2007/08/12/openid-for-comments-in-iwarunacom/",
+  "published": "2007-08-12T19:47:16-07:00",
+  "content": {
+    "html": "[...] version. But for the sake of stability, I&#8217;ll stick with the released version for now, r13, so such accounts will be [...]",
+    "text": ""
+  },
+  "wm-id": "11478",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

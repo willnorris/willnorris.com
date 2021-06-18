@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "test",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/b642b4217b34b1e8d3bd915fc65c4452?d=404"
+  },
+  "url": "",
+  "published": "2008-07-28T16:36:30-07:00",
+  "content": {
+    "html": "test",
+    "text": ""
+  },
+  "wm-id": "22664",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

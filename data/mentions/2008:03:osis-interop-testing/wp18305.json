@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://is.test.wso2.org:12080/user/prabath",
+    "url": "http://is.test.wso2.org:12080/user/prabath",
+    "photo": "https://www.gravatar.com/avatar/9946e4fb0feffa9ea0f97081d5dc74c0?d=404"
+  },
+  "url": "http://is.test.wso2.org:12080/user/prabath",
+  "published": "2008-03-08T18:02:46-08:00",
+  "content": {
+    "html": "<p>Interop testing with WSO2 OpenID Provider</p>\n",
+    "text": ""
+  },
+  "wm-id": "18305",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

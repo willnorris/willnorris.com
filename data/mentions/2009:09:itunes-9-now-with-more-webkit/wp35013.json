@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "&raquo; iTunes 9: Closer To An API? MaisonBisson.com",
+    "url": "http://maisonbisson.com/blog/post/14080/itunes-9-closer-to-an-api/"
+  },
+  "url": "http://maisonbisson.com/blog/post/14080/itunes-9-closer-to-an-api/",
+  "published": "2009-09-16T18:59:23-07:00",
+  "content": {
+    "html": "<p>[...] Will Norris has discovered that iTunes 9&#8217;s interactions with the Store are more web-happy. I&#8217;ve been asking where the iTunes Store API was for some time, now I think I&#8217;ve got what I need to build one.      Others also read: Related:Do We Need A WordPress Common Invite or Challenge-Response API?stand alone AppleTV?EMI and Apple/iTunes To Offer DRM-Free Music DownloadsiTunes Music Store API?Do Facebook Ads Work? [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "35013",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

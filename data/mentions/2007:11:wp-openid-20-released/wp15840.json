@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Social Networking: un enorme social network chiamato Web (Parte 2) | Stalkk.ed",
+    "url": "http://www.stalkked.com/2007/12/12/social-networking-un-enorme-social-network-chiamato-web-parte-2/"
+  },
+  "url": "http://www.stalkked.com/2007/12/12/social-networking-un-enorme-social-network-chiamato-web-parte-2/",
+  "published": "2007-12-12T21:38:41-08:00",
+  "content": {
+    "html": "<p>[...] questo plugin od una sua versione modificata); 4) Infine, sul mio blog installo un altro plugin (wp-openid 2.0), il quale mi consente di utilizzare OpenID per autenticare commenti (oltre che accessi) [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "15840",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

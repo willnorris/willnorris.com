@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "dvbportal",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/56b752853febf728d68368b5b4a7184d?d=404"
+  },
+  "url": "",
+  "published": "2009-09-20T20:15:57-07:00",
+  "content": {
+    "html": "<p>Nice find. I've taken the idea and setup a proxy to make the necessary adaption on the fly. Most iTunes 9 pages work this way.</p>\n\n<p><a href=\"http://itunes-proxy.jgate.de/ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1\">Browse iTunes Store via proxy</a></p>\n",
+    "text": ""
+  },
+  "wm-id": "35246",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2008-06-27T22:06:03-07:00",
+  "content": {
+    "html": "@Blaenk:  regarding your users being unable to authenticate... deactivate the plugin, go to your permalinks setting page and click \"save changes\" (you don't actually need to change anything), then reactivate the plugin.\r\n\r\n<s>There is also something messed up with your own OpenID that is preventing discovery from succeeding... not sure exactly what, just yet.</s>\r\n\r\nErr, I remember what it was now.  Your <a href=\"http://www.blaenkdenum.com/xrds\">advertised XRDS document</a> is only served up when \"accept: application/xrds+xml\" is included in the request.  This should not be necessary.  I think you're mixing the following two discovery methods:\r\n\r\n - a request with \"accept: application/xrds+xml\" to your OpenID itself should return your XRDS document\r\n - a plain request to your advertised X-XRDS-Location should return your XRDS document without any special headers",
+    "text": ""
+  },
+  "wm-id": "21660",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-11-07T23:25:12-08:00",
+  "content": {
+    "html": "<p>[quote comment=\"14707\"]</p>\n\n<p>BTW, there is at least another WordPress plugin which proves full text feeds: http://cavemonkey50.com/code/full-feed/</p>\n\n<p>[/quote]</p>\n\n<p>doh!  I thought I had searched first... guess not.  In that case, go use CaveMonkey's plugin... no point in having duplicate plugins.  Thanks Carsten!</p>\n",
+    "text": ""
+  },
+  "wm-id": "14708",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/new-wordpress-plugin-fullfeed/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2010-01-02T01:16:36-08:00",
+  "content": {
+    "html": "<p>XRIs had already proven that (i.e. my i-name is <em>=willnorris</em>)... it's just had trouble catching on.  And EAUT is effectively dead, in name only though, not in the concept.  See <a href=\"http://webfinger.info/\">webfinger.info</a>.</p>\n",
+    "text": ""
+  },
+  "wm-id": "39436",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/identity-and-identifiers/"
+}

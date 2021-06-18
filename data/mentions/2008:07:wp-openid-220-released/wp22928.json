@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://yeleleo.livejournal.com/",
+    "url": "http://yeleleo.livejournal.com/",
+    "photo": "https://www.gravatar.com/avatar/de526712b0c82a63dc91e19fcb2da87f?d=404"
+  },
+  "url": "http://yeleleo.livejournal.com/",
+  "published": "2008-08-05T18:23:08-07:00",
+  "content": {
+    "html": "Hey, Will! \r\nI have a problem with this plug-in\r\nThis is a message, what I have: <b>Plugin could not be activated because it triggered a fatal error.</b>\r\n\r\nAt the same time plug-in status is activated, but there are two more messages after attempt to log in using openid:\r\n<b>Warning: constant(): Couldn\\'t find constant PEAR_LOG_WARNING in /home/www/yeleleo.co.uk/blog/wp-content/plugins/openid/core.php on line 58\r\n\r\nFatal error: Call to a member function on a non-object in /home/www/yeleleo.co.uk/blog/wp-content/plugins/openid/core.php on line 59</b>\r\n\r\nPlease help me to fix this problem.. Blog here http://yeleleo.co.uk/blog/\r\nThanks!",
+    "text": ""
+  },
+  "wm-id": "22928",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

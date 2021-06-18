@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-12-07T17:40:26-08:00",
+  "content": {
+    "html": "<p>first of all, the <a href=\"http://sourceforge.net/projects/wpopenid/\">sourceforge project</a> is completely replaced by the <a href=\"http://wordpress.org/extend/plugins/openid/\">wordpress.org project</a>.  All development effort (including by the original plugin author) is being done on the wordpress.org plugin.  first, delete any versions of either plugins you have, and do a clean install of the latest wp-openid (currently 2.1.2).  Does that work for  you?</p>\n\n<p>If not, what do you mean by \"it wants to download plugins.php\"?</p>\n",
+    "text": ""
+  },
+  "wm-id": "15718",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wordpress-plugins-development-version/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-06-02T00:33:07-07:00",
+  "content": {
+    "html": "well, sure I **could** (or use mod_rewrite like Joseph suggests).  But it would be much easier if people would just fix their plugins.",
+    "text": ""
+  },
+  "wm-id": "31514",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/05/wordpress-plugin-pet-peeve-hardcoding-wp-content/"
+}

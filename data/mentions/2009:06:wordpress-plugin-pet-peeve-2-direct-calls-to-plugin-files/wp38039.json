@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Olivier",
+    "url": "http://www.lautre-monde.fr",
+    "photo": "https://www.gravatar.com/avatar/fc60441f13ee52d154786040e5f319b1?d=404"
+  },
+  "url": "http://www.lautre-monde.fr",
+  "published": "2009-11-17T11:41:25-08:00",
+  "content": {
+    "html": "<p>Sorry, I see that my comment has been truncated. Before the admin-ajax call, I am echoing the site_url path.</p>\n",
+    "text": ""
+  },
+  "wm-id": "38039",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files/"
+}

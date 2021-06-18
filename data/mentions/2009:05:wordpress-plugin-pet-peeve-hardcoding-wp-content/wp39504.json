@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WPBook 1.4 Released | Open Parenthesis",
+    "url": "http://www.openparenthesis.org/2010/01/04/wpbook-1-4-released"
+  },
+  "url": "http://www.openparenthesis.org/2010/01/04/wpbook-1-4-released",
+  "published": "2010-01-04T15:20:36-08:00",
+  "content": {
+    "html": "<p>[...] Removed hard coded references to wp-content and plugins directories (See http://willnorris.com/2009/05/wordpress-plugin-pet-peeve-hardcoding-wp-content) [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "39504",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/05/wordpress-plugin-pet-peeve-hardcoding-wp-content/"
+}

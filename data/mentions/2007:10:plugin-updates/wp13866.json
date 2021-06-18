@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "TheFire",
+    "url": "http://thefire.us/"
+  },
+  "url": "http://thefire.us/",
+  "published": "2007-10-18T12:22:02-07:00",
+  "content": {
+    "html": "<p>I recently did a fresh install of wp-openid on top of a fresh wordpress 2.3 installation. I was able to get it working, but had to manually create the database as others have. There was some trouble with the SQL for setting the primary keys that caused the entire operation to fail. Easy enough with phpMySQL, but not user friendly.</p>\n",
+    "text": ""
+  },
+  "wm-id": "13866",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

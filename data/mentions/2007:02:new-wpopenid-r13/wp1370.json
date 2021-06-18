@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mark Szpakowski",
+    "url": "http://xri.net/=mark.szpakowski",
+    "photo": "https://www.gravatar.com/avatar/46d28d4acfcd0e9ef458ec76f3795577?d=404"
+  },
+  "url": "http://xri.net/=mark.szpakowski",
+  "published": "2007-03-01T19:03:03-08:00",
+  "content": {
+    "html": "Okay, I upgraded my MacOS X System with <a href=\"http://www.entropy.ch/software/macosx/php/\">Marc Liyanage's PHP 5.2.1 installer</a>, and after fixing a bug WordPress has with 5.2.1 (I used <a href=\"http://trac.wordpress.org/ticket/3354\">Denis-de-Bernardy's solution</a> which patches functions.php), wpopenid-r13 works exactly as it should, including being able to resolve the Identitiy Provider for iNames.\r\n\r\nWonderful!",
+    "text": ""
+  },
+  "wm-id": "1370",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

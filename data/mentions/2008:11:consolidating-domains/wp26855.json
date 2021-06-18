@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "CanyonR",
+    "url": "http://canyonr.com/",
+    "photo": "https://www.gravatar.com/avatar/8f2e084699f11f30d7664a2d2182ab36?d=404"
+  },
+  "url": "http://canyonr.com/",
+  "published": "2008-12-04T02:46:48-08:00",
+  "content": {
+    "html": "the .net gTLD, according to the Wikibrain, \"was initially intended to be used only for the computers of network providers (such as Internet service providers)\".\r\n\r\nhttp://en.wikipedia.org/wiki/.net",
+    "text": ""
+  },
+  "wm-id": "26855",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/11/consolidating-domains/"
+}

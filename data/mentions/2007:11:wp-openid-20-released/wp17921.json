@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2008-02-28T18:26:41-08:00",
+  "content": {
+    "html": "<p>@Divided By Zero: this should be the default behavior of the plugin... you shouldn't need to manually change your template at all, that is handled by some jQuery code on the client side.  It does require that you NOT select \"Users must be registered and logged in to comment\", which is pretty typical.</p>\n",
+    "text": ""
+  },
+  "wm-id": "17921",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

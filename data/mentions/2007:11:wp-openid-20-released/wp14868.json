@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-11-12T05:23:54-08:00",
+  "content": {
+    "html": "<p>@RN3AOH: That is now how the plugin behaves all the time... accounts are <em>never</em> created when leaving comments.  See my previous post about <a href=\"http://willnorris.com/2007/10/wp-openid-intelligent-defaults\">intelligent defaults</a>.</p>\n",
+    "text": ""
+  },
+  "wm-id": "14868",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

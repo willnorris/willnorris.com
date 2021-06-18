@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mark",
+    "url": "http://orbum.net/mark/",
+    "photo": "https://www.gravatar.com/avatar/e50f4402cd331b7e9de1dd81c2f918f6?d=404"
+  },
+  "url": "http://orbum.net/mark/",
+  "published": "2008-12-14T08:39:08-08:00",
+  "content": {
+    "html": "I just updated three different Wordpress installations that were using your OpenID plugin, to Wordpress version 2.7. I've seen no problem with it.\r\n\r\nThanks yet again Will for all your work on this... It's greatly appreciated.",
+    "text": ""
+  },
+  "wm-id": "27278",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

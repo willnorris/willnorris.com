@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "OAuth, OpenID, XMPP with WordPress | ../learninglab/joss",
+    "url": "http://joss.blogs.lincoln.ac.uk/2009/03/12/oauth-openid-xmpp-with-wordpress/"
+  },
+  "url": "http://joss.blogs.lincoln.ac.uk/2009/03/12/oauth-openid-xmpp-with-wordpress/",
+  "published": "2009-05-27T11:17:09-07:00",
+  "content": {
+    "html": "[...] on, OAuth functionality for WordPress is still in development but the latest code from the SVN trunks of both the DiSo plugin and [...]",
+    "text": ""
+  },
+  "wm-id": "31436",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

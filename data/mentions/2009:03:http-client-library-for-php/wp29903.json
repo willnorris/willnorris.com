@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-03-20T01:13:17-07:00",
+  "content": {
+    "html": "@Joseph: that's actually a really interesting idea, and looks like a decent implementation of it.  I think a trimmed down version of WP_Http would be a bit smaller though, and I like that it provides a clean interface to code against instead of just the curl functions.  But that's a really cool library!",
+    "text": ""
+  },
+  "wm-id": "29903",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/http-client-library-for-php/"
+}

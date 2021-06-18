@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Alejandro Torrado",
+    "url": "http://www.aletorrado.com.ar/blog/",
+    "photo": "https://www.gravatar.com/avatar/26165414fdb6b08f93aa8f30d2f6c8a2?d=404"
+  },
+  "url": "http://www.aletorrado.com.ar/blog/",
+  "published": "2007-11-22T13:43:36-08:00",
+  "content": {
+    "html": "<p>What can I do to make the plugin to accept also anonymous comments? Check it in my blog, only openid commenters are allowed.</p>\n",
+    "text": ""
+  },
+  "wm-id": "15301",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

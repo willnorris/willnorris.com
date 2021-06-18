@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "sxalexander",
+    "url": "http://sxalexander.myvidoop.com/",
+    "photo": "https://www.gravatar.com/avatar/377e59815b7b7d6dfc23c808f0d07f05?d=404"
+  },
+  "url": "http://sxalexander.myvidoop.com/",
+  "published": "2007-10-25T22:46:45-07:00",
+  "content": {
+    "html": "<p>Awesome work, this is just the kind of thing the community needs.</p>\n\n<p>It would make a great starting point for the kind of community-driven provider comparison site that has been talked about on the lists.</p>\n\n<p>As 2.0 gets closer to ratification, I look forward to seeing how fast things actually get adopted.</p>\n",
+    "text": ""
+  },
+  "wm-id": "14156",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/how-well-does-your-openid-provider-stack-up/"
+}

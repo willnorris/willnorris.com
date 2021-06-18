@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Zdravko Stoychev",
+    "url": "http://www.dakospace.net/openid/",
+    "photo": "https://www.gravatar.com/avatar/601598e4854552693c969904fa4ce48c?d=404"
+  },
+  "url": "http://www.dakospace.net/openid/",
+  "published": "2007-12-04T11:00:43-08:00",
+  "content": {
+    "html": "<p>testing openid</p>\n",
+    "text": ""
+  },
+  "wm-id": "15631",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

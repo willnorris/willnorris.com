@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2008-06-05T20:59:05-07:00",
+  "content": {
+    "html": "<p>@philsblogging: uhm, that's already possible.  Once you're logged in, go to your profile page and click on \"Your Identity URLs\".</p>\n",
+    "text": ""
+  },
+  "wm-id": "20929",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

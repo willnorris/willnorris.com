@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-03-11T07:38:09-07:00",
+  "content": {
+    "html": "There is definitely a little bit I left out because it wasn't necessarily relevant to the post... `wp_authenticate` is sort of a manager for your backend authentication methods.  Rather than switching out one for another as you describe, you basically add your authentication method somewhere in the chain and the first one to authenticate the user wins.\r\n\r\nDuring a typical user login flow, `wp_authenticate` is not called directly by the front-end handler.   Instead, `wp_signon` is responsible for taking the HTML form post from `wp-login.php`, calling `wp_authenticate` to validate the credentials, and then setting the authentication cookie for the user.  When using OAuth with XML-RPC, `wp_authenticate` is called directly (with an empty username and password), so there is no state management.\r\n\r\nThere are probably still a few unnecessary layers in the WordPress authentication code as a result of multiple redesigns in the past.  I'm sure those will get cleaned out at some point after they've been formally deprecated for a time, but it's really not too bad now.  For basic auth, you'd just have a custom frontend handler that calls `wp_authenticate`, but doesn't bother with the session cookie.\r\n\r\n\r\nAs for the problem of users versus applications authenticating... I have definitely spent a lot of time thinking about this.  There are notes within the WordPress auth code that make reference to a conceptually distinct \"logged in user\" and \"current user\", though I can't actually find anywhere in the code where these are separated... perhaps just a remnant of an old design.  Right now the OAuth plugin simply authenticates the application as the user with full privileges... it's not ideal, but it's absolutely no worse than doing XML-RPC with the user's password.  However, because the WordPress permissions system is tied to the `WP_User` class, my plan is to create a custom `WP_User` subclass that has the ID of the actual user, but with limited permissions which match the scope of the OAuth token.  Having `wp_authenticate` simply return a `WP_User` object makes this very clean.",
+    "text": ""
+  },
+  "wm-id": "29627",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

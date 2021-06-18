@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "url": "http://vlad.sherkhan.kiev.ua"
+  },
+  "url": "http://vlad.sherkhan.kiev.ua",
+  "published": "2008-07-21T13:42:26-07:00",
+  "content": {
+    "html": "Your plug-in required testing... :-)\r\nOk?",
+    "text": ""
+  },
+  "wm-id": "22430",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

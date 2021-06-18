@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Redirecting without breaking OpenID &laquo; Haris bin Ali @ qedx.com",
+    "url": "http://qedx.com/blog/redirecting-without-breaking-openid/2009/01/07/"
+  },
+  "url": "http://qedx.com/blog/redirecting-without-breaking-openid/2009/01/07/",
+  "published": "2009-01-06T19:58:10-08:00",
+  "content": {
+    "html": "[...] as my OpenID and just doing a regular redirect broke that. I googled it up and found this post by Will Norris. His is based on WordPress though, so I had to adjust it a bit since my origin point (qedx.com) is [...]",
+    "text": ""
+  },
+  "wm-id": "28192",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/12/challenges-in-changing-my-openid/"
+}

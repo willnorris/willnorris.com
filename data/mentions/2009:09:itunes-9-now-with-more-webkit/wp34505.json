@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chris",
+    "url": "http://www.chrisbolt.com/",
+    "photo": "https://www.gravatar.com/avatar/6f800fb62bece51df2d43fa6b36858fe?d=404"
+  },
+  "url": "http://www.chrisbolt.com/",
+  "published": "2009-09-09T22:35:40-07:00",
+  "content": {
+    "html": "<p>Protip:  is much faster than making all of the URLs absolute.</p>\n",
+    "text": ""
+  },
+  "wm-id": "34505",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

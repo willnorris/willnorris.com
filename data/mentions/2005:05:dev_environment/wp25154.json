@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress MU in a development environment",
+    "url": "http://willnorris.com/2008/09/wordpress-mu-in-a-development-environment"
+  },
+  "url": "http://willnorris.com/2008/09/wordpress-mu-in-a-development-environment",
+  "published": "2008-09-19T05:44:49-07:00",
+  "content": {
+    "html": "[...] quite a few WordPress instances running on my local workstation. I&#8217;ve been using the same custom Apache setup for three years, and have been developing on WordPress for almost as long, so I&#8217;ve been a bit [...]",
+    "text": ""
+  },
+  "wm-id": "25154",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2005/05/dev_environment/"
+}

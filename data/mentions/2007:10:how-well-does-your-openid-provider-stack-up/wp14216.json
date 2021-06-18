@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "The e-enabled Association &raquo; OpenID - Ready for Prime Time?",
+    "url": "http://www.e-ssociation.net/blog/?p=16"
+  },
+  "url": "http://www.e-ssociation.net/blog/?p=16",
+  "published": "2007-10-27T08:14:05-07:00",
+  "content": {
+    "html": "<p>[...] comparison sites are the obvious answer to assisting in choice of OP.  A recent post by Will Norris shows one aspect of this. In addition to this type of functional comparison, the trust issue needs [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "14216",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/10/how-well-does-your-openid-provider-stack-up/"
+}

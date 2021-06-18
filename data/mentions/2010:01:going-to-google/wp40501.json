@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Joseph Scott",
+    "url": "http://josephscott.org/",
+    "photo": "https://www.gravatar.com/avatar/582b66ad5ae1b69c7601a990cb9a661a?d=404"
+  },
+  "url": "http://josephscott.org/",
+  "published": "2010-01-26T17:27:12-08:00",
+  "content": {
+    "html": "<p>Congrats Will!</p>\n",
+    "text": ""
+  },
+  "wm-id": "40501",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2005-11-26T05:51:04-08:00",
+  "content": {
+    "html": "I actually had a less literal and more spiritual interpretation in mind. (hence the lyrics)",
+    "text": ""
+  },
+  "wm-id": "33",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/11/deliver-me/"
+}

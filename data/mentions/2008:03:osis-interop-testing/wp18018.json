@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Alcides Fonseca",
+    "url": "http://alcidesfonseca.com/",
+    "photo": "https://www.gravatar.com/avatar/7be4c0c0cd5cd9eef3a3a414bdfad3e8?d=404"
+  },
+  "url": "http://alcidesfonseca.com/",
+  "published": "2008-03-03T19:28:18-08:00",
+  "content": {
+    "html": "<p>teste (myopenid.com)</p>\n",
+    "text": ""
+  },
+  "wm-id": "18018",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

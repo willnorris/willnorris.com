@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8 Tips and Tricks Collection | pc-aras",
+    "url": "http://pc-aras.com/en/2009/06/11/wordpress-2-8-tips-and-tricks-collection/"
+  },
+  "url": "http://pc-aras.com/en/2009/06/11/wordpress-2-8-tips-and-tricks-collection/",
+  "published": "2009-06-11T13:34:24-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 – Will Norris [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31879",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

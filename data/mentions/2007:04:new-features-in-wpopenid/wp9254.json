@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-06-14T17:01:56-07:00",
+  "content": {
+    "html": "[quote comment=\"9245\"]Hi Will, just trying to install your plugin on <a href=\"http://www.otterstedt.de/wordpress/\">my blog</a>. It doesn't work at the moment. I suppose because of my theme, but I want to make sure it's not because of my openid-server.[/quote]\r\nwithout knowing what is actually wrong, I can't do much.  Either email me off-site or add a topic <a href=\"http://www.wordpress.org/support\">here</a> (and make sure to tag it \"openid\" so I'll see it).",
+    "text": ""
+  },
+  "wm-id": "9254",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

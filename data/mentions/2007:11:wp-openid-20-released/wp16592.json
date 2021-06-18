@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Wordpress, FOAF, OpenID - updated : Alexandre Passant",
+    "url": "http://apassant.net/blog/2008/01/06/wordpress-foaf-openid-updated/"
+  },
+  "url": "http://apassant.net/blog/2008/01/06/wordpress-foaf-openid-updated/",
+  "published": "2008-01-06T12:15:22-08:00",
+  "content": {
+    "html": "<p>[...] openid plug-in for Wordpress is now stable (I made the experiments on svn versions), so here&#8217;s the piece of code that retrieves profiles [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "16592",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

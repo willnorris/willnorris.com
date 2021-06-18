@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Diso - OpenID and beyond in Wordpress : Rohan&#8217;s blog",
+    "url": "http://os.mih.com/blogs/rstrydom/2007/12/11/diso-openid-and-beyond-in-wordpress/"
+  },
+  "url": "http://os.mih.com/blogs/rstrydom/2007/12/11/diso-openid-and-beyond-in-wordpress/",
+  "published": "2007-12-11T15:17:57-08:00",
+  "content": {
+    "html": "<p>[...] anyway, we’re using Will Norris’ wp-openid plugin, and when someone leaves a comment on one of our blogs using OpenID, and whose OpenID happens to be [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "15811",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "monkinetic | Blog Archive &raquo; DiSo Update",
+    "url": "http://redmonk.net/archives/2007/12/11/diso-update/"
+  },
+  "url": "http://redmonk.net/archives/2007/12/11/diso-update/",
+  "published": "2007-12-11T15:35:49-08:00",
+  "content": {
+    "html": "<p>[...] Norris, author of the Wordpress OpenID plugin, announced yesterday that wp-openid is coming under the DiSo Project. Woo! As happy as I am to have Will&#8217;s awesome contribution, it makes a lot of sense too [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "15812",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/12/wp-openid-moving-to-diso/"
+}

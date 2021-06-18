@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress OpenID v3.0",
+    "url": "http://willnorris.com/2008/10/wordpress-openid-v3"
+  },
+  "url": "http://willnorris.com/2008/10/wordpress-openid-v3",
+  "published": "2008-10-02T01:44:36-07:00",
+  "content": {
+    "html": "[...] happy to announce that version 3.0 of the WordPress OpenID plugin is now available. As previously mentioned, there are a lot of new features in this [...]",
+    "text": ""
+  },
+  "wm-id": "25468",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/09/the-next-steps-with-wp-openid/"
+}

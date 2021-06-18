@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Moving to San Francisco",
+    "url": "http://willnorris.com/2008/06/moving-to-san-francisco"
+  },
+  "url": "http://willnorris.com/2008/06/moving-to-san-francisco",
+  "published": "2008-06-28T17:54:49-07:00",
+  "content": {
+    "html": "[...] I&#8217;ve previously mentioned, I started a new job at Vidoop a month or so ago which will have Elisabeth and I moving to San [...]",
+    "text": ""
+  },
+  "wm-id": "21692",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/05/why-im-going-to-vidoop/"
+}

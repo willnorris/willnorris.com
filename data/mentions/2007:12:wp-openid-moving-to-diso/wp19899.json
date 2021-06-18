@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Victor",
+    "url": "http://victor.openid.se/",
+    "photo": "https://www.gravatar.com/avatar/0d90a04dcb666a41f3085129e6e88391?d=404"
+  },
+  "url": "http://victor.openid.se/",
+  "published": "2008-05-04T10:00:20-07:00",
+  "content": {
+    "html": "<p>After login (openid provider) I get error message (wordpress)\nWe were unable to authenticate your OpenID</p>\n",
+    "text": ""
+  },
+  "wm-id": "19899",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wp-openid-moving-to-diso/"
+}

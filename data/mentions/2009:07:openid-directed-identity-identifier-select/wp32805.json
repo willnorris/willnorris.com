@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "John Bradley",
+    "url": "http://www.thread-safe.com/",
+    "photo": "https://www.gravatar.com/avatar/ca78772eb9e5632b057c16ddb4d2c495?d=404"
+  },
+  "url": "http://www.thread-safe.com/",
+  "published": "2009-08-01T20:08:35-07:00",
+  "content": {
+    "html": "<p>Delegation only half supports multiple personas.</p>\n\n<p>It makes it slightly harder for people to correlate but it doesn't stop correlation.   That was never part of the delegation use case.</p>\n\n<p>To avoid correlation you need totally separate openIDs or better pairwise identifiers as Will has described.</p>\n\n<p>Delegation supports some measure of OP independence if you control your URI.   It also allows for a measure of OP redundancy/fault tolerance at RP's that properly support XRDS.</p>\n\n<p>I suspect delegation will become a smaller percentage of logins as the large OPs start taking more of the market.   I would be happy to be wrong about that.</p>\n\n<p>John B.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32805",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/07/openid-directed-identity-identifier-select/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Nik Cubrilovic",
+    "url": "http://www.nik.com.au",
+    "photo": "https://www.gravatar.com/avatar/44b1373598c5ce6c8a12be8d45a5391d?d=404"
+  },
+  "url": "http://www.nik.com.au",
+  "published": "2007-03-01T20:27:50-08:00",
+  "content": {
+    "html": "The issue here is that they actually know what your password is, meaning it is stored somewhere on their end in plain-text. Forgetting your password should always be a secondary auth and reset procedure rather than what you see here..",
+    "text": ""
+  },
+  "wm-id": "1373",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/strong-authentication-and-emailing-passwords/"
+}

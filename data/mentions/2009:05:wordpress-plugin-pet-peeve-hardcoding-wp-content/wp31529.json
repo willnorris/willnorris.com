@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress Plugin Pet Peeve #2: Direct Calls to Plugin Files &#8212; Will Norris",
+    "url": "http://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files"
+  },
+  "url": "http://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files",
+  "published": "2009-06-02T20:05:51-07:00",
+  "content": {
+    "html": "[...] Will Norris Thoughts on Identity, OpenID, WordPress, and Life   Skip to content BlogAboutProjectsArchives       &laquo; WordPress Plugin Pet Peeve #1: Hardcoding wp-content [...]",
+    "text": ""
+  },
+  "wm-id": "31529",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/05/wordpress-plugin-pet-peeve-hardcoding-wp-content/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http-mooncross.livejournal.com-",
+    "url": "http://mooncross.livejournal.com/",
+    "photo": "https://www.gravatar.com/avatar/1ec4c49f5f4bfcedec3baa0323b8a388?d=404"
+  },
+  "url": "http://mooncross.livejournal.com/",
+  "published": "2007-07-24T19:44:00-07:00",
+  "content": {
+    "html": "(trying out to see if I get OpenId working here...)\r\n\r\nI've installed revision 11698 of wpopenid+ and am running the latest WP2.2.1 version. I can get the blog address accepted with Livejournal, but when LJ tries to take me back to the blog, I keep getting the main login screen. This happens in any of the fields where I can use OpenID (login screen, register screen, default sidebar, comment form). I feel like I'm thisclose to getting it to work so it's a bit frustrating... Am I missing something, or is it just an incompatibility with 2.2.1?",
+    "text": ""
+  },
+  "wm-id": "10591",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

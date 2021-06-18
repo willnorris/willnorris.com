@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Identity and Identifiers &#8212; Will Norris",
+    "url": "http://willnorris.com/2010/01/identity-and-identifiers"
+  },
+  "url": "http://willnorris.com/2010/01/identity-and-identifiers",
+  "published": "2010-01-01T21:23:18-08:00",
+  "content": {
+    "html": "<p>[...] identity online, and how OpenID delegation fit into that picture. Seeing the potential for this, I grabbed will.norris.name on the very first day. It wasn&#8217;t long before I started using this new URL as [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "39429",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/02/free-your-id/"
+}

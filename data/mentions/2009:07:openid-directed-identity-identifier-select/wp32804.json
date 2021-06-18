@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-08-01T19:51:59-07:00",
+  "content": {
+    "html": "<p>@Aswath: I'm not sure I entirely follow your point.  First of all, I'm pretty sure you mean \"identifier select\" when you are saying \"directed identity\" (ironic, given the whole point of this post -- to clarify the difference).  MyVidoop has never implemented directed identity. It does however support \"identifier select\", enabling users to just enter \"myvidoop.com\" in an OpenID field rather than their full OpenID URL.</p>\n\n<p>You mention using delegation to address your desire for multiple personas.  Sure, that can certainly work... you could maintain multiple OpenIDs that each delegate to an OpenID provider, perhaps different ones.  Delegation is outside the scope of this article however, since my goal was to differentiate between \"directed identity\" and \"identifier select\".  It is worth noting, however, that delegation is not possible with identifier select... perhaps a good topic for another post.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32804",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/07/openid-directed-identity-identifier-select/"
+}

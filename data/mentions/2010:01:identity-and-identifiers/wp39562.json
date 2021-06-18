@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Drummond Reed",
+    "url": "http://equalsdrummond.name",
+    "photo": "https://www.gravatar.com/avatar/ff384d1d8cc6e75d43b7f3918a9c503c?d=404"
+  },
+  "url": "http://equalsdrummond.name",
+  "published": "2010-01-06T03:00:13-08:00",
+  "content": {
+    "html": "<p>Great article Will. In the early days of OpenID I preached long and hard about the reassignable identifier problem (which the OpenID community generally calls the recyclable identifier problem). But folks were not too worried about it -- the general attitude was, \"We'll solve it when we get there.\"</p>\n\n<p>As your article describes, if you wait until you get there, it's too late ;-)</p>\n\n<p>Here's hoping the next generation of OpenID (the rumored OpenID v.next) gets non-recyclable identifier right.</p>\n\n<p>=Drummond</p>\n",
+    "text": ""
+  },
+  "wm-id": "39562",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/identity-and-identifiers/"
+}

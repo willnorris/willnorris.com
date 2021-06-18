@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "openmaru studio",
+    "url": "http://blog.openmaru.com/en/14"
+  },
+  "url": "http://blog.openmaru.com/en/14",
+  "published": "2007-10-10T07:03:18-07:00",
+  "content": {
+    "html": "<p><strong>Big kudos: OpenID.net relaunched!...</strong></p>\n\n<p>OpenID.net relaunched last night and should we call it \"pure beauty\"? It looks really nice! We know Open ID, in general, has needed something more \"average-user-friendly\" and what more could we want now with a site like this now? :) What amazed and...</p>\n",
+    "text": ""
+  },
+  "wm-id": "13640",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/new-openidnet/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen",
+    "url": "http://www.stephenhackett.com",
+    "photo": "https://www.gravatar.com/avatar/5acaacf7c1b264d0b56815799ac34dcb?d=404"
+  },
+  "url": "http://www.stephenhackett.com",
+  "published": "2006-11-05T01:05:18-08:00",
+  "content": {
+    "html": "<p>I am looking for that link, if I find it again, I'll send it your way.</p>\n\n<p>And yes, Skillet is amazing, as is their newest album.</p>\n",
+    "text": ""
+  },
+  "wm-id": "942",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2006/10/comatose/"
+}

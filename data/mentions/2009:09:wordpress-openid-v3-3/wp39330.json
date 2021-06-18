@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Michael Gracie",
+    "url": "http://michaelgracie.com",
+    "photo": "https://www.gravatar.com/avatar/206fe37a443480c92d08b634c03c5533?d=404"
+  },
+  "url": "http://michaelgracie.com",
+  "published": "2009-12-28T17:33:39-08:00",
+  "content": {
+    "html": "<p>Hey Will -</p>\n\n<p>Hope the holiday season is treating you right!</p>\n\n<p>I've been having problems with my provider, kind of like \"admin\" above.  Getting error \"Could not discover an OpenID identity server endpoint at the url: http://michaelgracie.com\" and have found Blogger and a couple of other Wordpress sites can't verify it either.  XRDS-Simple is in place, the links show in source, and /author/... point to the server.</p>\n\n<p>I can't be sure whether this started sometime during an OpenID upgrade, when I moved to 2.9, or when I started using WP-Super Cache, but those are the only changes that have happened.</p>\n\n<p>Any thoughts would be appreciated.</p>\n\n<p>Cheers,</p>\n\n<p>Michael</p>\n",
+    "text": ""
+  },
+  "wm-id": "39330",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/wordpress-openid-v3-3/"
+}

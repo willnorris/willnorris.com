@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chris Messina",
+    "url": "http://factoryjoe.com/",
+    "photo": "https://www.gravatar.com/avatar/8403e20f058363f718144dd51faa65a7?d=404"
+  },
+  "url": "http://factoryjoe.com/",
+  "published": "2007-10-12T23:23:23-07:00",
+  "content": {
+    "html": "<p>Awesome...! This is a great idea! I'll post this to the microformats list as well... makes complete sense.</p>\n",
+    "text": ""
+  },
+  "wm-id": "13710",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/openid-delegation-and-xfn/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Viper007Bond",
+    "url": "http://www.viper007bond.com/",
+    "photo": "https://www.gravatar.com/avatar/a5731d869dd8fcf8453f7491ab436f36?d=404"
+  },
+  "url": "http://www.viper007bond.com/",
+  "published": "2009-03-11T09:36:42-07:00",
+  "content": {
+    "html": "Thanks for the read. Very interesting and good to know.",
+    "text": ""
+  },
+  "wm-id": "29630",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

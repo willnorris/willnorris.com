@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "James Henstridge",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/9d9b7698c26959f57c0e3814005b8b52?d=404"
+  },
+  "url": "",
+  "published": "2008-10-17T09:31:48-07:00",
+  "content": {
+    "html": "The wpopenid install on blogs.gnome.org is not problem free though.  I don't think the problems are WPMu related though.\r\n\r\nTrying to use the OpenID Provider portion of wpopenid fails for many relying parties due to a bad interaction with the Bad Behaviour plugin.  If an RP initiates the authentication process through a form post rather than a redirect, BB blocks the request because it is an off site form post.\r\n\r\nI'd imagine a similar problem could occur in wpopenid's RP half if the remote OP sent its response as a form post.\r\n\r\nI've got no idea if this is something that can be addressed in wpopenid, or if it needs to be fixed in Bad Behaviour.",
+    "text": ""
+  },
+  "wm-id": "25731",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

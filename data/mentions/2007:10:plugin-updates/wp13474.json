@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mr. Gunn",
+    "url": "http://williamgunn.org/",
+    "photo": "https://www.gravatar.com/avatar/dd180bbb9fdc0c5692f2428e3a9ad008?d=404"
+  },
+  "url": "http://williamgunn.org/",
+  "published": "2007-10-06T22:20:55-07:00",
+  "content": {
+    "html": "<p>Thanks, Mr. Norris!  That did the trick.  Still has issues with the \"Live Commenting\" feature of K2, but you probably know that.</p>\n",
+    "text": ""
+  },
+  "wm-id": "13474",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

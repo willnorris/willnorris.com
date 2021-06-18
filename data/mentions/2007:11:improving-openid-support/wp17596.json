@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "https://me.yahoo.com/b1ad3.runn3r#c1afb",
+    "url": "https://me.yahoo.com/b1ad3.runn3r#c1afb"
+  },
+  "url": "https://me.yahoo.com/b1ad3.runn3r#c1afb",
+  "published": "2008-02-15T07:06:26-08:00",
+  "content": {
+    "html": "<p>test</p>\n",
+    "text": ""
+  },
+  "wm-id": "17596",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/improving-openid-support/"
+}

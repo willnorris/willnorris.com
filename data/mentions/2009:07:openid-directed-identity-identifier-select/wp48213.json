@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Ronald Widha &raquo; Blog Archive &raquo; Why Facebook linked accounts doesn&rsquo;t work with my OpenID provider",
+    "url": "http://www.ronaldwidha.net/2010/10/08/why-facebook-linked-accounts-doesnt-work-with-my-openid-provider/"
+  },
+  "url": "http://www.ronaldwidha.net/2010/10/08/why-facebook-linked-accounts-doesnt-work-with-my-openid-provider/",
+  "published": "2010-10-08T19:09:22-07:00",
+  "content": {
+    "html": "<p>[...] If you’re interested to learn what identifier select, check out Directed Identity vs Identifier Select. [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "48213",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/07/openid-directed-identity-identifier-select/"
+}

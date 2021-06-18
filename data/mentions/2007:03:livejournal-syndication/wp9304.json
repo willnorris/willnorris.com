@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Dan",
+    "url": "https://dan.signon.com/",
+    "photo": "https://www.gravatar.com/avatar/9bac3026fdda4c1993903c52165f549b?d=404"
+  },
+  "url": "https://dan.signon.com/",
+  "published": "2007-06-15T18:24:35-07:00",
+  "content": {
+    "html": "Just testing my brand spanking new OpenID!",
+    "text": ""
+  },
+  "wm-id": "9304",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/03/livejournal-syndication/"
+}

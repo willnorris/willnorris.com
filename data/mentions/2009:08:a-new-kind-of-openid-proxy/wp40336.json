@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Fred Trotter",
+    "url": "http://www.fredtrotter.com",
+    "photo": "https://www.gravatar.com/avatar/588ecab83eeb0b8f3dbdae29578c0b9f?d=404"
+  },
+  "url": "http://www.fredtrotter.com",
+  "published": "2010-01-21T17:17:27-08:00",
+  "content": {
+    "html": "<p>This \"salt-proxy\" idea is great. Has it been built yet? No URL and post is more than six months old...</p>\n\n<p>Any update?</p>\n\n<p>-FT</p>\n",
+    "text": ""
+  },
+  "wm-id": "40336",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/08/a-new-kind-of-openid-proxy/"
+}

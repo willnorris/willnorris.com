@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Sam Alexander",
+    "url": "http://salexander.myvidoop.com/",
+    "photo": "https://www.gravatar.com/avatar/377e59815b7b7d6dfc23c808f0d07f05?d=404"
+  },
+  "url": "http://salexander.myvidoop.com/",
+  "published": "2008-09-25T17:42:03-07:00",
+  "content": {
+    "html": "This is great. I've been working around the \"/site-root\" type links by prepending my own variables to them for a while now, now I can stop! #woopra",
+    "text": ""
+  },
+  "wm-id": "25360",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/05/dev_environment/"
+}

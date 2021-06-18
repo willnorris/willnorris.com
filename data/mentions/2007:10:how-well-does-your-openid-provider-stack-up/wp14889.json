@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Weston Triemstra",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/cb9c099e5189d30416ba1c41087f56f4?d=404"
+  },
+  "url": "",
+  "published": "2007-11-12T22:59:22-08:00",
+  "content": {
+    "html": "<p>Ah I see, you're right, the URI is not per spec. Did you try the demo the FAQ question pointed to? It might illustrate some of the UI issues and possibilities in the hCard discussion about how releasing public and private attributes can be addressed. AX could transfer the attributes which made up an hCard and then the relying party could choose to 'display' the attributes as an hCard (as Boris mentioned here: http://factoryjoe.com/blog/2007/11/01/hcard-for-openid-simple-registration-and-attribute-exchange/). AX provides the user with the ability to choose which attributes to release and doesn't release anything without their explicit consent. As you've pointed out elsewhere, when you add in support for personas, the user can then release a set of attributes representing an 'hCard' tailored for their current specific context, or release the set that makes up their public hCard.</p>\n",
+    "text": ""
+  },
+  "wm-id": "14889",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/how-well-does-your-openid-provider-stack-up/"
+}

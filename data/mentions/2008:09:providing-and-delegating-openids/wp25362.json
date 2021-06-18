@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Sam Alexander",
+    "url": "http://salexander.myvidoop.com/",
+    "photo": "https://www.gravatar.com/avatar/377e59815b7b7d6dfc23c808f0d07f05?d=404"
+  },
+  "url": "http://salexander.myvidoop.com/",
+  "published": "2008-09-25T18:08:17-07:00",
+  "content": {
+    "html": "Nice work, Will.  \r\n\r\nWith WordPress as an OP, OpenID users can pick and choose feature sets they want to support as they see fit.  Also, they can add and develop specs right along with the major OPs.",
+    "text": ""
+  },
+  "wm-id": "25362",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/providing-and-delegating-openids/"
+}

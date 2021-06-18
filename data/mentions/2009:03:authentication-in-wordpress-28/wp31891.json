@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "ericchua.com - Wordpress 2.8 Released",
+    "url": "http://ericchua.com/?p=84"
+  },
+  "url": "http://ericchua.com/?p=84",
+  "published": "2009-06-12T02:42:10-07:00",
+  "content": {
+    "html": "<p>[...] 2.8 Widget – WP Engineer * WordPress 2.8 and the body_class() Function – Nathan Rice * Authentication in WordPress 2.8 – Will Norris * Loading JavaScript in Footer in WordPress 2.8 – Lester Chan * WordPress 2.8 [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31891",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

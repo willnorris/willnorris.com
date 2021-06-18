@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2010-01-21T17:28:26-08:00",
+  "content": {
+    "html": "<p>Michael and I (okay, well mostly Michael) wrote a <a href=\"http://github.com/willnorris/openid-proxy\">really basic django app</a> in an afternoon that does most of the proxy stuff.  Nothing more has come of the idea since then, though I think it is still absolutely relevant.</p>\n",
+    "text": ""
+  },
+  "wm-id": "40337",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/08/a-new-kind-of-openid-proxy/"
+}

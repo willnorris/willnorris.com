@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2011-01-27T17:27:26-08:00",
+  "content": {
+    "html": "<p>I'll add, I don't actually agree 100% with Tantek's DiSo 2.0 concepts, but fortunately I don't have to.  There is still a lot of value to be gained in terms of data ownership with an 80% solution.</p>\n",
+    "text": ""
+  },
+  "wm-id": "53752",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2011/01/hum-personal-url-shortener-wordpress/"
+}

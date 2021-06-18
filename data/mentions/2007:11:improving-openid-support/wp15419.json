@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "john jones",
+    "url": "http://john.jones.name/",
+    "photo": "https://www.gravatar.com/avatar/34411057511597b593a7bc275ad9814f?d=404"
+  },
+  "url": "http://john.jones.name/",
+  "published": "2007-11-27T01:27:24-08:00",
+  "content": {
+    "html": "<p>Yes and I really wish your plugin would work !</p>\n\n<p>that is something that the community could really benefit from a working openid plugin for wordpress</p>\n\n<p>John</p>\n",
+    "text": ""
+  },
+  "wm-id": "15419",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/improving-openid-support/"
+}

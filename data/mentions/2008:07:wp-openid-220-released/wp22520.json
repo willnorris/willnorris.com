@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2008-07-24T17:02:57-07:00",
+  "content": {
+    "html": "@Dennis: do you have big integer support on your server?  On the WP-OpenID config page, click \"Toggle More/Less\" and look for red failures\r\n\r\n@Chris: not sure why your comment doesn't show as having been OpenID authenticated... did it take you through the EAUT flow?  I just tried and it seemed to work okay.",
+    "text": ""
+  },
+  "wm-id": "22520",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

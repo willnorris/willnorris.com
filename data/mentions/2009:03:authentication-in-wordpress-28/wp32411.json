@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "&raquo; WordPress Plugins News: Coffee2Code Plugin Marathon, Plugin Podcast, Plugin Developer Center, Plugin Checklist",
+    "url": "http://www.biokomputasi.com/siymat/?p=23"
+  },
+  "url": "http://www.biokomputasi.com/siymat/?p=23",
+  "published": "2009-07-08T12:50:40-07:00",
+  "content": {
+    "html": "<p>[...] Will Norris &#8211; Authentication in WordPress 2.8 [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32411",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "senthil",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/f935bebd9aa826ed2eedddbfa53a93f9?d=404"
+  },
+  "url": "",
+  "published": "2008-09-30T18:16:08-07:00",
+  "content": {
+    "html": "Thanks norris.  I too thought of the same..  I will try your suggestion to see if it works.",
+    "text": ""
+  },
+  "wm-id": "25443",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Redirecting your OpenID | novemberborn.net",
+    "url": "http://novemberborn.net/2010/01/redirecting-your-openid-356"
+  },
+  "url": "http://novemberborn.net/2010/01/redirecting-your-openid-356",
+  "published": "2010-01-04T22:25:49-08:00",
+  "content": {
+    "html": "<p>[...] does not carry any OpenID information. Some Googling turned up a post from Will Norris entitled Challenges in changing my OpenID. He describes a few heuristics for detecting whether an HTTP request is an OpenID [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "39519",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/12/challenges-in-changing-my-openid/"
+}

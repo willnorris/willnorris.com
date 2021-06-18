@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "A New Kind of OpenID Proxy &#8212; Will Norris",
+    "url": "http://willnorris.com/2009/08/a-new-kind-of-openid-proxy"
+  },
+  "url": "http://willnorris.com/2009/08/a-new-kind-of-openid-proxy",
+  "published": "2009-08-03T19:22:05-07:00",
+  "content": {
+    "html": "<p>[...] Will Norris Thoughts on Identity, OpenID, WordPress, and Life   Skip to content BlogAboutProjectsArchives       &laquo; Best Practices with Directed Identity [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32847",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/08/best-practices-with-directed-identity/"
+}

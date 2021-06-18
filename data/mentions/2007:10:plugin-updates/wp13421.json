@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Michael Gracie",
+    "url": "http://michaelgracie.com/"
+  },
+  "url": "http://michaelgracie.com/",
+  "published": "2007-10-05T18:45:22-07:00",
+  "content": {
+    "html": "<p>@Will, Tks.  Complete reinstall of 2.2.2 solved the issue.</p>\n",
+    "text": ""
+  },
+  "wm-id": "13421",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

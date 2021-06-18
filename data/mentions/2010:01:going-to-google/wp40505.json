@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Luke Shepard",
+    "url": "http://www.sociallipstick.com",
+    "photo": "https://www.gravatar.com/avatar/2bd6ed2a2181a543a6a67671a5ab76d8?d=404"
+  },
+  "url": "http://www.sociallipstick.com",
+  "published": "2010-01-26T17:54:33-08:00",
+  "content": {
+    "html": "<p>Congrats Will! I hope to keep working together - maybe now we can churn out some fantastic libraries!</p>\n\n<p>If you live in Half Moon Bay you're in for a helluva commute ... but nice views :)</p>\n",
+    "text": ""
+  },
+  "wm-id": "40505",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

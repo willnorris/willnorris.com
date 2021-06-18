@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Scott Kveton",
+    "url": "http://scott.kveton.com",
+    "photo": "https://www.gravatar.com/avatar/26ce066cbce15955355741f4bac1dfb6?d=404"
+  },
+  "url": "http://scott.kveton.com",
+  "published": "2007-02-13T00:50:49-08:00",
+  "content": {
+    "html": "<p>Glad to hear you're going to get the Yadis plugin going!</p>\n\n<p>As for delegation, I think most of the providers talk quite a bit about it.  I know we (JanRain) promote it in our FAQ and most of our users use it already.  Also, we'll be making an announcement tomorrow about an even cooler way to use delegation ... :-)</p>\n",
+    "text": ""
+  },
+  "wm-id": "1219",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/wp-xrds/"
+}

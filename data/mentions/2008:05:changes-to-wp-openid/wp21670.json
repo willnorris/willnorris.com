@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Blaenk Denum",
+    "url": "http://blaenkdenum.com/",
+    "photo": "https://www.gravatar.com/avatar/183ede6a94a34822098fd62afd0b32a8?d=404"
+  },
+  "url": "http://blaenkdenum.com/",
+  "published": "2008-06-28T04:49:26-07:00",
+  "content": {
+    "html": "Alright I\\'ll use that then. I\\'m using that right now for this comment so I hope it works. Sorry for the ignorance, I thought my comments would help out with development, I had no idea that they were just full of ignorance. My blog though isn\\'t all that popular and I\\'m constantly working on it so using something experimental on it is no problem I can assure you. My only remark was that I wanted to know the previous version that worked, but now it seems like you have solved my problem (I thought that HEAD didn\\'t work because of Work in Progress).",
+    "text": ""
+  },
+  "wm-id": "21670",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

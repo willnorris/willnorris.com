@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Steven Osborn",
+    "url": "http://steven.bitsetters.com/",
+    "photo": "https://www.gravatar.com/avatar/28f711e7c0d01771571ecc86dac76143?d=404"
+  },
+  "url": "http://steven.bitsetters.com/",
+  "published": "2008-03-14T16:49:04-07:00",
+  "content": {
+    "html": "<p>Hey, you should consider adding a directed identity box.</p>\n",
+    "text": ""
+  },
+  "wm-id": "18616",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/how-well-does-your-openid-provider-stack-up/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2008-12-28T05:00:39-08:00",
+  "content": {
+    "html": "yeah, this should all work fine with Apache 2.2.  I do need to update this post to reflect the Apache configuration that ships with Leopard.",
+    "text": ""
+  },
+  "wm-id": "27852",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/05/dev_environment/"
+}

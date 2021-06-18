@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Henning",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/3d441dc454f6f3031be71ae42ef8e39c?d=404"
+  },
+  "url": "",
+  "published": "2009-06-17T14:42:38-07:00",
+  "content": {
+    "html": "<p>Thank you so much Will!\nI´ve been googleing up and down but this was the exact answer I needed. Very well written and understandable. It´s a gold nugget &amp; saved me heaps of time.</p>\n\n<p>I used the process while writing a shop-plugin fpr wordpress that implements onpage price calculation for the variations of a product (via ajax). Since it all has to come within one plugin, including the ajax-handler that needs to do requests to the normal wp-functions, your post described exactly what I had to do.</p>\n\n<p>Wouldn´t have known otherwise. Thx again!</p>\n",
+    "text": ""
+  },
+  "wm-id": "32040",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files/"
+}

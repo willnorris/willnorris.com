@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-12-05T02:54:30-08:00",
+  "content": {
+    "html": "<p>@Devon: yeah, I guess I forgot that... oops.  I just added instructions to the readme.txt, but it might not show up on wordpress.org until the next release.  In the meantime, you can see the updated version at http://svn.wp-plugins.org/openid/trunk/readme.txt</p>\n",
+    "text": ""
+  },
+  "wm-id": "15654",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "EasySeo | WordPress 2.8 Tips and Tricks Collection | SEO2Blog",
+    "url": "http://seo2.net.ru/2009/06/wordpress-28-tips-and-tricks-collection/"
+  },
+  "url": "http://seo2.net.ru/2009/06/wordpress-28-tips-and-tricks-collection/",
+  "published": "2009-06-11T19:47:52-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 – Will Norris [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31883",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

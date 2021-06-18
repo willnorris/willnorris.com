@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "detlev",
+    "url": "http://www.macdet.de",
+    "photo": "https://www.gravatar.com/avatar/e35e35069b72a629d5b2c584266a9ee3?d=404"
+  },
+  "url": "http://www.macdet.de",
+  "published": "2010-09-05T07:21:46-07:00",
+  "content": {
+    "html": "<p>great! I find youre git-repro too!</p>\n\n<p>If I had time I write a german post about this like this one about <a href=\"http://www.macdet.de/entry/2009/oct/08/snow-leopard---bash/\">osx bash</a></p>\n\n<p>thx</p>\n",
+    "text": ""
+  },
+  "wm-id": "46870",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/03/bashrc/"
+}

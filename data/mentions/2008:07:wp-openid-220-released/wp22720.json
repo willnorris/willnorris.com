@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "cygnus",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/b06aff0ed8890cdf7325db73b08ac9a5?d=404"
+  },
+  "url": "",
+  "published": "2008-07-30T17:54:02-07:00",
+  "content": {
+    "html": "My problem with OpenID 2.2.1 here\r\n\r\nhttp://forum.maxsite.org/viewtopic.php?pid=29993#p29993\r\n\r\nbut OpenID 2.1.9 works good\r\n\r\nUpdate:\r\nwhen i tried to use my livejournal.com openID here, to comment in your blog i've get just the same :))\r\n\r\n\"Error: please fill the required fields (name, email).\"\r\n\r\nsomething wrong in your new versions...",
+    "text": ""
+  },
+  "wm-id": "22720",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

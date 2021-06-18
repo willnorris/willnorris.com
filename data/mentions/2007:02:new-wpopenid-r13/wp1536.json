@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-03-17T20:24:38-07:00",
+  "content": {
+    "html": "[quote comment=\"1502\"]Instead of showing the nickname of the person who posted the comment, it's showing \"Anonymous\" which links to the person's web site.\r\n\r\nHow do I get it to show the persons nickname which is in their profile?[/quote]\r\n\r\nDisplayed name is controlled by the 'Profile' panel in wp-admin.  However, I don't believe that changing the user's displayed name will go back and change old comments... it will just set it for future comments.  If you want to fix old comments, you'll need to edit them manually.\r\n\r\nI'm curious about the 'anonymous' value, if you do require logging in.  Was that name asserted by their OpenID provider, or did Wordpress generate it?\r\n\r\nA future version of the plugin will give the user more controls at account creation time, such as choosing their account name and what name is displayed.",
+    "text": ""
+  },
+  "wm-id": "1536",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

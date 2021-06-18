@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "A iTunes Store do iTunes 9 usa WebKit | iPod School",
+    "url": "http://www.ipodschool.com/2009/09/a-itunes-store-do-itunes-9-usa-webkit.html"
+  },
+  "url": "http://www.ipodschool.com/2009/09/a-itunes-store-do-itunes-9-usa-webkit.html",
+  "published": "2009-09-09T23:34:24-07:00",
+  "content": {
+    "html": "<p>[...] A navegação da iTunes Store ainda pode ser manipulada via HTML se você for um webmaster profissional, conforme mostram testes feitos pelo programador Will Norris. [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "34511",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

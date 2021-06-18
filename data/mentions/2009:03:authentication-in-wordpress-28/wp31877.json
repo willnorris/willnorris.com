@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Colecção de truques e dicas para a versão 2.8 | Wordpress PT",
+    "url": "http://www.wordpress-pt.com/2009/06/11/coleccao-de-truques-e-dicas-para-a-versao-28/"
+  },
+  "url": "http://www.wordpress-pt.com/2009/06/11/coleccao-de-truques-e-dicas-para-a-versao-28/",
+  "published": "2009-06-11T12:08:23-07:00",
+  "content": {
+    "html": "<p>[...] Autenticação no WordPress 2.8 – Will Norris [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "31877",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

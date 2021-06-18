@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Tyler Durden",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/37a092bbcd1b70c53ff549e5ce9bb948?d=404"
+  },
+  "url": "",
+  "published": "2005-10-19T06:37:48-07:00",
+  "content": {
+    "html": "This script is insecure because it not only runs with root privileges but also writes to a predictable filename in a world-writeable directory. Someone could put a nasty link at \"/tmp/webkit.dmg\" which could result in you unwittingly overwriting or modifying an important file elsewhere on the filesystem. Even if you are the only person who uses your machine, you should probably get out of the habit of writing insecure shell scripts.",
+    "text": ""
+  },
+  "wm-id": "23",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/10/nightly-webkit-builds/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Hikari",
+    "url": "http://Hikari.ws",
+    "photo": "https://www.gravatar.com/avatar/e486dddd09146eb1b00db415869843d3?d=404"
+  },
+  "url": "http://Hikari.ws",
+  "published": "2009-12-22T03:25:43-08:00",
+  "content": {
+    "html": "<p>I didn't get it, how can I autenticate my comments with OpenID?</p>\n\n<p>Should I use OpenID URL in pace of email? I tried it but I got an error...</p>\n",
+    "text": ""
+  },
+  "wm-id": "39195",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/wordpress-openid-v3-3/"
+}

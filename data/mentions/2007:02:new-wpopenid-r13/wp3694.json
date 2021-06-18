@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "David Szerman",
+    "url": "http://id.szdavid.com/",
+    "photo": "https://www.gravatar.com/avatar/7cc6677dd1531bd0e9e9238f4b9d8ae6?d=404"
+  },
+  "url": "http://id.szdavid.com/",
+  "published": "2007-04-30T11:51:01-07:00",
+  "content": {
+    "html": "Hello,\r\n\r\nI installed the plugin ; great work but it seems that the link in order to show the name of the commenter displays the OpenID URI and not the personal website ; do you know something about this and how to solve this ?\r\n\r\nIt seems that there is not any warning to say that the comments are waiting for the moderation ; do you know why ?\r\n\r\nThank you",
+    "text": ""
+  },
+  "wm-id": "3694",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

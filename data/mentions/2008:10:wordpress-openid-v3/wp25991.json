@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Josh",
+    "url": "http://joshhansen.net/",
+    "photo": "https://www.gravatar.com/avatar/5bee40ad6dbc61850bb503737cc2a239?d=404"
+  },
+  "url": "http://joshhansen.net/",
+  "published": "2008-10-31T03:59:46-07:00",
+  "content": {
+    "html": "@Will: yes, I was thinking of wp-openid. The main thing I am thinking about is communicating to users on the login page what their options are. Most probably won't (yet?) realize the OpenID thing would let them log in via gmail, so maybe some additional ui is in order?",
+    "text": ""
+  },
+  "wm-id": "25991",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

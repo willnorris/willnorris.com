@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Pawe?",
+    "url": "http://blog.pawelsobczak.pl",
+    "photo": "https://www.gravatar.com/avatar/33b40ca5c5ba7af93da919ca80cbfd35?d=404"
+  },
+  "url": "http://blog.pawelsobczak.pl",
+  "published": "2008-08-02T22:01:27-07:00",
+  "content": {
+    "html": "Hi,\r\nI have troubles with openid.pl\r\nWhen I entered my OpenID address at openid.pl I received an error: \"The Request that you have attempted does not meet the OpenID protocol standard - please contact the host administrator of your site to advise them of this situation.\"\r\n\r\nmyopenid.com for example works fine. Can you check or add the openid.pl?",
+    "text": ""
+  },
+  "wm-id": "22821",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

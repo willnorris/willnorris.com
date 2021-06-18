@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Going to root &laquo; Factory Joe",
+    "url": "http://factoryjoe.wordpress.com/2007/03/09/going-to-root/"
+  },
+  "url": "http://factoryjoe.wordpress.com/2007/03/09/going-to-root/",
+  "published": "2007-03-10T01:39:46-08:00",
+  "content": {
+    "html": "[...] to&nbsp;root  I&#8217;ve decided that, in the interest of the sneaky unobtrusive mode for the wpopenid plugin, I&#8217;m going to start using simply factoryjoe.com as my web address [...]",
+    "text": ""
+  },
+  "wm-id": "1428",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/02/unobtrusive-wpopenid/"
+}

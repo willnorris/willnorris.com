@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Denis",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/40ff105a4e95c73456ca4aceddb64fea?d=404"
+  },
+  "url": "",
+  "published": "2009-10-07T15:12:03-07:00",
+  "content": {
+    "html": "<p>@Stephen Paul Weber</p>\n\n<p>Totally agree!</p>\n\n<p>We recently had to relaunche  2 projects (<a href=\"http://www.tourist.de\">Tourist.de</a>  / <a href=\"http://www.linksilo.de\">linksilo.de</a> ) due to massiv Problems with WP Core.</p>\n\n<p>Keep the Core smart! (+:</p>\n",
+    "text": ""
+  },
+  "wm-id": "35974",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

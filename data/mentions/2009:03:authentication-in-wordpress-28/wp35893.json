@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Clifton Griffin",
+    "url": "http://clifgriffin.com",
+    "photo": "https://www.gravatar.com/avatar/df1732d1d128690a5081a67d4b177da6?d=404"
+  },
+  "url": "http://clifgriffin.com",
+  "published": "2009-10-05T15:02:59-07:00",
+  "content": {
+    "html": "<p>Hi WIll, \nThank you for this write up.  I have an LDAP authentication plugin that currently relies on replacing wp_authenticate().  I did not notice the new filter until this morning as my plugin continued to work after the transition from 2.7.x to 2.8.x.</p>\n\n<p>I do have one question for you that I am having troubles answering.  It seems that the filters are applied in order of priority.  For example, authenticating with username/password in WP is set as a priority 20 while using a cookie is set at 30.  I assume my integration should use 10 as that seems to be the default for added functionality.</p>\n\n<p>I also grasp the idea of deferring to higher priority plugins:\nif ( is_a($user, 'WP_User') ) { return $user; }</p>\n\n<p>However, when it comes to authentication a chain of multiple authentication methods which can say yea/nay to a username/password combination is inherently insecure.  For instance, if my plugin attempts to log the user in with LDAP and fails, it should fail permanently, not give the same credentials a shot at the local database.</p>\n\n<p>This widens the effective attack target and essentially creates two passwords (or more) that can access one username's account.</p>\n\n<p>In my current architecture I have handled this by rewriting wp_authenticate as I see fit. I allow users to specify a login mode that either permits failed logins to hit the wp system for another try or fails permanently.</p>\n\n<p>However, using filters it seems that it will simply keep moving down the chain regardless of what I do.  Is this true? Am I missing something obvious?</p>\n\n<p>Thanks in advance,\nClif</p>\n",
+    "text": ""
+  },
+  "wm-id": "35893",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

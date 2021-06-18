@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Odin Omdal Hørthe",
+    "url": "http://www.velmont.net/",
+    "photo": "https://www.gravatar.com/avatar/2ad0a25665a464d07e6eab35e16bb9c9?d=404"
+  },
+  "url": "http://www.velmont.net/",
+  "published": "2008-12-09T16:13:29-08:00",
+  "content": {
+    "html": "You've got an error in your HTML-code to our links. The rel='nofollow' etc is in the URL... :(\r\n\r\nAnd also, rel=nofollow should maybe be turned of when you're not a spammer.",
+    "text": ""
+  },
+  "wm-id": "27088",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/11/consolidating-domains/"
+}

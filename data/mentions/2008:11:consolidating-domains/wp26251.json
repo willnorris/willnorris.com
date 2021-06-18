@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chris O'Rourke",
+    "url": "http://corourke.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/f6e43ea44b5ac190089c97d1dedd6efd?d=404"
+  },
+  "url": "http://corourke.myopenid.com/",
+  "published": "2008-11-14T01:45:56-08:00",
+  "content": {
+    "html": "I'd say while it is more technically correct to use the .name tld, it's also annoying when you verbally tell someone the url. Most users (nontechnical savvy especially) will end up typing one of the following:\r\nwillnorris.name.com\r\nwww.willnorris.name\r\n\r\nUnless you control those as well odds are people will go to the wrong place. \r\nI'd suggest forwarding will.norris.name to willnorris.com and then continue using will.norris.name as your primary OpenID. So basically keep it the same just migrate non OpenID info to the .com tld.",
+    "text": ""
+  },
+  "wm-id": "26251",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/11/consolidating-domains/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-10-05T08:28:32-07:00",
+  "content": {
+    "html": "<p>[quote comment=\"13387\"]</p>\n\n<p>Does this plugin really need to download a 77kb version of JQuery to add this simple (but useful) functionality?</p>\n\n<p>[/quote]\nHmm.. which plugin are you talking about?  wp-yadis is using jQuery's interface plugin for the admin interface, but that's it.  wp-openid is importing interface.js for most everything, but honestly I'm not sure that it is being used, so the answer very likely is \"no, it really doesn't need to pull down the 77kb file\".  I'll look into it a little more to double check, but I think you're absolutely right... good call.</p>\n\n<p>(I just spent an hour and a half looking at your parkour and freerunning videos.  That stuff just blows my mind... what a job to have!) :)</p>\n",
+    "text": ""
+  },
+  "wm-id": "13395",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

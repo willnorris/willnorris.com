@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "CJ",
+    "url": "http://www.terrasin.com",
+    "photo": "https://www.gravatar.com/avatar/dda9e97ad8757d3c1b8edc5c13231204?d=404"
+  },
+  "url": "http://www.terrasin.com",
+  "published": "2006-01-30T21:23:00-08:00",
+  "content": {
+    "html": "Good luck out there, mate. :)",
+    "text": ""
+  },
+  "wm-id": "39",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2006/01/life-and-love-and-why/"
+}

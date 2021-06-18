@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chris Messina",
+    "url": "https://me.yahoo.com/factoryjoe",
+    "photo": "https://www.gravatar.com/avatar/8403e20f058363f718144dd51faa65a7?d=404"
+  },
+  "url": "https://me.yahoo.com/factoryjoe",
+  "published": "2009-06-13T22:18:44-07:00",
+  "content": {
+    "html": "<p>Does Yahoo work?</p>\n",
+    "text": ""
+  },
+  "wm-id": "31938",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-3-not-being-extensible/"
+}

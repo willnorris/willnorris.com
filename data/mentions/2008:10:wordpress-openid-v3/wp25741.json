@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name",
+  "published": "2008-10-17T18:21:01-07:00",
+  "content": {
+    "html": "@James: Yeah, Bad Behavior causes a lot of problems, which I ranted a little bit about <a href=\"http://wordpress.org/support/topic/208785\">here</a>.  There's nothing I can do about it in the OpenID plugin, it's got to happen in BB.  Unfortunately, because BB was designed to be a rather generic system (not just used for WordPress), changing some of things that need to be done may be a bit of work for them.",
+    "text": ""
+  },
+  "wm-id": "25741",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

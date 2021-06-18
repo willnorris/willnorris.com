@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2008-06-27T22:32:51-07:00",
+  "content": {
+    "html": "no, the 0_WP-OpenID name has nothing to do with it.  That is there because I got tired of scrolling down the page to deactivate and reactivate the plugin.  \r\n\r\nIf you're not OpenID savvy, you probably should not be running unreleased code.  The plugin is in very active development and running out of trunk is dangerous.  Please note the last line of this blog post: <strong>I would strongly discourage you from using this on your production WordPress installation</strong>\r\n\r\nRegarding your other comment, get rid of wp-yadis and use <a href=\"http://singpolyma.net/plugins/xrds-simple/\">this</a> instead.  That functionality will eventually be integrated into wp-openid.",
+    "text": ""
+  },
+  "wm-id": "21666",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/changes-to-wp-openid/"
+}

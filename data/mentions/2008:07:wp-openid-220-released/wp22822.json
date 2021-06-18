@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://will.norris.name/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://will.norris.name/",
+  "published": "2008-08-02T22:18:12-07:00",
+  "content": {
+    "html": "@Pawe: I'm not sure I understand the problem you're having, as that is not an error message from wp-openid.  Exactly what site are you trying to login to, and what OpenID are you trying to use there?",
+    "text": ""
+  },
+  "wm-id": "22822",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

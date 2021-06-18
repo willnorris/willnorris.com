@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Dennis",
+    "url": "http://dennisbloete.de",
+    "photo": "https://www.gravatar.com/avatar/ca122eca5d377d3a3e856aee13ec0cc9?d=404"
+  },
+  "url": "http://dennisbloete.de",
+  "published": "2008-07-24T07:02:07-07:00",
+  "content": {
+    "html": "Hey Will,\r\n\r\nthe plugin doesn't work for my. Like in older versions I still get the following error, when I try to connect my OpenID to my account:\r\n\r\nError: OpenID assertion failed: Server denied check_authentication\r\n\r\nI use my OpenID everywhere I can - other Relying Parties don't seem to have any problems with the check_authentication requests.\r\n\r\nBye,\r\nDennis",
+    "text": ""
+  },
+  "wm-id": "22505",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

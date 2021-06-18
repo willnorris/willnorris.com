@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "neonoviy.livejournal.com/",
+    "url": "http://neonoviy.livejournal.com/"
+  },
+  "url": "http://neonoviy.livejournal.com/",
+  "published": "2008-12-09T20:22:19-08:00",
+  "content": {
+    "html": "I'm just not sure that Livejournal's OpenID is Working well. Have some troubles with this.",
+    "text": ""
+  },
+  "wm-id": "27102",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

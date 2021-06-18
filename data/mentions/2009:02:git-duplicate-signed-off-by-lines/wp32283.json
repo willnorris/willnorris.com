@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stefan",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/08a8d6451d550507ad893cf07ed7538f?d=404"
+  },
+  "url": "",
+  "published": "2009-06-30T23:16:44-07:00",
+  "content": {
+    "html": "<p>Thanks for posting this, very helpful.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32283",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/02/git-duplicate-signed-off-by-lines/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2010-01-26T18:58:50-08:00",
+  "content": {
+    "html": "<p>@Fred: well, given my new <a href=\"http://willnorris.com/2010/01/going-to-google\">change in employment</a>, I certainly can't commit to anything right now.  I'll have to see once things settle down a bit.</p>\n",
+    "text": ""
+  },
+  "wm-id": "40515",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/08/a-new-kind-of-openid-proxy/"
+}

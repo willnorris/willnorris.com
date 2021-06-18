@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Devon",
+    "url": "http://devonyoung.com/",
+    "photo": "https://www.gravatar.com/avatar/ad0af0a6bee8912b80e3cf699081ee76?d=404"
+  },
+  "url": "http://devonyoung.com/",
+  "published": "2009-03-11T04:37:27-07:00",
+  "content": {
+    "html": "Very interesting. I’d just love to have OpenID in the core, not by default but as an option or alternative one can select when setting up &amp; be able to change later too. I hate blogs making me get a whole new login account all the time. Which makes me hate forcing that on others.",
+    "text": ""
+  },
+  "wm-id": "29624",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

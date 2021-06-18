@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "MrGunn",
+    "url": "http://williamgunn.org/",
+    "photo": "https://www.gravatar.com/avatar/b62e2d9388f873f8de5b5e93cda1d4fa?d=404"
+  },
+  "url": "http://williamgunn.org/",
+  "published": "2007-10-04T23:17:38-07:00",
+  "content": {
+    "html": "<p>Hey, Will.  Thanks for working on this.  I get the following error:</p>\n\n<p>WordPress database error: [Unknown column 'server_url' in 'field list']\nREPLACE INTO wp_openid_nonces (server_url, timestamp, salt) VALUES ('', 1191539220, 'iu4sV9')</p>\n\n<p>Here's the status info:\n[INFO] database tables\n    Table wp_openid_associations exists.\n    Table wp_openid_nonces exists.\n    Table wp_openid_identities exists.\n[INFO] Include Path\n    /home/.orelle/wgunn/betablog.williamgunn.org/wp-content/plugins/openid/\n    /usr/local/php5/lib/php/\n    /usr/local/lib/php/\n[INFO] WordPress version\n    2.3\n[INFO] MySQL version\n    5.0.16\n[INFO] PHP version\n    5.2.3\n[OK] Curl version\n[FAIL] library: GMP compiled into in PHP\n    GMP does not appear to be built into PHP. This is highly recommended for performance reasons.\n[FAIL] library: BCMath compiled into in PHP\n    BCMath does not appear to be built into PHP. GMP is preferred.\n[FAIL] Loaded long integer library\n    The OpenID Library is operating Dumb Mode, since it doesn't have a big integer library. Recommend installing GMP support.\n[INFO] Cryptographic Randomness Source\n    /dev/urandom\n[INFO] Plugin version\n[INFO] Plugin Database Version\n    Plugin database is currently at revision svn-20754.</p>\n",
+    "text": ""
+  },
+  "wm-id": "13378",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

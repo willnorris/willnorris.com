@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Rich",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/cb0a38aadabb16acf5f529afb8833300?d=404"
+  },
+  "url": "",
+  "published": "2008-11-18T04:07:21-08:00",
+  "content": {
+    "html": "Thanks this worked great!",
+    "text": ""
+  },
+  "wm-id": "26402",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/07/lock-screen/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WP-HOTWords 4.4 | bernabauer.com",
+    "url": "http://www.bernabauer.com/wp-hotwords-44/"
+  },
+  "url": "http://www.bernabauer.com/wp-hotwords-44/",
+  "published": "2009-06-06T02:09:13-07:00",
+  "content": {
+    "html": "[...] do plugin WP-HOTWords. Na versão 4.4 as modificações são poucas, mas necessárias. Hoje descobri que eu papei mosca em relação as normas de plugins para a versão 2.6 do WordPress. Isto mesmo! A [...]",
+    "text": ""
+  },
+  "wm-id": "31773",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/05/wordpress-plugin-pet-peeve-hardcoding-wp-content/"
+}

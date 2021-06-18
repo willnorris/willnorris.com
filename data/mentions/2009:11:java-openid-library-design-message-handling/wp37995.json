@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Luke Shepard",
+    "url": "http://www.sociallipstick.com",
+    "photo": "https://www.gravatar.com/avatar/2bd6ed2a2181a543a6a67671a5ab76d8?d=404"
+  },
+  "url": "http://www.sociallipstick.com",
+  "published": "2009-11-16T03:21:17-08:00",
+  "content": {
+    "html": "<p>Hey Will - thanks for posting about your thought process while designing this library. Based on your post, I think it is cool to use QNames since they map to the concept of namespaced keys so well. How to keep track of the namespaces is an issue I've found difficult to express so it's awesome to re-use an existing concept.</p>\n\n<p>When I was browsing the code, I was surprised by just how many files it took - and it seems like most of them are only one or two methods. I was just wondering of your intended audience for this library? I am probably just not used to dealing with Java programs and all the builders, factories, and class hierarchies, but it seems a little bit too many concepts for a new developer to learn.</p>\n\n<p>To put it differently: I had to read just one or two classes to understand the library, which would they be? I tried files with innocent-sounding names like \"Message.java\" but ended up with \"MessageBuilder\" then \"MessageBuilderFactory\" and I'm still not sure how to construct an OpenID message.</p>\n\n<p>Oh, and can I check it out somewhere, or is it only available for web view? And are the Javadocs available?</p>\n\n<p>Again, thanks for sharing.</p>\n",
+    "text": ""
+  },
+  "wm-id": "37995",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/11/java-openid-library-design-message-handling/"
+}

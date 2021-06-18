@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Daniel Aleksandersen",
+    "url": "http://www.opensourcenotebook.com/",
+    "photo": "https://www.gravatar.com/avatar/a231c05da2cfe1b57c1a5764c3b348e7?d=404"
+  },
+  "url": "http://www.opensourcenotebook.com/",
+  "published": "2007-12-19T13:41:31-08:00",
+  "content": {
+    "html": "<p>I do not like not beeing able to control the second level domain. When I register a domain I do not want a third level domain! In my mind those are just subdomains. Which you can get for free from any provider. Neverless I do find this service very interessting.</p>\n\n<p>Though it raisses an issue with spam email filters. Most filters will let trough emails that address you by your full name. Given that this service uses your name as an URI/ID it does provide a very easy way for people to sneak trough todays spam filters.</p>\n\n<p>Well, I guess not everything can be perfect. Maybe the email filters must learn to deal with being addressed with full names from spamers?</p>\n",
+    "text": ""
+  },
+  "wm-id": "15979",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/free-your-id/"
+}

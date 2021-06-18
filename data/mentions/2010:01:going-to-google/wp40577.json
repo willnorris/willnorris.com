@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Joe Yeglic",
+    "url": "http://cpujoe.com",
+    "photo": "https://www.gravatar.com/avatar/4c3dd83b3bd16bb70ba8506157a4c873?d=404"
+  },
+  "url": "http://cpujoe.com",
+  "published": "2010-01-27T04:41:07-08:00",
+  "content": {
+    "html": "<p>Will,</p>\n\n<p>Glad I RSSed your blog. Great news! You can't go wrong with Google.. Hope you enjoy California. You sure have come a long way since Olive Branch, MS.</p>\n\n<p>Stay well,</p>\n\n<ul>\n<li>Joe</li>\n</ul>\n",
+    "text": ""
+  },
+  "wm-id": "40577",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

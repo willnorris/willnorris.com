@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "admin",
+    "url": "http://www.onlineondernemen.eu/",
+    "photo": "https://www.gravatar.com/avatar/fa709a4aecb273b8c2950d5b0856b17f?d=404"
+  },
+  "url": "http://www.onlineondernemen.eu/",
+  "published": "2009-10-13T09:01:51-07:00",
+  "content": {
+    "html": "<p>wordpress Could not discover an OpenID identity server endpoint at the url: user@gmail.com</p>\n\n<p>BBig integer support is on.\nI have no idea why it's not working, i know read that people use URL's to register an OpenID...\nAs i see in the plugin's  details, the addon acts as a server and can provide registration of an OpenID right? And they can register through their e-mail correct?</p>\n",
+    "text": ""
+  },
+  "wm-id": "36241",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/wordpress-openid-v3-3/"
+}

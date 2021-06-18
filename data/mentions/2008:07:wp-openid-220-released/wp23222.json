@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Cryptosmith &raquo; OpenID Delegation on WordPress",
+    "url": "http://www.cryptosmith.com/archives/255"
+  },
+  "url": "http://www.cryptosmith.com/archives/255",
+  "published": "2008-08-17T18:11:33-07:00",
+  "content": {
+    "html": "[...] The WordPress Plugin - latest version, by Will Norris [...]",
+    "text": ""
+  },
+  "wm-id": "23222",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jim Phelps",
+    "url": "http://jimphelps.protectnetwork.org/",
+    "photo": "https://www.gravatar.com/avatar/b30db657c63fbfc0b146d3da24a0ecfb?d=404"
+  },
+  "url": "http://jimphelps.protectnetwork.org/",
+  "published": "2007-06-18T22:21:58-07:00",
+  "content": {
+    "html": "I have the same error as Koesmanto\r\n\r\n\"OpenID assertion failed: Server denied check_authentication\"\r\n\r\nI'm running WordPress 2.1.3 and R30 of your release.  I get the same error in .86 release of WPOpenID (standard edition).  I can use my OpenID on other sites so I know it isn't a problem on the provider side.\r\n\r\nJim",
+    "text": ""
+  },
+  "wm-id": "9463",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

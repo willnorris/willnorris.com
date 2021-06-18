@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Xiaofei Ge",
+    "url": "http://blog.openidplanet.net/",
+    "photo": "https://www.gravatar.com/avatar/cac38b28007fb798421433842f148033?d=404"
+  },
+  "url": "http://blog.openidplanet.net/",
+  "published": "2007-02-26T09:59:54-08:00",
+  "content": {
+    "html": "If I have already used old wpopenid pluginï¼Œwhat should I do to update to your wpopenid+? Or should I need to do so?",
+    "text": ""
+  },
+  "wm-id": "1337",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

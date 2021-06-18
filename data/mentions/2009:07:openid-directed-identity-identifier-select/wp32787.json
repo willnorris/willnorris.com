@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "John Bradley",
+    "url": "http://www.thread-safe.com/",
+    "photo": "https://www.gravatar.com/avatar/ca78772eb9e5632b057c16ddb4d2c495?d=404"
+  },
+  "url": "http://www.thread-safe.com/",
+  "published": "2009-07-31T16:42:41-07:00",
+  "content": {
+    "html": "<p>I cant find an openID that is working on your blog.  Yahoo , =jbradley, and http://thread-safe.com.</p>\n\n<p>I expect many of the large OPs to be supporting Pairwise identifiers in the September timeframe.</p>\n\n<p>Good post.</p>\n\n<p>John B.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32787",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/07/openid-directed-identity-identifier-select/"
+}

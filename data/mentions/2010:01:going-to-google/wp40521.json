@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Scotty Logan",
+    "url": "http://itarch.stanford.edu/",
+    "photo": "https://www.gravatar.com/avatar/1bc2a79dd6e12782fae8840b4f807397?d=404"
+  },
+  "url": "http://itarch.stanford.edu/",
+  "published": "2010-01-26T19:39:53-08:00",
+  "content": {
+    "html": "<p>Congratulations.  If you get bored with the commute, stop by campus for a coffee.</p>\n",
+    "text": ""
+  },
+  "wm-id": "40521",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

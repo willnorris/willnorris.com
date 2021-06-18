@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Morakanda Gamage Prabath Snuruddha Siriwardena",
+    "url": "http://is.test.wso2.org/user/prabath",
+    "photo": "https://www.gravatar.com/avatar/9946e4fb0feffa9ea0f97081d5dc74c0?d=404"
+  },
+  "url": "http://is.test.wso2.org/user/prabath",
+  "published": "2008-04-03T11:59:54-07:00",
+  "content": {
+    "html": "<p>another comment</p>\n",
+    "text": ""
+  },
+  "wm-id": "19066",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

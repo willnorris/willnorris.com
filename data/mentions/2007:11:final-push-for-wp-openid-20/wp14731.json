@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Scott Kveton",
+    "url": "http://kveton.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/26ce066cbce15955355741f4bac1dfb6?d=404"
+  },
+  "url": "http://kveton.myopenid.com/",
+  "published": "2007-11-08T19:12:07-08:00",
+  "content": {
+    "html": "<p>Dumb question here: where do I get an account to login to the Trac?  Got a bug when doing a post to my blog right now with latest version.</p>\n\n<p>BTW - great work ... love the latest version.</p>\n",
+    "text": ""
+  },
+  "wm-id": "14731",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/final-push-for-wp-openid-20/"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Philihp.com",
+    "url": "http://www.philihp.com/blog/2009/02/redirecting-with-mod_rewrite-without-breaking-openid/"
+  },
+  "url": "http://www.philihp.com/blog/2009/02/redirecting-with-mod_rewrite-without-breaking-openid/",
+  "published": "2009-05-16T18:54:07-07:00",
+  "content": {
+    "html": "<strong>Redirecting with mod_rewrite without breaking OpenID...</strong>\n\nOn philihp.com, I redirect the root address philihp.com to philihp.com/blog. I do this with mod_rewrite, since it&#8217;s much faster to do an HTTP Location header based redirect than to use an HTML meta tag redirect. I encountered a problem with this,...",
+    "text": ""
+  },
+  "wm-id": "31264",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/12/challenges-in-changing-my-openid/"
+}

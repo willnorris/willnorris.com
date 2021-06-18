@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mark Jaquith",
+    "url": "http://markjaquith.com/",
+    "photo": "https://www.gravatar.com/avatar/e4bc488b0e3c6549e2d6349a9eb3e3b8?d=404"
+  },
+  "url": "http://markjaquith.com/",
+  "published": "2007-07-18T22:57:53-07:00",
+  "content": {
+    "html": "Congratulations!  I wish you a lifetime of happiness.",
+    "text": ""
+  },
+  "wm-id": "10479",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/07/she-said-yes/"
+}

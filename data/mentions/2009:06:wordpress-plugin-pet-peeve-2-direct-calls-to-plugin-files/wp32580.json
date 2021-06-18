@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-07-20T17:54:27-07:00",
+  "content": {
+    "html": "<p>both <code>wp_mail</code> and <code>wp_verify_nonce</code> are defined in <code>pluggable.php</code> which is loaded before either of those hooks.  If you're seeing an error about the functions being undefined, it must be caused by something else.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32580",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files/"
+}

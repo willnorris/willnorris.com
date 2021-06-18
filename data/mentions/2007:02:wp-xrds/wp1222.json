@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-02-13T15:36:01-08:00",
+  "content": {
+    "html": "<p>Well the primary thing about it is that instead of telling the plugin where your XRDS file is, the plugin builds it for you on the fly... after selecting your provider and giving it your username, there really is nothing more to do.  For example, my file (http://willnorris.com/xrds.xml) doesn't actually exist on my webserver, wp-xrds intercepts the request and builds the response based on the providers I have configured.  In terms of functionality, it's simply an extension of your plugin, though the implementation was independent.</p>\n\n<p>I'm a lit undecided on advertising it as an XRDS plugin since few people know what that is.  It's currently hardcoded to only use OpenID providers, so it's a little misleading.  I'll likely either rename it, or expand it to include non-OpenID providers (thought with the popularity of OpenID, I kinda wonder what's the point?).</p>\n\n<p>(edit) I should also add/clarify, that the plugin also creates the openid link tags directly in your html, so you can still access applications that don't understand XRDS.  If you have multiple providers configured, your first one is used for these links.</p>\n",
+    "text": ""
+  },
+  "wm-id": "1222",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/wp-xrds/"
+}

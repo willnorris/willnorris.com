@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Matt Thiessen",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/882b7f2441b2f9e8b3e3c0aac9ca77aa?d=404"
+  },
+  "url": "",
+  "published": "2008-09-30T15:06:51-07:00",
+  "content": {
+    "html": "I spent several hours trying to figure this out.  I nearly gave up.  Thanks for posting this.",
+    "text": ""
+  },
+  "wm-id": "25439",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment/"
+}

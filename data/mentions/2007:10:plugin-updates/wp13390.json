@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Michael Gracie",
+    "url": "http://michaelgracie.com/"
+  },
+  "url": "http://michaelgracie.com/",
+  "published": "2007-10-05T02:45:30-07:00",
+  "content": {
+    "html": "<p>Hey Will - looking great.  Tested r20894 - \"options\" issue still there.</p>\r\n",
+    "text": ""
+  },
+  "wm-id": "13390",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

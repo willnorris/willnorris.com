@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mark",
+    "url": "http://orbum.net/mark/",
+    "photo": "https://www.gravatar.com/avatar/e50f4402cd331b7e9de1dd81c2f918f6?d=404"
+  },
+  "url": "http://orbum.net/mark/",
+  "published": "2008-12-14T02:43:46-08:00",
+  "content": {
+    "html": "Thank you for this plugin. It's wonderfully implemented - far better than any of the previous ones.\r\n\r\nI'm curious, with the recent release of Wordpress 2.7 - are there any known issues to be aware of when upgrading Wordpress?\r\n\r\nJust thought I'd check with the creators before upgrading to 2.7....",
+    "text": ""
+  },
+  "wm-id": "27269",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

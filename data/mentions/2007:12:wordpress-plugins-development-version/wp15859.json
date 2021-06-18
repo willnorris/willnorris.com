@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "?ukasz Brodowski",
+    "url": "http://blog.brodowski.net.pl/"
+  },
+  "url": "http://blog.brodowski.net.pl/",
+  "published": "2007-12-13T13:58:19-08:00",
+  "content": {
+    "html": "<p>It looks like not only I have this problem http://code.google.com/p/diso/issues/detail?id=8</p>\n",
+    "text": ""
+  },
+  "wm-id": "15859",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wordpress-plugins-development-version/"
+}

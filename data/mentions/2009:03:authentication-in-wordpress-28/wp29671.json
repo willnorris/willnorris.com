@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Allan Clark",
+    "url": "http://allanc.chickenandporn.com",
+    "photo": "https://www.gravatar.com/avatar/3b280e59aa368e6467ff75032400e184?d=404"
+  },
+  "url": "http://allanc.chickenandporn.com",
+  "published": "2009-03-12T15:06:06-07:00",
+  "content": {
+    "html": "@Will: similar to @Khurt, does OAuth's chaining of authentication (which sounds a lot like Apache's logic) make it easier to swap in different autentications (such as LDAP, which actually isn't as clean as you imply) or the possibility of chaining an OpenID authentication-check there?\r\n\r\nTo be more brief: does it ismplify the rest of the auth stuff?",
+    "text": ""
+  },
+  "wm-id": "29671",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

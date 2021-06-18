@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Peter Speck",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/92cad46aef0dd859958914ccf5942112?d=404"
+  },
+  "url": "",
+  "published": "2009-09-10T11:58:58-07:00",
+  "content": {
+    "html": "<p>If you use GlimmerBlocker, and add the following rule, you can browse the iTunes store in Safari:</p>\n\n<pre><code>&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;\n&lt;glimmerblocker-rules&gt;\n    &lt;rule rule-id=\"272656319\" priority=\"2\" type=\"request\" host=\"ax.itunes.apple.com\" host-type=\"is\"&gt;\n        &lt;request language=\"js\" version=\"1\"&gt;&lt;![CDATA[var ua = gb.request.headers['User-Agent'];\nua = ua ? ua.toString() : \"none\";\nif (ua.match(/Safari/) &amp;&amp; !gb.request.headers['X-Apple-Store-Front'])\n    gb.request.headers['X-Apple-Store-Front'] = '143441-1,5';]]&gt;&lt;/request&gt;\n    &lt;/rule&gt;\n&lt;/glimmerblocker-rules&gt;\n</code></pre>\n\n<p>Copy the xml, and paste it into the rules table in your own filter.</p>\n",
+    "text": ""
+  },
+  "wm-id": "34578",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

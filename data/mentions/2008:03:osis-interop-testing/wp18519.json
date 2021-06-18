@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "David Collantes",
+    "url": "http://collantes.us/",
+    "photo": "https://www.gravatar.com/avatar/5d9f1c3ee5af8404251503405f19455b?d=404"
+  },
+  "url": "http://collantes.us/",
+  "published": "2008-03-12T15:08:08-07:00",
+  "content": {
+    "html": "<p>On my previous comment, it was, of course, a test (like everyone else), but also a cry for help. :-)</p>\n",
+    "text": ""
+  },
+  "wm-id": "18519",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

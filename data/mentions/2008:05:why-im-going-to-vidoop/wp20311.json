@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mike Jones",
+    "url": "http://self-issued.info/",
+    "photo": "https://www.gravatar.com/avatar/eb7202501bfd4d12afc872dc02b4e4e6?d=404"
+  },
+  "url": "http://self-issued.info/",
+  "published": "2008-05-19T01:18:46-07:00",
+  "content": {
+    "html": "<p>Congratulations Will!  The Vidoop folks are doing some exciting stuff and this sounds like a great fit for both of you.</p>\n",
+    "text": ""
+  },
+  "wm-id": "20311",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/05/why-im-going-to-vidoop/"
+}

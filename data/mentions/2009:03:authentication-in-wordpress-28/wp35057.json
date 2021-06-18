@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "&raquo; New plugins tackling emerging technologies",
+    "url": "http://blogs.murdoch.edu.au/techtackle/2009/09/17/new-plugins/"
+  },
+  "url": "http://blogs.murdoch.edu.au/techtackle/2009/09/17/new-plugins/",
+  "published": "2009-09-17T08:20:43-07:00",
+  "content": {
+    "html": "<p>[...] to find anything conclusive but learnt quite a bit on the open access plugin that is used through Will Norris and I am trying to clarify if what holds true for 2.8 holds true for [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "35057",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

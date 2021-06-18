@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-02-27T19:51:57-08:00",
+  "content": {
+    "html": "I actually just updated the comment form a little bit to provide better explanatory text of OpenID.  If you want to use that, you'll need to grab the latest version of wpopenid+ out of SVN.",
+    "text": ""
+  },
+  "wm-id": "1360",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

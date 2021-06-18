@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Cymen Vig",
+    "url": "http://cymen.org/",
+    "photo": "https://www.gravatar.com/avatar/f569239bff85c8decc5d5cf31f6f37d6?d=404"
+  },
+  "url": "http://cymen.org/",
+  "published": "2008-04-05T05:53:01-07:00",
+  "content": {
+    "html": "<p>Great news. This is a wonderful plugin.</p>\n",
+    "text": ""
+  },
+  "wm-id": "19113",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wp-openid-moving-to-diso/"
+}

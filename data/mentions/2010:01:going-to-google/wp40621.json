@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "0x4a6f4672",
+    "url": "http://4loc.wordpress.com/",
+    "photo": "https://www.gravatar.com/avatar/bfebc395d440ec94de2c443b2e207d57?d=404"
+  },
+  "url": "http://4loc.wordpress.com/",
+  "published": "2010-01-27T21:02:05-08:00",
+  "content": {
+    "html": "<p>Good Luck. Don't be evil :-)</p>\n",
+    "text": ""
+  },
+  "wm-id": "40621",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

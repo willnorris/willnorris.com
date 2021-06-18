@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Kijana Woodard",
+    "url": "http://kijana.woodard.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/cbaa4235f3dc6480a4ed571526090c56?d=404"
+  },
+  "url": "http://kijana.woodard.myopenid.com/",
+  "published": "2010-05-09T22:48:31-07:00",
+  "content": {
+    "html": "<p>I \"didn't get it\" either. It's a bit non-obvious. You have to enter your openid url in the \"Website\" field and then the \"Authenticate this comment using OpenID.\" message appears.</p>\n\n<p>That also makes the Name/Email required markers incorrect...maybe.</p>\n",
+    "text": ""
+  },
+  "wm-id": "43674",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/wordpress-openid-v3-3/"
+}

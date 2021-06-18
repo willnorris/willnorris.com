@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-08-26T16:32:47-07:00",
+  "content": {
+    "html": "<p>@David: ideally the proxy would be run by an organization like the EFF or EPIC.</p>\n\n<p>And this is not something you would use for every RP... follow the argument carefully.  We're only talking about a situation where you <em>must</em> have a directed identity.  Today, the only option is to use a large OpenID provider like Google.  At least with the proxy solution, I'm able to use my own OpenID, plus no one can go back and track what sites I've logged into except for me.</p>\n",
+    "text": ""
+  },
+  "wm-id": "33772",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/08/a-new-kind-of-openid-proxy/"
+}

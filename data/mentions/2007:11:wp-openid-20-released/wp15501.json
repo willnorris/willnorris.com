@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "url": "https://openid.ee/bec60c7ef5e02e00739443da3e584983d311d58e"
+  },
+  "url": "https://openid.ee/bec60c7ef5e02e00739443da3e584983d311d58e",
+  "published": "2007-11-28T16:39:00-08:00",
+  "content": {
+    "html": "<p>Just here to test OpenID 2.0 with directed identity. I hope the URL that will be stored is not openid.ee but openid.ee/somethingugly</p>\n",
+    "text": ""
+  },
+  "wm-id": "15501",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

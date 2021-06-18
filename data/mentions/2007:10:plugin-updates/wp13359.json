@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Shack Dougall",
+    "url": "http://liferain.com/id/ShackDougall/"
+  },
+  "url": "http://liferain.com/id/ShackDougall/",
+  "published": "2007-10-04T07:13:13-07:00",
+  "content": {
+    "html": "<p>Will, I just wanted to give you an update.  So far, no major problems with wp-openid.  I like!</p>\n\n<p>Three things that I noticed--none of them show stoppers.</p>\n\n<p>1) If registration is turned off and someone tries to register by logging in with OpenID, then it silently fails and just brings them back to the login screen.  Probably should be some sort of message.</p>\n\n<p>2) When I use delegation with my Verisign PIP OpenID, it always takes me two attempts to login via the login form.  The first attempt gives me a message from PIP saying that I must be logged into PIP first (but I already am).  And the second attempt works. I'm not sure if it's specific to PIP or if maybe there's something about the way I have delegation implemented on my website. Interestingly, I don't ever have the problem if I login by posting a comment.</p>\n\n<p>3) I was thinking about different ways that one user could impersonate another user and how we might prevent it.  Most of it isn't worth bothering with, but there's one small thing that we could do.  Currently in wp-openid, it displays the name with a link to their website in the comment.  Initially, the website link is their OpenID, but for many reasons they might change it, so that it would no longer show their identity.  Also, one user could register with one OpenID and change their webpage link to mimic a different person's OpenID.</p>\n\n<p>Seems like we could improve things considerably if we displayed two links in the comment.  One link would always display the person's OpenID (perhaps the OpenID icon could link to this).  And the other link could go to the webpage (probably the person's name would link to this).  If a person had registered more than one OpenID with their account, I guess we'd display the first one.  I think this one  change would make it impossible to completely impersonate another person's identity.</p>\n\n<p><strong>Anyway, great work!</strong>  The plugin looks solid.</p>\n",
+    "text": ""
+  },
+  "wm-id": "13359",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

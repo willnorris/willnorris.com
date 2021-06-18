@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2010-01-26T19:08:42-08:00",
+  "content": {
+    "html": "<p>@Luke: it'll be 30-45 minutes.  That's a helluva commute?  Try commuting in Los Angeles... then we'll talk. :-P</p>\n",
+    "text": ""
+  },
+  "wm-id": "40516",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2010/01/going-to-google/"
+}

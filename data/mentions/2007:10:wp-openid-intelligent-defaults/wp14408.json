@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://rosscoh.myopenid.com/",
+    "url": "http://rosscoh.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/082c5e8da3dd967e153ff9689f4d5b76?d=404"
+  },
+  "url": "http://rosscoh.myopenid.com/",
+  "published": "2007-10-30T21:41:21-07:00",
+  "content": {
+    "html": "<p>I'm having trouble getting this to work on my blog.  Is there any place I can ask for help?</p>\n",
+    "text": ""
+  },
+  "wm-id": "14408",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/wp-openid-intelligent-defaults/"
+}

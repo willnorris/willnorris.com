@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Costalfy",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/62702ca1226bc7017a882acb5a253a03?d=404"
+  },
+  "url": "",
+  "published": "2007-10-02T15:41:36-07:00",
+  "content": {
+    "html": "<p>Hi. I have test your subversion plugin and when i go to option after actived the plugin, I have this error message:</p>\n\n<p>Warning: main(Auth/OpenID.php) [function.main]: failed to open stream: No such file or directory in /mnt/147/sdb/b/d/lpg.alfy/wp-content/plugins/openid/Auth/OpenID/Discover.php on line 7</p>\n\n<p>Fatal error: main() [function.require]: Failed opening required 'Auth/OpenID.php' (include_path='/mnt/147/sdb/b/d/lpg.alfy/include:.:/usr/php4/lib/php') in /mnt/147/sdb/b/d/lpg.alfy/wp-content/plugins/openid/Auth/OpenID/Discover.php on line 7</p>\n\n<p>Warning: Unknown(): open(/mnt/147/sdb/b/d/lpg.alfy/sessions/sess_7101ac931211fb56fc7fd803c80c8b13, O_RDWR) failed: No such file or directory (2) in Unknown on line 0</p>\n\n<p>Warning: Unknown(): Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/mnt/147/sdb/b/d/lpg.alfy/sessions) in Unknown on line 0</p>\n\n<p>My blog is http://costalfy.blogsite.org</p>\n\n<p>bye</p>\n",
+    "text": ""
+  },
+  "wm-id": "13302",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

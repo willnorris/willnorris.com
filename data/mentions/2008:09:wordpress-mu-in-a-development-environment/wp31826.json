@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "sean steezy",
+    "url": "http://seansteezy.com/",
+    "photo": "https://www.gravatar.com/avatar/e0c76a99cebba91f9015675715d652f9?d=404"
+  },
+  "url": "http://seansteezy.com/",
+  "published": "2009-06-08T15:33:35-07:00",
+  "content": {
+    "html": "Hey, I finally got it to work by just adding a dot to the domain. now my cookies are going through properly, just starting to configure the email part. thanks for writing this article, i was banging my head on the wall for a week and finally got into my admin panel.",
+    "text": ""
+  },
+  "wm-id": "31826",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment/"
+}

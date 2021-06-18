@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "sairuh",
+    "url": "http://iwaruna.com",
+    "photo": "https://www.gravatar.com/avatar/b68163b7cd80b9ceecdadd634a856de0?d=404"
+  },
+  "url": "http://iwaruna.com",
+  "published": "2008-08-04T21:30:45-07:00",
+  "content": {
+    "html": "Oops, I meant WP 2.5.1. (And it's with a test site, not the url noted in the website field.) In any case, I started a thread over at the WP support forum, so feel free to continue there.",
+    "text": ""
+  },
+  "wm-id": "22907",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

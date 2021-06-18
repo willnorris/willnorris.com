@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "David Recordon",
+    "url": "http://www.davidrecordon.com/",
+    "photo": "https://www.gravatar.com/avatar/99b60c2e41618940c3d07038122d92ce?d=404"
+  },
+  "url": "http://www.davidrecordon.com/",
+  "published": "2009-05-13T05:27:32-07:00",
+  "content": {
+    "html": "Portland is great but we'll miss you in the Bay Area!",
+    "text": ""
+  },
+  "wm-id": "31179",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/05/bigger-and-better-things/"
+}

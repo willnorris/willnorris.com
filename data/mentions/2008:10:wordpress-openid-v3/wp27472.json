@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mark",
+    "url": "http://orbum.net/mark/author/mark/",
+    "photo": "https://www.gravatar.com/avatar/e50f4402cd331b7e9de1dd81c2f918f6?d=404"
+  },
+  "url": "http://orbum.net/mark/author/mark/",
+  "published": "2008-12-19T02:01:45-08:00",
+  "content": {
+    "html": "Sure. When I mouse over our OpenID names on your blog, the link gets extra stuff added to the end. Except for your name, which I can't even click on, even though it looks like a link.\r\n\r\nhttp://orbum.net/mark/files/Mousing_over_My_Name.jpg\r\n\r\nhttp://orbum.net/mark/files/Mousing_over_Wills_Name.jpg\r\n\r\nhttp://orbum.net/mark/files/Mousing_over_Amilcars_Name.jpg\r\n\r\nWhen you click on them, you get a 'not found' on the blog it's linking too, because it's looking for a page called ' rel='external nofollow",
+    "text": ""
+  },
+  "wm-id": "27472",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

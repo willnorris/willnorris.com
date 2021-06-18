@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Boris",
+    "url": "http://mactep.livejournal.com/",
+    "photo": "https://www.gravatar.com/avatar/bee313eea9a98fd411e224ecd59ff4c1?d=404"
+  },
+  "url": "http://mactep.livejournal.com/",
+  "published": "2009-07-30T20:34:45-07:00",
+  "content": {
+    "html": "<p>Got an error OpenIDloginfailed:Invalidopenid.modeNomodeset\nwhile trying to add my Verified OpenID.</p>\n\n<p>P.S.: WP 2.8.2 openid 3.2.3</p>\n\n<p>Thank you for the greatest plugin and for looking into this issue.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32734",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

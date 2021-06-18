@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Paul Weber",
+    "url": "http://singpolyma.net/",
+    "photo": "https://www.gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46?d=404"
+  },
+  "url": "http://singpolyma.net/",
+  "published": "2009-08-03T20:09:06-07:00",
+  "content": {
+    "html": "<p>It's an interesting concept, however, as a privacy nerd, it leaves me unhappy.</p>\n\n<p>You've mentioned that the salt could be stored or compromised, but far worse the <em>actual OpenID used</em> could be stored.  As a privacy nerd I must assume the service is my enemy (this is why protocols like ToR and MIxmaster are set up to work even if you do not trust the nodes themselves).</p>\n\n<p>I'm not sure exactly what usecase you're trying to solve.  Why do you want to use your own OP at all?  Why not have a string of anonymous OPs?  The easiest anonymous OP implementation is one where all assertions are true (ie, anyone can \"log in as\" any OpenID with the OP).</p>\n",
+    "text": ""
+  },
+  "wm-id": "32849",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/08/a-new-kind-of-openid-proxy/"
+}

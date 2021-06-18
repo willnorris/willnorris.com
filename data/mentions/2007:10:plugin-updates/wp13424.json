@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Michael Gracie",
+    "url": "http://michaelgracie.com/",
+    "photo": "https://www.gravatar.com/avatar/206fe37a443480c92d08b634c03c5533?d=404"
+  },
+  "url": "http://michaelgracie.com/",
+  "published": "2007-10-05T22:57:22-07:00",
+  "content": {
+    "html": "<p>Heh!  Bummer is it isn't so easily done on the live site, and after trying the install there I ran into the same prob.  Deleting all the options didn't help, nor did deleting and then recovering the entire table.</p>\r\n\r\nSeems like this happens after a previous OID install was removed.\r\n",
+    "text": ""
+  },
+  "wm-id": "13424",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

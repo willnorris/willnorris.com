@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jason Hoffman",
+    "url": "http://joyent.com/",
+    "photo": "https://www.gravatar.com/avatar/65dbf645b621820718097e1cc6d07993?d=404"
+  },
+  "url": "http://joyent.com/",
+  "published": "2007-02-27T00:31:26-08:00",
+  "content": {
+    "html": "It's a help desk application that sends the emails out, I'll pass on the idea of including x509 or other encryption support in there to the developers.",
+    "text": ""
+  },
+  "wm-id": "1345",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/strong-authentication-and-emailing-passwords/"
+}

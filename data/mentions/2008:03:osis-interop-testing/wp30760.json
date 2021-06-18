@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "=!BF81.FD97.C81B.B4E5",
+    "url": ""
+  },
+  "url": "",
+  "published": "2009-04-18T17:24:20-07:00",
+  "content": {
+    "html": "For anyone using the JanRain openID 2.0 ruby library. \r\n\r\nA new version was released on the 17th.  It is STRONGLY recomended that you update.  Please pass this on to anyone who may be using that Library.\r\n\r\nJohn Bradley",
+    "text": ""
+  },
+  "wm-id": "30760",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

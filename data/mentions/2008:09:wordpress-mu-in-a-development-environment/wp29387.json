@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Miranda",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/0cf21c43457a6346fefabe0c69ab24a7?d=404"
+  },
+  "url": "",
+  "published": "2009-03-04T20:43:53-08:00",
+  "content": {
+    "html": "Sorry to seem such a newb. Could elaborate on how to do this? I have added the line:\r\n\r\n\r\n    ServerName wp.mu\r\n    DocumentRoot ${path}/www\r\n\r\n\r\nto apache's config. This seemed like the logical step? I am a little confused how this works since the name \"wpmu\" is being directed by my DNS, where it is defined. Where exactly am I making the change to wp.mu without renaming the machine, in the DNS?\r\n\r\nAll apache is doing is running locally on the virtual server (attempting) to run MU.\r\n\r\nSorry if this sounds way off, I have just been spending SO much time on this, made it this far and am shattered. I'd love to be able to make this work, but am almost ready to approach this whole thing differently. Thanks for anything!",
+    "text": ""
+  },
+  "wm-id": "29387",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment/"
+}

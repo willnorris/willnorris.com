@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jeremy",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/becb781b6386623036894ac504c3030b?d=404"
+  },
+  "url": "",
+  "published": "2007-10-16T15:36:03-07:00",
+  "content": {
+    "html": "<p>THanks a lot, you saved me big time. In my case I had JAXWS .jar files in my JAVA_HOME/lib/endorsed folder and that threw things off.</p>\n",
+    "text": ""
+  },
+  "wm-id": "13787",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/03/classnotfound/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "bobrik",
+    "url": "http://bobrik.name/",
+    "photo": "https://www.gravatar.com/avatar/37ceb873ee50e3fa1ca956b3734e7604?d=404"
+  },
+  "url": "http://bobrik.name/",
+  "published": "2008-08-06T19:03:58-07:00",
+  "content": {
+    "html": "Will Norris, did you seen first comment? I dont think thats right",
+    "text": ""
+  },
+  "wm-id": "22962",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

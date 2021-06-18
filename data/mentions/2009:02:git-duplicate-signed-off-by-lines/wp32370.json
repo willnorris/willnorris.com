@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stephen Bau",
+    "url": "http://designprojectx.com/",
+    "photo": "https://www.gravatar.com/avatar/bac24b344b3f93a2a675c4c0ae6137d1?d=404"
+  },
+  "url": "http://designprojectx.com/",
+  "published": "2009-07-06T00:17:05-07:00",
+  "content": {
+    "html": "<p>This helped me git going again on Joyent's Shared Accelerators once I realized I needed to modify the first line of the <code>.git/hooks/commit-msg</code> file in my repository from this:</p>\n\n<pre><code>#!/bin/sh\n</code></pre>\n\n<p>to this:</p>\n\n<pre><code>#!/usr/bin/bash\n</code></pre>\n\n<p>Thanks for helping put an end to that frustration.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32370",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/02/git-duplicate-signed-off-by-lines/"
+}

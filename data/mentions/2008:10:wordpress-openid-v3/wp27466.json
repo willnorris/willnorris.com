@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Mark",
+    "url": "http://orbum.net/mark/author/mark/",
+    "photo": "https://www.gravatar.com/avatar/e50f4402cd331b7e9de1dd81c2f918f6?d=404"
+  },
+  "url": "http://orbum.net/mark/author/mark/",
+  "published": "2008-12-18T23:46:19-08:00",
+  "content": {
+    "html": "By the way, your site here seems to be putting in extra stuff in the OpenID URI on people's posts.\r\n\r\nFor example, my link gets this ' rel=external nofollow tacked onto the end of it, which confuses the site linked to.\r\n\r\nThat doesn't seem to be a bug in wp_openid 3.1.4 - which my site is using - which doesn't do that same thing....\r\n\r\nAnyway, just wanted to say, in case you didn't know, or in case I'm just experiencing some unique strangeness of my own.",
+    "text": ""
+  },
+  "wm-id": "27466",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

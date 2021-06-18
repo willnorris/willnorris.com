@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "WordPress 2.8 Beta RC1 &mdash; WPCandy &mdash; WordPress Themes, Plugins, Tips, and Tricks",
+    "url": "http://wpcandy.com/articles/wordpress-28-beta-rc1.html"
+  },
+  "url": "http://wpcandy.com/articles/wordpress-28-beta-rc1.html",
+  "published": "2009-06-08T13:25:16-07:00",
+  "content": {
+    "html": "[...] Authentication in WordPress 2.8 [...]",
+    "text": ""
+  },
+  "wm-id": "31824",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

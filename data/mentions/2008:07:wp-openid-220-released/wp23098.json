@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Cryptosmith &raquo; Open ID still struggling on WordPress",
+    "url": "http://www.cryptosmith.com/archives/220"
+  },
+  "url": "http://www.cryptosmith.com/archives/220",
+  "published": "2008-08-12T15:43:15-07:00",
+  "content": {
+    "html": "[...] just activated the Open ID plugin for my Wordpress blog (wp-openid 2.2.0). As with the previous release, it still doesn&#8217;t work for me. I tried logging in with two [...]",
+    "text": ""
+  },
+  "wm-id": "23098",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

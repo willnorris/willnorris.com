@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Ptath",
+    "url": "http://ptath.ru",
+    "photo": "https://www.gravatar.com/avatar/04e75802ab019e5b52f0c167d71ba6c2?d=404"
+  },
+  "url": "http://ptath.ru",
+  "published": "2008-02-20T17:09:27-08:00",
+  "content": {
+    "html": "<p>Plugin does not works for me properly =(</p>\n\n<p>It does not redirects to provider, simply posts comment without auth.</p>\n",
+    "text": ""
+  },
+  "wm-id": "17686",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wp-openid-moving-to-diso/"
+}

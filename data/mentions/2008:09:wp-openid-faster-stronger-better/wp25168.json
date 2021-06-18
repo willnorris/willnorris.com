@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://wnorris.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://wnorris.myopenid.com/",
+  "published": "2008-09-19T17:12:18-07:00",
+  "content": {
+    "html": "[quote comment=\"25166\"]Will you drop IDIP support for wp-openid 3.0? You disabled the XRDS-Code and renamed the OpenID input-fields...[/quote]\r\nOops... I think I was testing some XRDS-Simple stuff when I commented that out.  It will definitely be in the final 3.0 release.  The OpenID input fields where updated to be consistent with the 2.0 spec, and either will work with IDIB.",
+    "text": ""
+  },
+  "wm-id": "25168",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wp-openid-faster-stronger-better/"
+}

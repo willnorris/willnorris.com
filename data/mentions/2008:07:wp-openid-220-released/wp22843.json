@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Pawel",
+    "url": "http://blog.pawelsobczak.pl",
+    "photo": "https://www.gravatar.com/avatar/33b40ca5c5ba7af93da919ca80cbfd35?d=404"
+  },
+  "url": "http://blog.pawelsobczak.pl",
+  "published": "2008-08-03T10:38:14-07:00",
+  "content": {
+    "html": "I've downgraded plugin to 2.1.9 and now works without problems.\r\nSo the reason is somewhere in the plugin, not the openid.pl",
+    "text": ""
+  },
+  "wm-id": "22843",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

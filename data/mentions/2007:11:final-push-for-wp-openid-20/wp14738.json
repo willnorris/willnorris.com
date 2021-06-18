@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "sairuh",
+    "url": "http://sairuh.org/",
+    "photo": "https://www.gravatar.com/avatar/b68163b7cd80b9ceecdadd634a856de0?d=404"
+  },
+  "url": "http://sairuh.org/",
+  "published": "2007-11-08T22:48:59-08:00",
+  "content": {
+    "html": "<p>I still get the error, even after I deactivated/activated the plugin about four times.</p>\n\n<p>Out of curiosity, I viewed my wp_comments table, and there doesn't seem to be an openid column. Odd. I recall disabling the plugin before I installed the more recent revision, fwiw.</p>\n",
+    "text": ""
+  },
+  "wm-id": "14738",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/final-push-for-wp-openid-20/"
+}

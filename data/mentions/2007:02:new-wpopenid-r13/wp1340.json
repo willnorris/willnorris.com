@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-02-26T16:51:28-08:00",
+  "content": {
+    "html": "[quote comment=\"1337\"]If I have already used old wpopenid pluginï¼Œwhat should I do to update to your wpopenid+? Or should I need to do so?[/quote]\r\nThe main reason you might want to update is if you want to use unobtrusive mode or are affected by one of the bugs that have been fixed (for example, if your blog url is not the same as your site url).  If not, then you can probably just stick with the old version for now.  I've talked with Alan (the original developer of the plugin) and we're going to work to get some of these patches committed back into the main trunk, so there will no longer be two different versions.\r\n\r\nIf you do decide to update, then simply replace the version you have with what you download from here.  All the preferences and such should carry over.",
+    "text": ""
+  },
+  "wm-id": "1340",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/new-wpopenid-r13/"
+}

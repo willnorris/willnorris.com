@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Shack Dougall",
+    "url": "http://liferain.com/id/ShackDougall/",
+    "photo": "https://www.gravatar.com/avatar/86ae08848cd3917e67c360e0521d7b24?d=404"
+  },
+  "url": "http://liferain.com/id/ShackDougall/",
+  "published": "2007-10-01T23:45:07-07:00",
+  "content": {
+    "html": "Okay, I got past the log error. When I go to the OpenID options page, everything looks okay, except the database tables.  \r\n\r\nAt the top of the OpenID options page, there's a spooky message about my database being out of date and that I need to Upgrade Wordpress.  If I press on that link, it runs the normal Wordpress Upgrade script and tells me that no upgrade is required.  No harm no foul, I guess. :-)\r\n\r\nThen, there's the message <code>WordPress database error: [Specified key was too long; max key length is 1000 bytes]\r\nCREATE TABLE oid_associations ( server_url blob, handle varchar(255), secret blob, issued int(11), lifetime int(11), assoc_type varchar(64), PRIMARY KEY (server_url(255),handle) )</code>\r\n\r\nThen, All Systems Nominal. But with [FAIL] database tables. \r\n\r\n<code>Table oid_associations doesn't exist.\r\nTable wp_shack_openid_nonces exists.\r\nTable wp_shack_openid_identities exists.</code>\r\n\r\nMySql is 5.0.46",
+    "text": ""
+  },
+  "wm-id": "13277",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

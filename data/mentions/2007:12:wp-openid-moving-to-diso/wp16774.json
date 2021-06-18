@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Artem Vaulin",
+    "url": "http://tirm.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/7cb819f521d9463bd751219fc731bde5?d=404"
+  },
+  "url": "http://tirm.myopenid.com/",
+  "published": "2008-01-10T08:00:17-08:00",
+  "content": {
+    "html": "<p>Thanks for making the plugins.</p>\n",
+    "text": ""
+  },
+  "wm-id": "16774",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/12/wp-openid-moving-to-diso/"
+}

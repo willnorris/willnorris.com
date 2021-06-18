@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Miranda",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/0cf21c43457a6346fefabe0c69ab24a7?d=404"
+  },
+  "url": "",
+  "published": "2009-03-04T19:25:05-08:00",
+  "content": {
+    "html": "So close and yet so far..\r\nI am attempting to run MU on an XP SP3 virtual server and after much struggling, have gotten this far. Finally get to this login and I have exactly the same issue. If you put in the correct auto-generated pass, it just comes right back (as if nothing happened). \r\n\r\n\r\nI cannot remame the Virtual XP machine anything with a dot in the name",
+    "text": ""
+  },
+  "wm-id": "29385",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment/"
+}

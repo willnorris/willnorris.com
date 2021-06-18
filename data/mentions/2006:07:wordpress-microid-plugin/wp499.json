@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Terrell Russell",
+    "url": "http://weblog.terrellrussell.com",
+    "photo": "https://www.gravatar.com/avatar/8c36e6b01b9d1e70ff5e741e116bed6c?d=404"
+  },
+  "url": "http://weblog.terrellrussell.com",
+  "published": "2006-07-08T00:37:08-07:00",
+  "content": {
+    "html": "<p>OpenID is definitely not the only (or first) URL-based identity scheme.  <a href=\"http://lid.netmesh.org/wiki/Main_Page\" rel=\"nofollow\">LID</a> was around earlier and continues to serve as a valid URL-based identifier.</p>\r\n\r\n<p>That said - we are moving quickly into an interesting space as more and more comments/pages/content will be verifiably by certain authors and our <a href=\"http://weblog.terrellrussell.com/2006/06/consolidation-of-self-in-an-interconnected-world/\" rel=\"nofollow\"> online reputations become more and more tied to our real-life reputations</a>.</p>\r\n",
+    "text": ""
+  },
+  "wm-id": "499",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2006/07/wordpress-microid-plugin/"
+}

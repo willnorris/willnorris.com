@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Oliver Wagner",
+    "url": "http://owagner.myopenid.com/",
+    "photo": "https://www.gravatar.com/avatar/c2e4a383ad0dd4bfc1d0e30c83b2193b?d=404"
+  },
+  "url": "http://owagner.myopenid.com/",
+  "published": "2007-03-23T12:35:10-07:00",
+  "content": {
+    "html": "sorry, was just testing your oprn ID plugin :-)",
+    "text": ""
+  },
+  "wm-id": "1652",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/03/livejournal-syndication/"
+}

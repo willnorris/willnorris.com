@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-04-15T22:01:59-07:00",
+  "content": {
+    "html": "[quote comment=\"2490\"]I can't seem to find it explicitly stated anywhere, though I've yet to look into the code -- does your fork offer an OpenID server like the \"OpenID Comments\" plugin did? Because I don't like the idea of delegating an ID all over the net when I have my own host.[/quote]\r\nno, this is simply a plugin for consuming OpenIDs, either for commenting or for logging in to existing accounts.  The role of acting as an OpenID server is quite different, and should probably stay in a separate plugin.  In fact, there are a number of projects that provide an OpenID server (notably <a href=\"http://siege.org/projects/phpMyID/\">phpMyID</a>), that can easily be installed along side wordpress.",
+    "text": ""
+  },
+  "wm-id": "2493",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

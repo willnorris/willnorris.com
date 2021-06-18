@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chris Messina",
+    "url": "http://factoryjoe.com/",
+    "photo": "https://www.gravatar.com/avatar/8403e20f058363f718144dd51faa65a7?d=404"
+  },
+  "url": "http://factoryjoe.com/",
+  "published": "2007-11-06T05:06:24-08:00",
+  "content": {
+    "html": "<p>Exactly! This is a great write up Will... I should probably go back and collect this again -- keep the conversation going with trackbacks! ;)</p>\n",
+    "text": ""
+  },
+  "wm-id": "14667",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/try-reuse-catch-ex-reinvent/"
+}

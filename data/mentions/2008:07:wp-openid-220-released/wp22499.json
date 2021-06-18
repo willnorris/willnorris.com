@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Terrell",
+    "url": "http://weblog.terrellrussell.com",
+    "photo": "https://www.gravatar.com/avatar/112fb685c2402e6fce3c1f01aa5cac5f?d=404"
+  },
+  "url": "http://weblog.terrellrussell.com",
+  "published": "2008-07-24T01:54:15-07:00",
+  "content": {
+    "html": "good stuff.",
+    "text": ""
+  },
+  "wm-id": "22499",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

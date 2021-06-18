@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "=!BF81.FD97.C81B.B4E5",
+    "url": ""
+  },
+  "url": "",
+  "published": "2009-04-18T17:21:07-07:00",
+  "content": {
+    "html": "You are not validating the signature of the op_endpoint in assertions.  \r\n\r\nThis is a bug in the library.\r\n\r\nPlease run the OSIS tests and update the results.\r\nhttp://osis.idcommons.net/wiki/I5:WP-OpenID#WP-OpenID\r\n\r\nPS my login from @fullXRI works",
+    "text": ""
+  },
+  "wm-id": "30759",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/03/osis-interop-testing/"
+}

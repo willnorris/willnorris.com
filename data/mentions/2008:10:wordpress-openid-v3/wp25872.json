@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Ramesh Thiruchelvam",
+    "url": "http://ramesh.sri-lankan.net/",
+    "photo": "https://www.gravatar.com/avatar/53ba620c8ee63a01eea203de459b501b?d=404"
+  },
+  "url": "http://ramesh.sri-lankan.net/",
+  "published": "2008-10-24T09:42:58-07:00",
+  "content": {
+    "html": "I'm using the verisignlabs openid now I'll try using WordPress OpenID v3.0 with it.",
+    "text": ""
+  },
+  "wm-id": "25872",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

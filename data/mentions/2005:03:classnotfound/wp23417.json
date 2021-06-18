@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Chi",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/112c52ce78256c6e468776836a04ea83?d=404"
+  },
+  "url": "",
+  "published": "2008-08-26T01:48:36-07:00",
+  "content": {
+    "html": "I got this issue when I tried to set up a web service app with jaxws 2.1 to work.\r\n\r\nI was having another issue, followed a link online suggested that all the jars for jaxws 2.1 should be put in jre/lib/endorsed. One of the jar file which defines Apt ant task is jaxws-tools.jar.And this stopped my Ant task invoking from eclipse to work.\r\n\r\nFollowed your instruction, i removed the endorsed dir from jdk1.6 dir and things started working again.",
+    "text": ""
+  },
+  "wm-id": "23417",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2005/03/classnotfound/"
+}

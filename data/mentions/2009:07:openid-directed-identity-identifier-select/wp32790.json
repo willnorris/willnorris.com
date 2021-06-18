@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "https://me.yahoo.com/a/YN.TrVBnuIAvmAk7teEzbLW_MQ--#fca02",
+    "photo": "https://www.gravatar.com/avatar/c48e022f9dbba19c0d670e4652cc76d7?d=404"
+  },
+  "url": "https://me.yahoo.com/a/YN.TrVBnuIAvmAk7teEzbLW_MQ--#fca02",
+  "published": "2009-07-31T17:15:28-07:00",
+  "content": {
+    "html": "<p>test comment with Yahoo!</p>\n\n<p>OpenID should be working now... seems the good folks at Joyent decided it would be a good idea to remove curl's ca cert bundle all together.  I had actually noticed this a few weeks ago, just forgot to fix it with the WordPress plugin.  Should hopefully be okay now.</p>\n\n<p><b>edit:</b> well, it worked with MyOpenID... guess there's still something wrong with Yahoo!.  I'll get it sorted out.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32790",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/07/openid-directed-identity-identifier-select/"
+}

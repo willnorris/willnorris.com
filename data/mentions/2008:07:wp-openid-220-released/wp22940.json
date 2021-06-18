@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Pawel",
+    "url": "http://blog.pawelsobczak.pl",
+    "photo": "https://www.gravatar.com/avatar/33b40ca5c5ba7af93da919ca80cbfd35?d=404"
+  },
+  "url": "http://blog.pawelsobczak.pl",
+  "published": "2008-08-06T05:38:49-07:00",
+  "content": {
+    "html": "I've posted a comment few days ago but I see it didn't appeared.\r\nSo once again:\r\nthe problem occurred when one of my readers used the openid[dot]pl, so I checked it with my test account queyas[dot]openid[dot]pl and received the message.\r\nI've discovered that 2.1.9 version works ok, so there's something wrong with the newest plugin",
+    "text": ""
+  },
+  "wm-id": "22940",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

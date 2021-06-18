@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Eran Hammer-Lahav",
+    "url": "http://hueniverse.com",
+    "photo": "https://www.gravatar.com/avatar/28d0cb94cd9afcc9763dd64fea80a187?d=404"
+  },
+  "url": "http://hueniverse.com",
+  "published": "2009-03-20T06:53:14-07:00",
+  "content": {
+    "html": "Two minor corrections:\r\n\r\nOAuth does not uses XRDS-Simple. An expired draft of OAuth Discovery uses it. This draft is now being updated to use XRD.\r\n\r\nWhile XRD is not directly compatible with XRDS and LRDD (pronounced 'lard') is not compatible with Yadis, they are very much design to operate side-by-side. The two solutions are designed not to conflict with one another, which by itself is a migration path.",
+    "text": ""
+  },
+  "wm-id": "29911",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/the-open-stack-in-php/"
+}

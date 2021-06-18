@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "John Eckman",
+    "url": "http://www.openparenthesis.org/",
+    "photo": "https://www.gravatar.com/avatar/6f63f4d34302710d781d9c2a5f2f454b?d=404"
+  },
+  "url": "http://www.openparenthesis.org/",
+  "published": "2010-01-09T23:34:04-08:00",
+  "content": {
+    "html": "<p>Thanks for this great series, Will - I've updated <a href=\"http://wordpress.org/extend/plugins/wpbook/\">WPBook</a> to comply with them (I think!).</p>\n\n<p>When constructing in code the full url that will be used (example.com/index.php in your example), is it better to use get_bloginfo('wpurl') or get_bloginfo('home')?</p>\n\n<p>That is, do I need to point at index.php in the directory where WordPress is installed or the index.php where they set their home url to be, in cases where they've moved WordPress into a subdirectory?</p>\n",
+    "text": ""
+  },
+  "wm-id": "39670",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files/"
+}

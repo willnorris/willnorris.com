@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Philip Malan",
+    "url": "http://iamdentity.com/openid/boerseun",
+    "photo": "https://www.gravatar.com/avatar/820c249ea677406d3af9a94ff06f68f9?d=404"
+  },
+  "url": "http://iamdentity.com/openid/boerseun",
+  "published": "2007-03-11T09:17:07-07:00",
+  "content": {
+    "html": "Will,\r\n\r\nAn excellent list. I see you mentioned iamdentity here as well. I'm one of the main developers of the iamdentity solution. We want to create a centralised identity management solution where you can control all your online identities.\r\n\r\nOpenID is part of this and we want to expand on this as well. At the moment we include:\r\n\r\n1. Strong Authentication - We have a one-time key sent to the user. We have just agreed a partnership deal with a key-token provider. Soon users will have the option to use a key-token as a strong authentication method as well.\r\n\r\n2. Attribute Release Properties - You control what is released to the website\r\n\r\n3. Identity Linking - You can link all your OpenIDs to your profile and manage it from there as well.\r\n\r\nWe are thinking of implementing the Audit Trail for OpenID as well (we have it for our normal iamdentity solution).\r\n\r\nAs we are creating a solution for the internet community, we work with the internet community. Let me know what you want to see in the iamdentity profile manager.",
+    "text": ""
+  },
+  "wm-id": "1442",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/03/openid-provider-wish-list/"
+}

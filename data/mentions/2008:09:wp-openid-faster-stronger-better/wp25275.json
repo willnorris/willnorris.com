@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Cryptosmith &raquo; Revising OpenID for WordPress",
+    "url": "http://www.cryptosmith.com/archives/325"
+  },
+  "url": "http://www.cryptosmith.com/archives/325",
+  "published": "2008-09-21T16:40:25-07:00",
+  "content": {
+    "html": "[...] Will Norris is working on a revision to OpenID for WordPress. This is good, and I have some observations and suggestions. At the moment the OpenID plugin works pretty well - I have separate logins delegated through domains I own. I routinely log in through OpenID for both routine and administrative activities. [...]",
+    "text": ""
+  },
+  "wm-id": "25275",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/09/wp-openid-faster-stronger-better/"
+}

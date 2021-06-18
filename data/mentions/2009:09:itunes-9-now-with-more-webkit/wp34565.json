@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Igel",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/5425c6aab894b6c4bf7eecc4c0404e6b?d=404"
+  },
+  "url": "",
+  "published": "2009-09-10T07:28:17-07:00",
+  "content": {
+    "html": "<p>Great Post. ;-) Regards from <a href=\"http://www.twitter-trends.de/volksphone\">VolksPhone</a></p>\n",
+    "text": ""
+  },
+  "wm-id": "34565",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

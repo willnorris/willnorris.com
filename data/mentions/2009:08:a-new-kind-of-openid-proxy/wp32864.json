@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-08-03T20:57:08-07:00",
+  "content": {
+    "html": "<p>@Simon: theoretically, yes.  But there is no \"list of OIDPs associated with [the proxy]\".  The user could login to the proxy using any OpenID from anywhere.  The \"list of possible OpenIDs\" that would have to be tested against the directed identifier would be every OpenID in the world.  Now, if they already had an idea of who they <em>thought</em> the directed identifier belonged to, they could subpoena those providers and potentially identify the user.</p>\n\n<p>This is where Stephen's suggestion of chaining proxies really shines.  In order to identify the user, you would have to know the exact chain of proxies that were used, and in exactly what order.  In addition, you'd have to subpoena the secret salt of each one of them, some of which may not even be in the same legal jurisdiction.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32864",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/08/a-new-kind-of-openid-proxy/"
+}

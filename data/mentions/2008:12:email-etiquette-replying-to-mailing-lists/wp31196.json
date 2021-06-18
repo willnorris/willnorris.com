@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Deciphering Twitter @replies &#8212; Will Norris",
+    "url": "http://willnorris.com/2009/05/deciphering-twitter-replies"
+  },
+  "url": "http://willnorris.com/2009/05/deciphering-twitter-replies",
+  "published": "2009-05-13T18:38:48-07:00",
+  "content": {
+    "html": "[...] actually doing, so I decided to try a quick experiment. Just like email replies (which I recently ranted about), there are two ways to designate a reply in Twitter. Akin to the subject of an email, you can [...]",
+    "text": ""
+  },
+  "wm-id": "31196",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2008/12/email-etiquette-replying-to-mailing-lists/"
+}

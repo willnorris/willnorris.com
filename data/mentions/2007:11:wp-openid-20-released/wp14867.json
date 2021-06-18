@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-11-12T04:45:14-08:00",
+  "content": {
+    "html": "<p>@Anton (Anonymous): I'd need a bit more information to know what's wrong.  Feel free to contact me off-site or in the WP support forums.</p>\n\n<p>@Frederick: perhaps I'm not understanding the use case, but why should an administrator be able to edit a user's Identity URLs?  That would require that either A) the admin knows the password for the user's OpenID account, which is not likely or B) we don't actually verify ownership of the OpenID, which completely defeats the purpose.</p>\n",
+    "text": ""
+  },
+  "wm-id": "14867",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Akshathkumar Shetty",
+    "url": "http://blog.akshathkumarshetty.com/",
+    "photo": "https://www.gravatar.com/avatar/16087b54795ebc0146917db2a7c4ddaf?d=404"
+  },
+  "url": "http://blog.akshathkumarshetty.com/",
+  "published": "2008-03-17T17:49:54-07:00",
+  "content": {
+    "html": "<p>when i try to activate .. i get the following error.. does nay one know the fix ?</p>\n\n<p>Warning: constant() [function.constant]: Couldn't find constant PEAR_LOG_WARNING in /home/www/blog/wp-content/plugins/openid/core.php on line 155</p>\n\n<p>Fatal error: Call to undefined method Log_file::setMask() in /home/www/blog/wp-content/plugins/openid/core.php on line 156</p>\n",
+    "text": ""
+  },
+  "wm-id": "18690",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

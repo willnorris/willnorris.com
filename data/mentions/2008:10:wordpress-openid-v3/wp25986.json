@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Josh",
+    "url": "http://joshhansen.net/",
+    "photo": "https://www.gravatar.com/avatar/5bee40ad6dbc61850bb503737cc2a239?d=404"
+  },
+  "url": "http://joshhansen.net/",
+  "published": "2008-10-30T23:12:48-07:00",
+  "content": {
+    "html": "Just wondering what your thoughts might be on integration with Google and Microsoft's recently announced provider services, especially the ability to use an email address as an id without an intermediate party like emailtoid.",
+    "text": ""
+  },
+  "wm-id": "25986",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-01-02T17:02:30-08:00",
+  "content": {
+    "html": "@Jilles: huh?  OpenID has never depended on TLDs, nor is there any mention of .name in the spec.  In fact, OpenID 2.0 doesn't even require DNS-based URLs.  I could instead use my i-name, *=will.norris*, as my OpenID.\r\n\r\n.name also is not all that new.  In fact, it was among the very first set of TLDs created by ICANN back around 2000.  It was the first TLD setup specifically for individuals, and makes a lot of sense.  In any event, I've already merged the sites, so it doesn't matter at this point.",
+    "text": ""
+  },
+  "wm-id": "28047",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/11/consolidating-domains/"
+}

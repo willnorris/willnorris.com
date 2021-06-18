@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Yun4 - iTunes Store = HTML + CSS 3",
+    "url": "http://www.yun4.net/itunes-store-html-css-3/"
+  },
+  "url": "http://www.yun4.net/itunes-store-html-css-3/",
+  "published": "2009-09-10T13:18:04-07:00",
+  "content": {
+    "html": "<p>[...] on iTunes 9 using WebKit to render the UI. Will Norris managed to retrieve the Rock page and reconstruct and host them after some fix. The “Quick View” for each album however does not [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "34588",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

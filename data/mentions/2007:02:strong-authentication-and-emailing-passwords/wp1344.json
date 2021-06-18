@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com",
+  "published": "2007-02-26T22:36:23-08:00",
+  "content": {
+    "html": "In regards to not vetting my identity, I forgot that by default all of my outgoing emails are signed using my x509 certificate from Thawte (which includes both my name and email since I went through their vetting process).  So given that, I guess that would have been sufficient to determine that the request was truly from me... my apologies on that point.  However, that also means that you then had my public cert right there and could have easily used it to encrypt the reply email.  Perhaps you are just a PGP shop and would have done so if I had used that instead of x509?  That would definitely be encouraging, but still a little short-sighted since there are still a number of people that use x509, if for no other reason than it is more commonly supported in email clients.",
+    "text": ""
+  },
+  "wm-id": "1344",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/02/strong-authentication-and-emailing-passwords/"
+}

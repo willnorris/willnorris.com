@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Will Norris",
+    "url": "http://willnorris.com/",
+    "photo": "https://www.gravatar.com/avatar/2025929025b4492c58961f28cc4ed93d?d=404"
+  },
+  "url": "http://willnorris.com/",
+  "published": "2009-08-03T20:40:11-07:00",
+  "content": {
+    "html": "<p>yes, the same chaining approach could certainly be taken with what I describe, however it's not actually necessary if you trust that the one proxy you are using is doing the right thing (ie, not recording OpenIDs or salts).  It's all up to how strongly a user wants to ensure their privacy.</p>\n",
+    "text": ""
+  },
+  "wm-id": "32862",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/08/a-new-kind-of-openid-proxy/"
+}

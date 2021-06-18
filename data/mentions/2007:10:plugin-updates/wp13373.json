@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Shack Dougall",
+    "url": "http://liferain.com/id/ShackDougall/",
+    "photo": "https://www.gravatar.com/avatar/86ae08848cd3917e67c360e0521d7b24?d=404"
+  },
+  "url": "http://liferain.com/id/ShackDougall/",
+  "published": "2007-10-04T17:53:15-07:00",
+  "content": {
+    "html": "<p>Re: gravatar -- I was logged out before placing the first comment.  So, I placed the comment and logged in simultaneously.  When I placed the second comment, I was already logged in.</p>\n\n<p>Maybe the gravatar thing is related to the Anonymous problem (I noticed you put that on the wish list).  The Anonymous post about Quoter was me as well.  I was logged out before placing that comment, too.  It might also be related to the permissions I was giving when logging in. Several of the times that I've posted here, I've only given permission for the single login.  But when I made the gravatar post, I gave permission forever.</p>\n\n<p>re: Point 3 -- Looks like there's a filter #get_comment_author_link that might do the trick.  I'll play around with it to see.</p>\n",
+    "text": ""
+  },
+  "wm-id": "13373",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/10/plugin-updates/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Charles Roper",
+    "url": "http://twitter.com/charlesroper",
+    "photo": "https://www.gravatar.com/avatar/93fc84c261cdce2e2f1d64c8e531ecb7?d=404"
+  },
+  "url": "http://twitter.com/charlesroper",
+  "published": "2009-10-12T07:59:58-07:00",
+  "content": {
+    "html": "<p>Brilliant - this solved the problem for me on my Joyent Shared as well.</p>\n\n<p>One question: is there any way of making this change permanent for all Git repos I pull onto my Joyent Shared?</p>\n",
+    "text": ""
+  },
+  "wm-id": "36190",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/02/git-duplicate-signed-off-by-lines/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Pawel",
+    "url": "http://blog.pawelsobczak.pl",
+    "photo": "https://www.gravatar.com/avatar/33b40ca5c5ba7af93da919ca80cbfd35?d=404"
+  },
+  "url": "http://blog.pawelsobczak.pl",
+  "published": "2008-08-02T23:29:10-07:00",
+  "content": {
+    "html": "It's on my blog: http://blog.pawelsobczak.pl\r\nOne of my readers send me a feedback with troubles with openid.pl\r\nI registered at it to check the problem, because other sites (like myopenid.com) works fine.\r\nThis is the URL with error:http://wklej.org/id/d37b8aa5c6 (it's only link to the URL, because the latter is too long)\r\nIs it possible that openid.pl uses different 'standard' that plugin doesn't operate?",
+    "text": ""
+  },
+  "wm-id": "22824",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

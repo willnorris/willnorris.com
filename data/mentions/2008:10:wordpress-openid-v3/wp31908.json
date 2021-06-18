@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jared",
+    "url": "",
+    "photo": "https://www.gravatar.com/avatar/ba170aeaa7924ce6cbec3acd09ea83a4?d=404"
+  },
+  "url": "",
+  "published": "2009-06-12T19:00:51-07:00",
+  "content": {
+    "html": "<p>I am trying to get openid set up on an MU installation.  It apears that the code has an issue with obeying the settings for allowing new registrations.  this setting is not in the WordPress General Settings page in MU.. it is in the Site Admin -&gt; Options page.  I verified that changing the value allows me to create a new user / blog or not with a regular logon, but when it is attempted with an OpenID URL, I get the same error as above:</p>\n\n<p>Your have entered a valid OpenID, but this site is not currently accepting new accounts</p>\n\n<p>Also, I do have the patch for bug 121 applied to my install and that part does work correctly.. Are there other patches I might have missed?</p>\n",
+    "text": ""
+  },
+  "wm-id": "31908",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

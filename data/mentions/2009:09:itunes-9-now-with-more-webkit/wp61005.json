@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "&raquo; Put iTunes in the iCloud lister.net.au",
+    "url": "http://lister.net.au/put-itunes-in-the-icloud/"
+  },
+  "url": "http://lister.net.au/put-itunes-in-the-icloud/",
+  "published": "2011-06-01T07:57:37-07:00",
+  "content": {
+    "html": "<p>[...] a new observation &#8212; c.f. http://willnorris.com/2009/09/itunes-9-now-with-more-webkit [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "61005",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/09/itunes-9-now-with-more-webkit/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "brainsolid",
+    "url": "http://binaries.ru/",
+    "photo": "https://www.gravatar.com/avatar/0c38b13a1079cb0e672503bd84e9fbba?d=404"
+  },
+  "url": "http://binaries.ru/",
+  "published": "2008-08-10T17:02:03-07:00",
+  "content": {
+    "html": "Hello!\r\nI use WP v.2.6 and plugin WP-OpenID v.2.2.2\r\nWhen i try to use openid (lj or myopenid.com) i see this error:\r\n\"Unable to authenticate OpenID\". What does that mean? How can i fix it?",
+    "text": ""
+  },
+  "wm-id": "23049",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

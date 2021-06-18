@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Josh",
+    "url": "http://joshhansen.net/",
+    "photo": "https://www.gravatar.com/avatar/5bee40ad6dbc61850bb503737cc2a239?d=404"
+  },
+  "url": "http://joshhansen.net/",
+  "published": "2008-08-13T20:20:15-07:00",
+  "content": {
+    "html": "Will,\r\nThanks for the plugin. This is a really important bit of infrastructure for wordpress to be receiving.\r\n\r\nUnfortunately, I've noticed that I am receiving the following error:\r\nPHP Fatal error:  Too many values for format string:  =&gt; 1218639686 in [my home dir]/public_html/wp-content/plugins/openid/store.php on line 441\r\n\r\nThat comes from the interpolate function. The error arose when I clicked on the \"Manage\" tab on the dashboard, and it resulted in a 404.\r\n\r\nI'm using WP2.6. Please mail me if you want more information. Thanks!",
+    "text": ""
+  },
+  "wm-id": "23125",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

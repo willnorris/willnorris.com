@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Bigmentaldisease",
+    "url": "http://bigmentaldisease.com/",
+    "photo": "https://www.gravatar.com/avatar/a83e29d9cb23e994c0cb18ccbfa80101?d=404"
+  },
+  "url": "http://bigmentaldisease.com/",
+  "published": "2010-01-03T02:12:55-08:00",
+  "content": {
+    "html": "<p>It's not working for me. I am always redirected to a page with \"No input file specified\".</p>\n",
+    "text": ""
+  },
+  "wm-id": "39465",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/09/wordpress-openid-v3-3/"
+}

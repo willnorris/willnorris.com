@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://www.flickr.com/photos/colonelgrib",
+    "url": "http://www.flickr.com/photos/colonelgrib"
+  },
+  "url": "http://www.flickr.com/photos/colonelgrib",
+  "published": "2008-06-13T10:57:51-07:00",
+  "content": {
+    "html": "<p>I've tried this on my site but get the error \"We were unable to authenticate your OpenID\"</p>\n",
+    "text": ""
+  },
+  "wm-id": "21182",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Kevin T Driver",
+    "url": "http://lifeasitcomes.com/blog/",
+    "photo": "https://www.gravatar.com/avatar/129d4ee560a9268e641d8a5969f19961?d=404"
+  },
+  "url": "http://lifeasitcomes.com/blog/",
+  "published": "2007-11-30T22:24:15-08:00",
+  "content": {
+    "html": "<p>I'm encountering an error with this plugin:</p>\n\n<p>Error: OpenID assertion failed: Bad signature</p>\n\n<p>Any thoughts about how to associate my OpenID with my WordPress account?</p>\n",
+    "text": ""
+  },
+  "wm-id": "15573",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/11/wp-openid-20-released/"
+}

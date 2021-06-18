@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "http://ramoonus.blogspot.com/",
+    "url": "http://ramoonus.blogspot.com/",
+    "photo": "https://www.gravatar.com/avatar/5bc54c4b774184a64bb9c92cc7f79446?d=404"
+  },
+  "url": "http://ramoonus.blogspot.com/",
+  "published": "2008-08-24T10:43:43-07:00",
+  "content": {
+    "html": "I also have a bug with signin in on verisign\r\n\r\nbut keep op the good work with OpenID and MicroID!",
+    "text": ""
+  },
+  "wm-id": "23374",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/07/wp-openid-220-released/"
+}

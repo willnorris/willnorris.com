@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Vince",
+    "url": "http://www.businessforesights.com",
+    "photo": "https://www.gravatar.com/avatar/644bf9224758178f2516567c0de17b1a?d=404"
+  },
+  "url": "http://www.businessforesights.com",
+  "published": "2009-11-07T11:49:30-08:00",
+  "content": {
+    "html": "<p>I am building a company blog using WP and wondered which of these solutions, OAuth or OpenID, will allow visitors from LinkedIn to login and comment?\nThanks</p>\n",
+    "text": ""
+  },
+  "wm-id": "37615",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

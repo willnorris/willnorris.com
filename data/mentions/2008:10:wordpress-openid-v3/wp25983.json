@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "aun",
+    "url": "http://aunraza.com",
+    "photo": "https://www.gravatar.com/avatar/4860fecfade92df267ae25d8e75d5d6a?d=404"
+  },
+  "url": "http://aunraza.com",
+  "published": "2008-10-30T18:27:41-07:00",
+  "content": {
+    "html": "Will, using my openid (http://aunraza.com) on your site the first time seems to have worked, however, when I try to post a comment on my own site, or even try to login to my WP dashboard it keeps redirecting me back to the login page.\r\n\r\nSo, it didn't work the second time round, and I'm having to comment without OpenID. Not sure what is going on.",
+    "text": ""
+  },
+  "wm-id": "25983",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2008/10/wordpress-openid-v3/"
+}

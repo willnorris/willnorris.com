@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Rotacoo &raquo; Blog Archive &raquo; How-to set up OpenID for Wordpress comments",
+    "url": "http://rotacoo.com/how-to-set-up-openid-for-wordpress-comments"
+  },
+  "url": "http://rotacoo.com/how-to-set-up-openid-for-wordpress-comments",
+  "published": "2007-10-12T07:36:41-07:00",
+  "content": {
+    "html": "<p>[...] Will Norris has continued development of his &#8220;Wordpress OpenID&#8221; plugin (formerly known as &#8220;Wordpress OpenID Plugin+&#8220;, and the basis of &#8220;WP-OpenID+&#8221; mentioned above) and is aiming to release it as &#8220;version 2.0&#8243; sometime in October. [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "13683",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2007/09/wordpress-openid-20-coming-soon/"
+}

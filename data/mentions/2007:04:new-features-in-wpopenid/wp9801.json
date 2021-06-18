@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Koesmanto Bong",
+    "url": "http://thisis.myvidoop.com/",
+    "photo": "https://www.gravatar.com/avatar/9256a89d0dbc0d9cea76f6e6e8080cf1?d=404"
+  },
+  "url": "http://thisis.myvidoop.com/",
+  "published": "2007-06-26T17:01:41-07:00",
+  "content": {
+    "html": "Hey Will,\r\n\r\ndoes wpopenid+ work with wordpress 2.2?  i checked out revision 14550 and am using WP2.2, but it gives me this error when I tried to activate wpopenid:\r\n\r\nOpenID Consumer could not be activated, something bad happened. Skipping table create. Check libraries.\r\nFatal error: Allowed memory size of 8388608 bytes exhausted (tried to allocate 273165 bytes) in /Library/WebServer/Documents/projects/vidoop-website/wordpress/wp-includes/cache.php on line 48\r\n\r\nAny ideas?  Thanks!\r\n\r\nP.S.  it worked with WP2.1",
+    "text": ""
+  },
+  "wm-id": "9801",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2007/04/new-features-in-wpopenid/"
+}

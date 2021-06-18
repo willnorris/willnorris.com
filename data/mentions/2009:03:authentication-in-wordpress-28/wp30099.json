@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Stoychev",
+    "url": "http://blog.stoychev.org",
+    "photo": "https://www.gravatar.com/avatar/b017a1095ecbf2f44688bcc18869b920?d=404"
+  },
+  "url": "http://blog.stoychev.org",
+  "published": "2009-03-25T11:28:16-07:00",
+  "content": {
+    "html": "In my opinion it's a good way to implement it in Core functionality. Wait to see the results.",
+    "text": ""
+  },
+  "wm-id": "30099",
+  "wm-property": "in-reply-to",
+  "in-reply-to": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

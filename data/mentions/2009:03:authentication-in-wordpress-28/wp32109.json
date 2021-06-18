@@ -1,0 +1,17 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Time Machine&raquo; Blog Archive &raquo; WordPress 2.8?? for ????",
+    "url": "http://rlog.cn/?p=3"
+  },
+  "url": "http://rlog.cn/?p=3",
+  "published": "2009-06-21T02:26:44-07:00",
+  "content": {
+    "html": "<p>[...] Authentication in WordPress 2.8 – Will Norris [...]</p>\n",
+    "text": ""
+  },
+  "wm-id": "32109",
+  "wm-property": "mention-of",
+  "mention-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/"
+}

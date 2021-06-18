@@ -1,42 +1,70 @@
 {{- $key := string (delimit (split (trim .RelPermalink "/") "/") ":") -}}
 {{- $mentions := index $.Site.Data.mentions $key -}}
-{{- $likes := slice -}}
-{{- $reposts := slice -}}
-{{- $other := slice -}}
-{{- range $mentions -}}
-  {{- if eq (index . "wm-property") "like-of" -}}
-    {{- $likes = $likes | append . -}}
-  {{- else if eq (index . "wm-property") "repost-of" -}}
-    {{- $reposts = $reposts | append . -}}
-  {{- else -}}
-    {{- $other = $other | append . -}}
-  {{- end -}}
-{{- end -}}
 <div id="webmentions" class="wrap">
+{{- if $mentions -}}
+  {{- $likes := slice -}}
+  {{- $reposts := slice -}}
+  {{- $other := slice -}}
+  {{- range sort $mentions "published" -}}
+    {{- if eq (index . "wm-property") "like-of" -}}
+      {{- $likes = $likes | append . -}}
+    {{- else if eq (index . "wm-property") "repost-of" -}}
+      {{- $reposts = $reposts | append . -}}
+    {{- else -}}
+      {{- $other = $other | append . -}}
+    {{- end -}}
+  {{- end -}}
+
+  <h2>Comments and responses</h2>
   {{- with $likes }}
-  <h2>Likes</h2>
-  <ul class="reacts">
-    {{- range . }}
-    <li><a class="reaction" href="{{ .url }}" title="{{ .author.name }}"><img src="{{ .author.photo }}" loading="lazy" decoding="async" alt="{{ .author.name }}"></a>
-    {{- end }}
-  </ul>
+  <div id="likes">
+    <h3>Likes</h3>
+    <ul class="facepile">
+      {{- range . }}
+      <li class="p-like h-cite">
+        <a href="{{ .url }}" class="u-url" title="{{ .author.name }}">
+          <span class="p-author h-card">
+            <img src="{{ .author.photo }}" loading="lazy" decoding="async" alt="{{ .author.name }}">
+            <a href="{{ .author.url }}"></a>
+          </span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
   {{- end }}
 
   {{- with $reposts }}
-  <h2>Reposts</h2>
-  <ul class="reacts">
-    {{- range . }}
-    <li><a class="reaction" href="{{ .url }}" title="{{ .author.name }}"><img src="{{ .author.photo }}" loading="lazy" decoding="async" alt="{{ .author.name }}"></a>
-    {{- end }}
-  </ul>
+  <div id="reposts">
+    <h3>Reposts</h3>
+    <ul class="facepile">
+      {{- range . }}
+      <li class="p-repost h-cite">
+        <a href="{{ .url }}" class="u-url" title="{{ .author.name }}">
+          <span class="p-author h-card">
+            <img src="{{ .author.photo }}" loading="lazy" decoding="async" alt="{{ .author.name }}">
+            <a href="{{ .author.url }}"></a>
+          </span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
   {{- end }}
 
-  {{- with $other }}
-  <h2>Mentions</h2>
-  <ul class="reacts">
-    {{- range . }}
-    <li><a class="reaction" href="{{ .url }}" title="{{ .author.name }}"><img src="{{ .author.photo }}" loading="lazy" decoding="async" alt="{{ .author.name }}"></a>
-    {{- end }}
-  </ul>
+  {{- range $other }}
+  <article id="comment-{{ index . "wm-id" }}" class="p-comment h-entry">
+    <div class="comment-meta">
+      <a href="{{ .url }}" class="p-author h-card">
+        <img src="{{ .author.photo }}" class="u-photo" loading="lazy" decoding="async">
+        {{ .author.name }}
+      </a>
+      <a href="#comment-{{ index . "wm-id" }}"><time class="dt-published">{{ .published }}</time></a>
+    </div>
+    <div class="e-content">
+      {{ .content.html | markdownify }}
+    </div>
+  </article>
   {{- end }}
+{{- end -}}
 </div>

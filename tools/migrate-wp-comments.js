@@ -38,7 +38,7 @@ comments.forEach(comment => {
   }
   mention[mention["wm-property"]] = permalink
   if (comment.comment_author_email) {
-    mention.author.photo = `https://www.gravatar.com/avatar/${md5(comment.comment_author_email)}?d=404`
+    mention.author.photo = `https://www.gravatar.com/avatar/${md5(comment.comment_author_email)}?s=256&d=404`
   }
 
   const mentionsDir = path.join(__dirname, `../data/mentions/${year}:${month}:${slug}`)

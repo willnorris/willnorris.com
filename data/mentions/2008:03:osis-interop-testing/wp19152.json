@@ -4,7 +4,7 @@
     "type": "card",
     "name": "http://is.test.wso2.org/user/prabath",
     "url": "http://is.test.wso2.org/user/prabath",
-    "photo": "https://www.gravatar.com/avatar/b660a309d46e8f16736cc2454a936d86?d=404"
+    "photo": "https://www.gravatar.com/avatar/b660a309d46e8f16736cc2454a936d86?s=256&d=404"
   },
   "url": "http://is.test.wso2.org/user/prabath",
   "published": "2008-04-07T20:42:44-07:00",

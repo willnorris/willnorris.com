@@ -4,7 +4,7 @@
     "type": "card",
     "name": "john jones",
     "url": "http://john.jones.name/",
-    "photo": "https://www.gravatar.com/avatar/34411057511597b593a7bc275ad9814f?d=404"
+    "photo": "https://www.gravatar.com/avatar/34411057511597b593a7bc275ad9814f?s=256&d=404"
   },
   "url": "http://john.jones.name/",
   "published": "2007-11-27T01:27:24-08:00",

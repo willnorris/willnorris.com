@@ -1,12 +1,15 @@
 #likes, #reposts {
     >h3 {
-        float: left;
-        margin-right: 1em;
-        font-weight: normal;
-        font-size: 1rem;
+        display: inline-block;
+        margin: 0 1ex;
+    }
+    svg {
+        height: 1em;
     }
 }
+
 .facepile {
+    display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 4px;

@@ -23,7 +23,7 @@
     }
 }
 
-.facepile img, .u-photo {
+.facepile img, .p-comment .u-photo {
     max-height: 1.25em;
     border-radius: 25%;
     text-indent: 100%;
@@ -40,22 +40,22 @@
 
 .p-comment {
     margin-bottom: 2em;
-}
 
-.comment-meta {
-    vertical-align: top;
-    img {
-        float: left;
-        max-height: 3rem;
-        margin: .25rem 1ex .25rem 0;
-        &:before {
-            height: 3rem;
-            width: 3rem;
+    .comment-meta {
+        vertical-align: top;
+        img {
+            float: left;
+            max-height: 3rem;
+            margin: .25rem 1ex .25rem 0;
+            &:before {
+                height: 3rem;
+                width: 3rem;
+            }
         }
-    }
-    time {
-        display: block;
-        font-size: .75em;
-        color: $night-rider;
+        time {
+            display: block;
+            font-size: .75em;
+            color: $night-rider;
+        }
     }
 }

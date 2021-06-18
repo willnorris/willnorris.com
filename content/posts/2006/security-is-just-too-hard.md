@@ -1,7 +1,7 @@
 ---
 title: security is just too hard
 date: '2006-01-22T19:21:46-06:00'
-aliases: [/b/2C, /p/132]
+aliases: [/b/3eX1, /b/2C, /p/132]
 categories:
 - identity
 tags:

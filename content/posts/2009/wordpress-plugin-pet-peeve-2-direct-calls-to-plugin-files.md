@@ -1,7 +1,7 @@
 ---
 title: 'WordPress Plugin Pet Peeve #2: Direct Calls to Plugin Files'
 date: '2009-06-02T13:05:45-07:00'
-aliases: [/b/Ac, /p/637]
+aliases: [/b/3zx1, /b/Ac, /p/637]
 categories:
 - technology
 tags:

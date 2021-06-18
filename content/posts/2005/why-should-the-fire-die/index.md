@@ -1,7 +1,7 @@
 ---
 title: Why Should the Fire Die?
 date: '2005-08-14T20:10:56-05:00'
-aliases: [/b/17, /p/67]
+aliases: [/b/3bq1, /b/17, /p/67]
 categories:
 - music
 tags:

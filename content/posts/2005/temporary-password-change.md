@@ -1,7 +1,7 @@
 ---
 title: Temporary Password Change
 date: '2005-04-22T09:39:12-05:00'
-aliases: [/b/A, /p/10]
+aliases: [/b/3_v1, /b/A, /p/10]
 categories:
 - technology
 tags:

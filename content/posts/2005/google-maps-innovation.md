@@ -1,7 +1,7 @@
 ---
 title: Google Maps Innovation
 date: '2005-07-05T21:46:08-05:00'
-aliases: [/b/o, /p/48]
+aliases: [/b/3bA1, /b/o, /p/48]
 categories:
 - technology
 tags:

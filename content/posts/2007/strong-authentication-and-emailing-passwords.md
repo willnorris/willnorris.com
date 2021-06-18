@@ -1,7 +1,7 @@
 ---
 title: strong authentication and emailing passwords
 date: '2007-02-23T17:24:36-08:00'
-aliases: [/b/2w, /p/176]
+aliases: [/b/3m81, /b/2w, /p/176]
 categories:
 - identity
 - technology

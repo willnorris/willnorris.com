@@ -1,7 +1,7 @@
 ---
 title: Java OpenID Library - Configuration and Custom Messages
 date: '2009-11-15T20:34:00-08:00'
-aliases: [/b/Et, /p/893]
+aliases: [/b/42j1, /b/Et, /p/893]
 categories:
 - identity
 - technology

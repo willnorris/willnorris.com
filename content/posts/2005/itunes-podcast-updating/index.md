@@ -1,7 +1,7 @@
 ---
 title: iTunes podcast updating
 date: '2005-07-16T00:46:46-05:00'
-aliases: [/b/t, /p/53]
+aliases: [/b/3bL1, /b/t, /p/53]
 categories:
 - technology
 tags:

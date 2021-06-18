@@ -1,7 +1,7 @@
 ---
 title: Maybe Comcast really does care
 date: '2009-07-07T11:05:56-07:00'
-aliases: [/b/By, /p/718]
+aliases: [/b/40Y1, /b/By, /p/718]
 categories:
 - personal
 - technology

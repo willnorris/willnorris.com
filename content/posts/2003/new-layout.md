@@ -1,7 +1,7 @@
 ---
 title: new layout
 date: '2003-12-24T11:11:30-06:00'
-aliases: [/b/1d, /p/98]
+aliases: [/b/3Sq1, /b/1d, /p/98]
 categories:
 - technology
 ---

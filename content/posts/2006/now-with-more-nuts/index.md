@@ -1,7 +1,7 @@
 ---
 title: now with more nuts
 date: '2006-02-01T22:32:47-06:00'
-aliases: [/b/2L, /p/140]
+aliases: [/b/3eg1, /b/2L, /p/140]
 categories:
 - personal
 tags:

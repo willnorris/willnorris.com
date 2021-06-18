@@ -1,7 +1,7 @@
 ---
 title: wp-openid - faster, stronger, better
 date: '2008-09-16T14:17:48-07:00'
-aliases: [/b/4U, /p/268]
+aliases: [/b/3vd1, /b/4U, /p/268]
 categories:
 - identity
 - technology

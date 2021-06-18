@@ -1,7 +1,7 @@
 ---
 title: moved to cingular
 date: '2005-08-01T21:10:52-05:00'
-aliases: [/b/10, /p/60]
+aliases: [/b/3bc1, /b/10, /p/60]
 categories:
 - personal
 tags:

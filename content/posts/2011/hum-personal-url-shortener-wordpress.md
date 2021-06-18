@@ -1,7 +1,7 @@
 ---
 title: Hum – A Personal URL shortener for WordPress
 date: '2011-01-27T09:02:46-08:00'
-aliases: /b/FJ
+aliases: [/b/4A11 /b/FJ]
 categories:
 - technology
 ---

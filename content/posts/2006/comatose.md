@@ -1,7 +1,7 @@
 ---
 title: Comatose
 date: '2006-10-05T19:28:36-07:00'
-aliases: [/b/2d, /p/158]
+aliases: [/b/3in1, /b/2d, /p/158]
 categories:
 - music
 tags:

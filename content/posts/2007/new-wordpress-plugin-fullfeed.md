@@ -1,7 +1,7 @@
 ---
 title: New WordPress plugin - FullFeed
 date: '2007-11-07T16:05:23-08:00'
-aliases: [/b/3W, /p/210]
+aliases: [/b/3qR1, /b/3W, /p/210]
 categories:
 - technology
 tags:

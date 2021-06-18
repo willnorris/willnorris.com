@@ -1,7 +1,7 @@
 ---
 title: Plato's Republic
 date: '2003-09-07T22:34:18-05:00'
-aliases: [/b/23, /p/123]
+aliases: [/b/3R31, /b/23, /p/123]
 categories:
 - technology
 tags:

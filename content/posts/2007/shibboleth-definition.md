@@ -1,7 +1,7 @@
 ---
 title: Shibboleth definition
 date: '2007-04-19T00:17:47-07:00'
-aliases: [/b/35, /p/185]
+aliases: [/b/3n21, /b/35, /p/185]
 categories:
 - identity
 - technology

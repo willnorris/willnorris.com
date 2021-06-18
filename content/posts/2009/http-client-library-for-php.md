@@ -1,7 +1,7 @@
 ---
 title: HTTP Client Library for PHP
 date: '2009-03-19T15:18:02-07:00'
-aliases: [/b/96, /p/546]
+aliases: [/b/3yh2, /b/96, /p/546]
 categories:
 - technology
 tags:

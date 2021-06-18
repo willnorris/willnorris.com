@@ -1,7 +1,7 @@
 ---
 title: A New Kind of OpenID Proxy
 date: '2009-08-03T12:21:57-07:00'
-aliases: [/b/E0, /p/840]
+aliases: [/b/40z1, /b/E0, /p/840]
 categories:
 - identity
 - technology

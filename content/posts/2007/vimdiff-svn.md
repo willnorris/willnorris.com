@@ -1,7 +1,7 @@
 ---
 title: vimdiff-svn
 date: '2007-09-06T20:16:02-07:00'
-aliases: [/b/3F, /p/195]
+aliases: [/b/3pP1, /b/3F, /p/195]
 categories:
 - technology
 tags:

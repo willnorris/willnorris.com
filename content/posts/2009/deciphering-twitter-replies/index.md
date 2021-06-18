@@ -1,7 +1,7 @@
 ---
 title: Deciphering Twitter @replies
 date: '2009-05-13T10:38:43-07:00'
-aliases: [/b/9w, /p/596]
+aliases: [/b/3zc1, /b/9w, /p/596]
 categories:
 - technology
 ---

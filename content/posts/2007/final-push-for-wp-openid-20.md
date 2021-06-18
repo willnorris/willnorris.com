@@ -1,7 +1,7 @@
 ---
 title: final push for wp-openid 2.0
 date: '2007-11-08T11:35:28-08:00'
-aliases: [/b/3X, /p/211]
+aliases: [/b/3qR1, /b/3X, /p/211]
 categories:
 - identity
 - technology

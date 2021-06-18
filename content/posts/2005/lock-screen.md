@@ -1,7 +1,7 @@
 ---
 title: Lock Screen
 date: '2005-07-18T12:07:21-05:00'
-aliases: [/b/v, /p/55]
+aliases: [/b/3bN1, /b/v, /p/55]
 categories:
 - technology
 tags:

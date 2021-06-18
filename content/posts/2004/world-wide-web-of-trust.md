@@ -1,7 +1,7 @@
 ---
 title: World Wide Web [of trust]
 date: '2004-12-08T14:24:32-06:00'
-aliases: [/b/1_, /p/94]
+aliases: [/b/3Yf1, /b/1_, /p/94]
 categories:
 - identity
 - technology

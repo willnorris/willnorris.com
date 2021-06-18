@@ -1,7 +1,7 @@
 ---
 title: E-mail is not a platform for design
 date: '2007-06-10T21:51:55-07:00'
-aliases: [/b/37, /p/187]
+aliases: [/b/3nv1, /b/37, /p/187]
 categories:
 - technology
 tags:

@@ -1,7 +1,7 @@
 ---
 title: rss for homework assignments
 date: '2005-07-07T18:44:19-05:00'
-aliases: [/b/q, /p/50]
+aliases: [/b/3bB1, /b/q, /p/50]
 categories:
 - technology
 tags:

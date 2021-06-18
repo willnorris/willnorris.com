@@ -1,7 +1,7 @@
 ---
 title: 'git: Duplicate Signed-off-by lines'
 date: '2009-02-14T15:05:25-08:00'
-aliases: [/b/8F, /p/495]
+aliases: [/b/3y91, /b/8F, /p/495]
 categories:
 - technology
 tags:

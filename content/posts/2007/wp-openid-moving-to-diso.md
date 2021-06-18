@@ -1,7 +1,7 @@
 ---
 title: wp-openid moving to DiSo
 date: '2007-12-10T12:59:03-08:00'
-aliases: [/b/3c, /p/217]
+aliases: [/b/3qx1, /b/3c, /p/217]
 categories:
 - identity
 - technology

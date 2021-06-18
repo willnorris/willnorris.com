@@ -1,7 +1,7 @@
 ---
 title: Study of Students and Technology
 date: '2007-09-11T15:58:24-07:00'
-aliases: [/b/3G, /p/196]
+aliases: [/b/3pT1, /b/3G, /p/196]
 categories:
 - technology
 tags:

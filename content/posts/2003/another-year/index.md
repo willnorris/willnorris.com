@@ -1,7 +1,7 @@
 ---
 title: another year
 date: '2003-07-30T00:32:25-05:00'
-aliases: [/b/1h, /p/102]
+aliases: [/b/3QP1, /b/1h, /p/102]
 categories:
 - personal
 tags:

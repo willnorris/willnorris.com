@@ -1,7 +1,7 @@
 ---
 title: a new low
 date: '2004-03-01T01:27:24-06:00'
-aliases: [/b/1t, /p/113]
+aliases: [/b/3Ty1, /b/1t, /p/113]
 categories:
 - technology
 ---

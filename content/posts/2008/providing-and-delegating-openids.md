@@ -1,7 +1,7 @@
 ---
 title: Providing and Delegating OpenIDs
 date: '2008-09-16T14:18:00-07:00'
-aliases: [/b/4W, /p/270]
+aliases: [/b/3vd1, /b/4W, /p/270]
 categories:
 - identity
 - technology

@@ -1,7 +1,7 @@
 ---
 title: WordPress MU in a development environment
 date: '2008-09-18T22:44:44-07:00'
-aliases: [/b/5B, /p/311]
+aliases: [/b/3vg1, /b/5B, /p/311]
 categories:
 - technology
 tags:

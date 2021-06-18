@@ -1,7 +1,7 @@
 ---
 title: let's try this again
 date: '2003-11-21T03:56:50-06:00'
-aliases: [/b/1c, /p/97]
+aliases: [/b/3SH1, /b/1c, /p/97]
 categories:
 - technology
 ---

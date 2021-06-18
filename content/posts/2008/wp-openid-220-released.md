@@ -1,7 +1,7 @@
 ---
 title: wp-openid 2.2.0 released
 date: '2008-07-23T18:44:50-07:00'
-aliases: [/b/3v, /p/235]
+aliases: [/b/3uj1, /b/3v, /p/235]
 categories:
 - identity
 - technology

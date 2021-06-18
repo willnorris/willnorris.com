@@ -1,7 +1,7 @@
 ---
 title: the stars at night
 date: '2006-03-02T15:10:11-08:00'
-aliases: [/b/2Q, /p/144]
+aliases: [/b/3f91, /b/2Q, /p/144]
 categories:
 - personal
 ---

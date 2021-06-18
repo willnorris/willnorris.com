@@ -1,7 +1,7 @@
 ---
 title: OpenID delegation and XFN
 date: '2007-10-12T12:51:34-07:00'
-aliases: [/b/3L, /p/200]
+aliases: [/b/3py1, /b/3L, /p/200]
 categories:
 - identity
 - technology

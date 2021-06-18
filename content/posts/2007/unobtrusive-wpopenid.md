@@ -1,7 +1,7 @@
 ---
 title: Unobtrusive wpopenid
 date: '2007-02-14T05:23:30-08:00'
-aliases: [/b/2q, /p/170]
+aliases: [/b/3ky1, /b/2q, /p/170]
 categories:
 - identity
 - technology

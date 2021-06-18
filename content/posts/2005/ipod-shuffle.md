@@ -1,7 +1,7 @@
 ---
 title: iPod Shuffle
 date: '2005-09-25T23:40:35-05:00'
-aliases: [/b/1C, /p/72]
+aliases: [/b/3cY1, /b/1C, /p/72]
 categories:
 - technology
 tags:

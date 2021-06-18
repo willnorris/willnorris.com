@@ -1,7 +1,7 @@
 ---
 title: wildfires moving closer to home
 date: '2007-10-24T09:17:40-07:00'
-aliases: [/b/3Q, /p/204]
+aliases: [/b/3qA1, /b/3Q, /p/204]
 categories:
 - personal
 tags:

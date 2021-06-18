@@ -1,7 +1,7 @@
 ---
 title: Jeremiah Taylor Norris
 date: '2005-06-01T17:37:39-05:00'
-aliases: [/b/e, /p/39]
+aliases: [/b/3aa1, /b/e, /p/39]
 categories:
 - personal
 tags:

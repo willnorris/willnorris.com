@@ -1,7 +1,7 @@
 ---
 title: technology and privacy
 date: '2003-08-13T23:59:50-05:00'
-aliases: [/b/1v, /p/115]
+aliases: [/b/3Qd1, /b/1v, /p/115]
 categories:
 - identity
 - technology

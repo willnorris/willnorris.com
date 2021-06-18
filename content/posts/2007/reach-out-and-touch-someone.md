@@ -1,7 +1,7 @@
 ---
 title: reach out and touch someone
 date: '2007-08-14T23:35:58-07:00'
-aliases: [/b/3C, /p/192]
+aliases: [/b/3p01, /b/3C, /p/192]
 categories:
 - identity
 - personal

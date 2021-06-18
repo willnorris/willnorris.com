@@ -1,7 +1,7 @@
 ---
 title: blackout
 date: '2003-08-16T20:41:06-05:00'
-aliases: [/b/1n, /p/107]
+aliases: [/b/3Qg1, /b/1n, /p/107]
 categories:
 - technology
 - news

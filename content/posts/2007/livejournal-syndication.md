@@ -1,7 +1,7 @@
 ---
 title: LiveJournal syndication
 date: '2007-03-13T15:24:31-07:00'
-aliases: [/b/32, /p/182]
+aliases: [/b/3mR1, /b/32, /p/182]
 categories:
 - personal
 - technology

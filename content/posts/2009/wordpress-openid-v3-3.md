@@ -1,7 +1,7 @@
 ---
 title: WordPress OpenID v3.3
 date: '2009-09-28T13:04:15-07:00'
-aliases: [/b/Eb, /p/876]
+aliases: [/b/41v1, /b/Eb, /p/876]
 categories:
 - identity
 - technology

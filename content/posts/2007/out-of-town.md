@@ -1,7 +1,7 @@
 ---
 title: out of town
 date: '2007-12-15T11:44:04-08:00'
-aliases: [/b/3d, /p/218]
+aliases: [/b/3r21, /b/3d, /p/218]
 categories:
 - personal
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Looking back on 22
 date: '2005-07-30T20:32:14-05:00'
-aliases: [/b/z, /p/59]
+aliases: [/b/3ba1, /b/z, /p/59]
 categories:
 - personal
 tags:

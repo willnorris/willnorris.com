@@ -1,7 +1,7 @@
 ---
 title: fc5 torrent
 date: '2006-04-07T13:33:09-07:00'
-aliases: [/b/2U, /p/148]
+aliases: [/b/3fk1, /b/2U, /p/148]
 categories:
 - technology
 ---

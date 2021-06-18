@@ -1,7 +1,7 @@
 ---
 title: Thoughts on Proposition 8
 date: '2008-10-21T01:21:08-07:00'
-aliases: [/b/69, /p/369]
+aliases: [/b/3wD1, /b/69, /p/369]
 categories:
 - personal
 - news

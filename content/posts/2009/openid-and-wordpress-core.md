@@ -1,7 +1,7 @@
 ---
 title: OpenID and WordPress Core
 date: '2009-09-29T13:17:19-07:00'
-aliases: [/b/Ed, /p/878]
+aliases: [/b/41w1, /b/Ed, /p/878]
 categories:
 - identity
 - technology

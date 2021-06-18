@@ -1,7 +1,7 @@
 ---
 title: Open links in a new window
 date: '2005-04-22T10:36:10-05:00'
-aliases: [/b/9, /p/9]
+aliases: [/b/3_v1, /b/9, /p/9]
 categories:
 - technology
 tags:

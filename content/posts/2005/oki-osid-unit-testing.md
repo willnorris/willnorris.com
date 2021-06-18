@@ -1,7 +1,7 @@
 ---
 title: OKI OSID Unit Testing
 date: '2005-01-04T01:31:37-06:00'
-aliases: [/b/J, /p/18]
+aliases: [/b/3Z71, /b/J, /p/18]
 categories:
 - technology
 tags:

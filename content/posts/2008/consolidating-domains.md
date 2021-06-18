@@ -1,7 +1,7 @@
 ---
 title: Consolidating domains
 date: '2008-11-13T17:37:24-08:00'
-aliases: [/b/6X, /p/391]
+aliases: [/b/3wc1, /b/6X, /p/391]
 categories:
 - identity
 - personal

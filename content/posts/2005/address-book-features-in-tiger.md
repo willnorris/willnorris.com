@@ -1,7 +1,7 @@
 ---
 title: Address Book features in Tiger
 date: '2005-04-12T09:59:17-05:00'
-aliases: [/b/C, /p/12]
+aliases: [/b/3_k1, /b/C, /p/12]
 categories:
 - technology
 tags:

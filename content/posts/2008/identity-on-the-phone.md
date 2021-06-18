@@ -1,7 +1,7 @@
 ---
 title: Identity on the phone
 date: '2008-03-21T00:46:22-07:00'
-aliases: [/b/3g, /p/221]
+aliases: [/b/3se1, /b/3g, /p/221]
 categories:
 - identity
 - technology

@@ -1,7 +1,7 @@
 ---
 title: privacy resolutions for 2005
 date: '2004-12-25T06:52:07-06:00'
-aliases: [/b/1a, /p/95]
+aliases: [/b/3Yx1, /b/1a, /p/95]
 categories:
 - identity
 ---

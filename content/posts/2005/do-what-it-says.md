@@ -1,7 +1,7 @@
 ---
 title: Do What it Says
 date: '2005-08-02T08:03:24-05:00'
-aliases: [/b/11, /p/61]
+aliases: [/b/3bc1, /b/11, /p/61]
 categories:
 - personal
 tags:

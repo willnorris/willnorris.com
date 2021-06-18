@@ -1,7 +1,7 @@
 ---
 title: ~/.bashrc
 date: '2005-03-14T09:11:07-06:00'
-aliases: [/b/F, /b/15]
+aliases: [/b/3_G1, /b/F, /p/15]
 categories:
 - technology
 tags:

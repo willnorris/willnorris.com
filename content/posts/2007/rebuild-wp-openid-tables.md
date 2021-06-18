@@ -1,7 +1,7 @@
 ---
 title: rebuild wp-openid tables
 date: '2007-12-04T20:27:07-08:00'
-aliases: [/b/3a, /p/215]
+aliases: [/b/3qs1, /b/3a, /p/215]
 categories:
 - identity
 - technology

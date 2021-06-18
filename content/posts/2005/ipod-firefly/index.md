@@ -1,7 +1,7 @@
 ---
 title: ipod firefly
 date: '2005-10-23T21:25:25-05:00'
-aliases: [/b/1E, /p/74]
+aliases: [/b/3d01, /b/1E, /p/74]
 categories:
 - technology
 tags:

@@ -1,7 +1,7 @@
 ---
 title: wordpress, layouts, and URIs
 date: '2005-05-18T00:28:01-05:00'
-aliases: [/b/Z, /p/33]
+aliases: [/b/3aM1, /b/Z, /p/33]
 categories:
 - technology
 tags:

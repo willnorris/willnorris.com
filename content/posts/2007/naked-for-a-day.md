@@ -1,7 +1,7 @@
 ---
 title: Naked for a day
 date: '2007-04-04T23:23:17-07:00'
-aliases: [/b/33, /p/183]
+aliases: [/b/3mo1, /b/33, /p/183]
 categories:
 - technology
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Setting up a web development environment
 date: '2005-05-07T01:52:48-05:00'
-aliases: [/b/5, /p/5]
+aliases: [/b/3aA1, /b/5, /p/5]
 categories:
 - technology
 tags:

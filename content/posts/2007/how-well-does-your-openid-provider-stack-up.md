@@ -1,7 +1,7 @@
 ---
 title: How well does your OpenID Provider stack up?
 date: '2007-10-25T14:37:15-07:00'
-aliases: [/b/3R, /p/205]
+aliases: [/b/3qB1, /b/3R, /p/205]
 categories:
 - identity
 - technology

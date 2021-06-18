@@ -1,7 +1,7 @@
 ---
 title: Nightly WebKit builds
 date: '2005-10-13T19:33:36-05:00'
-aliases: [/b/1D, /p/73]
+aliases: [/b/3cq1, /b/1D, /p/73]
 categories:
 - technology
 tags:

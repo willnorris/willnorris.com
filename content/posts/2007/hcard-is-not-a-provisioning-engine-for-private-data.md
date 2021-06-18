@@ -1,7 +1,7 @@
 ---
 title: hCard is not a provisioning engine (for private data)
 date: '2007-11-05T16:29:53-08:00'
-aliases: [/b/3T, /p/207]
+aliases: [/b/3qP1, /b/3T, /p/207]
 categories:
 - identity
 - technology

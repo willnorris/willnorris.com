@@ -1,7 +1,7 @@
 ---
 title: Bottom posting in Mail.app (with Quicksilver)
 date: '2007-07-18T13:23:43-07:00'
-aliases: [/b/3B, /p/191]
+aliases: [/b/3oY1, /b/3B, /p/191]
 categories:
 - technology
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Cached Commons
 date: '2010-10-15T21:38:59-07:00'
-aliases: [/b/FF, /p/915]
+aliases: [/b/48J1, /b/FF, /p/915]
 categories:
 - technology
 tags:

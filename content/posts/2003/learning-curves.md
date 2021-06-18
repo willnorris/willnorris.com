@@ -1,7 +1,7 @@
 ---
 title: learning curves
 date: '2003-08-07T06:29:04-05:00'
-aliases: [/b/1o, /p/108]
+aliases: [/b/3QX1, /b/1o, /p/108]
 categories:
 - personal
 ---

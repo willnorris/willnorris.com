@@ -1,7 +1,7 @@
 ---
 title: wp-xrds
 date: '2007-02-12T18:04:53-08:00'
-aliases: [/b/2n, /p/167]
+aliases: [/b/3kx1, /b/2n, /p/167]
 categories:
 - identity
 - technology

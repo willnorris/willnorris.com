@@ -1,7 +1,7 @@
 ---
 title: New Monitor
 date: '2007-06-21T11:41:58-07:00'
-aliases: [/b/39, /p/189]
+aliases: [/b/3o51, /b/39, /p/189]
 categories:
 - personal
 tags:

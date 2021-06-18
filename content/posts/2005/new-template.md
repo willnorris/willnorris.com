@@ -1,7 +1,7 @@
 ---
 title: new template
 date: '2005-08-05T16:36:47-05:00'
-aliases: [/b/14, /p/64]
+aliases: [/b/3bf1, /b/14, /p/64]
 categories:
 - technology
 tags:

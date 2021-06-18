@@ -1,7 +1,7 @@
 ---
 title: Java OpenID Library Design - Message Handling
 date: '2009-11-13T16:16:52-08:00'
-aliases: [/b/Eo, /p/888]
+aliases: [/b/42h1, /b/Eo, /p/888]
 categories:
 - identity
 - technology

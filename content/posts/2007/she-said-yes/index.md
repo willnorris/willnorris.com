@@ -1,7 +1,7 @@
 ---
 title: She said "yes"
 date: '2007-07-08T21:41:50-07:00'
-aliases: [/b/3A, /p/190]
+aliases: [/b/3oP1, /b/3A, /p/190]
 categories:
 - personal
 tags:

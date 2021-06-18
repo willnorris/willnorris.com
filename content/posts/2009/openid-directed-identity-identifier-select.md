@@ -1,7 +1,7 @@
 ---
 title: Directed Identity vs Identifier Select
 date: '2009-07-31T03:29:03-07:00'
-aliases: [/b/DH, /p/797]
+aliases: [/b/40w1, /b/DH, /p/797]
 categories:
 - identity
 - technology

@@ -1,7 +1,7 @@
 ---
 title: Authentication in WordPress 2.8
 date: '2009-03-10T12:50:07-07:00'
-aliases: [/b/8U, /p/508]
+aliases: [/b/3yZ1, /b/8U, /p/508]
 categories:
 - identity
 - technology

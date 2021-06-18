@@ -1,7 +1,7 @@
 ---
 title: 'Email Etiquette: Replying to Mailing Lists'
 date: '2008-12-25T14:23:44-08:00'
-aliases: [/b/7n, /p/467]
+aliases: [/b/3xJ1, /b/7n, /p/467]
 categories:
 - technology
 tags:

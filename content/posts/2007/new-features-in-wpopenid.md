@@ -1,7 +1,7 @@
 ---
 title: new features in wpopenid+
 date: '2007-04-06T22:06:54-07:00'
-aliases: [/b/34, /p/184]
+aliases: [/b/3mq1, /b/34, /p/184]
 categories:
 - identity
 - technology

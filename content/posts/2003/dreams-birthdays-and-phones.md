@@ -1,7 +1,7 @@
 ---
 title: dreams, birthdays, and phones
 date: '2003-07-31T02:02:47-05:00'
-aliases: [/b/1p, /p/109]
+aliases: [/b/3QQ1, /b/1p, /p/109]
 categories:
 - personal
 tags:

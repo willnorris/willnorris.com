@@ -1,7 +1,7 @@
 ---
 title: OSIS Interop Testing
 date: '2008-03-03T11:06:51-08:00'
-aliases: [/b/3f, /p/220]
+aliases: [/b/3sM1, /b/3f, /p/220]
 categories:
 - identity
 - technology

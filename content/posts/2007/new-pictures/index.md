@@ -1,7 +1,7 @@
 ---
 title: Duck Pond Photoshoot
 date: '2007-03-13T09:05:26-07:00'
-aliases: [/b/31, /p/181]
+aliases: [/b/3mR1, /b/31, /p/181]
 categories:
 - personal
 tags:

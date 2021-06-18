@@ -1,7 +1,7 @@
 ---
 title: away messages
 date: '2003-06-18T19:05:15-05:00'
-aliases: [/b/1e, /p/99]
+aliases: [/b/3Ph1, /b/1e, /p/99]
 categories:
 - technology
 tags:

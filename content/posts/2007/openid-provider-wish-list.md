@@ -1,7 +1,7 @@
 ---
 title: OpenID provider wish-list
 date: '2007-03-08T01:35:04-08:00'
-aliases: [/b/2z, /p/179]
+aliases: [/b/3mL1, /b/2z, /p/179]
 categories:
 - identity
 - technology

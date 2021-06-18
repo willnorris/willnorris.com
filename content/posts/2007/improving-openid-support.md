@@ -1,7 +1,7 @@
 ---
 title: improving OpenID support
 date: '2007-11-12T00:03:26-08:00'
-aliases: [/b/3Z, /p/213]
+aliases: [/b/3qV1, /b/3Z, /p/213]
 categories:
 - identity
 - technology

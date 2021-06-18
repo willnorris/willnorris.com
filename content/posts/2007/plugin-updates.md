@@ -1,7 +1,7 @@
 ---
 title: plugin updates
 date: '2007-10-01T00:31:26-07:00'
-aliases: [/b/3J, /p/198]
+aliases: [/b/3pn1, /b/3J, /p/198]
 categories:
 - identity
 - technology

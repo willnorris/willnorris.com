@@ -1,7 +1,7 @@
 ---
 title: WordPress plugins - development version
 date: '2007-12-07T09:52:46-08:00'
-aliases: [/b/3b, /p/216]
+aliases: [/b/3qu1, /b/3b, /p/216]
 categories:
 - identity
 - technology

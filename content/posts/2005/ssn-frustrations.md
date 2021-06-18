@@ -1,7 +1,7 @@
 ---
 title: SSN frustrations
 date: '2005-10-03T02:05:53-05:00'
-aliases: [/b/1A, /p/70]
+aliases: [/b/3ce1, /b/1A, /p/70]
 categories:
 - identity
 tags:

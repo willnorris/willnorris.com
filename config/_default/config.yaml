@@ -37,6 +37,7 @@ markup:
   goldmark:
     extensions:
       footnote: true
+      linkify: false
     parser:
       attribute:
         block: true

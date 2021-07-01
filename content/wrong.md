@@ -6,7 +6,7 @@ Or perhaps you were trying to get in touch with a friend or relative or client o
 Norris.  Or maybe Bill Norris.  Or perhaps Wayne or Ward or Walter Norris.  But alas, you've reached
 the wrong Will Norris.
 
-I'm in my mid thirties.  I'm a software engineer at Google.  I'm married to [my lovely
+I'm in my late thirties.  I work on open source software at Twitter.  I'm married to [my lovely
 wife](http://notsoserendipitous.com/).  We live near San Francisco, California.
 
 I am *not* a [bartender in Austin, Texas](https://twitter.com/wnorris3).  I am *not* a lawyer in Los
@@ -17,7 +17,7 @@ serviced at a Sears outside Orlando, Florida.
 But it's okay.  Maybe you just typoed the email address.  Or perhaps you were given the wrong email
 address by someone else.  I'm not upset; it's not a big deal; I really do understand.  
 
-But I did want to bring it to your attention because the sitution could be a tad more serious.  I've
+But I did want to bring it to your attention because the situation could be a tad more serious.  I've
 received a disturbingly large number of legal documents from lawyers that were not intended for me.
 I *really*, *really* don't want them.  I've also received a surprisingly high number of (seemingly
 legitimate) welcome emails from various services I never signed up for.  I can only guess that
@@ -30,12 +30,9 @@ me too.  Really.  You see, Gmail ignores the dots in the first part of the email
 "wnorris" is the same as "w.norris", which is the same as "w.n.o.r.r.i.s".
 
 There are a lot of people named Will Norris in the world, so it's inevitable that confusion will
-arise from time to time.  The good news is that we are making great strides at Google to [help you
-find the right person you're looking for][spyw].  The bad news is, we're not entirely there yet.  So
-in the meantime, you might want to double check with that client of yours to find out his correct
-email address, or even double check your own email address to make sure you have it right.
+arise from time to time. So you might want to double check with that client of yours to find out
+their correct email address, or even double check your own email address to make sure you have it
+right.
 
 Yours truly,<br>
 Will Norris (no, not that one... the other one)
-
-[spyw]: http://googleblog.blogspot.com/2012/01/search-plus-your-world.html

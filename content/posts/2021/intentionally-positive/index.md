@@ -7,7 +7,7 @@ image:
  url: hand-heart.jpg
  alt: Woman holding her hands in the shape of a heart, framing a sunset.
 syndication:
-  - https://twitter.com/
+  - https://twitter.com/willnorris/status/1412918898177896449
 ---
 
 Over the last decade or so, many companies (especially in tech) have adopted a

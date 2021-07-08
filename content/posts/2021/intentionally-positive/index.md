@@ -24,8 +24,8 @@ understanding the impact bullies and jerks have on teams and the entire
 organization, and the more extreme examples of this behavior are often easy to
 spot.  However, I found that some of the examples in Sutton's book, while true
 reports of actual situations, were **so** extreme that they bordered on caricature.
-It became all too easy to dismiss them, feeling that my workplace doesn't have
-any of those people.
+It became all too easy to dismiss them, feeling that *my* workplace doesn't have
+any of *those* people.
 
 But what I have found in my experience is that **most** people are not overtly
 jerks **most** of the time.  People tend to be far more nuanced, and the
@@ -68,13 +68,13 @@ gone.
 
 There's a concept in improvisational acting and comedy called "Yes, and…".  It's
 a technique of accepting whatever idea or direction your partner gives you (the
-"yes"), and then build on that (the "and").  Even if the idea seems preposterous
-or isn't where you were wanting to go.  In business settings, this is often
-discussed in connection with brainstorming sessions, but I think it applies here
-as well because it's really about attitude.  If we're dealing with legacy code
-or unclear policies, we accept whatever we have today, and then build on it.  We
-may still end up changing it, even drastically, but it means we will do so with
-an intentionally positive attitude.
+"yes"), and then building on that (the "and").  Even if the idea seems
+preposterous or isn't where you were wanting to go.  In business settings, this
+is often discussed in connection with brainstorming sessions, but I think it
+applies here as well because it's really about attitude.  If we're dealing with
+legacy code or unclear policies, we accept whatever we have today, and then
+build on it.  We may still end up changing it, even drastically, but it means we
+will do so with an intentionally positive attitude.
 
 Bob Ross was famous for saying that "we don't make mistakes, we have happy
 accidents".  What is that, if not applying "yes, and…" to his painting?  Yes
@@ -94,7 +94,7 @@ positive in our communication.
 
 In technical reviews in particular, I have found that short, to-the-point
 comments meant to be expedient can also be received as brusque, impatient, or
-dismissive.  Projects like Conventional Comments suggest a structured way to
+dismissive.  Projects like [Conventional Comments] suggest a structured way to
 prefix comments with additional context, but I've also found that simply
 responding in complete sentences often leads to clearer communication.  Or
 asking questions rather than giving commands: "Have you considered X here?"
@@ -136,6 +136,7 @@ I absolutely love and it's always stuck with me.  I did some digging, and it
 was added by [Tantek Çelik] in [February 2013].)
 
 [The No Asshole Rule]: https://en.wikipedia.org/wiki/The_No_Asshole_Rule
+[Conventional Comments]: https://conventionalcomments.org/
 [IndieWeb Code of Conduct]: https://indieweb.org/code-of-conduct
 [Tantek Çelik]: https://tantek.com/
 [February 2013]: https://indieweb.org/wiki/index.php?title=code-of-conduct&type=revision&diff=1939&oldid=1938

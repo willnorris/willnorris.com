@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Lewis Erick",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/68025a73d718b76cf9cc042642b7ce0c47507103e54cce82816a3c06c4a3eaa3.jpg",
+    "url": "https://twitter.com/LewisEraik"
+  },
+  "url": "https://twitter.com/willnorris/status/1412918898177896449#favorited-by-3105655687",
+  "published": null,
+  "wm-received": "2021-07-08T00:11:21Z",
+  "wm-id": 1213052,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1412918898177896449/3105655687",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

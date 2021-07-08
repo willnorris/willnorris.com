@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "chirags",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/1e3fbbe8d197a7a678ba091727e291e9515cd7b17a8e20e3f7eda85a7b5aae3b.jpg",
+    "url": "https://twitter.com/chirags"
+  },
+  "url": "https://twitter.com/willnorris/status/1412918898177896449#favorited-by-13289392",
+  "published": null,
+  "wm-received": "2021-07-08T05:47:22Z",
+  "wm-id": 1213394,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1412918898177896449/13289392",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

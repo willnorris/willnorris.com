@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Christopher Coco",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/9507bba0bfb06dd5c7283c033a5723e0be097242482aeda4a7ef8aec1349acb5.jpg",
+    "url": "https://twitter.com/cacoco"
+  },
+  "url": "https://twitter.com/willnorris/status/1412918898177896449#favorited-by-748615879",
+  "published": null,
+  "wm-received": "2021-07-08T00:11:21Z",
+  "wm-id": 1213053,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1412918898177896449/748615879",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

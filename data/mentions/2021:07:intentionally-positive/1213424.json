@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Yuri Schimke",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/4b989449fd62f8685f6329b92a227be988903e530eedfe1404bfe0c3e50ba6db.jpg",
+    "url": "https://twitter.com/yschimke"
+  },
+  "url": "https://twitter.com/yschimke/status/1413021244660781056",
+  "published": "2021-07-08T06:24:52+00:00",
+  "wm-received": "2021-07-08T06:38:36Z",
+  "wm-id": 1213424,
+  "wm-source": "https://brid.gy/repost/twitter/willnorris/1412918898177896449/1413021244660781056",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "content": {
+    "text": "The risk of teams and organizations only focusing on avoiding negative behavior is that they will, at best, trend toward neutral behavior. It’s not enough to simply not be a jerk. We must strive to be intentionally positive.\n\nwillnorris.com/2021/07/intent…"
+  },
+  "repost-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "repost-of",
+  "wm-private": false
+}

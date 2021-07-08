@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "julia ferraioli",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/246e48aa332e89809fe1003975853ed4e19a842dae5913be85dd17e065d3e15e.jpg",
+    "url": "https://twitter.com/juliaferraioli"
+  },
+  "url": "https://twitter.com/juliaferraioli/status/1413158115374104576",
+  "published": "2021-07-08T15:28:44+00:00",
+  "wm-received": "2021-07-08T15:47:39Z",
+  "wm-id": 1213976,
+  "wm-source": "https://brid.gy/post/twitter/willnorris/1413158115374104576",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "content": {
+    "html": "Intentionality is so important when building team culture.\n\n\"[Being intentionally positive is] about being respectful to coworkers, empathetic and thoughtful in communication, quick to correct and apologize when you make a mistake, and quick to forgive when others do.\"\n<a class=\"u-mention\" href=\"https://willnorris.com/2021/07/intentionally-positive/\"></a>",
+    "text": "Intentionality is so important when building team culture.\n\n\"[Being intentionally positive is] about being respectful to coworkers, empathetic and thoughtful in communication, quick to correct and apologize when you make a mistake, and quick to forgive when others do.\""
+  },
+  "mention-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "mention-of",
+  "wm-private": false
+}

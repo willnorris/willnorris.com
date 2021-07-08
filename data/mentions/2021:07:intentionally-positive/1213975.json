@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Marsh Gardiner",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/5385aba8ecf557835a5db5ff6ccade601041c41f07d2866f050d052504e407d3.png",
+    "url": "https://twitter.com/earth2marsh"
+  },
+  "url": "https://twitter.com/willnorris/status/1412918898177896449#favorited-by-14352786",
+  "published": null,
+  "wm-received": "2021-07-08T15:47:37Z",
+  "wm-id": 1213975,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1412918898177896449/14352786",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

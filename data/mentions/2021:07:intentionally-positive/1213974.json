@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Erin McKean",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/fa1ac3760499f39c68159eb0c2934530f6a358d98bbc61a2846d8483bed48f32.jpeg",
+    "url": "https://twitter.com/emckean"
+  },
+  "url": "https://twitter.com/willnorris/status/1412918898177896449#favorited-by-5380022",
+  "published": null,
+  "wm-received": "2021-07-08T15:47:37Z",
+  "wm-id": 1213974,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1412918898177896449/5380022",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

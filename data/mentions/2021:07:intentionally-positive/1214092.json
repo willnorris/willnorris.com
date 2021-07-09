@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Kate is cake. Always has been.",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/6609fb5ca5391a47566d24b0b54045a5c3716a82e30bc73240015350b7bcd759.jpg",
+    "url": "https://twitter.com/SBinLondon"
+  },
+  "url": "https://twitter.com/willnorris/status/1412918898177896449#favorited-by-180283911",
+  "published": null,
+  "wm-received": "2021-07-08T17:56:48Z",
+  "wm-id": 1214092,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1412918898177896449/180283911",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

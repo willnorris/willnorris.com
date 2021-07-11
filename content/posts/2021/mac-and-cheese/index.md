@@ -5,7 +5,7 @@ aliases: /b/5DD1
 image:
   # https://unsplash.com/photos/lLpccUSDWQg
   url: mac-and-cheese.jpg
-  position: center 50%
+  position: 65% 40%
 syndication:
   - https://twitter.com/willnorris/status/1405202952533409795
 ---

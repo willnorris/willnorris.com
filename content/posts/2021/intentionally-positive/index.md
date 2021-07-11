@@ -6,6 +6,7 @@ image:
  # https://pexels.com/photo/1535244/
  url: hand-heart.jpg
  alt: Woman holding her hands in the shape of a heart, framing a sunset.
+ position: 60% 40%
 syndication:
   - https://twitter.com/willnorris/status/1412918898177896449
 ---

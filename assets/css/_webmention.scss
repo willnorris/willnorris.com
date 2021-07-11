@@ -1,6 +1,6 @@
 #likes, #reposts {
     >h3 {
-        display: inline-block;
+        display: table-cell;
         margin: 0 1ex;
     }
     svg {
@@ -9,7 +9,7 @@
 }
 
 .facepile {
-    display: inline-block;
+    display: table-cell;
     list-style-type: none;
     margin: 0;
     padding: 4px;

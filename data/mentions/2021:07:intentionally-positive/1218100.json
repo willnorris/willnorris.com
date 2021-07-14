@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "BIG RICHIE",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/a0daa56f7d3f5d68047884828f52cb643a401a157520cfb3cc7a45814ad388a0.jpg",
+    "url": "https://twitter.com/Danrichie_"
+  },
+  "url": "https://twitter.com/willnorris/status/1412918898177896449#favorited-by-1284065719739731968",
+  "published": null,
+  "wm-received": "2021-07-13T20:17:45Z",
+  "wm-id": 1218100,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1412918898177896449/1284065719739731968",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

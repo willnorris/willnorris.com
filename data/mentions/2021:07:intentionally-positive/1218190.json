@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "SisiJemmy",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/751ae7b65eb1bc347e33845dba2596c9ddf5abb6d4755c653b2ff273ec7acbbc.jpg",
+    "url": "https://twitter.com/jemmyajibola"
+  },
+  "url": "https://twitter.com/willnorris/status/1412918898177896449#favorited-by-1157265391179186178",
+  "published": null,
+  "wm-received": "2021-07-13T21:04:05Z",
+  "wm-id": 1218190,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1412918898177896449/1157265391179186178",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

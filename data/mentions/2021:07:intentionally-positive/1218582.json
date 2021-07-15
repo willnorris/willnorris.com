@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "SUSAN BRADLEY",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/5bbc707a23de1853f7efe63201b332f98a3f4f36ce4edd1062da37f1ca7ebc68.jpg",
+    "url": "https://twitter.com/BRADLEYSUSAN342"
+  },
+  "url": "https://twitter.com/willnorris/status/1412918898177896449#favorited-by-2975131776",
+  "published": null,
+  "wm-received": "2021-07-14T05:07:56Z",
+  "wm-id": 1218582,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1412918898177896449/2975131776",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

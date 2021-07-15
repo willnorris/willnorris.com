@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jerry",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/0af7cedb2191a5686a464aa1c8d0575d4ea949ad4e935cc4baca95ffd95d55db.jpg",
+    "url": "https://twitter.com/ominous07615794"
+  },
+  "url": "https://twitter.com/willnorris/status/1412918898177896449#favorited-by-1317287206893965314",
+  "published": null,
+  "wm-received": "2021-07-14T05:07:57Z",
+  "wm-id": 1218583,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1412918898177896449/1317287206893965314",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

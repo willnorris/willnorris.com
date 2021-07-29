@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Nat Torkington",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/36df56ac508d07461f061c7c8346559cda7b51063a48aa4232446c4fc7b578cc.png",
+    "url": "https://twitter.com/gnat"
+  },
+  "url": "https://twitter.com/willnorris/status/1420456600926523393#favorited-by-898691",
+  "published": null,
+  "wm-received": "2021-07-28T18:57:41Z",
+  "wm-id": 1232460,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1420456600926523393/898691",
+  "wm-target": "https://willnorris.com/til/wsl/drive-mount/",
+  "like-of": "https://willnorris.com/til/wsl/drive-mount/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Darren Parkinson",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/ef4e3b311307611641adda7b026c6864ab2f6acec82009603587d42cf019f67e.jpg",
+    "url": "https://twitter.com/darrenparkinson"
+  },
+  "url": "https://twitter.com/darrenparkinson/status/1431311815984746498",
+  "published": "2021-08-27T17:45:04+00:00",
+  "wm-received": "2021-08-27T19:06:59Z",
+  "wm-id": 1256968,
+  "wm-source": "https://brid.gy/post/twitter/willnorris/1431311815984746498",
+  "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "content": {
+    "html": "Go, REST APIs, and Pointers — it’s an old one but something I’ve come across a few times (and again today). Definitely a useful read.  <a href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers/\">willnorris.com/2014/05/go-res…</a>",
+    "text": "Go, REST APIs, and Pointers — it’s an old one but something I’ve come across a few times (and again today). Definitely a useful read.  willnorris.com/2014/05/go-res…"
+  },
+  "mention-of": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "wm-property": "mention-of",
+  "wm-private": false
+}

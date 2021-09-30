@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Ben Rodrigo",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/9975bb7c30f6a5f99f81fd89dc77dcd20b42434ed09761a2594cf6ab4e384666.png",
+    "url": "https://twitter.com/lumahaiblue1"
+  },
+  "url": "https://twitter.com/willnorris/status/1412918898177896449#favorited-by-3290384989",
+  "published": null,
+  "wm-received": "2021-07-15T06:49:20Z",
+  "wm-id": 1219831,
+  "wm-source": "https://brid.gy/like/twitter/willnorris/1412918898177896449/3290384989",
+  "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

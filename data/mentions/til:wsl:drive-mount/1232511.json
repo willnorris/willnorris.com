@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Evan Sims",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/4b42b21de72a43634e762eeca9d9519c6850ff33bed87dd7adac2ff4d207c595.jpg",
+    "url": "https://twitter.com/evansims"
+  },
+  "url": "https://twitter.com/evansims/status/1420462120341278721",
+  "published": "2021-07-28T19:12:15+00:00",
+  "wm-received": "2021-07-28T19:39:02Z",
+  "wm-id": 1232511,
+  "wm-source": "https://brid.gy/repost/twitter/willnorris/1420456600926523393/1420462120341278721",
+  "wm-target": "https://willnorris.com/til/wsl/drive-mount/",
+  "content": {
+    "text": "The new FUSE-based Google Drive for Desktop now mounts as a drive in Windows.  Access it from WSL with:\n\n$ sudo mkdir /mnt/g\n$ sudo mount -t drvfs G: /mnt/g\n\n(google.com/drive/download still points Gmail users to Backup and Sync, but Drive for desktop works great anyway)"
+  },
+  "repost-of": "https://willnorris.com/til/wsl/drive-mount/",
+  "wm-property": "repost-of",
+  "wm-private": false
+}

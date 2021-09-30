@@ -14,11 +14,11 @@ tags:
 After writing last weeks post on [directed identity][], I really got to thinking on the topic a little more.  One of the
 things that has always bothered me about the prospect of sites **requiring** the use of directed identity, is that it
 means I can no longer use my self-hosted OpenID to login.  Currently, I have the [WordPress OpenID plugin][] installed,
-and I use it as [my sole OpenID provider][].  While the plugin does support identifier select (mainly for blogs which
+and I use it as my sole OpenID provider.  While the plugin does support identifier select (mainly for blogs which
 have multiple authors), it does not support directed identity.  But even if it did, it wouldn't make much sense... an
 OpenID URL of the form `http://willnorris.com/openid/9eb4d59c1d488a4` doesn't do a very good job of masking who it
 belongs to.  No matter how opaque the path, the URL is still rooted at the authority "willnorris.com" which means it can
-belong to only one person -- me.  
+belong to only one person -- me.
 
 So what am I to do?  The most obvious answer is to simply use one of the larger hosted OpenID providers that support
 such a feature, like Google.  But I have some real problems with that, both philosophically and practically.
@@ -26,7 +26,6 @@ Fortunately, I think I may also have a better solution.
 
 [directed identity]: /2009/08/best-practices-with-directed-identity
 [WordPress OpenID plugin]: http://wordpress.org/extend/plugins/openid/
-[my sole OpenID provider]: /wordpress/index.php/openid/server
 
 
 ## Maintaining Control ##

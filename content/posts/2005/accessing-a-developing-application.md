@@ -8,7 +8,7 @@ tags:
 - webobjects
 ---
 This isn't a very involved tip, but I could have really saved my butt a few weeks ago when I couldn't get an updated
-version of [hedmaster][] deployed, just hours before it was scheduled to go live.  This explains how to make a
+version of hedmaster deployed, just hours before it was scheduled to go live.  This explains how to make a
 WebObjects application on your development mac temporarily available to outside users, either for testing or a very
 quick-and-dirty production site.
 
@@ -19,5 +19,3 @@ turned on don't you?), and click "New".  Select "Port Name: Other", "Port Number
 Then it is a simple matter of enabling this new firewall rule in order to give others temporary access to your
 developing application; when you're done, just turn it off and don't worry about others snooping in on your
 "not-quite-ready-for-primetime" build.
-
-[hedmaster]: /projects/hedmaster

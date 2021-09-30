@@ -13,7 +13,7 @@ tags:
 - openid
 ---
 <figure class="alignright">
-  <img src="/2006/01/usc.png" alt="USC logo">
+  <img src="usc.png" alt="USC logo">
 </figure>
 
 One year ago today, February 15, 2006, was my first official day here at USC.  If I recall correctly, I spent most of

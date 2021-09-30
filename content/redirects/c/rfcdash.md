@@ -1,4 +1,4 @@
 ---
-shortlink: /c/rfcdash
+url: /c/rfcdash
 redirect_url: https://github.com/willnorris/rfcdash
 ---

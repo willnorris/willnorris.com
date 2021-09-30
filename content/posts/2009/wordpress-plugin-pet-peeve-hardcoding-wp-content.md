@@ -13,7 +13,7 @@ Perhaps my biggest pet peeves I run across with WordPress plugins is when develo
 WordPress content folder.  By default this folder is named 'wp-content', and resides at the root of the primary
 WordPress folder.  However, since WordPress 2.6 (released July 2008), this location [can be moved][] by simply defining
 a constant in `wp-config.php`.  That's precisely what I do on my website: my WordPress installation lives at
-[/wordpress][], while my content folder is at [/wordpress-content][].  I like having this separation of core WordPress
+`/wordpress` while my content folder is at `/wordpress-content`  I like having this separation of core WordPress
 files from the themes, plugins, and uploads I've added myself.  It also makes it easier for me to upgrade WordPress,
 since I don't use the built-in upgrade system added in 2.7.  Any plugins that still hardcode the path of the
 `wp-content` folder break in often spectacular ways on my site.
@@ -64,8 +64,6 @@ So plugin authors, please go and fix this in your plugins.  Please?  Otherwise I
 site.
 
 [can be moved]: http://codex.wordpress.org/Editing_wp-config.php#Moving_wp-content
-[/wordpress]: /wordpress/
-[/wordpress-content]: /wordpress-content/
 [Determining Plugin and Content Directories]: http://codex.wordpress.org/Determining_Plugin_and_Content_Directories
 [compatibility.php]: http://code.google.com/p/diso/source/browse/wordpress/openid/trunk/compatibility.php
 [WordPress OpenID Plugin]: http://wordpress.org/extend/plugins/openid/

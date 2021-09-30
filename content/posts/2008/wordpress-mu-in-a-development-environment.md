@@ -69,5 +69,5 @@ works for me on Mac OS X (Leopard), but I make no guarantees for anyone else.  K
 ever be needed for a development environment... if you're unable to send notification emails from your production blog,
 then you've got other problems.
 
-[Development Mailer]: /svn/will.norris.name/trunk/public/wordpress-content/plugins/development-mailer.php
+[Development Mailer]: https://web.archive.org/web/20080922175102/http://willnorris.com/svn/will.norris.name/trunk/public/wordpress-content/plugins/development-mailer.php
 [mail()]: http://php.net/mail

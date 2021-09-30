@@ -30,7 +30,7 @@ refresher.
 
 **<cite>[Kill Decision](http://www.thedaemon.com/killdecisionsynopsis.html), Daniel Suarez</cite>**.  There's a pretty
 sizable Suarez fan base at Google, thanks to people like [Rick Klau](http://tins.rklau.com/) and [Erica
-Joy](http://www.ericabaker.com/).  I read <cite>Daemon</cite> and <cite>Freedom&#153;</cite> a few years ago and
+Joy](http://www.ericabaker.com/).  I read <cite>Daemon</cite> and <cite>Freedom™</cite> a few years ago and
 absolutely loved them both, so was I was pretty excited about <cite>Kill Decision</cite>.  I certainly did enjoy the
 story, but the thing that really painted my view of the writing was how soon I read it after the Game of Thrones books.
 By comparison, <cite>Kill Decision</cite> reads so much more linear.  Each chapter picks up more or less where the

@@ -1,4 +1,4 @@
 ---
-shortlink: /c/gum
+url: /c/gum
 redirect_url: https://github.com/willnorris/gum
 ---

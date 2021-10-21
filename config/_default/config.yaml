@@ -13,6 +13,9 @@ params:
   twitter: "@willnorris"
   headerMeta: false
   breadcrumbs: false
+  gitInfo: false
+  pageHistoryURL: https://github.com/willnorris/willnorris.com/commits/main/content
+  pageEditURL: https://github.com/willnorris/willnorris.com/edit/main/content
 
 permalinks:
   posts: "/:year/:month/:filename/"

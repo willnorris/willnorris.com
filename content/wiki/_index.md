@@ -1,6 +1,7 @@
 ---
 title:
 breadcrumbs: true
+gitInfo: true
 ---
 
 This is space for my personal notes. Despite the URL, it’s not really a wiki in

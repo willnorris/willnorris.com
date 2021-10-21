@@ -6,6 +6,7 @@
     (async () => {
       const imageAnchors = Array.from(document.querySelectorAll('.entry-content a'))
           .filter(a => a.href.match(/.(jpg|jpeg|png)$/))
+          .filter(a => a.querySelector('img'))
       if (imageAnchors.length) {
         // these must be loaded sequentially
         await import({{ (resources.Get "js/jquery-slim.mjs" | resources.Fingerprint).RelPermalink }})

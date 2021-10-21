@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{- if .FirstSection.Param "breadcrumbs" }}{{ partial "breadcrumbs" . }}{{ end }}
 <article class="page h-entry hentry wrap">
   <header class="entry-header">
     <h1 class="p-name entry-title">{{ .Title }}</h1>

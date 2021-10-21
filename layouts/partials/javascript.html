@@ -1,42 +1,42 @@
-{{- $fragmention := resources.Get "js/fragmention.js" | resources.Fingerprint }}
-<script src="{{ $fragmention.RelPermalink }}" async></script>
+<script src="{{ (resources.Get "js/fragmention.js" | resources.Fingerprint).RelPermalink }}" async></script>
 
-<script>
+<script type="module">
   document.addEventListener("DOMContentLoaded", function() {
     // display lightbox for linked images
     (async () => {
-      var imageAnchors = Array.from(document.querySelectorAll('.entry-content a'))
+      const imageAnchors = Array.from(document.querySelectorAll('.entry-content a'))
           .filter(a => a.href.match(/.(jpg|jpeg|png)$/))
       if (imageAnchors.length) {
+        // these must be loaded sequentially
         await import({{ (resources.Get "js/jquery-slim.mjs" | resources.Fingerprint).RelPermalink }})
         await import({{ (resources.Get "js/debounce.mjs" | resources.Fingerprint).RelPermalink }})
         await import({{ (resources.Get "js/fluidbox.mjs" | resources.Fingerprint).RelPermalink }})
 
-        var $imageAnchors = $(imageAnchors);
+        const $imageAnchors = $(imageAnchors);
         $imageAnchors.fluidbox({
           viewportFill: 1,
         });
 
-        var lastScrollTop = $(window).scrollTop();
+        let lastScrollTop = $(window).scrollTop();
         $(window).scroll(() => {
-          var scrollAmt = $(this).scrollTop();
-          var deltaS = scrollAmt - lastScrollTop;
+          const scrollAmt = $(this).scrollTop();
+          const deltaS = scrollAmt - lastScrollTop;
           lastScrollTop = scrollAmt;
 
-          {{ "// close fluidbox if scrolled more than 10px" | safeJS }}
+          // close fluidbox if scrolled more than 10px
           if (Math.abs(deltaS) > 10) {
             $imageAnchors.trigger('close.fluidbox');
           }
-        });
+        })
       }
     })();
 
     // display galleries in masonry grid
-    (async function() {
-      let galleries = document.querySelectorAll('.gallery')
+    (async () => {
+      const galleries = document.querySelectorAll('.gallery')
       if (galleries.length && !CSS.supports("grid-template-rows", "masonry")) {
-        {{ "// fallback to use macy.js to display masonry grid if needed" | safeJS }}
-        let {default:macy} = await import({{ (resources.Get "js/macy.mjs" | resources.Fingerprint).RelPermalink }})
+        // fallback to use macy.js to display masonry grid if needed
+        const {default:macy} = await import({{ (resources.Get "js/macy.mjs" | resources.Fingerprint).RelPermalink }})
         macy({
             container: '.gallery',
             mobileFirst: true,
@@ -47,16 +47,16 @@
                 700: { columns: 3, margin: 10 },
                 850: { columns: 4 }
             },
-          });
+          })
       }
     })();
 
     // render tweets
-    (async function() {
+    (() => {
       const tweets = document.querySelectorAll('.twitter-tweet')
       if (tweets.length) {
         import("https://platform.twitter.com/widgets.js")
       }
     })();
-  });
+  })
 </script>

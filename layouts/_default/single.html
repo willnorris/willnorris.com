@@ -29,6 +29,10 @@
 
   <footer class="entry-footer wrap">
     <p class="entry-meta">
+    {{- if .FirstSection.Param "gitInfo" }}
+      <span class="entry-gitinfo">Last Modified: <a href="{{ .Site.Params.pageHistoryURL }}/{{ .File }}">{{ .Lastmod.Format "January 2, 2006" }}</a>.
+        <a href="{{ .Site.Params.pageEditURL }}/{{ .File }}">Edit</a></span>
+    {{- end }}
     {{- partial "syndication" . -}}
     </p>
   </footer>

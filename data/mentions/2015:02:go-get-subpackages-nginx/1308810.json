@@ -1,0 +1,26 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Евгений Кузнецов",
+    "photo": "https://webmention.io/avatar/evgenykuznetsov.org/3b455ea772635831bb966a96959ad5acc7a16b65e79464111c4ed0e6d6db66a4.jpg",
+    "url": "https://evgenykuznetsov.org"
+  },
+  "url": "https://evgenykuznetsov.org/posts/2021/go/",
+  "published": "2021-11-23T21:54:07+03:00",
+  "wm-received": "2021-11-23T18:56:43Z",
+  "wm-id": 1308810,
+  "wm-source": "https://evgenykuznetsov.org/posts/2021/go/",
+  "wm-target": "https://willnorris.com/2015/02/go-get-subpackages-nginx/",
+  "name": "Хостим пакеты Go, Apache сопротивляется",
+  "content": {
+    "html": "<p>Решил хостить свои поделки на Go в пространстве имён <a href=\"https://evgenykuznetsov.org/go/\">evgenykuznetsov.org/go</a>, как это делает <span class=\"h-card\"><a href=\"https://willnorris.com\" class=\"u-url\"><i></i> <span class=\"p-name\">Уилл Норрис</span></a></span>. У него <a href=\"https://willnorris.com/2015/02/go-get-subpackages-nginx/\">подробно объяснено</a>, как делать такие вещи, и настроить всё аналогичным образом совсем несложно. Правда, про meta-тэг <code>go-source</code> он не пишет, но с этим тоже легко разобраться, поглядев на код его страниц.</p>\n<p>Правда, в одном месте у меня затык всё-таки случился. У меня ведь Apache, а не Nginx, и момент с переадресацией пришлось осиливать самостоятельно. В итоге получилось совсем не элегантно:</p>\n<pre><code>RewriteCond %{QUERY_STRING} ^go-get=1$\nRewriteRule ^(go/[^/]+)/.+ $1 [QSD,L]\n</code></pre><p>Я часа два пытался разобраться, как заставить это работать без <code>QSD</code> (эта инструкция заставляет Apache отбросить часть с <code>?go-get=1</code> при перенаправлении; в обсуждаемом контексте это — очень грязный хак), но не осилил. Почему-то всё время получаются бесконечные переадресации штук вроде <code>/go/changelog/?go-get=1</code> на самих себя. Если кто разбирается в магии .htaccess — просветите, а?..</p>",
+    "text": "Решил хостить свои поделки на Go в пространстве имён evgenykuznetsov.org/go, как это делает  Уилл Норрис. У него подробно объяснено, как делать такие вещи, и настроить всё аналогичным образом совсем несложно. Правда, про meta-тэг go-source он не пишет, но с этим тоже легко разобраться, поглядев на код его страниц.\nПравда, в одном месте у меня затык всё-таки случился. У меня ведь Apache, а не Nginx, и момент с переадресацией пришлось осиливать самостоятельно. В итоге получилось совсем не элегантно:\nRewriteCond %{QUERY_STRING} ^go-get=1$\nRewriteRule ^(go/[^/]+)/.+ $1 [QSD,L]\nЯ часа два пытался разобраться, как заставить это работать без QSD (эта инструкция заставляет Apache отбросить часть с ?go-get=1 при перенаправлении; в обсуждаемом контексте это — очень грязный хак), но не осилил. Почему-то всё время получаются бесконечные переадресации штук вроде /go/changelog/?go-get=1 на самих себя. Если кто разбирается в магии .htaccess — просветите, а?.."
+  },
+  "mention-of": "https://willnorris.com/2015/02/go-get-subpackages-nginx/",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://evgenykuznetsov.org/posts/2021/go/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Evgeny Kuznetsov",
+    "photo": "https://webmention.io/avatar/evgenykuznetsov.org/3b455ea772635831bb966a96959ad5acc7a16b65e79464111c4ed0e6d6db66a4.jpg",
+    "url": "https://evgenykuznetsov.org"
+  },
+  "url": "https://evgenykuznetsov.org/en/posts/2021/go/",
+  "published": "2021-11-23T21:54:07+03:00",
+  "wm-received": "2021-11-23T18:56:47Z",
+  "wm-id": 1308812,
+  "wm-source": "https://evgenykuznetsov.org/en/posts/2021/go/",
+  "wm-target": "https://willnorris.com/2015/02/go-get-subpackages-nginx/",
+  "name": "Serving Go Subpackages: Apache Woes",
+  "content": {
+    "html": "<p>I decided to do what <span class=\"h-card\"><a href=\"https://willnorris.com\" class=\"u-url\"><i></i> <span class=\"p-name\">Will Norris</span></a></span> does and host my go packages and projects under <a href=\"https://evgenykuznetsov.org/en/go/\">evgenykuznetsov.org/go</a>. Will has explained how to do it <a href=\"https://willnorris.com/2015/02/go-get-subpackages-nginx/\">in great detail</a> and it was rather easy to set everything up following his post. He doesn’t mention the <code>go-source</code> meta tag but it was very simple to figure out looking at the code of his pages, too.</p>\n<p>I did run into one roadblock, though. The thing is, my website is served using Apache, not Nginx, so I had to figure out the rewriting part. I ended up with a rather unelegant solution:</p>\n<pre><code>RewriteCond %{QUERY_STRING} ^go-get=1$\nRewriteRule ^(go/[^/]+)/.+ $1 [QSD,L]\n</code></pre><p>I spent about two hours trying to make it work without <code>QSD</code> (that is a rather dirty hack in this context; it makes Apache drop the <code>?go-get=1</code> part upon rewriting) but I couldn’t figure it out. I’d get endless redirects on something like <code>/go/changelog/?go-get=1</code> back to itself. Why? No idea, maybe someone with more knowledge of .htaccess fu can shed some light…</p>",
+    "text": "I decided to do what  Will Norris does and host my go packages and projects under evgenykuznetsov.org/go. Will has explained how to do it in great detail and it was rather easy to set everything up following his post. He doesn’t mention the go-source meta tag but it was very simple to figure out looking at the code of his pages, too.\nI did run into one roadblock, though. The thing is, my website is served using Apache, not Nginx, so I had to figure out the rewriting part. I ended up with a rather unelegant solution:\nRewriteCond %{QUERY_STRING} ^go-get=1$\nRewriteRule ^(go/[^/]+)/.+ $1 [QSD,L]\nI spent about two hours trying to make it work without QSD (that is a rather dirty hack in this context; it makes Apache drop the ?go-get=1 part upon rewriting) but I couldn’t figure it out. I’d get endless redirects on something like /go/changelog/?go-get=1 back to itself. Why? No idea, maybe someone with more knowledge of .htaccess fu can shed some light…"
+  },
+  "mention-of": "https://willnorris.com/2015/02/go-get-subpackages-nginx/",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://evgenykuznetsov.org/en/posts/2021/go/"
+  }
+}

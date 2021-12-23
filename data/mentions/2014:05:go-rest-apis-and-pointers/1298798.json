@@ -1,0 +1,25 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Wildan S. Nahar",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/8f443747be1d0845220921460d219ce5cbe8a581262208838e90a9d19764dec9.jpg",
+    "url": "https://twitter.com/wildan3105"
+  },
+  "url": "https://twitter.com/wildan3105/status/1455576524539629572",
+  "published": "2021-11-02T16:44:21+00:00",
+  "wm-received": "2021-11-02T18:40:17Z",
+  "wm-id": 1298798,
+  "wm-source": "https://brid.gy/post/twitter/willnorris/1455576524539629572",
+  "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "video": [
+    "https://video.twimg.com/tweet_video/FDM_IT-VIAA_OfJ.mp4"
+  ],
+  "content": {
+    "html": "Sambil nunggu Chelsea maen, dinihari belajar dulu via <a href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers/\">willnorris.com/2014/05/go-res…</a>",
+    "text": "Sambil nunggu Chelsea maen, dinihari belajar dulu via willnorris.com/2014/05/go-res…"
+  },
+  "mention-of": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "wm-property": "mention-of",
+  "wm-private": false
+}

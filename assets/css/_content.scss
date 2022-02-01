@@ -81,7 +81,7 @@ figure {
   transition: all 200ms ease-in-out;
 }
 
-@media only screen and (min-width: 450px) {
+@media (min-width: 450px) {
   // only float if the screen is wide enough to display it properly
   .alignleft {
     float: left;
@@ -94,7 +94,7 @@ figure {
   }
 }
 
-@media only screen and (min-width: 450px) and (max-width: 960px) {
+@media (min-width: 450px) and (max-width: 960px) {
   // the screen is wide enough to float, but make sure we don't squish the text
   // to only one or two words per line
   .alignleft, .alignright {
@@ -107,7 +107,7 @@ figure {
   }
 }
 
-@media only screen and (min-width: 700px) {
+@media (min-width: 700px) {
   // increase padding around floats
   .alignleft {
     margin-left: 1em;
@@ -119,7 +119,7 @@ figure {
   }
 }
 
-@media only screen and (min-width: 1260px) {
+@media (min-width: 1260px) {
   $outset: -75px;
   .outset {
     margin-left: $outset * 2;
@@ -210,7 +210,7 @@ main {
   align-items: center;
   margin: -6rem 0 2rem 0;
   text-shadow: 1px 1px 2px $night-rider;
-  @media only screen and (min-width: 600px) {
+  @media (min-width: 600px) {
     margin-top: -8rem;
   }
   > .wrap {

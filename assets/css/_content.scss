@@ -202,6 +202,7 @@ main {
 }
 
 // display large header background image
+@media only screen {
 .entry-header[data-background] {
   height: 80vh;
   background-size: cover;
@@ -222,6 +223,7 @@ main {
   .entry-meta, .entry-meta a {
     color: $gainsboro;
   }
+}
 }
 
 .hide {

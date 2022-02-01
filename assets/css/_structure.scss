@@ -21,14 +21,14 @@ main {
   padding-right: 5%;
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
   main {
     margin: 4rem 0;
   }
 }
 
 // at 960px, set padding to fixed size
-@media only screen and (min-width: 960px) {
+@media (min-width: 960px) {
   .wrap {
     padding-left: 48px;
     padding-right: 48px;

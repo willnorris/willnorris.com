@@ -8,4 +8,4 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - run: curl -i -u ":${{ secrets.REBUILD_PASSWORD }}" https://willnorris.com/api/rebuild
+    - run: curl -i --fail --user ":${{ secrets.REBUILD_PASSWORD }}" https://willnorris.com/api/rebuild

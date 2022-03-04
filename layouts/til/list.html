@@ -17,7 +17,7 @@
   </ul>
 
   {{- range .Sections -}}
-  {{ $section := trim (strings.TrimPrefix .Section .Dir) "/" }}
+  {{ $section := trim (strings.TrimPrefix .Section .File.Dir) "/" }}
   <section id="{{ $section }}">
     <h2>{{ $section }}</h2>
     <ul class="posts">

@@ -13,12 +13,10 @@ title: Windows Workstation
 ## Windows Subsystem for Linux
 
 - [Installation instructions for WSL 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install)
-- Install [Windows Terminal](ms-windows-store://pdp/?ProductId=9n0dx20hk701)
-  - Copy [settings.jsonc](https://github.com/willnorris/dotfiles/blob/main/tag-windows/terminal/settings.jsonc)
+- Install [Windows Terminal Preview](https://www.microsoft.com/store/productId/9N8G5RFZ9XK3)
+  - Copy [settings.jsonc](https://github.com/willnorris/dotfiles/blob/main/tag-windows/config/windowsterminal/settings.jsonc)
 - Install Linux distro(s):
-  [Ubuntu](ms-windows-store://pdp/?ProductId=9nblggh4msv6),
-  [Debian](ms-windows-store://pdp/?ProductId=9msvkqc78pk6)
-- Follow linux setup for each distro
+  [Ubuntu](https://www.microsoft.com/store/productId/9PDXGNCFSCZV),
 
 ## SSH key
 

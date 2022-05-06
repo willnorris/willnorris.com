@@ -9,7 +9,12 @@ Not `password`, not `admin`, and not `hunter2`.  Just an empty string.
 When you get a screen prompting you for a password, don't enter anything, just click 'OK'.
 Hopefully that will save future me (and maybe current you) an hour of headache.
 
+(*Update:* Or at least this was my experience after resetting my RainMachine.
+[This article][quick-setup] seems to suggest that the default password **is** in
+fact `admin`? So try both.)
+
 [RainMachine Pro-16]: https://www.rainmachine.com/products/rainmachine-pro.html
+[quick-setup]: https://support.rainmachine.com/hc/en-us/articles/360007505074-RainMachine-Pro-Quick-Setup
 
 This evening, I accidentally reset the password on my RainMachine Pro 16.
 I was trying to reboot it through the on-device screen, but the touch sensor misinterpreted my selection.

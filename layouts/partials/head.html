@@ -45,4 +45,3 @@
 {{- end -}}
 {{- with .Params.robots }}  <meta name="robots" content="{{ . }}">{{ end -}}
 {{- with $.Param "author.url" }}  <link rel="author" href="{{ . }}">{{ end -}}
-{{- if hugo.IsProduction }}<script async defer data-domain="willnorris.com" src="https://stats.wjn.me/js/plausible.js"></script>{{ end -}}

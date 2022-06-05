@@ -10,11 +10,12 @@ menu: "main"
 
 Hi, I'm <a href="https://willnorris.com/" class="p-name u-url fn url">Will Norris</a>. I'm a
 follower of Jesus, a husband to [Elisabeth][], a father to [Gabriel][] and [Judah][], a citizen of
-the [indie web][], and the <span class="p-role role">Open Source Lead</span> at <span class="p-org
-org">Twitter</span>.
+the [indie web][], and <span class="p-role role">software engineer</span> at
+<a class="p-org org" href="https://tailscale.com/">Tailscale</a>.
 </div>
 
-Prior to Twitter I was at Google [for 10 years][], with most of that time spent in their [Open
+Prior to Tailscale, I was the Open Source Lead at Twitter.
+Before that, I was at Google [for 10 years][], with most of that time spent in their [Open
 Source Programs Office][] leading the engineering and license compliance groups.  I had previously
 helped design and build the [Google+ API][], having spent much of my career working on developing
 tools and technologies for the social web like [OpenID][], [OAuth][], [XRD][], and [Activity

@@ -1,0 +1,103 @@
+www.willnorris.com {
+  redir https://willnorris.com{uri} 308
+}
+
+willnorris.com {
+  log {
+    output file /var/log/caddy/access.log
+  }
+  encode zstd gzip
+  root * /var/www/willnorris.com/public
+
+  handle {
+    file_server
+    try_files {path} {path}.html {path}/ =404
+  }
+
+  handle_errors {
+    # TODO: look at templates for this
+    rewrite * /errors/{http.error.status_code}/index.html
+    file_server
+  }
+
+  header * {
+    X-Frame-Options "SAMEORIGIN"
+    X-Xss-Protection "1; mode=block"
+    X-Content-Type-Options "nosniff"
+  }
+
+  # protocol check necessary for local development (currently)
+  @https protocol https
+  header @https {
+    Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    Content-Security-Policy "default-src https: data: 'unsafe-inline' 'unsafe-eval'"
+  }
+
+  # redirects
+  redir /contact  /about#contact
+  redir /contact/ /about#contact
+  redir /photo.jpg /logo.jpg permanent
+
+  redir /feed /atom.xml permanent
+  redir /feed/ /atom.xml permanent
+  redir /feed.atom /atom.xml permanent
+
+  redir /licenses/mit/ "https://opensource.org/licenses/MIT"
+
+  @search path_regexp search /(category|search|tag)/(\w+)
+  redir @search "https://www.google.com/search?as_sitesearch=willnorris.com&q={re.search.2}"
+
+  # redirect /w/ shortlinks to /wiki/
+  @wiki path_regexp wiki /w/(.*)
+  redir @wiki /wiki/{re.wiki.1} permanent
+  header /wiki/* X-Robots-Tag "noindex"
+
+  # support webfinger lookup (https://wjn.me/b/4XG1)
+  @webfinger {
+    path /.well-known/webfinger
+    method GET HEAD
+    query resource=acct:will@willnorris.com
+    query resource=mailto:will@willnorris.com
+    query resource=https://willnorris.com
+    query resource=https://willnorris.com/
+  }
+  rewrite @webfinger /webfinger.json
+  header @webfinger {
+    Content-Type "application/jrd+json"
+    Access-Control-Allow-Origin "*"
+    X-Robots-Tag "noindex"
+  }
+
+  # allow go subpackages to be fetchable with `go get` (https://wjn.me/b/4_m1)
+  @gopkg {
+    path_regexp gopkg (/go/\w+/).+
+    query go-get=*
+  }
+  rewrite @gopkg {re.gopkg.1}
+
+  # allow navigating post archives by redirecting date-based URLs
+  # like /2015/ or /2015/02/ to /archives#2015.
+  @archives path_regexp archives ^/(\d{4})(/\d{2})?/?$
+  redir @archives /archives/#{re.archives.1}
+
+  # image proxy (https://wjn.me/b/J_)
+  @imageproxy path_regexp imageproxy /api/imageproxy/(.+)
+  redir @imageproxy https://imageproxy.willnorris.com/{re.imageproxy.1} permanent
+
+  # limited proxying for home assistant
+  @homeassistant {
+    path /api/home/*
+    remote_ip 108.177.8.0/17 66.102.0.0/20 66.249.80.0/20 # Google IPs (https://community.home-assistant.io/t/184646)
+  }
+  handle @homeassistant {
+    uri replace /api/home/auth/ /auth/
+    uri replace /api/home/google_assistant /api/google_assistant
+    reverse_proxy https://home.willnorris.net {
+      header_up Host {upstream_hostport}
+    }
+  }
+
+  # cache static resources
+  @static path_regexp \.(js|mjs|css|png|jpg|jpeg|gif|ico|woff)$
+  header @static Cache-Control max-age=31536000 # 365 days
+}

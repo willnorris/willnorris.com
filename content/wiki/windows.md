@@ -23,7 +23,7 @@ title: Windows Workstation
 If needed, create a new SSH key in PowerShell
 
 ```sh
-ssh-keygen -t rsa -b 4096
+ssh-keygen -t ed25519
 ```
 
 ## Mouse settings

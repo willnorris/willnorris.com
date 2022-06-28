@@ -13,7 +13,7 @@ Set the Computer Name in the macOS Sharing Preference Pane.
 If needed, create a new SSH key
 
 ``` sh
-ssh-keygen -t rsa -b 4096
+ssh-keygen -t ed25519
 ```
 
 ## Homebrew ##

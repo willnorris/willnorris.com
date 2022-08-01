@@ -5,7 +5,7 @@ menu: "main"
 <div class="h-card vcard">
 
 <figure class="alignright">
-  {{<img src="norris-family.jpg" alt="Norris Family" width="300" height="300" class="u-photo photo">}}
+  {{<img src="norris-family-2022.jpg" alt="Norris Family" width="300" height="300" class="u-photo photo">}}
 </figure>
 
 Hi, I'm <a href="https://willnorris.com/" class="p-name u-url fn url">Will Norris</a>. I'm a

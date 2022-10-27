@@ -2,7 +2,9 @@
   "subject": "acct:will@willnorris.com",
   "aliases": [
     "mailto:will@willnorris.com",
-    "https://willnorris.com/"
+    "https://willnorris.com/",
+    "https://mastodon.willnorris.net/@will",
+    "https://mastodon.willnorris.net/users/will"
   ],
   "links": [
     {
@@ -14,6 +16,20 @@
       "rel": "http://webfinger.net/rel/profile-page",
       "href": "https://willnorris.com/",
       "type": "text/html"
+    },
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "href": "https://mastodon.willnorris.net/@will",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mastodon.willnorris.net/users/will"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mastodon.willnorris.net/authorize_interaction?uri={uri}"
     }
   ]
 }

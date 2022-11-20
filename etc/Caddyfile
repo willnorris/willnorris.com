@@ -34,6 +34,7 @@ willnorris.com {
   }
 
   # redirects
+  redir /@will  https://mastodon.willnorris.net/@will
   redir /contact  /about#contact
   redir /contact/ /about#contact
   redir /photo.jpg /logo.jpg permanent

@@ -3,6 +3,7 @@
   "aliases": [
     "mailto:will@willnorris.com",
     "https://willnorris.com/",
+    "https://willnorris.com/@will",
     "https://mastodon.willnorris.net/@will",
     "https://mastodon.willnorris.net/users/will"
   ],
@@ -19,8 +20,8 @@
     },
     {
       "rel": "http://webfinger.net/rel/profile-page",
-      "href": "https://mastodon.willnorris.net/@will",
-      "type": "text/html"
+      "type": "text/html",
+      "href": "https://mastodon.willnorris.net/@will"
     },
     {
       "rel": "self",

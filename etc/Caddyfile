@@ -85,6 +85,16 @@ willnorris.com {
   @imageproxy path_regexp imageproxy /api/imageproxy/(.+)
   redir @imageproxy https://imageproxy.willnorris.com/{re.imageproxy.1} permanent
 
+  # proxy nerdfonts so that we can add CORP headers which Chrome OS now seems to require
+  #@nerdfont path /x/nfwf/*
+  handle /x/nfwf/* {
+    uri replace /x/nfwf/ /nerdfont-webfonts/build/
+    header Cross-Origin-Resource-Policy cross-origin
+    reverse_proxy https://mshaugh.github.io {
+      header_up Host {upstream_hostport}
+    }
+  }
+
   # limited proxying for home assistant
   @homeassistant {
     path /api/home/*

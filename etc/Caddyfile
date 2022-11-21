@@ -15,8 +15,8 @@ willnorris.com {
   }
 
   handle_errors {
-    # TODO: look at templates for this
-    rewrite * /errors/{http.error.status_code}/index.html
+    rewrite * /error/
+    templates
     file_server
   }
 

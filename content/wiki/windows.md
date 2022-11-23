@@ -48,11 +48,6 @@ Map caps lock key to control.  (Save to `caps.reg` file and run)
     [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
     "Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00
 
-## Dotfiles
+## Common workstation setup
 
-Follow standard instructions from
-<https://github.com/willnorris/dotfiles#readme>:
-
-```sh
-git clone https://github.com/willnorris/dotfiles ~/.dotfiles
-```
+Follow [common workstation setup](../workstation/)

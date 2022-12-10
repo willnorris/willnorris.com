@@ -1,0 +1,37 @@
+@media print {
+  @page {
+    margin: 0.75in;
+  }
+
+  body {
+    margin: inherit;
+    min-height: inherit;
+  }
+
+  html {
+    font-size: 10pt;
+  }
+
+  .site-header,
+  footer
+  {
+    display: none;
+  }
+
+  main, .wrap {
+    margin: inherit;
+    padding: inherit;
+    max-width: inherit;
+  }
+
+  .entry-header {
+    background-image: none !important;
+    .p-author img {
+      display: none;
+    }
+  }
+
+  #webmentions {
+    display: none;
+  }
+}

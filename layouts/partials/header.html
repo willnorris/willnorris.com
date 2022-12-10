@@ -1,7 +1,7 @@
   <header class="site-header">
     <div class="wrap">
       <div class="title-area">
-        <h1 class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+        <h1 class="site-title"><a href="{{ .Site.BaseURL | relURL }}">{{ .Site.Title }}</a></h1>
         <div class="site-description">{{ .Site.Params.Description }}</div>
       </div>
       <nav class="site-nav">

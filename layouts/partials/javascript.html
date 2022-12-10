@@ -1,7 +1,12 @@
-<script src="{{ (resources.Get "js/fragmention.js" | resources.Fingerprint).RelPermalink }}" async></script>
-
 <script type="module">
   document.addEventListener("DOMContentLoaded", function() {
+    // load fragmention if URL fragment is present
+    (async () => {
+      if (window.location.hash !== "") {
+        await import({{ (resources.Get "js/fragmention.js" | resources.Fingerprint).RelPermalink }})
+      }
+    })();
+
     // display lightbox for linked images
     (async () => {
       const imageAnchors = Array.from(document.querySelectorAll('.entry-content a'))

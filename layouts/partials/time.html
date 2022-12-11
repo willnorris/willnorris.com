@@ -1,6 +1,6 @@
 {{ $t := (time .) }}
 {{ if eq (dateFormat "MST" $t) "+0000" }}{{ $t = $t.Local }}{{ end }}
-<time class="dt-published published dt-updated updated" datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" . }}" title="{{ dateFormat "2006-01-02T15:04:05Z07:00" . }}">
+<time class="dt-published dt-updated" datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" . }}" title="{{ dateFormat "2006-01-02T15:04:05Z07:00" . }}">
   {{ dateFormat "January 2, 2006" $t }}
 </time>
 

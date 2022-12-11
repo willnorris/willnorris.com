@@ -9,7 +9,7 @@
 
     // display lightbox for linked images
     (async () => {
-      const imageAnchors = Array.from(document.querySelectorAll('.entry-content a'))
+      const imageAnchors = Array.from(document.querySelectorAll('.e-content a'))
           .filter(a => a.href.match(/.(jpg|jpeg|png)$/))
           .filter(a => a.querySelector('img'))
       if (imageAnchors.length) {

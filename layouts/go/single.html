@@ -10,11 +10,11 @@
 {{ end }}
 {{ define "main" }}
 {{ $src := default .Params.go.src (print "https://github.com/willnorris/" .Title) }}
-<article class="page h-entry hentry wrap">
+<article class="page h-entry wrap">
   <header class="entry-header">
-    <h1 class="p-name entry-title">{{ .Title }}</h1>
+    <h1 class="p-name">{{ .Title }}</h1>
   </header>
-  <div class="e-content entry-content">
+  <div class="e-content">
     {{- with default .Params.redirect_url $src }}
       <p>Redirecting to <a href="{{ . }}">{{ . }}</a>.</p>
     {{- else }}

@@ -1,13 +1,13 @@
 {{ define "main" }}
 {{- if .FirstSection.Param "breadcrumbs" }}{{ partial "breadcrumbs" . }}{{ end }}
-<article class="post {{ .Params.mfRoot | default "h-entry hentry" }}">
+<article class="{{ .Params.mfRoot | default "h-entry" }}">
   <header class="entry-header"{{ with .Params.image }} data-background
           style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5) 35%), url({{ .url }}); background-position:{{ .position }};" {{ end }}>
     <div class="wrap">
-      <h1 class="p-name entry-title">{{ .Title }}</h1>
+      <h1 class="p-name">{{ .Title }}</h1>
       {{- if .FirstSection.Param "headerMeta" }}
       <p class="entry-meta">
-        <a href="{{ .Permalink }}" class="u-url url">
+        <a href="{{ .Permalink }}" class="u-url">
           {{ partial "time" .Date }}
         </a>
         by
@@ -23,15 +23,15 @@
     </div>
   </header>
 
-  <div class="e-content entry-content wrap">
+  <div class="e-content wrap">
     {{ .Content }}
   </div>
 
   <footer class="entry-footer wrap">
     <p class="entry-meta">
     {{- if .FirstSection.Param "gitInfo" }}
-      <span class="entry-gitinfo">Last Modified: <a href="{{ .Site.Params.pageHistoryURL }}/{{ .File }}">{{ .Lastmod.Format "January 2, 2006" }}</a>.
-        <a href="{{ .Site.Params.pageEditURL }}/{{ .File }}">Edit</a></span>
+      Last Modified: <a href="{{ .Site.Params.pageHistoryURL }}/{{ .File }}">{{ .Lastmod.Format "January 2, 2006" }}</a>.
+        <a href="{{ .Site.Params.pageEditURL }}/{{ .File }}">Edit</a>
     {{- end }}
     {{- partial "syndication" . -}}
     </p>

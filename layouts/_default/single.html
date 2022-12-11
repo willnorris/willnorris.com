@@ -11,9 +11,10 @@
           {{ partial "time" .Date }}
         </a>
         by
-        <span class="p-author h-card author vcard">
-          <a class="url" href="{{ $.Param "author.url" }}">
-            <img class="photo logo" src="{{ $.Param "author.photo" }}" alt=""> <span class="fn">{{ $.Param "author.name" }}</span>
+        <span class="p-author h-card">
+          {{ with $.Param "author.photo" }}<data class="u-photo" value="{{ . }}"></data>{{ end }}
+          <a class="u-url" href="{{ $.Param "author.url" }}">
+            <span class="p-name">{{ $.Param "author.name" }}</span>
           </a>
         </span>
       </p>

@@ -1,3 +1,0 @@
-[submodule "src/slides/io-slides"]
-	path = static/slides/io-slides
-	url = https://github.com/willnorris/io-slides.git

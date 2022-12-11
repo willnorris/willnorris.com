@@ -1,15 +1,17 @@
-/* --- Site Containers --- */
-
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  margin-top: 4rem;
 }
+
 main {
   flex: 1;
   clear: both;
   margin: 2rem 0;
+
+  @media (min-width: 600px) {
+    margin: 4rem 0;
+  }
 }
 
 .wrap {
@@ -19,18 +21,112 @@ main {
   max-width: 960px;
   padding-left: 5%;
   padding-right: 5%;
-}
 
-@media (min-width: 600px) {
-  main {
-    margin: 4rem 0;
+  // at 960px, set padding to fixed size
+  @media (min-width: 960px) {
+    padding-left: 48px;
+    padding-right: 48px;
   }
 }
 
-// at 960px, set padding to fixed size
-@media (min-width: 960px) {
-  .wrap {
-    padding-left: 48px;
-    padding-right: 48px;
+.site-header {
+  background-color: $night-rider;
+  padding: 1rem 0;
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  .title-area {
+    flex: 1
+  }
+}
+
+.site-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+}
+
+.site-title, .site-title a {
+  color: $white-smoke;
+  border: 0;
+}
+
+.site-description {
+  color: $gainsboro;
+  font-size: .875rem;
+  font-weight: 300;
+  line-height: 1;
+  margin: 0.8em 0 0 0;
+}
+
+.site-nav {
+  line-height: 1;
+  text-transform: lowercase;
+
+  > ul {
+    display: flex;
+    > li {
+      display: block;
+    }
+  }
+
+  a {
+    border: none;
+    color: $gainsboro;
+    font-size: 1.125rem;
+
+    &:hover {
+      color: lighten($gainsboro, 5%)
+    }
+  }
+}
+
+.site-footer {
+  background-color: $white-smoke;
+  border-top: 1px solid $gainsboro;
+  clear: both;
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2em;
+    margin: 2em 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    border-color: $nobel;
+    color: $dim-gray;
+    &:hover {
+      color: lighten($dim-gray, 15%)
+    }
+  }
+}
+
+.copyright {
+  background-color: $night-rider;
+  clear: both;
+  color: $gainsboro;
+  font-size: 0.875rem;
+  padding: 1rem 0;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: $gainsboro;
+    &:hover {
+      color: darken($gainsboro, 15%)
+    }
   }
 }

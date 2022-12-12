@@ -29,7 +29,7 @@
 
   <footer class="entry-footer wrap">
     <p class="entry-meta">
-    {{- if .FirstSection.Param "gitInfo" }}
+    {{- if or (.Param "gitInfo") (.FirstSection.Param "gitInfo") }}
       Last Modified: <a href="{{ .Site.Params.pageHistoryURL }}/{{ .File }}">{{ .Lastmod.Format "January 2, 2006" }}</a>.
         <a href="{{ .Site.Params.pageEditURL }}/{{ .File }}">Edit</a>
     {{- end }}

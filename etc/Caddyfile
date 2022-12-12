@@ -81,6 +81,11 @@ willnorris.com {
   @archives path_regexp archives ^/(\d{4})(/\d{2})?/?$
   redir @archives /archives/#{re.archives.1}
 
+  # rebuild site (https://github.com/willnorris/httpexec)
+  handle /api/rebuild {
+    reverse_proxy localhost:4595
+  }
+
   # image proxy (https://wjn.me/b/J_)
   @imageproxy path_regexp imageproxy /api/imageproxy/(.+)
   redir @imageproxy https://imageproxy.willnorris.com/{re.imageproxy.1} permanent

@@ -43,6 +43,10 @@
 figure {
   text-align: center;
   margin: 1em 0;
+  img {
+    display: block;
+    margin: auto;
+  }
 }
 
 .aligncenter {
@@ -58,19 +62,21 @@ figure {
 //  /  -2    divide in half & make margin negative
 //  =        width of each side margin
 @mixin full-width-negative-margin() {
-  margin-left: calc((100vw - 100% - 15px) / -2);
-  margin-right: calc((100vw - 100% - 15px) / -2);
+  margin-left: calc((100vw - 100%) / -2);
+  margin-right: calc((100vw - 100%) / -2);
 }
 
 .full {
   @include full-width-negative-margin;
+  overflow: hidden;
   img {
-    width: 100vw;
+    width: 100%;
   }
 }
 
 .outset {
   @include full-width-negative-margin;
+  overflow: hidden;
 }
 
 .alignleft, .alignright {
@@ -106,12 +112,16 @@ figure {
 @media (min-width: 700px) {
   // increase padding around floats
   .alignleft {
-    margin-left: 1em;
     margin-right: 2em;
+    &:not(.outset) {
+      margin-left: 1em;
+    }
   }
   .alignright {
     margin-left: 2em;
-    margin-right: 1em;
+    &:not(.outset) {
+      margin-right: 1em;
+    }
   }
 }
 
@@ -166,7 +176,7 @@ main {
     font-size: inherit;
   }
   .more {
-    font-size: 80%;
+    font-size: 0.875rem;
   }
 }
 
@@ -176,14 +186,14 @@ main {
 
   time {
     color: $dim-gray;
-    font-size: 80%;
+    font-size: 0.875rem;
     margin-left: 0.5em;
   }
 
   .draft:before {
     color: $dim-gray;
     content: "[draft]";
-    font-size: 80%;
+    font-size: 0.875rem;
     font-variant: small-caps;
   }
 }
@@ -195,7 +205,7 @@ main {
 // display large header background image
 @media only screen {
 .entry-header[data-background] {
-  height: 80vh;
+  height: 75vh;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -246,9 +256,8 @@ img.border {
 }
 
 figcaption {
-  font-size: 70%;
+  font-size: 0.8125rem;
   text-align: center;
-  line-height: 0.8;
 }
 
 .gallery {
@@ -304,6 +313,7 @@ figcaption {
 form#webmention {
   input[type=url] {
     display: block;
+    box-sizing: border-box;
     width: 100%;
   }
 

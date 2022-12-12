@@ -58,12 +58,12 @@ figure {
 // set negative margins to fill viewport width
 //    100vw  full viewport width
 //  - 100%   width of the current element
-//  -  15px  width of browser scrollbar (assumes present)
+//  - SBW    width of browser scrollbar (set by javascript)
 //  /  -2    divide in half & make margin negative
 //  =        width of each side margin
 @mixin full-width-negative-margin() {
-  margin-left: calc((100vw - 100%) / -2);
-  margin-right: calc((100vw - 100%) / -2);
+  margin-left: calc((100vw - 100% - var(--scrollbar-width)) / -2);
+  margin-right: calc((100vw - 100% - var(--scrollbar-width)) / -2);
 }
 
 .full {

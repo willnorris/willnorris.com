@@ -3,6 +3,13 @@ title: What I'm doing now
 gitInfo: true
 ---
 
+<small>
+
+(This is a [now page](https://nownownow.com/about).
+I also have an [about page](/about/).)
+
+</small>
+
 We still live near Half Moon Bay, CA,
 but are right in the middle of getting ready to sell our house and move down to the Temecula, CA area.
 Elisabeth's family lives there, and there are a lot of reasons right now to move.
@@ -19,5 +26,4 @@ Still mostly science fiction when I do.
 I've at least switched over to short stories for a while (currently Philip K. Dick)
 so that I don't get so lost after long breaks.
 
-<small>(About [now pages](https://nownownow.com/about))</small>
 

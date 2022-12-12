@@ -1,5 +1,8 @@
 <script type="module">
   document.addEventListener("DOMContentLoaded", function() {
+    // set scrollbar width CSS variable
+    document.documentElement.style.setProperty('--scrollbar-width', window.innerWidth - document.documentElement.clientWidth + 'px');
+
     // load fragmention if URL fragment is present
     (async () => {
       if (window.location.hash !== "") {

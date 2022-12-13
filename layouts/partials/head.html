@@ -1,5 +1,5 @@
   <title>{{ block "title" . }}{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   {{ hugo.Generator }}
   <link rel="shortcut icon" href="{{ "logo.jpg" | relURL }}">
@@ -11,6 +11,8 @@
   {{- if .Params.aliases }}
   {{- partial "shortlink" . }}{{ end }}
 
+  {{- $critical := resources.Get "css/critical.scss" | toCSS | minify }}
+  <style>{{ $critical.Content | safeCSS }}</style>
   {{- $style := resources.Get "css/style.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 

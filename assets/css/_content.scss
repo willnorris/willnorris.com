@@ -169,6 +169,9 @@ main {
   p + ul {
     margin-top: -1.5rem;
   }
+  td > ul {
+    margin-bottom: 0;
+  }
 }
 
 .home {

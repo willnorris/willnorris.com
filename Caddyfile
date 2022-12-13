@@ -1,13 +1,11 @@
-www.willnorris.com {
-  redir https://willnorris.com{uri} 308
+{
+  auto_https off
 }
 
-willnorris.com {
-  log {
-    output file /var/log/caddy/access.log
-  }
+:8080 {
+  log
   encode zstd gzip
-  root * /var/www/willnorris.com/public
+  root public
 
   handle {
     file_server
@@ -20,14 +18,16 @@ willnorris.com {
     file_server
   }
 
+  @www host www.willnorris.com
+  redir @www https://willnorris.com{uri}
+
   header * {
     X-Frame-Options "SAMEORIGIN"
     X-Xss-Protection "1; mode=block"
     X-Content-Type-Options "nosniff"
   }
 
-  # protocol check necessary for local development (currently)
-  @https protocol https
+  @https expression protocol('https') || header({'x-forwarded-proto': 'https'})
   header @https {
     Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
     Content-Security-Policy "default-src https: data: 'unsafe-inline' 'unsafe-eval'"
@@ -80,11 +80,6 @@ willnorris.com {
   # like /2015/ or /2015/02/ to /archives#2015.
   @archives path_regexp archives ^/(\d{4})(/\d{2})?/?$
   redir @archives /archives/#{re.archives.1}
-
-  # rebuild site (https://github.com/willnorris/httpexec)
-  handle /api/rebuild {
-    reverse_proxy localhost:4595
-  }
 
   # image proxy (https://wjn.me/b/J_)
   @imageproxy path_regexp imageproxy /api/imageproxy/(.+)

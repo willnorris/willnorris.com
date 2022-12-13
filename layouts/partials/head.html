@@ -14,7 +14,8 @@
   {{- $critical := resources.Get "css/critical.scss" | toCSS | minify }}
   <style>{{ $critical.Content | safeCSS }}</style>
   {{- $style := resources.Get "css/style.scss" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  <link rel="preload" href="{{ $style.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ $style.RelPermalink }}"></noscript>
 
   <link rel="webmention" href="https://webmention.io/willnorris.com/webmention" />
   <link rel="pingback" href="https://webmention.io/willnorris.com/xmlrpc" />

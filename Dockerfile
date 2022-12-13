@@ -4,7 +4,7 @@ FROM klakegg/hugo:ext-alpine-onbuild AS hugo
 FROM caddy:latest
 
 COPY --from=hugo /target/ /srv/public/
-COPY ./Caddyfile /srv/Caddyfile
+COPY ./etc/Caddyfile /srv/Caddyfile
 
 WORKDIR /srv
 

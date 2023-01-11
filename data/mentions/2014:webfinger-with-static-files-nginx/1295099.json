@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Harlan 🐝 Small Tech Sensei",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/5c8c5a9ff8878290f19e47fb5f92210217e24ff0a120fff2a1ce2f3c63bf3261.jpg",
+    "url": "https://twitter.com/pottyContent"
+  },
+  "url": "https://twitter.com/pottyContent/status/1451255264703913986",
+  "published": "2021-10-21T18:33:12+00:00",
+  "wm-received": "2021-10-22T20:31:37Z",
+  "wm-id": 1295099,
+  "wm-source": "https://brid.gy/post/twitter/willnorris/1451255264703913986",
+  "wm-target": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "content": {
+    "html": "That <a href=\"https://twitter.com/search?q=%23WebFinger\">#WebFinger</a> requires a query param for an identifier is a critical design flaw. If the ID is a natural key then it's preferable to rewrite a URI component to a query parameter if a back-end requires it than vice-versa.\n\nCase: static generation.\n\n<a href=\"https://twitter.com/search?q=%23IETF\">#IETF</a>\n\n<a href=\"https://willnorris.com/2014/07/webfinger-with-static-files-nginx/\">willnorris.com/2014/07/webfin…</a>",
+    "text": "That #WebFinger requires a query param for an identifier is a critical design flaw. If the ID is a natural key then it's preferable to rewrite a URI component to a query parameter if a back-end requires it than vice-versa.\n\nCase: static generation.\n\n#IETF\n\nwillnorris.com/2014/07/webfin…"
+  },
+  "mention-of": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "wm-property": "mention-of",
+  "wm-private": false
+}

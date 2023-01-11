@@ -1,0 +1,26 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Evgeny Kuznetsov",
+    "photo": "https://webmention.io/avatar/evgenykuznetsov.org/3b455ea772635831bb966a96959ad5acc7a16b65e79464111c4ed0e6d6db66a4.jpg",
+    "url": "https://evgenykuznetsov.org"
+  },
+  "url": "https://evgenykuznetsov.org/en/reactions/2021/webmention-rocks-endpoint-discovery/",
+  "published": "2021-10-04T15:55:24+03:00",
+  "wm-received": "2021-10-04T13:01:40Z",
+  "wm-id": 1281395,
+  "wm-source": "https://evgenykuznetsov.org/en/reactions/2021/webmention-rocks-endpoint-discovery/",
+  "wm-target": "https://willnorris.com/go/webmention",
+  "name": "Webmention.Rocks Endpoint Discovery Tests",
+  "content": {
+    "html": "<p>Using <a href=\"https://github.com/nekr0z/static-webmentions\">static-webmentions</a> that has Will Norris’ <a href=\"https://willnorris.com/go/webmention\">Go webmention library</a> under the hood.</p>\n<p><a href=\"https://webmention.rocks/test/1\">https://webmention.rocks/test/1</a>\n<a href=\"https://webmention.rocks/test/2\">https://webmention.rocks/test/2</a>\n<a href=\"https://webmention.rocks/test/3\">https://webmention.rocks/test/3</a>\n<a href=\"https://webmention.rocks/test/4\">https://webmention.rocks/test/4</a>\n<a href=\"https://webmention.rocks/test/5\">https://webmention.rocks/test/5</a>\n<a href=\"https://webmention.rocks/test/6\">https://webmention.rocks/test/6</a>\n<a href=\"https://webmention.rocks/test/7\">https://webmention.rocks/test/7</a>\n<a href=\"https://webmention.rocks/test/8\">https://webmention.rocks/test/8</a>\n<a href=\"https://webmention.rocks/test/9\">https://webmention.rocks/test/9</a>\n<a href=\"https://webmention.rocks/test/10\">https://webmention.rocks/test/10</a>\n<a href=\"https://webmention.rocks/test/11\">https://webmention.rocks/test/11</a>\n<a href=\"https://webmention.rocks/test/12\">https://webmention.rocks/test/12</a>\n<a href=\"https://webmention.rocks/test/13\">https://webmention.rocks/test/13</a>\n<a href=\"https://webmention.rocks/test/14\">https://webmention.rocks/test/14</a>\n<a href=\"https://webmention.rocks/test/15\">https://webmention.rocks/test/15</a>\n<a href=\"https://webmention.rocks/test/16\">https://webmention.rocks/test/16</a>\n<a href=\"https://webmention.rocks/test/17\">https://webmention.rocks/test/17</a>\n<a href=\"https://webmention.rocks/test/18\">https://webmention.rocks/test/18</a>\n<a href=\"https://webmention.rocks/test/19\">https://webmention.rocks/test/19</a>\n<a href=\"https://webmention.rocks/test/20\">https://webmention.rocks/test/20</a>\n<a href=\"https://webmention.rocks/test/21\">https://webmention.rocks/test/21</a>\n<a href=\"https://webmention.rocks/test/22\">https://webmention.rocks/test/22</a>\n<a href=\"https://webmention.rocks/test/23/page\">https://webmention.rocks/test/23/page</a></p>",
+    "text": "Using static-webmentions that has Will Norris’ Go webmention library under the hood.\nhttps://webmention.rocks/test/1\nhttps://webmention.rocks/test/2\nhttps://webmention.rocks/test/3\nhttps://webmention.rocks/test/4\nhttps://webmention.rocks/test/5\nhttps://webmention.rocks/test/6\nhttps://webmention.rocks/test/7\nhttps://webmention.rocks/test/8\nhttps://webmention.rocks/test/9\nhttps://webmention.rocks/test/10\nhttps://webmention.rocks/test/11\nhttps://webmention.rocks/test/12\nhttps://webmention.rocks/test/13\nhttps://webmention.rocks/test/14\nhttps://webmention.rocks/test/15\nhttps://webmention.rocks/test/16\nhttps://webmention.rocks/test/17\nhttps://webmention.rocks/test/18\nhttps://webmention.rocks/test/19\nhttps://webmention.rocks/test/20\nhttps://webmention.rocks/test/21\nhttps://webmention.rocks/test/22\nhttps://webmention.rocks/test/23/page"
+  },
+  "mention-of": "https://willnorris.com/go/webmention",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://evgenykuznetsov.org/en/reactions/2021/webmention-rocks-endpoint-discovery/"
+  }
+}

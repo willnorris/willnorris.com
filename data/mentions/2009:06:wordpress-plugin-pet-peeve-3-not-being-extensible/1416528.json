@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://wpsamurai.ru/plugins-dev/",
+  "published": null,
+  "wm-received": "2022-06-14T10:28:21Z",
+  "wm-id": 1416528,
+  "wm-source": "https://wpsamurai.ru/plugins-dev/",
+  "wm-target": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-3-not-being-extensible",
+  "mention-of": "http://willnorris.com/2009/06/wordpress-plugin-pet-peeve-3-not-being-extensible",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://wpsamurai.ru/plugins-dev/"
+  }
+}

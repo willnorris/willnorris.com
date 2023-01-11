@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://ten-tools.com/shared-user-tables-on-2-wordpress-sites-main-site-and-discuss-using-p2/",
+  "published": null,
+  "wm-received": "2022-10-25T12:08:47Z",
+  "wm-id": 1544498,
+  "wm-source": "https://ten-tools.com/shared-user-tables-on-2-wordpress-sites-main-site-and-discuss-using-p2/",
+  "wm-target": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment",
+  "mention-of": "http://willnorris.com/2008/09/wordpress-mu-in-a-development-environment",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://ten-tools.com/shared-user-tables-on-2-wordpress-sites-main-site-and-discuss-using-p2/"
+  }
+}

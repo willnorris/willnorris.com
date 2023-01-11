@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://microeducate.tech/empty-or-not-required-struct-fields/",
+  "published": null,
+  "wm-received": "2021-10-27T19:40:09Z",
+  "wm-id": 1296786,
+  "wm-source": "https://microeducate.tech/empty-or-not-required-struct-fields/",
+  "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers",
+  "mention-of": "https://willnorris.com/2014/05/go-rest-apis-and-pointers",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://microeducate.tech/empty-or-not-required-struct-fields/"
+  }
+}

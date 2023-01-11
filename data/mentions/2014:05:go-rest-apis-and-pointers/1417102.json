@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Elizabeth",
+    "photo": "https://webmention.io/avatar/pbs.twimg.com/be4fd6b7b9addfb8e3192450f25df23237b8eb1dfb115e481dfff87e6be0695e.jpg",
+    "url": "https://twitter.com/dev_elizabeth"
+  },
+  "url": "https://twitter.com/dev_elizabeth/status/1536807377357389824",
+  "published": "2022-06-14T20:26:45+00:00",
+  "wm-received": "2022-06-15T06:57:28Z",
+  "wm-id": 1417102,
+  "wm-source": "https://brid.gy/post/twitter/willnorris/1536807377357389824",
+  "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "content": {
+    "html": "útil si programáis en Golang\n\n<a href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers/\">willnorris.com/2014/05/go-res…</a>",
+    "text": "útil si programáis en Golang\n\nwillnorris.com/2014/05/go-res…"
+  },
+  "mention-of": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "wm-property": "mention-of",
+  "wm-private": false
+}

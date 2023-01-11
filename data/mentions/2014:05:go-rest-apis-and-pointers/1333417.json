@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://microeducate.tech/golang-rest-patch-and-building-an-update-query/",
+  "published": null,
+  "wm-received": "2022-01-17T12:35:31Z",
+  "wm-id": 1333417,
+  "wm-source": "https://microeducate.tech/golang-rest-patch-and-building-an-update-query/",
+  "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers",
+  "mention-of": "https://willnorris.com/2014/05/go-rest-apis-and-pointers",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://microeducate.tech/golang-rest-patch-and-building-an-update-query/"
+  }
+}

@@ -18,7 +18,7 @@ params:
   pageEditURL: https://github.com/willnorris/willnorris.com/edit/main/content
 
 permalinks:
-  posts: "/:year/:month/:filename/"
+  posts: "/:year/:filename/"
 
 enableGitInfo: true
 frontmatter:

@@ -17,11 +17,16 @@ const apiOptions = [
   'per-page=10000'
 ]
 
+// IDs of mentions to skip.
+const skipMentionIDs = fs.readFileSync(path.join(process.cwd(), 'tools', 'skip-mentions.txt'), 'utf-8').split(/\r?\n/).filter(n => n).map(n => parseInt(n))
+
 fetch(`${apiEndpoint}?${apiOptions.join('&')}`)
   .then(r => r.json())
   .then(checkDataValidity)
   .then(m => m.children)
+  .then(m => m.filter(skipMentions))
   .then(m => m.map(rewriteHTTPS))
+  .then(m => m.map(rewriteHostname))
   .then(m => m.filter(targetIsNotHomepage))
   .then(m => m.forEach(writeMentionToFile))
 
@@ -31,11 +36,26 @@ function checkDataValidity(data) {
   throw new Error("Invalid webmention.io response.")
 }
 
+// skip mentions that are in the skipMentionIDs list.
+function skipMentions(mention) {
+  return !skipMentionIDs.includes(mention['wm-id'])
+}
+
+// rewrite http URLs to https.
 function rewriteHTTPS(mention) {
   mention['wm-target'] = mention['wm-target'].replace('http://', 'https://')
   return mention
 }
 
+// rewrite wjn.me and www.willnorris.com URLs to willnorris.com.
+function rewriteHostname(mention) {
+  mention['wm-target'] = mention['wm-target']
+    .replace('wjn.me', 'willnorris.com')
+    .replace('www.willnorris.com', 'willnorris.com')
+  return mention
+}
+
+// filter out mentions that are for the homepage.
 function targetIsNotHomepage(mention) {
   const targetUri = mention['wm-target'].replace(baseurl, '')
   return targetUri !== '/' && targetUri !== ''

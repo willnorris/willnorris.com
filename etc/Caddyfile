@@ -76,6 +76,10 @@
   }
   rewrite @gopkg {re.gopkg.1}
 
+  # redirect old /YYYY/MM/name/ URLs to /YYYY/name/
+  @posts path_regexp posts ^/(\d{4})/\d{2}/(.+)
+  redir @posts /{re.posts.1}/{re.posts.2} permanent
+
   # allow navigating post archives by redirecting date-based URLs
   # like /2015/ or /2015/02/ to /archives#2015.
   @archives path_regexp archives ^/(\d{4})(/\d{2})?/?$

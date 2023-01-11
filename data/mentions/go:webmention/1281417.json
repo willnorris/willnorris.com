@@ -1,0 +1,26 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Evgeny Kuznetsov",
+    "photo": "https://webmention.io/avatar/evgenykuznetsov.org/3b455ea772635831bb966a96959ad5acc7a16b65e79464111c4ed0e6d6db66a4.jpg",
+    "url": "https://evgenykuznetsov.org"
+  },
+  "url": "https://evgenykuznetsov.org/en/reactions/2021/webmention-rocks-update-1/",
+  "published": "2021-10-04T16:28:34+03:00",
+  "wm-received": "2021-10-04T13:31:09Z",
+  "wm-id": 1281417,
+  "wm-source": "https://evgenykuznetsov.org/en/reactions/2021/webmention-rocks-update-1/",
+  "wm-target": "https://willnorris.com/go/webmention",
+  "name": "Webmention.Rocks Update Test #1",
+  "content": {
+    "html": "<p>Using <a href=\"https://github.com/nekr0z/static-webmentions\">static-webmentions</a> that has Will Norris’ <a href=\"https://willnorris.com/go/webmention\">webmention Go library</a> under the hood.</p>\n<p><a href=\"https://webmention.rocks/update/1\">https://webmention.rocks/update/1</a>\n<a href=\"https://webmention.rocks/update/1/part/2\">https://webmention.rocks/update/1/part/2</a></p>",
+    "text": "Using static-webmentions that has Will Norris’ webmention Go library under the hood.\nhttps://webmention.rocks/update/1\nhttps://webmention.rocks/update/1/part/2"
+  },
+  "mention-of": "https://willnorris.com/go/webmention",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://evgenykuznetsov.org/en/reactions/2021/webmention-rocks-update-1/"
+  }
+}

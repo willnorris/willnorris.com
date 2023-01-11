@@ -9,7 +9,7 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
-const domain = 'https://willnorris.com'
+const baseurl = 'https://willnorris.com'
 const targetFolder = path.join(process.cwd(), 'data', 'mentions')
 const apiEndpoint = 'https://webmention.io/api/mentions.jf2'
 const apiOptions = [
@@ -37,13 +37,18 @@ function rewriteHTTPS(mention) {
 }
 
 function targetIsNotHomepage(mention) {
-  const targetUri = mention['wm-target'].replace(domain, '')
+  const targetUri = mention['wm-target'].replace(baseurl, '')
   return targetUri !== '/' && targetUri !== ''
 }
 
 function writeMentionToFile(mention) {
   const id = mention['wm-id']
-  const target = mention['wm-target'].replace(domain, '').replace(/(^\/|\/$)/g, '').replace(/\//g, ':')
+  // save webmention with wm-target https://willnorris.com/2020/01/foo/ to "./data/mentions/2020:foo"
+  //  - strip baseurl
+  //  - strip leading and trailing slashes
+  //  - convert slashes to colons
+  //  - remove month component from URL if present (I changed my URL structure in 2023)
+  const target = mention['wm-target'].replace(baseurl, '').replace(/(^\/|\/$)/g, '').replace(/\//g, ':').replace(/(\d{4}):(\d{2}):(.+)/, "$1:$3")
   const outputFolder = path.join(targetFolder, target)
 
   fs.mkdirSync(outputFolder, { recursive: true })

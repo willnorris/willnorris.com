@@ -89,6 +89,18 @@
   @imageproxy path_regexp imageproxy /api/imageproxy/(.+)
   redir @imageproxy https://imageproxy.willnorris.com/{re.imageproxy.1} permanent
 
+  # proxy webmentions to webmentions.io
+  @webmention {
+    method POST
+    path /api/webmention/
+  }
+  handle @webmention {
+    uri replace /api/webmention/ /willnorris.com/webmention
+    reverse_proxy https://webmention.io {
+      header_up Host {upstream_hostport}
+    }
+  }
+
   # proxy nerdfonts so that we can add CORP headers which Chrome OS now seems to require
   handle /x/nfwf/* {
     uri replace /x/nfwf/ /nerdfont-webfonts/build/

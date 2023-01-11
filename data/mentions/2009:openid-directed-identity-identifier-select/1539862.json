@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "http://haodro.com/archives/137613",
+  "published": null,
+  "wm-received": "2022-10-16T14:30:56Z",
+  "wm-id": 1539862,
+  "wm-source": "http://haodro.com/archives/137613",
+  "wm-target": "https://willnorris.com/2009/07/openid-directed-identity-identifier-select",
+  "mention-of": "https://willnorris.com/2009/07/openid-directed-identity-identifier-select",
+  "wm-property": "mention-of",
+  "wm-private": false
+}

@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://wpplugins.link/hum/",
+  "published": null,
+  "wm-received": "2022-07-27T16:10:52Z",
+  "wm-id": 1443750,
+  "wm-source": "https://wpplugins.link/hum/",
+  "wm-target": "https://wjn.me/i/a/B003QP4NPE",
+  "mention-of": "http://wjn.me/i/a/B003QP4NPE",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://wpplugins.link/hum/"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "jk3us",
+    "photo": "https://webmention.io/avatar/styles.redditmedia.com/97d43dd356920529c6ff2aa0f2d62e4921a98e86cd9edb828f428230bf0efaf0.png",
+    "url": "https://reddit.com/user/jk3us/"
+  },
+  "url": "https://reddit.com/r/programming/comments/83tpk/authentication_in_wordpress_28/",
+  "published": "2009-03-11T15:09:11",
+  "wm-received": "2022-04-22T00:37:37Z",
+  "wm-id": 1384540,
+  "wm-source": "https://brid.gy/post/reddit/willnorris/83tpk",
+  "wm-target": "https://willnorris.com/2009/03/authentication-in-wordpress-28/",
+  "name": "Authentication in WordPress 2.8",
+  "content": {
+    "html": "Bookmark: <a class=\"u-bookmark-of\" href=\"http://willnorris.com/2009/03/authentication-in-wordpress-28\">willnorris.com/2009/03/authen...</a>\n<a class=\"u-mention\" href=\"http://willnorris.com/2009/03/authentication-in-wordpress-28\"></a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2009/03/authentication-in-wordpress-28/\"></a>",
+    "text": "Bookmark: willnorris.com/2009/03/authen..."
+  },
+  "bookmark-of": "https://willnorris.com/2009/03/authentication-in-wordpress-28/",
+  "wm-property": "bookmark-of",
+  "wm-private": false
+}

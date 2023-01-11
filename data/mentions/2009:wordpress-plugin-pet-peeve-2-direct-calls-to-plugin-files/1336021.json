@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://photolens.tech/how-to-create-several-url-aliases-for-a-page/",
+  "published": null,
+  "wm-received": "2022-01-22T00:24:38Z",
+  "wm-id": 1336021,
+  "wm-source": "https://photolens.tech/how-to-create-several-url-aliases-for-a-page/",
+  "wm-target": "https://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files",
+  "mention-of": "http://willnorris.com/2009/06/wordpress-plugin-pet-peeve-2-direct-calls-to-plugin-files",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://photolens.tech/how-to-create-several-url-aliases-for-a-page/"
+  }
+}

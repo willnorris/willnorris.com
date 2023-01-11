@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://photolens.tech/shared-user-tables-on-2-wordpress-sites-main-site-and-discuss-using-p2/",
+  "published": null,
+  "wm-received": "2021-10-29T05:48:51Z",
+  "wm-id": 1297292,
+  "wm-source": "https://photolens.tech/shared-user-tables-on-2-wordpress-sites-main-site-and-discuss-using-p2/",
+  "wm-target": "https://willnorris.com/2008/09/wordpress-mu-in-a-development-environment",
+  "mention-of": "http://willnorris.com/2008/09/wordpress-mu-in-a-development-environment",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://photolens.tech/shared-user-tables-on-2-wordpress-sites-main-site-and-discuss-using-p2/"
+  }
+}

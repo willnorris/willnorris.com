@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://microeducate.tech/openid-is-really-a-nightmare-is-there-an-open-source-lib-that-could-abstract-everything-into-an-internal-id/",
+  "published": null,
+  "wm-received": "2022-03-02T23:16:42Z",
+  "wm-id": 1357890,
+  "wm-source": "https://microeducate.tech/openid-is-really-a-nightmare-is-there-an-open-source-lib-that-could-abstract-everything-into-an-internal-id/",
+  "wm-target": "https://willnorris.com/openid-support",
+  "mention-of": "http://willnorris.com/openid-support",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://microeducate.tech/openid-is-really-a-nightmare-is-there-an-open-source-lib-that-could-abstract-everything-into-an-internal-id/"
+  }
+}

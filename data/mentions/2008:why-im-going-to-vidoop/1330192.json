@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://gaga.cool/2022/01/12/wordpress-2-8%e4%b8%ad%e7%9a%84%e8%ae%a4%e8%af%81%e7%b3%bb%e7%bb%9f/",
+  "published": null,
+  "wm-received": "2022-01-12T09:39:13Z",
+  "wm-id": 1330192,
+  "wm-source": "https://gaga.cool/2022/01/12/wordpress-2-8%e4%b8%ad%e7%9a%84%e8%ae%a4%e8%af%81%e7%b3%bb%e7%bb%9f/",
+  "wm-target": "https://willnorris.com/2008/05/why-im-going-to-vidoop",
+  "mention-of": "http://willnorris.com/2008/05/why-im-going-to-vidoop",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://gaga.cool/2022/01/12/wordpress-2-8%e4%b8%ad%e7%9a%84%e8%ae%a4%e8%af%81%e7%b3%bb%e7%bb%9f/"
+  }
+}

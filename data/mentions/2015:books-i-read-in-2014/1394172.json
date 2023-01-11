@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://rompress.info/how-to-train-your-dog-to-fetch-and-speak/",
+  "published": null,
+  "wm-received": "2022-05-08T12:29:34Z",
+  "wm-id": 1394172,
+  "wm-source": "https://rompress.info/how-to-train-your-dog-to-fetch-and-speak/",
+  "wm-target": "https://willnorris.com/2015/02/books-i-read-in-2014/",
+  "mention-of": "https://willnorris.com/2015/02/books-i-read-in-2014/",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://rompress.info/how-to-train-your-dog-to-fetch-and-speak/"
+  }
+}

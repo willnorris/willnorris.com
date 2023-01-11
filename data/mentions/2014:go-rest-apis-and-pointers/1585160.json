@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://thecitrusreport.com/questions/patterns-for-handling-batch-operations-in-rest-web-services/",
+  "published": null,
+  "wm-received": "2022-12-22T03:29:53Z",
+  "wm-id": 1585160,
+  "wm-source": "https://thecitrusreport.com/questions/patterns-for-handling-batch-operations-in-rest-web-services/",
+  "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers",
+  "mention-of": "https://willnorris.com/2014/05/go-rest-apis-and-pointers",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://thecitrusreport.com/questions/patterns-for-handling-batch-operations-in-rest-web-services/"
+  }
+}

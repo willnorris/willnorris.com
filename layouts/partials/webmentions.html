@@ -4,12 +4,15 @@
 {{- if $mentions -}}
   {{- $likes := slice -}}
   {{- $reposts := slice -}}
+  {{- $bookmarks := slice -}}
   {{- $other := slice -}}
   {{- range $index, $element := $mentions -}}
     {{- if eq (index . "wm-property") "like-of" -}}
       {{- $likes = $likes | append . -}}
     {{- else if eq (index . "wm-property") "repost-of" -}}
       {{- $reposts = $reposts | append . -}}
+    {{- else if eq (index . "wm-property") "bookmark-of" -}}
+      {{- $bookmarks = $bookmarks | append . -}}
     {{- else -}}
       {{- $other = $other | append $element -}}
     {{- end -}}

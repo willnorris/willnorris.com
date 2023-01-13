@@ -1,6 +1,6 @@
 dev: .cache/tandem ## Run a local dev server
 	@.cache/tandem \
-		'hugo -w' \
+		'hugo --watch --buildDrafts --poll 1s' \
 		'caddy run --config etc/Caddyfile'
 .PHONY: dev
 

@@ -1,0 +1,23 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "dgryski",
+    "photo": "https://webmention.io/avatar/www.redditstatic.com/b4be5d320718a5e62a32e756a628dbbae500c42f94fb47937b50c0adca151ed6.png",
+    "url": "https://reddit.com/user/dgryski/"
+  },
+  "url": "https://reddit.com/r/golang/comments/1ky43p/testing_in_gogithub/",
+  "published": "2013-08-23T15:35:11",
+  "wm-received": "2023-01-12T11:05:32Z",
+  "wm-id": 1597861,
+  "wm-source": "https://brid.gy/post/reddit/willnorris/1ky43p",
+  "wm-target": "https://willnorris.com/2013/testing-in-go-github/",
+  "name": "Testing in go-github",
+  "content": {
+    "html": "Bookmark: <a title=\"willnorris.com/2013/08/testing-in-go-github\" class=\"u-bookmark-of\" href=\"https://willnorris.com/2013/08/testing-in-go-github\">willnorris.com/2013/08/testin...</a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2013/08/testing-in-go-github\"></a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2013/testing-in-go-github/\"></a>",
+    "text": "Bookmark: willnorris.com/2013/08/testin..."
+  },
+  "bookmark-of": "https://willnorris.com/2013/testing-in-go-github/",
+  "wm-property": "bookmark-of",
+  "wm-private": false
+}

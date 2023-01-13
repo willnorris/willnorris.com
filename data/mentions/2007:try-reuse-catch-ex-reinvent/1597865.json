@@ -1,0 +1,23 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "maetl",
+    "photo": "https://webmention.io/avatar/www.redditstatic.com/478bd5acc62985807dde82938219b3925bd1419387336f65010e7b969390991c.png",
+    "url": "https://reddit.com/user/maetl/"
+  },
+  "url": "https://reddit.com/r/programming/comments/5zxfc/try_reuse_catch_ex_reinvent/",
+  "published": "2007-11-06T07:37:35",
+  "wm-received": "2023-01-12T11:08:35Z",
+  "wm-id": 1597865,
+  "wm-source": "https://brid.gy/post/reddit/willnorris/5zxfc",
+  "wm-target": "https://willnorris.com/2007/try-reuse-catch-ex-reinvent/",
+  "name": "try { reuse; } catch (Ex) { reinvent; }",
+  "content": {
+    "html": "Bookmark: <a title=\"willnorris.com/2007/11/try-reuse-catch-ex-reinvent\" class=\"u-bookmark-of\" href=\"http://willnorris.com/2007/11/try-reuse-catch-ex-reinvent\">willnorris.com/2007/11/try-re...</a>\n<a class=\"u-mention\" href=\"http://willnorris.com/2007/11/try-reuse-catch-ex-reinvent\"></a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2007/try-reuse-catch-ex-reinvent/\"></a>",
+    "text": "Bookmark: willnorris.com/2007/11/try-re..."
+  },
+  "bookmark-of": "https://willnorris.com/2007/try-reuse-catch-ex-reinvent/",
+  "wm-property": "bookmark-of",
+  "wm-private": false
+}

@@ -5,7 +5,6 @@ import (
 	_ "embed"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"net/url"
@@ -137,5 +136,5 @@ func writeMention(mention json.RawMessage, file string) error {
 		return err
 	}
 
-	return ioutil.WriteFile(file, buf.Bytes(), 0644)
+	return os.WriteFile(file, buf.Bytes(), 0644)
 }

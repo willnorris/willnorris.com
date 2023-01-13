@@ -5,18 +5,18 @@
   {{- $likes := slice -}}
   {{- $reposts := slice -}}
   {{- $other := slice -}}
-  {{- range sort $mentions "published" -}}
+  {{- range $index, $element := $mentions -}}
     {{- if eq (index . "wm-property") "like-of" -}}
       {{- $likes = $likes | append . -}}
     {{- else if eq (index . "wm-property") "repost-of" -}}
       {{- $reposts = $reposts | append . -}}
     {{- else -}}
-      {{- $other = $other | append . -}}
+      {{- $other = $other | append $element -}}
     {{- end -}}
   {{- end -}}
 
   <h2>Comments and responses</h2>
-  {{- range $other }}
+  {{- range sort $other "published" }}
   <article id="comment-{{ index . "wm-id" }}" class="p-comment h-entry">
     <div class="comment-meta">
       {{ if .url }}<a href="{{ .url }}"{{ else }}<span{{ end }} class="p-author h-card">

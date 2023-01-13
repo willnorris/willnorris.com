@@ -11,7 +11,7 @@
   "wm-received": "2021-06-06T16:18:22Z",
   "wm-id": 1181620,
   "wm-source": "https://notiz.blog/2008/07/27/email-address-to-url-transformation/",
-  "wm-target": "https://willnorris.com/2008/07/wp-openid-220-released",
+  "wm-target": "http://willnorris.com/2008/07/wp-openid-220-released",
   "summary": {
     "content-type": "text/plain",
     "value": "Email to ID hat seine Spezifikation. Email Address to URL Translation (kurz EAUT) ist ein offenes Protokoll um E-Mail &#8211; Adressen zu URLs zu transformieren um sie für Services wie z.B. OpenID verwenden zu können. Email Address to URL Transformation (EAUT) defines a mechanism for transforming the &#8222;addr-spec&#8220; portion of an RFC2822 email address into [&hellip;]"

@@ -1,0 +1,23 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "dgryski",
+    "photo": "https://webmention.io/avatar/www.redditstatic.com/b4be5d320718a5e62a32e756a628dbbae500c42f94fb47937b50c0adca151ed6.png",
+    "url": "https://reddit.com/user/dgryski/"
+  },
+  "url": "https://reddit.com/r/golang/comments/26od40/go_rest_apis_and_pointers/",
+  "published": "2014-05-28T06:37:23",
+  "wm-received": "2023-01-12T11:05:59Z",
+  "wm-id": 1597864,
+  "wm-source": "https://brid.gy/post/reddit/willnorris/26od40",
+  "wm-target": "https://willnorris.com/2014/go-rest-apis-and-pointers/",
+  "name": "Go, REST APIs, and Pointers",
+  "content": {
+    "html": "Bookmark: <a title=\"willnorris.com/2014/05/go-rest-apis-and-pointers\" class=\"u-bookmark-of\" href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers\">willnorris.com/2014/05/go-res...</a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers\"></a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/go-rest-apis-and-pointers/\"></a>",
+    "text": "Bookmark: willnorris.com/2014/05/go-res..."
+  },
+  "bookmark-of": "https://willnorris.com/2014/go-rest-apis-and-pointers/",
+  "wm-property": "bookmark-of",
+  "wm-private": false
+}

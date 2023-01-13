@@ -1,0 +1,23 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "dgryski",
+    "photo": "https://webmention.io/avatar/www.redditstatic.com/b4be5d320718a5e62a32e756a628dbbae500c42f94fb47937b50c0adca151ed6.png",
+    "url": "https://reddit.com/user/dgryski/"
+  },
+  "url": "https://reddit.com/r/golang/comments/2czy43/sending_webmentions_with_go/",
+  "published": "2014-08-08T17:42:16",
+  "wm-received": "2023-01-12T11:05:56Z",
+  "wm-id": 1597862,
+  "wm-source": "https://brid.gy/post/reddit/willnorris/2czy43",
+  "wm-target": "https://willnorris.com/2014/sending-webmentions-golang/",
+  "name": "Sending Webmentions with Go",
+  "content": {
+    "html": "Bookmark: <a title=\"willnorris.com/2014/08/sending-webmentions-golang\" class=\"u-bookmark-of\" href=\"https://willnorris.com/2014/08/sending-webmentions-golang\">willnorris.com/2014/08/sendin...</a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/08/sending-webmentions-golang\"></a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/sending-webmentions-golang/\"></a>",
+    "text": "Bookmark: willnorris.com/2014/08/sendin..."
+  },
+  "bookmark-of": "https://willnorris.com/2014/sending-webmentions-golang/",
+  "wm-property": "bookmark-of",
+  "wm-private": false
+}

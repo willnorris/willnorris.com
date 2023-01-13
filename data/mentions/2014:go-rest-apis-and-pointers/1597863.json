@@ -1,0 +1,23 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "qznc_bot",
+    "photo": "https://webmention.io/avatar/www.redditstatic.com/696c30741b721a010a578ec44f6505e7b8ccbf8de0c4ee07d087ecad2e6ddb90.png",
+    "url": "https://reddit.com/user/qznc_bot/"
+  },
+  "url": "https://reddit.com/r/hackernews/comments/26syeb/go_rest_apis_and_pointers/",
+  "published": "2014-05-29T17:52:52",
+  "wm-received": "2023-01-12T11:05:57Z",
+  "wm-id": 1597863,
+  "wm-source": "https://brid.gy/post/reddit/willnorris/26syeb",
+  "wm-target": "https://willnorris.com/2014/go-rest-apis-and-pointers/",
+  "name": "Go, REST APIs, and Pointers",
+  "content": {
+    "html": "Bookmark: <a title=\"willnorris.com/2014/05/go-rest-apis-and-pointers\" class=\"u-bookmark-of\" href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers\">willnorris.com/2014/05/go-res...</a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers\"></a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/go-rest-apis-and-pointers/\"></a>",
+    "text": "Bookmark: willnorris.com/2014/05/go-res..."
+  },
+  "bookmark-of": "https://willnorris.com/2014/go-rest-apis-and-pointers/",
+  "wm-property": "bookmark-of",
+  "wm-private": false
+}

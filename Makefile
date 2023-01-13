@@ -1,8 +1,15 @@
+include .env
+export
+
 dev: .cache/tandem ## Run a local dev server
 	@.cache/tandem \
 		'hugo --watch --buildDrafts --poll 1s' \
 		'caddy run --config etc/Caddyfile'
 .PHONY: dev
+
+mentions:
+	@go run ./cmd/mentions
+.PHONY: mentions
 
 .cache/tandem:
 	@mkdir -p $$(dirname $@)

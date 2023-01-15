@@ -64,7 +64,7 @@ Remember that, it will be important in a moment.
 
 ## Understanding PATCH ##
 
-As its name implies, a REST-based API involves passing around the representation of the state of a resource.  This is
+As its name implies, a <abbr title="Representational State Transfer">REST</abbr>-based API involves passing around the representation of the state of a resource.  This is
 most commonly applied to HTTP, which is very straightforward: to read the current state of a resource, perform a `GET`
 operation on the resource's URI.  To update a resource, pass the new representation of the resource to its URI in a
 `PUT` operation.  The `PUT` method is defined as a complete replacement of the resource at a given URI, meaning you must
@@ -239,5 +239,3 @@ this library; use what works for you.)
 
  - [JSON and Go](http://blog.golang.org/json-and-go), The Go Blog
  - [json package](http://golang.org/pkg/encoding/json/), The Go Programming Language
-
-*[REST]: Representational State Transfer

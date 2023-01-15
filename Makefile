@@ -1,10 +1,10 @@
 include .env
 export
 
-dev: .cache/tandem ## Run a local dev server
+dev: .cache/tandem .cache/caddy ## Run a local dev server
 	@.cache/tandem \
 		'hugo --watch --buildDrafts --poll 1s' \
-		'caddy run --config etc/Caddyfile'
+		'.cache/caddy run --config etc/Caddyfile'
 .PHONY: dev
 
 mentions:
@@ -14,6 +14,9 @@ mentions:
 .cache/tandem:
 	@mkdir -p $$(dirname $@)
 	@curl -fsSL https://raw.githubusercontent.com/rosszurowski/tandem/main/install.sh | bash -s -- --dest="$$(dirname $@)"
+
+.cache/caddy:
+	@go build -o ./.cache/caddy ./cmd/caddy
 
 help: ## Show this help
 	@echo "\nSpecify a command. The choices are:\n"

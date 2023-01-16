@@ -1,5 +1,8 @@
 app = "willnorris"
 
+[build]
+dockerfile = "Dockerfile"
+
 [deploy]
 strategy = "immediate"
 

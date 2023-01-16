@@ -2,7 +2,7 @@ ARG HUGO_ENV_ARG=production
 FROM klakegg/hugo:ext-alpine-onbuild AS hugo
 
 # Build image for building caddy from source
-FROM --platform=$BUILDPLATFORM cgr.dev/chainguard/go:1.19 as build
+FROM cgr.dev/chainguard/go:1.19 as build
 
 WORKDIR /work
 RUN git config --global --add safe.directory /work

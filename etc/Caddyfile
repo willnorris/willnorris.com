@@ -54,6 +54,14 @@
   @search path_regexp search /(category|search|tag)/(\w+)
   redir @search "https://www.google.com/search?as_sitesearch=willnorris.com&q={re.search.2}"
 
+  # redirect old WordPress /?p=123 URLs to /p/123
+  @postid {
+    path /
+    query p=*
+  }
+  redir @postid /p/{http.request.uri.query.p}
+
+
   # redirect /w/ shortlinks to /wiki/
   @wiki path_regexp wiki /w/(.*)
   redir @wiki /wiki/{re.wiki.1} permanent

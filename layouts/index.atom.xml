@@ -8,8 +8,8 @@
   <link href="https://creativecommons.org/licenses/by/4.0/" rel="license" type="text/html"/>
   <link href="https://willnorris.superfeedr.com/" rel="hub"/>
   <rights>
-    Copyright 2002-{{ now.Format "2006" }} Will Norris.  Unless noted
-    otherwise, text content in this feed is licensed under a Creative Commons
+    Copyright Will Norris.  Unless noted otherwise,
+    text content in this feed is licensed under a Creative Commons
     Attribution 4.0 International License and code under an MIT License.
   </rights>
   <updated>{{ .Site.LastChange.Format $rfc3339 }}</updated>

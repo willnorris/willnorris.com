@@ -11,6 +11,10 @@ mentions:
 	@go run ./cmd/mentions
 .PHONY: mentions
 
+deploy:
+	flyctl -c etc/fly.toml deploy --remote-only
+.PHONY: deploy
+
 .cache/tandem:
 	@mkdir -p $$(dirname $@)
 	@curl -fsSL https://raw.githubusercontent.com/rosszurowski/tandem/main/install.sh | bash -s -- --dest="$$(dirname $@)"

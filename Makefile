@@ -1,9 +1,9 @@
 include .env
 export
 
-dev: .cache/tandem .cache/caddy ## Run a local dev server
+dev: .cache/tandem .cache/caddy .cache/hugo ## Run a local dev server
 	@.cache/tandem \
-		'hugo --watch --buildDrafts --poll 1s' \
+		'.cache/hugo --watch --buildDrafts --poll 1s' \
 		'.cache/caddy run --config etc/Caddyfile'
 .PHONY: dev
 
@@ -21,6 +21,9 @@ deploy:
 
 .cache/caddy:
 	@go build -o ./.cache/caddy ./cmd/caddy
+
+.cache/hugo:
+	@CGO_ENABLED=1 go build --tags extended -o ./.cache/hugo ./cmd/hugo
 
 help: ## Show this help
 	@echo "\nSpecify a command. The choices are:\n"

@@ -34,16 +34,22 @@
   }
 
   # redirects
-  redir /@will  https://mastodon.willnorris.net/@will
+  redir /@will https://mastodon.willnorris.net/@will
   redir /contact  /about#contact
   redir /contact/ /about#contact
   redir /photo.jpg /logo.jpg permanent
+  redir /about/resume /resume/
 
   redir /feed /atom.xml permanent
   redir /feed/ /atom.xml permanent
   redir /feed.atom /atom.xml permanent
 
-  redir /licenses/mit/ "https://opensource.org/licenses/MIT"
+  redir /licenses/mit  https://opensource.org/licenses/MIT
+  redir /licenses/mit/ https://opensource.org/licenses/MIT
+
+  redir /go/microformats/live https://go.microformats.io/
+  redir /projects/wp-openid https://github.com/diso/wordpress-openid
+  redir /api/microformats/python https://python.microformats.io
 
   @search path_regexp search /(category|search|tag)/(\w+)
   redir @search "https://www.google.com/search?as_sitesearch=willnorris.com&q={re.search.2}"
@@ -86,8 +92,8 @@
   redir @archives /archives/#{re.archives.1}
 
   # image proxy (https://wjn.me/b/J_)
-  @imageproxy path_regexp imageproxy /api/imageproxy/(.+)
-  redir @imageproxy https://imageproxy.willnorris.com/{re.imageproxy.1} permanent
+  @imageproxy path_regexp imageproxy /api/imageproxy(/?.*)
+  redir @imageproxy https://imageproxy.willnorris.com{re.imageproxy.1} permanent
 
   # proxy webmentions to webmentions.io
   @webmention {

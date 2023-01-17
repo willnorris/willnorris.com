@@ -22,7 +22,7 @@ main {
 }
 
 .site-header {
-  background-color: $night-rider;
+  background-color: $color-grey-20;
   padding: 1rem 0;
   text-transform: lowercase;
 
@@ -48,12 +48,12 @@ main {
 }
 
 .site-title, .site-title a {
-  color: $white-smoke;
+  color: $color-grey-90;
   border: 0;
 }
 
 .site-description {
-  color: $gainsboro;
+  color: $color-grey-80;
   font-size: .875rem;
   font-weight: 300;
   line-height: 1;
@@ -71,17 +71,17 @@ main {
 
   a {
     border: none;
-    color: $gainsboro;
+    color: $color-grey-80;
 
     &:hover {
-      color: lighten($gainsboro, 5%)
+      color: lighten($color-grey-80, 5%)
     }
   }
 }
 
 .site-footer {
-  background-color: $white-smoke;
-  border-top: 1px solid $gainsboro;
+  background-color: $color-grey-90;
+  border-top: 1px solid $color-grey-80;
 
   .content {
     display: flex;
@@ -96,17 +96,17 @@ main {
   }
 
   a {
-    border-color: $nobel;
-    color: $dim-gray;
+    border-color: $color-grey-60;
+    color: $color-grey-30;
     &:hover {
-      color: lighten($dim-gray, 15%)
+      color: lighten($color-grey-30, 15%)
     }
   }
 }
 
 .copyright {
-  background-color: $night-rider;
-  color: $gainsboro;
+  background-color: $color-grey-20;
+  color: $color-grey-80;
   font-size: 0.875rem;
   padding: 1rem 0;
   text-align: center;
@@ -116,9 +116,9 @@ main {
   }
 
   a {
-    color: $gainsboro;
+    color: $color-grey-80;
     &:hover {
-      color: darken($gainsboro, 15%)
+      color: darken($color-grey-80, 15%)
     }
   }
 }

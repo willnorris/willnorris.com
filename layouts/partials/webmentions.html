@@ -1,4 +1,4 @@
-{{- $key := string (delimit (split (trim .RelPermalink "/") "/") ":") -}}
+{{- $key := (split (trim .RelPermalink "/") "/") -}}
 {{- $mentions := index $.Site.Data.mentions $key -}}
 {{- if $mentions -}}
   {{- $likes := slice -}}

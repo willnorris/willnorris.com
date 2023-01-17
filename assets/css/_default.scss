@@ -12,20 +12,20 @@ html {
 /* --- Typographical Elements --- */
 
 body {
-  background-color: $white;
-  color: $night-rider;
+  background-color: $color-white;
+  color: $color-grey-20;
   font-family: "Segoe UI",system-ui,-apple-system,sans-serif;
   font-size: 1.125rem; // 18px
   line-height: 1.8;
 }
 
 a {
-  border-bottom: 1px solid $gainsboro;
-  color: $flamingo;
+  border-bottom: 1px solid $color-grey-80;
+  color: $color-red;
   text-decoration: none;
 
   &:hover {
-    color: $night-rider;
+    color: $color-grey-20;
   }
 
   &:has(> img) {
@@ -44,7 +44,7 @@ ol, ul {
 }
 
 blockquote, blockquote::before {
-  color: $dim-gray;
+  color: $color-grey-30;
 }
 
 blockquote {
@@ -65,7 +65,7 @@ blockquote::before {
 /* --- Headings --- */
 
 h1, h2, h3, h4, h5, h6 {
-  color: $night-rider;
+  color: $color-grey-20;
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 1rem;
@@ -113,17 +113,17 @@ video {
 input,
 select,
 textarea {
-  background-color: $white;
-  border: 1px solid $gainsboro;
-  box-shadow: 1px 1px 3px lighten($gainsboro, 5%) inset;
-  color: $dim-gray;
+  background-color: $color-white;
+  border: 1px solid $color-grey-80;
+  box-shadow: 1px 1px 3px lighten($color-grey-80, 5%) inset;
+  color: $color-grey-30;
   font-size: 1rem;
   padding: 0.5em 1em;
 }
 
 input:focus,
 textarea:focus {
-  border: 1px solid $nobel;
+  border: 1px solid $color-grey-60;
   outline: none;
 }
 
@@ -133,15 +133,15 @@ input[type="reset"],
 input[type="submit"],
 .button,
 .e-content .button {
-  background-color: $night-rider;
+  background-color: $color-grey-20;
   border: none;
   box-shadow: none;
-  color: $white;
+  color: $color-white;
   cursor: pointer;
   width: auto;
 
   &:hover {
-    background-color: $flamingo;
+    background-color: $color-red;
   }
 }
 
@@ -159,7 +159,7 @@ table {
 }
 
 tbody {
-  border-bottom: 1px solid $gainsboro;
+  border-bottom: 1px solid $color-grey-80;
 }
 
 th, td {
@@ -172,7 +172,7 @@ th {
 }
 
 td {
-  border-top: 1px solid $gainsboro;
+  border-top: 1px solid $color-grey-80;
   padding: 0.25rem 0;
 }
 
@@ -190,10 +190,10 @@ code, kbd, pre, samp {
 }
 
 pre {
-  background: $white-smoke;
-  border: solid 1px $gainsboro;
+  background: $color-grey-90;
+  border: solid 1px $color-grey-80;
   border-radius: 3px;
-  color: #000;
+  color: $color-grey-20;
   hyphens: none;
   line-height: 1.2;
   overflow: auto;
@@ -202,7 +202,7 @@ pre {
 }
 
 :not(pre) > code {
-  background: $white-smoke;
+  background: $color-grey-90;
   padding: 0.1em 0.3em;
   border-radius: 3px;
 }

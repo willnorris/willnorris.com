@@ -1,6 +1,6 @@
 .profile-card {
-  background: $white-smoke;
-  border-bottom: 1px solid $gainsboro;
+  background: $color-grey-90;
+  border-bottom: 1px solid $color-grey-80;
   padding: 1em 0;
   overflow: auto;
 
@@ -8,7 +8,7 @@
     font-size: 1.25rem;
     margin-bottom: 0;
     a {
-      color: $dim-gray;
+      color: $color-grey-30;
       border: 0;
     }
   }
@@ -188,13 +188,13 @@ main {
   margin-left: 0;
 
   time {
-    color: $dim-gray;
+    color: $color-grey-30;
     font-size: 0.875rem;
     margin-left: 0.5em;
   }
 
   .draft:before {
-    color: $dim-gray;
+    color: $color-grey-30;
     content: "[draft]";
     font-size: 0.875rem;
     font-variant: small-caps;
@@ -214,7 +214,7 @@ main {
   display: flex;
   align-items: center;
   margin: -2rem 0 2rem 0;
-  text-shadow: 1px 1px 2px $night-rider;
+  text-shadow: 1px 1px 2px $color-grey-20;
   @media (min-width: 600px) {
     margin-top: -4rem;
   }
@@ -222,10 +222,10 @@ main {
     margin-top: 2rem;
   }
   h1 {
-    color: $white;
+    color: $color-white;
   }
   .entry-meta, .entry-meta a {
-    color: $gainsboro;
+    color: $color-grey-80;
   }
 }
 }
@@ -237,14 +237,14 @@ main {
 }
 
 .entry-meta {
-  color: $dim-gray;
+  color: $color-grey-30;
   font-size: 0.875rem;
 
   a {
-    color: $dim-gray;
+    color: $color-grey-30;
     border-width: 0;
     &:hover {
-      color: $flamingo;
+      color: $color-red;
       border-width: 1px;
     }
   }
@@ -255,7 +255,7 @@ main {
 }
 
 img.border {
-  border: 1px solid $nobel;
+  border: 1px solid $color-grey-60;
 }
 
 figcaption {
@@ -325,10 +325,10 @@ form#webmention {
     margin: 0 1em;
 
     &.success {
-      color: $eucalyptus;
+      color: $color-green;
     }
     &.error {
-      color: $flamingo;
+      color: $color-red;
     }
   }
 }

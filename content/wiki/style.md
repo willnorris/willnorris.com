@@ -65,11 +65,14 @@ import "fmt"
 
 func main() {
     var s string
-    fmt.Println("this is sample go code: ", s)
+    n := 123
+    fmt.Println("this is sample go code")
 }
 ```
 
-``` html
+Code sample with line numbers and highlighting:
+
+``` html {linenos=inline,hl_lines=[2,"7-9"],linenostart=199}
 <!doctype html>
 <!-- html code sample -->
 <html>

@@ -1,8 +1,16 @@
-$color-red: #ac291f;
-$color-green: #309f4b;
 $color-grey-20: #333;    // 20%
 $color-grey-30: #555;    // 33%
 $color-grey-60: #999;    // 60%
 $color-grey-80: #ddd;    // 87%
 $color-grey-90: #f5f5f5; // 96%
 $color-white: #fff;      // 100%
+
+// colors very loosely based on onedark palette,
+// but modified to pass WCAG AA against a $color-grey-90 background.
+$color-red: #ac291f;
+$color-green: #267e3c;
+$color-yellow: #93691d;
+$color-blue: #2a74B2;
+$color-purple: #8a3fa0;
+$color-cyan: #2b6f77;
+$color-orange: #99622e;

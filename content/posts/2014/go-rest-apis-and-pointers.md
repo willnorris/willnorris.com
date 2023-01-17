@@ -48,7 +48,7 @@ r := new(Repository)
 b, _ := json.Marshal(r)
 println(string(b))
 
-outputs >>> {"name":"","description":"","private":false}
+// outputs: {"name":"","description":"","private":false}
 ```
 
 [Try it in the Go Playground.](https://play.golang.org/p/jT8_RVjWfN)

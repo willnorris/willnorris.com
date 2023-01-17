@@ -116,7 +116,6 @@ func mentionFile(mention Mention, dataFolder string) string {
 
 	dir := reYearMonthPath.ReplaceAllString(target.Path, `$1/$2`)
 	dir = strings.Trim(dir, "/")
-	dir = strings.ReplaceAll(dir, "/", ":")
 
 	return filepath.Join(dataFolder, dir, strconv.Itoa(mention.ID)+".json")
 }

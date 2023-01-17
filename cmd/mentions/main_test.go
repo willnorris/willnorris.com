@@ -12,19 +12,19 @@ func TestMentionFile(t *testing.T) {
 	}{
 		{
 			target:  "https://willnorris.com/2000/01/name",
-			wantDir: "2000:name",
+			wantDir: "2000/name",
 		},
 		{
 			target:  "https://wjn.me/2000/01/name",
-			wantDir: "2000:name",
+			wantDir: "2000/name",
 		},
 		{
 			target:  "https://wjn.me/2000/name",
-			wantDir: "2000:name",
+			wantDir: "2000/name",
 		},
 		{
 			target:  "https://wjn.me/a/b",
-			wantDir: "a:b",
+			wantDir: "a/b",
 		},
 	}
 

@@ -1,0 +1,11 @@
+app = "willnorris-go"
+
+[build]
+image = "ghcr.io/tailscale/golink:main"
+
+[deploy]
+strategy = "immediate"
+
+[mounts]
+source = "willnorris_go_data"
+destination = "/home/nonroot"

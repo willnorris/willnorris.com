@@ -19,14 +19,11 @@ childhood, never once questioning these instructions. Why would I? Of course
 even tweeted out the instructions, lest you throw away the box and find yourself
 stranded:
 
-> Screenshot this tweet so you never have to dig the instructions out of the
-> trash again.
->
-> You’re welcome. [pic.twitter.com/cTalgAQwLQ](https://t.co/cTalgAQwLQ)
->
-> &mdash; Kraft Macaroni &amp; Cheese (@kraftmacncheese)
-> [November 19, 2019](https://twitter.com/kraftmacncheese/status/1196914329695723521?ref_src=twsrc%5Etfw)
-{.twitter-tweet}
+<figure class="aligncenter">
+  <a href="https://twitter.com/kraftmacncheese/status/1196914329695723521">
+    <img src="kraft-tweet.jpg" style="width: 500px; max-width: 100%" alt="Tweet from Kraft with instructions: boil water, drain cooked pasta, add milk butter and cheese mix">
+  </a>
+</figure>
 
 It wasn't until a few years into my marriage that I realized that I had been
 making mac and cheese **wrong** my entire life. Surely there are different ways
@@ -59,10 +56,8 @@ That said, I can't fully explain what's going on in this picture. I'm willing to
 accept that this was staged just for the picture, and that someone did not, in
 fact, have a serious lapse in macaroni-and-cheese judgement.
 
-> Monday essentials: extra butter. 🙏 Grab [#MixInMonday](https://twitter.com/hashtag/MixInMonday)
-> recipes here: [https://t.co/Zo16HZoKLG](https://t.co/Zo16HZoKLG)
-> [pic.twitter.com/uQuFhjyl0v](https://t.co/uQuFhjyl0v)
->
-> &mdash; Annie's Homegrown (@annieshomegrown)
-> [March 2, 2020](https://twitter.com/annieshomegrown/status/1234600905066139654?ref_src=twsrc%5Etfw)
-{.twitter-tweet}
+<figure class="aligncenter">
+  <a href="https://twitter.com/annieshomegrown/status/1234600905066139654">
+    <img src="annies-tweet.jpg" style="width: 500px; max-width: 100%" alt="Tweet from Annie's showing milk and butter being added into a pot of cooked pasta">
+  </a>
+</figure>

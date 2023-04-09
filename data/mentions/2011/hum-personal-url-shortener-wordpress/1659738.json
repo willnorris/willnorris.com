@@ -1,0 +1,26 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Christian Bühlmann",
+    "photo": "https://webmention.io/avatar/secure.gravatar.com/dc8ee93aaf522089e26a9e8a6dfc309ad04fbf1a01584351e0bb1f4d450b08bf.jpg",
+    "url": "https://christianbuehlmann.com/author/christian-buhlmann/"
+  },
+  "url": "https://christianbuehlmann.com/ramage-hum-a-personal-url-shortener-for-wordpress/",
+  "published": "2023-04-08T15:49:03+02:00",
+  "wm-received": "2023-04-08T13:49:10Z",
+  "wm-id": 1659738,
+  "wm-source": "https://christianbuehlmann.com/ramage-hum-a-personal-url-shortener-for-wordpress/",
+  "wm-target": "https://willnorris.com/2011/hum-personal-url-shortener-wordpress/",
+  "name": "[RAMAGE] – Hum – A Personal URL shortener for WordPress",
+  "content": {
+    "html": "<blockquote cite=\"https://willnorris.com/2011/hum-personal-url-shortener-wordpress/\"><p>January 27, 2011 by <a class=\"u-url\" href=\"https://willnorris.com/\">Will Norris<br /></a>While I haven’t had much time over the last year or so to spend actually writing code for <a href=\"http://diso-project.org/\">DiSo</a>, I’ve been really interested in the new direction <a href=\"http://tantek.com/\">Tantek</a> has been taking things with his <a href=\"http://tantek.com/2010/034/t2/diso-2-personal-domains-shortener-hatom-push-relmeauth\">DiSo 2.0</a> concepts. Many of the early efforts in DiSo were focused just on how to move social data around the web (data formats, protocols, authentication mechanisms, etc). Tantek is taking a slightly different approach to this by first emphasizing the importance of data ownership. It’s not enough to simply pull in a <strong>copy</strong> of your content from social networks into your local repository. In order to truly own your data, the <strong>original</strong> should be on your site, and then copies pushed <em>out</em> to whatever social networks, with links pointing back to the original where appropriate. It may sound like a purely academic distinction, but it’s the difference between <a href=\"http://nomoresharecropping.org/2010/12/no-more-sharecropping/\">sharecropping and homesteading</a>.</p>\n<p>So just to prove that I don’t actually spend all of my time in the belly of the <a href=\"http://www.google.com/\">beast</a>, I’m happy to announce a new project I’ve been working on – Hum. It’s a personal URL shortener for WordPress, inspired by <a href=\"http://ttk.me/w/Whistle\">Whistle</a>. It’s important to note that this is not a traditional URL shortener like <a href=\"http://bit.ly/\">bit.ly</a> or <a href=\"http://goo.gl/\">goo.gl</a> that is designed for creating links to any arbitrary site on the web. Instead, a personal URL shortener is intended to link to your own content… your blog posts, your status updates, your photos. When pushing content from your site out to social networks, you often need the ability to link back to the original. Thanks to Twitter this means short URLs, and following DiSo principles, this means controlling those URLs. A URL shortener may not be sexy, but it’s necessary infrastructure for DiSo 2.0.</p>\n@willnorris <a href=\"https://willnorris.com/2011/hum-personal-url-shortener-wordpress/\">https://willnorris.com/2011/hum-personal-url-shortener-wordpress/</a></blockquote>\n<p></p>",
+    "text": "January 27, 2011 by Will Norris\nWhile I haven’t had much time over the last year or so to spend actually writing code for DiSo, I’ve been really interested in the new direction Tantek has been taking things with his DiSo 2.0 concepts. Many of the early efforts in DiSo were focused just on how to move social data around the web (data formats, protocols, authentication mechanisms, etc). Tantek is taking a slightly different approach to this by first emphasizing the importance of data ownership. It’s not enough to simply pull in a copy of your content from social networks into your local repository. In order to truly own your data, the original should be on your site, and then copies pushed out to whatever social networks, with links pointing back to the original where appropriate. It may sound like a purely academic distinction, but it’s the difference between sharecropping and homesteading.\nSo just to prove that I don’t actually spend all of my time in the belly of the beast, I’m happy to announce a new project I’ve been working on – Hum. It’s a personal URL shortener for WordPress, inspired by Whistle. It’s important to note that this is not a traditional URL shortener like bit.ly or goo.gl that is designed for creating links to any arbitrary site on the web. Instead, a personal URL shortener is intended to link to your own content… your blog posts, your status updates, your photos. When pushing content from your site out to social networks, you often need the ability to link back to the original. Thanks to Twitter this means short URLs, and following DiSo principles, this means controlling those URLs. A URL shortener may not be sexy, but it’s necessary infrastructure for DiSo 2.0.\n@willnorris https://willnorris.com/2011/hum-personal-url-shortener-wordpress/"
+  },
+  "mention-of": "https://willnorris.com/2011/hum-personal-url-shortener-wordpress/",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://christianbuehlmann.com/ramage-hum-a-personal-url-shortener-for-wordpress/"
+  }
+}

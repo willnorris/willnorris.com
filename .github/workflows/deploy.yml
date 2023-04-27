@@ -3,7 +3,17 @@ on:
   push:
     branches:
       - "main"
+    paths-ignore:
+     # Ignore paths which rebuild the docker image.
+     # Deploy will be trigger after new image is published.
+     - "cmd/caddy/**"
+     - "cmd/hugo/**"
+     - "go.mod"
+     - "go.sum"
   workflow_dispatch:
+  repository_dispatch:
+    types: [deploy]
+
 
 concurrency:
   group: ${{ github.workflow }}

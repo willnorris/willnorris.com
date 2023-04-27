@@ -52,6 +52,10 @@ jobs:
         tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
         platforms: linux/amd64
 
+  trigger-deploy:
+    needs: build-and-push-image
+    runs-on: ubuntu-latest
+    steps:
     - name: Dispatch deploy event
       uses: peter-evans/repository-dispatch@26b39ed245ab8f31526069329e112ab2fb224588 # v2.1.1
       with:

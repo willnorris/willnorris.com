@@ -1,0 +1,22 @@
+FROM --platform=$BUILDPLATFORM cgr.dev/chainguard/go:1.20 as build
+
+WORKDIR /work
+
+COPY go.mod go.sum ./
+RUN go mod download
+
+COPY . .
+ARG TARGETOS TARGETARCH
+RUN echo targetos=${TARGETOS}
+RUN echo targetarch=${TARGETARCH}
+RUN GOOS=${TARGETOS} GOARCH=${TARGETARCH} CGO_ENABLED=0 go build -v ./cmd/caddy
+RUN GOOS=${TARGETOS} GOARCH=${TARGETARCH} CGO_ENABLED=1 go build -v --tags extended ./cmd/hugo
+
+# Final image with just caddy and hugo binaries
+FROM alpine:latest
+
+COPY --from=build /work/caddy /caddy
+COPY --from=build /work/hugo /hugo
+
+ENTRYPOINT ["/hugo"]
+CMD []

@@ -63,8 +63,8 @@
 
 
   # redirect /w/ shortlinks to /wiki/
-  @wiki path_regexp wiki /w/(.*)
-  redir @wiki /wiki/{re.wiki.1} permanent
+  @wiki path_regexp wiki /w(/.*|$)
+  redir @wiki /wiki{re.wiki.1} permanent
   header /wiki/* X-Robots-Tag "noindex"
 
   # support webfinger lookup (https://wjn.me/b/4XG1)

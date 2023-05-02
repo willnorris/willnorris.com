@@ -3,13 +3,17 @@ on:
   push:
     branches:
       - "main"
-    paths-ignore:
-     # Ignore paths which rebuild the docker image.
-     # Deploy will be trigger after new image is published.
-     - "cmd/caddy/**"
-     - "cmd/hugo/**"
-     - "go.mod"
-     - "go.sum"
+    paths:
+     - assets/**
+     - config/_default/**
+     - config/production/**
+     - content/**
+     - data/**
+     - etc/Caddyfile
+     - etc/Dockerfile
+     - etc/fly.toml
+     - layouts/**
+     - static/**
   workflow_dispatch:
   repository_dispatch:
     types: [deploy]

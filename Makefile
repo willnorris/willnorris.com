@@ -7,13 +7,17 @@ dev: .cache/tandem .cache/caddy .cache/hugo ## Run a local dev server
 		'.cache/caddy run --config etc/Caddyfile'
 .PHONY: dev
 
-mentions:
+mentions: ## Fetch and update webmentions
 	@go run ./cmd/mentions
 .PHONY: mentions
 
-deploy:
+deploy: ## Deploy site to Fly.io
 	flyctl -c etc/fly.toml deploy --remote-only
 .PHONY: deploy
+
+deploy-golink: ## Deploy golink to Fly.io
+	flyctl -c etc/golink.fly.toml deploy --remote-only
+.PHONY: deploy-golink
 
 .cache/tandem:
 	@mkdir -p $$(dirname $@)

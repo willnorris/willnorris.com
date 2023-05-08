@@ -102,6 +102,11 @@ Our device setup looked a little something like this:
 
 ## Tailscale makes the connection
 
+<figure class="alignright" style="max-width: 300px">
+  <a href="will-gabriel.jpg">{{<img src="will-gabriel.jpg" width="300" alt="Me and my seven year old son Gabriel in our scout uniforms.">}}</a>
+  <figcaption>My son Gabriel and me at last year's pinewood derby. I forgot to take a picture together this year.</figcaption>
+</figure>
+
 So we have a dozen or so different devices on disparate networks that we need to all connect to each other.
 Fortunately, this is exactly what [Tailscale] is designed for:
 providing secure access between remote devices and resources.

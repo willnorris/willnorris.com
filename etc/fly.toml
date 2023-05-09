@@ -3,6 +3,14 @@ app = "willnorris"
 [build]
 dockerfile = "Dockerfile"
 
+[env]
+IMAGEPROXY_BASEURL = "https://willnorris.com/"
+IMAGEPROXY_ALLOWHOSTS = "*.willnorris.com,notsoserendipitous.com,gabenorris.com,judahnorris.com"
+
+[mounts]
+source="willnorris_imageproxy_cache"
+destination="/var/cache/imageproxy"
+
 [deploy]
 strategy = "immediate"
 

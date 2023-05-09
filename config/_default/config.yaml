@@ -16,6 +16,9 @@ params:
   gitInfo: false
   pageHistoryURL: https://github.com/willnorris/willnorris.com/commits/main/content
   pageEditURL: https://github.com/willnorris/willnorris.com/edit/main/content
+  imageproxy:
+    url: /api/imageproxy/
+    default_baseurl: https://willnorris.com/
 
 permalinks:
   posts: "/:year/:filename/"

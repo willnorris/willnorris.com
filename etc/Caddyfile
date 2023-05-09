@@ -1,4 +1,5 @@
 {
+  order imageproxy after reverse_proxy
   auto_https off
 }
 
@@ -100,8 +101,17 @@
   redir @archives /archives/#{re.archives.1}
 
   # image proxy (https://wjn.me/b/J_)
-  @imageproxy path_regexp imageproxy /api/imageproxy(/?.*)
-  redir @imageproxy https://imageproxy.willnorris.com{re.imageproxy.1} permanent
+  @imageproxy path /api/imageproxy/*
+  handle @imageproxy {
+    uri replace /api/imageproxy/ /
+    imageproxy {
+      cache /var/cache/imageproxy
+      default_base_url {$IMAGEPROXY_BASEURL}
+      allow_hosts {$IMAGEPROXY_ALLOWHOSTS}
+      signature_key {$IMAGEPROXY_SIGNATUREKEY}
+      verbose true
+    }
+  }
 
   # proxy webmentions to webmentions.io
   @webmention {

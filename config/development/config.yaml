@@ -1,0 +1,5 @@
+baseURL: http://localhost:8080/
+params:
+  short_baseurl: http://localhost:8080/
+  imageproxy:
+    default_baseurl: http://localhost:8080/

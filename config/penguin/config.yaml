@@ -1,6 +1,0 @@
-baseURL: "http://penguin.linux.test/"
-
-params:
-  imageproxy:
-    url: "http://penguin.linux.test/api/imageproxy/"
-    default_baseurl: "http://penguin.linux.test/"

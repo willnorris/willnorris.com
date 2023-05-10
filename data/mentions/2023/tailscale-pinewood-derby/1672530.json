@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Adam Anklewicz",
+    "photo": "https://webmention.io/avatar/cdn.masto.host/05d5509d90ad3369db7c37ecfedc86180aef347938b9f913ad83ee1c9d34adbd.png",
+    "url": "https://mastodon.social/@a_frayn"
+  },
+  "url": "https://mastodon.willnorris.net/@will/110334704301096079#reblogged-by-110336265325910586",
+  "published": null,
+  "wm-received": "2023-05-09T03:35:43Z",
+  "wm-id": 1672530,
+  "wm-source": "https://brid.gy/repost/mastodon/@will@mastodon.willnorris.net/110334704301096079/110336265325910586",
+  "wm-target": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "repost-of": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "wm-property": "repost-of",
+  "wm-private": false
+}

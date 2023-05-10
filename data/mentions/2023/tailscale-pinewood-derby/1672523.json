@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "rythnyx",
+    "photo": "https://webmention.io/avatar/mastodon.willnorris.net/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+    "url": "https://mstdn.social/@rythnyx"
+  },
+  "url": "https://mastodon.willnorris.net/@will/110334704301096079#favorited-by-109310957603009439",
+  "published": null,
+  "wm-received": "2023-05-09T03:35:36Z",
+  "wm-id": 1672523,
+  "wm-source": "https://brid.gy/like/mastodon/@will@mastodon.willnorris.net/110334704301096079/109310957603009439",
+  "wm-target": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "like-of": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

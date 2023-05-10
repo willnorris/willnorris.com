@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Gabe Wachob 🐵🐴👨‍💻👨‍🎤🐮",
+    "photo": "https://webmention.io/avatar/cdn.masto.host/bc101dd0c2031fd3b91698cfb9cffcf25f92f1bfa3e8266d7de74a99883770b2.jpg",
+    "url": "https://sfba.social/@gwachob"
+  },
+  "url": "https://mastodon.willnorris.net/@will/110334704301096079#favorited-by-109261304806393651",
+  "published": null,
+  "wm-received": "2023-05-09T03:35:42Z",
+  "wm-id": 1672529,
+  "wm-source": "https://brid.gy/like/mastodon/@will@mastodon.willnorris.net/110334704301096079/109261304806393651",
+  "wm-target": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "like-of": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

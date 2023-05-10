@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "kati@fosstodon.org",
+    "photo": "https://webmention.io/avatar/cdn.masto.host/e907e56a5ebd9cdb2805235a12f409c8142e9bfc52495e22bd62f17e74170661.jpg",
+    "url": "https://fosstodon.org/@kati"
+  },
+  "url": "https://mastodon.willnorris.net/@will/110334704301096079#favorited-by-109384568055551813",
+  "published": null,
+  "wm-received": "2023-05-09T03:35:30Z",
+  "wm-id": 1672516,
+  "wm-source": "https://brid.gy/like/mastodon/@will@mastodon.willnorris.net/110334704301096079/109384568055551813",
+  "wm-target": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "like-of": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

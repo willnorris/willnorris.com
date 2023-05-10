@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Gustavo Sampaio",
+    "photo": "https://webmention.io/avatar/cdn.masto.host/97ea952fb179707dcb388d75d8e77647dc50dea5d2444c5d2984828dd836d0ba.jpg",
+    "url": "https://hachyderm.io/@gustavokatel"
+  },
+  "url": "https://mastodon.willnorris.net/@will/110334704301096079#favorited-by-110338500628833190",
+  "published": null,
+  "wm-received": "2023-05-09T12:00:36Z",
+  "wm-id": 1672664,
+  "wm-source": "https://brid.gy/like/mastodon/@will@mastodon.willnorris.net/110334704301096079/110338500628833190",
+  "wm-target": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "like-of": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

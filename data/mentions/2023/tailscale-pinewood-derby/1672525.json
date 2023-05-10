@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Arne Roomann-Kurrik",
+    "photo": "https://webmention.io/avatar/cdn.masto.host/3a0c8f1e9dab5357e1ebf71adb0f5c8cef5353a22dfdff062c64d31b9b5aadb5.jpg",
+    "url": "https://a17k.social/@arne"
+  },
+  "url": "https://mastodon.willnorris.net/@will/110334704301096079#favorited-by-109677056481281447",
+  "published": null,
+  "wm-received": "2023-05-09T03:35:38Z",
+  "wm-id": 1672525,
+  "wm-source": "https://brid.gy/like/mastodon/@will@mastodon.willnorris.net/110334704301096079/109677056481281447",
+  "wm-target": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "like-of": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

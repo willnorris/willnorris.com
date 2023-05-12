@@ -2,7 +2,7 @@
     <div class="wrap content">
       <div class="title-area">
         <h1 class="site-title"><a href="{{ .Site.BaseURL | relURL }}">{{ .Site.Title }}</a></h1>
-        <div class="site-description">{{ .Site.Params.Description }}</div>
+        <div class="site-description">{{ .Site.Params.Description | markdownify }}</div>
       </div>
       <nav class="site-nav">
         <ul>

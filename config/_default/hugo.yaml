@@ -21,6 +21,11 @@ params:
     url: /api/imageproxy/
     default_baseurl: https://willnorris.com/
 
+security:
+  funcs:
+    getenv:
+    - ^IMAGEPROXY_
+
 permalinks:
   posts: "/:year/:filename/"
 

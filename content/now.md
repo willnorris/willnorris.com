@@ -8,14 +8,16 @@ gitInfo: true
 
 ## Personal
 
-After 13 years living in and around Half Moon Bay, CA, we are in the process of moving down to the Temecula, CA area.
+After 13 years living in and around Half Moon Bay, CA, we are in the final stages of moving down to the Temecula, CA area.
 Elisabeth's family lives there, and there are just a lot of reasons right now to move.
 There are also many reasons to stay, so this has been a very difficult process for us.
+At this point, we've sold house near Half Moon Bay, bought a house in Temecula,
+and are scheduled to move at the end of June.
 
 I haven't been reading as much as I would like.
 Still mostly science fiction when I do.
-I've at least switched over to short stories for a while (currently Philip K. Dick)
-so that I don't get so lost after long breaks.
+I just finished reading a bunch of Philip K. Dick short stories, which was a lot of fun,
+and am now reading [A Memory called Empire](https://www.arkadymartine.net/books/amce).
 
 ## Professional
 

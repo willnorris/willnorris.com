@@ -15,7 +15,7 @@ params:
   breadcrumbs: false
   gitInfo: false
   pageHistoryURL: https://github.com/willnorris/willnorris.com/commits/main/content
-  pageEditURL: https://github.com/willnorris/willnorris.com/edit/main/content
+  pageSourceURL: https://github.com/willnorris/willnorris.com/blob/main/content
   short_baseurl: "https://wjn.me/"
   imageproxy:
     url: /api/imageproxy/

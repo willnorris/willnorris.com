@@ -31,7 +31,7 @@
     <p class="entry-meta">
     {{- if or (.Param "gitInfo") (.FirstSection.Param "gitInfo") }}
       Last Modified: <a href="{{ .Site.Params.pageHistoryURL }}/{{ .File }}">{{ .Lastmod.Format "January 2, 2006" }}</a>.
-        <a href="{{ .Site.Params.pageEditURL }}/{{ .File }}">Edit</a>
+        <a href="{{ .Site.Params.pageSourceURL }}/{{ .File }}">Source</a>
     {{- end }}
     {{- partial "syndication" . -}}
     </p>

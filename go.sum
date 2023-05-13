@@ -1659,5 +1659,11 @@ willnorris.com/go/gifresize v1.0.0 h1:GKS68zjNhHMqkgNTv4iFAO/j/sNcVSOHQ7SqmDAIAm
 willnorris.com/go/gifresize v1.0.0/go.mod h1:eBM8gogBGCcaH603vxSpnfjwXIpq6nmnj/jauBDKtAk=
 willnorris.com/go/imageproxy v0.11.3-0.20230509044219-7295bec9951b h1:qcb/XUcPCDotQbXNLnnJsOia/1UTNB641wleCLx+gtw=
 willnorris.com/go/imageproxy v0.11.3-0.20230509044219-7295bec9951b/go.mod h1:bvXHWeOWbe/IIHRayDtl/T2W2Ol1sAU1RhMMHOXeIsY=
+willnorris.com/go/imageproxy v0.11.3-0.20230512192740-2008a17f5e6c h1:OMCgSi4UIUxqA2ZyH2OELXWqqlHk/e6RyUvsSBIhWzs=
+willnorris.com/go/imageproxy v0.11.3-0.20230512192740-2008a17f5e6c/go.mod h1:bvXHWeOWbe/IIHRayDtl/T2W2Ol1sAU1RhMMHOXeIsY=
 willnorris.com/go/imageproxy/caddy v0.0.0-20230509092753-eb9dd5384809 h1:9TBMwtiefKvj9FobnV6clq8K5rIpapvaasIc5t4CqJA=
 willnorris.com/go/imageproxy/caddy v0.0.0-20230509092753-eb9dd5384809/go.mod h1:fQgQVbI7rhDN0SxpHnvRirIbJmyvNdrEjs5kD1YflpA=
+willnorris.com/go/imageproxy/caddy v0.0.0-20230513011114-67f506bc9bd1 h1:kcir+bssg7KySxaqPP+BZD5K1UwmmOlkNkxq8SvweUs=
+willnorris.com/go/imageproxy/caddy v0.0.0-20230513011114-67f506bc9bd1/go.mod h1:UXlLgsIFpqccDRQOYxhvMO8nQhMPUrYYwkBQ8cXkP/Q=
+willnorris.com/go/imageproxy/caddy v0.0.0-20230513012155-1ba0bd0a6d85 h1:fKPgm7WTydKGjT+/NT4AF5S14upXW7rZIFYqhVoYNC0=
+willnorris.com/go/imageproxy/caddy v0.0.0-20230513012155-1ba0bd0a6d85/go.mod h1:UXlLgsIFpqccDRQOYxhvMO8nQhMPUrYYwkBQ8cXkP/Q=

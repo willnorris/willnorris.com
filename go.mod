@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/caddyserver/caddy/v2 v2.6.4
 	github.com/gohugoio/hugo v0.111.3
-	willnorris.com/go/imageproxy/caddy v0.0.0-20230509092753-eb9dd5384809
+	willnorris.com/go/imageproxy/caddy v0.0.0-20230513012155-1ba0bd0a6d85
 )
 
 require (
@@ -236,5 +236,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	howett.net/plist v1.0.0 // indirect
 	willnorris.com/go/gifresize v1.0.0 // indirect
-	willnorris.com/go/imageproxy v0.11.3-0.20230509044219-7295bec9951b // indirect
+	willnorris.com/go/imageproxy v0.11.3-0.20230512192740-2008a17f5e6c // indirect
 )

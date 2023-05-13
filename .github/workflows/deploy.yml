@@ -32,6 +32,6 @@ jobs:
       with:
         fetch-depth: 0
     - uses: superfly/flyctl-actions/setup-flyctl@master
-    - run: flyctl -c etc/fly.toml deploy
+    - run: flyctl -c etc/fly.toml deploy --build-secret IMAGEPROXY_SIGNATUREKEY=${{ secrets.IMAGEPROXY_SIGNATUREKEY }} --remote-only
       env:
         FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}

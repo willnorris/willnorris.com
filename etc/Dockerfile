@@ -8,7 +8,9 @@ RUN git config --global --add safe.directory /work
 
 COPY . .
 COPY --from=binaries /hugo /hugo
-RUN /hugo
+RUN --mount=type=secret,id=IMAGEPROXY_SIGNATUREKEY \
+    IMAGEPROXY_SIGNATUREKEY="$(cat /run/secrets/IMAGEPROXY_SIGNATUREKEY)" \
+    /hugo
 
 # Final image with just caddy binary and hugo output
 FROM cgr.dev/chainguard/static:latest

@@ -24,7 +24,8 @@
     <article id="comment-{{ int (index . "wm-id") }}" class="p-comment h-entry">
       <div class="comment-meta">
         {{ if .url }}<a href="{{ .url }}"{{ else }}<span{{ end }} class="p-author h-card">
-          <img src="{{ default "#" .author.photo }}" alt="" class="u-photo" loading="lazy" decoding="async">
+          {{- $img := partial "imageproxy-url" (slice (default "#" .author.photo) "" true false) -}}
+          <img src="{{ $img }}" alt="" class="u-photo" loading="lazy" decoding="async">
           {{ .author.name }}
         {{ if .url }}</a>{{ else }}</span>{{ end }}
         {{ $date := default (index . "wm-received") .published }}

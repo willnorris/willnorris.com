@@ -1,7 +1,7 @@
 ---
 title: Tailscale at the Pinewood Derby
 date: 2023-05-05T23:03:20-07:00
-alias: /b/5Qi1
+aliases: /b/5Qi1
 syndication:
   - https://mastodon.willnorris.net/@will/110334704301096079
 image:

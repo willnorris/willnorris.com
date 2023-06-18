@@ -1,28 +1,35 @@
 app = "willnorris"
+primary_region = "sjc"
+kill_signal = "SIGINT"
+kill_timeout = "5s"
 
 [build]
-dockerfile = "Dockerfile"
-
-[env]
-IMAGEPROXY_BASEURL = "https://willnorris.com/"
-IMAGEPROXY_ALLOWHOSTS = "*.willnorris.com,notsoserendipitous.com,gabenorris.com,judahnorris.com"
-
-[mounts]
-source="willnorris_imageproxy_cache"
-destination="/var/cache/imageproxy"
+  dockerfile = "Dockerfile"
 
 [deploy]
-strategy = "immediate"
+  strategy = "immediate"
+
+[env]
+  IMAGEPROXY_ALLOWHOSTS = "*.willnorris.com,notsoserendipitous.com,gabenorris.com,judahnorris.com"
+  IMAGEPROXY_BASEURL = "https://willnorris.com/"
+
+[[mounts]]
+  source = "willnorris_imageproxy_cache"
+  destination = "/var/cache/imageproxy"
 
 [[services]]
-  internal_port = 8080
   protocol = "tcp"
+  internal_port = 8080
 
   [[services.ports]]
+    port = 80
     handlers = ["http"]
-    port = "80"
     force_https = true
 
   [[services.ports]]
+    port = 443
     handlers = ["tls", "http"]
-    port = "443"
+  [services.concurrency]
+    type = "connections"
+    hard_limit = 25
+    soft_limit = 20

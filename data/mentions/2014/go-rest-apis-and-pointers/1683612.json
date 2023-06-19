@@ -1,0 +1,21 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "http://pixorix.com/web-services-patterns-for-handling-batch-operations-in-rest-web-services/",
+  "published": null,
+  "wm-received": "2023-06-07T22:40:57Z",
+  "wm-id": 1683612,
+  "wm-source": "http://pixorix.com/web-services-patterns-for-handling-batch-operations-in-rest-web-services/",
+  "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers",
+  "mention-of": "https://willnorris.com/2014/05/go-rest-apis-and-pointers",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://pixorix.com/web-services-patterns-for-handling-batch-operations-in-rest-web-services/"
+  }
+}

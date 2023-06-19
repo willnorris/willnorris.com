@@ -1,0 +1,3 @@
+# sites that just republish Stack Overflow questions
+rowcoding.com
+pixorix.com

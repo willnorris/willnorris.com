@@ -19,7 +19,10 @@ var (
 	dataFolder = "data/mentions"
 
 	//go:embed skip-mentions.txt
-	skipMentions string
+	skipMentionsText string
+
+	//go:embed skip-domains.txt
+	skipDomainsText string
 )
 
 func main() {
@@ -28,11 +31,22 @@ func main() {
 		log.Fatal(err)
 	}
 
-	skip := make(map[int]bool)
-	for _, line := range strings.Split(skipMentions, "\n") {
-		if id, err := strconv.Atoi(line); err == nil {
-			skip[id] = true
+	skipMentions := make(map[int]bool)
+	for _, line := range strings.Split(skipMentionsText, "\n") {
+		if strings.HasPrefix(strings.TrimSpace(line), "#") {
+			continue
 		}
+		if id, err := strconv.Atoi(line); err == nil {
+			skipMentions[id] = true
+		}
+	}
+
+	skipDomains := make(map[string]bool)
+	for _, line := range strings.Split(skipDomainsText, "\n") {
+		if strings.HasPrefix(strings.TrimSpace(line), "#") {
+			continue
+		}
+		skipDomains[line] = true
 	}
 
 	for _, rawMention := range mentions {
@@ -42,7 +56,17 @@ func main() {
 			continue
 		}
 
-		if skip[m.ID] {
+		if skipMentions[m.ID] {
+			continue
+		}
+
+		source, err := url.Parse(m.Source)
+		if err != nil {
+			log.Printf("error parsing source URL %q: %v\n", m.Source, err)
+			continue
+		}
+
+		if skipDomains[source.Host] {
 			continue
 		}
 
@@ -75,6 +99,7 @@ func main() {
 type Mention struct {
 	ID     int    `json:"wm-id"`
 	Target string `json:"wm-target"`
+	Source string `json:"wm-source"`
 }
 
 func fetchMentions() ([]json.RawMessage, error) {

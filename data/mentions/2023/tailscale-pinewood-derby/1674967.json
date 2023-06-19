@@ -1,0 +1,18 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "M. Forester",
+    "photo": "https://webmention.io/avatar/mastodon.willnorris.net/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+    "url": "https://rollenspiel.social/@mforester"
+  },
+  "url": "https://mastodon.willnorris.net/@will/110334704301096079#favorited-by-109451213777850565",
+  "published": null,
+  "wm-received": "2023-05-14T15:19:58Z",
+  "wm-id": 1674967,
+  "wm-source": "https://brid.gy/like/mastodon/@will@mastodon.willnorris.net/110334704301096079/109451213777850565",
+  "wm-target": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "like-of": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

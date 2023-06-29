@@ -17,8 +17,8 @@ We just moved at the end of June and are now in the process of getting everythin
 
 I haven't been reading as much as I would like.
 Still mostly science fiction when I do.
-I just finished reading a bunch of Philip K. Dick short stories, which was a lot of fun,
-and am now reading [A Memory called Empire](https://www.arkadymartine.net/books/amce).
+I recently finished _A Memory Called Empire_, and am now on the second book of the series,
+[A Desolation Called Peace](https://www.arkadymartine.net/books/adcp).
 
 ## Professional
 

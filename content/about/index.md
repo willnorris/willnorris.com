@@ -2,6 +2,7 @@
 title: About
 menu: "main"
 ---
+
 <figure class="alignright">
   {{<img src="norris-family-2022.jpg" alt="Norris Family" width="300" height="300" class="u-photo photo">}}
 </figure>
@@ -21,13 +22,13 @@ working on [Shibboleth] and LDAP directories at [USC].
 
 Almost all of my personal projects these days are [indie web] related, mostly [written in go].
 I'm also a huge fan of [WordPress] and their mission to democratize publishing.
-Even though I no longer use WordPress for this site, I still manage other WordPress-powered site, 
+Even though I no longer use WordPress for this site, I still manage other WordPress-powered site,
 and continue to maintain a number of [plugins] and occasionally contribute to WordPress core and WordPress for Android.
 
 ## Contact
 
 I can be contacted by email at will @ this domain or by phone at +1 (901) 484-9455.
-I'm "willnorris" on most sites.
+I'm "willnorris" on most sites and W6WJN on amateur radio.
 I'm not interested in hearing about job opportunities.
 
 [Elisabeth]: https://notsoserendipitous.com/
@@ -47,7 +48,6 @@ I'm not interested in hearing about job opportunities.
 [written in go]: /go/
 [WordPress]: https://wordpress.org/
 [plugins]: https://profiles.wordpress.org/willnorris
-
 
 ## Colophon
 

@@ -1,6 +1,9 @@
 {
   order imageproxy after reverse_proxy
   auto_https off
+  servers {
+    metrics
+  }
 }
 
 :8080 {
@@ -104,6 +107,10 @@
   @imageproxy path /api/imageproxy/*
   handle @imageproxy {
     uri replace /api/imageproxy/ /
+
+    # disable imageproxy's built-in metrics endpoint
+    respond /metrics "metrics disabled" 404
+
     imageproxy {
       cache /var/cache/imageproxy
       default_base_url {$IMAGEPROXY_BASEURL}

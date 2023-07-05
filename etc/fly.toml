@@ -7,7 +7,7 @@ kill_timeout = "5s"
   dockerfile = "Dockerfile"
 
 [deploy]
-  strategy = "immediate"
+  strategy = "rolling"
 
 [env]
   IMAGEPROXY_ALLOWHOSTS = "*.willnorris.com,notsoserendipitous.com,gabenorris.com,judahnorris.com"

@@ -18,8 +18,8 @@ kill_timeout = "5s"
   destination = "/var/cache/imageproxy"
 
 [metrics]
-  port = 2019 # Caddy admin port
-  path = "/metrics"
+  port = 9000
+  path = "/"
 
 [http_service]
   internal_port = 8080

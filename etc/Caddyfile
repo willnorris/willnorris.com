@@ -1,9 +1,10 @@
 {
   order imageproxy after reverse_proxy
   auto_https off
-  servers {
-    metrics
-  }
+}
+
+:9000 {
+  metrics
 }
 
 :8080 {

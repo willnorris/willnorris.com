@@ -17,19 +17,32 @@ kill_timeout = "5s"
   source = "willnorris_imageproxy_cache"
   destination = "/var/cache/imageproxy"
 
-[[services]]
-  protocol = "tcp"
+[metrics]
+  port = 2019 # Caddy admin port
+  path = "/metrics"
+
+[http_service]
   internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
 
-  [[services.ports]]
-    port = 80
-    handlers = ["http"]
-    force_https = true
-
-  [[services.ports]]
-    port = 443
-    handlers = ["tls", "http"]
-  [services.concurrency]
+  [http_service.concurrency]
     type = "connections"
-    hard_limit = 25
-    soft_limit = 20
+    hard_limit = 300
+    soft_limit = 200
+
+  [[http_service.checks]]
+    grace_period = "2s"
+    interval = "2s"
+    method = "get"
+    path = "/"
+    timeout = "1s"
+
+  [[http_service.checks]]
+    grace_period = "2s"
+    interval = "2s"
+    method = "get"
+    path = "/api/imageproxy/"
+    timeout = "1s"

@@ -34,14 +34,14 @@ kill_timeout = "5s"
     soft_limit = 200
 
   [[http_service.checks]]
-    grace_period = "3s"
+    grace_period = "10s"
     interval = "60s"
     method = "get"
     path = "/"
     timeout = "1s"
 
   [[http_service.checks]]
-    grace_period = "3s"
+    grace_period = "10s"
     interval = "60s"
     method = "get"
     path = "/api/imageproxy/"

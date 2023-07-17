@@ -17,10 +17,6 @@ deploy: ## Deploy site to Fly.io
 	flyctl -c etc/fly.toml deploy --remote-only
 .PHONY: deploy
 
-deploy-go: ## Deploy golink to Fly.io
-	flyctl -c etc/golink.fly.toml deploy --remote-only
-.PHONY: deploy-go
-
 .cache/tandem:
 	@mkdir -p $$(dirname $@)
 	@curl -fsSL https://raw.githubusercontent.com/rosszurowski/tandem/main/install.sh | bash -s -- --dest="$$(dirname $@)"

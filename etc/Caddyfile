@@ -142,6 +142,14 @@
     }
   }
 
+  handle /-/* {
+    uri replace /-/ /
+    reverse_proxy http://samson.willnorris.ts.net:10000 {
+      transport tailscale
+      header_up Host {upstream_hostport}
+    }
+  }
+
   # cache static resources
   @static path_regexp \.(js|mjs|css|png|jpg|jpeg|gif|ico|woff)$
   header @static Cache-Control max-age=31536000 # 365 days

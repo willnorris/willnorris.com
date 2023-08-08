@@ -151,6 +151,6 @@
   }
 
   # cache static resources
-  @static path_regexp \.(js|mjs|css|png|jpg|jpeg|gif|ico|woff)$
+  @static path_regexp \.(js|mjs|css|png|jpg|jpeg|gif|ico|woff|woff2)$
   header @static Cache-Control max-age=31536000 # 365 days
 }

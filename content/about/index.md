@@ -54,6 +54,7 @@ I'm not interested in hearing about job opportunities.
 [This site] is powered by [Hugo] and [Caddy], and hosted on [Fly].
 All of my domains are registered with [Google Domains] (which I [highly recommend]).
 Most images are proxied through my [imageproxy] server to handle simple things like dynamic resizing.
+Text is rendered in the [Atkinson Hyperlegible] font.
 
 [This site]: https://github.com/willnorris/willnorris.com
 [Hugo]: https://gohugo.io
@@ -63,3 +64,4 @@ Most images are proxied through my [imageproxy] server to handle simple things l
 [highly recommend]: /2014/06/google-domains
 [gum]: /go/gum
 [imageproxy]: /go/imageproxy
+[Atkinson Hyperlegible]: https://brailleinstitute.org/freefont

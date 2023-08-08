@@ -52,7 +52,8 @@ I'm not interested in hearing about job opportunities.
 ## Colophon
 
 [This site] is powered by [Hugo] and [Caddy], and hosted on [Fly].
-All of my domains are registered with [Google Domains] (which I [highly recommend]).
+All of my domains are registered with [Porkbun]
+(I still roll my eyes at the name, but they're actually pretty good).
 Most images are proxied through my [imageproxy] server to handle simple things like dynamic resizing.
 Text is rendered in the [Atkinson Hyperlegible] font.
 
@@ -60,8 +61,7 @@ Text is rendered in the [Atkinson Hyperlegible] font.
 [Hugo]: https://gohugo.io
 [Caddy]: https://caddyserver.com/
 [Fly]: https://fly.io/
-[Google Domains]: https://www.google.com/domains
-[highly recommend]: /2014/06/google-domains
+[Porkbun]: https://porkbun.com/
 [gum]: /go/gum
 [imageproxy]: /go/imageproxy
 [Atkinson Hyperlegible]: https://brailleinstitute.org/freefont

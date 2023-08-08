@@ -11,10 +11,25 @@ html {
 
 /* --- Typographical Elements --- */
 
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: local("Atkinson Hyperlegible Regular"),
+    url("/fonts/Atkinson-Hyperlegible-Regular-102a.woff2") format("woff2"),
+    url("/fonts/Atkinson-Hyperlegible-Regular-102.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: local("Atkinson Hyperlegible Bold"),
+    url("/fonts/Atkinson-Hyperlegible-Bold-102a.woff2") format("woff2"),
+    url("/fonts/Atkinson-Hyperlegible-Bold-102.woff") format("woff");
+  font-weight: 700;
+}
+
 body {
   background-color: $color-white;
   color: $color-grey-20;
-  font-family: "Helvetica Neue", Helvetica, system-ui, sans-serif;
+  font-family: "Atkinson Hyperlegible", "Helvetica Neue", Helvetica, system-ui, sans-serif;
   font-size: 1.125rem; // 18px
   line-height: 1.8;
 }

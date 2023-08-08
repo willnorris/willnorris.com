@@ -1,2 +1,2 @@
-User-agent: *
-Disallow: /tmp/
+User-agent: GPTBot
+Disallow: /

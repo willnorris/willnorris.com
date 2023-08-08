@@ -10,7 +10,7 @@ kill_timeout = "5s"
   strategy = "rolling"
 
 [env]
-  IMAGEPROXY_ALLOWHOSTS = "*.willnorris.com,notsoserendipitous.com,gabenorris.com,judahnorris.com"
+  IMAGEPROXY_ALLOWHOSTS = "*.willnorris.com"
   IMAGEPROXY_BASEURL = "https://willnorris.com/"
 
 [[mounts]]

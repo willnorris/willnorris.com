@@ -2,15 +2,9 @@
   background: var(--color-grey-90);
   border-bottom: 1px solid var(--color-grey-80);
   padding-block: 1em;
-  overflow: auto;
 
-  h2 {
-    font-size: 1.25rem;
+  .p-note {
     --flow-space: 0;
-    a {
-      color: var(--color-grey-30);
-      border: 0;
-    }
   }
 
   .u-photo {
@@ -21,15 +15,10 @@
 }
 
 .social-links {
-  padding: 0;
   font-size: 0.875rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 0 1rem;
-
-  > li {
-    display: block;
-  }
+  gap: 1rem;
 }
 
 #TableOfContents > ul {
@@ -221,10 +210,10 @@ figure.video {
   font-size: 0.875rem;
 
   a {
-    color: var(--color-grey-30);
-    border-width: 0;
+    color: currentColor;
+    border: 0;
     &:hover {
-      color: var(--color-red);
+      color: var(--color-primary);
       border-width: 1px;
     }
   }
@@ -262,18 +251,20 @@ figcaption {
   font-size: 0.875rem;
 }
 
+hr {
+  border: 0;
+  border-block-end: solid 1px var(--color-grey-60);
+}
+
 .footnotes {
   font-size: 0.875rem;
   code {
     font-size: 1em;
   }
+  ol {
+    padding-inline: 2em;
+  }
 }
-
-.twitter-tweet-rendered {
-  // !important to override inline top and bottom margin set by twitter platform js
-  margin: 2em auto !important;
- }
-
 
 // fragmentations
 // taken from http://tantek.com/2011/simple.css, in turn inspired by http://lea.verou.me/2012/12/animations-with-one-keyframe/

@@ -16,8 +16,8 @@ html {
 }
 
 /* Remove default margin in favour of better control in authored CSS */
-body, h1, h2, h3, h4, p,
-figure, blockquote, dl, dd {
+body, h1, h2, h3, h4, h5, h6, p,
+figure, blockquote, dl, dd, ul, ol {
   margin: 0;
 }
 
@@ -48,7 +48,7 @@ h3, h4 {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
-  color: currentColor;
+  // color: currentColor;
 }
 
 /* Make images easier to work with */

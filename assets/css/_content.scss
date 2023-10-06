@@ -1,12 +1,12 @@
 .profile-card {
   background: $color-grey-90;
   border-bottom: 1px solid $color-grey-80;
-  padding: 1em 0;
+  padding-block: 1em;
   overflow: auto;
 
   h2 {
     font-size: 1.25rem;
-    margin-bottom: 0;
+    --flow-space: 0;
     a {
       color: $color-grey-30;
       border: 0;
@@ -14,12 +14,9 @@
   }
 
   .u-photo {
-    float: left;
-    margin-right: 1em;
-  }
-
-  p {
-    margin: 0.3em 0 0.4em 0;
+    float: left; // fallback for Chrome and others
+    float: inline-start;
+    margin-inline-end: 1em;
   }
 }
 
@@ -37,7 +34,7 @@
 
 #TableOfContents > ul {
   list-style: none;
-  margin-left: 0;
+  padding: 0;
 }
 
 figure {
@@ -159,19 +156,8 @@ figure.video {
   }
 }
 
-main {
-  ul, ol {
-    margin: 0 0 1.5em 2em;
-    ul, ol {
-      margin-bottom: 0;
-    }
-  }
-  p + ul {
-    margin-top: -1.5rem;
-  }
-  td > ul {
-    margin-bottom: 0;
-  }
+.prose {
+  line-height: 1.8;
 }
 
 .home {
@@ -185,7 +171,10 @@ main {
 
 .posts {
   list-style: none;
-  margin-left: 0;
+  padding: 0;
+  * {
+    --flow-space: 0;
+  }
 
   time {
     color: $color-grey-30;

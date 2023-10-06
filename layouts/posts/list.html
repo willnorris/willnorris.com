@@ -1,11 +1,11 @@
 {{ define "main" }}
-<article class="page h-feed wrap">
+<article class="h-feed wrap flow prose">
   <div>
     {{ .Content }}
   </div>
   {{- range .Pages.GroupByDate "2006" -}}
     <h2 id="{{.Key}}">{{.Key}}</h2>
-    <ul class="posts">
+    <ul role="list" class="posts">
       {{- range .Pages -}}
         {{ .Render "li" }}
       {{- end -}}

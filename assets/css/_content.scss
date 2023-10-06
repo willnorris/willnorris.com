@@ -191,11 +191,9 @@ figure.video {
   background-attachment: fixed;
   display: flex;
   align-items: center;
-  margin: -2rem 0 2rem 0;
+  margin-block-start: calc(-1 * var(--main-block-padding));
+  margin-block-end: var(--main-block-padding);
   text-shadow: 1px 1px 2px var(--color-grey-20);
-  @media (min-width: 600px) {
-    margin-top: -4rem;
-  }
   h1 {
     color: var(--color-white);
   }

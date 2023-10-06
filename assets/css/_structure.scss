@@ -48,7 +48,7 @@ main {
 
   a {
     color: var(--color-grey-90);
-    border: 0;
+    text-decoration: none;
   }
 }
 
@@ -63,8 +63,8 @@ main {
   }
 
   a {
-    border: none;
     color: currentColor;
+    text-decoration: none;
     padding-block: 0.5em;
 
     &:hover {
@@ -86,7 +86,7 @@ main {
   }
 
   a {
-    border-color: var(--color-grey-60);
+    text-decoration-color: var(--color-grey-60);
     color: var(--color-grey-30);
     &:hover {
       color: var(--color-grey-60);

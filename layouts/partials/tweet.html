@@ -1,0 +1,18 @@
+<article id="{{ .id }}" class="h-entry">
+  <div class="e-content">{{ .full_text }}</div>
+
+  <footer class="entry-footer entry-meta">
+    {{ with .in_reply_to_status_id }}
+    <p><a href="https://twitter.com/_/status/{{.}}">in reply to</a></p>
+    {{ end }}
+    <a href="#{{ .id }}" class="u-url">
+      {{- with .created_at -}}
+        {{- $t := (time .).Local -}}
+        {{- if eq (dateFormat "MST" $t) "+0000" }}{{ $t = $t.Local }}{{ end -}}
+        <time class="dt-published dt-updated" datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" $t }}" title="{{ dateFormat "2006-01-02T15:04:05Z07:00" $t }}">
+          {{ dateFormat "January 2, 2006 3:04pm MST" $t }}
+        </time>
+      {{- end -}}
+    </a>
+  </footer>
+</article>

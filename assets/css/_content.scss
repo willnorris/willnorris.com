@@ -298,3 +298,10 @@ form#webmention {
     }
   }
 }
+
+.tweets {
+  --flow-space: 3em;
+  footer {
+    --flow-space: 0;
+  }
+}

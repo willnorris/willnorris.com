@@ -211,10 +211,11 @@ figure.video {
 
   a {
     color: currentColor;
-    border: 0;
+    text-decoration: none;
     &:hover {
       color: var(--color-primary);
-      border-width: 1px;
+      text-decoration: revert;
+      text-decoration-color: var(--color-grey-80);
     }
   }
 
@@ -243,7 +244,7 @@ figcaption {
 
   a {
     line-height: 1;
-    border: 0;
+    text-decoration: none;
   }
 }
 

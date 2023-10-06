@@ -1,6 +1,6 @@
 .profile-card {
-  background: $color-grey-90;
-  border-bottom: 1px solid $color-grey-80;
+  background: var(--color-grey-90);
+  border-bottom: 1px solid var(--color-grey-80);
   padding-block: 1em;
   overflow: auto;
 
@@ -8,7 +8,7 @@
     font-size: 1.25rem;
     --flow-space: 0;
     a {
-      color: $color-grey-30;
+      color: var(--color-grey-30);
       border: 0;
     }
   }
@@ -177,13 +177,13 @@ figure.video {
   }
 
   time {
-    color: $color-grey-30;
+    color: var(--color-grey-30);
     font-size: 0.875rem;
     margin-left: 0.5em;
   }
 
   .draft:before {
-    color: $color-grey-30;
+    color: var(--color-grey-30);
     content: "[draft]";
     font-size: 0.875rem;
     font-variant: small-caps;
@@ -203,37 +203,28 @@ figure.video {
   display: flex;
   align-items: center;
   margin: -2rem 0 2rem 0;
-  text-shadow: 1px 1px 2px $color-grey-20;
+  text-shadow: 1px 1px 2px var(--color-grey-20);
   @media (min-width: 600px) {
     margin-top: -4rem;
   }
-  > .wrap {
-    margin-top: 2rem;
-  }
   h1 {
-    color: $color-white;
+    color: var(--color-white);
   }
   .entry-meta, .entry-meta a {
-    color: $color-grey-80;
+    color: var(--color-grey-80);
   }
 }
-}
-
-.hide {
-  position: absolute !important;
-  top: -9999px !important;
-  left: -9999px !important;
 }
 
 .entry-meta {
-  color: $color-grey-30;
+  color: var(--color-grey-30);
   font-size: 0.875rem;
 
   a {
-    color: $color-grey-30;
+    color: var(--color-grey-30);
     border-width: 0;
     &:hover {
-      color: $color-red;
+      color: var(--color-red);
       border-width: 1px;
     }
   }
@@ -244,7 +235,7 @@ figure.video {
 }
 
 img.border {
-  border: 1px solid $color-grey-60;
+  border: 1px solid var(--color-grey-60);
 }
 
 figcaption {
@@ -314,10 +305,10 @@ form#webmention {
     margin: 0 1em;
 
     &.success {
-      color: $color-green;
+      color: var(--color-green);
     }
     &.error {
-      color: $color-red;
+      color: var(--color-red);
     }
   }
 }

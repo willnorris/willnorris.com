@@ -10,8 +10,8 @@
 	/* LineTableTD */ .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
 	/* LineTable */ .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
 	/* LineHighlight */ .hl { background-color: #ffffcc }
-	/* LineNumbersTable */ .lnt { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: $color-grey-30 }
-	/* LineNumbers */ .ln { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: $color-grey-30 }
+	/* LineNumbersTable */ .lnt { white-space: pre; user-select: none; margin-inline-end: 0.4em; padding-inline: 0.4em; color: $color-grey-30 }
+	/* LineNumbers */ .ln { white-space: pre; user-select: none; margin-inline-end: 0.4em; padding-inline: 0.4em; color: $color-grey-30 }
 	/* Line */ .line { display: flex; }
 	/* Keyword */ .k { color: $color-purple }
 	/* KeywordConstant */ .kc { color: $color-yellow }

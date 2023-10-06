@@ -6,11 +6,8 @@ body {
 
 main {
   flex: 1;
-  padding: 2rem 0;
-
-  @media (min-width: 600px) {
-    padding: 4rem 0;
-  }
+  --main-block-padding: clamp(2rem, 1rem + 5vw, 4rem);
+  padding-block: var(--main-block-padding);
 }
 
 .wrap {

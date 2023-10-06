@@ -23,19 +23,19 @@
 }
 
 body {
-  background-color: $color-white;
-  color: $color-grey-20;
+  background-color: var(--color-white);
+  color: var(--color-grey-20);
   font-family: "Atkinson Hyperlegible", "Helvetica Neue", Helvetica, system-ui, sans-serif;
   font-size: 1.125rem; // 18px
 }
 
 a {
-  border-bottom: 1px solid $color-grey-80;
-  color: $color-red;
+  border-bottom: 1px solid var(--color-grey-80);
+  color: var(--color-red);
   text-decoration: none;
 
   &:hover {
-    color: $color-grey-20;
+    color: var(--color-grey-20);
   }
 
   &:has(> img) {
@@ -44,7 +44,7 @@ a {
 }
 
 blockquote, blockquote::before {
-  color: $color-grey-30;
+  color: var(--color-grey-30);
 }
 
 blockquote {
@@ -66,7 +66,7 @@ blockquote::before {
 /* --- Headings --- */
 
 h1, h2, h3, h4, h5, h6 {
-  color: $color-grey-20;
+  color: var(--color-grey-20);
   font-weight: 700;
 }
 
@@ -114,17 +114,17 @@ video {
 input,
 select,
 textarea {
-  background-color: $color-white;
-  border: 1px solid $color-grey-80;
-  box-shadow: 1px 1px 3px lighten($color-grey-80, 5%) inset;
-  color: $color-grey-30;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-grey-80);
+  box-shadow: 1px 1px 3px var(--color-grey-90) inset;
+  color: var(--color-grey-30);
   font-size: 1rem;
   padding: 0.5em 1em;
 }
 
 input:focus,
 textarea:focus {
-  border: 1px solid $color-grey-60;
+  border: 1px solid var(--color-grey-60);
   outline: none;
 }
 
@@ -134,15 +134,15 @@ input[type="reset"],
 input[type="submit"],
 .button,
 .e-content .button {
-  background-color: $color-grey-20;
+  background-color: var(--color-grey-20);
   border: none;
   box-shadow: none;
-  color: $color-white;
+  color: var(--color-white);
   cursor: pointer;
   width: auto;
 
   &:hover {
-    background-color: $color-red;
+    background-color: var(--color-red);
   }
 }
 
@@ -159,7 +159,7 @@ table {
 }
 
 tbody {
-  border-bottom: 1px solid $color-grey-80;
+  border-bottom: 1px solid var(--color-grey-80);
 }
 
 th, td {
@@ -172,7 +172,7 @@ th {
 }
 
 td {
-  border-top: 1px solid $color-grey-80;
+  border-top: 1px solid var(--color-grey-80);
   padding: 0.25rem 0;
 }
 
@@ -199,10 +199,10 @@ code, kbd, pre, samp {
 }
 
 pre {
-  background: $color-grey-90;
-  border: solid 1px $color-grey-80;
+  background: var(--color-grey-90);
+  border: solid 1px var(--color-grey-80);
   border-radius: 3px;
-  color: $color-grey-20;
+  color: var(--color-grey-20);
   hyphens: none;
   line-height: 1.5;
   overflow: auto;
@@ -215,9 +215,9 @@ pre {
 }
 
 :not(pre) > code {
-  background: $color-grey-90;
+  background: var(--color-grey-90);
   padding: 2px 4px;
   border-radius: 3px;
-  border: solid 1px $color-grey-80;
+  border: solid 1px var(--color-grey-80);
 }
 

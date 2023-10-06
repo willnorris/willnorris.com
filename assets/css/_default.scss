@@ -218,7 +218,8 @@ pre {
 
 :not(pre) > code {
   background: $color-grey-90;
-  padding: 0.1em 0.3em;
+  padding: 2px 4px;
   border-radius: 3px;
+  border: solid 1px $color-grey-80;
 }
 

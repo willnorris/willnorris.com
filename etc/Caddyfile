@@ -104,6 +104,10 @@
   @archives path_regexp archives ^/(\d{4})(/\d{2})?/?$
   redir @archives /archives/#{re.archives.1}
 
+  # redirect /tweets/{id} or /tweet/{id} to /tweets/#{id}
+  @tweets path_regexp tweets ^/tweets?/(\d+)$
+  redir @tweets /tweets/#{re.tweets.1}
+
   # image proxy (https://wjn.me/b/J_)
   @imageproxy path /api/imageproxy/*
   handle @imageproxy {

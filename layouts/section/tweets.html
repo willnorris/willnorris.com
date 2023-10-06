@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{- if .FirstSection.Param "breadcrumbs" }}{{ partial "breadcrumbs" . }}{{ end }}
+<div class="wrap prose flow">
+  <header class="entry-header">
+    <h1 class="p-name">{{ .Title }}</h1>
+  </header>
+  <div class="e-content">
+    {{ .Content }}
+  </div>
+  <div class="tweets">
+  {{- range sort $.Site.Data.tweets "id" "desc" -}}
+    {{ partial "tweet.html" . }}
+  {{- end -}}
+  </div>
+</div>
+{{ end }}

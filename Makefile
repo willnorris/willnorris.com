@@ -4,7 +4,7 @@ export
 dev: .cache/tandem .cache/caddy .cache/hugo ## Run a local dev server
 	@# .env must define IMAGEPROXY_BASEURL, IMAGEPROXY_ALLOWHOSTS, IMAGEPROXY_SIGNATURE_KEY
 	@.cache/tandem \
-		'.cache/hugo --watch --buildDrafts --poll 1s' \
+		'.cache/hugo --watch --buildDrafts --environment development --poll 1s' \
 		'.cache/caddy run --config etc/Caddyfile'
 .PHONY: dev
 

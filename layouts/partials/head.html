@@ -2,7 +2,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   {{ hugo.Generator }}
-  <link rel="shortcut icon" href="{{ "logo.jpg" | relURL }}">
+  <link rel="shortcut icon" href="{{ "favicon.svg" | relURL }}">
   <link rel="canonical" href="{{ .Permalink }}">
   {{- range .AlternativeOutputFormats -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

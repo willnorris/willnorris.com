@@ -16,6 +16,15 @@ main {
   margin-inline: auto;
   max-width: 60rem;
   padding: 0 5%;
+
+  // measure and store the margin outside .wrap elements
+  //
+  //    100vw  full viewport width
+  //  - 100%   width of the current element
+  //  - SBW    width of browser scrollbar (set by javascript)
+  //  /  2     divide in half
+  //  =        width of each side margin
+  --wrap-margin: calc((100vw - 100% - var(--scrollbar-width)) / 2);
 }
 
 .site-header {

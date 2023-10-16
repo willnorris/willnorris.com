@@ -12,6 +12,7 @@
   "wm-id": 1281423,
   "wm-source": "https://evgenykuznetsov.org/en/reactions/2021/webmention-rocks-update-2/",
   "wm-target": "https://willnorris.com/go/webmention",
+  "wm-protocol": "webmention",
   "name": "Webmention.Rocks Update Test #2",
   "content": {
     "html": "<p>Using <a href=\"https://github.com/nekr0z/static-webmentions\">static-webmentions</a> that has Will Norris’ <a href=\"https://willnorris.com/go/webmention\">webmention Go library</a> under the hood.</p>\n<p><a href=\"https://webmention.rocks/update/2\">https://webmention.rocks/update/2</a></p>",

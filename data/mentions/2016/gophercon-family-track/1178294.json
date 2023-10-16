@@ -12,6 +12,7 @@
   "wm-id": 1178294,
   "wm-source": "https://brid.gy/like/twitter/willnorris/745660232785813504/4024701",
   "wm-target": "https://willnorris.com/2016/06/gophercon-family-track/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/2016/06/gophercon-family-track/",
   "wm-property": "like-of",
   "wm-private": false

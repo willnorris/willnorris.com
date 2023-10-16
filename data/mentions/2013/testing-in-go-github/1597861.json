@@ -12,6 +12,7 @@
   "wm-id": 1597861,
   "wm-source": "https://brid.gy/post/reddit/willnorris/1ky43p",
   "wm-target": "https://willnorris.com/2013/testing-in-go-github/",
+  "wm-protocol": "webmention",
   "name": "Testing in go-github",
   "content": {
     "html": "Bookmark: <a title=\"willnorris.com/2013/08/testing-in-go-github\" class=\"u-bookmark-of\" href=\"https://willnorris.com/2013/08/testing-in-go-github\">willnorris.com/2013/08/testin...</a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2013/08/testing-in-go-github\"></a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2013/testing-in-go-github/\"></a>",

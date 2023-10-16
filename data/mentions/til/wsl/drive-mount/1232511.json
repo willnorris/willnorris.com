@@ -12,6 +12,7 @@
   "wm-id": 1232511,
   "wm-source": "https://brid.gy/repost/twitter/willnorris/1420456600926523393/1420462120341278721",
   "wm-target": "https://willnorris.com/til/wsl/drive-mount/",
+  "wm-protocol": "webmention",
   "content": {
     "text": "The new FUSE-based Google Drive for Desktop now mounts as a drive in Windows.  Access it from WSL with:\n\n$ sudo mkdir /mnt/g\n$ sudo mount -t drvfs G: /mnt/g\n\n(google.com/drive/download still points Gmail users to Backup and Sync, but Drive for desktop works great anyway)"
   },

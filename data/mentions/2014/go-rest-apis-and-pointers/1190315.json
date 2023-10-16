@@ -12,6 +12,7 @@
   "wm-id": 1190315,
   "wm-source": "https://brid.gy/post/twitter/willnorris/1002601233742524416",
   "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "wm-protocol": "webmention",
   "content": {
     "html": "Super interesante post de manejo de nil values y punteros en Go, cuando se juega con REST APIs\n<a href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers\">willnorris.com/2014/05/go-res…</a>\n\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers/\"></a>",
     "text": "Super interesante post de manejo de nil values y punteros en Go, cuando se juega con REST APIs\nwillnorris.com/2014/05/go-res…"

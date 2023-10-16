@@ -12,6 +12,7 @@
   "wm-id": 1177069,
   "wm-source": "https://brid.gy/comment/twitter/willnorris/566382236203634688/566574377618378753",
   "wm-target": "https://willnorris.com/2015/02/gabriel-update/",
+  "wm-protocol": "webmention",
   "content": {
     "html": "<a href=\"https://twitter.com/willnorris\">@willnorris</a> congratulations!",
     "text": "@willnorris congratulations!"

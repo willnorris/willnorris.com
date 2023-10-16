@@ -12,6 +12,7 @@
   "wm-id": 1295099,
   "wm-source": "https://brid.gy/post/twitter/willnorris/1451255264703913986",
   "wm-target": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "wm-protocol": "webmention",
   "content": {
     "html": "That <a href=\"https://twitter.com/search?q=%23WebFinger\">#WebFinger</a> requires a query param for an identifier is a critical design flaw. If the ID is a natural key then it's preferable to rewrite a URI component to a query parameter if a back-end requires it than vice-versa.\n\nCase: static generation.\n\n<a href=\"https://twitter.com/search?q=%23IETF\">#IETF</a>\n\n<a href=\"https://willnorris.com/2014/07/webfinger-with-static-files-nginx/\">willnorris.com/2014/07/webfin…</a>",
     "text": "That #WebFinger requires a query param for an identifier is a critical design flaw. If the ID is a natural key then it's preferable to rewrite a URI component to a query parameter if a back-end requires it than vice-versa.\n\nCase: static generation.\n\n#IETF\n\nwillnorris.com/2014/07/webfin…"

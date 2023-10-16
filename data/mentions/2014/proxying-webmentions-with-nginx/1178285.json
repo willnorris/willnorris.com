@@ -12,6 +12,7 @@
   "wm-id": 1178285,
   "wm-source": "https://brid.gy/like/twitter/willnorris/496486808859844608/15208551",
   "wm-target": "https://willnorris.com/2014/08/proxying-webmentions-with-nginx/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/2014/08/proxying-webmentions-with-nginx/",
   "wm-property": "like-of",
   "wm-private": false

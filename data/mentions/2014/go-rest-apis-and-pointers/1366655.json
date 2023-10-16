@@ -12,6 +12,7 @@
   "wm-id": 1366655,
   "wm-source": "https://lobste.rs/s/ok2cik",
   "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers",
+  "wm-protocol": "webmention",
   "repost-of": "https://willnorris.com/2014/05/go-rest-apis-and-pointers",
   "wm-property": "repost-of",
   "wm-private": false

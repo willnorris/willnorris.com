@@ -12,6 +12,7 @@
   "wm-id": 1189073,
   "wm-source": "https://brid.gy/post/twitter/willnorris/4478924680",
   "wm-target": "https://willnorris.com/2009/09/openid-and-wordpress-core/",
+  "wm-protocol": "webmention",
   "content": {
     "html": "RT <a href=\"https://twitter.com/willnorris\">@willnorris</a>: my thoughts on including the OpenID plugin into WordPress core http://willnorris.com/p/878\n<a class=\"u-mention\" href=\"http://willnorris.com/p/878\"></a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2009/09/openid-and-wordpress-core/\"></a>",
     "text": "RT @willnorris: my thoughts on including the OpenID plugin into WordPress core http://willnorris.com/p/878"

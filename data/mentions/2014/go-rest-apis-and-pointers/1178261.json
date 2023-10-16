@@ -12,6 +12,7 @@
   "wm-id": 1178261,
   "wm-source": "https://brid.gy/repost/twitter/willnorris/471420969504878592/498184013463302144",
   "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "wm-protocol": "webmention",
   "content": {
     "text": "why go-github uses pointers for struct fields and (in some cases) you should too: willnorris.com/2014/05/go-res…"
   },

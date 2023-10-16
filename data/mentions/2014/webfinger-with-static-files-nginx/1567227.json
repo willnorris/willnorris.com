@@ -12,6 +12,7 @@
   "wm-id": 1567227,
   "wm-source": "https://brid.gy/post/twitter/willnorris/1595560025883176960",
   "wm-target": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "wm-protocol": "webmention",
   "content": {
     "html": "Plenty old post at <a href=\"https://willnorris.com/2014/07/webfinger-with-static-files-nginx/\">willnorris.com/2014/07/webfin…</a> but it just helped me setup my <a href=\"https://twitter.com/search?q=%23nginx\">#nginx</a>, so my <a href=\"https://twitter.com/search?q=%23Fediverse\">#Fediverse</a> account can now be found by searching for my mail address.\nAnd if I ever decide to move it's just editing one file, and the search finds the right place.\n\nCute.",
     "text": "Plenty old post at willnorris.com/2014/07/webfin… but it just helped me setup my #nginx, so my #Fediverse account can now be found by searching for my mail address.\nAnd if I ever decide to move it's just editing one file, and the search finds the right place.\n\nCute."

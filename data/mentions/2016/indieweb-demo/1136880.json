@@ -12,6 +12,7 @@
   "wm-id": 1136880,
   "wm-source": "https://brid.gy/like/twitter/willnorris/739166425269424128/13442022",
   "wm-target": "https://willnorris.com/2016/06/indieweb-demo/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/2016/06/indieweb-demo/",
   "wm-property": "like-of",
   "wm-private": false

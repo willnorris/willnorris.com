@@ -12,6 +12,7 @@
   "wm-id": 1136882,
   "wm-source": "https://brid.gy/like/twitter/willnorris/495410703004471296/18331731",
   "wm-target": "https://willnorris.com/2014/08/keeping-up/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/2014/08/keeping-up/",
   "wm-property": "like-of",
   "wm-private": false

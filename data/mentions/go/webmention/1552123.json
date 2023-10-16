@@ -12,6 +12,7 @@
   "wm-id": 1552123,
   "wm-source": "https://aaronparecki.com/2018/06/30/11/your-first-webmention",
   "wm-target": "https://willnorris.com/go/webmention",
+  "wm-protocol": "webmention",
   "name": "Sending your First Webmention from Scratch",
   "syndication": [
     "https://news.indieweb.org/en/aaronparecki.com/2018/06/30/11/your-first-webmention"

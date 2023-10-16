@@ -12,6 +12,7 @@
   "wm-id": 1178284,
   "wm-source": "https://brid.gy/like/twitter/willnorris/509141063479459840/15208551",
   "wm-target": "https://willnorris.com/2014/09/jekyll-push-to-deploy/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/2014/09/jekyll-push-to-deploy/",
   "wm-property": "like-of",
   "wm-private": false

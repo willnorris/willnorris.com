@@ -12,6 +12,7 @@
   "wm-id": 1178282,
   "wm-source": "https://brid.gy/like/twitter/willnorris/481244318275887106/11628",
   "wm-target": "https://willnorris.com/2014/06/google-domains/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/2014/06/google-domains/",
   "wm-property": "like-of",
   "wm-private": false

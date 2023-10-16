@@ -12,6 +12,7 @@
   "wm-id": 1192275,
   "wm-source": "https://brid.gy/like/twitter/willnorris/1405202952533409795/101186457",
   "wm-target": "https://willnorris.com/2021/06/mac-and-cheese/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/2021/06/mac-and-cheese/",
   "wm-property": "like-of",
   "wm-private": false

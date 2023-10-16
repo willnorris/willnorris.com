@@ -12,6 +12,7 @@
   "wm-id": 1178272,
   "wm-source": "https://brid.gy/repost/twitter/willnorris/492710476053094402/494078900230578176",
   "wm-target": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx/",
+  "wm-protocol": "webmention",
   "content": {
     "text": "my little nginx config for properly supporting WebFinger with static files: willnorris.com/2014/07/webfin…"
   },

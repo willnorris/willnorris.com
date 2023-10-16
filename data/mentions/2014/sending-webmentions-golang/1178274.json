@@ -12,6 +12,7 @@
   "wm-id": 1178274,
   "wm-source": "https://brid.gy/like/twitter/willnorris/497774634238885888/15208551",
   "wm-target": "https://willnorris.com/2014/08/sending-webmentions-golang/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/2014/08/sending-webmentions-golang/",
   "wm-property": "like-of",
   "wm-private": false

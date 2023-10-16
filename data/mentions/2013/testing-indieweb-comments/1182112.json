@@ -12,6 +12,7 @@
   "wm-id": 1182112,
   "wm-source": "https://notiz.blog/2013/06/20/5231/",
   "wm-target": "https://willnorris.com/2013/06/testing-indieweb-comments",
+  "wm-protocol": "webmention",
   "summary": {
     "content-type": "text/plain",
     "value": "My Webmention plugin for #WordPress should be kind of stable now&#8230; Time to ping the #IndieWeb #Conversations from @eschnou, @Barnaby Walters, @Ben Werdmuller, @Tom Morris, @Will Norris, and @Aaron Parecki. &#8230;and some &lt;3 for Sandeep Shetty"

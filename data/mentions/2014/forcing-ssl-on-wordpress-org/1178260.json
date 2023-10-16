@@ -12,6 +12,7 @@
   "wm-id": 1178260,
   "wm-source": "https://brid.gy/like/twitter/willnorris/443144602409656320/92091728",
   "wm-target": "https://willnorris.com/2014/03/forcing-ssl-on-wordpress-org/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/2014/03/forcing-ssl-on-wordpress-org/",
   "wm-property": "like-of",
   "wm-private": false

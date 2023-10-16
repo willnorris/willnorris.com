@@ -12,6 +12,7 @@
   "wm-id": 1672531,
   "wm-source": "https://brid.gy/repost/mastodon/@will@mastodon.willnorris.net/110334704301096079/109343797604301420",
   "wm-target": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "wm-protocol": "webmention",
   "repost-of": "https://willnorris.com/2023/tailscale-pinewood-derby/",
   "wm-property": "repost-of",
   "wm-private": false

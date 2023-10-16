@@ -12,6 +12,7 @@
   "wm-id": 1597865,
   "wm-source": "https://brid.gy/post/reddit/willnorris/5zxfc",
   "wm-target": "https://willnorris.com/2007/try-reuse-catch-ex-reinvent/",
+  "wm-protocol": "webmention",
   "name": "try { reuse; } catch (Ex) { reinvent; }",
   "content": {
     "html": "Bookmark: <a title=\"willnorris.com/2007/11/try-reuse-catch-ex-reinvent\" class=\"u-bookmark-of\" href=\"http://willnorris.com/2007/11/try-reuse-catch-ex-reinvent\">willnorris.com/2007/11/try-re...</a>\n<a class=\"u-mention\" href=\"http://willnorris.com/2007/11/try-reuse-catch-ex-reinvent\"></a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2007/try-reuse-catch-ex-reinvent/\"></a>",

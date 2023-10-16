@@ -12,6 +12,7 @@
   "wm-id": 1178288,
   "wm-source": "https://brid.gy/repost/twitter/willnorris/496486808859844608/496539816390295554",
   "wm-target": "https://willnorris.com/2014/08/proxying-webmentions-with-nginx/",
+  "wm-protocol": "webmention",
   "content": {
     "text": "using nginx to proxy #indieweb webmention requests offiste, while still serving a static form on the same URL: willnorris.com/2014/08/proxyi…"
   },

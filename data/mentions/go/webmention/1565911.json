@@ -12,6 +12,7 @@
   "wm-id": 1565911,
   "wm-source": "https://tiim.ch/blog/2022-12-indiewebifying-my-website-part-1",
   "wm-target": "https://willnorris.com/go/webmention",
+  "wm-protocol": "webmention",
   "name": "IndieWebifying my Website Part 1 - Microformats and Webmentions",
   "syndication": [
     "https://news.indieweb.org/en"

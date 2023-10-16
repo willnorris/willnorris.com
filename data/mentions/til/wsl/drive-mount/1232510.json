@@ -12,6 +12,7 @@
   "wm-id": 1232510,
   "wm-source": "https://brid.gy/like/twitter/willnorris/1420456600926523393/629843",
   "wm-target": "https://willnorris.com/til/wsl/drive-mount/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/til/wsl/drive-mount/",
   "wm-property": "like-of",
   "wm-private": false

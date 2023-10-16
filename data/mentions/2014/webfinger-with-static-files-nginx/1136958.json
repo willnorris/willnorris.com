@@ -12,6 +12,7 @@
   "wm-id": 1136958,
   "wm-source": "https://unrelenting.technology/notes/2014-11-05-19-56-44",
   "wm-target": "https://willnorris.com/2014/07/webfinger-with-static-files-nginx",
+  "wm-protocol": "webmention",
   "content": {
     "html": "<p>So, notes on my website should be automatically posted on App.net and Twitter. Also, webmentions should be sent &amp; <a href=\"https://willnorris.com/2014/07/webfinger-with-static-files-nginx\">webfinger</a> works.</p>\n<p>P.S. OAuth 1.0 is awful.</p>",
     "text": "So, notes on my website should be automatically posted on App.net and Twitter. Also, webmentions should be sent & webfinger works.\nP.S. OAuth 1.0 is awful."

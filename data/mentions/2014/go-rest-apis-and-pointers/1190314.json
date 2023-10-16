@@ -12,6 +12,7 @@
   "wm-id": 1190314,
   "wm-source": "https://brid.gy/post/twitter/willnorris/1001743004326080512",
   "wm-target": "https://willnorris.com/2014/05/go-rest-apis-and-pointers/",
+  "wm-protocol": "webmention",
   "content": {
     "html": "Finally figured out how to set struct values empty intentionally while using 'omitempty' in fields. <a href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers\">willnorris.com/2014/05/go-res…</a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers/\"></a>",
     "text": "Finally figured out how to set struct values empty intentionally while using 'omitempty' in fields. willnorris.com/2014/05/go-res…"

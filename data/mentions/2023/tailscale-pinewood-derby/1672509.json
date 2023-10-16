@@ -12,6 +12,7 @@
   "wm-id": 1672509,
   "wm-source": "https://brid.gy/comment/mastodon/@will@mastodon.willnorris.net/110334704301096079/110334788139770734",
   "wm-target": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "wm-protocol": "webmention",
   "content": {
     "html": "<p><span class=\"h-card\"><a href=\"https://sfba.social/@gwachob\" class=\"u-url\">@<span>gwachob</span></a></span> <span class=\"h-card\"><a href=\"https://hachyderm.io/@tailscale\" class=\"u-url\">@<span>tailscale</span></a></span> my last pinewood derby as a scout was about 30 years ago, so things have definitely changed! :)</p>",
     "text": "@gwachob @tailscale my last pinewood derby as a scout was about 30 years ago, so things have definitely changed! :)"

@@ -12,6 +12,7 @@
   "wm-id": 1176757,
   "wm-source": "https://brid.gy/like/twitter/willnorris/566382236203634688/613043",
   "wm-target": "https://willnorris.com/2015/02/gabriel-update/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/2015/02/gabriel-update/",
   "wm-property": "like-of",
   "wm-private": false

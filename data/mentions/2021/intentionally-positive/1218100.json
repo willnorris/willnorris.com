@@ -12,6 +12,7 @@
   "wm-id": 1218100,
   "wm-source": "https://brid.gy/like/twitter/willnorris/1412918898177896449/1284065719739731968",
   "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
   "wm-property": "like-of",
   "wm-private": false

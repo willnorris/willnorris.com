@@ -12,6 +12,7 @@
   "wm-id": 1282440,
   "wm-source": "https://evgenykuznetsov.org/en/reactions/2021/like-278172357/",
   "wm-target": "https://willnorris.com/2021/07/intentionally-positive/",
+  "wm-protocol": "webmention",
   "like-of": "https://willnorris.com/2021/07/intentionally-positive/",
   "wm-property": "like-of",
   "wm-private": false,

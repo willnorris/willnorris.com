@@ -12,6 +12,7 @@
   "wm-id": 1597862,
   "wm-source": "https://brid.gy/post/reddit/willnorris/2czy43",
   "wm-target": "https://willnorris.com/2014/sending-webmentions-golang/",
+  "wm-protocol": "webmention",
   "name": "Sending Webmentions with Go",
   "content": {
     "html": "Bookmark: <a title=\"willnorris.com/2014/08/sending-webmentions-golang\" class=\"u-bookmark-of\" href=\"https://willnorris.com/2014/08/sending-webmentions-golang\">willnorris.com/2014/08/sendin...</a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/08/sending-webmentions-golang\"></a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2014/sending-webmentions-golang/\"></a>",

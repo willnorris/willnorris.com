@@ -12,6 +12,7 @@
   "wm-id": 1384540,
   "wm-source": "https://brid.gy/post/reddit/willnorris/83tpk",
   "wm-target": "https://willnorris.com/2009/03/authentication-in-wordpress-28/",
+  "wm-protocol": "webmention",
   "name": "Authentication in WordPress 2.8",
   "content": {
     "html": "Bookmark: <a class=\"u-bookmark-of\" href=\"http://willnorris.com/2009/03/authentication-in-wordpress-28\">willnorris.com/2009/03/authen...</a>\n<a class=\"u-mention\" href=\"http://willnorris.com/2009/03/authentication-in-wordpress-28\"></a>\n<a class=\"u-mention\" href=\"https://willnorris.com/2009/03/authentication-in-wordpress-28/\"></a>",

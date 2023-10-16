@@ -12,6 +12,7 @@
   "wm-id": 1178278,
   "wm-source": "https://brid.gy/repost/twitter/willnorris/497774634238885888/497797971569049602",
   "wm-target": "https://willnorris.com/2014/08/sending-webmentions-golang/",
+  "wm-protocol": "webmention",
   "content": {
     "text": "here's a little go client I wrote for sending webmentions #indieweb willnorris.com/2014/08/sendin…"
   },

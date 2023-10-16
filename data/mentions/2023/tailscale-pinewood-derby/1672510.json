@@ -12,6 +12,7 @@
   "wm-id": 1672510,
   "wm-source": "https://brid.gy/comment/mastodon/@will@mastodon.willnorris.net/110334704301096079/110334739517306089",
   "wm-target": "https://willnorris.com/2023/tailscale-pinewood-derby/",
+  "wm-protocol": "webmention",
   "content": {
     "html": "<p><span class=\"h-card\"><a href=\"https://mastodon.willnorris.net/@will\" class=\"u-url\">@<span>will</span></a></span> <span class=\"h-card\"><a href=\"https://hachyderm.io/@tailscale\" class=\"u-url\">@<span>tailscale</span></a></span> Wow, when I did pinewood derby with my son (10 years ago I think, maybe more?) they weren't even using software, much less open source, much less Tailscale ;)</p>",
     "text": "@will @tailscale Wow, when I did pinewood derby with my son (10 years ago I think, maybe more?) they weren't even using software, much less open source, much less Tailscale ;)"

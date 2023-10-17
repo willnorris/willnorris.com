@@ -8,6 +8,8 @@ RUN git config --global --add safe.directory /work
 
 COPY . .
 COPY --from=binaries /hugo /hugo
+COPY --from=binaries /bun /bun
+RUN /bun --version
 RUN --mount=type=secret,id=IMAGEPROXY_SIGNATUREKEY \
     IMAGEPROXY_SIGNATUREKEY="$(cat /run/secrets/IMAGEPROXY_SIGNATUREKEY)" \
     /hugo

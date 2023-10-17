@@ -8,16 +8,17 @@ RUN go mod download
 
 COPY . .
 ARG TARGETOS TARGETARCH
-RUN echo targetos=${TARGETOS}
-RUN echo targetarch=${TARGETARCH}
-RUN GOOS=${TARGETOS} GOARCH=${TARGETARCH} CGO_ENABLED=0 go build -v ./cmd/caddy
-RUN GOOS=${TARGETOS} GOARCH=${TARGETARCH} CGO_ENABLED=1 go build -v --tags extended ./cmd/hugo
+RUN GOOS=${TARGETOS} GOARCH="${TARGETARCH}" CGO_ENABLED=0 go build -v ./cmd/caddy &&\
+  GOOS=${TARGETOS} GOARCH="${TARGETARCH}" CGO_ENABLED=1 go build -v --tags extended ./cmd/hugo
 
-# Final image with just caddy and hugo binaries
+FROM --platform=$BUILDPLATFORM oven/bun:1.0-distroless as bun
+
+# Final image with just caddy, hugo, and bun binaries
 FROM cgr.dev/chainguard/static:latest
 
 COPY --from=build /work/caddy /caddy
 COPY --from=build /work/hugo /hugo
+COPY --from=bun /usr/local/bin/bun /bun
 
 ENTRYPOINT ["/hugo"]
 CMD []

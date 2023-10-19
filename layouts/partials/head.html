@@ -3,6 +3,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   {{ hugo.Generator }}
   <link rel="shortcut icon" href="{{ "favicon.svg" | relURL }}">
+  <link rel="mask-icon" href="{{ "favicon.svg" | relURL }}" color="#333333">
+  <link rel="apple-touch-icon-precomposed" href="{{ "favicon.png" | relURL }}">
+  <meta name="theme-color" content="#333333">
+  <link rel="manifest" href="manifest.json">
   <link rel="canonical" href="{{ .Permalink }}">
   {{- range .AlternativeOutputFormats -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
@@ -31,7 +35,6 @@
 {{- if .IsHome }}
   <meta name="description" content="{{ $.Site.Params.description }}">
   <link rel="openid.server" href="https://indieauth.com/openid">
-  <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{ "logo.jpg" | relURL }}">
   <meta name="mobile-web-app-capable" content="yes">
 {{- else }}
   <meta name="description" content="{{ .Description | default .Summary}}">

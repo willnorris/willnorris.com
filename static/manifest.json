@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "willnorris.com",
+  "short_name": "willnorris",
+  "start_url": ".",
+  "icons": [{ "src": "favicon.png", "sizes": "256x256" }],
+  "background_color": "#ffffff",
+  "theme_color": "#333333",
+  "display": "fullscreen"
+}

@@ -6,7 +6,7 @@
   <link rel="mask-icon" href="{{ "favicon.svg" | relURL }}" color="#333333">
   <link rel="apple-touch-icon-precomposed" href="{{ "favicon.png" | relURL }}">
   <meta name="theme-color" content="#333333">
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="{{ "manifest.json" | relURL }}">
   <link rel="canonical" href="{{ .Permalink }}">
   {{- range .AlternativeOutputFormats -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

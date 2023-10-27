@@ -31,6 +31,10 @@
     {
       "rel": "http://ostatus.org/schema/1.0/subscribe",
       "template": "https://mastodon.willnorris.net/authorize_interaction?uri={uri}"
+    },
+    {
+      "rel": "http://openid.net/specs/connect/1.0/issuer",
+      "href": "https://willnorris-tttjhd.zitadel.cloud"
     }
   ]
 }

@@ -14,4 +14,4 @@ TechRadar has a [great interview with Chris DiBona][techradar] talking about ope
 topics) at Google. I've been on the compliance team at Google for the last year, so it's nice to have something I can
 point people to that explains what it is that I work on. :)
 
-[techradar]: http://www.techradar.com/us/news/software/how-open-source-changed-google-and-how-google-changed-open-source-1206582
+[techradar]: https://web.archive.org/web/2013/http://www.techradar.com/us/news/software/how-open-source-changed-google-and-how-google-changed-open-source-1206582

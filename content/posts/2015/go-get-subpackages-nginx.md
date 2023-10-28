@@ -69,6 +69,9 @@ the source repository and installing the requested package.
 
 ## Rewriting Requests with Nginx
 
+**Update 2023:** I now use the Caddy instead of nginx,
+and have an [equivalent Caddy snippet here](/2023/caddy-snippets/).
+
 As I noted above, all of my go packages are located under [willnorris.com/go][]. The simplest way I
 found to have requests for sub-packages include the same meta include as the top-level packages is
 to just rewrite the request inside nginx. And in an attempt to ensure that I don't have multiple

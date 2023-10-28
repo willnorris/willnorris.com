@@ -6,6 +6,9 @@ syndication:
   - https://twitter.com/willnorris/status/496486808859844608
 ---
 
+**Update 2023:** I now use the Caddy instead of nginx,
+and have an [equivalent Caddy snippet here](/2023/caddy-snippets/).
+
 In my ever-continuing attempt to [indiewebify][] my [new static website][], I wanted to share what I came up with for
 receiving webmentions. Being a static site, I have to use some kind of webmention sidecar to process and store the
 mentions themselves. I'm currently using [Pelle Wessman][]'s [webmention service][] on Heroku, which works pretty well.

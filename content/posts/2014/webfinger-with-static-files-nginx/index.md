@@ -6,6 +6,9 @@ syndication:
 aliases: /b/4XG1
 ---
 
+**Update 2023:** I now use the Caddy instead of nginx,
+and have an [equivalent Caddy snippet here](/2023/caddy-snippets/).
+
 A few weeks ago, I [switched my website][] from WordPress to a staticly generated site. In doing so, I had to find
 alternative solutions to some of the things I was doing with WordPress that can't be easily handled just using static
 files. One of those things is [WebFinger][] (aka [RFC 7033][]), which is a simple discovery protocol for URIs that
@@ -57,8 +60,6 @@ location = /webfinger.json {
   add_header Access-Control-Allow-Origin "*";
 }
 ```
-
-{: #config}
 
 My first location block is an exact match for the well-known WebFinger path. Within that block, I first enforce that
 only `GET` and `HEAD` requests are accepted, all others receive a 405 response. This isn't required by the spec, but

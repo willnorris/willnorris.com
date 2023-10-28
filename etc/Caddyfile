@@ -53,7 +53,6 @@
   redir /licenses/mit/ https://opensource.org/licenses/MIT
 
   redir /go/microformats/live https://go.microformats.io/
-  redir /projects/wp-openid https://github.com/diso/wordpress-openid
   redir /api/microformats/python https://python.microformats.io
 
   @search path_regexp search /(category|search|tag)/(\w+)
@@ -65,7 +64,6 @@
     query p=*
   }
   redir @postid /p/{http.request.uri.query.p}
-
 
   # redirect /w/ shortlinks to /wiki/
   @wiki path_regexp wiki /w(/.*|$)

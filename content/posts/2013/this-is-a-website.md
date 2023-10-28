@@ -1,13 +1,14 @@
 ---
 layout: link
 title: This is a Website
-date: '2013-12-12T08:46:44-08:00'
+date: "2013-12-12T08:46:44-08:00"
 aliases: /t/JG
 categories:
-- technology
+  - technology
 tags:
-- indieweb
+  - indieweb
 ---
+
 It should come as no surprise that Zeldman's post <cite>[This is a Website][]</cite> resonated with me heaviliy:
 
 > We were struggling, whether we knew it or not, to found a more fluid society. A place where everyone, not just

@@ -13,9 +13,9 @@ syndication:
 We were a Kraft household growing up, certainly eating our fair share of blue
 box mac and cheese. The steps to make it are quite simple: cook the pasta and
 drain out the water, put the pasta back in the pan, then stir in milk, butter,
-and the cheese packet.  I must have done this hundreds of times throughout my
+and the cheese packet. I must have done this hundreds of times throughout my
 childhood, never once questioning these instructions. Why would I? Of course
-*Kraft* of all companies knows how to make a pot of mac & cheese!  I mean, they
+_Kraft_ of all companies knows how to make a pot of mac & cheese! I mean, they
 even tweeted out the instructions, lest you throw away the box and find yourself
 stranded:
 
@@ -28,15 +28,15 @@ stranded:
 It wasn't until a few years into my marriage that I realized that I had been
 making mac and cheese **wrong** my entire life. Surely there are different ways
 to make mac and cheese, but is it really fair to say that the Kraft way is
-*wrong*? Yes. Yes, it is. What I saw my wife do was nothing less than
+_wrong_? Yes. Yes, it is. What I saw my wife do was nothing less than
 life-altering. Okay, well at least I still think about it every time I make mac
 and cheese, some 10 years later.
 
 You don't mix the sauce ingredients into the pasta-filled pan like a monster!
-That is the way to clumpy, grainy, cheese-powder disaster.  Instead, leave the
-pasta in the strainer and make the sauce in the empty pan first!  Only once it
+That is the way to clumpy, grainy, cheese-powder disaster. Instead, leave the
+pasta in the strainer and make the sauce in the empty pan first! Only once it
 is nice and smooth do you add the pasta back in so that you get a nice even
-coating. (In essence, you're making a roux.  Or at least you would be if the
+coating. (In essence, you're making a roux. Or at least you would be if the
 cheese packet has flour in it. I'm not sure if it does.)
 
 It turns out that this is what [Annie's](https://www.annies.com/) has instructed

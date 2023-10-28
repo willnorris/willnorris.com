@@ -1,13 +1,14 @@
 ---
 title: Shibboleth definition
-date: '2007-04-19T00:17:47-07:00'
+date: "2007-04-19T00:17:47-07:00"
 aliases: [/b/3n21, /b/35, /p/185]
 categories:
-- identity
-- technology
+  - identity
+  - technology
 tags:
-- shibboleth
+  - shibboleth
 ---
+
 Perhaps the best definition of Shibboleth I've ever seen:
 
 > Shibboleth loosely translated means, "Who the fuck are you?"

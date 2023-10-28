@@ -1,16 +1,17 @@
 ---
 layout: quote
 title: Start where you are
-date: '2013-06-19T09:48:44-07:00'
+date: "2013-06-19T09:48:44-07:00"
 aliases: /b/H8
 categories:
-- personal
-- technology
+  - personal
+  - technology
 tags:
-- osb13
+  - osb13
 syndication:
-- https://plus.google.com/+willnorris/posts/QTSPJem4v4y
+  - https://plus.google.com/+willnorris/posts/QTSPJem4v4y
 ---
+
 > Start where you are.  
 > Use what have.  
 > Do what you can.

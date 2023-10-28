@@ -3,8 +3,9 @@ title: GopherCon Family Track
 date: "2016-06-22T09:42:24-07:00"
 aliases: /b/4hu1
 syndication:
- - https://twitter.com/willnorris/status/745660232785813504
+  - https://twitter.com/willnorris/status/745660232785813504
 ---
+
 So I just got an email about [GopherCon][]'s Significant Other and Family Track:
 
 > Summer is a great time of year to travel with our loved ones. We're excited to announce that
@@ -18,7 +19,7 @@ So I just got an email about [GopherCon][]'s Significant Other and Family Track:
 > gorgeous country outside of Denver on Tuesday. Wednesday we'll have a chance to tinker during Hack
 > Day. We'll also have family-friendly meetups in the evenings.
 
-This is amazingly cool!  I don't think I've ever seen a conference that specifically planned
+This is amazingly cool! I don't think I've ever seen a conference that specifically planned
 something like this for families.
 
 [GopherCon]: https://www.gophercon.com/

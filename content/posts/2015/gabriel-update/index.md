@@ -1,12 +1,12 @@
 ---
 title: Gabriel Update
-date: '2015-02-13T14:20:08-08:00'
+date: "2015-02-13T14:20:08-08:00"
 aliases: /b/4_e1
 gallery: true
 syndication:
- - https://www.facebook.com/willnorris/posts/10152512521341841
- - https://plus.google.com/+willnorris/posts/RFidPNrwwHq
- - https://twitter.com/willnorris/status/566382236203634688
+  - https://www.facebook.com/willnorris/posts/10152512521341841
+  - https://plus.google.com/+willnorris/posts/RFidPNrwwHq
+  - https://twitter.com/willnorris/status/566382236203634688
 image:
   url: DSC07158.jpg
   alt: Gabriel with lamb from Ireland
@@ -14,26 +14,26 @@ image:
 ---
 
 My [post last week][] was supposed to just be a teaser, immediately followed by a post containing
-more details about Gabriel's birth.  Then things got busy and now a week has slipped by.  So, even
+more details about Gabriel's birth. Then things got busy and now a week has slipped by. So, even
 thought it's a little later than I intended, here's an update.
 
 I guess the first thing is to formally announce that [Elisabeth][] and I now have a son, [Gabriel
-James Norris][].  Many people didn't know we were pregnant, as we only shared that with family and a
-handful of close friends at the time.  But here he is, as healthy and sweet as can be.
+James Norris][]. Many people didn't know we were pregnant, as we only shared that with family and a
+handful of close friends at the time. But here he is, as healthy and sweet as can be.
 
 He was born last week on February 3rd (exactly one week before his expected due date) at a planned
-home birth.  The birth itself went very smoothly; Elisabeth woke up around 7am with early labor
-pains.  Our midwife came over in the afternoon for a normal follow-up appointment, and determined
-that Elisabeth was definitely in the beginning stages of labor.  Active labor lasted for about 8
-hours, and he was out at 9:15pm after just a few pushes, right into my hands.  Let me tell you,
+home birth. The birth itself went very smoothly; Elisabeth woke up around 7am with early labor
+pains. Our midwife came over in the afternoon for a normal follow-up appointment, and determined
+that Elisabeth was definitely in the beginning stages of labor. Active labor lasted for about 8
+hours, and he was out at 9:15pm after just a few pushes, right into my hands. Let me tell you,
 catching your own child as he is born is a pretty amazing experience!
 
-Now, a week and half into things, we're all doing really well.  Elisabeth has been on bed rest while
-she was recovering, but is now able to be up and about a lot more.  Gabe has been having a little
-trouble latching on while nursing, partially due to a lip and tongue tie.  We took him to the
+Now, a week and half into things, we're all doing really well. Elisabeth has been on bed rest while
+she was recovering, but is now able to be up and about a lot more. Gabe has been having a little
+trouble latching on while nursing, partially due to a lip and tongue tie. We took him to the
 dentist this past week to have a frenectomy done, where they used a laser to release both ties.
-He's still having a bit of trouble latching, but it's been a marked improvement.  In the meantime,
-we've been hand feeding him breast milk with a syringe and small tube.  We're doing that instead of
+He's still having a bit of trouble latching, but it's been a marked improvement. In the meantime,
+we've been hand feeding him breast milk with a syringe and small tube. We're doing that instead of
 a bottle for now in the hopes that it will make transitioning back to the breast a little easier.
 He's still not gaining as much weight as we would like to see, but we're confident we'll get there.
 But hand feeding also means that we can share the job of feeding, which has been a nice break for
@@ -44,15 +44,14 @@ Elisabeth, and has given me more bonding time with Gabe, which is great.
   <figcaption>Feeding Gabriel with a syringe</figcaption>
 </figure>
 
-
 Finally, we also did two newborn photo shoots this week, trying to capture this brief moment in his
-life while we can.  The video below and photos throughout this post are from the first shoot we did
+life while we can. The video below and photos throughout this post are from the first shoot we did
 on Monday with [Monica Michelle][], who we absolutely love and have been working with all throughout
 and even before the pregnancy.
 
-*(A small note to family: please don't print these photos... they're relatively low resolution
-versions that we uploaded just for web viewing.  We have much higher resolution copies that are more
-suitable for printing, and promise that we will get those to you.)*
+_(A small note to family: please don't print these photos... they're relatively low resolution
+versions that we uploaded just for web viewing. We have much higher resolution copies that are more
+suitable for printing, and promise that we will get those to you.)_
 
 <figure>
   <video src="gabriel-newborn-shoot.mp4" poster="gabriel-newborn-shoot-poster.jpg" width="640" controls class="aligncenter">
@@ -78,18 +77,18 @@ suitable for printing, and promise that we will get those to you.)*
 
 And finally, a huge thank you to our birth team: our midwife [Sharon Economides][], our secondary
 midwife [Heather Briggs][], our doula [Natalie Anderson][], and our birth photographer [Stephanie
-Morgan][].  Thanks to [Lori Ismail][] at [Blossom Birth][] who, in combination with all of the
+Morgan][]. Thanks to [Lori Ismail][] at [Blossom Birth][] who, in combination with all of the
 preparation we received from Sharon, really helped educate us to make well-informed decisions
-regarding every aspect of this birth.  And also to [Daniella Dayoub][] who has spent the last year
-and half getting Elisabeth (and me) on track physically and nutritionally.  We have no doubt that
+regarding every aspect of this birth. And also to [Daniella Dayoub][] who has spent the last year
+and half getting Elisabeth (and me) on track physically and nutritionally. We have no doubt that
 the pregnancy and birth went as smoothly as it did thanks to all of the preparation that was done
-beforehand.  I specifically mention each one of these people because they are all amazing at their
+beforehand. I specifically mention each one of these people because they are all amazing at their
 jobs, and I would heartily recommend them for anyone that requires any of their services.
 
 While I don't have any direct experience with hospital births to compare this to, I couldn't imagine
-a more peaceful and natural birth than we had with this team.  From our previous research, and now
+a more peaceful and natural birth than we had with this team. From our previous research, and now
 our own firsthand experience, Elisabeth and I are both big believers in home birth for those
-families for whom it is an option.  I suspect that either or both of us will likely talk more about
+families for whom it is an option. I suspect that either or both of us will likely talk more about
 that in future posts.
 
 [post last week]: /2015/02/gabriel

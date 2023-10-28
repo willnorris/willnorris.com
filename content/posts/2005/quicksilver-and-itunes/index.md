@@ -1,15 +1,16 @@
 ---
 title: quicksilver and itunes
-date: '2005-06-27T12:26:01-05:00'
+date: "2005-06-27T12:26:01-05:00"
 aliases: [/b/3b11, /b/i, /p/43]
 categories:
-- technology
+  - technology
 tags:
-- itunes
-- applescript
-- quicksilver
-- osx
+  - itunes
+  - applescript
+  - quicksilver
+  - osx
 ---
+
 I'm generally a big fan of the Unix axiom of applications doing one thing and doing it well, but when each of those
 applications is running all the time and takes up 20MB of active memory I tend to make an exception and [Quicksilver][]
 is providing an excellent alternative to several smalls apps I use.
@@ -17,15 +18,15 @@ is providing an excellent alternative to several smalls apps I use.
 [Quicksilver]: https://qsapp.com/
 
 I originally used [MenuTunes][], and most recently [Synergy][] to provide global "hotkeys" to do some simple things like
-play/pause iTunes, skip to next or previous track, and display some information about the current track.  Quicksilver's
-triggers are ideal for this -- it allows you to create keyboard shortcuts to perform any Quicksilver action.  This let
+play/pause iTunes, skip to next or previous track, and display some information about the current track. Quicksilver's
+triggers are ideal for this -- it allows you to create keyboard shortcuts to perform any Quicksilver action. This let
 me setup keys for play/pause and next/previous track.
 
 Additionally I setup the iTunes Quicksilver plugin to display track notifications and to send those notifications to
-[Growl][], however the plugin only displays notifications when something happens like the track changes.  I want to be
+[Growl][], however the plugin only displays notifications when something happens like the track changes. I want to be
 able to display track info at any time so I whipped up this simple Applescript, saved it to my scripts folder, and
-assigned it to a Quicksilver trigger.  This will display the exact same as the built-in iTunes notification in
-Quicksilver with the addition of track time, current position, and ratings stars.  It's a very simple matter of
+assigned it to a Quicksilver trigger. This will display the exact same as the built-in iTunes notification in
+Quicksilver with the addition of track time, current position, and ratings stars. It's a very simple matter of
 displaying more or less info for the track.
 
 <figure class="aligncenter">
@@ -34,7 +35,7 @@ displaying more or less info for the track.
 
 [updated 09 Aug 2005 to work when no artwork is present]
 
-``` applescript
+```applescript
 tell application "iTunes"
     set currentTrack to current track
     set theArtworks to artworks of currentTrack

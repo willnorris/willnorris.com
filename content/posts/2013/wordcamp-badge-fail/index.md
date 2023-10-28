@@ -1,13 +1,14 @@
 ---
 title: WordCamp badge fail
-date: '2013-07-26T14:19:01-07:00'
+date: "2013-07-26T14:19:01-07:00"
 aliases: /b/HQ
 categories:
-- technology
+  - technology
 tags:
-- wordcamp
-- ownyouridentity
+  - wordcamp
+  - ownyouridentity
 ---
+
 Last December, Matt Mullenweg [linked to][] a post titled [A lawyer’s home base on the web is their blog][home base],
 advocating the use of a personal website as your primary identity online.
 
@@ -22,23 +23,23 @@ other efforts that encourage individuals to take more control of their online id
 </figure>
 
 So imagine my disappointment this morning when I checked in at WordCamp San Francisco, only to discover that my badge
-has my Twitter handle, but not my website URL!  And it's not like they don't have attendees' URLs... they were collected
-at registration and are even listed on the [2013 Attendee page].  I'm not terribly surprised either, as their
+has my Twitter handle, but not my website URL! And it's not like they don't have attendees' URLs... they were collected
+at registration and are even listed on the [2013 Attendee page]. I'm not terribly surprised either, as their
 registration emails hinted at it, and I [tried to ask about it][], but with no response.
 
 This same thing actually happened at WordCamp Portland a few years ago, and I similarly gave them a hard time about it.
-This is a **WordPress** conference, for crying out loud.  Why would you not give me the opportunity to identify myself
-using my blog URL?  Since when did Twitter become the default identifier for WordPress users?
+This is a **WordPress** conference, for crying out loud. Why would you not give me the opportunity to identify myself
+using my blog URL? Since when did Twitter become the default identifier for WordPress users?
 
 I can at least give WordCamp Portland a break, since that was the first year for that event, and I don't believe the
-organizers had as much of a history with WordPress.  But this is WordCamp San Francisco... *the* main WordCamp of the
+organizers had as much of a history with WordPress. But this is WordCamp San Francisco... _the_ main WordCamp of the
 year, organized by Automattic.
 
 It's really hard to take Matt and others seriously when they talk about the importance of owning your data when things
-like this happen.  But not to worry, [I fixed my badge][].
+like this happen. But not to worry, [I fixed my badge][].
 
-**Update:** And it's worth noting that aside from the lack of URL, I totally love this year's badges!  Well made, well
-designed, double-sided, overall really well done!  And WordCamp itself has been great this year with really good
+**Update:** And it's worth noting that aside from the lack of URL, I totally love this year's badges! Well made, well
+designed, double-sided, overall really well done! And WordCamp itself has been great this year with really good
 sessions.
 
 [linked to]: http://ma.tt/2012/12/real-lawyers-have-blogs/

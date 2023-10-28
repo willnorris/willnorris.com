@@ -1,10 +1,11 @@
 ---
 title: privacy resolutions for 2005
-date: '2004-12-25T06:52:07-06:00'
+date: "2004-12-25T06:52:07-06:00"
 aliases: [/b/3Yx1, /b/1a, /p/95]
 categories:
-- identity
+  - identity
 ---
+
 I've always been big on consumer privacy, and loved seeing this link listed on slashdot...
 
 <http://www.epic.org/privacy/2004tips.html>

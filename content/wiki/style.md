@@ -103,7 +103,7 @@ func main() {
 Code sample with line numbers and highlighting:
 
 ```html {linenos=inline,hl_lines=[2,"7-9"],linenostart=199}
-<!DOCTYPE html>
+<!doctype html>
 <!-- html code sample -->
 <html>
   <head>

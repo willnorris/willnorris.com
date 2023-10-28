@@ -1,15 +1,16 @@
 ---
 title: Comatose
-date: '2006-10-05T19:28:36-07:00'
+date: "2006-10-05T19:28:36-07:00"
 aliases: [/b/3in1, /b/2d, /p/158]
 categories:
-- music
+  - music
 tags:
-- music
-- skillet
+  - music
+  - skillet
 ---
+
 I figure most of the people who read my blog (all 3 of you) will already be privy to this, but anyone else needs to
-checkout [Skillet][]'s new album "Comatose".  (I'm looking at you [James][], I think you'd like it.)  That's all... you
+checkout [Skillet][]'s new album "Comatose". (I'm looking at you [James][], I think you'd like it.) That's all... you
 can thank me later.
 
 <a href="https://itunes.apple.com/us/album/comatose/id668404397?uo=4">

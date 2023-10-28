@@ -1,19 +1,20 @@
 ---
 title: Display likes in a facepile
-date: '2014-03-09T22:42:59-07:00'
+date: "2014-03-09T22:42:59-07:00"
 aliases: /b/K6
 categories:
-- technology
+  - technology
 tags:
-- indieweb
-- facepile
-- webmention
+  - indieweb
+  - facepile
+  - webmention
 syndication:
-- https://twitter.com/willnorris/status/442898718824476673
+  - https://twitter.com/willnorris/status/442898718824476673
 ---
+
 This weekend I got webmentions working on my site again, and now thanks to [brid.gy](http://brid.gy) I have Twitter
-likes, Google +1s, etc feeding back into my site.  By default though, they display as normal WordPress comments.
-Tonight, I got them displaying as a facepile.  For example, see the bottom of my [IndieWebCamp 2014
+likes, Google +1s, etc feeding back into my site. By default though, they display as normal WordPress comments.
+Tonight, I got them displaying as a facepile. For example, see the bottom of my [IndieWebCamp 2014
 post](/2014/03/indiewebcamp-2014).
 
 There's still more I'd like to do with the UI, and the code needs to be cleaned up quite a bit so I can start sending it

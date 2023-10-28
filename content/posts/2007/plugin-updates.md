@@ -1,20 +1,21 @@
 ---
 title: plugin updates
-date: '2007-10-01T00:31:26-07:00'
+date: "2007-10-01T00:31:26-07:00"
 aliases: [/b/3pn1, /b/3J, /p/198]
 categories:
-- identity
-- technology
+  - identity
+  - technology
 tags:
-- wordpress
-- openid
-- yadis
-- wp-openid
+  - wordpress
+  - openid
+  - yadis
+  - wp-openid
 ---
+
 In trying to reach my [Oct 1 goal][], I did a good bit of work on two of my plugins this weekend, [wp-openid][] and
-[wp-yadis][].  For anyone that has been trying these plugins recently, please download the latest from subversion and
-see how they work for you.  I've tested with Wordpress 2.3 using PHP 5.2.2 and PHP 4.4.7.  I didn't actually try
-Wordpress 2.2 myself, but I can't think of any reason there should be problems.  Please let me know your results in the
+[wp-yadis][]. For anyone that has been trying these plugins recently, please download the latest from subversion and
+see how they work for you. I've tested with Wordpress 2.3 using PHP 5.2.2 and PHP 4.4.7. I didn't actually try
+Wordpress 2.2 myself, but I can't think of any reason there should be problems. Please let me know your results in the
 comments here or by email.
 
 **update**: I've also added Alexandre Passant's nice FOAF/SIOC [auto-discovery code][].

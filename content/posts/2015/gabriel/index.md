@@ -1,6 +1,6 @@
 ---
 title: Hello, World
-date: '2015-02-05T22:23:35-08:00'
+date: "2015-02-05T22:23:35-08:00"
 aliases: /p/4_Y1
 image:
   url: gabriel.jpg

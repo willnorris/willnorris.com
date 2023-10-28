@@ -1,12 +1,12 @@
 ---
 title: states I've visited
-date: '2004-02-17T08:09:38-06:00'
+date: "2004-02-17T08:09:38-06:00"
 aliases: [/b/3Tk1, /b/1y, /p/118]
 categories:
-- personal
+  - personal
 tags:
-- vacation
-- travel
+  - vacation
+  - travel
 ---
 
 <figure class="aligncenter">

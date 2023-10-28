@@ -1,15 +1,16 @@
 ---
 title: IndieWebCamp SF 2014
-date: '2014-03-08T15:31:14-08:00'
+date: "2014-03-08T15:31:14-08:00"
 aliases: /b/K4
 categories:
-- technology
+  - technology
 tags:
-- indiewebcamp
+  - indiewebcamp
 syndication:
-- https://twitter.com/willnorris/status/442442729616723969
-- https://plus.google.com/+willnorris/posts/5nXLoehYNdz
+  - https://twitter.com/willnorris/status/442442729616723969
+  - https://plus.google.com/+willnorris/posts/5nXLoehYNdz
 ---
+
 There's only a couple of hours left in [IndieWebCamp SF 2014](https://indieweb.org/2014/SF), and it's been a really
 productive weekend.
 
@@ -19,18 +20,18 @@ productive weekend.
 </figure></aside>
 
 I mostly got [Webmentions](http://webmention.org/) working last year, but my implementation wasn't good enough that it
-stuck... I ending up disabling things before too long.  This year, the WordPress plugin is in much better shape, I'm
+stuck... I ending up disabling things before too long. This year, the WordPress plugin is in much better shape, I'm
 using a much better WordPress theme (Genesis), and [brid.gy](http://brid.gy) exists to bridge my site with various
-silos.  Now, interactions on Google+, Facebook, and Twitter are retrieved by brid.gy, converted to webmentions, sent to
-my site, and stored as local comments.  There's still a little work to do to have likes and +1s to be displayed as a
+silos. Now, interactions on Google+, Facebook, and Twitter are retrieved by brid.gy, converted to webmentions, sent to
+my site, and stored as local comments. There's still a little work to do to have likes and +1s to be displayed as a
 facepile, rather than a regular comment, but it's definitely good enough for now.
 
 We also spent a lot of time talking through the challenges of running a site with HTTPS, and what levels of SSL support
-people should try to achieve and where that fits in with [IndieMark](https://indieweb.org/IndieMark).  I'm not sure
+people should try to achieve and where that fits in with [IndieMark](https://indieweb.org/IndieMark). I'm not sure
 if all the notes have made it into the wiki yet<strike>, but the etherpad from the session is available</strike>.
 
 Finally, I really came to realize that we have a **long** way to go to make it easier for WordPress users to get set up
-on the indie web.  Though I'm happy to report that [Dan Gillmor][], [Scott Jenson][], and [Darius Dunlap][] also got
+on the indie web. Though I'm happy to report that [Dan Gillmor][], [Scott Jenson][], and [Darius Dunlap][] also got
 their WordPress sites up and running with webmentions and brid.gy.
 
 [Dan Gillmor]: http://dangillmor.com/2014/03/08/learning-about-and-deploying-indieweb-tools/

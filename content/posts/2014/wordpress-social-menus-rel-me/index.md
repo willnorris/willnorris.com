@@ -1,33 +1,34 @@
 ---
 title: Adding rel="me" to WordPress Social Menus
-date: '2014-01-21T23:06:32-08:00'
+date: "2014-01-21T23:06:32-08:00"
 aliases: /b/Js
 categories:
-- identity
-- technology
+  - identity
+  - technology
 tags:
-- wordpress
-- xfn
-- indieauth
-- rel=me
+  - wordpress
+  - xfn
+  - indieauth
+  - rel=me
 ---
+
 **Update:** As Kaspars points out in the comments below, it is indeed possible to set the rel value on menu links
-directly from within WordPress.  I just had the option hidden for some reason.  So definitely implement a Social menu
+directly from within WordPress. I just had the option hidden for some reason. So definitely implement a Social menu
 location in any themes you're working on, and just ignore my code snippet below.
 
-Tonight I came across  Konstantin Kovshenin's post, [WordPress Social Menus][][^1], where he describes a technique he
-noticed in one of [Justin Tadlock][]'s themes.  I must say that looking at it now it seems so obvious, and I'm sort of
+Tonight I came across Konstantin Kovshenin's post, [WordPress Social Menus][][^1], where he describes a technique he
+noticed in one of [Justin Tadlock][]'s themes. I must say that looking at it now it seems so obvious, and I'm sort of
 embarrassed that it never occurred to me before.
 
 It's common for blogs to link to the individual's various social media profiles, and there are dozens of themes and
-plugins that each have their own way of handling this.  What Justin does, and what Konstantin is now trying to promote,
+plugins that each have their own way of handling this. What Justin does, and what Konstantin is now trying to promote,
 is to setup a special "social" menu location within WordPress that users can assign a menu to (or fallback to using the
-standard Custom Menu widget if the theme doesn't have the social menu location).  Using a few conventions and CSS
+standard Custom Menu widget if the theme doesn't have the social menu location). Using a few conventions and CSS
 techniques, it becomes very easy for a theme to provide custom icons or styling of the social menu without having a
-dozen incompatible ways to store the data.  It's actually quite brilliant, and I really hope this becomes more commonly
+dozen incompatible ways to store the data. It's actually quite brilliant, and I really hope this becomes more commonly
 supported in WordPress themes.
 
-## rel="me" ##
+## rel="me"
 
 <aside class="alignright outset"><figure>
   <img src="rel-me-shirt.jpg" alt="T-shirt with slogan: I love me some rel=&quot;me&quot;" width="200" /> 
@@ -38,11 +39,11 @@ The one thing that I haven't seen mentioned so far, however, is adding [rel="me"
 Together with links from those profiles back to your site, this allows others verify that these really are your
 profiles, and is the foundation for things like [IndieAuth][].
 
-Adding rel="me" tags to your social menus is actually quite simple using WordPress's `wp_nav_menu_objects` filter.  Just
+Adding rel="me" tags to your social menus is actually quite simple using WordPress's `wp_nav_menu_objects` filter. Just
 add the following code snippet to your theme, or better yet in a simple [must-use plugin][] so it will stick around even
 when you change themes.
 
-``` php
+```php
 /** Add rel="me" to social menu items. */
 function social_menu_objects($items, $args) {
     if ( 'social' == $args->menu->name ) {
@@ -66,6 +67,6 @@ I'm now using this technique to power my social media links in the footer of thi
 [IndieAuth]: https://indieauth.com/
 [must-use plugin]: https://codex.wordpress.org/Must_Use_Plugins
 
-[^1]: What's particularly interesting to me is exactly *how* I came across Konstantin's post – via a [Google Now website update][] card.  I have these cards pop up in Google Now all the time, but never have I had one quite as relevant to my interests as this.
+[^1]: What's particularly interesting to me is exactly _how_ I came across Konstantin's post – via a [Google Now website update][] card. I have these cards pop up in Google Now all the time, but never have I had one quite as relevant to my interests as this.
 
 [Google Now website update]: https://support.google.com/websearch/answer/3536954?hl=en

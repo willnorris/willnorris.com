@@ -1,13 +1,14 @@
 ---
-title: '...continued'
-date: '2003-06-18T21:14:17-05:00'
+title: "...continued"
+date: "2003-06-18T21:14:17-05:00"
 aliases: [/b/3Ph1, /b/1g, /p/101]
 categories:
-- technology
+  - technology
 tags:
-- google
-- rtfm
+  - google
+  - rtfm
 ---
+
 and while i'm at it, I know a few people that could learn from Bart here...
 
 <img src="bartgoogle.gif" 

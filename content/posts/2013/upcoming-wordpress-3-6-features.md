@@ -1,13 +1,14 @@
 ---
 layout: link
 title: Upcoming WordPress 3.6 features
-date: '2013-01-07T12:36:51-08:00'
+date: "2013-01-07T12:36:51-08:00"
 aliases: /t/Ga
 categories:
-- technology
+  - technology
 syndication:
-- https://plus.google.com/+willnorris/posts/Vg21SJyeqQK
+  - https://plus.google.com/+willnorris/posts/Vg21SJyeqQK
 ---
+
 Mark Jaquith [talking about WordPress 3.6][], which will be focused on the post authoring experience:
 
 > I want people to trust WordPress with their posts. They should never fear that something they’ve spent time creating

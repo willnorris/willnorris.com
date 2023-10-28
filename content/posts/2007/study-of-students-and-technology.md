@@ -1,15 +1,16 @@
 ---
 title: Study of Students and Technology
-date: '2007-09-11T15:58:24-07:00'
+date: "2007-09-11T15:58:24-07:00"
 aliases: [/b/3pT1, /b/3G, /p/196]
 categories:
-- technology
+  - technology
 tags:
-- educause
-- college-students
-- technology
-- marketing
+  - educause
+  - college-students
+  - technology
+  - marketing
 ---
+
 The Educause Center for Applied Research (ECAR) published today <cite>[The ECAR Study of Undergraduate Students and
 Information Technology, 2007][study]</cite>.
 

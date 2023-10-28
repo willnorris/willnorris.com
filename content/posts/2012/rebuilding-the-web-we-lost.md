@@ -1,16 +1,17 @@
 ---
 layout: link
 title: Rebuilding the Web We Lost
-date: '2012-12-18T17:58:17-08:00'
+date: "2012-12-18T17:58:17-08:00"
 aliases: /t/GW
 categories:
-- technology
+  - technology
 tags:
-- diso
-- indieweb
+  - diso
+  - indieweb
 syndication:
-- https://plus.google.com/+willnorris/posts/GTrYLPv2tpk
+  - https://plus.google.com/+willnorris/posts/GTrYLPv2tpk
 ---
+
 Anil Dash follows up his essay from last week with [Rebuilding the Web We Lost][]:
 
 > But the most important question we can ask is: How do we rebuild the positive aspects of the web we lost? There are a
@@ -18,6 +19,6 @@ Anil Dash follows up his essay from last week with [Rebuilding the Web We Lost][
 > accept if we're going to return the web to the values that a generation of creators cared about.
 
 Color me inspired and ready to jump backing to putting into practice the principles I've been professing for so many
-years.  It's time to stop talking and (re)start doing.
+years. It's time to stop talking and (re)start doing.
 
 [Rebuilding the Web We Lost]: http://dashes.com/anil/2012/12/rebuilding-the-web-we-lost.html

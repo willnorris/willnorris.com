@@ -1,22 +1,23 @@
 ---
 title: New WordPress project structure
-date: '2013-08-06T13:50:30-07:00'
+date: "2013-08-06T13:50:30-07:00"
 aliases: /b/Hd
 categories:
-- technology
+  - technology
 tags:
-- wordpress
+  - wordpress
 syndication:
-- https://plus.google.com/+willnorris/posts/19gDev77ofa
+  - https://plus.google.com/+willnorris/posts/19gDev77ofa
 ---
+
 I've submitted maybe a few dozen patches to WordPress core, but must confess that I've never actually submitted tests
-for those patches.  Part of the reason is that it's not entirely intuitive, given that tests are managed in a
-[completely separate repository](http://unit-tests.svn.wordpress.org/).  
+for those patches. Part of the reason is that it's not entirely intuitive, given that tests are managed in a
+[completely separate repository](http://unit-tests.svn.wordpress.org/).
 
 That's all about to change. A couple of weeks ago at WordCamp San Francisco, [Koop][] approached a
 few of us with his idea for restructuring WordPress to have a "proper" project structure, with a real build system,
-integrated tests, moving compiled artifacts out of version control, etc.  Basically, all the things that you would
-expect of a modern open source project, but which WordPress has lacked for historical reasons.  Koop is a bit of a maven
+integrated tests, moving compiled artifacts out of version control, etc. Basically, all the things that you would
+expect of a modern open source project, but which WordPress has lacked for historical reasons. Koop is a bit of a maven
 of great development tools and workflows (check out his amazing [impromptu](https://github.com/Impromptu) project he
 developed with [Evan Solomon][]), so he's absolutely the right person to be leading an effort like
 this.

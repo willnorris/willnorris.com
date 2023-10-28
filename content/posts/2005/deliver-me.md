@@ -1,13 +1,14 @@
 ---
 title: Deliver me
-date: '2005-11-22T23:22:58-06:00'
+date: "2005-11-22T23:22:58-06:00"
 aliases: [/b/3dW1, /b/1G, /p/76]
 categories:
-- personal
+  - personal
 tags:
-- life
+  - life
 ---
-Have you ever read a passage for the first time... having read it dozens of times before?  Or met someone for the first
+
+Have you ever read a passage for the first time... having read it dozens of times before? Or met someone for the first
 time... having known them most of your life?
 
 > All of my life, I've been in hiding<br>

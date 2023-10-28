@@ -1,10 +1,11 @@
 ---
 title: Google Error
-date: '2007-02-25T23:06:46-08:00'
+date: "2007-02-25T23:06:46-08:00"
 aliases: [/b/3mA1, /b/2x, /p/177]
 categories:
-- technology
+  - technology
 ---
+
 Hmm.... seems like maybe Google needs turn down the sensitivity just a bit on their virus/spyware detector. (note the
 search term)
 

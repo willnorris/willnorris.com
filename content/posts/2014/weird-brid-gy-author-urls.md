@@ -1,31 +1,37 @@
 ---
 layout: aside
 title: weird brid.gy author URLs
-date: '2014-05-28T13:50:27-07:00'
+date: "2014-05-28T13:50:27-07:00"
 aliases: /t/KN
 categories:
-- technology
+  - technology
 tags:
-- indieweb
-- brid.gy
+  - indieweb
+  - brid.gy
 syndication:
-- https://github.com/snarfed/bridgy/issues/160
+  - https://github.com/snarfed/bridgy/issues/160
 ---
+
 For a while, I've noticed that [brid.gy][] was providing `profiles.google.com` URLs for authors for some Google+
-activities.  Today, I dug into it a little and discovered that it's only doing this for +1s; Google+ reshares have the
-expected `plus.google.com` author URLs.  For example, compare the links on the two rows of faces in the "Likes and
+activities. Today, I dug into it a little and discovered that it's only doing this for +1s; Google+ reshares have the
+expected `plus.google.com` author URLs. For example, compare the links on the two rows of faces in the "Likes and
 Reposts" of [this post][].
 
-Next I looked at the markup brid.gy generates for these webmentions.  Compare an [example +1][] versus an [example
-reshare][].  The +1 contains the following snippet:
+Next I looked at the markup brid.gy generates for these webmentions. Compare an [example +1][] versus an [example
+reshare][]. The +1 contains the following snippet:
 
-``` html
+```html
 <div class="h-card p-author">
-    <div class="p-name"><a class="u-url" href="https://profiles.google.com/105078911987805797425">Cristian Gary Bufadel</a></div>
-<a class="u-url" href="https://plus.google.com/105078911987805797425"></a>
+  <div class="p-name">
+    <a class="u-url" href="https://profiles.google.com/105078911987805797425"
+      >Cristian Gary Bufadel</a
+    >
+  </div>
+  <a class="u-url" href="https://plus.google.com/105078911987805797425"></a>
+</div>
 ```
 
-The author h-card contains two URLs, one with `profiles.google.com` and one with `plus.google.com`.  And the latter has
+The author h-card contains two URLs, one with `profiles.google.com` and one with `plus.google.com`. And the latter has
 no link text, it's just empty.
 
 This certainly looks like a bug. I glanced at the [brid.gy code][] briefly, but didn't immediately find the culprit.

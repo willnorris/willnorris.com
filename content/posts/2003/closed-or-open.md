@@ -1,10 +1,11 @@
 ---
 title: closed or open
-date: '2003-11-23T04:26:39-06:00'
+date: "2003-11-23T04:26:39-06:00"
 aliases: [/b/3SK1, /b/22, /p/122]
 categories:
-- personal
+  - personal
 ---
+
 It's early morning<br>
 No one is awake<br>
 I'm back at my cliff<br>

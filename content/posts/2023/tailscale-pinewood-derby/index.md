@@ -60,7 +60,7 @@ PHP to run DerbyNet, and connecting to our race timer over a USB-to-serial adapt
 
 The Caddy config was very simple:
 
-``` caddyfile
+```caddyfile
 :8080 {
   root website
   file_server {
@@ -79,10 +79,11 @@ The Caddy config was very simple:
 </figure>
 
 Once we had that working, we added:
- - several volunteers' phones used to check-in Scouts as they arrived
- - an iPad used by the track manager to know which cars to place on which lanes
- - a Pixelbook set up on a table showing times and standings at the end of each run
-   (ideally this would have been connected to a large monitor)
+
+- several volunteers' phones used to check-in Scouts as they arrived
+- an iPad used by the track manager to know which cars to place on which lanes
+- a Pixelbook set up on a table showing times and standings at the end of each run
+  (ideally this would have been connected to a large monitor)
 
 DerbyNet also allows parents to vote on the design awards,
 and we knew that was something we wanted to support if possible.
@@ -100,7 +101,6 @@ Our device setup looked a little something like this:
   <a href="devices.png"><img src="devices.png" width="600" alt="Network diagram showing two laptops
     tethered to a phone, an iPad tethered to a separate phone, and a collection of other phones."></a>
 </figure>
-
 
 ## Tailscale makes the connection
 
@@ -121,8 +121,7 @@ Because they were tethered on the same phone, Tailscale connected them directly 
 To provide access for the track manager, I used Tailscale [Funnel] to expose the DerbyNet server to the public internet.
 On my laptop, that was as simple as running:
 
-
-``` sh
+```sh
 $ tailscale serve https / http://127.0.0.1:8080
 $ tailscale funnel 443 on
 ```
@@ -138,7 +137,7 @@ I set up a reverse proxy on [derby.pack263.org] to direct traffic to Tailscale F
 It wasn't really necessary, but the reverse proxy was so simple to do in Caddy
 (with automatic SSL cert provisioning and all):
 
-``` caddyfile
+```caddyfile
 derby.pack263.org {
   reverse_proxy https://derby.tailnet.ts.net {
     header_up Host {upstream_hostport}

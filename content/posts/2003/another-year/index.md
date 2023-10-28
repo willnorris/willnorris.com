@@ -1,13 +1,14 @@
 ---
 title: another year
-date: '2003-07-30T00:32:25-05:00'
+date: "2003-07-30T00:32:25-05:00"
 aliases: [/b/3QP1, /b/1h, /p/102]
 categories:
-- personal
+  - personal
 tags:
-- birthday
-- drinking
+  - birthday
+  - drinking
 ---
+
 happy birthday to me
 
 <figure>
@@ -16,5 +17,5 @@ happy birthday to me
 
 i went down the streat and bought a corona just for fun... but just realized these damn tops don't twist off! :-)
 
-[update]well, i'd definitely have to say that beer is an acquired taste...  not sure that it's one i'd like to acquire
+[update]well, i'd definitely have to say that beer is an acquired taste... not sure that it's one i'd like to acquire
 however.

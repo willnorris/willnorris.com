@@ -1,18 +1,19 @@
 ---
 title: OpenID and WordPress Core
-date: '2009-09-29T13:17:19-07:00'
+date: "2009-09-29T13:17:19-07:00"
 aliases: [/b/41w1, /b/Ed, /p/878]
 categories:
-- identity
-- technology
+  - identity
+  - technology
 tags:
-- wordpress
-- openid
-- wp-openid
+  - wordpress
+  - openid
+  - wp-openid
 ---
-*This was actually [a comment][] I left on my last post about the v3.3 release of the OpenID plugin.  It is a topic that
-comes up relatively often, and one in which most people are surprised when they hear my stance on it.  It's worthy of a
-separate discussion for those that are interested, so I've pulled it out into a separate post.*
+
+_This was actually [a comment][] I left on my last post about the v3.3 release of the OpenID plugin. It is a topic that
+comes up relatively often, and one in which most people are surprised when they hear my stance on it. It's worthy of a
+separate discussion for those that are interested, so I've pulled it out into a separate post._
 
 [a comment]: /2009/09/wordpress-openid-v3-3#comment-35595
 

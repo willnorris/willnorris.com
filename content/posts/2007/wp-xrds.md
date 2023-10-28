@@ -1,19 +1,20 @@
 ---
 title: wp-xrds
-date: '2007-02-12T18:04:53-08:00'
+date: "2007-02-12T18:04:53-08:00"
 aliases: [/b/3kx1, /b/2n, /p/167]
 categories:
-- identity
-- technology
+  - identity
+  - technology
 tags:
-- wordpress
-- openid
-- yadis
-- xrds
-- delegation
+  - wordpress
+  - openid
+  - yadis
+  - xrds
+  - delegation
 ---
+
 I started writing this XRDS ([Yadis][]) plugin for wordpress several months ago, but never really finished putting in
-the features I had planned.  With [so][] [much][] [going][] [on][] in the OpenID community the past couple of weeks, I
+the features I had planned. With [so][] [much][] [going][] [on][] in the OpenID community the past couple of weeks, I
 decided to blow the dust off and clean it up a bit.
 
 [Yadis]: http://www.openidenabled.com/yadis/yadis-notes
@@ -23,28 +24,28 @@ decided to blow the dust off and clean it up a bit.
 [on]: http://blog.claimid.com/2007/02/some-changes-at-claimid/
 
 I have to say though, I've been very frustrated with the direction a lot of implementors seem to be going with their
-OpenID deployments.  It seems like everyone wants to be your identity provider... they'll hold all your data and your
-password, and you can use them to login to all of the OpenID sites.  Even better, you get to have a spiffy cool username
-with their corporate branding all over it like `http://openid.somecompany.com/users/joeuser/`.  Isn't that great?!
+OpenID deployments. It seems like everyone wants to be your identity provider... they'll hold all your data and your
+password, and you can use them to login to all of the OpenID sites. Even better, you get to have a spiffy cool username
+with their corporate branding all over it like `http://openid.somecompany.com/users/joeuser/`. Isn't that great?!
 \*sigh\* While this is all well and good for a lot of people that need something like that, this completely ignores the
-whole *user-centric* identity model this is all based on.  Unless a user is ridiculously devoted to your site and
-community, they don't want an ID under your domain.  If you're someone like [Technorati][], then all of your users
-likely have their own blog anyway, and thus their own URL to use for OpenID!  It seems that very few of the larger
+whole _user-centric_ identity model this is all based on. Unless a user is ridiculously devoted to your site and
+community, they don't want an ID under your domain. If you're someone like [Technorati][], then all of your users
+likely have their own blog anyway, and thus their own URL to use for OpenID! It seems that very few of the larger
 Identity Providers out in the wild today are really making an effort to advertise the delegation feature of OpenID,
-which I think is by far one of its most attractive qualities.  The beauty of delegation is that someone else gets to do
+which I think is by far one of its most attractive qualities. The beauty of delegation is that someone else gets to do
 the grunt-work of supporting the infrastructure for actually running the IDP, but your public face is always at your own
-domain.  Your identity is still your own... always.  If a provider says mean things about your cat or won't respond to
-your constant MySpace friend requests, it takes about 10 seconds to jump ship and move somewhere else.  This also helps
+domain. Your identity is still your own... always. If a provider says mean things about your cat or won't respond to
+your constant MySpace friend requests, it takes about 10 seconds to jump ship and move somewhere else. This also helps
 to ensure constant competition between providers to develop the best tools for managing your identity and keeping it
-secure.  While I'm curious to see what the business model will actually be in running an Identity Provider, this model
+secure. While I'm curious to see what the business model will actually be in running an Identity Provider, this model
 is certainly in the best interest of the end-user.
 
 [Technorati]: http://technorati.com/
 
-So how do you actually delegate your OpenID to another server?  It's actually relatively simple, even if you're doing it
-by hand.  All it requires is a couple of lines of code at the top of your webpage that identifies what server you want
-to use, and the ID that server knows you as.  This plugin does just that, but gives you a nice interface for managing it
-and won't break when you change themes.  [Eran Sandler][] actually has [another plugin][] that does this exact thing;
+So how do you actually delegate your OpenID to another server? It's actually relatively simple, even if you're doing it
+by hand. All it requires is a couple of lines of code at the top of your webpage that identifies what server you want
+to use, and the ID that server knows you as. This plugin does just that, but gives you a nice interface for managing it
+and won't break when you change themes. [Eran Sandler][] actually has [another plugin][] that does this exact thing;
 it's a little simpler in implementation but he has much better user documentation in the config screens... hey Eran, you
 interested in working together?
 

@@ -5,15 +5,15 @@ title: Workstation
 This page contains configuration that is common to all Mac or Linux style workstations.
 For platform specific configuration, see:
 
- - [Chromebook](../chromebook/)
- - [macOS](../macos/)
- - [Windows](../windows/)
+- [Chromebook](../chromebook/)
+- [macOS](../macos/)
+- [Windows](../windows/)
 
 ## SSH key
 
 If needed, create a new SSH key:
 
-``` sh
+```sh
 ssh-keygen -t ed25519
 ```
 

@@ -1,27 +1,28 @@
 ---
 title: Nightly WebKit builds
-date: '2005-10-13T19:33:36-05:00'
+date: "2005-10-13T19:33:36-05:00"
 aliases: [/b/3cq1, /b/1D, /p/73]
 categories:
-- technology
+  - technology
 tags:
-- osx
-- apple
-- safari
-- webkit
+  - osx
+  - apple
+  - safari
+  - webkit
 ---
+
 The WebKit team [announced][] a [new site][] today where you can download nightly builds of the latest WebKit -- very
-cool.  I went ahead and wrote the following simple shell script to automate the process of downloading and installing
+cool. I went ahead and wrote the following simple shell script to automate the process of downloading and installing
 the latest build:
 
-``` sh
+```sh
 #!/bin/sh
 
 curl -o /tmp/webkit.dmg http://nightly.webkit.org/builds/Latest-WebKit-CVS.dmg
 
 hdiutil mount /tmp/webkit.dmg
 
-if [ -d /Volumes/WebKit/WebKit.app ]; then 
+if [ -d /Volumes/WebKit/WebKit.app ]; then
     rm -rf /Applications/WebKit.app
     cp -pR /Volumes/WebKit/WebKit.app /Applications/
 fi
@@ -29,7 +30,7 @@ fi
 hdiutil detach /Volumes/WebKit
 ```
 
-Sure, it could be a little more robust (or you might prefer one of the other two builds), but it works.  Put this in a
+Sure, it could be a little more robust (or you might prefer one of the other two builds), but it works. Put this in a
 new file, `chmod +x` it, and drop it into /etc/daily to have it run each morning.
 
 _(updated 2005-12-21 to reflect new webkit packaging and fix minor bugs)_

@@ -1,16 +1,17 @@
 ---
 layout: aside
 title: Music is thought made audible
-date: '2013-04-25T10:43:46-07:00'
+date: "2013-04-25T10:43:46-07:00"
 aliases: /t/H5
 categories:
-- music
+  - music
 tags:
-- music
-- dance
+  - music
+  - dance
 ---
+
 I was listening to Forum on the drive in this morning, and they were [interviewing][] choreographer [Alonzo King][] and
-bassist and composer [Edgar Meyer][].  I absolutely loved this quote from King:
+bassist and composer [Edgar Meyer][]. I absolutely loved this quote from King:
 
 > Music is thought made audible, and dance is thought made visible.
 

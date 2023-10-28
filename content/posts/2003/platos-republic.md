@@ -1,14 +1,15 @@
 ---
 title: Plato's Republic
-date: '2003-09-07T22:34:18-05:00'
+date: "2003-09-07T22:34:18-05:00"
 aliases: [/b/3R31, /b/23, /p/123]
 categories:
-- technology
+  - technology
 tags:
-- music
-- philosophy
-- ethics
+  - music
+  - philosophy
+  - ethics
 ---
+
 I've been toying with the idea of going into IP law eventually, so I decided to take a few political science classes to
 make sure I was going to like it. So I'm currently taking a class called " Introduction to Ancient Political Thought"
 where we address such fundamental questions as "What is justice?", "What is the foundation of morality?", using Plato's
@@ -24,18 +25,18 @@ that favor themselves alone."
 
 Glaucon then tells the story of the Ring of Gyges, in which a lowly sheppard comes into possession of a powerful ring.
 He then uses that power to kill the king, take his wife, and take over the kingdom. Here he makes the argument that even
-the just man, if he can get away with it, will do injustice.  Think about it... why do people buy radar detectors? So
+the just man, if he can get away with it, will do injustice. Think about it... why do people buy radar detectors? So
 that they can do injustice and get away with it. Does that alone make them unjust people? Not necessarily, it just
 proves that they will in fact do injustice if they know they can get away with it.
 
 That example of the radar detector was given in class, but then I really got to thinking about another example, one that
-has come up in recent years.  Why do people download music online? Are they somehow unaware that it is against the law?
+has come up in recent years. Why do people download music online? Are they somehow unaware that it is against the law?
 While you will find some that claim music should be free, or that these artists have enough money as it is, you will
 find very few that are actually ignorant enough to believe such file sharing is completely legal. So why do they do it?
 Because they can; because there is little if any chance of getting caught, especially if you don't upload a large
 amount. This got me to thinking about my own music collection. I have around 8 gigs or so of music - some of which I
 ripped from CDs I own, but more often than not it was downloaded. I often justified it by saying, "well, I'm not really
-taking money from the artist because I normally wouldn't buy these CDs anyway". What a bunch of crap!  The reason i
+taking money from the artist because I normally wouldn't buy these CDs anyway". What a bunch of crap! The reason i
 downloaded them was because I liked the music, and if I liked it enough, I would go and buy it. As much as I try to be
 just, I was committing injustice because I knew I could get away with it... what a hypocrite.
 

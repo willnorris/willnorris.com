@@ -1,19 +1,19 @@
 ---
 title: She said "yes"
-date: '2007-07-08T21:41:50-07:00'
+date: "2007-07-08T21:41:50-07:00"
 aliases: [/b/3oP1, /b/3A, /p/190]
 categories:
-- personal
+  - personal
 tags:
-- engaged
-- wedding
+  - engaged
+  - wedding
 ---
 
 <figure class="alignleft">
   <img src="engagement-ring.jpg" alt="Close-up photo of Elisabeth's hand with a sapphire engagement ring" width="300">
 </figure>
 
-So about four weeks **after** we already secured the venue for our wedding, we are now officially engaged.  [I
+So about four weeks **after** we already secured the venue for our wedding, we are now officially engaged. [I
 proposed][] in the same photobooth where we [had our pictures taken][] on our first official date 18 months ago.
 
 [I proposed]: http://www.flickr.com/photos/wnorris/758348305/

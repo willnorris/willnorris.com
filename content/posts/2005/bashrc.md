@@ -1,20 +1,21 @@
 ---
 title: ~/.bashrc
-date: '2005-03-14T09:11:07-06:00'
+date: "2005-03-14T09:11:07-06:00"
 aliases: [/b/3_G1, /b/F, /p/15]
 categories:
-- technology
+  - technology
 tags:
-- bash
+  - bash
 ---
+
 It's taken me a while, but I think I've finally got my bashrc files to a setup I'm pretty happy with. I've provided it
 here in hopes that others might find it useful...
 
-The main thing I was trying to accomplish here  was to have a single set of files that I could use on all the machines I
-work on.  This becomes more complicated considering what I use... my personal machine is MacOS X, this website is hosted
-on Linux, and my primary development machine at UofM is SunOS.  Additionally, there are certain settings I want on all
-Visible School machines (regardless of OS or hostname) but no others.  Additionally, I like to have a minimalistic
-terminal prompt, so I use color to know what host I'm connected to.  What I ended up with is this
+The main thing I was trying to accomplish here was to have a single set of files that I could use on all the machines I
+work on. This becomes more complicated considering what I use... my personal machine is MacOS X, this website is hosted
+on Linux, and my primary development machine at UofM is SunOS. Additionally, there are certain settings I want on all
+Visible School machines (regardless of OS or hostname) but no others. Additionally, I like to have a minimalistic
+terminal prompt, so I use color to know what host I'm connected to. What I ended up with is this
 [`~/.bashrc`](https://github.com/willnorris/dotfiles/blob/38e4ebd/bash/.bashrc)
 
 This file is basically a launchpad for all of my other files, so let me explain how this all works line by line...
@@ -22,18 +23,18 @@ This file is basically a launchpad for all of my other files, so let me explain 
     HOST=`hostname | sed "s/\..*$//"`
     DOMAIN=`hostname | sed "s/^[^\.]*//" | sed "s/^\.//"`
 
-First, I need to know the hostname and the domain of the machine I'm presently using.  I've found the above one-liners
+First, I need to know the hostname and the domain of the machine I'm presently using. I've found the above one-liners
 to work on every operating system I've tested so far.
 
     [ -f /etc/bashrc ] && [ -r /etc/bashrc ] && source /etc/bashrc
 
-If the machine has a system-wide bashrc that is readable, go ahead and execute that.  This is where a system
+If the machine has a system-wide bashrc that is readable, go ahead and execute that. This is where a system
 administrator may setup PATHs specific to this machine.
 
     [ -f ~/.bash/all ] && [ -r ~/.bash/all ] && source ~/.bash/all
 
 [`~/.bash/all.pre.login`](https://github.com/willnorris/dotfiles/blob/38e4ebd/bash/.bash/all.pre.login) contains things
-that should be used by all machines...  things like my name, default editor, various aliases, etc, as well as a custom
+that should be used by all machines... things like my name, default editor, various aliases, etc, as well as a custom
 function to setup my prompt
 
 <!--

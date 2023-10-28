@@ -1,10 +1,11 @@
 ---
 title: back online
-date: '2003-09-20T05:05:20-05:00'
+date: "2003-09-20T05:05:20-05:00"
 aliases: [/b/3RF1, /b/1j, /p/104]
 categories:
-- technology
+  - technology
 ---
+
 so you may have noticed that this site has been offline for the past week and a half. I also haven't been online much at
 all, and my email has pretty much gone to hell. The problem is that I host all of this (website, mail, etc) at home and
 bellsouth kindly shut off our DSL last week. It's been a serious pain getting it all back up, but I think we're back to

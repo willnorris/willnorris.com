@@ -36,12 +36,11 @@ Use inverted scroll direction for all devices:
 
     Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath FlipFlopWheel 1 }
 
-
 Change `FlipFlopWheel 0` to go back to standard scroll direction.
 
 ## Keyboard settings
 
-Map caps lock key to control.  (Save to `caps.reg` file and run)
+Map caps lock key to control. (Save to `caps.reg` file and run)
 
     Windows Registry Editor Version 5.00
 

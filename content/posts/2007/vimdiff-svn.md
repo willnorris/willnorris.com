@@ -1,17 +1,18 @@
 ---
 title: vimdiff-svn
-date: '2007-09-06T20:16:02-07:00'
+date: "2007-09-06T20:16:02-07:00"
 aliases: [/b/3pP1, /b/3F, /p/195]
 categories:
-- technology
+  - technology
 tags:
-- vim
-- subversion
-- kde
+  - vim
+  - subversion
+  - kde
 ---
-I keep all projects of any importance in a subversion repository... it's just good practice.  I also make heavy use of
-[vimdiff][] to diff two files within the vim editor.  Tonight I discovered [vimdiff-svn][], a simple shell script that
-is included in, of all things, [KDE][].  It allows you to leverage vimdiff to view changes made to a file managed by
+
+I keep all projects of any importance in a subversion repository... it's just good practice. I also make heavy use of
+[vimdiff][] to diff two files within the vim editor. Tonight I discovered [vimdiff-svn][], a simple shell script that
+is included in, of all things, [KDE][]. It allows you to leverage vimdiff to view changes made to a file managed by
 subversion... just what I've wanted for a while, but never took the time to find.
 
 [vimdiff]: http://www.vim.org/htmldoc/diff.html

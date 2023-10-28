@@ -1,16 +1,17 @@
 ---
 title: no party
-date: '2006-02-06T17:05:36-06:00'
+date: "2006-02-06T17:05:36-06:00"
 aliases: [/b/3ek1, /b/2N, /p/142]
 categories:
-- personal
+  - personal
 tags:
-- life
-- moving
+  - life
+  - moving
 ---
+
 Because of scheduling conflicts with the Visible School Winter Entreat, we won't be doing the little send-off party on
-Thursday.  Elisabeth and I will be going to the Thursday evening dinner and worship service at Visible School, so we'll
-see some of you all there.  For anyone else that just has the overwhelming desire to meet Elisabeth or say goodbye
+Thursday. Elisabeth and I will be going to the Thursday evening dinner and worship service at Visible School, so we'll
+see some of you all there. For anyone else that just has the overwhelming desire to meet Elisabeth or say goodbye
 before I head out, just [give me a call][] or stop by the house sometime.
 
 [give me a call]: /contact

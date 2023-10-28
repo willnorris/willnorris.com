@@ -1,14 +1,14 @@
 ---
 title: Video playback speed on the web
 syndication:
- - https://twitter.com/willnorris/status/1401327852444741636
+  - https://twitter.com/willnorris/status/1401327852444741636
 ---
 
 Control the playback speed of video elements on the web, even when controls
 aren't present, by entering this into the browser console:
 
-``` js
-document.querySelector('video').playbackRate=2.0;
+```js
+document.querySelector("video").playbackRate = 2.0;
 ```
 
 Bookmarklet with prompt:

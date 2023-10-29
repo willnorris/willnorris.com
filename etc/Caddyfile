@@ -148,7 +148,7 @@
 
   handle /-/* {
     uri replace /-/ /
-    reverse_proxy http://samson.willnorris.ts.net:10000 {
+    reverse_proxy http://samson.tail27e07.ts.net:10000 {
       transport tailscale
       header_up Host {upstream_hostport}
     }

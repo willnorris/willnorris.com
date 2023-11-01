@@ -8,3 +8,8 @@ title: "Tweet Archive"
 #
 # If and when I make use of more fields, the above query will need to be re-run.
 ---
+
+This is an archive of all my tweets from [@willnorris](https://twitter.com/willnorris).
+They were deleted from Twitter in early 2023.
+
+---

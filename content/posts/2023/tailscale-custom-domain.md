@@ -1,6 +1,7 @@
 ---
 title: Tailscale devices with a custom domain
 date: 2023-11-01T00:10:53-07:00
+aliases: /b/5Th1
 ---
 
 One of the things that [kinda blew my mind] my first week at Tailscale was [MagicDNS].

@@ -65,22 +65,19 @@ ipn.willnorris.net.	600	IN	NS	ns2.ipn.willnorris.net.
 
 ## Tailscale configuration
 
-I needed the coredns server to join my Tailnet (explained below),
-so I created an [auth key] for that purpose.
+I needed the coredns server to join my Tailnet (explained below), so I created an [auth key] for that purpose.
 I made one that is reusable, ephemeral, pre-approved, and tagged with `tag:dns`.
-I also added an ACL entry to my policy file to make sure that my DNS server would be able to see all of my devices.
-Tailscale devices don't even know about other devices they don't have permission to access,
-so I needed to give at least _some_ access for the DNS server to see them.
-I chose to give my DNS server access to port 9 on all devices.
-This is the _discard_ port which is only used for testing, so seems like a safe bet.
+I also added an ACL entry to my policy file to make sure that all of the devices on my network can do DNS queries.
+This same entry also causes the DNS server to be aware of all of the other devices on the network,
+which is needed to populate its internal mappings.
 
 ```json
 {
   "acls": [
     {
       "action": "accept",
-      "src": ["tag:dns"],
-      "dst": ["*:9"]
+      "src": ["*"],
+      "dst": ["tag:dns:53"]
     }
   ],
 
@@ -173,22 +170,4 @@ I often share some devices between my personal and work tailnet.
 While bare hostnames work for devices in your own tailnet, they don't work for shared devices.
 For that, you have to use the fully qualified hostname,
 and I can never remember (or want to type) my full ts.net name.
-If I want to access a personal go link while logged into my work tailnet,
-it's much simpler to remember _go.willnorris.net_.
-(Actually, I have an even simpler method with go links I'll talk about later.)
-
-Or you may have existing hostnames that you've been using for a while and want to migrate them to a private Tailscale network.
-Or you're possibly migrating from a different VPN product that was using a custom domain.
-Setting up a DNS server like this could help keep those old hostnames active with their new Tailscale IP addresses.
-
-It's also worth noting that I'm serving my custom DNS server publicly.
-That means anyone can poke around to discover my Tailscale device names as well as their Tailscale IPs.
-But those hostnames already end up getting written to public transparency logs whenever HTTPS certs are issued,
-so I'm not too worried about that.
-And Tailscale IP addresses themselves are generally pretty useless,
-though they do theoretically make certain types of attacks a little easier.
-So depending on the network setup and what you're trying to do,
-you could just host this DNS server privately instead.
-
-[go links]: https://tailscale.com/blog/golink
-[serve and funnel]: https://tailscale.com/blog/reintroducing-serve-funnel/
+If I want to access

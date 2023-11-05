@@ -1,0 +1,20 @@
+/*
+* Web font for Caskaydia Cove Nerd Font.
+* This includes the (renamed) woff2 file from
+* https://github.com/mshaugh/nerdfont-webfonts/blob/master/build/fonts/.
+*
+* I've tried building it using the command from teh nerdfont-webfonts project,
+* using the TTF downloaded from https://github.com/ryanoasis/nerd-fonts/releases, but without success so far.
+* Browsers complain about the format not being right, and I've not tracked it down yet.
+*
+*   fontforge -lang=ff -c "Open(\$1); Generate(\$1:r + '.woff2')" CaskaydiaCoveNerdFontMono-Regular.ttf 2>/dev/null
+*/
+@font-face {
+  font-family: "CaskaydiaCove Nerd Font Mono";
+  src:
+    local(Caskaydia Cove Nerd Font Mono),
+    url("CaskaydiaCoveNerdFontMono-Regular.woff2") format("woff2");
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+}

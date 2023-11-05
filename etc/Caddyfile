@@ -28,14 +28,13 @@
 
   header * {
     X-Frame-Options "SAMEORIGIN"
-    X-Xss-Protection "1; mode=block"
     X-Content-Type-Options "nosniff"
+    Content-Security-Policy "default-src 'self' 'unsafe-inline'; report-uri /api/csp-report/"
   }
 
   @https expression protocol('https') || header({'x-forwarded-proto': 'https'})
   header @https {
     Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
-    Content-Security-Policy "default-src https: data: 'unsafe-inline' 'unsafe-eval'"
   }
 
   # redirects
@@ -136,6 +135,18 @@
   handle @webmention {
     uri replace /api/webmention/ /willnorris.com/webmention
     reverse_proxy https://webmention.io {
+      header_up Host {upstream_hostport}
+    }
+  }
+
+  # proxy CSP reports to sentry
+  @csp-report {
+    method POST
+    path /api/csp-report/
+  }
+  handle @csp-report {
+    rewrite * "/api/4506174976622592/security/?sentry_key=6f2c3c8be0f1360eddf221376bb96366"
+    reverse_proxy https://o4506174976425984.ingest.sentry.io {
       header_up Host {upstream_hostport}
     }
   }

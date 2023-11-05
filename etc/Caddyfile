@@ -151,16 +151,9 @@
     }
   }
 
-  # proxy nerdfonts so that we can add CORP headers which Chrome OS now seems to require.
-  # Fonts at https://github.com/mshaugh/nerdfont-webfonts/tree/master/build
-  # Access as https://willnorris.com/x/nfwf/notosansmono-nerd-font.css
-  handle /x/nfwf/* {
-    uri replace /x/nfwf/ /nerdfont-webfonts/build/
-    header Cross-Origin-Resource-Policy cross-origin
-    reverse_proxy https://mshaugh.github.io {
-      header_up Host {upstream_hostport}
-    }
-  }
+  # Add CORS headers for fonts, which Chrome OS terminal requires.
+  header /fonts/* Cross-Origin-Resource-Policy cross-origin
+  header /fonts/* Access-Control-Allow-Origin "*"
 
   handle /-/* {
     uri replace /-/ /

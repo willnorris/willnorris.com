@@ -1,0 +1,27 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Ben Werdmuller",
+    "photo": "https://webmention.io/avatar/werd.io/e91155d1604c3a5bf2b196de23cf1c23bb3b1356fd3220897d794120f7e0aacf.jpg",
+    "url": "https://werd.io/profile/benwerd"
+  },
+  "url": "https://werd.io/2023/accessing-go-links-across-tailnets",
+  "published": "2023-11-03T17:03:58+00:00",
+  "wm-received": "2023-11-03T17:03:59Z",
+  "wm-id": 1734068,
+  "wm-source": "https://werd.io/2023/accessing-go-links-across-tailnets",
+  "wm-target": "https://willnorris.com/2023/golinks-across-tailnets/",
+  "wm-protocol": "webmention",
+  "name": "Accessing go links across tailnets",
+  "content": {
+    "html": "<p>Golinks seem like a small thing but actually might be the thing that pushes me over the edge to running my own tailnet. </p>\n<p>I like Will's solution here to running multiple otherwise-conflicting golinks servers.</p>\n<p>The whole thing seems powerful and I suppose I should just dive in. <a href=\"https://werd.io/tag/Technology\" class=\"p-category\">#Technology</a></p>",
+    "text": "Golinks seem like a small thing but actually might be the thing that pushes me over the edge to running my own tailnet. \nI like Will's solution here to running multiple otherwise-conflicting golinks servers.\nThe whole thing seems powerful and I suppose I should just dive in. #Technology"
+  },
+  "bookmark-of": "https://willnorris.com/2023/golinks-across-tailnets/",
+  "wm-property": "bookmark-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://werd.io/2023/accessing-go-links-across-tailnets"
+  }
+}

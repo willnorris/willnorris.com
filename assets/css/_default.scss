@@ -10,13 +10,15 @@
 
 @font-face {
   font-family: "Atkinson Hyperlegible";
-  src: local("Atkinson Hyperlegible Regular"),
+  src:
+    local("Atkinson Hyperlegible Regular"),
     url("/fonts/Atkinson-Hyperlegible-Regular-102a.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Atkinson Hyperlegible";
-  src: local("Atkinson Hyperlegible Bold"),
+  src:
+    local("Atkinson Hyperlegible Bold"),
     url("/fonts/Atkinson-Hyperlegible-Bold-102a.woff2") format("woff2");
   font-weight: 700;
 }
@@ -24,7 +26,8 @@
 body {
   background-color: var(--color-white);
   color: var(--color-grey-20);
-  font-family: "Atkinson Hyperlegible", "Helvetica Neue", Helvetica, system-ui, sans-serif;
+  font-family: "Atkinson Hyperlegible", "Helvetica Neue", Helvetica, system-ui,
+    sans-serif;
   font-size: 1.125rem; // 18px
 }
 
@@ -42,7 +45,8 @@ a {
   }
 }
 
-blockquote, blockquote::before {
+blockquote,
+blockquote::before {
   color: var(--color-grey-30);
 }
 
@@ -61,22 +65,26 @@ blockquote::before {
   inset-block-start: -10px;
 }
 
-
 /* --- Headings --- */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--color-grey-20);
   font-weight: 700;
 }
 
 h1 {
   font-size: 2rem;
-  line-height: 1.2
+  line-height: 1.2;
 }
 
 h2 {
   font-size: 1.5rem;
-  line-height: 1.3
+  line-height: 1.3;
 }
 
 h3 {
@@ -95,7 +103,6 @@ h6 {
   font-size: 0.875rem;
 }
 
-
 /* --- Objects --- */
 
 embed,
@@ -106,7 +113,6 @@ video {
   max-width: 100%;
   height: auto;
 }
-
 
 /* --- Forms --- */
 
@@ -161,7 +167,8 @@ tbody {
   border-bottom: 1px solid var(--color-grey-80);
 }
 
-th, td {
+th,
+td {
   text-align: left;
   vertical-align: top;
 }
@@ -175,7 +182,8 @@ td {
   padding: 0.25rem 0;
 }
 
-ul,ol {
+ul,
+ol {
   li {
     --flow-space: 0;
   }
@@ -192,7 +200,10 @@ dd {
   }
 }
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family: monospace;
   font-size: 1rem;
 }
@@ -219,4 +230,3 @@ pre {
   border-radius: 3px;
   border: solid 1px var(--color-grey-80);
 }
-

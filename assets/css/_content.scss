@@ -57,7 +57,8 @@ figure {
   overflow: hidden;
 }
 
-.alignleft, .alignright {
+.alignleft,
+.alignright {
   transition: all 200ms ease-in-out;
 }
 
@@ -81,7 +82,8 @@ figure {
 @media (min-width: 450px) and (max-width: 960px) {
   // the screen is wide enough to float, but make sure we don't squish the text
   // to only one or two words per line
-  .alignleft, .alignright {
+  .alignleft,
+  .alignright {
     max-width: 50%;
     height: auto;
 
@@ -132,7 +134,10 @@ figure.video {
   height: 0;
   overflow: hidden;
 
-  iframe, object, embed, video {
+  iframe,
+  object,
+  embed,
+  video {
     position: absolute;
     top: 0;
     left: 0;
@@ -181,22 +186,23 @@ figure.video {
 
 // display large header background image
 @media only screen {
-.entry-header[data-background] {
-  height: 75vh;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  margin-block-start: calc(-1 * var(--main-block-padding));
-  margin-block-end: var(--main-block-padding);
-  text-shadow: 1px 1px 2px var(--color-grey-20);
-  h1 {
-    color: var(--color-white);
+  .entry-header[data-background] {
+    height: 75vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    margin-block-start: calc(-1 * var(--main-block-padding));
+    margin-block-end: var(--main-block-padding);
+    text-shadow: 1px 1px 2px var(--color-grey-20);
+    h1 {
+      color: var(--color-white);
+    }
+    .entry-meta,
+    .entry-meta a {
+      color: var(--color-grey-80);
+    }
   }
-  .entry-meta, .entry-meta a {
-    color: var(--color-grey-80);
-  }
-}
 }
 
 .entry-meta {
@@ -264,7 +270,8 @@ hr {
 
 // fragmentations
 // taken from http://tantek.com/2011/simple.css, in turn inspired by http://lea.verou.me/2012/12/animations-with-one-keyframe/
-[fragmention], :target {
+[fragmention],
+:target {
   background: yellow;
   animation: fragmention 3.5s both;
   -webkit-animation: fragmention 3.5s both;
@@ -281,7 +288,7 @@ hr {
 }
 
 form#webmention {
-  input[type=url] {
+  input[type="url"] {
     display: block;
     box-sizing: border-box;
     width: 100%;

@@ -13,12 +13,12 @@
   }
 
   .site-header,
-  footer
-  {
+  footer {
     display: none;
   }
 
-  main, .wrap {
+  main,
+  .wrap {
     margin: inherit;
     padding: inherit;
     max-width: inherit;

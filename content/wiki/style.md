@@ -81,6 +81,76 @@ definition list term 2
 | data cell 1     | data cell 2     |
 | data cell 3     | data cell 4     |
 
+## Colors
+
+<style>
+  #color-sample td {
+    padding-inline: 1em;
+  }
+  #color-sample tr td:nth-child(2){
+    background-color: var(--color-grey-20);
+    & code {
+      background-color: inherit;
+      border-color: var(--color-grey-30);
+    }
+  }
+</style>
+
+<table id="color-sample">
+  <tr style="color: var(--color-red)">
+    <td>this uses the CSS variable <code>--color-red</code></td>
+    <td>this uses the CSS variable <code>--color-red</code></td>
+  </tr>
+  <tr style="color: var(--color-orange)">
+    <td>this uses the CSS variable <code>--color-orange</code></td>
+    <td>this uses the CSS variable <code>--color-orange</code></td>
+  </tr>
+  <tr style="color: var(--color-yellow)">
+    <td>this uses the CSS variable <code>--color-yellow</code></td>
+    <td>this uses the CSS variable <code>--color-yellow</code></td>
+  </tr>
+  <tr style="color: var(--color-green)">
+    <td>this uses the CSS variable <code>--color-green</code></td>
+    <td>this uses the CSS variable <code>--color-green</code></td>
+  </tr>
+  <tr style="color: var(--color-blue)">
+    <td>this uses the CSS variable <code>--color-blue</code></td>
+    <td>this uses the CSS variable <code>--color-blue</code></td>
+  </tr>
+  <tr style="color: var(--color-cyan)">
+    <td>this uses the CSS variable <code>--color-cyan</code></td>
+    <td>this uses the CSS variable <code>--color-cyan</code></td>
+  </tr>
+  <tr style="color: var(--color-purple)">
+    <td>this uses the CSS variable <code>--color-purple</code></td>
+    <td>this uses the CSS variable <code>--color-purple</code></td>
+  </tr>
+  <tr style="color: var(--color-grey-20)">
+    <td>this uses the CSS variable <code>--color-grey-20</code></td>
+    <td>this uses the CSS variable <code>--color-grey-20</code></td>
+  </tr>
+  <tr style="color: var(--color-grey-30)">
+    <td>this uses the CSS variable <code>--color-grey-30</code></td>
+    <td>this uses the CSS variable <code>--color-grey-30</code></td>
+  </tr>
+  <tr style="color: var(--color-grey-60)">
+    <td>this uses the CSS variable <code>--color-grey-60</code></td>
+    <td>this uses the CSS variable <code>--color-grey-60</code></td>
+  </tr>
+  <tr style="color: var(--color-grey-80)">
+    <td>this uses the CSS variable <code>--color-grey-80</code></td>
+    <td>this uses the CSS variable <code>--color-grey-80</code></td>
+  </tr>
+  <tr style="color: var(--color-grey-90)">
+    <td>this uses the CSS variable <code>--color-grey-90</code></td>
+    <td>this uses the CSS variable <code>--color-grey-90</code></td>
+  </tr>
+  <tr style="color: var(--color-white)">
+    <td>this uses the CSS variable <code>--color-white</code></td>
+    <td>this uses the CSS variable <code>--color-white</code></td>
+  </tr>
+</table>
+
 ## Code and pre-formatted text.
 
 Content with `some code` inline.

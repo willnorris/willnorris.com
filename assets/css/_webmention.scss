@@ -1,5 +1,8 @@
 .p-comment {
-    margin: 1em 0 2em;
+    --flow-space: 2em;
+    background: var(--color-grey-90);
+    border: 1px solid var(--color-grey-80);
+    padding: 1em;
 
     .comment-meta {
         vertical-align: top;
@@ -19,6 +22,7 @@
         }
     }
     .e-content {
+        --flow-space: 1em;
         margin-block-start: 0;
     }
 }

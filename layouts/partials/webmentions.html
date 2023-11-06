@@ -5,6 +5,7 @@
   {{- $reposts := slice -}}
   {{- $bookmarks := slice -}}
   {{- $other := slice -}}
+  {{- $replies := slice -}}
   {{- range $index, $element := $mentions -}}
     {{- if eq (index . "wm-property") "like-of" -}}
       {{- $likes = $likes | append . -}}
@@ -15,12 +16,17 @@
     {{- else -}}
       {{- $other = $other | append $element -}}
     {{- end -}}
+    {{- if and .content.html (not (eq (index . "wm-property") "repost-of")) -}}
+      {{/* replies are any mentions that have content, other than reposts.
+           Reposts could have additional content, but are typically just the same as the original post. */}}
+      {{- $replies = $replies | append $element -}}
+    {{- end -}}
   {{- end -}}
 
-  {{- if $other -}}
+  {{- if $replies -}}
   <div id="webmentions" class="wrap">
     <h2>Comments and responses</h2>
-    {{- range sort $other "published" }}
+    {{- range sort $replies "published" }}
     <article id="comment-{{ int (index . "wm-id") }}" class="p-comment h-entry">
       <div class="comment-meta">
         {{ if .url }}<a href="{{ .url }}"{{ else }}<span{{ end }} class="p-author h-card">

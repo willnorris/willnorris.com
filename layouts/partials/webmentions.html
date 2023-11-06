@@ -35,7 +35,7 @@
           {{ .author.name }}
         {{ if .url }}</a>{{ else }}</span>{{ end }}
         {{ $date := default (index . "wm-received") .published }}
-        <a href="#comment-{{ index . "wm-id" }}">{{ partial "time" $date }}</a>
+        <a href="#comment-{{ int (index . "wm-id") }}">{{ partial "time" $date }}</a>
       </div>
       <div class="e-content">
         {{ .content.html | markdownify }}

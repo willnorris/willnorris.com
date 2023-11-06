@@ -1,28 +1,28 @@
 .p-comment {
-    --flow-space: 2em;
-    background: var(--color-grey-90);
-    border: 1px solid var(--color-grey-80);
-    padding: 1em;
+  --flow-space: 2em;
+  background: var(--color-grey-90);
+  border: 1px solid var(--color-grey-80);
+  padding: 1em;
 
-    .comment-meta {
-        vertical-align: top;
-        img {
-            float: left;
-            max-height: 3rem;
-            margin: .25rem 1ex .25rem 0;
-            &:before {
-                height: 3rem;
-                width: 3rem;
-            }
-        }
-        time {
-            display: block;
-            font-size: .75em;
-            color: var(--color-grey-20);
-        }
+  .comment-meta {
+    vertical-align: top;
+    img {
+      float: left;
+      max-height: 3rem;
+      margin: 0.25rem 1ex 0.25rem 0;
+      &:before {
+        height: 3rem;
+        width: 3rem;
+      }
     }
-    .e-content {
-        --flow-space: 1em;
-        margin-block-start: 0;
+    time {
+      display: block;
+      font-size: 0.75em;
+      color: var(--color-grey-20);
     }
+  }
+  .e-content {
+    --flow-space: 1em;
+    margin-block-start: 0;
+  }
 }

@@ -1,0 +1,26 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Evgeny Kuznetsov",
+    "photo": "https://webmention.io/avatar/evgenykuznetsov.org/077371e1189ffee648a7f5f4e731c9d5d7c747214c321b710c6965191fa87651.jpg",
+    "url": "https://evgenykuznetsov.org"
+  },
+  "url": "https://evgenykuznetsov.org/en/reactions/2023/like-301073701/",
+  "published": "2023-10-28T10:36:59+03:00",
+  "wm-received": "2023-10-28T07:41:49Z",
+  "wm-id": 1731770,
+  "wm-source": "https://evgenykuznetsov.org/en/reactions/2023/like-301073701/",
+  "wm-target": "https://willnorris.com/2023/caddy-snippets/",
+  "wm-protocol": "webmention",
+  "content": {
+    "html": "<p>Oh, lovely!</p>\n<p>I’ve been toying with the idea of switching to Caddy for several weeks, and this writeup will come in very handy if I eventually do.</p>",
+    "text": "Oh, lovely!\nI’ve been toying with the idea of switching to Caddy for several weeks, and this writeup will come in very handy if I eventually do."
+  },
+  "like-of": "https://willnorris.com/2023/caddy-snippets/",
+  "wm-property": "like-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://evgenykuznetsov.org/en/reactions/2023/like-301073701/"
+  }
+}

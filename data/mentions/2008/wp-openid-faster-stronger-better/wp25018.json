@@ -9,7 +9,7 @@
   "url": "http://wnorris.myopenid.com/",
   "published": "2008-09-17T19:33:00-07:00",
   "content": {
-    "html": "[quote comment=\"25011\"]Is this something we can hook into nicely from wp-diso-profile for importing hCards, instead of the hacky \"first log in, import URL if they have one\" method we have now?[/quote]\r\n\r\nAbsolutely.  We may need to add one additional hook in another place, but this should certainly be doable.",
+    "html": "<blockquote cite=\"#comment-25011\">Is this something we can hook into nicely from wp-diso-profile for importing hCards, instead of the hacky \"first log in, import URL if they have one\" method we have now?</blockquote>\r\n\r\nAbsolutely.  We may need to add one additional hook in another place, but this should certainly be doable.",
     "text": ""
   },
   "wm-id": "25018",

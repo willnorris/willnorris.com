@@ -9,7 +9,7 @@
   "url": "http://docwhat.gerf.org/",
   "published": "2008-07-31T16:46:16-07:00",
   "content": {
-    "html": "[quote comment=\\\"22738\\\"]Stephen, you seem to be running into the same problem as DocWhat above... Bad Behavior is causing a HTTP 400 when php-openid requests your XRDS document.[/quote]\r\n\r\nAny chance of removing the RANGE portion of the request?  Why is it there in the first place?",
+    "html": "<blockquote cite=\\\"#comment-22738\\\">Stephen, you seem to be running into the same problem as DocWhat above... Bad Behavior is causing a HTTP 400 when php-openid requests your XRDS document.</blockquote>\r\n\r\nAny chance of removing the RANGE portion of the request?  Why is it there in the first place?",
     "text": ""
   },
   "wm-id": "22739",

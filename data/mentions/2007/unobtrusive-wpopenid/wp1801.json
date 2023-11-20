@@ -9,7 +9,7 @@
   "url": "http://willnorris.com",
   "published": "2007-03-28T15:17:18-07:00",
   "content": {
-    "html": "[quote comment=\"1799\"]If moderation is fully enabled, will OpenID users see their comment as pending? With Alan's version you see nothing...[/quote]\r\nRight now, it still behaves the same way as Alan's version.  I wasn't aware of this \"bug\" until this last weekend when someone else mentioned it, as I don't normally moderate posts.  I'll certainly add that to the list of feature requests though.",
+    "html": "<blockquote cite=\"#comment-1799\">If moderation is fully enabled, will OpenID users see their comment as pending? With Alan's version you see nothing...</blockquote>\r\nRight now, it still behaves the same way as Alan's version.  I wasn't aware of this \"bug\" until this last weekend when someone else mentioned it, as I don't normally moderate posts.  I'll certainly add that to the list of feature requests though.",
     "text": ""
   },
   "wm-id": "1801",

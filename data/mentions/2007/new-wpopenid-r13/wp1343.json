@@ -9,7 +9,7 @@
   "url": "http://willnorris.com",
   "published": "2007-02-26T22:21:36-08:00",
   "content": {
-    "html": "[quote comment=\"1341\"]I'm implementing your Plugin in my website, but it doesn't seem to honour my openid.server and openid.delegate headers. Any suggestions?[/quote]\r\nHmm, I know that it respects delegation in most cases since that is what I use here.  What is the OpenID it's not honoring? The one you just logged in with here (http://www.ende-der-vernunft.org/MyID.php)?  Hmm, doesn't look like you have it activated right now, so I can't test it to see if it honors my delegated ID.",
+    "html": "<blockquote cite=\"#comment-1341\">I'm implementing your Plugin in my website, but it doesn't seem to honour my openid.server and openid.delegate headers. Any suggestions?</blockquote>\r\nHmm, I know that it respects delegation in most cases since that is what I use here.  What is the OpenID it's not honoring? The one you just logged in with here (http://www.ende-der-vernunft.org/MyID.php)?  Hmm, doesn't look like you have it activated right now, so I can't test it to see if it honors my delegated ID.",
     "text": ""
   },
   "wm-id": "1343",

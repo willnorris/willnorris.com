@@ -51,18 +51,13 @@ blockquote::before {
 }
 
 blockquote {
-  padding: 1em 3em;
-  --flow-space: 0.5em;
-}
-
-blockquote::before {
-  content: "\201C";
-  display: block;
-  font-size: 2em;
-  height: 0;
-  position: relative;
-  inset-inline-start: -20px;
-  inset-block-start: -10px;
+  padding: 0.2em 0.75em;
+  margin: 1em 0.75em;
+  border-left: solid 2px currentColor;
+  font-style: italic;
+  * {
+    --flow-space: 0.5em;
+  }
 }
 
 /* --- Headings --- */

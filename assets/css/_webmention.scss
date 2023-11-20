@@ -1,5 +1,9 @@
 .p-comment {
   --flow-space: 2em;
+  &:first-of-type {
+    // reduce top margin of first comment
+    margin-block-start: 1em;
+  }
   background: var(--color-grey-90);
   border: 1px solid var(--color-grey-80);
   padding: 1em;

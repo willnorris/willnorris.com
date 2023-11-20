@@ -9,7 +9,7 @@
   "url": "http://willnorris.com",
   "published": "2007-02-27T02:42:40-08:00",
   "content": {
-    "html": "[quote comment=\"1345\"]It's a help desk application that sends the emails out, I'll pass on the idea of including x509 or other encryption support in there to the developers.[/quote]\r\nOr more simply, don't email out passwords.  It shouldn't be too terribly difficult to come up with some other way to distribute or reset one's password in a secure manner that does at least minimal identity verification.  In any event, thanks for the reply... it is definitely comforting to know that TxD is actively listening.",
+    "html": "<blockquote cite=\"#comment-1345\">It's a help desk application that sends the emails out, I'll pass on the idea of including x509 or other encryption support in there to the developers.</blockquote>\r\nOr more simply, don't email out passwords.  It shouldn't be too terribly difficult to come up with some other way to distribute or reset one's password in a secure manner that does at least minimal identity verification.  In any event, thanks for the reply... it is definitely comforting to know that TxD is actively listening.",
     "text": ""
   },
   "wm-id": "1347",

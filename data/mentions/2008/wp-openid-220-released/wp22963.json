@@ -9,7 +9,7 @@
   "url": "http://will.norris.name/",
   "published": "2008-08-06T19:05:54-07:00",
   "content": {
-    "html": "[quote comment=\"22962\"]<p>Will Norris, did you seen first comment? I dont think thats right</p>[/quote]\r\nahh... I misunderstood the problem.  Now I see.",
+    "html": "<blockquote cite=\"#comment-22962\"><p>Will Norris, did you seen first comment? I dont think thats right</p></blockquote>\r\nahh... I misunderstood the problem.  Now I see.",
     "text": ""
   },
   "wm-id": "22963",

@@ -9,7 +9,7 @@
   "url": "http://willnorris.com",
   "published": "2007-03-28T15:24:57-07:00",
   "content": {
-    "html": "[quote comment=\"1802\"]Will, I posted this on a post that it is a bit old, I am afraid. If you have moderation enabled, what will the behavior be? Will it show your comments as being under moderation, or just silently swallow it without any other warning? Alan's version does the second...[/quote]\r\nno problem, <a href=\"http://willnorris.com/2007/02/unobtrusive-wpopenid#comment-1801\">I still saw it</a>. :)",
+    "html": "<blockquote cite=\"#comment-1802\">Will, I posted this on a post that it is a bit old, I am afraid. If you have moderation enabled, what will the behavior be? Will it show your comments as being under moderation, or just silently swallow it without any other warning? Alan's version does the second...</blockquote>\r\nno problem, <a href=\"http://willnorris.com/2007/02/unobtrusive-wpopenid#comment-1801\">I still saw it</a>. :)",
     "text": ""
   },
   "wm-id": "1803",

@@ -9,7 +9,7 @@
   "url": "http://willnorris.com",
   "published": "2007-11-07T23:25:12-08:00",
   "content": {
-    "html": "<p>[quote comment=\"14707\"]</p>\n\n<p>BTW, there is at least another WordPress plugin which proves full text feeds: http://cavemonkey50.com/code/full-feed/</p>\n\n<p>[/quote]</p>\n\n<p>doh!  I thought I had searched first... guess not.  In that case, go use CaveMonkey's plugin... no point in having duplicate plugins.  Thanks Carsten!</p>\n",
+    "html": "<blockquote cite=\"#comment-14707\">\n\n<p>BTW, there is at least another WordPress plugin which proves full text feeds: http://cavemonkey50.com/code/full-feed/</p>\n\n<p></blockquote></p>\n\n<p>doh!  I thought I had searched first... guess not.  In that case, go use CaveMonkey's plugin... no point in having duplicate plugins.  Thanks Carsten!</p>\n",
     "text": ""
   },
   "wm-id": "14708",

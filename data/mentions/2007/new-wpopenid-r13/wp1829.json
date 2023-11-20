@@ -9,7 +9,7 @@
   "url": "http://willnorris.com",
   "published": "2007-03-29T15:01:27-07:00",
   "content": {
-    "html": "[quote comment=\"1825\"]It seems I might be spamming, I am not. I got another question. Your theme is based or derived from K2, right? Yet, you are not using AJAX commenting, I noticed the plugin will not work with that feature enabled. Will it be possible to accomodate AJAX comments? Cheers![/quote]\r\nNo worries, I don't think you're spamming :)  Yes, this site is using K2 and yes, I'm aware of the trouble with AJAX commenting.  I have a pretty strong feeling this is simply not possible, due to the required redirect to the user's OpenID provider.  If you are already logged in, this is normally transparent, but it is still there.  Now that I think about it, I may add some kind of check in there and display a warning if it detects K2 AJAX commenting is enabled.",
+    "html": "<blockquote cite=\"#comment-1825\">It seems I might be spamming, I am not. I got another question. Your theme is based or derived from K2, right? Yet, you are not using AJAX commenting, I noticed the plugin will not work with that feature enabled. Will it be possible to accomodate AJAX comments? Cheers!</blockquote>\r\nNo worries, I don't think you're spamming :)  Yes, this site is using K2 and yes, I'm aware of the trouble with AJAX commenting.  I have a pretty strong feeling this is simply not possible, due to the required redirect to the user's OpenID provider.  If you are already logged in, this is normally transparent, but it is still there.  Now that I think about it, I may add some kind of check in there and display a warning if it detects K2 AJAX commenting is enabled.",
     "text": ""
   },
   "wm-id": "1829",

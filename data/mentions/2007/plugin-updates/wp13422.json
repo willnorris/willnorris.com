@@ -9,7 +9,7 @@
   "url": "http://willnorris.com",
   "published": "2007-10-05T19:41:49-07:00",
   "content": {
-    "html": "<p>[quote comment=\"13421\"]</p>\n\n<p>@Will, Tks.  Complete reinstall of 2.2.2 solved the issue.</p>\n\n<p>[/quote]\nsweet! this is gonna be my new solution for any future problems people have with the plugin -- reinstall WordPress! ;)</p>\n",
+    "html": "<blockquote cite=\"#comment-13421\"><p>@Will, Tks.  Complete reinstall of 2.2.2 solved the issue.</p>\n\n</blockquote>\n<p>sweet! this is gonna be my new solution for any future problems people have with the plugin -- reinstall WordPress! ;)</p>\n",
     "text": ""
   },
   "wm-id": "13422",

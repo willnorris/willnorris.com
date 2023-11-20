@@ -9,7 +9,7 @@
   "url": "http://docwhat.gerf.org/",
   "published": "2008-07-26T03:47:42-07:00",
   "content": {
-    "html": "[quote comment=\"22568\"]@Christian: your server is returning an HTTP 400 to the request made by the openid library.\r\n[/quote]\r\n\r\nIt appears that Bad Behavior is catching the openid request as something bad.\r\n\r\nIt appears that it doesn't like the range header, which is a bit odd...\r\n\r\nI'll see if I can do something about having Bad Behavior block those, but probably not sending a \"range\" header is probably a good idea.\r\n\r\nMeanwhile, I submitted a patch to the author of bad-behavior to allow php-openid clients to use range, as well.\r\n\r\nCiao!",
+    "html": "<blockquote cite=\"#comment-22568\">@Christian: your server is returning an HTTP 400 to the request made by the openid library.\r\n</blockquote>\r\n\r\nIt appears that Bad Behavior is catching the openid request as something bad.\r\n\r\nIt appears that it doesn't like the range header, which is a bit odd...\r\n\r\nI'll see if I can do something about having Bad Behavior block those, but probably not sending a \"range\" header is probably a good idea.\r\n\r\nMeanwhile, I submitted a patch to the author of bad-behavior to allow php-openid clients to use range, as well.\r\n\r\nCiao!",
     "text": ""
   },
   "wm-id": "22578",

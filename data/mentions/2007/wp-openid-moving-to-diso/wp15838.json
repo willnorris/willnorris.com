@@ -9,7 +9,7 @@
   "url": "http://willnorris.com",
   "published": "2007-12-12T19:58:42-08:00",
   "content": {
-    "html": "<p>[quote comment=\"15834\"]By the way, why does it take extra long to load your site?[/quote]\nhttp://discuss.joyent.com/viewtopic.php?id=18659</p>\n\n<p>I'm <a href=\"http://discuss.joyent.com/viewtopic.php?pid=156510#p156510\">on the list</a> to get updated tomorrow, so hopefully should be better then.</p>\n",
+    "html": "<blockquote cite=\"#comment-15834\"><p>By the way, why does it take extra long to load your site?</blockquote>\nhttp://discuss.joyent.com/viewtopic.php?id=18659</p>\n\n<p>I'm <a href=\"http://discuss.joyent.com/viewtopic.php?pid=156510#p156510\">on the list</a> to get updated tomorrow, so hopefully should be better then.</p>\n",
     "text": ""
   },
   "wm-id": "15838",

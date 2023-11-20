@@ -9,7 +9,7 @@
   "url": "http://jesterking.myopenid.com/",
   "published": "2008-09-03T19:18:31-07:00",
   "content": {
-    "html": "[quote comment=\"23075\"]Error: OpenID assertion failed: return_to does not match return URL. Expected http://lifeasitcomes.com/, got http://lifeasitcomes.com/?action=verify\r\n\r\nError: Unable to authenticate OpenID.[/quote]\r\n\r\nI get the same error. This happens when trying to add OpenID URLs to an account through the profile page.\r\n\r\nI've tried pinpointing what's wrong, but I'm in the dark since I don't know enough about the standard.\r\n\r\nWhat I found is that parameters are missing when they are being checked for in _verifyReturnToArgs (Auth/OpenID/Consumer.php) during the check of $bare_args = $message-&gt;getArgs(Auth_OpenID_BARE_NS);\r\n\r\nHopefully this can help you in pinpointing and fixing the problem.\r\n\r\n/Nathan",
+    "html": "<bockquote cite=\"#comment-23075\">Error: OpenID assertion failed: return_to does not match return URL. Expected http://lifeasitcomes.com/, got http://lifeasitcomes.com/?action=verify\r\n\r\nError: Unable to authenticate OpenID.</blockquote>\r\n\r\nI get the same error. This happens when trying to add OpenID URLs to an account through the profile page.\r\n\r\nI've tried pinpointing what's wrong, but I'm in the dark since I don't know enough about the standard.\r\n\r\nWhat I found is that parameters are missing when they are being checked for in _verifyReturnToArgs (Auth/OpenID/Consumer.php) during the check of $bare_args = $message-&gt;getArgs(Auth_OpenID_BARE_NS);\r\n\r\nHopefully this can help you in pinpointing and fixing the problem.\r\n\r\n/Nathan",
     "text": ""
   },
   "wm-id": "23985",

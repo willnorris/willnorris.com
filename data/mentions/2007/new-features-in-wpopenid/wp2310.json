@@ -9,7 +9,7 @@
   "url": "http://willnorris.com",
   "published": "2007-04-10T20:16:58-07:00",
   "content": {
-    "html": "[quote comment=\"2309\"]I see. If I do what you just wrote, it works as expect, which is kind of odd, since most people will still enter name and email, even though those are fetched from the OpenID, if a valid one is found. I will have to rework my comments form to make that more obvious...[/quote]\r\nno, that's definitely a bug.  It should work regardless of what information they fill in.  I'll take a look at that.",
+    "html": "<blockquote cite=\"#comment-2309\">I see. If I do what you just wrote, it works as expect, which is kind of odd, since most people will still enter name and email, even though those are fetched from the OpenID, if a valid one is found. I will have to rework my comments form to make that more obvious...</blockquote>\r\nno, that's definitely a bug.  It should work regardless of what information they fill in.  I'll take a look at that.",
     "text": ""
   },
   "wm-id": "2310",

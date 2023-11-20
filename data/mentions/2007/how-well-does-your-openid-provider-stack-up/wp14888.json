@@ -9,7 +9,7 @@
   "url": "http://willnorris.com",
   "published": "2007-11-12T21:43:04-08:00",
   "content": {
-    "html": "<p>@Weston: To quote what I sent to Johnny Bufu of Sxip when he noted the same thing...\n[quote]You are using the URI \"http://openid.net/srv/ax/1.0-draft7\".  While the latest version of the spec does happen to be draft 7, no where does it suggest modifying the actual URI used.  The spec clearly states the URI value of \"http://openid.net/srv/ax/1.0\", which is what my script is checking for.[/quote]</p>\n",
+    "html": "<p>@Weston: To quote what I sent to Johnny Bufu of Sxip when he noted the same thing...</p>\n<blockquote>You are using the URI \"http://openid.net/srv/ax/1.0-draft7\".  While the latest version of the spec does happen to be draft 7, no where does it suggest modifying the actual URI used.  The spec clearly states the URI value of \"http://openid.net/srv/ax/1.0\", which is what my script is checking for.</blockquote>\n",
     "text": ""
   },
   "wm-id": "14888",

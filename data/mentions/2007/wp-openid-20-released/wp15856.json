@@ -9,7 +9,7 @@
   "url": "",
   "published": "2007-12-13T12:04:10-08:00",
   "content": {
-    "html": "<p>[quote comment=\"15414\"]</p>\n\n<p>I love the idea of this plugin but it simply returns a fatal error when I try and activate it....\n\"Plugin could not be activated because it triggered a fatal error.\"</p>\n\n<p>I cant see where to debug it at all can you give me any advice ?\n(logs etc )</p>\n\n<p>[/quote]</p>\n\n<p>I should have used the quote option to refer to the user that is having a similar problem to me. Again, getting the same message while trying to activate, and it will not load.</p>\n",
+    "html": "<blockquote cite=\"#comment-15414\"><p>I love the idea of this plugin but it simply returns a fatal error when I try and activate it....\n\"Plugin could not be activated because it triggered a fatal error.\"</p>\n\n<p>I cant see where to debug it at all can you give me any advice ?\n(logs etc )</p></blockquote>\n\n<p>I should have used the quote option to refer to the user that is having a similar problem to me. Again, getting the same message while trying to activate, and it will not load.</p>\n",
     "text": ""
   },
   "wm-id": "15856",

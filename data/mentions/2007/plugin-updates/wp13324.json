@@ -9,7 +9,7 @@
   "url": "http://willnorris.com",
   "published": "2007-10-03T06:52:34-07:00",
   "content": {
-    "html": "<p>[quote comment=\"13323\"]</p>\n\n<p>Does your plugin not support typekey openid addresses?</p>\n\n<p>[/quote]\nHmm.. appears to be a bug.  Not sure why it's not working, but I'll look into that.</p>\n",
+    "html": "<blockquote cite=\"#comment-13323\"><p>Does your plugin not support typekey openid addresses?</p></blockquote>\n<p>Hmm.. appears to be a bug.  Not sure why it's not working, but I'll look into that.</p>\n",
     "text": ""
   },
   "wm-id": "13324",

@@ -1,7 +1,9 @@
 // Variable
-$fluidbox__transition-duration: 0.5s !default;
-$fluidbox__overlay-bg-color: rgba(255, 255, 255, 0.85) !default;
-$fluidbox__animation-bg-color: $fluidbox__overlay-bg-color !default;
+:root {
+  --fluidbox__transition-duration: 0.5s;
+  --fluidbox__overlay-bg-color: rgba(255, 255, 255, 0.85);
+  --fluidbox__animation-bg-color: var(--fluidbox__overlay-bg-color);
+}
 
 // Animation
 @keyframes fluidboxLoading {
@@ -21,7 +23,7 @@ $fluidbox__animation-bg-color: $fluidbox__overlay-bg-color !default;
   outline: none;
 }
 .fluidbox__overlay {
-  background-color: $fluidbox__overlay-bg-color;
+  background-color: var(--fluidbox__overlay-bg-color);
   cursor: pointer;
   cursor: zoom-out;
   opacity: 0;
@@ -32,7 +34,7 @@ $fluidbox__animation-bg-color: $fluidbox__overlay-bg-color !default;
   bottom: -100%; /* Negative top and bottom is to fix some Safari cases where image got blurry */
   right: 0;
   /* Transition time for overlay is halved to ensure that flickering doesn't happen */
-  transition: all $fluidbox__transition-duration ease-in-out;
+  transition: all var(--fluidbox__transition-duration) ease-in-out;
 
   .fluidbox--opened & {
     pointer-events: auto;
@@ -43,7 +45,7 @@ $fluidbox__animation-bg-color: $fluidbox__overlay-bg-color !default;
   background-size: cover;
   margin: 0 auto;
   position: relative;
-  transition: all $fluidbox__transition-duration ease-in-out;
+  transition: all var(--fluidbox__transition-duration) ease-in-out;
 }
 .fluidbox__thumb {
   transition: opacity 0s ease-in-out 0s;
@@ -59,7 +61,7 @@ $fluidbox__animation-bg-color: $fluidbox__overlay-bg-color !default;
   position: absolute;
   transition:
     opacity 0s 0s,
-    transform $fluidbox__transition-duration 0s;
+    transform var(--fluidbox__transition-duration) 0s;
 
   .fluidbox--opened & {
     cursor: pointer;
@@ -69,8 +71,8 @@ $fluidbox__animation-bg-color: $fluidbox__overlay-bg-color !default;
   }
   .fluidbox--closed & {
     transition:
-      opacity 0s $fluidbox__transition-duration,
-      transform $fluidbox__transition-duration 0s;
+      opacity 0s var(--fluidbox__transition-duration),
+      transform var(--fluidbox__transition-duration) 0s;
   }
 }
 .fluidbox__loader {
@@ -85,7 +87,7 @@ $fluidbox__animation-bg-color: $fluidbox__overlay-bg-color !default;
 
   &::before {
     /* You can replace this with any color you want, or even a loading gif if desired */
-    background-color: $fluidbox__animation-bg-color;
+    background-color: var(--fluidbox__animation-bg-color);
     content: "";
     transform-style: preserve-3d;
     position: absolute;
@@ -95,15 +97,15 @@ $fluidbox__animation-bg-color: $fluidbox__overlay-bg-color !default;
     padding-bottom: 20%;
     transform: translate(-50%, -50%);
     transition-property: transform;
-    transition-duration: $fluidbox__transition-duration;
+    transition-duration: var(--fluidbox__transition-duration);
     transition-delay: 0s;
   }
 }
 
 .fluidbox--loading .fluidbox__loader {
   opacity: 1;
-  transition: opacity $fluidbox__transition-duration ease-in-out
-    $fluidbox__transition-duration;
+  transition: opacity var(--fluidbox__transition-duration) ease-in-out
+    var(--fluidbox__transition-duration);
   &::before {
     animation: fluidboxLoading 1s 0s infinite ease-in-out forwards;
   }

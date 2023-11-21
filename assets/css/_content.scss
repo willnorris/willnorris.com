@@ -110,18 +110,18 @@ figure {
 }
 
 @media (min-width: 1260px) {
-  $outset: -75px;
   .outset {
-    margin-left: $outset * 2;
-    margin-right: $outset * 2;
+    --outset: -75px;
+    margin-left: calc(var(--outset) * 2);
+    margin-right: calc(var(--outset) * 2);
 
     &.alignleft {
       margin-right: 2em;
-      margin-left: $outset;
+      margin-left: var(--outset);
     }
     &.alignright {
       margin-left: 2em;
-      margin-right: $outset;
+      margin-right: var(--outset);
     }
   }
 }

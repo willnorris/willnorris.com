@@ -22,6 +22,12 @@ params:
     default_baseurl: https://willnorris.com/
 
 security:
+  exec:
+    osEnv:
+      # default from https://gohugo.io/about/security-model/#security-policy
+      - (?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG)$
+      # asdf vars for development environment
+      - ^ASDF_\w+$
   funcs:
     getenv:
       - ^IMAGEPROXY_

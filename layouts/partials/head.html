@@ -12,6 +12,9 @@
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
 
+  <link rel="preload" as="font" href="/fonts/Atkinson-Hyperlegible-Regular-102a.woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/Atkinson-Hyperlegible-Bold-102a.woff2" crossorigin>
+
   {{- if .Params.aliases }}
   {{- partial "shortlink" . }}{{ end }}
 

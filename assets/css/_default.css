@@ -13,6 +13,7 @@
   src:
     local("Atkinson Hyperlegible Regular"),
     url("/fonts/Atkinson-Hyperlegible-Regular-102a.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
@@ -21,6 +22,7 @@
     local("Atkinson Hyperlegible Bold"),
     url("/fonts/Atkinson-Hyperlegible-Bold-102a.woff2") format("woff2");
   font-weight: 700;
+  font-display: swap;
 }
 
 body {
@@ -28,7 +30,7 @@ body {
   color: var(--color-grey-20);
   font-family: "Atkinson Hyperlegible", "Helvetica Neue", Helvetica, system-ui,
     sans-serif;
-  font-size: 1.125rem; // 18px
+  font-size: 1.125rem; /* 18px */
 }
 
 a {

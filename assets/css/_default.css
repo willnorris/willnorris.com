@@ -181,20 +181,20 @@ td {
 
 ul,
 ol {
-  li {
+  & li {
     --flow-space: 0;
   }
 }
 
 dt {
   font-weight: bold;
+  & + dd {
+    --flow-space: 0;
+  }
 }
 
 dd {
   margin-inline-start: 1.5em;
-  dt + & {
-    --flow-space: 0;
-  }
 }
 
 code,

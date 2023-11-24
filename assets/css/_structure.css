@@ -17,13 +17,15 @@ main {
   max-width: 60rem;
   padding: 0 5%;
 
-  // measure and store the margin outside .wrap elements
-  //
-  //    100vw  full viewport width
-  //  - 100%   width of the current element
-  //  - SBW    width of browser scrollbar (set by javascript)
-  //  /  2     divide in half
-  //  =        width of each side margin
+  /*
+  * measure and store the margin outside .wrap elements
+  *
+  *      100vw  full viewport width
+  *    - 100%   width of the current element
+  *    - SBW    width of browser scrollbar (set by javascript)
+  *    /  2     divide in half
+  *    =        width of each side margin
+  */
   --wrap-margin: calc((100vw - 100% - var(--scrollbar-width)) / 2);
 }
 
@@ -52,7 +54,7 @@ main {
 .site-title {
   font-weight: 500;
 
-  a {
+  & a {
     color: var(--color-grey-90);
     text-decoration: none;
   }
@@ -63,12 +65,12 @@ main {
 }
 
 .site-nav {
-  > ul {
+  & > ul {
     display: flex;
     gap: 1em;
   }
 
-  a {
+  & a {
     color: currentColor;
     text-decoration: none;
     padding-block: 0.5em;
@@ -83,7 +85,7 @@ main {
   background-color: var(--color-grey-90);
   border-block-start: 1px solid var(--color-grey-80);
 
-  .content {
+  & .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -91,7 +93,7 @@ main {
     margin: 2em auto;
   }
 
-  a {
+  & a {
     text-decoration-color: var(--color-grey-60);
     color: var(--color-grey-30);
     &:hover {
@@ -99,7 +101,7 @@ main {
     }
   }
 
-  svg {
+  & svg {
     display: block;
     margin-inline: auto;
   }
@@ -112,7 +114,7 @@ main {
   padding: 1rem 0;
   text-align: center;
 
-  a {
+  & a {
     color: var(--color-grey-80);
   }
 }

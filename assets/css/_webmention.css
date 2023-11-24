@@ -1,16 +1,16 @@
 .p-comment {
   --flow-space: 2em;
   &:first-of-type {
-    // reduce top margin of first comment
+    /* reduce top margin of first comment */
     margin-block-start: 1em;
   }
   background: var(--color-grey-90);
   border: 1px solid var(--color-grey-80);
   padding: 1em;
 
-  .comment-meta {
+  & .comment-meta {
     vertical-align: top;
-    img {
+    & img {
       float: left;
       max-height: 3rem;
       margin: 0.25rem 1ex 0.25rem 0;
@@ -19,13 +19,13 @@
         width: 3rem;
       }
     }
-    time {
+    & time {
       display: block;
       font-size: 0.75em;
       color: var(--color-grey-20);
     }
   }
-  .e-content {
+  & .e-content {
     --flow-space: 1em;
     margin-block-start: 0;
   }

@@ -1,11 +1,11 @@
-// Variable
+/* Variable */
 :root {
   --fluidbox__transition-duration: 0.5s;
   --fluidbox__overlay-bg-color: rgba(255, 255, 255, 0.85);
   --fluidbox__animation-bg-color: var(--fluidbox__overlay-bg-color);
 }
 
-// Animation
+/* Animation */
 @keyframes fluidboxLoading {
   0% {
     transform: translate(-50%, -50%) rotateX(0) rotateY(0);
@@ -18,7 +18,7 @@
   }
 }
 
-// Rules
+/* Rules */
 .fluidbox {
   outline: none;
 }

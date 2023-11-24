@@ -7,8 +7,8 @@
     --flow-space: 0;
   }
 
-  .u-photo {
-    float: left; // fallback for Chrome and others
+  & .u-photo {
+    float: left; /* fallback for Chrome and others */
     float: inline-start;
     margin-inline-end: 1em;
   }
@@ -28,13 +28,13 @@
 
 figure {
   text-align: center;
-  img {
+  & img {
     display: block;
     margin: auto;
   }
-  aside > & {
-    margin-block-start: 0.5em;
-  }
+}
+aside > figure {
+  margin-block-start: 0.5em;
 }
 
 .aligncenter {
@@ -47,7 +47,7 @@ figure {
   margin-inline: calc(var(--wrap-margin) * -1);
   clear: both;
   overflow: hidden;
-  img {
+  & img {
     width: 100%;
   }
 }
@@ -63,7 +63,7 @@ figure {
 }
 
 @media (min-width: 450px) {
-  // only float if the screen is wide enough to display it properly
+  /* only float if the screen is wide enough to display it properly */
   .alignleft {
     float: left;
     margin-right: 1em;
@@ -80,21 +80,23 @@ figure {
 }
 
 @media (min-width: 450px) and (max-width: 960px) {
-  // the screen is wide enough to float, but make sure we don't squish the text
-  // to only one or two words per line
+  /*
+  *  the screen is wide enough to float, but make sure we don't squish the text
+  *  to only one or two words per line
+  */
   .alignleft,
   .alignright {
     max-width: 50%;
     height: auto;
 
-    img:not([height]) {
+    & img:not([height]) {
       height: auto;
     }
   }
 }
 
 @media (min-width: 700px) {
-  // increase padding around floats
+  /* increase padding around floats */
   .alignleft {
     margin-right: 2em;
     &:not(.outset) {
@@ -127,14 +129,14 @@ figure {
 }
 
 figure.video {
-  // responsive embeds for things like youtube videos and such
+  /* responsive embeds for things like youtube videos and such */
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
 
-  iframe,
+  & iframe,
   object,
   embed,
   video {
@@ -151,10 +153,10 @@ figure.video {
 }
 
 .home {
-  h2 {
+  & h2 {
     font-size: inherit;
   }
-  .more {
+  & .more {
     font-size: 0.875rem;
   }
 }
@@ -162,17 +164,17 @@ figure.video {
 .posts {
   list-style: none;
   padding: 0;
-  * {
+  & * {
     --flow-space: 0;
   }
 
-  time {
+  & time {
     color: var(--color-grey-30);
     font-size: 0.875rem;
     margin-left: 0.5em;
   }
 
-  .draft:before {
+  & .draft:before {
     color: var(--color-grey-30);
     content: "[draft]";
     font-size: 0.875rem;
@@ -184,7 +186,7 @@ figure.video {
   text-align: center;
 }
 
-// display large header background image
+/* display large header background image */
 @media only screen {
   .entry-header[data-background] {
     height: 75vh;
@@ -195,10 +197,10 @@ figure.video {
     margin-block-start: calc(-1 * var(--main-block-padding));
     margin-block-end: var(--main-block-padding);
     text-shadow: 1px 1px 2px var(--color-grey-20);
-    h1 {
+    & h1 {
       color: var(--color-white);
     }
-    .entry-meta,
+    & .entry-meta,
     .entry-meta a {
       color: var(--color-grey-80);
     }
@@ -209,7 +211,7 @@ figure.video {
   color: var(--color-grey-30);
   font-size: 0.875rem;
 
-  a {
+  & a {
     color: currentColor;
     text-decoration: none;
     &:hover {
@@ -219,7 +221,7 @@ figure.video {
     }
   }
 
-  .entry-syndication {
+  & .entry-syndication {
     display: block;
   }
 }
@@ -243,7 +245,7 @@ figcaption {
   align-items: center;
   justify-items: center;
 
-  a {
+  & a {
     line-height: 1;
     text-decoration: none;
   }
@@ -260,16 +262,17 @@ hr {
 
 .footnotes {
   font-size: 0.875rem;
-  code {
+  & code {
     font-size: 1em;
   }
-  ol {
+  & ol {
     padding-inline: 2em;
   }
 }
 
-// fragmentations
-// taken from http://tantek.com/2011/simple.css, in turn inspired by http://lea.verou.me/2012/12/animations-with-one-keyframe/
+/* fragmentations
+* taken from http://tantek.com/2011/simple.css, in turn inspired by http://lea.verou.me/2012/12/animations-with-one-keyframe/
+*/
 [fragmention],
 :target {
   background: yellow;
@@ -288,13 +291,13 @@ hr {
 }
 
 form#webmention {
-  input[type="url"] {
+  & input[type="url"] {
     display: block;
     box-sizing: border-box;
     width: 100%;
   }
 
-  #result {
+  & #result {
     font-weight: bold;
     margin: 0 1em;
 
@@ -309,7 +312,7 @@ form#webmention {
 
 .tweets {
   --flow-space: 3em;
-  footer {
+  & footer {
     --flow-space: 0;
   }
 }

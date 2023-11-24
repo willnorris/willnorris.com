@@ -4,8 +4,11 @@ const config = {
     require("postcss-import"),
     require("autoprefixer"),
     require("postcss-nested"),
-    require("cssnano"),
   ],
 };
+
+if (process.env.HUGO_ENVIRONMENT === "production") {
+  config.plugins.push(require("cssnano"));
+}
 
 module.exports = config;

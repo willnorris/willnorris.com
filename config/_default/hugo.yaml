@@ -80,3 +80,7 @@ outputFormats:
 outputs:
   home: [html, atom]
   section: [html]
+
+build:
+  buildStats:
+    enable: true

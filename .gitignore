@@ -5,6 +5,7 @@ _gen
 node_modules
 .hugo_build.lock
 .cache
+hugo_stats.json
 
 .env
 go.work

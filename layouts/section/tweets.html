@@ -1,3 +1,13 @@
+{{ define "head" }}
+<style>
+  .tweets {
+    --flow-space: 3em;
+    & footer {
+      --flow-space: 0;
+    }
+  }
+</style>
+{{ end }}
 {{ define "main" }}
 {{- if .FirstSection.Param "breadcrumbs" }}{{ partial "breadcrumbs" . }}{{ end }}
 <div class="wrap prose flow">

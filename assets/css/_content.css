@@ -1,26 +1,3 @@
-.profile-card {
-  background: var(--color-grey-90);
-  border-bottom: 1px solid var(--color-grey-80);
-  padding-block: 1em;
-
-  .p-note {
-    --flow-space: 0;
-  }
-
-  & .u-photo {
-    float: left; /* fallback for Chrome and others */
-    float: inline-start;
-    margin-inline-end: 1em;
-  }
-}
-
-.social-links {
-  font-size: 0.875rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
 #TableOfContents > ul {
   list-style: none;
   padding: 0;
@@ -150,15 +127,6 @@ figure.video {
 
 .prose {
   line-height: 1.8;
-}
-
-.home {
-  & h2 {
-    font-size: inherit;
-  }
-  & .more {
-    font-size: 0.875rem;
-  }
 }
 
 .posts {
@@ -307,12 +275,5 @@ form#webmention {
     &.error {
       color: var(--color-red);
     }
-  }
-}
-
-.tweets {
-  --flow-space: 3em;
-  & footer {
-    --flow-space: 0;
   }
 }

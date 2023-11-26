@@ -34,7 +34,7 @@
       <main>
         <div class="home wrap flow prose">
           <h2>Recent Posts</h2>
-          <ul class="posts">
+          <ul class="posts h-feed">
           {{- range first 10 (where .Site.RegularPages "Type" "eq" "posts") -}}
             {{ .Render "li" }}
           {{- end -}}

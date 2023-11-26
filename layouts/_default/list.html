@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{- if .FirstSection.Param "breadcrumbs" }}{{ partial "breadcrumbs" . }}{{ end }}
-<article class="h-entry wrap flow prose">
+<article class="h-entry wrap flow prose h-feed">
   <header class="entry-header">
     <h1 class="p-name">{{ .Title }}</h1>
   </header>

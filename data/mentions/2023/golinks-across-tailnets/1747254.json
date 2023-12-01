@@ -1,0 +1,19 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jeff Triplett",
+    "photo": "https://webmention.io/avatar/cdn.masto.host/bd3a72b6f4bf7ebe5acdd845f177070b3c04c9f59047d4f3c8a98ed74830eb5c.jpg",
+    "url": "https://mastodon.social/@webology"
+  },
+  "url": "https://mastodon.willnorris.net/@will/111496365244155280#favorited-by-109283765088053220",
+  "published": null,
+  "wm-received": "2023-12-01T00:00:48Z",
+  "wm-id": 1747254,
+  "wm-source": "https://brid.gy/like/mastodon/@will@mastodon.willnorris.net/111496365244155280/109283765088053220",
+  "wm-target": "https://willnorris.com/2023/golinks-across-tailnets/",
+  "wm-protocol": "webmention",
+  "like-of": "https://willnorris.com/2023/golinks-across-tailnets/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

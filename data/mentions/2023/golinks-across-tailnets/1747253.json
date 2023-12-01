@@ -1,0 +1,19 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Iridium Zeppelin",
+    "photo": "https://webmention.io/avatar/cdn.masto.host/7a935d1b17d846880e2d1158935c7296f521794335cc94a9fce632bb81593f3e.jpg",
+    "url": "https://mstdn.social/@bananarama"
+  },
+  "url": "https://mastodon.willnorris.net/@will/111496365244155280#favorited-by-109966505510182327",
+  "published": null,
+  "wm-received": "2023-12-01T00:00:48Z",
+  "wm-id": 1747253,
+  "wm-source": "https://brid.gy/like/mastodon/@will@mastodon.willnorris.net/111496365244155280/109966505510182327",
+  "wm-target": "https://willnorris.com/2023/golinks-across-tailnets/",
+  "wm-protocol": "webmention",
+  "like-of": "https://willnorris.com/2023/golinks-across-tailnets/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

@@ -1,0 +1,19 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Andy Piper",
+    "photo": "https://webmention.io/avatar/cdn.masto.host/c6405f6a89b71ddf0e53a6064d93f1ce0a5ea953a2e348608e03f8cd174d255d.jpg",
+    "url": "https://macaw.social/@andypiper"
+  },
+  "url": "https://mastodon.willnorris.net/@will/111496365244155280#favorited-by-109349470121037810",
+  "published": null,
+  "wm-received": "2023-12-01T00:00:50Z",
+  "wm-id": 1747255,
+  "wm-source": "https://brid.gy/like/mastodon/@will@mastodon.willnorris.net/111496365244155280/109349470121037810",
+  "wm-target": "https://willnorris.com/2023/golinks-across-tailnets/",
+  "wm-protocol": "webmention",
+  "like-of": "https://willnorris.com/2023/golinks-across-tailnets/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

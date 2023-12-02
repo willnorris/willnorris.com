@@ -170,4 +170,23 @@ I often share some devices between my personal and work tailnet.
 While bare hostnames work for devices in your own tailnet, they don't work for shared devices.
 For that, you have to use the fully qualified hostname,
 and I can never remember (or want to type) my full ts.net name.
-If I want to access
+If I want to access a personal go link while logged into my work tailnet,
+it's much simpler to remember _go.willnorris.net_.
+(Actually, I have an even simpler method with go links [I'll talk about later][personal-golinks].)
+
+Or you may have existing hostnames that you've been using for a while and want to migrate them to a private Tailscale network.
+Or you're possibly migrating from a different VPN product that was using a custom domain.
+Setting up a DNS server like this could help keep those old hostnames active with their new Tailscale IP addresses.
+
+It's also worth noting that I'm serving my custom DNS server publicly.
+That means anyone can poke around to discover my Tailscale device names as well as their Tailscale IPs.
+But those hostnames already end up getting written to public transparency logs whenever HTTPS certs are issued,
+so I'm not too worried about that.
+And Tailscale IP addresses themselves are generally pretty useless,
+though they do theoretically make certain types of attacks a little easier.
+So depending on the network setup and what you're trying to do,
+you could just host this DNS server privately instead.
+
+[go links]: https://tailscale.com/blog/golink
+[serve and funnel]: https://tailscale.com/blog/reintroducing-serve-funnel/
+[personal-golinks]: /2023/golinks-across-tailnets/

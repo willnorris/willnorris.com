@@ -136,10 +136,21 @@
   # proxy webmentions to webmentions.io
   @webmention {
     method POST
-    path /api/webmention/
+    path /api/webmention
   }
   handle @webmention {
-    uri replace /api/webmention/ /willnorris.com/webmention
+    uri replace /api/webmention /willnorris.com/webmention
+    reverse_proxy https://webmention.io {
+      header_up Host {upstream_hostport}
+    }
+  }
+
+  @pingback {
+    method POST
+    path /api/pingback
+  }
+  handle @pingback {
+    uri replace /api/pingback /willnorris.com/xmlrpc
     reverse_proxy https://webmention.io {
       header_up Host {upstream_hostport}
     }

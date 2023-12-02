@@ -1,4 +1,6 @@
 :root {
+  --color-black: #000000; /* 0% */
+  --color-grey-10: #191919; /* 10% */
   --color-grey-20: #333333; /* 20% */
   --color-grey-30: #555555; /* 33% */
   --color-grey-60: #999999; /* 60% */
@@ -18,5 +20,29 @@
   --color-cyan: #2b6f77;
   --color-orange: #99622e;
 
+  --color-red-60: #ac291fbb;
+  --color-blue-60: #2a74b2bb;
+
+  /* semantic colors */
+  --color-bg: var(--color-white);
+  --color-text: var(--color-grey-20);
+  --color-meta: var(--color-grey-30);
   --color-primary: var(--color-red);
+  --color-border: var(--color-grey-80);
+  --color-callout: var(--color-grey-90);
+
+  --color-header-bg: var(--color-grey-20);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-red: #cd3125;
+
+    --color-bg: var(--color-grey-10);
+    --color-text: var(--color-grey-90);
+    --color-meta: var(--color-grey-80);
+    --color-border: var(--color-grey-30);
+    --color-callout: var(--color-grey-20);
+    --color-header-bg: var(--color-black);
+  }
 }

@@ -35,8 +35,8 @@
 }
 
 body {
-  background-color: var(--color-white);
-  color: var(--color-grey-20);
+  background-color: var(--color-bg);
+  color: var(--color-text);
   font-family: "Atkinson Hyperlegible", "Helvetica Neue", Helvetica, system-ui,
     sans-serif;
   font-size: 1.125rem; /* 18px */
@@ -44,7 +44,7 @@ body {
 
 a {
   color: var(--color-primary);
-  text-decoration-color: var(--color-grey-80);
+  text-decoration-color: var(--color-border);
   text-underline-offset: 2px;
 
   &:hover {
@@ -64,7 +64,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--color-grey-20);
+  color: var(--color-text);
   font-weight: 700;
 }
 

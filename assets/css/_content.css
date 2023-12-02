@@ -119,10 +119,10 @@ samp {
 }
 
 pre {
-  background: var(--color-grey-90);
-  border: solid 1px var(--color-grey-80);
+  background: var(--color-callout);
+  border: solid 1px var(--color-border);
   border-radius: 3px;
-  color: var(--color-grey-20);
+  color: currentColor;
   hyphens: none;
   line-height: 1.5;
   overflow: auto;
@@ -135,10 +135,10 @@ pre {
 }
 
 :not(pre) > code {
-  background: var(--color-grey-90);
+  background: var(--color-callout);
   padding: 2px 4px;
   border-radius: 3px;
-  border: solid 1px var(--color-grey-80);
+  border: solid 1px var(--color-border);
 }
 
 #TableOfContents > ul {

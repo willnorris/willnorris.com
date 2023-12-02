@@ -49,7 +49,7 @@
 }
 
 .entry-meta {
-  color: var(--color-grey-30);
+  color: var(--color-meta);
   font-size: 0.875rem;
 
   & a {
@@ -58,7 +58,7 @@
     &:hover {
       color: var(--color-primary);
       text-decoration: revert;
-      text-decoration-color: var(--color-grey-80);
+      text-decoration-color: var(--color-border);
     }
   }
 

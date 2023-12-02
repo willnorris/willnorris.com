@@ -25,7 +25,7 @@ but also "SD" for the San Diego Padres, and "LA" for the Los Angeles Dodgers.
 [Tiffany-designed NYPD medal]: https://www.mlb.com/news/yankees-new-york-logo-origin
 
 <figure class="alignright">
-  <svg width="60" viewBox="0 0 516 560"><path fill-rule="evenodd" d="M515.581 157.65h-3.243c-52.639 0-105.277-.005-157.916.01-4.254.001-3.134-.577-5.413 3.047-29.802 47.386-59.584 94.783-89.373 142.177-.463.736-.949 1.458-1.632 2.504-.635-.929-1.17-1.659-1.65-2.424-19.447-30.941-38.889-61.887-58.333-92.83-10.509-16.725-21.049-33.43-31.494-50.194-1.061-1.704-2.184-2.336-4.192-2.334-52.958.055-105.917.044-158.876.044H.467C-.093 155.599-.169 2.473.347 0h515.127c.461 1.749.598 154.398.107 157.65zm-164.71 357.815h-185.66V323.999c31.098 46.323 61.768 92.876 92.434 139.324.233 0 .309.013.378-.003a.451.451 0 0 0 .216-.094c.166-.169.342-.335.472-.531 30.49-46.175 60.978-92.353 91.468-138.528.041-.063.122-.103.184-.152.077.014.161.013.229.045.061.029.145.093.148.146.051.714.126 1.428.126 2.143.006 62.938.005 125.879.005 189.116z" clip-rule="evenodd" fill="000" /></svg>
+  <svg width="60" viewBox="0 0 516 560"><path fill-rule="evenodd" d="M515.581 157.65h-3.243c-52.639 0-105.277-.005-157.916.01-4.254.001-3.134-.577-5.413 3.047-29.802 47.386-59.584 94.783-89.373 142.177-.463.736-.949 1.458-1.632 2.504-.635-.929-1.17-1.659-1.65-2.424-19.447-30.941-38.889-61.887-58.333-92.83-10.509-16.725-21.049-33.43-31.494-50.194-1.061-1.704-2.184-2.336-4.192-2.334-52.958.055-105.917.044-158.876.044H.467C-.093 155.599-.169 2.473.347 0h515.127c.461 1.749.598 154.398.107 157.65zm-164.71 357.815h-185.66V323.999c31.098 46.323 61.768 92.876 92.434 139.324.233 0 .309.013.378-.003a.451.451 0 0 0 .216-.094c.166-.169.342-.335.472-.531 30.49-46.175 60.978-92.353 91.468-138.528.041-.063.122-.103.184-.152.077.014.161.013.229.045.061.029.145.093.148.146.051.714.126 1.428.126 2.143.006 62.938.005 125.879.005 189.116z" clip-rule="evenodd" fill="var(--color-text)" /></svg>
   <figcaption>Personal logo of <a href="http://terrymun.com/">Terry Mun</a>.</figcaption>
 </figure>
 
@@ -59,8 +59,15 @@ Finally, I separated the left arm of the "W" to allow it to also be read as a sl
     margin-inline: 1em;
   }
   .logo-progression svg path {
-    background-color: #000;
-    opacity: 60%;
+    fill: var(--color-text);
+    &.red {
+      fill: var(--color-red);
+      opacity: 70%;
+    }
+    &.blue {
+      fill: var(--color-blue);
+      opacity: 80%;
+    }
   }
 </style>
 
@@ -70,8 +77,8 @@ Finally, I separated the left arm of the "W" to allow it to also be read as a sl
   </svg>
 
   <svg width="60" height="51.96">
-    <path d="M0 0 H60 L30 51.96 Z" fill="red" />
-    <path d="M20 0 H40 L30 17.32 Z" fill="blue" />
+    <path d="M0 0 H60 L30 51.96 Z" class="red" />
+    <path d="M20 0 H40 L30 17.32 Z" class="blue" />
   </svg>
 
   <svg width="60" height="51.96">
@@ -79,13 +86,13 @@ Finally, I separated the left arm of the "W" to allow it to also be read as a sl
   </svg>
 
   <svg width="120" height="51.96">
-    <path d="M0 0 h20 l10 17.32 l10 -17.32 h20 l-30 51.96 Z" fill="red" />
-    <path d="M60 0 h20 l10 17.32 l10 -17.32 h20 l-30 51.96 Z" fill="blue" />
+    <path d="M0 0 h20 l10 17.32 l10 -17.32 h20 l-30 51.96 Z" class="red" />
+    <path d="M60 0 h20 l10 17.32 l10 -17.32 h20 l-30 51.96 Z" class="blue" />
   </svg>
 
   <svg width="80" height="51.96">
-    <path d="M0 0 h20 l10 17.32 l10 -17.32 h20 l-30 51.96 Z" fill="red" />
-    <path d="M20 0 h20 l10 17.32 l10 -17.32 h20 l-30 51.96 Z" fill="blue" />
+    <path d="M20 0 h20 l10 17.32 l10 -17.32 h20 l-30 51.96 Z" class="blue" />
+    <path d="M0 0 h20 l10 17.32 l10 -17.32 h20 l-30 51.96 Z" class="red" />
   </svg>
 
   <svg width="80" height="51.96">

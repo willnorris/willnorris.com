@@ -9,7 +9,7 @@ If your publishing software doesn't send webmentions automatically, you can use 
 
 [webmention]: https://indieweb.org/webmention
 
-<form id="webmention" method="POST">
+<form id="webmention" action="/api/webmention">
   <p><label>URL of your post (the webmention <code>source</code>):
   <input type="url" name="source" required></label></p>
 

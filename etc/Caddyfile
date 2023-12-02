@@ -54,8 +54,14 @@
   redir /go/microformats/live https://go.microformats.io/
   redir /api/microformats/python https://python.microformats.io
 
-  @search path_regexp search /(category|search|tag)/(\w+)
-  redir @search "https://www.google.com/search?as_sitesearch=willnorris.com&q={re.search.2}"
+  @tag path_regexp search /(category|search|tag)/(\w+)
+  redir @tag /search?q={re.search.2}
+
+  @search {
+    path /search
+    query q=*
+  }
+  redir @search https://duckduckgo.com/?q={http.request.uri.query.q}+site:willnorris.com
 
   # redirect old WordPress /?p=123 URLs to /p/123
   @postid {

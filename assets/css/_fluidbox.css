@@ -4,6 +4,11 @@
   --fluidbox__overlay-bg-color: rgba(255, 255, 255, 0.85);
   --fluidbox__animation-bg-color: var(--fluidbox__overlay-bg-color);
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fluidbox__overlay-bg-color: rgba(0, 0, 0, 0.85);
+  }
+}
 
 /* Animation */
 @keyframes fluidboxLoading {

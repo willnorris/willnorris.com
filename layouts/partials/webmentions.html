@@ -1,47 +1,56 @@
 {{- $key := (split (trim .RelPermalink "/") "/") -}}
 {{- $mentions := index $.Site.Data.mentions $key -}}
-{{- if $mentions -}}
-  {{- $likes := slice -}}
-  {{- $reposts := slice -}}
-  {{- $bookmarks := slice -}}
-  {{- $other := slice -}}
-  {{- $replies := slice -}}
-  {{- range $index, $element := $mentions -}}
-    {{- if eq (index . "wm-property") "like-of" -}}
-      {{- $likes = $likes | append . -}}
-    {{- else if eq (index . "wm-property") "repost-of" -}}
-      {{- $reposts = $reposts | append . -}}
-    {{- else if eq (index . "wm-property") "bookmark-of" -}}
-      {{- $bookmarks = $bookmarks | append . -}}
-    {{- else -}}
-      {{- $other = $other | append $element -}}
-    {{- end -}}
-    {{- if and .content.html (not (eq (index . "wm-property") "repost-of")) -}}
-      {{/* replies are any mentions that have content, other than reposts.
-           Reposts could have additional content, but are typically just the same as the original post. */}}
-      {{- $replies = $replies | append $element -}}
-    {{- end -}}
+{{- $likes := slice -}}
+{{- $reposts := slice -}}
+{{- $bookmarks := slice -}}
+{{- $other := slice -}}
+{{- $replies := slice -}}
+{{- range $index, $element := $mentions -}}
+  {{- if eq (index . "wm-property") "like-of" -}}
+    {{- $likes = $likes | append . -}}
+  {{- else if eq (index . "wm-property") "repost-of" -}}
+    {{- $reposts = $reposts | append . -}}
+  {{- else if eq (index . "wm-property") "bookmark-of" -}}
+    {{- $bookmarks = $bookmarks | append . -}}
+  {{- else -}}
+    {{- $other = $other | append $element -}}
   {{- end -}}
-
-  {{- if $replies -}}
-  <div id="webmentions" class="wrap">
-    <h2>Comments and responses</h2>
-    {{- range sort $replies "published" }}
-    <article id="comment-{{ int (index . "wm-id") }}" class="p-comment h-entry">
-      <div class="comment-meta">
-        {{ if .url }}<a href="{{ .url }}"{{ else }}<span{{ end }} class="p-author h-card">
-          {{- $img := partial "imageproxy-url" (slice (default "#" .author.photo) "" true false) -}}
-          <img src="{{ $img }}" alt="" class="u-photo" loading="lazy" decoding="async">
-          {{ .author.name }}
-        {{ if .url }}</a>{{ else }}</span>{{ end }}
-        {{ $date := default (index . "wm-received") .published }}
-        <a href="#comment-{{ int (index . "wm-id") }}">{{ partial "time" $date }}</a>
-      </div>
-      <div class="e-content">
-        {{ .content.html | markdownify }}
-      </div>
-    </article>
-    {{- end -}}
-  </div>
-  {{- end }}
+  {{- if and .content.html (not (eq (index . "wm-property") "repost-of")) -}}
+    {{/* replies are any mentions that have content, other than reposts.
+          Reposts could have additional content, but are typically just the same as the original post. */}}
+    {{- $replies = $replies | append $element -}}
+  {{- end -}}
 {{- end -}}
+
+{{- if or $replies (eq .Type "posts") -}}
+<div id="webmentions" class="wrap">
+  <h2>Comments and responses</h2>
+
+  <form id="webmention-form" action="/api/webmention">
+    <p>Have you written a response to this? Let me know the URL:</p>
+    <div>
+      <input type="url" name="source" placeholder="https://" required>
+      <input type="hidden" name="target" value="{{ .Permalink }}">
+      <input type="submit" value="Send Webmention" />
+    </div>
+    <p result></p>
+  </form>
+
+  {{- range sort $replies "published" }}
+  <article id="comment-{{ int (index . "wm-id") }}" class="p-comment h-entry">
+    <div class="comment-meta">
+      {{ if .url }}<a href="{{ .url }}"{{ else }}<span{{ end }} class="p-author h-card">
+        {{- $img := partial "imageproxy-url" (slice (default "#" .author.photo) "" true false) -}}
+        <img src="{{ $img }}" alt="" class="u-photo" loading="lazy" decoding="async">
+        {{ .author.name }}
+      {{ if .url }}</a>{{ else }}</span>{{ end }}
+      {{ $date := default (index . "wm-received") .published }}
+      <a href="#comment-{{ int (index . "wm-id") }}">{{ partial "time" $date }}</a>
+    </div>
+    <div class="e-content">
+      {{ .content.html | markdownify }}
+    </div>
+  </article>
+  {{- end -}}
+</div>
+{{- end }}

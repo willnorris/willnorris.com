@@ -13,17 +13,29 @@ form#webmention-form {
       color: var(--color-red);
     }
   }
+
+  #webmentions & {
+    margin-block-start: 0;
+    & input {
+      line-height: 1.1;
+    }
+    & div {
+      --flow-space: 0;
+      display: flex;
+      gap: 1em;
+    }
+  }
+}
+
+#webmentions {
+  margin-block-start: 2em;
 }
 
 .p-comment {
-  --flow-space: 2em;
-  &:first-of-type {
-    /* reduce top margin of first comment */
-    margin-block-start: 1em;
-  }
   background: var(--color-callout);
   border: 1px solid var(--color-border);
   padding: 1em;
+  margin-block-start: 2em;
 
   & .comment-meta {
     vertical-align: top;
@@ -43,7 +55,6 @@ form#webmention-form {
     }
   }
   & .e-content {
-    --flow-space: 1em;
     margin-block-start: 0;
   }
 }

@@ -2,6 +2,8 @@
 title: Accessing go links across tailnets
 date: "2023-11-02T22:31:11-07:00"
 aliases: /b/5Tj1
+syndication:
+  - https://mastodon.willnorris.net/@will/111496365244155280
 ---
 
 One of the more fun projects I've worked on at Tailscale is [golink],

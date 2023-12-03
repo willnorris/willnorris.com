@@ -1,3 +1,20 @@
+form#webmention-form {
+  & input[type="url"] {
+    width: 100%;
+  }
+
+  & [result] {
+    font-weight: bold;
+
+    &.success {
+      color: var(--color-green);
+    }
+    &.error {
+      color: var(--color-red);
+    }
+  }
+}
+
 .p-comment {
   --flow-space: 2em;
   &:first-of-type {

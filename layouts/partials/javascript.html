@@ -59,5 +59,32 @@
           })
       }
     })();
+
+    // webmention form handler
+    (async () => {
+      const form = document.getElementById("webmention-form");
+      if (form) {
+        const result = form.querySelector("[result]");
+
+        form.addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const params = new URLSearchParams();
+          params.set("source", form.querySelector("[name=source]").value);
+          params.set("target", form.querySelector("[name=target]").value);
+
+          console.log("submitted form with params", params)
+          const response = await fetch(form.action, { method: "post", body: params });
+          if (response.ok) {
+            const data = await response.json();
+            result.className = "success";
+            result.innerText = data.summary;
+          } else {
+            result.className = "error";
+            result.innerText = "Error: " + response.statusText;
+          }
+        });
+      }
+    })();
   })
 </script>

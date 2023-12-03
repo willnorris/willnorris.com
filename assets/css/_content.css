@@ -327,23 +327,3 @@ hr {
     background: lighten(yellow, 40%);
   }
 }
-
-form#webmention {
-  & input[type="url"] {
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-  }
-
-  & #result {
-    font-weight: bold;
-    margin: 0 1em;
-
-    &.success {
-      color: var(--color-green);
-    }
-    &.error {
-      color: var(--color-red);
-    }
-  }
-}

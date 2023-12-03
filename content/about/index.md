@@ -55,7 +55,6 @@ I'm not interested in hearing about job opportunities.
 All of my domains are registered with [Porkbun]
 (I still roll my eyes at the name, but they're actually pretty good).
 Most images are proxied through my [imageproxy] server to handle simple things like dynamic resizing.
-Text is rendered in the [Atkinson Hyperlegible] font.
 
 [This site]: https://github.com/willnorris/willnorris.com
 [Hugo]: https://gohugo.io
@@ -64,4 +63,3 @@ Text is rendered in the [Atkinson Hyperlegible] font.
 [Porkbun]: https://porkbun.com/
 [gum]: /go/gum
 [imageproxy]: /go/imageproxy
-[Atkinson Hyperlegible]: https://brailleinstitute.org/freefont

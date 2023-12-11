@@ -7,6 +7,7 @@ title: Reading List
 - [A Desolation Called Peace](https://www.arkadymartine.net/books/adcp)
 
   - Start: 2023-06-26
+  - End: 2023-12-10
 
 - [A Memory Called Empire](https://www.arkadymartine.net/books/amce)
 

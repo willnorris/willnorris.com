@@ -43,6 +43,11 @@ if (globalThis.fetch) {
                 return;
               }
 
+              if (href.includes(root)) {
+                // don't try to redirect links that have already been rewritten
+                return;
+              }
+
               href = encodeURIComponent(href);
 
               // default to unrot.link with the url

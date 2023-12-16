@@ -10,6 +10,13 @@
       }
     })();
 
+    (async () => {
+      const links = document.querySelectorAll("a[href^=http]")
+      if (links.length) {
+        await import({{ (resources.Get "js/unrot.js" | resources.Fingerprint).RelPermalink }})
+      }
+    })();
+
     // display lightbox for linked images
     (async () => {
       const imageAnchors = Array.from(document.querySelectorAll('.e-content a'))

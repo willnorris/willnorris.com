@@ -6,7 +6,8 @@
  * visit https://unrot.link
  */
 if (globalThis.fetch) {
-  const root = 'https://unrot.link';
+  //const root = 'https://unrot.link';
+  const root = '/api/unrot';
 
   // check if unrot.link is up using the ping service. It'll return a 206 (empty)
   // if it's up, or throw if it's down. The /ping endpoint is also cached for 1

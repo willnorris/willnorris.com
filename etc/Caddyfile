@@ -29,7 +29,7 @@
   header * {
     X-Frame-Options "SAMEORIGIN"
     X-Content-Type-Options "nosniff"
-    Content-Security-Policy "default-src 'self' 'unsafe-inline' data:; frame-src https://www.youtube.com https://asciinema.org; script-src 'self' 'unsafe-inline' https://asciinema.org; connect-src https://unrot.link; report-uri /api/csp-report/"
+    Content-Security-Policy "default-src 'self' 'unsafe-inline' data:; frame-src https://www.youtube.com https://asciinema.org; script-src 'self' 'unsafe-inline' https://asciinema.org; report-uri /api/csp-report/"
   }
 
   @https expression protocol('https') || header({'x-forwarded-proto': 'https'})
@@ -152,6 +152,15 @@
   handle @pingback {
     uri replace /api/pingback /willnorris.com/xmlrpc
     reverse_proxy https://webmention.io {
+      header_up Host {upstream_hostport}
+    }
+  }
+
+  # proxy to unrot.link API
+  @unrot path /api/unrot/*
+  handle @unrot {
+    uri replace /api/unrot/ /
+    reverse_proxy https://unrot.link {
       header_up Host {upstream_hostport}
     }
   }

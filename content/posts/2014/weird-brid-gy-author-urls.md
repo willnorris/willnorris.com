@@ -1,5 +1,5 @@
 ---
-layout: aside
+type: note
 title: weird brid.gy author URLs
 date: "2014-05-28T13:50:27-07:00"
 aliases: /t/KN

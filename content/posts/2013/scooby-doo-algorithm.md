@@ -1,5 +1,5 @@
 ---
-layout: aside
+type: note
 title: scooby doo algorithm
 date: "2013-07-09T14:17:56-07:00"
 aliases: /t/HF

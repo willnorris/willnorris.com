@@ -1,5 +1,5 @@
 ---
-layout: image
+type: note
 title: WordPress OAuth Screen
 date: "2013-02-11T14:41:02-08:00"
 aliases: /p/Gk

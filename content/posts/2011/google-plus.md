@@ -1,5 +1,5 @@
 ---
-layout: status
+type: note
 title:
   Excited to finally be able to talk to family and friends about what I've been
   working on

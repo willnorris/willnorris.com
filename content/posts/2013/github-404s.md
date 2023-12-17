@@ -1,5 +1,5 @@
 ---
-layout: aside
+type: reply
 title: GitHub 404s
 date: "2013-07-12T11:05:01-07:00"
 aliases: /t/HG

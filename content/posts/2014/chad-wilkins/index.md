@@ -1,6 +1,5 @@
 ---
 title: Chad Wilkins at Google
-layout: aside
 date: "2014-08-19T13:20:43-07:00"
 image:
   url: chad-wilkins.jpg

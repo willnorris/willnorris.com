@@ -1,5 +1,5 @@
 ---
-layout: image
+type: note
 title: Be wary of secret agents
 date: "2013-03-19T10:09:56-07:00"
 aliases: /p/H0

@@ -1,5 +1,5 @@
 ---
-layout: quote
+type: note
 title: Start where you are
 date: "2013-06-19T09:48:44-07:00"
 aliases: /b/H8

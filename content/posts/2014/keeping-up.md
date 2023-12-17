@@ -1,6 +1,6 @@
 ---
 title: Keeping Up
-layout: aside
+type: note
 date: "2014-08-01T20:24:28-07:00"
 syndication:
   - https://twitter.com/willnorris/status/495410703004471296

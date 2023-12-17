@@ -1,5 +1,5 @@
 ---
-layout: aside
+type: reply
 title: Just ran across this post of Tantek's from
 date: "2013-07-18T14:44:26-07:00"
 aliases: /t/HL

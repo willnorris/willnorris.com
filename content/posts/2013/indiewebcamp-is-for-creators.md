@@ -1,5 +1,5 @@
 ---
-layout: quote
+type: note
 title: IndieWebCamp is for creators
 date: "2013-07-19T14:17:07-07:00"
 aliases: /b/HM

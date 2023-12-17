@@ -1,5 +1,5 @@
 ---
-layout: aside
+type: note
 title: Open is not a four-letter word
 date: "2014-03-07T10:04:16-08:00"
 aliases: /t/K1

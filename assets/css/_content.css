@@ -65,6 +65,11 @@ input[type="submit"],
   display: inline-block;
 }
 
+.e-content {
+  /* ensure floats don't extend past .e-content */
+  display: flow-root;
+}
+
 /* --- Tables --- */
 
 table {

@@ -1,6 +1,7 @@
 ---
 date: "2023-12-15T23:24:32-08:00"
 type: like
+linkTitle: unrot
 ---
 
 Remy took his <a href="https://remysharp.com/2023/09/26/no-more-404" class="u-like-of">No More 404</a>

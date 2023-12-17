@@ -34,9 +34,9 @@
       <main>
         <div class="home wrap flow prose">
           <h2>Recent Posts</h2>
-          <ul class="posts h-feed">
+          <ul class="posts summaries h-feed">
           {{- range first 10 (where .Site.RegularPages "Type" "eq" "posts") -}}
-            {{ .Render "li" }}
+            {{ .Render "summary" }}
           {{- end -}}
           </ul>
           <a href="{{ relref . "posts" }}" rel="feed" class="more">view all posts</a>

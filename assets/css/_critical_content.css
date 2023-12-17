@@ -5,8 +5,9 @@
 .posts {
   list-style: none;
   padding: 0;
-  & * {
-    --flow-space: 0;
+
+  &.summaries li + li {
+    margin-block-start: 1em;
   }
 
   & time {
@@ -20,6 +21,10 @@
     content: "[draft]";
     font-size: 0.875rem;
     font-variant: small-caps;
+  }
+
+  & .e-summary {
+    font-size: 0.875rem;
   }
 }
 

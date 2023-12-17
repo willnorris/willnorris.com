@@ -1,0 +1,32 @@
+{{ define "main" }}
+<article class="h-feed wrap flow prose">
+  <div>{{ .Content }}</div>
+  {{- range .Site.AllPages.GroupBy "Section" -}}
+    {{ with .Key }}<h2 id="{{.}}">{{.}}</h2>{{ end }}
+    <ul role="list" class="posts">
+    {{- if eq .Key "posts" -}}
+      {{- range .Pages.GroupBy "Type" -}}
+        <li>
+          <h3 id="{{.Key}}">{{.Key}}</h3>
+          <ul role="list" class="posts">
+            {{- range .Pages -}}
+            <li>
+              <a class="u-url p-name" href="{{ .RelPermalink }}">{{ .RelPermalink }}</a>
+              <time class="dt-published published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            </li>
+            {{- end -}}
+          </ul>
+        </li>
+      {{- end -}}
+    {{- else -}}
+      {{- range .Pages -}}
+      <li>
+        <a class="u-url p-name" href="{{ .RelPermalink }}">{{ .RelPermalink }}</a>
+        <time class="dt-published published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+      </li>
+      {{- end -}}
+    {{- end -}}
+    </ul>
+  {{- end -}}
+</article>
+{{ end }}

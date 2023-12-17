@@ -1,0 +1,19 @@
+{{- if not hugo.IsProduction -}}
+<pre id="hugo-debug">
+Kind: {{ .Kind }}
+Type: {{ .Type }}
+Section: {{ .Section }}
+Layout: {{ .Layout }}
+</pre>
+<script>
+  console.log("hugo .Params: {{.Params | jsonify}}");
+</script>
+<style>
+  #hugo-debug {
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+</style>
+{{- end -}}

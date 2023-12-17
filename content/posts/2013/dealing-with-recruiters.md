@@ -1,5 +1,5 @@
 ---
-layout: aside
+type: note
 title: Dealing with Recruiters
 date: "2013-08-01T11:36:49-07:00"
 aliases: /t/Hc

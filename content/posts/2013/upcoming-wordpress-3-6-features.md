@@ -1,5 +1,5 @@
 ---
-layout: link
+type: like
 title: Upcoming WordPress 3.6 features
 date: "2013-01-07T12:36:51-08:00"
 aliases: /t/Ga
@@ -9,7 +9,9 @@ syndication:
   - https://plus.google.com/+willnorris/posts/Vg21SJyeqQK
 ---
 
-Mark Jaquith [talking about WordPress 3.6][], which will be focused on the post authoring experience:
+Mark Jaquith
+<a href="http://make.wordpress.org/core/2013/01/07/wordpress-3-6-autosave-and-post-locking/" class="u-like-of">talking about WordPress 3.6</a>,
+which will be focused on the post authoring experience:
 
 > I want people to trust WordPress with their posts. They should never fear that something they’ve spent time creating
 > or editing should go away due to their mistake or ours or that of a third party. Mistakes and errors should be
@@ -20,5 +22,3 @@ Mark Jaquith [talking about WordPress 3.6][], which will be focused on the post 
 
 I'm not sure if I just haven't been paying close enough attention in the past, but the last couple of WordPress releases
 have been marked by a very clear product focus and zeal that is impressive, even by WordPress standards.
-
-[talking about WordPress 3.6]: http://make.wordpress.org/core/2013/01/07/wordpress-3-6-autosave-and-post-locking/

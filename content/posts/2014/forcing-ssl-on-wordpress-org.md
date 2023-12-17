@@ -1,5 +1,5 @@
 ---
-layout: link
+type: like
 title: Forcing SSL on WordPress.org
 date: "2014-03-10T14:59:10-07:00"
 aliases: /t/K8
@@ -14,7 +14,7 @@ syndication:
   - https://plus.google.com/+willnorris/posts/hZZMpvsWeZ7
 ---
 
-So it seems that [wordpress.org now serves traffic over SSL](http://www.poststat.us/wordpress-org-now-delivered-ssl/),
+So it seems that <a href="http://www.poststat.us/wordpress-org-now-delivered-ssl/" class="u-like-of">wordpress.org now serves traffic over SSL</a>,
 and will soon be switching to SSL only. In the comments on the above article, [Andrew Nacin](http://nacin.com/) said:
 
 > Yeah, all of WordPress.org will be 100% forced SSL soon.

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Watching Symlinked Directories with Jekyll
 date: "2014-12-09T17:19:43-08:00"
 ---

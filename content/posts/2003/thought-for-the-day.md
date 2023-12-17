@@ -1,5 +1,6 @@
 ---
 title: thought for the day
+type: note
 date: "2003-06-10T04:00:29-05:00"
 aliases: [/b/3PZ1, /b/20, /p/120]
 categories:

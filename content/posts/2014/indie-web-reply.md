@@ -1,5 +1,5 @@
 ---
-layout: aside
+type: reply
 title: indie web reply
 date: "2014-03-07T10:50:19-08:00"
 aliases: /t/K2

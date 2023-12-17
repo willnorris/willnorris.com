@@ -1,11 +1,11 @@
 ---
-layout: quote
+type: like
 title: The Indie Web is the new Zines
 date: "2014-10-02T15:43:08-07:00"
 aliases: [/t/4YR1, /t4YR1]
 ---
 
-I really love these two quotes from Lillian Karabaic's great piece, <cite><a
+I really love these two quotes from Lillian Karabaic's great piece, <cite><a class="u-like-of"
 href="http://anomalily.net/the-indie-web-is-the-new-zines/">The Indie Web is the new
 Zines</a></cite>. They really underscore the importance of the indie web (and ideas like it) to
 ensuring free speech and diverse opinions:

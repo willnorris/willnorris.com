@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "willnorris.com"
 
 enableGitInfo = true
+summaryLength = 30
 
 # disable taxonomy pages
 taxonomies = []

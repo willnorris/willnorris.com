@@ -125,7 +125,7 @@
     respond /metrics "metrics disabled" 404
 
     imageproxy {
-      cache /var/cache/imageproxy
+      cache /home/nonroot/imageproxy-cache
       default_base_url {$IMAGEPROXY_BASEURL}
       allow_hosts {$IMAGEPROXY_ALLOWHOSTS}
       signature_key {$IMAGEPROXY_SIGNATUREKEY}

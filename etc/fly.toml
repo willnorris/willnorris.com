@@ -14,8 +14,8 @@ kill_timeout = "5s"
   IMAGEPROXY_BASEURL = "https://willnorris.com/"
 
 [[mounts]]
-  source = "willnorris_imageproxy_cache"
-  destination = "/var/cache/imageproxy"
+  source = "data"
+  destination = "/home/nonroot"
 
 [metrics]
   port = 9000

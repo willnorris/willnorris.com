@@ -9,7 +9,7 @@ tags:
   - osid
 ---
 
-As part of [hedmaster] [] I've tried to implement as many of the [OKI Specs] [] as have made sense. I'm working on
+As part of [hedmaster] I've tried to implement as many of the [OKI Specs] as have made sense. I'm working on
 writing extensive JUnit test cases to thoroughly test hedmaster, and I got to thinking about writing a test suite to
 check for adherence to the OKI Specs. Because the OSID interfaces are designed to enable "drop in replacement" of each
 component, this shouldn't be too difficult. There would be a test case for each OsidManager that would create and

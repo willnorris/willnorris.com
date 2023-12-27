@@ -1,5 +1,5 @@
 ---
-title: "A class needed by class &lt;...&gt; cannot be found: org/apache/tools/ant/Task"
+title: "A class needed by class <...> cannot be found: org/apache/tools/ant/Task"
 date: "2005-03-22T08:36:46-06:00"
 aliases: [/b/3_Q1, /b/E, /p/14]
 categories:

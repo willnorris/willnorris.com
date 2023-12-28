@@ -291,6 +291,7 @@ figcaption {
   justify-items: center;
 
   & a {
+    align-self: start;
     line-height: 1;
     text-decoration: none;
   }

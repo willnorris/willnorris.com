@@ -62,19 +62,8 @@
     (async () => {
       const galleries = document.querySelectorAll('.gallery')
       if (galleries.length && !CSS.supports("grid-template-rows", "masonry")) {
-        // fallback to use macy.js to display masonry grid if needed
-        const {default:macy} = await import({{ (resources.Get "js/macy.mjs" | resources.Fingerprint).RelPermalink }})
-        macy({
-            container: '.gallery',
-            mobileFirst: true,
-            columns: 1,
-            margin: 5,
-            breakAt: {
-                450: { columns: 2 },
-                700: { columns: 3, margin: 10 },
-                850: { columns: 4 }
-            },
-          })
+        // fallback to masonry polyfill
+        await import({{ (resources.Get "js/masonry.js" | resources.Fingerprint).RelPermalink }})
       }
     })();
 

@@ -24,7 +24,7 @@
 
 {{- if or $replies (eq .Type "posts") -}}
 <div id="webmentions" class="wrap">
-  <h2>Comments and responses</h2>
+  {{ if $replies }}<h2>Comments and responses</h2>{{ end }}
 
   <form id="webmention-form" action="/api/webmention">
     <p>Have you written a response to this? Let me know the URL:</p>

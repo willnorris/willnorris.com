@@ -1,5 +1,6 @@
 :root {
-  --scrollbar-width: 0;
+  /* Reasonable default value; will be updated by javascript. */
+  --scrollbar-width: 15px;
 }
 
 .flow * + * {

@@ -280,6 +280,8 @@ figcaption {
 }
 
 .gallery {
+  --flow-space: 0;
+  margin-block-start: 1em;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-template-rows: masonry;

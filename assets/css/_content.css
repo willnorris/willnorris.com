@@ -296,6 +296,19 @@ figcaption {
   }
 }
 
+:popover-open {
+  padding: 0 1em;
+  background: none;
+  & img {
+    max-height: 100vh;
+  }
+}
+
+::backdrop {
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+
 .small {
   font-size: 0.875rem;
 }

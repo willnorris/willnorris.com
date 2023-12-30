@@ -1,0 +1,19 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Alex Kretzschmar",
+    "photo": "https://webmention.io/avatar/cdn.masto.host/acaf49519c6ca9f0d9935db0e795bce75a5f7caec98c255eca0e976c72fdd555.jpg",
+    "url": "https://techhub.social/@ironicbadger"
+  },
+  "url": "https://mastodon.willnorris.net/@will/111496365244155280#favorited-by-110250514880297917",
+  "published": null,
+  "wm-received": "2023-12-03T06:43:29Z",
+  "wm-id": 1748145,
+  "wm-source": "https://brid.gy/like/mastodon/@will@mastodon.willnorris.net/111496365244155280/110250514880297917",
+  "wm-target": "https://willnorris.com/2023/golinks-across-tailnets/",
+  "wm-protocol": "webmention",
+  "like-of": "https://willnorris.com/2023/golinks-across-tailnets/",
+  "wm-property": "like-of",
+  "wm-private": false
+}

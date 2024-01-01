@@ -61,7 +61,7 @@
     path /search
     query q=*
   }
-  redir @search https://duckduckgo.com/?q={http.request.uri.query.q}+site:willnorris.com
+  redir @search https://duckduckgo.com/html/?q={http.request.uri.query.q}+site:willnorris.com
 
   # redirect old WordPress /?p=123 URLs to /p/123
   @postid {

@@ -42,6 +42,7 @@
   redir /contact  /about#contact
   redir /contact/ /about#contact
   redir /photo.jpg /logo.jpg permanent
+  redir /favicon.ico /favicon.png permanent
   redir /about/resume /resume/
 
   redir /feed /atom.xml permanent

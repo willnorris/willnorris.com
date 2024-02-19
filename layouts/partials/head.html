@@ -25,13 +25,10 @@
 
   {{- $style := resources.Get "css/style.css" | postCSS }}
   {{- if hugo.IsProduction -}}
-  {{- $style := $style | fingerprint }}
-  <link rel="preload" href="{{ $style.RelPermalink }}" as="style" integrity="{{ $style.Data.Integrity }}" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}"></noscript>
-  {{- else }}
-  <link rel="preload" href="{{ $style.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ $style.RelPermalink }}"></noscript>
+    {{- $style = $style | fingerprint }}
   {{- end }}
+  <link rel="preload" href="{{ $style.RelPermalink }}" as="style">
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
   <link rel="webmention" href="/api/webmention" />
   <link rel="pingback" href="/api/pingback" />

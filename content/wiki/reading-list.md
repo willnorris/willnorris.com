@@ -2,7 +2,23 @@
 title: Reading List
 ---
 
+## 2024
+
+- [Darknet](https://matthewmather.com/darknet/)
+
+  - Start: 2024-02-08
+
+- [Radicalized](https://craphound.com/category/radicalized-full/)
+
+  - Start: 2024-01-01
+  - End: 2024-02-07
+
 ## 2023
+
+- [The Internet Con](https://craphound.com/category/internetcon/)
+
+  - Start: 2023-09-06
+  - End: 2023-09-12
 
 - [A Desolation Called Peace](https://www.arkadymartine.net/books/adcp)
 
@@ -15,6 +31,7 @@ title: Reading List
   - End: 2023-06-26
 
 - [Selected Stories Of Philip K. Dick](https://www.pkdickbooks.com/Collections/variouscollections.php)
+
   - Start: 2022-11-03
   - End: 2023-03-27
 

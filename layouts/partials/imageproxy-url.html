@@ -27,7 +27,7 @@ See more details on imageproxy at https://github.com/willnorris/imageproxy
 {{- $sign := (index . 2) }}
 {{- $encode := (index . 3) }}
 
-{{- if site.Params.imageproxy.url }}
+{{- if and $src site.Params.imageproxy.url }}
   {{- $proxy := strings.TrimSuffix "/" site.Params.imageproxy.url }}
 
   {{- $key := os.Getenv "IMAGEPROXY_SIGNATUREKEY" }}

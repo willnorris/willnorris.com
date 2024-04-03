@@ -69,7 +69,7 @@ the source repository and installing the requested package.
 
 ## Rewriting Requests with Nginx
 
-**Update 2023:** I now use the Caddy instead of nginx,
+**Update 2023:** I now use Caddy instead of nginx,
 and have an [equivalent Caddy snippet here](/2023/caddy-snippets/).
 
 As I noted above, all of my go packages are located under [willnorris.com/go][]. The simplest way I

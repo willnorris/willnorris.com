@@ -6,7 +6,7 @@ syndication:
 aliases: /b/4XG1
 ---
 
-**Update 2023:** I now use the Caddy instead of nginx,
+**Update 2023:** I now use Caddy instead of nginx,
 and have an [equivalent Caddy snippet here](/2023/caddy-snippets/).
 
 A few weeks ago, I [switched my website][] from WordPress to a staticly generated site. In doing so, I had to find

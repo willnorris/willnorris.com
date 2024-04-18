@@ -4,9 +4,14 @@ title: Reading List
 
 ## 2024
 
+- [The Peripheral](https://williamgibsonbooks.com)
+
+  - Start: 2024-04-17
+
 - [Darknet](https://matthewmather.com/darknet/)
 
   - Start: 2024-02-08
+  - End: 2024-04-16
 
 - [Radicalized](https://craphound.com/category/radicalized-full/)
 

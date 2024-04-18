@@ -15,6 +15,7 @@ title: Homelab
 |   0   | Default <ul><li>Open connection to all local devices and public internet                                                       |
 |  10   | IOT (Internet of Things) <ul><li>Connection only to other IOT devices (not other VLANs) <li>Open connection to public internet |
 |  20   | NOT (Network of Things) <ul><li>No connection to other local devices<li>No connection to public internet                       |
+|  99   | Tailscale Lab <ul><li>Connection only to other lab devices (not other VLANs)<li>Open connection to public internet             |
 
 ### Device Class
 

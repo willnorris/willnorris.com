@@ -7,7 +7,7 @@ aliases: /b/4XG1
 ---
 
 **Update 2023:** I now use Caddy instead of nginx,
-and have an [equivalent Caddy snippet here](/2023/caddy-snippets/).
+and have an [equivalent Caddy snippet here](/2023/caddy-snippets/#webfinger).
 
 A few weeks ago, I [switched my website][] from WordPress to a staticly generated site. In doing so, I had to find
 alternative solutions to some of the things I was doing with WordPress that can't be easily handled just using static

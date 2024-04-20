@@ -17,7 +17,7 @@ some custom web server behavior for static sites.
 [to a static site generator]: /2014/one-step-forward-two-steps-back/
 [switched over to Caddy]: https://github.com/willnorris/willnorris.com/commit/6f2f7445c1242a531d7d9efe60f41e8b0f33a92a
 
-## Supporting WebFinger
+## Supporting WebFinger {#webfinger}
 
 I July 2014, I wrote [Supporting WebFinger with Static Files and Nginx].
 I still use Webfinger, now primarily for my custom Mastodon server and most recently with [OpenID Connect for Tailscale].
@@ -51,7 +51,7 @@ header @webfinger {
 [OpenID Connect for Tailscale]: https://tailscale.com/kb/1240/sso-custom-oidc/
 [named matcher]: https://caddyserver.com/docs/caddyfile/matchers#named-matchers
 
-## Proxying webmentions
+## Proxying webmentions {#webmentions}
 
 In August 2014, I wrote [Proxying webmentions with nginx].
 I still proxy my webmentions to an external service, though I now use webmention.io.
@@ -76,7 +76,7 @@ handle @webmention {
 
 [Proxying webmentions with nginx]: /2014/proxying-webmentions-with-nginx/
 
-## Fetching go packages
+## Fetching go packages {#go-get}
 
 In February 2015, I wrote [Fetching Go Sub-Packages on Static Sites].
 Unsurprisingly, I still use my own domain in the import path of all of my go packages.

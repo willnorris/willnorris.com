@@ -7,7 +7,7 @@ syndication:
 ---
 
 **Update 2023:** I now use Caddy instead of nginx,
-and have an [equivalent Caddy snippet here](/2023/caddy-snippets/).
+and have an [equivalent Caddy snippet here](/2023/caddy-snippets/#webmentions).
 
 In my ever-continuing attempt to [indiewebify][] my [new static website][], I wanted to share what I came up with for
 receiving webmentions. Being a static site, I have to use some kind of webmention sidecar to process and store the

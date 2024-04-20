@@ -15,7 +15,7 @@ Elisabeth's family lives in the area, and there were just a lot of reasons right
 Quite honestly, we're still adjusting to new schools, new community, new everything.
 While there are certainly some aspects that are great, overall it's been a tough transition.
 
-I'm [currently reading](/wiki/reading-list/) Darknet by Matthew Mather.
+I'm [currently reading](/wiki/reading-list/) The Peripheral by William Gibson.
 
 ## Professional
 

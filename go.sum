@@ -1318,6 +1318,10 @@ github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXl
 github.com/subosito/gotenv v1.2.0/go.mod h1:N0PQaV/YGNqwC0u51sEeR/aUtSLEXKX9iv69rRypqCw=
 github.com/tailscale/caddy-tailscale v0.0.0-20240324222951-7b5a952a5b8b h1:UqjfRXlo+1P/unq84ZFEiwj2upG2snMe4Fhm1k+iOpM=
 github.com/tailscale/caddy-tailscale v0.0.0-20240324222951-7b5a952a5b8b/go.mod h1:fjLu6cAq2kjeYGQ7NNsQPV+LeMBJTQ3Ky+OAYKauyLE=
+github.com/tailscale/caddy-tailscale v0.0.0-20240508204146-cf9885ac8518 h1:f7Qab7WDjJ3XMgTy6tjpFbE4OXs3QL6FTYQKAORGiu0=
+github.com/tailscale/caddy-tailscale v0.0.0-20240508204146-cf9885ac8518/go.mod h1:+qFDqR12Pjkz/rTubo2AxQtMGgWCpDTd2p3BeZiH9fo=
+github.com/tailscale/caddy-tailscale v0.0.0-20240508221412-fb0b292107e0 h1:m74TIMDs9riVmqmZklKLsTwJUEIRX2JIQStxtp+3tEE=
+github.com/tailscale/caddy-tailscale v0.0.0-20240508221412-fb0b292107e0/go.mod h1:+qFDqR12Pjkz/rTubo2AxQtMGgWCpDTd2p3BeZiH9fo=
 github.com/tailscale/certstore v0.1.1-0.20231202035212-d3fa0460f47e h1:PtWT87weP5LWHEY//SWsYkSO3RWRZo4OSWagh3YD2vQ=
 github.com/tailscale/certstore v0.1.1-0.20231202035212-d3fa0460f47e/go.mod h1:XrBNfAFN+pwoWuksbFS9Ccxnopa15zJGgXRFN90l3K4=
 github.com/tailscale/go-winio v0.0.0-20231025203758-c4f33415bf55 h1:Gzfnfk2TWrk8Jj4P4c1a3CtQyMaTVCznlkLZI++hok4=

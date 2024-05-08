@@ -2,6 +2,13 @@
   order imageproxy after reverse_proxy
   order cspproxy after reverse_proxy
   auto_https off
+
+  tailscale {
+    caddy-proxy {
+      hostname "caddy-proxy-{env.FLY_REGION}"
+      ephemeral
+    }
+  }
 }
 
 :9000 {
@@ -186,7 +193,7 @@
   handle /-/* {
     uri replace /-/ /
     reverse_proxy http://samson:10000 {
-      transport tailscale
+      transport tailscale caddy-proxy
       header_up Host {upstream_hostport}
     }
   }

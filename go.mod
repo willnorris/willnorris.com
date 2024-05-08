@@ -5,7 +5,7 @@ go 1.22.0
 require (
 	github.com/caddyserver/caddy/v2 v2.7.4
 	github.com/gohugoio/hugo v0.118.2
-	github.com/tailscale/caddy-tailscale v0.0.0-20240324222951-7b5a952a5b8b
+	github.com/tailscale/caddy-tailscale v0.0.0-20240508221412-fb0b292107e0
 	tailscale.com v1.64.0
 	willnorris.com/go/imageproxy/caddy v0.0.0-20230513012155-1ba0bd0a6d85
 )

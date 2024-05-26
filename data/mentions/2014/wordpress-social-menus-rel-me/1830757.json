@@ -1,0 +1,22 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+  },
+  "url": "https://joseph-dickson.com/1835-2/",
+  "published": null,
+  "wm-received": "2024-05-25T22:09:28Z",
+  "wm-id": 1830757,
+  "wm-source": "https://joseph-dickson.com/1835-2/",
+  "wm-target": "https://willnorris.com/2014/01/wordpress-social-menus-rel-me",
+  "wm-protocol": "webmention",
+  "mention-of": "https://willnorris.com/2014/01/wordpress-social-menus-rel-me",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://joseph-dickson.com/1835-2/"
+  }
+}

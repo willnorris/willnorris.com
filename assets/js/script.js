@@ -14,6 +14,7 @@ document.documentElement.style.setProperty(
 })();
 
 // run off-site links through unrot to detect dead links
+/*
 (async () => {
   const links = document.querySelectorAll("a[href^=http]");
   if (links.length) {
@@ -22,6 +23,7 @@ document.documentElement.style.setProperty(
     );
   }
 })();
+*/
 
 // display popover for linked images
 // https://caniuse.com/popover

@@ -20,6 +20,7 @@ import (
 func init() {
 	caddy.RegisterModule(CSPProxy{})
 	httpcaddyfile.RegisterHandlerDirective("cspproxy", parseCaddyfile)
+	httpcaddyfile.RegisterDirectiveOrder("cspproxy", "after", "reverse_proxy")
 }
 
 type CSPProxy struct {

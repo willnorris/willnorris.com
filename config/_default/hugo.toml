@@ -49,11 +49,11 @@ taxonomies = []
 
 [markup.goldmark]
   [markup.goldmark.extensions]
-    footnote = true
     linkify = false
+    extras.subscript.enable = true
+    extras.superscript.enable = true
   [markup.goldmark.parser.attribute]
     block = true
-    headline = true
   [markup.goldmark.renderer]
     unsafe = true
 

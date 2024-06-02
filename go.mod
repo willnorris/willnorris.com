@@ -3,7 +3,7 @@ module github.com/willnorris/willnorris.com
 go 1.22.0
 
 require (
-	github.com/caddyserver/caddy/v2 v2.8.2-0.20240601232631-a63767d3f85b
+	github.com/caddyserver/caddy/v2 v2.8.2
 	github.com/gohugoio/hugo v0.126.2
 	github.com/tailscale/caddy-tailscale v0.0.0-20240508221412-fb0b292107e0
 	tailscale.com v1.66.0
@@ -76,7 +76,7 @@ require (
 	github.com/bep/simplecobra v0.4.0 // indirect
 	github.com/bep/tmc v0.5.1 // indirect
 	github.com/bits-and-blooms/bitset v1.13.0 // indirect
-	github.com/caddyserver/certmagic v0.21.2 // indirect
+	github.com/caddyserver/certmagic v0.21.3 // indirect
 	github.com/caddyserver/zerossl v0.1.3 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect

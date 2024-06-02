@@ -5,7 +5,7 @@ dev: .cache/tandem .cache/caddy .cache/hugo ## Run a local dev server
 	@# .env must define IMAGEPROXY_BASEURL, IMAGEPROXY_ALLOWHOSTS, IMAGEPROXY_SIGNATURE_KEY
 	@.cache/tandem \
 		'.cache/hugo --watch --buildDrafts --environment development --poll 1s' \
-		'.cache/caddy run --config etc/Caddyfile --watch'
+		'.cache/caddy run --adapter caddyfile --config etc/Caddyfile --watch'
 .PHONY: dev
 
 mentions: ## Fetch and update webmentions

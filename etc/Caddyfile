@@ -20,7 +20,7 @@
 
   handle {
     file_server
-    try_files {path} {path}/index.html {path}.html {path}/ =404
+    try_files {path} {path}/ {path}.html {path}/ =404
   }
 
   handle_errors {

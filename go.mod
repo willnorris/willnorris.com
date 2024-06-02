@@ -3,7 +3,7 @@ module github.com/willnorris/willnorris.com
 go 1.22.0
 
 require (
-	github.com/caddyserver/caddy/v2 v2.8.2
+	github.com/caddyserver/caddy/v2 v2.8.4
 	github.com/gohugoio/hugo v0.126.2
 	github.com/tailscale/caddy-tailscale v0.0.0-20240508221412-fb0b292107e0
 	tailscale.com v1.66.0

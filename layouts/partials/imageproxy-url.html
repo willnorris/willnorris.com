@@ -44,6 +44,7 @@ See more details on imageproxy at https://github.com/willnorris/imageproxy
   {{- end }}
 
   {{- $src = strings.TrimPrefix site.Params.imageproxy.default_baseurl $src }}
+  {{- $src = strings.TrimPrefix "/" $src }}
   {{- $src = printf "%s/%s/%s" $proxy $options $src }}
 {{- end }}
 

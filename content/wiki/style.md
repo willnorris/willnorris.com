@@ -24,7 +24,8 @@ It can also be <small>small</small>, <sub>subscript</sub> and <sup>superscript</
 
 > Block quotes have special formatting.
 
-<p class="border-2 border-red-300 p-4">This paragraph has a red border and padding applied by Tailwind CSS.</p>
+This paragraph has a red border and padding applied by Tailwind CSS.
+{.border-2 .border-red-300 .p-4}
 
 ## Images with text
 

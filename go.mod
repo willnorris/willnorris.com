@@ -5,8 +5,8 @@ go 1.22.0
 require (
 	github.com/caddyserver/caddy/v2 v2.8.4
 	github.com/gohugoio/hugo v0.126.2
-	github.com/tailscale/caddy-tailscale v0.0.0-20240508221412-fb0b292107e0
-	tailscale.com v1.66.0
+	github.com/tailscale/caddy-tailscale v0.0.0-20240607190007-5cc2140a0eb3
+	tailscale.com v1.67.0-pre.0.20240602211424-42cfbf427c67
 	willnorris.com/go/imageproxy/caddy v0.0.0-20240601234520-572ad2db78ed
 )
 
@@ -213,6 +213,7 @@ require (
 	github.com/pires/go-proxyproto v0.7.0 // indirect
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	github.com/prometheus-community/pro-bing v0.4.0 // indirect
 	github.com/prometheus/client_golang v1.19.1 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.53.0 // indirect

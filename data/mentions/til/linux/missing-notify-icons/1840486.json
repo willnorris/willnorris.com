@@ -1,0 +1,23 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "anonymous-bot",
+    "photo": "https://webmention.io/avatar/styles.redditmedia.com/186bfc30aec5fdc562d3298414f668871d745631c4ca8a675260f58a568d5acc.png",
+    "url": "https://reddit.com/user/anonymous-bot/"
+  },
+  "url": "https://reddit.com/r/archlinux/comments/1ebnmiy/firefox_desktop_notifications_missing_icon/lez6hm7/",
+  "published": "2024-07-26T02:58:21+00:00",
+  "wm-received": "2024-07-26T14:07:58Z",
+  "wm-id": 1840486,
+  "wm-source": "https://brid.gy/comment/reddit/willnorris/1ebnmiy/lez6hm7",
+  "wm-target": "https://willnorris.com/til/linux/missing-notify-icons/",
+  "wm-protocol": "webmention",
+  "content": {
+    "html": "<p>I think the issue could be related to the control center and not the notifications themselves. Maybe this is related?:</p>\n\n<p><a href=\"https://github.com/ErikReider/SwayNotificationCenter/issues/447\">https://github.com/ErikReider/SwayNotificationCenter/issues/447</a></p>",
+    "text": "I think the issue could be related to the control center and not the notifications themselves. Maybe this is related?:\n\nhttps://github.com/ErikReider/SwayNotificationCenter/issues/447"
+  },
+  "in-reply-to": "https://willnorris.com/til/linux/missing-notify-icons/",
+  "wm-property": "in-reply-to",
+  "wm-private": false
+}

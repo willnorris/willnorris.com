@@ -27,6 +27,10 @@ It can also be <small>small</small>, <sub>subscript</sub> and <sup>superscript</
 This paragraph has a red border and padding applied by Tailwind CSS.
 {.border-2 .border-red-300 .p-4}
 
+This is a horizontal rule:
+
+---
+
 ## Images with text
 
 <aside class="alignleft outset"><figure>
@@ -90,7 +94,7 @@ definition list term 2
   #color-sample td {
     padding-inline: 1em;
   }
-  #color-sample tr td:nth-child(2){
+  #color-sample tr td:nth-child(2) {
     background-color: var(--color-grey-20);
     & code {
       background-color: inherit;

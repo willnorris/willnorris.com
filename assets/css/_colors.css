@@ -29,9 +29,12 @@
   --color-meta: var(--color-grey-30);
   --color-primary: var(--color-red);
   --color-border: var(--color-grey-80);
+  --color-border-contrast: var(--color-grey-60);
   --color-callout: var(--color-grey-90);
+  --color-highlight: #ffffcc;
 
   --color-header-bg: var(--color-grey-20);
+  --color-header-text: var(--color-grey-80);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,6 +46,7 @@
     --color-meta: var(--color-grey-80);
     --color-border: var(--color-grey-30);
     --color-callout: var(--color-grey-20);
+    --color-highlight: rgba(255, 255, 204, 0.4);
     --color-header-bg: var(--color-black);
   }
 }

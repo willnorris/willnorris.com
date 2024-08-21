@@ -13,7 +13,7 @@
 ::after {
   border-width: 0;
   border-style: solid;
-  border-color: var(--color-grey-80);
+  border-color: var(--color-border);
 }
 
 /* --- Typographical Elements --- */

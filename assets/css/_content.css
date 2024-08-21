@@ -1,6 +1,6 @@
 blockquote,
 blockquote::before {
-  color: var(--color-grey-30);
+  color: var(--color-meta);
 }
 
 blockquote {
@@ -29,17 +29,17 @@ video {
 input,
 select,
 textarea {
-  background-color: var(--color-white);
-  border: 1px solid var(--color-grey-80);
-  box-shadow: 1px 1px 3px var(--color-grey-90) inset;
-  color: var(--color-grey-30);
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  box-shadow: 1px 1px 3px var(--color-callout) inset;
+  color: var(--color-meta);
   font-size: 1rem;
   padding: 0.5em 1em;
 }
 
 input:focus,
 textarea:focus {
-  border: 1px solid var(--color-grey-60);
+  border: 1px solid var(--color-border-contrast);
   outline: none;
 }
 
@@ -49,14 +49,15 @@ input[type="reset"],
 input[type="submit"],
 .button,
 .e-content .button {
-  background-color: var(--color-grey-20);
+  background-color: var(--color-text);
   border: none;
   box-shadow: none;
-  color: var(--color-white);
+  color: var(--color-bg);
   cursor: pointer;
   width: auto;
 
   &:hover {
+    color: var(--color-white);
     background-color: var(--color-primary);
   }
 }
@@ -69,8 +70,6 @@ input[type="submit"],
   /* ensure floats don't extend past .e-content */
   display: flow-root;
 }
-
-/* --- Tables --- */
 
 table {
   border-collapse: collapse;
@@ -135,7 +134,6 @@ pre {
   background: var(--color-callout);
   border: solid 1px var(--color-border);
   border-radius: 3px;
-  color: currentColor;
   hyphens: none;
   line-height: 1.5;
   overflow: auto;
@@ -314,7 +312,7 @@ figcaption {
 }
 
 ::backdrop {
-  background-color: #ffffff;
+  background-color: var(--color-bg);
   opacity: 0.8;
 }
 
@@ -324,7 +322,7 @@ figcaption {
 
 hr {
   border: 0;
-  border-block-end: solid 1px var(--color-grey-60);
+  border-block-end: solid 1px var(--color-border-contrast);
 }
 
 .footnotes {
@@ -342,17 +340,11 @@ hr {
 */
 [fragmention],
 :target {
-  background: yellow;
+  background: var(--color-highlight);
   animation: fragmention 3.5s both;
-  -webkit-animation: fragmention 3.5s both;
 }
 @keyframes fragmention {
   to {
-    background: lighten(yellow, 40%);
-  }
-}
-@-webkit-keyframes fragmention {
-  to {
-    background: lighten(yellow, 40%);
+    background: var(--color-highlight);
   }
 }

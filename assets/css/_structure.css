@@ -31,7 +31,7 @@ main {
 
 .site-header {
   background-color: var(--color-header-bg);
-  color: var(--color-grey-80);
+  color: var(--color-header-text);
   padding: 1rem 0;
   text-transform: lowercase;
 
@@ -94,8 +94,8 @@ main {
   }
 
   & a {
-    text-decoration-color: var(--color-grey-60);
-    color: var(--color-grey-30);
+    text-decoration-color: var(--color-border-contrast);
+    color: var(--color-meta);
     &:hover {
       color: var(--color-grey-60);
     }
@@ -109,12 +109,12 @@ main {
 
 .copyright {
   background-color: var(--color-header-bg);
-  color: var(--color-grey-80);
+  color: var(--color-header-text);
   font-size: 0.875rem;
   padding: 1rem 0;
   text-align: center;
 
   & a {
-    color: var(--color-grey-80);
+    color: var(--color-header-text);
   }
 }

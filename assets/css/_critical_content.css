@@ -11,13 +11,13 @@
   }
 
   & time {
-    color: var(--color-grey-30);
+    color: var(--color-meta);
     font-size: 0.875rem;
     margin-left: 0.5em;
   }
 
   & .draft:before {
-    color: var(--color-grey-30);
+    color: var(--color-meta);
     content: "[draft]";
     font-size: 0.875rem;
     font-variant: small-caps;
@@ -35,6 +35,8 @@
 /* display large header background image */
 @media only screen {
   .entry-header[data-background] {
+    --color-text: var(--color-white);
+    --color-meta: var(--color-grey-80);
     height: 75vh;
     background-size: cover;
     background-attachment: fixed;
@@ -43,12 +45,8 @@
     margin-block-start: calc(-1 * var(--main-block-padding));
     margin-block-end: var(--main-block-padding);
     text-shadow: 1px 1px 2px var(--color-grey-20);
-    & h1 {
-      color: var(--color-white);
-    }
-    & .entry-meta,
-    .entry-meta a {
-      color: var(--color-grey-80);
+    a:hover {
+      color: currentColor;
     }
   }
 }
@@ -59,11 +57,9 @@
 
   & a {
     color: currentColor;
-    text-decoration: none;
+    text-decoration-color: var(--color-border-contrast);
     &:hover {
       color: var(--color-primary);
-      text-decoration: revert;
-      text-decoration-color: var(--color-border);
     }
   }
 

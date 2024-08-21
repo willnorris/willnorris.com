@@ -19,8 +19,8 @@ OpenID community, the exact distinction between "directed identity" and other re
 for now. But as we start seeing OpenID used in higher value transactions, and where higher degrees of privacy are
 required, not understanding the difference can lead to great confusion.
 
-[Users vs. Identity Providers in OpenID]: http://www.hueniverse.com/hueniverse/2009/07/users-vs-identity-providers-in-openid.html
-[Eran Hammer-Lahav's blog]: http://www.hueniverse.com/
+[Users vs. Identity Providers in OpenID]: https://web.archive.org/web/2009/http://hueniverse.com/2009/07/users-vs-identity-providers-in-openid/
+[Eran Hammer-Lahav's blog]: https://web.archive.org/web/2009/http://hueniverse.com/
 
 ## OpenID History
 
@@ -155,4 +155,4 @@ directed identity if and when they were ever to implement federated identity for
 select" and "directed identity" if they want to play ball with the government.
 
 [they implemented OpenID]: http://www.readwriteweb.com/archives/barack_obamas_changegov_adds_o.php
-[announcement from the White House]: http://www.whitehouse.gov/blog/Federal-Websites-Cookie-Policy/
+[announcement from the White House]: https://web.archive.org/web/2009/http://www.whitehouse.gov/blog/Federal-Websites-Cookie-Policy

@@ -4,5 +4,5 @@ go:
   pkg: willnorris.com/go/microformats
   vcs: git
   src: https://github.com/willnorris/microformats
-description: work in progress
+description: Library for parsing microformats, in both v1 and v2 syntax
 ---

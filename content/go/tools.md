@@ -5,4 +5,5 @@ go:
   vcs: git
   src: https://github.com/willnorris/tools
 description: Assorted command line tools
+archive: true
 ---

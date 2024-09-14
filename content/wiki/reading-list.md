@@ -4,6 +4,10 @@ title: Reading List
 
 ## 2024
 
+- [This Is How You Lose the Time War](https://amalelmohtar.com/bibliography/#books)
+
+  - Start: 2024-06-01
+
 - [The Peripheral](https://williamgibsonbooks.com)
 
   - Start: 2024-04-17

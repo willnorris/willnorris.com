@@ -7,10 +7,10 @@
     {{ .Content }}
   </div>
   <dl>
-  {{- range sort .Pages "Title" -}}
+  {{- range sort .Pages "Title" }}{{ if not .Params.archive -}}
     <dt><a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a></dt>
     <dd>{{ .Description | default .Summary }}</dd>
-  {{- end -}}
+  {{- end }}{{ end -}}
   </dl>
 </article>
 {{ end }}

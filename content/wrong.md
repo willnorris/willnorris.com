@@ -7,8 +7,8 @@ Or perhaps you were trying to get in touch with a friend or relative or client o
 Norris. Or maybe Bill Norris. Or perhaps Wayne or Ward or Walter Norris. But alas, you've reached
 the wrong Will Norris.
 
-I'm in my late thirties. I work on open source software at Twitter. I'm married to [my lovely
-wife](http://notsoserendipitous.com/). We live near San Francisco, California.
+I'm in my early forties. I work on security software at Tailscale. I'm married to [my lovely
+wife](http://notsoserendipitous.com/). We live in Temecula, California.
 
 I am _not_ a [bartender in Austin, Texas](https://twitter.com/wnorris3). I am _not_ a lawyer in Los
 Angeles. I'm neither remodeling nor selling my home, and I'm _not_ dating middle aged women in New

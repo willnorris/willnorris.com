@@ -5,7 +5,13 @@ mfRoot: h-resume
 
 <style>
   section {
-    margin-bottom: 1em;
+    --flow-space: 2em;
+    & > * {
+      --flow-space: 1em;
+    }
+    & > .e-content {
+      margin-block-start: 0;
+    }
   }
   .p-contact {
     text-align: right;
@@ -14,16 +20,14 @@ mfRoot: h-resume
     display: inline;
   }
   .p-location.continued .p-org {
-    display: none
+    display: none;
   }
-  .h-event > .p-name, .duration {
+  .job-title, .major, .duration {
     font-style: italic;
   }
   .duration {
+    --flow-space: 0;
     float: right;
-  }
-  h3 {
-    margin-bottom: 0;
   }
   @media screen {
     .print {
@@ -50,7 +54,7 @@ mfRoot: h-resume
     }
     h2 {
       font-size: 1.2em;
-      margin-top: 2em;
+      margin-block-start: 2em;
     }
     h3 {
       font-size: inherit;

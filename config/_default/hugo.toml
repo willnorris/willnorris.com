@@ -9,7 +9,7 @@ summaryLength = 30
 taxonomies = []
 
 [params]
-  description = "don't lose focus"
+  description = "stay focused on what matters"
   twitter_card = "summary_large_image"
   twitter = "@willnorris"
   headerMeta = false

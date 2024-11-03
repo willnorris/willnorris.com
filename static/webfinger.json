@@ -34,7 +34,7 @@
     },
     {
       "rel": "http://openid.net/specs/connect/1.0/issuer",
-      "href": "https://willnorris-tttjhd.zitadel.cloud"
+      "href": "https://auth.willnorris.net"
     }
   ]
 }

@@ -21,9 +21,6 @@ I also spent a number of years in the enterprise identity management space
 working on [Shibboleth] and LDAP directories at [USC].
 
 Almost all of my personal projects these days are [indie web] related, mostly [written in go].
-I'm also a huge fan of [WordPress] and their mission to democratize publishing.
-Even though I no longer use WordPress for this site, I still manage other WordPress-powered site,
-and continue to maintain a number of [plugins] and occasionally contribute to WordPress core and WordPress for Android.
 
 ## Contact
 
@@ -46,8 +43,6 @@ I'm not interested in hearing about job opportunities.
 [Shibboleth]: https://shibboleth.net/
 [USC]: https://www.usc.edu/
 [written in go]: /go/
-[WordPress]: https://wordpress.org/
-[plugins]: https://profiles.wordpress.org/willnorris
 
 ## Colophon
 

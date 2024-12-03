@@ -5,6 +5,7 @@
     caddy-proxy {
       hostname "caddy-proxy-{env.FLY_REGION}"
       ephemeral
+      webui true
     }
   }
 }

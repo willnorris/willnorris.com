@@ -190,7 +190,7 @@
 
   handle /-/* {
     uri replace /-/ /
-    reverse_proxy http://samson:10000 {
+    reverse_proxy http://gideon:10000 {
       transport tailscale caddy-proxy
       header_up Host {upstream_hostport}
     }

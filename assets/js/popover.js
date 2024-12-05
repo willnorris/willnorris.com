@@ -13,7 +13,6 @@ if (imageAnchors.length) {
       event.preventDefault();
       img.src = ""; // prevent flash of previous image
       img.src = a.href;
-      console.log(popover);
       popover.showPopover();
     });
   }

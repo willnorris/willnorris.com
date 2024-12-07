@@ -12,7 +12,7 @@
     text content in this feed is licensed under a Creative Commons
     Attribution 4.0 International License and code under an MIT License.
   </rights>
-  <updated>{{ .Site.LastChange.Format $rfc3339 }}</updated>
+  <updated>{{ .Site.Lastmod.Format $rfc3339 }}</updated>
 {{ range first 10 (where .Site.RegularPages "Type" "posts") }}
   <entry>
     <id>{{ .Permalink }}</id>

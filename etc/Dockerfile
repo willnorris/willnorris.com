@@ -9,7 +9,7 @@ RUN git config --global --add safe.directory /work
 COPY . .
 COPY --from=binaries /hugo /bin/hugo
 COPY --from=binaries /bun /bin/bun
-RUN ln -s bun /bin/bunx && ln -s bun /bin/npx && bun install
+RUN ln -s bun /bin/bunx && ln -s bun /bin/npx && ln -s bun /bin/node && bun install
 RUN --mount=type=secret,id=IMAGEPROXY_SIGNATUREKEY \
     IMAGEPROXY_SIGNATUREKEY="$(cat /run/secrets/IMAGEPROXY_SIGNATUREKEY)" \
     hugo

@@ -3,6 +3,6 @@
     <h2 class="p-name"><a class="u-url" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
   </header>
   <div class="e-summary">
-    {{ .Summary }}
+    {{ .Summary | plainify }}
   </div>
 </article>

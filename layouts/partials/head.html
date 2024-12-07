@@ -16,7 +16,7 @@
   {{- partial "shortlink" . }}{{ end }}
 
   {{- $critical := resources.Get "css/critical.css" -}}
-  {{- $critical = $critical | resources.PostCSS | resources.PostProcess }}
+  {{- $critical = $critical | css.PostCSS | resources.PostProcess }}
   <style>{{ $critical.Content | safeCSS }}</style>
   {{- if not hugo.IsProduction -}}
   <!-- load critical.css separately in dev to monitor file size -->

@@ -4,3 +4,11 @@ baseURL = "http://localhost:8080/"
   short_baseurl = "http://localhost:8080/"
   [params.imageproxy]
     default_baseurl = "http://localhost:8080/"
+
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "content/posts/drafts"
+    target = "content/posts/drafts"

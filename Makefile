@@ -21,14 +21,16 @@ deploy: ## Deploy site to Fly.io
 	@mkdir -p $$(dirname $@)
 	@curl -fsSL https://raw.githubusercontent.com/rosszurowski/tandem/main/install.sh | bash -s -- --dest="$$(dirname $@)"
 
-.cache/caddy:
+.cache/caddy: go.sum $(shell find cmd/caddy -name "*.go")
 	@go build -o ./.cache/caddy ./cmd/caddy
 
-.cache/hugo:
+.cache/hugo: go.sum $(shell find cmd/hugo -name "*.go")
 	@CGO_ENABLED=1 go build --tags extended -o ./.cache/hugo ./cmd/hugo
 
 help:
-	@echo "\nSpecify a command:\n"
+	@echo ""
+	@echo "Specify a command:"
+	@echo ""
 	@grep -hE '^[0-9a-zA-Z_-]+:.*?## .*$$' ${MAKEFILE_LIST} | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[0;36m%-12s\033[m %s\n", $$1, $$2}'
 	@echo ""
 .PHONY: help

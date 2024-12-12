@@ -27,8 +27,12 @@ deploy: ## Deploy site to Fly.io
 .cache/hugo: go.sum $(shell find cmd/hugo -name "*.go")
 	@CGO_ENABLED=1 go build --tags extended -o ./.cache/hugo ./cmd/hugo
 
-node_modules: package.json
-	@bun install
+.cache/bun/bin/bun:
+	@curl -fsSL https://bun.sh/install | BUN_INSTALL=.cache/bun bash
+
+node_modules: package.json .cache/bun/bin/bun
+	@.cache/bun/bin/bun install
+
 
 help:
 	@echo ""

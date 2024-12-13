@@ -41,7 +41,7 @@
 
   @https expression protocol('https') || header({'x-forwarded-proto': 'https'})
   header @https {
-    Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
   }
 
   # redirects

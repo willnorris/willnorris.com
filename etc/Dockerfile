@@ -1,6 +1,6 @@
-FROM --platform=$BUILDPLATFORM ghcr.io/willnorris/willnorris.com-binaries:latest as binaries
+FROM --platform=$BUILDPLATFORM ghcr.io/willnorris/willnorris.com-binaries:latest AS binaries
 
-FROM --platform=$BUILDPLATFORM cgr.dev/chainguard/wolfi-base as build
+FROM --platform=$BUILDPLATFORM cgr.dev/chainguard/wolfi-base AS build
 RUN apk update && apk add build-base git
 
 WORKDIR /work

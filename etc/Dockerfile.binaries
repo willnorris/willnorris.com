@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM cgr.dev/chainguard/wolfi-base as build
+FROM --platform=$BUILDPLATFORM cgr.dev/chainguard/wolfi-base AS build
 RUN apk update && apk add build-base git openssh go-1.23
 
 WORKDIR /work
@@ -11,7 +11,7 @@ ARG TARGETOS TARGETARCH
 RUN GOOS=${TARGETOS} GOARCH="${TARGETARCH}" CGO_ENABLED=0 go build -v ./cmd/caddy &&\
   GOOS=${TARGETOS} GOARCH="${TARGETARCH}" CGO_ENABLED=1 go build -v --tags extended ./cmd/hugo
 
-FROM --platform=$BUILDPLATFORM oven/bun:1.0-distroless as bun
+FROM --platform=$BUILDPLATFORM docker.io/oven/bun:1.0-distroless AS bun
 
 # Final image with just caddy, hugo, and bun binaries
 FROM cgr.dev/chainguard/static:latest

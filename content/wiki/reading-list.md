@@ -2,11 +2,26 @@
 title: Reading List
 ---
 
+## 2025
+
+- [Data and Goliath](https://www.schneier.com/books/data-and-goliath/)
+
+  - Start: 2025-01
+  - End: 2025-02-07
+
+- [Information Doesn't Want to Be Free](https://craphound.com/category/info/)
+
+  - 2025-01
+
+- [Content](https://craphound.com/category/content/)
+  - 2025-01
+
 ## 2024
 
 - [This Is How You Lose the Time War](https://amalelmohtar.com/bibliography/#books)
 
   - Start: 2024-06-01
+  - End: 2025-01-07
 
 - [The Peripheral](https://williamgibsonbooks.com)
 

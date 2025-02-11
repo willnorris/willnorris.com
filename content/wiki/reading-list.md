@@ -4,6 +4,15 @@ title: Reading List
 
 ## 2025
 
+- [Artificial Condition (The Murderbot Diaries, Book 2)](https://www.marthawells.com/murderbot.htm)
+
+  - Start: 2025-02-10
+
+- [All Systems Red (The Murderbot Diaries, Book 1)](https://www.marthawells.com/murderbot.htm)
+
+  - Start: 2025-02-09
+  - End: 2025-02-10
+
 - [Data and Goliath](https://www.schneier.com/books/data-and-goliath/)
 
   - Start: 2025-01
@@ -11,10 +20,13 @@ title: Reading List
 
 - [Information Doesn't Want to Be Free](https://craphound.com/category/info/)
 
-  - 2025-01
+  - Start: 2025-01
+  - End: 2025-01
 
 - [Content](https://craphound.com/category/content/)
-  - 2025-01
+
+  - Start: 2025-01
+  - End: 2025-01
 
 ## 2024
 

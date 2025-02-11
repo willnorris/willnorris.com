@@ -15,7 +15,7 @@ Elisabeth's family lives in the area, and there were just a lot of reasons right
 Quite honestly, we're still adjusting to new schools, new community, new everything.
 While there are certainly some aspects that are great, overall it's been a tough transition.
 
-I'm [currently reading](/wiki/reading-list/) _This Is How You Lose the Time War_ by Amal El-Mohtar and Max Gladstone.
+I'm [currently reading](/wiki/reading-list/) _Artificial Condition (Book 2 of The Murderbot Diaries)_ by Martha Wells.
 
 ## Professional
 

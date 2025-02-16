@@ -4,9 +4,18 @@ title: Reading List
 
 ## 2025
 
+- [Red Team Blues](https://craphound.com/category/redteamblues/)
+
+  - Start: 2015-02-16
+
+- [BiblioTech: Why Libraries Matter More Than Ever in the Age of Google](https://jpalfrey.blog/top/publications/)
+
+  - Start: 2015-02-15
+
 - [Artificial Condition (The Murderbot Diaries, Book 2)](https://www.marthawells.com/murderbot.htm)
 
   - Start: 2025-02-10
+  - Start: 2025-02-15
 
 - [All Systems Red (The Murderbot Diaries, Book 1)](https://www.marthawells.com/murderbot.htm)
 

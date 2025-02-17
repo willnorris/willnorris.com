@@ -4,9 +4,14 @@ title: Reading List
 
 ## 2025
 
+- [The Bezzle](https://craphound.com/category/bezzle/)
+
+  - Start: 2015-02-16
+
 - [Red Team Blues](https://craphound.com/category/redteamblues/)
 
   - Start: 2015-02-16
+  - End: 2015-02-16
 
 - [BiblioTech: Why Libraries Matter More Than Ever in the Age of Google](https://jpalfrey.blog/top/publications/)
 

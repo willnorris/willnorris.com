@@ -15,7 +15,7 @@ Elisabeth's family lives in the area, and there were just a lot of reasons right
 Quite honestly, we're still adjusting to new schools, new community, new everything.
 While there are certainly some aspects that are great, overall it's been a tough transition.
 
-I'm [currently reading](/wiki/reading-list/) _BiblioTech_ by John Palfrey and _Red Team Blues_ by Cory Doctorow.
+I'm [currently reading](/wiki/reading-list/) _BiblioTech_ by John Palfrey and _The Bezzle_ by Cory Doctorow.
 I just finished the first two books in _The Murderbot Diaries_ by Martha Wells and can't wait to pick the series back up.
 
 ## Professional

@@ -10,18 +10,20 @@ gitInfo: true
 
 ## Personal
 
-After 13 years living in and around Half Moon Bay, CA, we moved to Temecula, CA this past summer (2023).
-Elisabeth's family lives in the area, and there were just a lot of reasons right now to move.
-Quite honestly, we're still adjusting to new schools, new community, new everything.
-While there are certainly some aspects that are great, overall it's been a tough transition.
+After 13 years living in and around Half Moon Bay, CA, we moved to Temecula, CA in 2023.
+Elisabeth's family lives in the area, and we had a very limited support network there.
+Plus it's easy for me to work remote, and escaping the Bay Area cost of living was nice.
+The local politics are kinda awful, but the schools are highly rated,
+and we found [a church](https://northcoastchurch.com) we really like.
 
-I'm [currently reading](/wiki/reading-list/) _BiblioTech_ by John Palfrey and _The Bezzle_ by Cory Doctorow.
+We bought a house we like in a really great neighborhood,
+and have been keeping ourselves busy with remodel projects and
+trying not to kill the 150 rose bushes or dozen fruit trees on the property.
+
+I'm [currently reading](/wiki/reading-list/) _BiblioTech_ by John Palfrey.
 I just finished the first two books in _The Murderbot Diaries_ by Martha Wells and can't wait to pick the series back up.
 
 ## Professional
 
 I've been working as a software engineer at Tailscale since May 2022.
-Right now I'm working on a few different things, mostly the Tailscale [web client] and [API].
-
-[web client]: https://github.com/tailscale/tailscale/tree/main/client/web
-[API]: https://github.com/tailscale/tailscale/blob/main/api.md
+I've worked on a bunch of different things, but am currently focused on identity-related projects.

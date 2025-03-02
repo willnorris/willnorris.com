@@ -4,40 +4,46 @@ title: Reading List
 
 ## 2025
 
-- [The Bezzle](https://craphound.com/category/bezzle/)
+- [Picks and Shovels](https://craphound.com/category/picks/), Cory Doctorow
+
+  - Start: 2015-02-18
+  - End: 2015-02-26
+
+- [The Bezzle](https://craphound.com/category/bezzle/), Cory Doctorow
 
   - Start: 2015-02-16
+  - End: 2015-02-18
 
-- [Red Team Blues](https://craphound.com/category/redteamblues/)
+- [Red Team Blues](https://craphound.com/category/redteamblues/), Cory Doctorow
 
   - Start: 2015-02-16
   - End: 2015-02-16
 
-- [BiblioTech: Why Libraries Matter More Than Ever in the Age of Google](https://jpalfrey.blog/top/publications/)
+- [BiblioTech: Why Libraries Matter More Than Ever in the Age of Google](https://jpalfrey.blog/top/publications/), John Palfrey
 
   - Start: 2015-02-15
 
-- [Artificial Condition (The Murderbot Diaries, Book 2)](https://www.marthawells.com/murderbot.htm)
+- [Artificial Condition (The Murderbot Diaries, Book 2)](https://www.marthawells.com/murderbot.htm), Martha Wells
 
   - Start: 2025-02-10
   - Start: 2025-02-15
 
-- [All Systems Red (The Murderbot Diaries, Book 1)](https://www.marthawells.com/murderbot.htm)
+- [All Systems Red (The Murderbot Diaries, Book 1)](https://www.marthawells.com/murderbot.htm), Martha Wells
 
   - Start: 2025-02-09
   - End: 2025-02-10
 
-- [Data and Goliath](https://www.schneier.com/books/data-and-goliath/)
+- [Data and Goliath](https://www.schneier.com/books/data-and-goliath/), Bruce Schneier
 
   - Start: 2025-01
   - End: 2025-02-07
 
-- [Information Doesn't Want to Be Free](https://craphound.com/category/info/)
+- [Information Doesn't Want to Be Free](https://craphound.com/category/info/), Cory Doctorow
 
   - Start: 2025-01
   - End: 2025-01
 
-- [Content](https://craphound.com/category/content/)
+- [Content](https://craphound.com/category/content/), Cory Doctorow
 
   - Start: 2025-01
   - End: 2025-01

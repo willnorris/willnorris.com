@@ -20,8 +20,8 @@ We bought a house we like in a really great neighborhood,
 and have been keeping ourselves busy with remodel projects and
 trying not to kill the 150 rose bushes or dozen fruit trees on the property.
 
-I'm [currently reading](/wiki/reading-list/) _BiblioTech_ by John Palfrey.
-I just finished the first two books in _The Murderbot Diaries_ by Martha Wells and can't wait to pick the series back up.
+I'm [currently reading](/wiki/reading-list/) _BiblioTech_ by John Palfrey
+and _Rogue Protocol_ by Martha Wells.
 
 ## Professional
 

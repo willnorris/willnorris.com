@@ -4,9 +4,14 @@ title: Reading List
 
 ## 2025
 
+- [Exit Strategy (The Murderbot Diaries, Book 4)](https://www.marthawells.com/murderbot.htm), Martha Wells
+
+  - Start: 2015-03-10
+
 - [Rogue Protocol (The Murderbot Diaries, Book 3)](https://www.marthawells.com/murderbot.htm), Martha Wells
 
   - Start: 2015-03-02
+  - End: 2015-03-09
 
 - [Picks and Shovels](https://craphound.com/category/picks/), Cory Doctorow
 

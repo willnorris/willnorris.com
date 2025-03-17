@@ -1,26 +1,26 @@
 {{ define "head" }}
-<style>
-  .tweets {
-    --flow-space: 3em;
-    & footer {
-      --flow-space: 0;
+  <style>
+    .tweets {
+      --flow-space: 3em;
+      & footer {
+        --flow-space: 0;
+      }
     }
-  }
-</style>
+  </style>
 {{ end }}
 {{ define "main" }}
-{{- if .FirstSection.Param "breadcrumbs" }}{{ partial "breadcrumbs" . }}{{ end }}
-<div class="wrap prose flow">
-  <header class="entry-header">
-    <h1 class="p-name">{{ .Title }}</h1>
-  </header>
-  <div class="e-content">
-    {{ .Content }}
+  {{- if .FirstSection.Param "breadcrumbs" }}{{ partial "breadcrumbs" . }}{{ end }}
+  <div class="wrap prose flow">
+    <header class="entry-header">
+      <h1 class="p-name">{{ .Title }}</h1>
+    </header>
+    <div class="e-content">
+      {{ .Content }}
+    </div>
+    <div class="tweets">
+      {{- range sort $.Site.Data.tweets "id" "desc" -}}
+        {{ partial "tweet.html" . }}
+      {{- end -}}
+    </div>
   </div>
-  <div class="tweets">
-  {{- range sort $.Site.Data.tweets "id" "desc" -}}
-    {{ partial "tweet.html" . }}
-  {{- end -}}
-  </div>
-</div>
 {{ end }}

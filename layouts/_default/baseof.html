@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ $.Site.LanguageCode | default "en" }}">
   <head>
-{{ partial "head.html" . -}}
-{{- block "head" . }}{{- end }}
+    {{ partial "head.html" . -}}
+    {{- block "head" . }}{{- end }}
   </head>
   <body>
     {{- partial "header.html" . -}}
-      <main>
-        {{- block "main" . }}{{- end }}
-      </main>
+    <main>
+      {{- block "main" . }}{{- end }}
+    </main>
     {{- partial "footer.html" . -}}
     {{- partial "javascript.html" . -}}
   </body>

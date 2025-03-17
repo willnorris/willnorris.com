@@ -1,47 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ $.Site.LanguageCode | default "en" }}">
   {{- partial "head.html" . }}
   <style>
-  .profile-card {
-    background: var(--color-callout);
-    border-bottom: 1px solid var(--color-border);
-    padding-block: 1em;
-    .p-note {
-      --flow-space: 0;
+    .profile-card {
+      background: var(--color-callout);
+      border-bottom: 1px solid var(--color-border);
+      padding-block: 1em;
+      .p-note {
+        --flow-space: 0;
+      }
+      & .u-photo {
+        float: left; /* fallback for Chrome and others */
+        float: inline-start;
+        margin-inline-end: 1em;
+      }
     }
-    & .u-photo {
-      float: left; /* fallback for Chrome and others */
-      float: inline-start;
-      margin-inline-end: 1em;
+    .social-links {
+      font-size: 0.875rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
     }
-  }
-  .social-links {
-    font-size: 0.875rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  h2 {
-    font-size: inherit;
-  }
-  .more {
-    font-size: 0.875rem;
-  }
+    h2 {
+      font-size: inherit;
+    }
+    .more {
+      font-size: 0.875rem;
+    }
   </style>
   <body>
     {{- partial "header.html" . -}}
     {{- partial "profile-card.html" -}}
-      <main>
-        <div class="home wrap flow prose">
-          <h2>Recent Posts</h2>
-          <ul class="posts summaries h-feed">
+    <main>
+      <div class="home wrap flow prose">
+        <h2>Recent Posts</h2>
+        <ul class="posts summaries h-feed">
           {{- range first 10 (where .Site.RegularPages "Type" "eq" "posts") -}}
             {{ .Render "summary" }}
           {{- end -}}
-          </ul>
-          <a href="{{ relref . "posts" }}" rel="feed" class="more">view all posts</a>
-        </div>
-      </main>
+        </ul>
+        <a href="{{ relref . "posts" }}" rel="feed" class="more">view all posts</a>
+      </div>
+    </main>
     {{- partial "footer.html" . -}}
     {{- partial "javascript.html" . -}}
   </body>

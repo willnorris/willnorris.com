@@ -1,16 +1,18 @@
 {{ define "main" }}
-<article class="h-entry wrap prose flow">
-  <header class="entry-header">
-    <h1 class="p-name">{{ .Title }}</h1>
-  </header>
-  <div class="e-content">
-    {{ .Content }}
-  </div>
-  <dl>
-  {{- range sort .Pages "Title" }}{{ if not .Params.archive -}}
-    <dt><a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a></dt>
-    <dd>{{ .Description | default .Summary }}</dd>
-  {{- end }}{{ end -}}
-  </dl>
-</article>
+  <article class="h-entry wrap prose flow">
+    <header class="entry-header">
+      <h1 class="p-name">{{ .Title }}</h1>
+    </header>
+    <div class="e-content">
+      {{ .Content }}
+    </div>
+    <dl>
+      {{- range sort .Pages "Title" }}
+        {{ if not .Params.archive -}}
+          <dt><a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a></dt>
+          <dd>{{ .Description | default .Summary }}</dd>
+        {{- end }}
+      {{ end -}}
+    </dl>
+  </article>
 {{ end }}

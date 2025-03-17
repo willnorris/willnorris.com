@@ -2,7 +2,7 @@
   {{ $base := "" }}
   {{ range (split (path.Dir (trim .RelPermalink "/")) "/") }}
     {{ if and (ne . "") (ne . ".") }}
-    / <a href="{{ $base }}/{{ . }}">{{ . }}</a>
+      / <a href="{{ $base }}/{{ . }}">{{ . }}</a>
     {{ end }}
     {{ $base = printf "%s/%s" $base . }}
   {{ end }}

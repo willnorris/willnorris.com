@@ -1,59 +1,60 @@
-  <title>{{ block "title" . }}{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  {{ hugo.Generator }}
-  <link rel="shortcut icon" href="{{ "favicon.svg" | relURL }}">
-  <link rel="mask-icon" href="{{ "favicon.svg" | relURL }}" color="#333333">
-  <link rel="apple-touch-icon-precomposed" href="{{ "favicon.png" | relURL }}">
-  <meta name="theme-color" content="#333333">
-  <link rel="manifest" href="{{ "manifest.json" | relURL }}">
-  <link rel="canonical" href="{{ .Permalink }}">
-  {{- range .AlternativeOutputFormats -}}
-      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{ end -}}
+<title>{{ block "title" . }}{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+{{ hugo.Generator }}
+<link rel="shortcut icon" href="{{ "favicon.svg" | relURL }}" />
+<link rel="mask-icon" href="{{ "favicon.svg" | relURL }}" color="#333333" />
+<link rel="apple-touch-icon-precomposed" href="{{ "favicon.png" | relURL }}" />
+<meta name="theme-color" content="#333333" />
+<link rel="manifest" href="{{ "manifest.json" | relURL }}" />
+<link rel="canonical" href="{{ .Permalink }}" />
+{{- range .AlternativeOutputFormats -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 
-  {{- if .Params.aliases }}
-  {{- partial "shortlink" . }}{{ end }}
+{{- if .Params.aliases }}
+  {{- partial "shortlink" . }}
+{{ end }}
 
-  {{- $critical := resources.Get "css/critical.css" -}}
-  {{- $critical = $critical | css.PostCSS | resources.PostProcess }}
+{{- $critical := resources.Get "css/critical.css" -}}
+{{- $critical = $critical | css.PostCSS | resources.PostProcess }}
   <style>{{ $critical.Content | safeCSS }}</style>
-  {{- if not hugo.IsProduction -}}
+{{- if not hugo.IsProduction -}}
   <!-- load critical.css separately in dev to monitor file size -->
-  <link rel="stylesheet" href="{{ $critical.RelPermalink }}">
-  {{- end -}}
+  <link rel="stylesheet" href="{{ $critical.RelPermalink }}" />
+{{- end -}}
 
-  {{- $style := resources.Get "css/style.css" | postCSS }}
-  {{- if hugo.IsProduction -}}
-    {{- $style = $style | fingerprint }}
-  {{- end }}
-  <link rel="preload" href="{{ $style.RelPermalink }}" as="style">
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+{{- $style := resources.Get "css/style.css" | postCSS }}
+{{- if hugo.IsProduction -}}
+  {{- $style = $style | fingerprint }}
+{{- end }}
+<link rel="preload" href="{{ $style.RelPermalink }}" as="style" />
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" />
 
-  <link rel="webmention" href="/api/webmention" />
-  <link rel="pingback" href="/api/pingback" />
-  <link rel="{{ if .IsHome }}home {{ end }}alternate" href="/atom.xml" type="application/atom+xml">
+<link rel="webmention" href="/api/webmention" />
+<link rel="pingback" href="/api/pingback" />
+<link rel="{{ if .IsHome }}home{{ end }}alternate" href="/atom.xml" type="application/atom+xml" />
 
 {{- if .IsHome }}
-  <meta name="description" content="{{ $.Site.Params.description }}">
-  <link rel="openid.server" href="https://openid.indieauth.com/openid">
-  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="description" content="{{ $.Site.Params.description }}" />
+  <link rel="openid.server" href="https://openid.indieauth.com/openid" />
+  <meta name="mobile-web-app-capable" content="yes" />
 {{- else }}
-  <meta name="description" content="{{ .Description | default .Summary}}">
+  <meta name="description" content="{{ .Description | default .Summary }}" />
 {{- end -}}
 
 {{- if not .IsHome -}}
   {{- if $.Param "twitter_card" }}
-    <meta name="twitter:card" content="{{ $.Param "twitter_card" }}">
-    {{ with .Site.Params.twitter }}<meta name="twitter:site" content="{{ . }}">{{ end }}
-    {{ with $.Param "author.twitter" }}<meta name="twitter:creator" content="{{ . }}">{{ end }}
-    {{ with .Title }}<meta property="og:title" content="{{ . }}">{{ end }}
-    <meta property="og:description" content="{{ .Description | default .Summary }}">
+    <meta name="twitter:card" content="{{ $.Param "twitter_card" }}" />
+    {{ with .Site.Params.twitter }}<meta name="twitter:site" content="{{ . }}" />{{ end }}
+    {{ with $.Param "author.twitter" }}<meta name="twitter:creator" content="{{ . }}" />{{ end }}
+    {{ with .Title }}<meta property="og:title" content="{{ . }}" />{{ end }}
+    <meta property="og:description" content="{{ .Description | default .Summary }}" />
     {{- with .Params.image }}
-    <meta property="og:image" content="{{ (index ($.Resources.Match .url) 0).Permalink }}">
-    {{ with .alt }}<meta property="og:image:alt" content="{{ . }}">{{ end }}
+      <meta property="og:image" content="{{ (index ($.Resources.Match .url) 0).Permalink }}" />
+      {{ with .alt }}<meta property="og:image:alt" content="{{ . }}" />{{ end }}
     {{ end }}
   {{- end -}}
 {{- end -}}
-{{- with .Params.robots }}  <meta name="robots" content="{{ . }}">{{ end -}}
-{{- with $.Param "author.url" }}  <link rel="author" href="{{ . }}">{{ end -}}
+{{- with .Params.robots }}<meta name="robots" content="{{ . }}" />{{ end -}}
+{{- with $.Param "author.url" }}<link rel="author" href="{{ . }}" />{{ end -}}

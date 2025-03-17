@@ -1,41 +1,46 @@
 {{ define "main" }}
-{{- if .FirstSection.Param "breadcrumbs" }}{{ partial "breadcrumbs" . }}{{ end }}
-<article class="{{ .Params.mfRoot | default "h-entry" }} prose flow">
-  <header class="entry-header"{{ with .Params.image }} data-background
-          style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5) 35%), url({{ .url }}); background-position:{{ .position }};" {{ end }}>
-    <div class="wrap">
-      {{ with .Title }}<h1 class="p-name">{{ . }}</h1>{{ end }}
-      {{- if .FirstSection.Param "headerMeta" }}
-      <p class="entry-meta">
-        <a href="{{ .Permalink }}" class="u-url">
-          {{ partial "time" .Date }}
-        </a>
-        by
-        <span class="p-author h-card">
-          {{ with $.Param "author.photo" }}<data class="u-photo" value="{{ . }}"></data>{{ end }}
-          <a class="u-url" href="{{ $.Param "author.url" }}">
-            <span class="p-name">{{ $.Param "author.name" }}</span>
-          </a>
-        </span>
-      </p>
-      {{- end }}
-      {{- with .Params.image.alt }}<span role="img" aria-label="{{ . }}"></span>{{ end -}}
+  {{- if .FirstSection.Param "breadcrumbs" }}{{ partial "breadcrumbs" . }}{{ end }}
+  <article class="{{ .Params.mfRoot | default "h-entry" }} prose flow">
+    <header
+      class="entry-header"
+      {{ with .Params.image }}
+        data-background style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5) 35%),
+        url({{ .url }}); background-position:{{ .position }};"
+      {{ end }}>
+      <div class="wrap">
+        {{ with .Title }}<h1 class="p-name">{{ . }}</h1>{{ end }}
+        {{- if .FirstSection.Param "headerMeta" }}
+          <p class="entry-meta">
+            <a href="{{ .Permalink }}" class="u-url">
+              {{ partial "time" .Date }}
+            </a>
+            by
+            <span class="p-author h-card">
+              {{ with $.Param "author.photo" }}<data class="u-photo" value="{{ . }}"></data>{{ end }}
+              <a class="u-url" href="{{ $.Param "author.url" }}">
+                <span class="p-name">{{ $.Param "author.name" }}</span>
+              </a>
+            </span>
+          </p>
+        {{- end }}
+        {{- with .Params.image.alt }}<span role="img" aria-label="{{ . }}"></span>{{ end -}}
+      </div>
+    </header>
+
+    <div class="e-content wrap">
+      {{ .Content }}
     </div>
-  </header>
 
-  <div class="e-content wrap">
-    {{ .Content }}
-  </div>
-
-  <footer class="entry-footer wrap">
-    <p class="entry-meta">
-    {{- if or (.Param "gitInfo") (.FirstSection.Param "gitInfo") }}
-      Last Modified: <a href="{{ printf .Site.Params.pageHistoryURL .File.Path }}">{{ .Lastmod.Format "January 2, 2006" }}</a>.
-        <a href="{{ printf .Site.Params.pageSourceURL .File.Path }}">View Source</a>.
-    {{- end }}
-    {{- partial "syndication" . -}}
-    </p>
-  </footer>
-  {{ partial "webmentions" . }}
-</article>
+    <footer class="entry-footer wrap">
+      <p class="entry-meta">
+        {{- if or (.Param "gitInfo") (.FirstSection.Param "gitInfo") }}
+          Last Modified:
+          <a href="{{ printf .Site.Params.pageHistoryURL .File.Path }}">{{ .Lastmod.Format "January 2, 2006" }}</a>.
+          <a href="{{ printf .Site.Params.pageSourceURL .File.Path }}">View Source</a>.
+        {{- end }}
+        {{- partial "syndication" . -}}
+      </p>
+    </footer>
+    {{ partial "webmentions" . }}
+  </article>
 {{ end }}

@@ -1,15 +1,15 @@
-  <header class="site-header">
-    <div class="wrap content">
-      <div class="title-area">
-        <div class="site-title"><a href="{{ .Site.BaseURL | relURL }}">{{ .Site.Title }}</a></div>
-        <div class="site-description">{{ .Site.Params.Description | markdownify }}</div>
-      </div>
-      <nav class="site-nav">
-        <ul role="list">
-          {{- range .Site.Menus.main -}}
-          <li><a class="page-link" href="{{ .URL }}">{{ .Name }}</a></li>
-          {{- end -}}
-        </ul>
-      </nav>
+<header class="site-header">
+  <div class="wrap content">
+    <div class="title-area">
+      <div class="site-title"><a href="{{ .Site.BaseURL | relURL }}">{{ .Site.Title }}</a></div>
+      <div class="site-description">{{ .Site.Params.Description | markdownify }}</div>
     </div>
-  </header>
+    <nav class="site-nav">
+      <ul role="list">
+        {{- range .Site.Menus.main -}}
+          <li><a class="page-link" href="{{ .URL }}">{{ .Name }}</a></li>
+        {{- end -}}
+      </ul>
+    </nav>
+  </div>
+</header>

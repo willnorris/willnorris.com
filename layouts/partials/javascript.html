@@ -1,8 +1,9 @@
 {{- $script := resources.Get "js/script.js" | resources.ExecuteAsTemplate
-"js/script.js" . -}} {{- if hugo.IsProduction -}} {{- $script = $script |
-fingerprint }} {{- end }}
-<script
-  type="module"
-  src="{{ $script.RelPermalink }}"
-  integrity="{{ $script.Data.Integrity }}"
-></script>
+  "js/script.js" .
+-}}
+{{- if hugo.IsProduction -}}
+  {{- $script = $script |
+    fingerprint
+  }}
+{{- end }}
+<script type="module" src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>

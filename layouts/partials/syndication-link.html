@@ -1,3 +1,4 @@
+{{/* prettier-ignore-start */}}
 {{- $url := urls.Parse . -}}
 {{- $host := strings.TrimPrefix "www." $url.Host -}}
 <a rel="syndication" class="u-syndication" href="{{ . }}">
@@ -15,3 +16,4 @@
   {{- else if eq $host "twitter.com" }}Twitter
   {{- else }}{{ $host }}{{ end -}}
 </a>
+{{/* prettier-ignore-end */}}

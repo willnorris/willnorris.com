@@ -17,5 +17,5 @@
 {{- end }}
 
 {{- if $main }}
-  <link rel="shortlink" href="{{ $main }}"{{ with $alts }} data-alt-href="{{ delimit . " " }}"{{ end }}>
+  <link rel="shortlink" href="{{ $main }}" {{ with $alts }}data-alt-href="{{ delimit . " " }}"{{ end }} />
 {{- end -}}

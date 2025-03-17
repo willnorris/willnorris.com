@@ -1,4 +1,5 @@
-{{/* The img shortcode creates <img> tags proxied through imageproxy.
+{{/* prettier-ignore-start */}}
+{{- /* The img shortcode creates <img> tags proxied through imageproxy.
 
 Site parameters:
 
@@ -16,10 +17,11 @@ If the imageproxy.always_sign parameter or the "sign" attribute on the shortcode
 the image URL will be signed with the key in the IMAGEPROXY_SIGNATUREKEY environment variable.
 Options must be in their canonical form for signing to work.
 
-    {{<img src="https://external/image.jpg" sign="true">}}
+    {{< img src="https://external/image.jpg" sign="true" >}}
 
 See more details on imageproxy at https://github.com/willnorris/imageproxy
-*/}}
+*/ -}}
+{{/* prettier-ignore-end */}}
 {{- $src := .Get "src" }}
 {{- with $.Page.Resources.GetMatch (.Get "src") }}
   {{- $src = .Permalink }}
@@ -37,9 +39,10 @@ See more details on imageproxy at https://github.com/willnorris/imageproxy
 
 {{- $sign := (or .Page.Site.Params.imageproxy.always_sign (.Get "sign")) }}
 
-<img src="{{ partial "imageproxy-url" (slice $src $options $sign) }}"
-  {{- with .Get "alt" }} alt="{{ . }}"{{ end }}
-  {{- with .Get "class" }} class="{{.}}"{{ end }}
-  {{- with .Get "width" }} width="{{.}}"{{ end }}
-  {{- with .Get "height" }} height="{{.}}"{{ end -}}
->
+
+<img
+  src="{{ partial "imageproxy-url" (slice $src $options $sign) }}"
+  {{- with .Get "alt" }}alt="{{ . }}"{{ end }}
+  {{- with .Get "class" }}class="{{ . }}"{{ end }}
+  {{- with .Get "width" }}width="{{ . }}"{{ end }}
+  {{- with .Get "height" }}height="{{ . }}"{{ end -}} />

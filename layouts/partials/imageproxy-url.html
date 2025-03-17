@@ -1,5 +1,6 @@
-{{/* The imageproxy-url partial creates an imageproxy URL for a specified image.
-
+{{/* prettier-ignore-start */}}
+{{- /*
+The imageproxy-url partial creates an imageproxy URL for a specified image.
 Site parameters:
 
     params:
@@ -21,7 +22,8 @@ If URL signing is requested, the signing key is read from the IMAGEPROXY_SIGNATU
 Options must be in their canonical form for signing to work.
 
 See more details on imageproxy at https://github.com/willnorris/imageproxy
-*/}}
+*/ -}}
+{{/* prettier-ignore-end */}}
 {{- $src := (index . 0) }}
 {{- $options := (index . 1) }}
 {{- $sign := (index . 2) }}

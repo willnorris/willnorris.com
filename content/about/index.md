@@ -28,7 +28,7 @@ I can be contacted by email at will @ this domain or by phone at +1 (901) 484-94
 I'm "willnorris" on most sites and W6WJN on amateur radio.
 I'm not interested in hearing about job opportunities.
 
-[Elisabeth]: https://notsoserendipitous.com/
+[Elisabeth]: https://elisabethnorris.com/
 [Gabriel]: https://gabenorris.com/
 [Judah]: https://judahnorris.com/
 [indie web]: https://indieweb.org/
@@ -56,5 +56,4 @@ Most images are proxied through my [imageproxy] server to handle simple things l
 [Caddy]: https://caddyserver.com/
 [Fly]: https://fly.io/
 [Porkbun]: https://porkbun.com/
-[gum]: /go/gum
 [imageproxy]: /go/imageproxy

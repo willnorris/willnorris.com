@@ -8,7 +8,7 @@ Norris. Or maybe Bill Norris. Or perhaps Wayne or Ward or Walter Norris. But ala
 the wrong Will Norris.
 
 I'm in my early forties. I work on security software at Tailscale. I'm married to [my lovely
-wife](http://notsoserendipitous.com/). We live in Temecula, California.
+wife](http://elisabethnorris.com/). We live in Temecula, California.
 
 I am _not_ a [bartender in Austin, Texas](https://twitter.com/wnorris3). I am _not_ a lawyer in Los
 Angeles. I'm neither remodeling nor selling my home, and I'm _not_ dating middle aged women in New
@@ -25,8 +25,8 @@ legitimate) welcome emails from various services I never signed up for. I can on
 someone mistakenly thinks that _my_ email address is actually _their_ email address. So they may
 not be getting the email they were expecting and not understand why.
 
-**So here it is.** I have the email address *wnorris@gmail.com* (it's not the one I use primarily,
-but I have it). You do not. Nor do you have the email address *w.norris@gmail.com*. That one is
+**So here it is.** I have the email address _wnorris@gmail.com_ (it's not the one I use primarily,
+but I have it). You do not. Nor do you have the email address _w.norris@gmail.com_. That one is
 me too. Really. You see, Gmail ignores the dots in the first part of the email address, so
 "wnorris" is the same as "w.norris", which is the same as "w.n.o.r.r.i.s".
 

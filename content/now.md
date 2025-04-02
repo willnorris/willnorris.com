@@ -21,7 +21,7 @@ and have been keeping ourselves busy with remodel projects and
 trying not to kill the 150 rose bushes or dozen fruit trees on the property.
 
 I'm [currently reading](/wiki/reading-list/) _BiblioTech_ by John Palfrey
-and _Exit Strategy_ by Martha Wells.
+and _Network Effect_ by Martha Wells.
 
 ## Professional
 

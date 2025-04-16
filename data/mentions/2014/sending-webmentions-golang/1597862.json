@@ -3,7 +3,7 @@
   "author": {
     "type": "card",
     "name": "dgryski",
-    "photo": "https://webmention.io/avatar/www.redditstatic.com/b4be5d320718a5e62a32e756a628dbbae500c42f94fb47937b50c0adca151ed6.png",
+    "photo": "https://avatars.webmention.io/www.redditstatic.com/b4be5d320718a5e62a32e756a628dbbae500c42f94fb47937b50c0adca151ed6.png",
     "url": "https://reddit.com/user/dgryski/"
   },
   "url": "https://reddit.com/r/golang/comments/2czy43/sending_webmentions_with_go/",

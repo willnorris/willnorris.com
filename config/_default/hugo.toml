@@ -41,7 +41,7 @@ taxonomies = []
     getenv = ['^IMAGEPROXY_']
 
 [permalinks]
-  posts = "/:year/:filename/"
+  posts = "/:year/:contentbasename/"
 
 [frontmatter]
   date = [ "date", "publishDate", "lastmod", ":git", ":fileModTime" ]

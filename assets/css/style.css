@@ -1,11 +1,13 @@
-@import "assets/css/_content.css";
-@import "assets/css/_webmention.css";
+@import "./_content.css";
+@import "./_webmention.css";
 
 /* syntax highlighting */
-@import "assets/css/_chroma-colors.css";
+@import "./_chroma-colors.css";
 
-@import "assets/css/_print.css";
+@import "./_print.css";
 
 /* Tailwind CSS - Start */
-@import "tailwindcss/utilities.css";
+/* @import "tailwindcss"; */
 /* Tailwind CSS - End */
+
+@source 'hugo_stats.json';

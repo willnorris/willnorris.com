@@ -16,15 +16,19 @@
   {{- partial "shortlink" . }}
 {{ end }}
 
+{{- $twopts := dict
+  "minify" hugo.IsProduction
+  "inlineImports" true
+-}}
 {{- $critical := resources.Get "css/critical.css" -}}
-{{- $critical = $critical | css.PostCSS | resources.PostProcess }}
+{{- $critical = $critical | css.TailwindCSS $twopts | resources.PostProcess }}
   <style>{{ $critical.Content | safeCSS }}</style>
 {{- if not hugo.IsProduction -}}
   <!-- load critical.css separately in dev to monitor file size -->
   <link rel="stylesheet" href="{{ $critical.RelPermalink }}" />
 {{- end -}}
 
-{{- $style := resources.Get "css/style.css" | postCSS }}
+{{- $style := resources.Get "css/style.css" | css.TailwindCSS $twopts }}
 {{- if hugo.IsProduction -}}
   {{- $style = $style | fingerprint }}
 {{- end }}

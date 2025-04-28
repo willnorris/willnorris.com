@@ -1,6 +1,6 @@
-@import "assets/css/_colors.css";
-@import "assets/css/_reset.css";
+@import "./_colors.css";
+@import "./_reset.css";
 
-@import "assets/css/_default.css";
-@import "assets/css/_structure.css";
-@import "assets/css/_critical_content.css";
+@import "./_default.css";
+@import "./_structure.css";
+@import "./_critical_content.css";

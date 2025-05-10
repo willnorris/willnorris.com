@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
-  <style>path{fill:#333333;}@media(prefers-color-scheme:dark){path{fill:#DDDDDD;}}</style>
+  <style>path{fill:#333;}@media(prefers-color-scheme:dark){path{fill:#DDD;}}</style>
   <path d="M0,14H20L27,26.12 17,43.44ZM40,14 50,31.32 60,14H80L50,65.96 40,48.64 30,65.96 20,48.64Z"/>
 </svg>

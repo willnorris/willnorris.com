@@ -4,9 +4,14 @@ title: Reading List
 
 ## 2025
 
+- [There is No Antimemetics Division](https://scp-wiki.wikidot.com/antimemetics-division-hub), qntm
+
+  - Start: 2015-05-28
+
 - [Network Effect (The Murderbot Diaries, Book 5)](https://www.marthawells.com/murderbot.htm), Martha Wells
 
   - Start: 2015-03-23
+  - End: 2015-05-28
 
 - [Exit Strategy (The Murderbot Diaries, Book 4)](https://www.marthawells.com/murderbot.htm), Martha Wells
 

@@ -20,8 +20,7 @@ We bought a house we like in a really great neighborhood,
 and have been keeping ourselves busy with remodel projects and
 trying not to kill the 150 rose bushes or dozen fruit trees on the property.
 
-I'm [currently reading](/wiki/reading-list/) _BiblioTech_ by John Palfrey
-and _Network Effect_ by Martha Wells.
+I'm [currently reading](/wiki/reading-list/) _There Is No Antimemetics Division_ by qntm.
 
 ## Professional
 

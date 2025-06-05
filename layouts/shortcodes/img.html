@@ -8,6 +8,7 @@ Site parameters:
         url: "http://proxy.example.com/" # absolute URL of imageproxy instance
         default_baseurl: "http://example.com/" # optional baseurl configured on imageproxy
         always_sign: false # always sign proxied image URLs
+        always_b64: false # always base64 encode proxied image URLs
 
 Shortcode usage:
 
@@ -38,10 +39,11 @@ See more details on imageproxy at https://github.com/willnorris/imageproxy
 {{- end }}
 
 {{- $sign := (or .Page.Site.Params.imageproxy.always_sign (.Get "sign")) }}
+{{- $b64 := (or .Page.Site.Params.imageproxy.always_b64 (.Get "b64")) }}
 
 
 <img
-  src="{{ partial "imageproxy-url" (slice $src $options $sign) }}"
+  src="{{ partial "imageproxy-url" (slice $src $options $sign $b64) }}"
   {{- with .Get "alt" }}alt="{{ . }}"{{ end }}
   {{- with .Get "class" }}class="{{ . }}"{{ end }}
   {{- with .Get "width" }}width="{{ . }}"{{ end }}

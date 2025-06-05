@@ -4,7 +4,7 @@ menu: "main"
 ---
 
 <figure class="alignright">
-  {{<img src="norris-family-2023.jpg" alt="Norris Family" width="300" height="286" class="u-photo photo">}}
+  {{<img src="norris-family-2023.jpg" alt="Norris Family" width="300" height="286" class="u-photo photo" b64=true >}}
 </figure>
 
 Hi, I'm Will Norris.

@@ -4,9 +4,14 @@ title: Reading List
 
 ## 2025
 
+- [Antimemetics: Why Some Ideas Resist Spreading](https://darkforest.metalabel.com/antimemetics), Nadia Asparouhova
+
+  - Start: 2015-06-15
+
 - [There is No Antimemetics Division](https://scp-wiki.wikidot.com/antimemetics-division-hub), qntm
 
   - Start: 2015-05-28
+  - End: 2015-06-15
 
 - [Network Effect (The Murderbot Diaries, Book 5)](https://www.marthawells.com/murderbot.htm), Martha Wells
 

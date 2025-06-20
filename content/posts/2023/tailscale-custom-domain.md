@@ -51,12 +51,12 @@ I cleverly chose `ns1.ipn.willnorris.net` and `ns2.ipn.willnorris.net`.
 I added A records pointing each hostname to my Fly IP address, and
 added NS records for `ipn.willnorris.net` pointing to those two hosts.
 
-```
-ns1.ipn.willnorris.net.	600	IN	A	37.16.12.98
-ns2.ipn.willnorris.net.	600	IN	A	37.16.12.98
+```bind
+ns1.ipn.willnorris.net. 600 IN A 37.16.12.98
+ns2.ipn.willnorris.net. 600 IN A 37.16.12.98
 
-ipn.willnorris.net.	600	IN	NS	ns1.ipn.willnorris.net.
-ipn.willnorris.net.	600	IN	NS	ns2.ipn.willnorris.net.
+ipn.willnorris.net. 600 IN NS ns1.ipn.willnorris.net.
+ipn.willnorris.net. 600 IN NS ns2.ipn.willnorris.net.
 ```
 
 [still present]: https://pkg.go.dev/tailscale.com/ipn
@@ -103,11 +103,16 @@ The only interesting bit is the [coredns config] itself:
 
 ```caddyfile
 ipn.willnorris.net {
-  hosts {
-    # some resolvers will recheck the entries for DNS glue records at the delegate nameserver.
-    # Manually specify these hosts, since they won't appear in the Tailscale node list.
-    37.16.12.98 ns1.ipn.willnorris.net ns2.ipn.willnorris.net
-    fallthrough
+  records {
+    # Some resolvers will recheck for NS records at the delegate nameserver.
+    # Manually specify these here, since they won't appear in the Tailscale node list.
+    @   300 IN NS ns1.ipn.willnorris.net.
+    @   300 IN NS ns2.ipn.willnorris.net.
+
+    ns1 300 IN A  37.16.12.98
+    ns2 300 IN A  37.16.12.98
+
+    $OPTION fallthrough
   }
   tailscale ipn.willnorris.net {
     authkey {$TS_AUTHKEY}
@@ -121,6 +126,8 @@ I manually respecify records for my nameservers since some resolvers will check 
 I then configure the coredns-tailscale plugin to use my `ipn.willnorris.net` zone,
 and register itself with my Tailscale auth key.
 
+(Edit: soon after publication, these changes were merged upstream, so this entire paragraph is outdated.
+However, I do now use [a fork](https://github.com/willnorris/records) of the records coredns plugin.)
 Now this auth key is the one really non-standard bit, and relies on a [local change] I made to coredns-tailscale.
 Normally, it requires that a Tailscale client be running on the host system (the docker image in my case).
 I added support for having coredns join the tailnet directly using [tsnet],
@@ -132,7 +139,7 @@ Once deployed, you can see that DNS queries for my MagicDNS hostname and my cust
 Though in practice, I typically create a CNAME without the `ipn` component
 and use that for actually accessing services when I need to:
 
-```
+```shell
 % dig +short go.tail27e07.ts.net
 100.69.62.103
 

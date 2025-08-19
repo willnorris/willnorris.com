@@ -4,6 +4,26 @@ title: Reading List
 
 ## 2025
 
+- [Practicing the Way](https://www.penguinrandomhouse.com/books/673402/practicing-the-way-by-john-mark-comer/), John Mark Comer
+
+  - Start: 2025-08-10
+  - End:
+
+- [The Sacred Enneagram](https://chrisheuertz.com/books/), Christopher Huertz
+
+  - Start: 2025-07-29
+  - End: 2025-08-10
+
+- [System Collapse (The Murderbot Diaries, Book 7)](https://www.marthawells.com/murderbot.htm), Martha Wells
+
+  - Start: 2025-07-17
+  - End: 2025-08-18
+
+- [Fugitive Telemtry (The Murderbot Diaries, Book 6)](https://www.marthawells.com/murderbot.htm), Martha Wells
+
+  - Start: 2025-06-23
+  - End: 2025-07-17
+
 - [Antimemetics: Why Some Ideas Resist Spreading](https://darkforest.metalabel.com/antimemetics), Nadia Asparouhova
 
   - Start: 2015-06-15

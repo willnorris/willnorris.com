@@ -4,10 +4,20 @@ title: Reading List
 
 ## 2025
 
+- [Coming Clean](https://www.sethhaines.com/about), Seth Haines
+
+  - Start: 2025-08-25
+  - End: 2025-09-11
+
+- [Starter Villain](https://us.macmillan.com/books/9780765389220/startervillain/), John Scalzi
+
+  - Start: 2025-08-20
+  - End:
+
 - [Practicing the Way](https://www.penguinrandomhouse.com/books/673402/practicing-the-way-by-john-mark-comer/), John Mark Comer
 
   - Start: 2025-08-10
-  - End:
+  - End: 2025-08-24
 
 - [The Sacred Enneagram](https://chrisheuertz.com/books/), Christopher Huertz
 

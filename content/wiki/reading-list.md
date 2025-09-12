@@ -24,12 +24,12 @@ title: Reading List
   - Start: 2025-07-29
   - End: 2025-08-10
 
-- [System Collapse (The Murderbot Diaries, Book 7)](https://www.marthawells.com/murderbot.htm), Martha Wells
+- [System Collapse (The Murderbot Diaries, Book 7)](https://www.marthawells.com/murderbot7.htm), Martha Wells
 
   - Start: 2025-07-17
   - End: 2025-08-18
 
-- [Fugitive Telemtry (The Murderbot Diaries, Book 6)](https://www.marthawells.com/murderbot.htm), Martha Wells
+- [Fugitive Telemtry (The Murderbot Diaries, Book 6)](https://www.marthawells.com/murderbot6.htm), Martha Wells
 
   - Start: 2025-06-23
   - End: 2025-07-17
@@ -43,22 +43,22 @@ title: Reading List
   - Start: 2015-05-28
   - End: 2015-06-15
 
-- [Network Effect (The Murderbot Diaries, Book 5)](https://www.marthawells.com/murderbot.htm), Martha Wells
+- [Network Effect (The Murderbot Diaries, Book 5)](https://www.marthawells.com/networkeffect.htm), Martha Wells
 
   - Start: 2015-03-23
   - End: 2015-05-28
 
-- [Exit Strategy (The Murderbot Diaries, Book 4)](https://www.marthawells.com/murderbot.htm), Martha Wells
+- [Exit Strategy (The Murderbot Diaries, Book 4)](https://www.marthawells.com/murderbot4.htm), Martha Wells
 
   - Start: 2015-03-10
   - End: 2015-03-22
 
-- [Rogue Protocol (The Murderbot Diaries, Book 3)](https://www.marthawells.com/murderbot.htm), Martha Wells
+- [Rogue Protocol (The Murderbot Diaries, Book 3)](https://www.marthawells.com/murderbot3.htm), Martha Wells
 
   - Start: 2015-03-02
   - End: 2015-03-09
 
-- [Picks and Shovels](https://craphound.com/category/picks/), Cory Doctorow
+- [Picks and Shovels](https://craphound.com/category/picksandshovels/), Cory Doctorow
 
   - Start: 2015-02-18
   - End: 2015-02-26
@@ -77,12 +77,12 @@ title: Reading List
 
   - Start: 2015-02-15
 
-- [Artificial Condition (The Murderbot Diaries, Book 2)](https://www.marthawells.com/murderbot.htm), Martha Wells
+- [Artificial Condition (The Murderbot Diaries, Book 2)](https://www.marthawells.com/murderbot2.htm), Martha Wells
 
   - Start: 2025-02-10
   - Start: 2025-02-15
 
-- [All Systems Red (The Murderbot Diaries, Book 1)](https://www.marthawells.com/murderbot.htm), Martha Wells
+- [All Systems Red (The Murderbot Diaries, Book 1)](https://www.marthawells.com/murderbot1.htm), Martha Wells
 
   - Start: 2025-02-09
   - End: 2025-02-10

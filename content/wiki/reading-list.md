@@ -4,6 +4,11 @@ title: Reading List
 
 ## 2025
 
+- [A Modest Proposal](https://www.gutenberg.org/ebooks/1080), Jonathan Swift
+
+  - Start: 2025-09-14
+  - End: 2025-09-14
+
 - [Coming Clean](https://www.sethhaines.com/about), Seth Haines
 
   - Start: 2025-08-25
@@ -12,7 +17,7 @@ title: Reading List
 - [Starter Villain](https://us.macmillan.com/books/9780765389220/startervillain/), John Scalzi
 
   - Start: 2025-08-20
-  - End:
+  - End: 2025-09-14
 
 - [Practicing the Way](https://www.penguinrandomhouse.com/books/673402/practicing-the-way-by-john-mark-comer/), John Mark Comer
 

@@ -200,4 +200,8 @@
   # cache static resources
   @static path_regexp \.(js|mjs|css|png|jpg|jpeg|gif|ico|woff)$
   header @static Cache-Control max-age=31536000 # 365 days
+
+  # ensure text/plain content-type
+  @plaintext path_regexp \.txt$
+  header @plaintext Content-Type "text/plain; charset=utf-8"
 }

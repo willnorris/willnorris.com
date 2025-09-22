@@ -13,6 +13,10 @@ mentions: ## Fetch and update webmentions
 	@go run ./cmd/mentions
 .PHONY: mentions
 
+public: .cache/hugo node_modules ## Build site in 'public' directory
+	@.cache/hugo
+.PHONY: public
+
 deploy: ## Deploy site to Fly.io
 	flyctl -c etc/fly.toml deploy --remote-only
 .PHONY: deploy

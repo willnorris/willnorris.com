@@ -4,6 +4,10 @@ title: Reading List
 
 ## 2025
 
+- OS
+
+  - Start: 2025-10-12
+
 - [A Modest Proposal](https://www.gutenberg.org/ebooks/1080), Jonathan Swift
 
   - Start: 2025-09-14
@@ -42,6 +46,7 @@ title: Reading List
 - [Antimemetics: Why Some Ideas Resist Spreading](https://darkforest.metalabel.com/antimemetics), Nadia Asparouhova
 
   - Start: 2015-06-15
+  - End: 2015-10-09
 
 - [There is No Antimemetics Division](https://scp-wiki.wikidot.com/antimemetics-division-hub), qntm
 

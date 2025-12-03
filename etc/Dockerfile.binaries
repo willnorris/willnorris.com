@@ -11,7 +11,11 @@ ARG TARGETOS TARGETARCH
 RUN GOOS=${TARGETOS} GOARCH="${TARGETARCH}" CGO_ENABLED=0 go build -v ./cmd/caddy &&\
   GOOS=${TARGETOS} GOARCH="${TARGETARCH}" CGO_ENABLED=1 go build -v --tags extended ./cmd/hugo
 
-FROM --platform=$BUILDPLATFORM docker.io/oven/bun:1.0-distroless AS bun
+# 7d25d8554 is the hash of oven/bun:canary-distroless as of 2025-12-02.
+# The last stable release of the distroless image was 1.2.2.
+# It appears CI broke for a while, but is working again for canary builds.
+# Replace this with the next stable distroless build in the 1.3.x tree.
+FROM --platform=$BUILDPLATFORM docker.io/oven/bun@sha256:7d25d8554a3bd6aa4d29d5bd72fc81cee4c36ceb15fc999fd5c0026a506adcfd AS bun
 
 # Final image with just caddy, hugo, and bun binaries
 FROM cgr.dev/chainguard/static:latest

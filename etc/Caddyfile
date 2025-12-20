@@ -6,6 +6,7 @@
       hostname "caddy-proxy-{env.FLY_REGION}"
       ephemeral
       webui true
+      tags tag:www-proxy
     }
   }
 }

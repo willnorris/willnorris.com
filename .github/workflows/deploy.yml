@@ -1,19 +1,28 @@
 name: deploy
+
 on:
   push:
-    branches:
-      - "main"
+    branches: ["main"]
     paths:
+      - ".github/workflows/deploy.yml"
+
+      # hugo files
       - assets/**
       - config/_default/**
       - config/production/**
       - content/**
       - data/**
+      - layouts/**
+      - static/**
+
+      # bun files
+      - bun.lock
+      - package.json
+
+      # caddy and runtime
       - etc/Caddyfile
       - etc/Dockerfile
       - etc/fly.toml
-      - layouts/**
-      - static/**
   workflow_dispatch:
   repository_dispatch:
     types: [deploy]

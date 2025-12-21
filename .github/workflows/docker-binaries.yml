@@ -1,9 +1,10 @@
-name: Docker Binaries
+name: docker binaries
 
 on:
   push:
     branches: ["main"]
     paths:
+      - ".github/workflows/docker-binaries.yml"
       - "cmd/caddy/**"
       - "cmd/hugo/**"
       - "etc/Dockerfile.binaries"

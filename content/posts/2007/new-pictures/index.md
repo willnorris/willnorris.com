@@ -8,7 +8,6 @@ tags:
 - pictures
 - elisabeth
 gallery: true
-aliases: /p/31
 ---
 
 <figure class="gallery packed">

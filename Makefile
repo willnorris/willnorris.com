@@ -1,5 +1,11 @@
-include .env
-export
+# Default env vars for local development.
+# Override by setting these in the environment with something like mise.
+export IMAGEPROXY_BASEURL ?= http://localhost:8080/
+export IMAGEPROXY_ALLOWHOSTS ?= localhost
+export IMAGEPROXY_SIGNATUREKEY ?= secretkey
+export FLY_REGION ?= dev
+
+export PATH := .cache/bun/bin:$(PATH)
 
 dev: .cache/tandem .cache/caddy .cache/hugo node_modules ## Run a local dev server
 	@# .env must define IMAGEPROXY_BASEURL, IMAGEPROXY_ALLOWHOSTS, IMAGEPROXY_SIGNATURE_KEY
@@ -14,7 +20,7 @@ mentions: ## Fetch and update webmentions
 .PHONY: mentions
 
 public: .cache/hugo node_modules ## Build site in 'public' directory
-	@.cache/hugo
+	.cache/hugo
 .PHONY: public
 
 deploy: ## Deploy site to Fly.io
@@ -26,16 +32,17 @@ deploy: ## Deploy site to Fly.io
 	@curl -fsSL https://raw.githubusercontent.com/rosszurowski/tandem/main/install.sh | bash -s -- --dest="$$(dirname $@)"
 
 .cache/caddy: go.sum $(shell find cmd/caddy -name "*.go")
-	@go build -o ./.cache/caddy ./cmd/caddy
+	go build -o ./.cache/caddy ./cmd/caddy
 
 .cache/hugo: go.sum $(shell find cmd/hugo -name "*.go")
-	@CGO_ENABLED=1 go build --tags extended -o ./.cache/hugo ./cmd/hugo
+	CGO_ENABLED=1 go build --tags extended -o ./.cache/hugo ./cmd/hugo
 
 .cache/bun/bin/bun:
 	@curl -fsSL https://bun.sh/install | BUN_INSTALL=.cache/bun bash -s "bun-v1.3.5"
+	@ln -s bun ./.cache/bun/bin/node
 
-node_modules: package.json .cache/bun/bin/bun
-	@.cache/bun/bin/bun install
+node_modules: package.json bun.lock .cache/bun/bin/bun
+	.cache/bun/bin/bun install
 
 
 help:

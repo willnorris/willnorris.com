@@ -32,7 +32,7 @@ deploy: ## Deploy site to Fly.io
 	@CGO_ENABLED=1 go build --tags extended -o ./.cache/hugo ./cmd/hugo
 
 .cache/bun/bin/bun:
-	@curl -fsSL https://bun.sh/install | BUN_INSTALL=.cache/bun bash
+	@curl -fsSL https://bun.sh/install | BUN_INSTALL=.cache/bun bash -s "bun-v1.3.5"
 
 node_modules: package.json .cache/bun/bin/bun
 	@.cache/bun/bin/bun install

@@ -44,6 +44,9 @@ deploy: ## Deploy site to Fly.io
 node_modules: package.json bun.lock .cache/bun/bin/bun
 	.cache/bun/bin/bun install
 
+clean: ## Remove build artifacts
+	rm -rf .cache hugo_stats.json node_modules public resources/_gen
+.PHONY: clean
 
 help:
 	@echo ""

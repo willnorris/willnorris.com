@@ -38,7 +38,8 @@ deploy: ## Deploy site to Fly.io
 	CGO_ENABLED=1 go build --tags extended -o ./.cache/hugo ./cmd/hugo
 
 .cache/bun/bin/bun:
-	@curl -fsSL https://bun.sh/install | BUN_INSTALL=.cache/bun bash -s "bun-v1.3.5"
+	# Set SHELL=false so bun doesn't try to install shell completions
+	@curl -fsSL https://bun.sh/install | BUN_INSTALL=.cache/bun SHELL=false bash -s "bun-v1.3.5"
 	@ln -s bun ./.cache/bun/bin/node
 
 node_modules: package.json bun.lock .cache/bun/bin/bun

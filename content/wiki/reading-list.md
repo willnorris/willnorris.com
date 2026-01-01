@@ -6,9 +6,11 @@ title: Reading List
 
 - [The Anxious Generation](https://www.anxiousgeneration.com/book), Jonathan Haidt
   - Start: 2025-12-15
+  - End: 2025-12-28
 
 - [The Handmaid's Tale](https://margaretatwood.ca/shop/#book_978), Margaret Atwood
   - Start: 2025-10-17
+  - End: 2025-12-31
 
 - OS
   - Start: 2025-10-12
@@ -78,7 +80,7 @@ title: Reading List
 
 - [Artificial Condition (The Murderbot Diaries, Book 2)](https://www.marthawells.com/murderbot2.htm), Martha Wells
   - Start: 2025-02-10
-  - Start: 2025-02-15
+  - End: 2025-02-15
 
 - [All Systems Red (The Murderbot Diaries, Book 1)](https://www.marthawells.com/murderbot1.htm), Martha Wells
   - Start: 2025-02-09

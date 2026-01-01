@@ -20,7 +20,7 @@ We bought a house we like in a really great neighborhood,
 and have been keeping ourselves busy with remodel projects and
 trying not to kill the 150 rose bushes or dozen fruit trees on the property.
 
-I'm [currently reading](/wiki/reading-list/) _The Handmaid's Tale_ and _The Anxious Generation_.
+I most recently [finished reading](/wiki/reading-list/) _The Handmaid's Tale_ and _The Anxious Generation_.
 
 ## Professional
 

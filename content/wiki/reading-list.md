@@ -2,6 +2,11 @@
 title: Reading List
 ---
 
+## 2026
+
+- [The Lost Cause](https://craphound.com/category/lostcause/), Cory Doctorow
+  - Start: 2026-01-01
+
 ## 2025
 
 - [The Anxious Generation](https://www.anxiousgeneration.com/book), Jonathan Haidt

@@ -6,7 +6,6 @@ require (
 	github.com/caddyserver/caddy/v2 v2.10.2
 	github.com/gohugoio/hugo v0.153.1
 	github.com/tailscale/caddy-tailscale v0.0.0-20251117033914-662ef34c64b1
-	tailscale.com v1.90.6
 	willnorris.com/go/imageproxy/caddy v0.0.0-20250605045322-d04e37fc1451
 )
 
@@ -324,6 +323,7 @@ require (
 	howett.net/plist v1.0.0 // indirect
 	rsc.io/qr v0.2.0 // indirect
 	software.sslmate.com/src/go-pkcs12 v0.4.0 // indirect
+	tailscale.com v1.90.6 // indirect
 	willnorris.com/go/gifresize v1.0.0 // indirect
 	willnorris.com/go/imageproxy v0.12.1-0.20250605045322-d04e37fc1451 // indirect
 )

@@ -4,8 +4,12 @@ title: Reading List
 
 ## 2026
 
+- [Fahrenheit 451](https://raybradbury.com/books/), Ray Bradbury
+  - Start: 2026-01-03
+
 - [The Lost Cause](https://craphound.com/category/lostcause/), Cory Doctorow
   - Start: 2026-01-01
+  - End: 2026-01-07
 
 ## 2025
 

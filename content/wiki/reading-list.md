@@ -4,6 +4,9 @@ title: Reading List
 
 ## 2026
 
+- [Enshittification](https://craphound.com/category/enshittification/), Cory Doctorow
+  - Start: 2026-01-08
+
 - [Fahrenheit 451](https://raybradbury.com/books/), Ray Bradbury
   - Start: 2026-01-03
 

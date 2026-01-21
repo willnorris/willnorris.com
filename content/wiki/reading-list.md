@@ -4,8 +4,15 @@ title: Reading List
 
 ## 2026
 
+- [The Amazing Generation](https://theamazinggenerationbook.com/), Jonathan Haidt & Catherine Price
+  - Start: 2026-01-19
+
+- [Red Rising](https://www.piercebrown.com/redrisingsaga), Pierce Brown
+  - Start: 2026-01-19
+
 - [Enshittification](https://craphound.com/category/enshittification/), Cory Doctorow
   - Start: 2026-01-08
+  - End: 2026-01-16
 
 - [Fahrenheit 451](https://raybradbury.com/books/), Ray Bradbury
   - Start: 2026-01-03

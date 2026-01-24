@@ -6,6 +6,7 @@ title: Reading List
 
 - [The Amazing Generation](https://theamazinggenerationbook.com/), Jonathan Haidt & Catherine Price
   - Start: 2026-01-19
+  - End: 2026-01-23
 
 - [Red Rising](https://www.piercebrown.com/redrisingsaga), Pierce Brown
   - Start: 2026-01-19

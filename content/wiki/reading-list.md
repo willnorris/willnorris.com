@@ -4,12 +4,16 @@ title: Reading List
 
 ## 2026
 
+- [Golden Son](https://www.piercebrown.com/redrisingsaga), Pierce Brown
+  - Start: 2026-02-03
+
 - [The Amazing Generation](https://theamazinggenerationbook.com/), Jonathan Haidt & Catherine Price
   - Start: 2026-01-19
   - End: 2026-01-23
 
 - [Red Rising](https://www.piercebrown.com/redrisingsaga), Pierce Brown
   - Start: 2026-01-19
+  - End: 2026-02-01
 
 - [Enshittification](https://craphound.com/category/enshittification/), Cory Doctorow
   - Start: 2026-01-08
@@ -17,6 +21,7 @@ title: Reading List
 
 - [Fahrenheit 451](https://raybradbury.com/books/), Ray Bradbury
   - Start: 2026-01-03
+  - End: 2026-01-31
 
 - [The Lost Cause](https://craphound.com/category/lostcause/), Cory Doctorow
   - Start: 2026-01-01

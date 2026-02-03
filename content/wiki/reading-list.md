@@ -69,39 +69,39 @@ title: Reading List
   - End: 2025-07-17
 
 - [Antimemetics: Why Some Ideas Resist Spreading](https://darkforest.metalabel.com/antimemetics), Nadia Asparouhova
-  - Start: 2015-06-15
-  - End: 2015-10-09
+  - Start: 2025-06-15
+  - End: 2025-10-09
 
 - [There is No Antimemetics Division](https://scp-wiki.wikidot.com/antimemetics-division-hub), qntm
-  - Start: 2015-05-28
-  - End: 2015-06-15
+  - Start: 2025-05-28
+  - End: 2025-06-15
 
 - [Network Effect (The Murderbot Diaries, Book 5)](https://www.marthawells.com/networkeffect.htm), Martha Wells
-  - Start: 2015-03-23
-  - End: 2015-05-28
+  - Start: 2025-03-23
+  - End: 2025-05-28
 
 - [Exit Strategy (The Murderbot Diaries, Book 4)](https://www.marthawells.com/murderbot4.htm), Martha Wells
-  - Start: 2015-03-10
-  - End: 2015-03-22
+  - Start: 2025-03-10
+  - End: 2025-03-22
 
 - [Rogue Protocol (The Murderbot Diaries, Book 3)](https://www.marthawells.com/murderbot3.htm), Martha Wells
-  - Start: 2015-03-02
-  - End: 2015-03-09
+  - Start: 2025-03-02
+  - End: 2025-03-09
 
 - [Picks and Shovels](https://craphound.com/category/picksandshovels/), Cory Doctorow
-  - Start: 2015-02-18
-  - End: 2015-02-26
+  - Start: 2025-02-18
+  - End: 2025-02-26
 
 - [The Bezzle](https://craphound.com/category/bezzle/), Cory Doctorow
-  - Start: 2015-02-16
-  - End: 2015-02-18
+  - Start: 2025-02-16
+  - End: 2025-02-18
 
 - [Red Team Blues](https://craphound.com/category/redteamblues/), Cory Doctorow
-  - Start: 2015-02-16
-  - End: 2015-02-16
+  - Start: 2025-02-16
+  - End: 2025-02-16
 
 - [BiblioTech: Why Libraries Matter More Than Ever in the Age of Google](https://jpalfrey.blog/top/publications/), John Palfrey
-  - Start: 2015-02-15
+  - Start: 2025-02-15
 
 - [Artificial Condition (The Murderbot Diaries, Book 2)](https://www.marthawells.com/murderbot2.htm), Martha Wells
   - Start: 2025-02-10

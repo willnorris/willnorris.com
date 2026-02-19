@@ -4,8 +4,12 @@ title: Reading List
 
 ## 2026
 
+- [That's a Great Question, I'd Love to Tell You](https://www.harpercollins.com/pages/elysemyers), Elyse Myers
+  - Start: 2026-02-18
+
 - [Golden Son](https://www.piercebrown.com/redrisingsaga), Pierce Brown
   - Start: 2026-02-03
+  - End: 2026-02-18
 
 - [The Amazing Generation](https://theamazinggenerationbook.com/), Jonathan Haidt & Catherine Price
   - Start: 2026-01-19

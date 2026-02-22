@@ -6,6 +6,7 @@ title: Reading List
 
 - [That's a Great Question, I'd Love to Tell You](https://www.harpercollins.com/pages/elysemyers), Elyse Myers
   - Start: 2026-02-18
+  - End: 2026-02-22
 
 - [Golden Son](https://www.piercebrown.com/redrisingsaga), Pierce Brown
   - Start: 2026-02-03

@@ -24,7 +24,7 @@ Almost all of my personal projects these days are [indie web] related, mostly [w
 
 ## Contact
 
-I can be contacted by email at will @ this domain or by phone at +1 (901) 484-9455.
+I can be contacted by email at will @ this domain or by phone at +1 (901) HUG-WILL (yes, really).
 I'm "willnorris" on most sites and W6WJN on amateur radio.
 I'm not interested in hearing about job opportunities.
 

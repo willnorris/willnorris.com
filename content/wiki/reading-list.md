@@ -4,6 +4,9 @@ title: Reading List
 
 ## 2026
 
+- [Morning Star](https://www.piercebrown.com/redrisingsaga), Pierce Brown
+  - Start: 2026-03-01
+
 - [That's a Great Question, I'd Love to Tell You](https://www.harpercollins.com/pages/elysemyers), Elyse Myers
   - Start: 2026-02-18
   - End: 2026-02-22

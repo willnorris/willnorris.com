@@ -66,6 +66,9 @@
   @tag path_regexp search /(category|search|tag)/(\w+)
   redir @tag /search?q={re.search.2}
 
+  @wp-slides path_regexp slides /content/(slides\/.+)
+  redir @wp-slides /{re.slides.1}
+
   @search {
     path /search
     query q=*

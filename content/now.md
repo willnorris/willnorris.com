@@ -20,7 +20,7 @@ We bought a house we like in a really great neighborhood,
 and have been keeping ourselves busy with remodel projects and
 trying not to kill the 150 rose bushes or dozen fruit trees on the property.
 
-I'm [currently reading](/wiki/reading-list/) _Morning Star_ by Pierce Brown.
+I'm [currently reading](/wiki/reading-list/) _Iron Gold_ by Pierce Brown and _Steampunk!_.
 
 ## Professional
 

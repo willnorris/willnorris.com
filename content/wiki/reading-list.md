@@ -4,8 +4,15 @@ title: Reading List
 
 ## 2026
 
+- [Steampunk!](https://www.penguinrandomhouse.com/books/214840/), Gavin Grant and Kelly Link
+  - Start: 2026-03-28
+
+- [Iron Gold](https://www.piercebrown.com/redrisingsaga), Pierce Brown
+  - Start: 2026-04-03
+
 - [Morning Star](https://www.piercebrown.com/redrisingsaga), Pierce Brown
   - Start: 2026-03-01
+  - Start: 2026-03-29
 
 - [That's a Great Question, I'd Love to Tell You](https://www.harpercollins.com/pages/elysemyers), Elyse Myers
   - Start: 2026-02-18

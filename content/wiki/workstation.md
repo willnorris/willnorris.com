@@ -28,15 +28,14 @@ Set shell to zsh if needed:
 Follow standard instructions from <https://github.com/willnorris/dotfiles#readme>:
 
     git clone https://github.com/willnorris/dotfiles ~/.dotfiles
-    PATH="$HOME/.dotfiles/local/bin:$PATH" rcup
+    ~/.dotfiles/install.sh
 
 ## Development tools
 
-    touch $HOME/.tool-versions
-    asdf plugin add neovim
-    asdf install neovim latest
+[Install mise](https://mise.jdx.dev/installing-mise.html).
+
+    mise use -g neovim@latest
 
 Language toolchains (make sure dev libraries are installed first if needed):
 
-    asdf plugin add (golang|ruby|python|nodejs)
-    asdf install {lang} {version}
+    mise use -g (go|ruby|python|nodejs)

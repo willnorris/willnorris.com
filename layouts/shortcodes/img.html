@@ -46,5 +46,6 @@ See more details on imageproxy at https://github.com/willnorris/imageproxy
   src="{{ partial "imageproxy-url" (slice $src $options $sign $b64) }}"
   {{- with .Get "alt" }}alt="{{ . }}"{{ end }}
   {{- with .Get "class" }}class="{{ . }}"{{ end }}
+  {{- with .Get "style" }}style="{{ . }}"{{ end }}
   {{- with .Get "width" }}width="{{ . }}"{{ end }}
   {{- with .Get "height" }}height="{{ . }}"{{ end -}} />

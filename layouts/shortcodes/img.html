@@ -39,13 +39,12 @@ See more details on imageproxy at https://github.com/willnorris/imageproxy
 {{- end }}
 
 {{- $sign := (or .Page.Site.Params.imageproxy.always_sign (.Get "sign")) }}
-{{- $b64 := (or .Page.Site.Params.imageproxy.always_b64 (.Get "b64")) }}
+{{- $b64 := (or .Page.Site.Params.imageproxy.always_b64 (.Get "b64")) -}}
 
 
-<img
-  src="{{ partial "imageproxy-url" (slice $src $options $sign $b64) }}"
-  {{- with .Get "alt" }}alt="{{ . }}"{{ end }}
-  {{- with .Get "class" }}class="{{ . }}"{{ end }}
-  {{- with .Get "style" }}style="{{ . }}"{{ end }}
-  {{- with .Get "width" }}width="{{ . }}"{{ end }}
-  {{- with .Get "height" }}height="{{ . }}"{{ end -}} />
+<img src="{{ partial "imageproxy-url" (slice $src $options $sign $b64) }}"
+  {{- with .Get "alt" }} alt="{{ . }}"{{ end }}
+  {{- with .Get "class" }} class="{{ . }}"{{ end }}
+  {{- with .Get "style" }} style="{{ . }}"{{ end }}
+  {{- with .Get "width" }} width="{{ . }}"{{ end }}
+  {{- with .Get "height" }} height="{{ . }}"{{ end -}} />

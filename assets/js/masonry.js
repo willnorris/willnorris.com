@@ -22,8 +22,8 @@ function layout() {
       if (grid.ncol > 1) {
         grid.items.slice(ncol).forEach((c, i) => {
           let prev_fin =
-              grid.items[i].getBoundingClientRect()
-                .bottom /* bottom edge of item above */,
+            grid.items[i].getBoundingClientRect()
+              .bottom /* bottom edge of item above */,
             curr_ini =
               c.getBoundingClientRect().top; /* top edge of current item */
 
@@ -34,11 +34,7 @@ function layout() {
   });
 }
 
-addEventListener(
-  "load",
-  (_) => {
-    layout(); /* initial load */
-    addEventListener("resize", layout, false);
-  },
-  false,
-);
+addEventListener("load", () => {
+  layout(); /* initial load */
+  addEventListener("resize", layout, false);
+});

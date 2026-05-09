@@ -197,10 +197,12 @@ I ended up using Yuzu's default font in the keycap builder, [Proxima Nova Soft] 
 I tried several others, as well as uploading a few custom ones, but their default actually looked really nice.
 
 <figure class="alignright">
-  {{<img style="display:inline" width=100 src="framework-a.jpg"
-         alt="A single 'A' keyboard key. The A is uppercase and located in the upper left corner of the key">}}
-  {{<img style="display:inline" width=100 src="custom-a.jpg"
-         alt="A single 'A' keyboard key.  The A is lowercase and located in the center of the key">}}
+  <div>
+    {{<img style="display:inline" width=100 src="framework-a.jpg"
+           alt="A single 'A' keyboard key. The A is uppercase and located in the upper left corner of the key">}}
+    {{<img style="display:inline" width=100 src="custom-a.jpg"
+           alt="A single 'A' keyboard key. The A is lowercase and located in the center of the key">}}
+  </div>
   <figcaption>Framework (left), custom key (right)</figcaption>
 </figure>
 

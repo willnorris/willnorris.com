@@ -160,7 +160,7 @@ It has clear neutral colors that are reasonably soft, but without being overly p
 
 A few of the icons in the Linux desktop screenshot above use the One Dark colors as well.
 Anytime I need a basic color palette, particularly on my computer, I turn to One Dark.
-(Though I use a pretty heavily modified version of One Dark [on this website](/wiki/style/#colors)
+(Though I use a pretty heavily modified version of One Dark [on this website]
 to achieve a reasonable contrast ratio and better accessibility.)
 
 So when it came time to choose colors for my custom keycaps, of course I wanted to match One Dark as closely as possible.
@@ -189,6 +189,7 @@ Now, my brain is able to very quickly find the group of green keys, and I know t
 I really don't even need the label on the key, as I find the color grouping far more effective.
 
 [One Dark]: https://github.com/atom/atom/tree/master/packages/one-dark-syntax
+[on this website]: https://github.com/willnorris/willnorris.com/blob/3c3a62dedf7af8e84e6e5a3449303cb72027ea3c/assets/css/_colors.css#L11-L21
 [color sample kits]: https://yuzukeycaps.com/colors/samples
 
 ## Custom labels

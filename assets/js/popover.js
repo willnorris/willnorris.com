@@ -9,16 +9,27 @@ if (imageAnchors.length) {
   document.body.append(popover);
 
   for (const a of imageAnchors) {
-    a.addEventListener("click", (event) => {
-      event.preventDefault();
+    a.style.cursor = "zoom-in";
+    a.addEventListener("click", (ev) => {
+      ev.preventDefault();
       img.src = ""; // prevent flash of previous image
       img.src = a.href;
       popover.showPopover();
     });
   }
 
+  // set default page cursor to zoom-out when popover is open
+  popover.addEventListener("toggle", (ev) => {
+    document.body.style.cursor = ev.newState == "open" ? "zoom-out" : "";
+  })
+
+  // close popover when clicked
+  popover.addEventListener("click", () => {
+    popover.hidePopover();
+  })
+
   let lastScrollY = window.scrollY;
-  window.addEventListener("scroll", (event) => {
+  window.addEventListener("scroll", () => {
     const deltaS = window.scrollY - lastScrollY;
     lastScrollY = window.scrollY;
     // close popover if scrolled more than 10px

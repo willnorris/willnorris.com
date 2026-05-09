@@ -40,7 +40,7 @@ but instead how close the arrow keys are to the main section, sort of tucked und
 
 I then tried the [Keychron Q3 Ultra 8k].
 It's a generally nice keyboard and very well made, but I immediately discovered how much I dislike the KSA keycap profile.
-I'd honestly never given a ton of thought to [keycap profiles], but these keys made me very aware of how much I cared.
+I'd honestly never given a ton of thought to [keycap profiles], but these keys made me very aware of how much I prefer cherry keys.
 I even immediately bought a super cheap set of cherry keys while I sorted out a longer term solution.
 Their [launcher] software also had issues that wouldn't let me customize keys quite how I wanted,
 and the switches they came with were also a little too light.

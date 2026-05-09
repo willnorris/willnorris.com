@@ -109,10 +109,11 @@ Because I could simply add more keys, I ended up with multiple variations of sev
    That's pretty standard, and Apple does the same.
    However, the icon set I was using didn't have that icon (or at least not one I liked).
    Yuzu supports uploading arbitrary SVG icons, but I didn't really want to deal with that,
-   so I fashioned a few variations in Yuzu's web-based editor.
-   It was hard to know how they would turn out, so I got several different ones, along with a standalone play button.
+   so I fashioned a few variations in Yuzu's web-based editor by combining and overlapping multiple icons.
+   It was hard to know how they would turn out, so I got several different ones,
+   along with a standalone play button without the additional pause icon.
 
- - Framework's airplane mode key (F10) triggers rfkill which disables bluetooth and wifi.
+ - Framework's airplane mode key (F10) triggers `rfkill` which disables bluetooth and wifi.
    It wasn't clear that I'd ever want to do that when plugged into my external keyboard,
    so I got a key with an airplane as well as an empty F10 key.
    I did the same for F9, which I use for screen mirroring.
@@ -239,7 +240,7 @@ I put a small diamond on the `fn` key, and then similar icons on other keys to i
 But this proved to be one of the toughest decisions, since I'm not 100% sure which keyboard I'll be using long-term,
 and many of these function modifiers are keyboard specific.
 
-I was originally designing this keycap set for the Keychron keyboard which has shortcuts like `fn+b` to display the battery status. o
+I was originally designing this keycap set for the Keychron keyboard which has shortcuts like `fn+b` to display the battery status.
 So I had a tiny battery icon on the `b` key.
 The numbers 1 through 4 were used together with the `fn` key to switch between bluetooth and RF connections, so I had little icons for that.
 None of those make sense on the Wooting keyboard, since it is wired only and doesn't have a battery.
@@ -286,7 +287,8 @@ In addition to the different media key variations mentioned above, I got a few e
 The whole process took a little over 2 months from when I picked out colors and ordered the samples to when I got my final set of keycaps.
 Making the keys, reviewing the proof, and then shipping from China takes 3-4 weeks.
 That worked out okay, since I had plenty of time to tweak things while I was waiting on the color samples.
-The final cost was $129.50, which is certainly expensive for keycaps, but a fun little splurge.
+The final cost was $129.50 with shipping, which is certainly expensive for keycaps, but a fun little splurge.
+It would have been about $30 less without all the extra keys I added.
 
 I think my only complaint about the keycaps themselves is that the surface feels a little bit too smooth.
 The keycaps that came with the Wooting keyboard had a very slight texture to them that felt really nice.

@@ -52,8 +52,9 @@ That led me to look into magnetic switches that could customize the key depth.
 I settled on the [Wooting 80HE], mainly because of reports of how good their software is.
 That's proven to be pretty true, and I'm quite happy with the degree of control I have.
 I don't care at all for their gaming focused features, but really like being able to customize the key depth.
-I set the home row keys to not actuate until a bit deeper travel,
-and each row away from the home row gets progressively shallower, requiring slightly less force.
+I set the home row keys to not actuate until a bit deeper travel (2.0mm),
+and each row away from the home row gets progressively shallower (back to 1.5mm), requiring slightly less force.
+The spacebar is set deeper at 2.5mm.
 This may not be my final keyboard, but I'm very happy with it for now.
 
 [Bridge75]: https://shortcutofficial.com/

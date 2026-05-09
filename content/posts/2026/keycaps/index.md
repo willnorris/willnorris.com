@@ -251,7 +251,7 @@ I'd love to have more for other key combinations, but I just wasn't ready to com
 
 In addition to the different media key variations mentioned above, I got a few extra keys.
 
- - I got a Tailscale logo key in black, white, and grey backgrounds.
+ - I got a [Tailscale] logo key in black, white, and grey backgrounds.
    Right now, I have that key mapped to open <http://100.100.100.100> which loads the Tailscale web client for the local device.
 
  - I got my [personal logo](/2023/logo/) that I designed a couple of years ago,
@@ -272,6 +272,14 @@ In addition to the different media key variations mentioned above, I got a few e
      alt="Tray of assorted loose keycaps. Most of different icons or geometric shapes on them.">}}</a>
   <figcaption>Extra keys</figcaption>
 </figure>
+
+<figure>
+  <a href="navigation-tailscale.jpg">{{<img width=300 src="navigation-tailscale.jpg"
+     alt="Mixed dark and light navigation keys forming a Tailscale logo">}}</a>
+  <figcaption>On a regular 80% keyboard, you can make a Tailscale logo with the navigation keys</figcaption>
+</figure>
+
+[Tailscale]: https://tailscale.com
 
 ## Overall impressions
 

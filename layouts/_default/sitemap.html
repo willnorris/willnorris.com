@@ -1,7 +1,7 @@
 {{ define "main" }}
   <article class="h-feed wrap flow prose">
     <div>{{ .Content }}</div>
-    {{- range .Site.AllPages.GroupBy "Section" -}}
+    {{- range .Site.Pages.GroupBy "Section" -}}
       {{ with .Key }}<h2 id="{{ . }}">{{ . }}</h2>{{ end }}
       <ul role="list" class="posts">
         {{- if eq .Key "posts" -}}

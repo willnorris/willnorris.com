@@ -1,5 +1,5 @@
 baseURL = "https://willnorris.com/"
-languageCode = "en-us"
+locale = "en-US"
 title = "willnorris.com"
 
 enableGitInfo = true

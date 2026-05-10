@@ -5,7 +5,7 @@ export IMAGEPROXY_ALLOWHOSTS ?= localhost
 export IMAGEPROXY_SIGNATUREKEY ?= secretkey
 export FLY_REGION ?= dev
 
-export PATH := .cache/bun/bin:$(PATH)
+export PATH := ${PWD}/.cache/bun/bin:$(PATH)
 
 dev: .cache/tandem .cache/caddy .cache/hugo node_modules ## Run a local dev server
 	@# .env must define IMAGEPROXY_BASEURL, IMAGEPROXY_ALLOWHOSTS, IMAGEPROXY_SIGNATURE_KEY
@@ -58,3 +58,5 @@ help:
 .PHONY: help
 
 .DEFAULT_GOAL := help
+
+# vim: noet

@@ -1,5 +1,5 @@
 {{- $key := (split (trim .RelPermalink "/") "/") -}}
-{{- $mentions := index $.Site.Data.mentions $key -}}
+{{- $mentions := index hugo.Data.mentions $key -}}
 {{- $likes := slice -}}
 {{- $reposts := slice -}}
 {{- $bookmarks := slice -}}

@@ -211,8 +211,7 @@ I tried several others, as well as uploading a few custom ones, but their defaul
 
 Almost all keyboards have uppercase letters on their keycaps, but I always find that a little bit too loud.
 So I went with lowercase letters throughout.
-Keycaps also often place letters in the upper left corner of the key (including Framework's keyboard),
-which is mostly a carryover from typewriter keys.
+Keycaps also often place letters in the upper left corner of the key (including Framework's keyboard, and which is maybe due to [ISO 9995]?).
 I find the centered letters like Apple uses far more pleasant.
 
 Since I was doing custom keycaps, this was also my opportunity to address another small thing that has bothered me about keyboards.
@@ -230,6 +229,7 @@ I also map the right ctrl key to the compose key to allow entering a variety of 
 so again it'd be great to label that key properly.
 
 [Proxima Nova Soft]: https://www.marksimonson.com/fonts/view/proxima-soft/
+[ISO 9995]: https://en.wikipedia.org/wiki/ISO/IEC_9995#Depictions_on_the_keytops
 [super key]: https://en.wikipedia.org/wiki/Super_key_(keyboard_button)
 
 ### Function modifiers

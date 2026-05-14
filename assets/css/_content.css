@@ -309,7 +309,7 @@ figcaption {
   padding: 0 1em;
   background: none;
   & img {
-    max-height: 100vh;
+    max-height: calc(100vh - 2em);
   }
 }
 

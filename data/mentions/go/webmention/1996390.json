@@ -1,0 +1,27 @@
+{
+  "type": "entry",
+  "author": {
+    "type": "card",
+    "name": "Jan-Lukas Else",
+    "photo": "https://avatars.webmention.io/janlukas.blog/585125360c8286fb8cb0f6ca597aee175182e0f349acb3e851e4cbd4121976e8.jpg",
+    "url": "https://janlukas.blog/"
+  },
+  "url": "https://janlukas.blog/micro/2019/12/2019-12-03-bmjup",
+  "published": "2019-12-03T18:26:13+01:00",
+  "wm-received": "2026-05-14T06:26:51Z",
+  "wm-id": 1996390,
+  "wm-source": "https://janlukas.blog/micro/2019/12/2019-12-03-bmjup",
+  "wm-target": "https://willnorris.com/go/webmention/",
+  "wm-protocol": "webmention",
+  "name": "Automatic Webmention sending",
+  "content": {
+    "html": "<p>My <a href=\"https://jlel.se/hugomp\">dynamic Hugo backend</a> (it’s not just Micropub anymore) should now send <a href=\"https://indieweb.org/Webmention\">Webmention</a> requests automatically after publishing a post. I first thought about using the <a href=\"https://telegraph.p3k.io/api\">Telegraph API</a> for that, but then just took the <a href=\"https://willnorris.com/go/webmention/\">webmention library written in Go by Will Norris</a>.</p>",
+    "text": "My dynamic Hugo backend (it’s not just Micropub anymore) should now send Webmention requests automatically after publishing a post. I first thought about using the Telegraph API for that, but then just took the webmention library written in Go by Will Norris."
+  },
+  "mention-of": "https://willnorris.com/go/webmention/",
+  "wm-property": "mention-of",
+  "wm-private": false,
+  "rels": {
+    "canonical": "https://janlukas.blog/micro/2019/12/2019-12-03-bmjup"
+  }
+}

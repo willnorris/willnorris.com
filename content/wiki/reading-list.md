@@ -4,6 +4,10 @@ title: Reading List
 
 ## 2026
 
+- [Green Ember Archer: The Archer's Cup](https://sdsmith.com/the-archers-cup/), S. D. Smith
+  - Start: 2026-05-07
+  - End: 2026-05-23
+
 - [Steampunk!](https://www.penguinrandomhouse.com/books/214840/), Gavin Grant and Kelly Link
   - Start: 2026-03-28
 
@@ -12,7 +16,7 @@ title: Reading List
 
 - [Morning Star](https://www.piercebrown.com/redrisingsaga), Pierce Brown
   - Start: 2026-03-01
-  - Start: 2026-03-29
+  - End: 2026-03-29
 
 - [That's a Great Question, I'd Love to Tell You](https://www.harpercollins.com/pages/elysemyers), Elyse Myers
   - Start: 2026-02-18

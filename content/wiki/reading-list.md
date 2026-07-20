@@ -4,12 +4,16 @@ title: Reading List
 
 ## 2026
 
+- [Platform Decay (The Murderbot Diaries, Book 8)](https://torpublishinggroup.com/platform-decay/), Martha Wells
+  - Start: 2026-07-19
+
 - [Green Ember Archer: The Archer's Cup](https://sdsmith.com/the-archers-cup/), S. D. Smith
   - Start: 2026-05-07
   - End: 2026-05-23
 
 - [Steampunk!](https://www.penguinrandomhouse.com/books/214840/), Gavin Grant and Kelly Link
   - Start: 2026-03-28
+  - End: 2026-07-14
 
 - [Iron Gold](https://www.piercebrown.com/redrisingsaga), Pierce Brown
   - Start: 2026-04-03

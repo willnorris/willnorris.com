@@ -10,18 +10,24 @@
 
   /*
   * colors very loosely based on onedark palette,
-  * but modified to pass WCAG AA against a --color-grey-90 background.
+  * but modified to pass WCAG AA.
   */
-  --color-red: #ac291f;
-  --color-green: #267e3c;
+  --color-red: #d43542;
+  --color-green: #28863f;
   --color-yellow: #93691d;
-  --color-blue: #2a74b2;
+  --color-blue: #1477c8;
   --color-purple: #8a3fa0;
   --color-cyan: #2b6f77;
   --color-orange: #99622e;
 
-  --color-red-60: #ac291fbb;
-  --color-blue-60: #2a74b2bb;
+  /* Light colors suitable for dark backgrounds */
+  --color-light-red: #e06c75;
+  --color-light-green: #98c379;
+  --color-light-yellow: #e5c07b;
+  --color-light-blue: #61afef;
+  --color-light-purple: #c678dd;
+  --color-light-cyan: #56b6c2;
+  --color-light-orange: #d19a66;
 
   /* semantic colors */
   --color-bg: var(--color-white);
@@ -31,7 +37,7 @@
   --color-border: var(--color-grey-80);
   --color-border-contrast: var(--color-grey-60);
   --color-callout: var(--color-grey-90);
-  --color-highlight: #ffffcc;
+  --color-highlight: rgba(128, 128, 128, 0.2);
 
   --color-header-bg: var(--color-grey-20);
   --color-header-text: var(--color-grey-80);
@@ -39,14 +45,19 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-red: #cd3125;
+    --color-red: var(--color-light-red);
+    --color-green: var(--color-light-green);
+    --color-yellow: var(--color-light-yellow);
+    --color-blue: var(--color-light-blue);
+    --color-purple: var(--color-light-purple);
+    --color-cyan: var(--color-light-cyan);
+    --color-orange: var(--color-light-orange);
 
     --color-bg: var(--color-grey-10);
     --color-text: var(--color-grey-90);
     --color-meta: var(--color-grey-80);
     --color-border: var(--color-grey-30);
     --color-callout: var(--color-grey-20);
-    --color-highlight: rgba(255, 255, 204, 0.4);
     --color-header-bg: var(--color-black);
   }
 }

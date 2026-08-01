@@ -1,0 +1,597 @@
+.ap-default-term-ff {
+  --term-font-family: "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace, "Symbols Nerd Font";
+}
+div.ap-wrapper {
+  outline: none;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+div.ap-wrapper .title-bar {
+  display: none;
+  top: -78px;
+  transition: top 0.15s linear;
+  position: absolute;
+  left: 0;
+  right: 0;
+  box-sizing: content-box;
+  font-size: 20px;
+  line-height: 1em;
+  padding: 15px;
+  font-family: sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+div.ap-wrapper .title-bar img {
+  vertical-align: middle;
+  height: 48px;
+  margin-right: 16px;
+}
+div.ap-wrapper .title-bar a {
+  color: white;
+  text-decoration: underline;
+}
+div.ap-wrapper .title-bar a:hover {
+  text-decoration: none;
+}
+div.ap-wrapper:fullscreen {
+  background-color: #000;
+  width: 100%;
+  align-items: center;
+}
+div.ap-wrapper:fullscreen .title-bar {
+  display: initial;
+}
+div.ap-wrapper:fullscreen.hud .title-bar {
+  top: 0;
+}
+div.ap-wrapper div.ap-player {
+  text-align: left;
+  display: inline-block;
+  padding: 0px;
+  position: relative;
+  box-sizing: content-box;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: var(--term-color-background);
+}
+.ap-player {
+  --term-color-foreground: #ffffff;
+  --term-color-background: #000000;
+  --term-color-0: var(--term-color-foreground);
+  --term-color-1: var(--term-color-foreground);
+  --term-color-2: var(--term-color-foreground);
+  --term-color-3: var(--term-color-foreground);
+  --term-color-4: var(--term-color-foreground);
+  --term-color-5: var(--term-color-foreground);
+  --term-color-6: var(--term-color-foreground);
+  --term-color-7: var(--term-color-foreground);
+  --term-color-8: var(--term-color-0);
+  --term-color-9: var(--term-color-1);
+  --term-color-10: var(--term-color-2);
+  --term-color-11: var(--term-color-3);
+  --term-color-12: var(--term-color-4);
+  --term-color-13: var(--term-color-5);
+  --term-color-14: var(--term-color-6);
+  --term-color-15: var(--term-color-7);
+}
+div.ap-term {
+  position: relative;
+  font-family: var(--term-font-family);
+  border-width: 0.75em;
+  border-radius: 0;
+  border-style: solid;
+  border-color: var(--term-color-background);
+  box-sizing: content-box;
+}
+div.ap-term canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+div.ap-term svg.ap-term-symbols {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+div.ap-term svg.ap-term-symbols use {
+  color: var(--term-color-foreground);
+}
+div.ap-term svg.ap-term-symbols:not(.ap-blink) .ap-blink {
+  opacity: 0;
+}
+div.ap-term pre.ap-term-text {
+  position: absolute;
+  inset: 0;
+  box-sizing: content-box;
+  overflow: hidden;
+  padding: 0;
+  margin: 0px;
+  display: block;
+  white-space: pre;
+  word-wrap: normal;
+  word-break: normal;
+  cursor: text;
+  color: var(--term-color-foreground);
+  outline: none;
+  line-height: var(--term-line-height);
+  font-family: inherit;
+  font-size: inherit;
+  font-variant-ligatures: none;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent !important;
+}
+pre.ap-term-text .ap-line {
+  display: block;
+  width: 100%;
+  height: var(--term-line-height);
+  position: absolute;
+  top: calc(100% * var(--row) / var(--term-rows));
+  letter-spacing: normal;
+  overflow: hidden;
+}
+pre.ap-term-text .ap-line span {
+  position: absolute;
+  left: calc(100% * var(--offset) / var(--term-cols));
+  padding: 0;
+  display: inline-block;
+  height: 100%;
+}
+pre.ap-term-text:not(.ap-blink) .ap-line .ap-blink {
+  color: transparent;
+  border-color: transparent;
+}
+pre.ap-term-text .ap-bold {
+  font-weight: bold;
+}
+pre.ap-term-text .ap-faint {
+  opacity: 0.5;
+}
+pre.ap-term-text .ap-underline {
+  text-decoration: underline;
+}
+pre.ap-term-text .ap-italic {
+  font-style: italic;
+}
+pre.ap-term-text .ap-strike {
+  text-decoration: line-through;
+}
+.ap-line span {
+  color: var(--term-color-foreground);
+}
+div.ap-player div.ap-control-bar {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  color: var(--term-color-foreground);
+  box-sizing: content-box;
+  line-height: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.15s linear;
+  user-select: none;
+  border-top: 2px solid color-mix(in oklab, var(--term-color-background) 80%, var(--term-color-foreground));
+  z-index: 30;
+}
+div.ap-player div.ap-control-bar * {
+  box-sizing: inherit;
+}
+div.ap-control-bar svg.ap-icon path {
+  fill: var(--term-color-foreground);
+}
+div.ap-control-bar button.ap-button {
+  display: flex;
+  flex: 0 0 auto;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+}
+div.ap-control-bar button.ap-playback-button {
+  width: 12px;
+  height: 12px;
+  padding: 10px;
+  margin: 0 0 0 2px;
+}
+div.ap-control-bar button.ap-playback-button svg {
+  height: 12px;
+  width: 12px;
+}
+div.ap-control-bar span.ap-timer {
+  display: flex;
+  flex: 0 0 auto;
+  min-width: 50px;
+  margin: 0 10px;
+  height: 100%;
+  text-align: center;
+  font-size: 13px;
+  line-height: 100%;
+  cursor: default;
+}
+div.ap-control-bar span.ap-timer span {
+  font-family: var(--term-font-family);
+  font-size: inherit;
+  font-weight: 600;
+  margin: auto;
+}
+div.ap-control-bar span.ap-timer .ap-time-remaining {
+  display: none;
+}
+div.ap-control-bar span.ap-timer:hover .ap-time-elapsed {
+  display: none;
+}
+div.ap-control-bar span.ap-timer:hover .ap-time-remaining {
+  display: flex;
+}
+div.ap-control-bar .ap-progressbar {
+  display: block;
+  flex: 1 1 auto;
+  height: 100%;
+  padding: 0 10px;
+}
+div.ap-control-bar .ap-progressbar .ap-bar {
+  display: block;
+  position: relative;
+  cursor: default;
+  height: 100%;
+  font-size: 0;
+}
+div.ap-control-bar .ap-progressbar .ap-bar .ap-gutter {
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+  height: 3px;
+}
+div.ap-control-bar .ap-progressbar .ap-bar .ap-gutter-empty {
+  background-color: color-mix(in oklab, var(--term-color-foreground) 20%, var(--term-color-background));
+}
+div.ap-control-bar .ap-progressbar .ap-bar .ap-gutter-full {
+  width: 100%;
+  transform-origin: left center;
+  background-color: var(--term-color-foreground);
+  border-radius: 3px;
+}
+div.ap-control-bar.ap-seekable .ap-progressbar .ap-bar {
+  cursor: pointer;
+}
+div.ap-control-bar button.ap-fullscreen-button {
+  width: 14px;
+  height: 14px;
+  padding: 9px;
+  margin: 0 2px 0 4px;
+}
+div.ap-control-bar button.ap-fullscreen-button svg {
+  width: 14px;
+  height: 14px;
+}
+div.ap-control-bar button.ap-fullscreen-button svg.ap-icon-fullscreen-on {
+  display: inline;
+}
+div.ap-control-bar button.ap-fullscreen-button svg.ap-icon-fullscreen-off {
+  display: none;
+}
+div.ap-control-bar button.ap-fullscreen-button .ap-tooltip {
+  right: 5px;
+  left: initial;
+  transform: none;
+}
+div.ap-control-bar button.ap-kbd-button {
+  height: 14px;
+  padding: 9px;
+  margin: 0 0 0 4px;
+}
+div.ap-control-bar button.ap-kbd-button svg {
+  width: 26px;
+  height: 14px;
+}
+div.ap-control-bar button.ap-kbd-button .ap-tooltip {
+  right: 5px;
+  left: initial;
+  transform: none;
+}
+div.ap-control-bar button.ap-speaker-button {
+  width: 19px;
+  padding: 6px 9px;
+  margin: 0 0 0 4px;
+  position: relative;
+}
+div.ap-control-bar button.ap-speaker-button svg {
+  width: 19px;
+}
+div.ap-control-bar button.ap-speaker-button .ap-tooltip {
+  left: -50%;
+  transform: none;
+}
+div.ap-wrapper.ap-hud .ap-control-bar {
+  opacity: 1;
+}
+div.ap-wrapper:fullscreen button.ap-fullscreen-button svg.ap-icon-fullscreen-on {
+  display: none;
+}
+div.ap-wrapper:fullscreen button.ap-fullscreen-button svg.ap-icon-fullscreen-off {
+  display: inline;
+}
+span.ap-progressbar span.ap-marker-container {
+  display: block;
+  top: 0;
+  bottom: 0;
+  width: 21px;
+  position: absolute;
+  margin-left: -10px;
+}
+span.ap-marker-container span.ap-marker {
+  display: block;
+  top: 13px;
+  bottom: 12px;
+  left: 7px;
+  right: 7px;
+  background-color: color-mix(in oklab, var(--term-color-foreground) 33%, var(--term-color-background));
+  position: absolute;
+  transition: top 0.1s, bottom 0.1s, left 0.1s, right 0.1s, background-color 0.1s;
+  border-radius: 50%;
+}
+span.ap-marker-container span.ap-marker.ap-marker-past {
+  background-color: var(--term-color-foreground);
+}
+span.ap-marker-container span.ap-marker:hover,
+span.ap-marker-container:hover span.ap-marker {
+  background-color: var(--term-color-foreground);
+  top: 11px;
+  bottom: 10px;
+  left: 5px;
+  right: 5px;
+}
+.ap-tooltip-container span.ap-tooltip {
+  visibility: hidden;
+  background-color: var(--term-color-foreground);
+  color: var(--term-color-background);
+  font-family: var(--term-font-family);
+  font-weight: bold;
+  text-align: center;
+  padding: 0 0.5em;
+  border-radius: 4px;
+  position: absolute;
+  z-index: 1;
+  white-space: nowrap;
+  /* Prevents the text from wrapping and makes sure the tooltip width adapts to the text length */
+  font-size: 13px;
+  line-height: 2em;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ap-tooltip-container:hover span.ap-tooltip {
+  visibility: visible;
+}
+.ap-player .ap-overlay {
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ap-player .ap-overlay-start {
+  cursor: pointer;
+}
+.ap-player .ap-overlay-start .ap-play-button {
+  font-size: 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  color: white;
+  height: 80px;
+  max-height: 66%;
+  margin: auto;
+}
+.ap-player .ap-overlay-start .ap-play-button div {
+  height: 100%;
+}
+.ap-player .ap-overlay-start .ap-play-button div span {
+  height: 100%;
+  display: block;
+}
+.ap-player .ap-overlay-start .ap-play-button div span svg {
+  height: 100%;
+  display: inline-block;
+}
+.ap-player .ap-overlay-start .ap-play-button svg {
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4));
+}
+.ap-player .ap-overlay-loading .ap-loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 10px solid;
+  border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.5) rgba(255, 255, 255, 0.7) #ffffff;
+  border-color: color-mix(in srgb, var(--term-color-foreground) 30%, var(--term-color-background)) color-mix(in srgb, var(--term-color-foreground) 50%, var(--term-color-background)) color-mix(in srgb, var(--term-color-foreground) 70%, var(--term-color-background)) color-mix(in srgb, var(--term-color-foreground) 100%, var(--term-color-background));
+  box-sizing: border-box;
+  animation: ap-loader-rotation 1s linear infinite;
+}
+.ap-player .ap-overlay-info {
+  background-color: var(--term-color-background);
+}
+.ap-player .ap-overlay-info span {
+  font-family: var(--term-font-family);
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--term-color-background);
+  background-color: var(--term-color-foreground);
+  padding: 0.5em 0.75em;
+  text-transform: uppercase;
+}
+.ap-player .ap-overlay-keystrokes {
+  position: absolute;
+  top: auto;
+  left: auto;
+  right: 20px;
+  bottom: var(--ap-keystrokes-bottom);
+  z-index: 20;
+  width: auto;
+  height: auto;
+  font-size: 18px;
+  text-align: right;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.35em;
+  pointer-events: none;
+}
+.ap-player .ap-overlay-keystrokes .ap-keystroke-pill {
+  font-family: var(--term-font-family);
+  font-size: inherit;
+  opacity: 1;
+  transition: opacity 80ms ease;
+}
+.ap-player .ap-overlay-keystrokes .ap-keystroke-pill kbd {
+  display: inline-flex;
+  justify-content: center;
+  min-width: 1.2em;
+  color: var(--term-color-background);
+  background-color: var(--term-color-foreground);
+  padding: 0.3em 0.5em;
+  border-radius: 0.2em;
+  font-family: inherit;
+  font-size: 0.85em;
+  font-weight: 600;
+  border: none;
+  margin: 0;
+}
+.ap-player .ap-overlay-keystrokes .ap-keystroke-pill.fading {
+  opacity: 0;
+  transition: opacity 700ms ease;
+}
+.ap-player .ap-overlay-help {
+  background-color: rgba(0, 0, 0, 0.8);
+  container-type: inline-size;
+}
+.ap-player .ap-overlay-help > div {
+  font-family: var(--term-font-family);
+  max-width: 85%;
+  max-height: 85%;
+  font-size: 18px;
+  color: var(--term-color-foreground);
+  box-sizing: border-box;
+  margin-bottom: 32px;
+}
+.ap-player .ap-overlay-help > div div {
+  padding: calc(min(4cqw, 40px));
+  font-size: calc(min(1.9cqw, 18px));
+  background-color: var(--term-color-background);
+  border: 1px solid color-mix(in oklab, var(--term-color-background) 90%, var(--term-color-foreground));
+  border-radius: 6px;
+}
+.ap-player .ap-overlay-help > div div p {
+  font-weight: bold;
+  margin: 0 0 2em 0;
+}
+.ap-player .ap-overlay-help > div div ul {
+  list-style: none;
+  padding: 0;
+}
+.ap-player .ap-overlay-help > div div ul li {
+  margin: 0 0 0.75em 0;
+}
+.ap-player .ap-overlay-help > div div kbd {
+  color: var(--term-color-background);
+  background-color: var(--term-color-foreground);
+  padding: 0.2em 0.5em;
+  border-radius: 0.2em;
+  font-family: inherit;
+  font-size: 0.85em;
+  border: none;
+  margin: 0;
+}
+.ap-player .ap-overlay-error span {
+  font-size: 8em;
+}
+.ap-player .slide-enter-active {
+  transition: opacity 0.2s;
+}
+.ap-player .slide-enter-active.ap-was-playing {
+  transition: top 0.2s ease-out, opacity 0.2s;
+}
+.ap-player .slide-exit-active {
+  transition: top 0.2s ease-in, opacity 0.2s;
+}
+.ap-player .slide-enter {
+  top: -50%;
+  opacity: 0;
+}
+.ap-player .slide-enter-to {
+  top: 0%;
+}
+.ap-player .slide-enter,
+.ap-player .slide-enter-to,
+.ap-player .slide-exit,
+.ap-player .slide-exit-to {
+  bottom: auto;
+  height: 100%;
+}
+.ap-player .slide-exit {
+  top: 0%;
+}
+.ap-player .slide-exit-to {
+  top: -50%;
+  opacity: 0;
+}
+@keyframes ap-loader-rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.asciinema-player-theme-asciinema {
+  --term-color-foreground: var(--color-grey-60);
+  --term-color-background: var(--color-grey-20);
+  --term-color-0: var(--color-black);
+  --term-color-1: var(--color-red);
+  --term-color-2: var(--color-green);
+  --term-color-3: var(--color-yellow);
+  --term-color-4: var(--color-blue);
+  --term-color-5: var(--color-purple);
+  --term-color-6: var(--color-cyan);
+  --term-color-7: var(--color-grey-80);
+  --term-color-8: var(--color-grey-30);
+  --term-color-9: var(--color-red);
+  --term-color-10: var(--color-green);
+  --term-color-11: var(--color-yellow);
+  --term-color-12: var(--color-blue);
+  --term-color-13: var(--color-purple);
+  --term-color-14: var(--color-cyan);
+  --term-color-15: var(--color-white);
+}

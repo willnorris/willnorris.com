@@ -4,6 +4,16 @@ document.documentElement.style.setProperty(
   window.innerWidth - document.documentElement.clientWidth + "px",
 );
 
+// loadCSS dynamically loads a stylesheet.
+function loadCSS(url) {
+  var el = document.createElement("link");
+  el.href = url;
+  el.rel = "stylesheet";
+  el.type = "text/css";
+  document.head.appendChild(el);
+  return el;
+}
+
 // load fragmention if URL fragment is present
 (async () => {
   if (window.location.hash !== "") {
@@ -50,6 +60,22 @@ document.documentElement.style.setProperty(
     await import(
       '{{ (resources.Get "js/masonry.js" | resources.Fingerprint).RelPermalink }}'
     );
+  }
+})();
+
+// load asciinema player if needed
+(async () => {
+  const asciicasts = document.querySelectorAll("object[type='application/x-asciicast']");
+  if (asciicasts.length) {
+    loadCSS('{{ (resources.Get "css/asciinema-player.css" | resources.Fingerprint).RelPermalink }}');
+    // AsciinemaPlayer relies on the files:{{- range resources.Match "js/asciinema-player/*.js" }}
+    // - {{ .RelPermalink }}{{ end }}
+    const AsciinemaPlayer = (await import(
+      '{{ (resources.Get "js/asciinema-player/index.js" | resources.Fingerprint).RelPermalink }}'
+    ));
+    asciicasts.forEach((cast) => {
+      AsciinemaPlayer.create(cast.data, cast);
+    })
   }
 })();
 

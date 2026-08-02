@@ -38,6 +38,10 @@
 <link rel="pingback" href="/api/pingback" />
 <link rel="{{ if .IsHome }}home{{ end }}alternate" href="/atom.xml" type="application/atom+xml" />
 
+{{ with .Params.image -}}
+  <link rel="preload" href="{{ .url }}" as="image" fetchpriority="high" />
+{{- end }}
+
 {{- if .IsHome }}
   <meta name="description" content="{{ $.Site.Params.description }}" />
   <link rel="openid.server" href="https://openid.indieauth.com/openid" />

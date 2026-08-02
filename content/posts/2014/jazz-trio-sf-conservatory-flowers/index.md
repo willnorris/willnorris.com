@@ -14,6 +14,8 @@ could have just stayed and listened to them play, and just skipped the flowers.
 
 [Conservatory of Flowers]: http://www.conservatoryofflowers.org/
 
-<figure class="video">
-  <iframe width="960" height="540" src="https://www.youtube.com/embed/wp01TRHGh1w" frameborder="0" allowfullscreen></iframe>
+<figure>
+  <video src="/media/2014/jazz-trio-sf-conservatory-flowers.mp4" poster="jazz-trio-sf-conservatory-flowers.jpg" width="960" controls class="aligncenter">
+    Sorry, your browser does not support embedded video.
+  </video>
 </figure>

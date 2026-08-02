@@ -74,7 +74,12 @@ function loadCSS(url) {
       '{{ (resources.Get "js/asciinema-player/index.js" | resources.Fingerprint).RelPermalink }}'
     ));
     asciicasts.forEach((cast) => {
-      AsciinemaPlayer.create(cast.data, cast);
+      // options at https://docs.asciinema.org/manual/player/options/
+      AsciinemaPlayer.create(cast.data, cast, {
+        startAt: cast.dataset.startAt,
+        idleTimeLimit: cast.dataset.idleTimeLimit,
+        poster: cast.dataset.poster,
+      });
     })
   }
 })();

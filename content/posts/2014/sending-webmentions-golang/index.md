@@ -30,7 +30,7 @@ webmentions to all of them. After that, it does endpoint discovery on each link 
 sends the mention. Nothing too fancy. You can see a simple demo here:
 
 <figure class="aligncenter">
-  <object type="application/x-asciicast" data="webmention.cast"></object>
+  <object type="application/x-asciicast" data="webmention.cast" data-poster="npt:0:19" data-idle-time-limit=2></object>
 </figure>
 
 There's still a lot [more I want to do][] with this, such as improving the UI by making this a "full screen" terminal

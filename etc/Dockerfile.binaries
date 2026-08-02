@@ -11,14 +11,15 @@ ARG TARGETOS TARGETARCH
 RUN GOOS=${TARGETOS} GOARCH="${TARGETARCH}" CGO_ENABLED=0 go build -v ./cmd/caddy &&\
   GOOS=${TARGETOS} GOARCH="${TARGETARCH}" CGO_ENABLED=1 go build -v --tags extended ./cmd/hugo
 
-FROM --platform=$BUILDPLATFORM docker.io/oven/bun:1.3.5-distroless AS bun
+# Final image is node:slim image with git installed
+# and with caddy and hugo binaries added.
+# This contains everything needed to rebuild and serve the site.
+FROM node:26-slim
 
-# Final image with just caddy, hugo, and bun binaries
-FROM cgr.dev/chainguard/static:latest
+RUN apt -y update && apt install -y --no-install-recommends git && apt clean
 
 COPY --from=build /work/caddy /caddy
 COPY --from=build /work/hugo /hugo
-COPY --from=bun /usr/local/bin/bun /bun
 
-ENTRYPOINT ["/hugo"]
+ENTRYPOINT ["/caddy"]
 CMD []

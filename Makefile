@@ -5,8 +5,6 @@ export IMAGEPROXY_ALLOWHOSTS ?= localhost
 export IMAGEPROXY_SIGNATUREKEY ?= secretkey
 export FLY_REGION ?= dev
 
-export PATH := ${PWD}/.cache/bun/bin:$(PATH)
-
 dev: .cache/tandem .cache/caddy .cache/hugo node_modules ## Run a local dev server
 	@# .env must define IMAGEPROXY_BASEURL, IMAGEPROXY_ALLOWHOSTS, IMAGEPROXY_SIGNATURE_KEY
 	@.cache/tandem \
@@ -37,13 +35,8 @@ deploy: ## Deploy site to Fly.io
 .cache/hugo: go.sum $(shell find cmd/hugo -name "*.go")
 	CGO_ENABLED=1 go build --tags extended -o ./.cache/hugo ./cmd/hugo
 
-.cache/bun/bin/bun:
-	# Set SHELL=false so bun doesn't try to install shell completions
-	@curl -fsSL https://bun.sh/install | BUN_INSTALL=.cache/bun SHELL=false bash -s "bun-v1.3.5"
-	@ln -s bun ./.cache/bun/bin/node
-
-node_modules: package.json bun.lock .cache/bun/bin/bun
-	.cache/bun/bin/bun install
+node_modules: package.json package-lock.json
+	npm install
 
 clean: ## Remove build artifacts
 	rm -rf .cache hugo_stats.json node_modules public resources/_gen

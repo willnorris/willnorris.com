@@ -30,6 +30,8 @@ taxonomies = []
     default_baseurl = "https://willnorris.com/"
 
 [security]
+  allowContent = ['.*']
+
   [security.exec]
     osEnv = [
         # default from https://gohugo.io/about/security-model/#security-policy

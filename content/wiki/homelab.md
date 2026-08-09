@@ -6,9 +6,9 @@ title: Homelab
 
 ## IP Addresses
 
-`10 . [vlan] . [device class] . [counter]`
+<code>10 . <a href="#vlan" class="color-red">[vlan]</a> . <a href="#device-class" class="color-green">[device class]</a> . <a href="#counter" class="color-blue">[counter]</a></code>
 
-### VLAN
+### VLAN {.color-red}
 
 | Value | Description                                                                                                                    |
 | :---: | :----------------------------------------------------------------------------------------------------------------------------- |
@@ -17,7 +17,7 @@ title: Homelab
 |  20   | NOT (Network of Things) <ul><li>No connection to other local devices<li>No connection to public internet                       |
 |  99   | Tailscale Lab <ul><li>Connection only to other lab devices (not other VLANs)<li>Open connection to public internet             |
 
-### Device Class
+### Device Class {.color-green}
 
 | Value | Description                                     |
 | :---: | :---------------------------------------------- |
@@ -28,6 +28,6 @@ title: Homelab
 |   4   | Appliances and other devices                    |
 |  100  | DHCP range - all devices not otherwise assigned |
 
-### Counter
+### Counter {.color-blue}
 
 No consistent pattern, though often grouped by device type, brand, or similar attribute.

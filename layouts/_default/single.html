@@ -5,7 +5,7 @@
       class="entry-header"
       {{ with .Params.image }}
         data-background style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5) 35%),
-        url({{ .url }}); background-position:{{ .position }};"
+        url({{ partial "hero-image-url" $ }}); background-position:{{ .position }};"
       {{ end }}>
       <div class="wrap">
         {{ with .Title }}<h1 class="p-name">{{ . }}</h1>{{ end }}

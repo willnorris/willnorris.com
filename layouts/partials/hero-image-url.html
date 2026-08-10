@@ -1,0 +1,23 @@
+{{/* prettier-ignore-start */}}
+{{- /*
+The hero-image-url partial creates an imageproxy URL for the main image for the current page.
+The main image is defined in the post front-matter:
+
+    image:
+      url: image.jpg
+      options: [imageproxy options]
+      position: center bottom
+
+The site-wide default imageproxy options are also applied.
+*/ -}}
+{{/* prettier-ignore-end */}}
+{{- with .Params.image -}}
+  {{- $src := ($.Resources.Get .url).RelPermalink }}
+  {{- $options := .options | default "x" }}
+
+  {{- with $.Site.Params.imageproxy.default_options }}
+    {{- $options = printf "%s,%s" . $options }}
+  {{- end }}
+
+  {{- partial "imageproxy-url" (slice $src $options false false) -}}
+{{- end -}}

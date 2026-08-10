@@ -39,7 +39,7 @@
 <link rel="{{ if .IsHome }}home{{ end }}alternate" href="/atom.xml" type="application/atom+xml" />
 
 {{ with .Params.image -}}
-  <link rel="preload" href="{{ .url }}" as="image" fetchpriority="high" />
+  <link rel="preload" href="{{ partial "hero-image-url" $ }}" as="image" fetchpriority="high" />
 {{- end }}
 
 {{- if .IsHome }}

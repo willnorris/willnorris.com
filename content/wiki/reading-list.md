@@ -17,6 +17,7 @@ title: Reading List
 
 - [Iron Gold](https://www.piercebrown.com/redrisingsaga), Pierce Brown
   - Start: 2026-04-03
+  - End: 2026-08-16
 
 - [Morning Star](https://www.piercebrown.com/redrisingsaga), Pierce Brown
   - Start: 2026-03-01

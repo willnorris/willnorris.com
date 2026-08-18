@@ -4,8 +4,15 @@ title: Reading List
 
 ## 2026
 
+- [Automatic Noodle](https://www.techsploitation.com/#/sciencefiction/), Annalee Newitz
+  - Start: 2026-08-17
+
+- [The Reverse Centaur's Guide to Life After AI](https://shop.craphound.com/), Cory Doctorow
+  - Start: 2026-08-16
+
 - [Platform Decay (The Murderbot Diaries, Book 8)](https://torpublishinggroup.com/platform-decay/), Martha Wells
   - Start: 2026-07-19
+  - End: 2026-08-17
 
 - [Green Ember Archer: The Archer's Cup](https://sdsmith.com/the-archers-cup/), S. D. Smith
   - Start: 2026-05-07

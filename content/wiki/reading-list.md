@@ -6,6 +6,7 @@ title: Reading List
 
 - [Automatic Noodle](https://www.techsploitation.com/#/sciencefiction/), Annalee Newitz
   - Start: 2026-08-17
+  - End: 2026-08-26
 
 - [The Reverse Centaur's Guide to Life After AI](https://shop.craphound.com/), Cory Doctorow
   - Start: 2026-08-16

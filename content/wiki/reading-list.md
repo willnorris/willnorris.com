@@ -4,6 +4,14 @@ title: Reading List
 
 ## 2026
 
+- [The President's Brain is Missing](https://us.macmillan.com/books/9781250624383/thepresidentsbrainismissing/), John Scalzi
+  - Start: 2026-08-26
+  - End: 2026-08-27
+
+- [The Canadian Miracle](https://us.macmillan.com/books/9781250348425/thecanadianmiracle/), Cory Doctorow
+  - Start: 2026-08-26
+  - End: 2026-08-26
+
 - [Automatic Noodle](https://www.techsploitation.com/#/sciencefiction/), Annalee Newitz
   - Start: 2026-08-17
   - End: 2026-08-26

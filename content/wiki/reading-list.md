@@ -4,6 +4,9 @@ title: Reading List
 
 ## 2026
 
+- [Old Man's War](https://us.macmillan.com/books/9780765348272/oldmanswar/), John Scalzi
+  - Start: 2026-08-28
+
 - [The President's Brain is Missing](https://us.macmillan.com/books/9781250624383/thepresidentsbrainismissing/), John Scalzi
   - Start: 2026-08-26
   - End: 2026-08-27

@@ -4,8 +4,12 @@ title: Reading List
 
 ## 2026
 
+- [Questions for a Soldier](https://subterraneanpress.com/questions-for-a-soldier-ebook-edition/), John Scalzi
+  - Start: 2026-09-15
+
 - [Old Man's War](https://us.macmillan.com/books/9780765348272/oldmanswar/), John Scalzi
   - Start: 2026-08-28
+  - End: 2026-09-12
 
 - [The President's Brain is Missing](https://us.macmillan.com/books/9781250624383/thepresidentsbrainismissing/), John Scalzi
   - Start: 2026-08-26

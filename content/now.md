@@ -21,7 +21,7 @@ and have been keeping ourselves busy with remodel projects and
 trying not to kill the 150 rose bushes or dozen fruit trees on the property.
 
 I'm [currently reading](/wiki/reading-list/) _The Reverse Centaur's Guide to Life After AI_ by Cory Doctorow
-and _Old Man's War_ by John Scalzi.
+and _Questions for a Soldier_ by John Scalzi.
 
 ## Professional
 

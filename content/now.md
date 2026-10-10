@@ -20,8 +20,7 @@ We bought a house we like in a really great neighborhood,
 and have been keeping ourselves busy with remodel projects and
 trying not to kill the 150 rose bushes or dozen fruit trees on the property.
 
-I'm [currently reading](/wiki/reading-list/) _The Reverse Centaur's Guide to Life After AI_ by Cory Doctorow
-and _Questions for a Soldier_ by John Scalzi.
+I'm [currently reading](/wiki/reading-list/) _The Ghost Brigades_ by John Scalzi.
 
 ## Professional
 

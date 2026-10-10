@@ -4,8 +4,12 @@ title: Reading List
 
 ## 2026
 
+- [The Ghost Brigades](https://us.macmillan.com/books/9781250359551/theghostbrigades/), John Scalzi
+  - Start: 2026-09-18
+
 - [Questions for a Soldier](https://subterraneanpress.com/questions-for-a-soldier-ebook-edition/), John Scalzi
   - Start: 2026-09-15
+  - End: 2026-09-17
 
 - [Old Man's War](https://us.macmillan.com/books/9780765348272/oldmanswar/), John Scalzi
   - Start: 2026-08-28
@@ -25,6 +29,7 @@ title: Reading List
 
 - [The Reverse Centaur's Guide to Life After AI](https://shop.craphound.com/), Cory Doctorow
   - Start: 2026-08-16
+  - End: 2026-10-10
 
 - [Platform Decay (The Murderbot Diaries, Book 8)](https://torpublishinggroup.com/platform-decay/), Martha Wells
   - Start: 2026-07-19

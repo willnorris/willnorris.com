@@ -327,7 +327,7 @@ require (
 	gvisor.dev/gvisor v0.0.0-20250205023644-9414b50a5633 // indirect
 	howett.net/plist v1.0.1 // indirect
 	rsc.io/qr v0.2.0 // indirect
-	software.sslmate.com/src/go-pkcs12 v0.7.0 // indirect
+	software.sslmate.com/src/go-pkcs12 v0.7.2 // indirect
 	tailscale.com v1.90.9 // indirect
 	willnorris.com/go/gifresize v1.0.0 // indirect
 	willnorris.com/go/imageproxy v0.12.1-0.20250605045322-d04e37fc1451 // indirect
